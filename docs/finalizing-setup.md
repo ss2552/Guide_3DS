@@ -83,7 +83,8 @@ In this section, you will sync your 3DS internal clock with the actual time and 
 1. Select "Miscellaneous options"
 1. Select "Dump DSP firmware"
 1. Press (B) to continue
-1. Select "Nullify user time offset"
+1. Select "Sync time and date via NTP"
+1. Press (A) to sync time
 1. Press (B) to continue
 1. Press (B) to return to the Rosalina main menu
 1. Press (B) to exit the Rosalina menu
