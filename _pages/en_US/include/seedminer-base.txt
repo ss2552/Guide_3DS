@@ -47,6 +47,9 @@ Before following this section:
   + If you receive an error and are kicked out of the menu, you either must create a new Mii or your device cannot connect to Nintendo's servers (due to a ban or connection issues)
 1. Find your Mii profile, then find the "Friend Code" field on the top screen
 
++ If you have further difficulty identifying the ID0, please watch [this video](https://www.youtube.com/watch?v=T67kcO3wvHY) for a more in-depth explanation
+{: .notice--info}
+
 ### Section III - Seedminer
 
 In this section, you will use the Bruteforce Movable website to retrieve your device's encryption key in the form of `movable.sed`.

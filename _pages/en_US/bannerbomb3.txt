@@ -52,7 +52,10 @@ In this section, you will copy the files needed to trigger the BannerBomb3 explo
 1. Copy the `F00D43D5.bin` file from `DSIWARE_EXPLOIT.zip` to the `Nintendo DSiWare` folder
 
 ![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }})
-{: .notice--info} 
+{: .notice--info}
+
++ If you have further difficulty identifying the ID0, ID1 or where to put the `F00D43D5.bin` file, please watch [this video](https://www.youtube.com/watch?v=T67kcO3wvHY) for a more in-depth explanation
+{: .notice--info}
 
 #### Section II - Hardware Button Check
 
