@@ -1,3 +1,10 @@
+/*
+    Copyright (C) 2023 Gruetzig
+    Copyright (C) 2023 Nintendo Homebrew
+
+    SPDX-License-Identifier: MIT
+*/
+
 // CVer:NVer map for U/E/J regions
 function sslothable(s, n) {
     if
