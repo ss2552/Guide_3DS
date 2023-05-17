@@ -11,7 +11,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing boot9strap (safecerthax) - 3DS Hacks Guide</title>
+<!-- begin _includes/seo.html --><title>Installation de boot9strap (safecerthax) - 3DS Hacks Guide</title>
 <meta name="description" content="A complete guide to 3DS custom firmware">
 
 
@@ -22,7 +22,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="3DS Hacks Guide">
-<meta property="og:title" content="Installing boot9strap (safecerthax)">
+<meta property="og:title" content="Installation de boot9strap (safecerthax)">
 <meta property="og:url" content="https://3ds.hacks.guide/fr_FR/installing-boot9strap-(safecerthax).html">
 
 
@@ -414,7 +414,7 @@ window.cookieconsent.initialise({
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing boot9strap (safecerthax)">
+    <meta itemprop="headline" content="Installation de boot9strap (safecerthax)">
     
     
     
@@ -422,7 +422,7 @@ window.cookieconsent.initialise({
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Installing boot9strap (safecerthax)
+          <h1 id="page-title" class="page__title" itemprop="headline">Installation de boot9strap (safecerthax)
 </h1>
           
 
@@ -455,12 +455,12 @@ window.cookieconsent.initialise({
   <li><a href="#notes-de-compatibilité" id="markdown-toc-notes-de-compatibilité">Notes de compatibilité</a></li>
   <li><a href="#ce-dont-vous-avez-besoin" id="markdown-toc-ce-dont-vous-avez-besoin">Ce dont vous avez besoin</a>    <ul>
       <li><a href="#instructions" id="markdown-toc-instructions">Instructions</a>        <ul>
-          <li><a href="#section-i---hardware-button-check" id="markdown-toc-section-i---hardware-button-check">Section I - Hardware Button Check</a></li>
+          <li><a href="#section-i---contrôle-matériel-des-boutons" id="markdown-toc-section-i---contrôle-matériel-des-boutons">Section I - Contrôle matériel des boutons</a></li>
           <li><a href="#section-ii---préparatifs" id="markdown-toc-section-ii---préparatifs">Section II - Préparatifs</a></li>
-          <li><a href="#section-iii---safecerthax-proxy" id="markdown-toc-section-iii---safecerthax-proxy">Section III - safecerthax proxy</a></li>
+          <li><a href="#section-iii---proxy-safecerthax" id="markdown-toc-section-iii---proxy-safecerthax">Section III - Proxy safecerthax</a></li>
           <li><a href="#section-iv---safecerthax" id="markdown-toc-section-iv---safecerthax">Section IV - safecerthax</a></li>
-          <li><a href="#section-v---installing-boot9strap" id="markdown-toc-section-v---installing-boot9strap">Section V - Installing boot9strap</a></li>
-          <li><a href="#section-vi---restoring-default-proxy" id="markdown-toc-section-vi---restoring-default-proxy">Section VI - Restoring default proxy</a></li>
+          <li><a href="#section-v---installation-de-boot9strap" id="markdown-toc-section-v---installation-de-boot9strap">Section V - Installation de boot9strap</a></li>
+          <li><a href="#section-vi---restauration-du-proxy-par-défaut" id="markdown-toc-section-vi---restauration-du-proxy-par-défaut">Section VI - Restauration du proxy par défaut</a></li>
         </ul>
       </li>
       <li><a href="#continuer-vers-finalisation-de-linstallation" id="markdown-toc-continuer-vers-finalisation-de-linstallation">Continuer vers Finalisation de l’installation</a></li>
@@ -473,27 +473,27 @@ window.cookieconsent.initialise({
 
 <details class="notice--info">
 <summary><em>Détails techniques (facultatif)</em></summary>
-<p>For technical details on the exploit that you will be using on this page, see <a href="https://github.com/MrNbaYoh/safecerthax">here</a>.</p>
+<p>Pour des détails techniques sur l’exploit que vous utiliserez sur cette page, voir <a href="https://github.com/MrNbaYoh/safecerthax">ici</a>.</p>
 
 </details>
 
 <h3 id="notes-de-compatibilité">Notes de compatibilité</h3>
 
-<p>safecerthax is compatible with all Old 3DS and Old 2DS devices in all regions on system versions 1.0.0 through 11.14.0.</p>
+<p>safecerthax est compatible avec toutes les consoles Old 3DS et Old 2DS de toutes les régions des versions du système 1.0.0 à 11.14.0.</p>
 
-<p class="notice--info">This exploit will not work on the New 3DS, New 3DS XL, or New 2DS XL. Please ensure that the device you are modding is an Old 3DS, Old 3DS XL, or Old 2DS before continuing.</p>
+<p class="notice--info">Cet exploit ne fonctionnera pas sur les New 3DS, New 3DS XL ou New 2DS. Veuillez vous assurer que la console que vous moddez est une Old 3DS, Old 3DS XL ou Old 2DS avant de continuer.</p>
 
 <h2 id="ce-dont-vous-avez-besoin">Ce dont vous avez besoin</h2>
 
 <ul>
   <li>La dernière version de <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (téléchargement direct)</li>
   <li>La dernière version de <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> (téléchargement direct)</li>
-  <li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (the Luma3DS .zip file)</li>
+  <li>La dernière version de <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (le fichier Luma3DS.zip)</li>
 </ul>
 
 <h3 id="instructions">Instructions</h3>
 
-<h4 id="section-i---hardware-button-check">Section I - Hardware Button Check</h4>
+<h4 id="section-i---contrôle-matériel-des-boutons">Section I - Contrôle matériel des boutons</h4>
 
 <ol>
   <li>Lorsque votre console encore éteinte, maintenez enfoncés les boutons suivants : (L) + (R) + (Haut sur la croix directionnelle) + (A), et tout en maintenant ces boutons enfoncés, allumez votre console
@@ -509,11 +509,11 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<p class="notice--warning">If you do not boot into Safe Mode, the system update menu after multiple attempts, you cannot follow this method. If this is the case, use <a href="seedminer">Seedminer</a> instead.</p>
+<p class="notice--warning">Si votre console ne démarre pas en mode sans échec (le menu de mise à jour de la console) après plusieurs tentatives, vous ne pouvez pas suivre cette méthode. Si c’est le cas, utilisez <a href="seedminer">Seedminer</a> à la place.</p>
 
 <h4 id="section-ii---préparatifs">Section II - Préparatifs</h4>
 
-<p>In this section, you will copy the files needed to trigger the safecerthax exploit.</p>
+<p>Dans cette section, vous copierez les fichiers nécessaires pour déclencher l’exploit safecerthax.</p>
 
 <ol>
   <li>Insérez votre carte SD dans votre ordinateur</li>
@@ -522,16 +522,16 @@ window.cookieconsent.initialise({
       <li>La racine de la carte SD représente le répertoire initial de la carte SD où vous pouvez voir le dossier Nintendo 3DS, mais ce n’est pas à l’intérieur de ce dernier</li>
     </ul>
   </li>
-  <li>Créez un dossier à la racine de votre carte SD nommé <code class="language-plaintext highlighter-rouge">boot9strap</code></li>
+  <li>Créez un dossier nommé <code class="language-plaintext highlighter-rouge">boot9strap</code> à la racine de votre carte SD</li>
   <li>Copiez <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> et <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> depuis le fichier “.zip” de boot9strap vers le dossier <code class="language-plaintext highlighter-rouge">/boot9strap/</code> sur votre carte SD</li>
   <li>Copiez <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> depuis le fichier <code class="language-plaintext highlighter-rouge">.zip</code> de SafeB9SInstaller à la racine de votre carte SD</li>
-  <li>Retirez la carte SD de votre ordinateur et réinsérez-là dans votre 3DS</li>
+  <li>Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console</li>
   <li>Allumez votre console</li>
 </ol>
 
-<h4 id="section-iii---safecerthax-proxy">Section III - safecerthax proxy</h4>
+<h4 id="section-iii---proxy-safecerthax">Section III - Proxy safecerthax</h4>
 
-<p>In this section, you will change your Internet connection settings to use a proxy network designed to exploit the System Update feature of your device.</p>
+<p>Dans cette section, vous allez modifier vos paramètres de connexion Internet pour utiliser un réseau proxy conçu pour exploiter la fonctionnalité de Mise à jour de la console.</p>
 
 <p class="notice--info">Si vous ne l’avez pas déjà fait, assurez-vous d’avoir une connexion Internet fonctionnelle configurée sur votre console.</p>
 
@@ -550,12 +550,12 @@ window.cookieconsent.initialise({
   <li>
     <p>Cliquez sur “OK” pour continuer</p>
   </li>
-  <li>Éteignez votre 3DS</li>
+  <li>Éteignez votre console</li>
 </ol>
 
 <h4 id="section-iv---safecerthax">Section IV - safecerthax</h4>
 
-<p>In this section, you will enter Safe Mode (a feature available on all 3DS family devices) where safecerthax will be triggered, which will launch you into the boot9strap (custom firmware) installer.</p>
+<p>Dans cette section, vous entrerez en mode sans échec (une fonctionnalité disponible sur toutes les consoles de la famille 3DS) où le safecerthax sera déclenché, qui lancera l’installateur de boot9strap (custom firmware).</p>
 
 <ol>
   <li>Lorsque votre console encore éteinte, maintenez enfoncés les boutons suivants : (L) + (R) + (Haut sur la croix directionnelle) + (A), et tout en maintenant ces boutons enfoncés, allumez votre console
@@ -570,15 +570,15 @@ window.cookieconsent.initialise({
   </li>
   <li>Appuyez sur « J’accepte » pour accepter les conditions</li>
   <li>La mise à jour finira par échouer, avec le code d’erreur <code class="language-plaintext highlighter-rouge">003-1099</code>. Ne vous inquiétez pas, c’est normal.</li>
-  <li>Press “OK” to close the error message</li>
+  <li>Appuyez sur “OK” pour fermer le message d’erreur</li>
   <li>Si l’exploit a réussit, vous devriez avoir démarré dans SafeB9SInstaller
     <ul>
-      <li>If the device freezes or crashes, force power off the device, then retry this section</li>
+      <li>Si la console se bloque ou plante, forcez l’arrêt de la console, puis recommencez cette section</li>
     </ul>
   </li>
 </ol>
 
-<h4 id="section-v---installing-boot9strap">Section V - Installing boot9strap</h4>
+<h4 id="section-v---installation-de-boot9strap">Section V - Installation de boot9strap</h4>
 
 <p>Dans cette section, vous installerez un custom firmware sur votre console.</p>
 
@@ -601,7 +601,7 @@ window.cookieconsent.initialise({
   <li>Sur la page suivante, vous installerez des applications homebrew utiles pour compléter votre configuration.</li>
 </ul>
 
-<h4 id="section-vi---restoring-default-proxy">Section VI - Restoring default proxy</h4>
+<h4 id="section-vi---restauration-du-proxy-par-défaut">Section VI - Restauration du proxy par défaut</h4>
 
 <p>Dans cette section, vous restaurerez les paramètres Internet à la normale.</p>
 
@@ -616,7 +616,7 @@ window.cookieconsent.initialise({
       <li>Le test devrait réussir</li>
     </ul>
   </li>
-  <li>Éteignez votre 3DS</li>
+  <li>Éteignez votre console</li>
 </ol>
 
 <hr />
