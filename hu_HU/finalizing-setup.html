@@ -457,13 +457,14 @@ window.cookieconsent.initialise({
   <li><a href="#amire-szükséged-lesz" id="markdown-toc-amire-szükséged-lesz">Amire szükséged lesz</a></li>
   <li><a href="#utasítások" id="markdown-toc-utasítások">Utasítások</a>    <ul>
       <li><a href="#i-rész---előkészületek" id="markdown-toc-i-rész---előkészületek">I. rész - Előkészületek</a></li>
-      <li><a href="#ii-rész---a-rendszer-frissítése" id="markdown-toc-ii-rész---a-rendszer-frissítése">II. rész - A rendszer frissítése</a></li>
-      <li><a href="#iii-rész---homebrew-launcher" id="markdown-toc-iii-rész---homebrew-launcher">III. rész - Homebrew Launcher</a></li>
-      <li><a href="#iv-rész---rtc-és-dsp-telepítése" id="markdown-toc-iv-rész---rtc-és-dsp-telepítése">IV. rész - RTC és DSP telepítése</a></li>
-      <li><a href="#v-rész---cia-fájlok-telepítése" id="markdown-toc-v-rész---cia-fájlok-telepítése">V. rész - CIA fájlok telepítése</a></li>
-      <li><a href="#vi-rész---luma3ds-telepítése-ctrnand-ba" id="markdown-toc-vi-rész---luma3ds-telepítése-ctrnand-ba">VI. rész - Luma3DS telepítése CTRNAND-ba</a></li>
-      <li><a href="#vii-rész---takarítás-az-sd-kártyán" id="markdown-toc-vii-rész---takarítás-az-sd-kártyán">VII. rész - Takarítás az SD kártyán</a></li>
-      <li><a href="#viii-rész---backup-essential-files" id="markdown-toc-viii-rész---backup-essential-files">VIII. rész - Backup Essential Files</a></li>
+      <li><a href="#section-ii---cfw-check" id="markdown-toc-section-ii---cfw-check">Section II - CFW Check</a></li>
+      <li><a href="#section-iii---updating-the-system" id="markdown-toc-section-iii---updating-the-system">Section III - Updating the System</a></li>
+      <li><a href="#section-iv---homebrew-launcher" id="markdown-toc-section-iv---homebrew-launcher">Section IV - Homebrew Launcher</a></li>
+      <li><a href="#section-v---rtc-and-dsp-setup" id="markdown-toc-section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</a></li>
+      <li><a href="#section-vi---installing-cias" id="markdown-toc-section-vi---installing-cias">Section VI - Installing CIAs</a></li>
+      <li><a href="#section-vii---ctrnand-luma3ds" id="markdown-toc-section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</a></li>
+      <li><a href="#section-viii---cleanup-sd-card" id="markdown-toc-section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</a></li>
+      <li><a href="#section-ix---backup-essential-files" id="markdown-toc-section-ix---backup-essential-files">Section IX - Backup Essential Files</a></li>
     </ul>
   </li>
   <li><a href="#információk-és-megjegyzések" id="markdown-toc-információk-és-megjegyzések">Információk és megjegyzések</a></li>
@@ -536,7 +537,22 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/godmode9-location.png" alt="" /></p>
 
-<h4 id="ii-rész---a-rendszer-frissítése">II. rész - A rendszer frissítése</h4>
+<h4 id="section-ii---cfw-check">Section II - CFW Check</h4>
+
+<p>További biztonsági lépésként további ellenőrzést végzünk egyedi firmware-re. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.</p>
+
+<ol>
+  <li>Kapcsold ki a készüléked</li>
+  <li>Nyomd le és tartsd nyomva (Select) gombot</li>
+  <li>Kapcsold be az eszközöd, miközben nyomva tartod a (Select) gombot</li>
+  <li>If the check was successful, your device should have booted into the Luma3DS configuration menu</li>
+  <li>Mentéshez és újraindításhoz nyomd meg a (Start) gombot</li>
+  <li>Kapcsold ki a készüléked</li>
+</ol>
+
+<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask, in English, for help.</p>
+
+<h4 id="section-iii---updating-the-system">Section III - Updating the System</h4>
 
 <p>Ebben a fejezetben frissíteni fogod a rendszered a legutolsó verzióra, ami biztonságos az egyedi firmware-rel.</p>
 
@@ -551,7 +567,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="iii-rész---homebrew-launcher">III. rész - Homebrew Launcher</h4>
+<h4 id="section-iv---homebrew-launcher">Section IV - Homebrew Launcher</h4>
 
 <p>Ebben a fejezetben átmenetileg le fogod cserélni a Download Play-t a Homebrew Launcher-rel (ami szükséges az FBI indításához). A Download Play automatikusan visszaáll normálisra, amint újrabootolod az eszközödet.</p>
 
@@ -574,7 +590,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="iv-rész---rtc-és-dsp-telepítése">IV. rész - RTC és DSP telepítése</h4>
+<h4 id="section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</h4>
 
 <p>Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális időhöz és dumpolni a hang firmware-t (ami szükséges néhány homebrew alkalmazáshoz, hogy a hangot megfelelően használja).</p>
 
@@ -589,7 +605,7 @@ window.cookieconsent.initialise({
   <li>Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből</li>
 </ol>
 
-<h4 id="v-rész---cia-fájlok-telepítése">V. rész - CIA fájlok telepítése</h4>
+<h4 id="section-vi---installing-cias">Section VI - Installing CIAs</h4>
 
 <p>Ebben a fejezetben fel fogsz telepíteni néhány hasznos homebrew alkalmazást a HOME Menube.</p>
 
@@ -601,7 +617,7 @@ window.cookieconsent.initialise({
   <li>Nyomd meg a (Home) gombot és zárd be a Download Play-t</li>
 </ol>
 
-<h4 id="vi-rész---luma3ds-telepítése-ctrnand-ba">VI. rész - Luma3DS telepítése CTRNAND-ba</h4>
+<h4 id="section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</h4>
 
 <p>Ebben a fejezetben egy szkriptet fogsz használni, hogy bemásold a Luma3DS néhány fájlját a belső memóriába, így elérhetők még akkor is, ha nincs SD kártya behelyezve.</p>
 
@@ -624,7 +640,7 @@ window.cookieconsent.initialise({
   <li>Nyomd meg az (A) gombot a folytatáshoz</li>
 </ol>
 
-<h4 id="vii-rész---takarítás-az-sd-kártyán">VII. rész - Takarítás az SD kártyán</h4>
+<h4 id="section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</h4>
 
 <p>Ebben a fejezetben egy szkriptet fogsz használni arra, hogy eltávolítsd a felesleges fájlokat az SD kártyádról.</p>
 
@@ -635,7 +651,7 @@ window.cookieconsent.initialise({
   <li>Nyomd meg a (B) gombot, hogy visszamenj a főmenübe</li>
 </ol>
 
-<h4 id="viii-rész---backup-essential-files">VIII. rész - Backup Essential Files</h4>
+<h4 id="section-ix---backup-essential-files">Section IX - Backup Essential Files</h4>
 
 <p>Ebben a fejezetben mentés fájlokat fogsz készíteni, amik a helyreállításhoz használhatók, ha szoftveres brickelés történik, vagy ha helyre szeretnéd állítani az adatokat.</p>
 

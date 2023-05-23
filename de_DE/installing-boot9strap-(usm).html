@@ -529,7 +529,7 @@ window.cookieconsent.initialise({
   <li>Navigate to <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code>-&gt; <code class="language-plaintext highlighter-rouge">SD Card</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)
     <ul>
       <li>Your device should show the BB3 multihax menu</li>
-      <li>If this step causes your device to crash, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
+      <li>If the BB3 multihax menu doesn’t open, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
       <li>If the BB3 multihax menu says “cfw installed already”, you already have custom firmware and should continue from <a href="checking-for-cfw">here</a></li>
     </ul>
   </li>
@@ -538,6 +538,16 @@ window.cookieconsent.initialise({
       <li>Your device will automatically power off</li>
     </ul>
   </li>
+  <li>Schalte deine Konsole an</li>
+  <li>Launch System Settings on your device</li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Internet Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Connection Settings</code></li>
+  <li>Ensure that all three connections are named “Haaaaaaaxxxxxxxxx…”
+    <ul>
+      <li>Do NOT change these settings!</li>
+      <li>If all three connections are NOT all named “Haaaaaaaxxxxxxxxx…”, STOP! Something went wrong in this section and MUST be fixed before you can continue</li>
+    </ul>
+  </li>
+  <li>Schalte deine Konsole aus</li>
 </ol>
 
 <h4 id="section-iii---unsafe_mode">Section III - unSAFE_MODE</h4>
@@ -563,6 +573,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>If your device instead freezes on a white screen, hold the POWER button until it turns off, then retry this section</li>
       <li>If your device instead freezes on a red screen, you are missing <code class="language-plaintext highlighter-rouge">usm.bin</code> from the root of your SD card</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -572,7 +583,11 @@ window.cookieconsent.initialise({
 <p>In diesem Abschnitt wirst du Custom Firmware auf deinem Gerät installieren.</p>
 
 <ol>
-  <li>Wenn du gebeten wirst, eine Tastenkombination einzugeben, gib die Tastenkombination auf dem oberen Bildschirm ein, um boot9strap zu installieren</li>
+  <li>Wenn du gebeten wirst, eine Tastenkombination einzugeben, gib die Tastenkombination auf dem oberen Bildschirm ein, um boot9strap zu installieren
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Sobald es abgeschlossen ist, drücke (A) um die Konsole neuzustarten</li>
   <li>Your device should have booted into the Luma3DS configuration menu
     <ul>

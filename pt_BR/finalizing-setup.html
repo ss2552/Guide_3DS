@@ -457,13 +457,14 @@ window.cookieconsent.initialise({
   <li><a href="#o-que-você-precisa" id="markdown-toc-o-que-você-precisa">O que você precisa</a></li>
   <li><a href="#instruções" id="markdown-toc-instruções">Instruções</a>    <ul>
       <li><a href="#seção-i---preparação" id="markdown-toc-seção-i---preparação">Seção I - Preparação</a></li>
-      <li><a href="#seção-ii---atualização-do-sistema" id="markdown-toc-seção-ii---atualização-do-sistema">Seção II - Atualização do Sistema</a></li>
-      <li><a href="#seção-iii---homebrew-launcher" id="markdown-toc-seção-iii---homebrew-launcher">Seção III - Homebrew Launcher</a></li>
-      <li><a href="#seção-iv---configuração-do-rtc-e-dsp" id="markdown-toc-seção-iv---configuração-do-rtc-e-dsp">Seção IV - Configuração do RTC e DSP</a></li>
-      <li><a href="#seção-v---instalando-cias" id="markdown-toc-seção-v---instalando-cias">Seção V - Instalando CIAs</a></li>
-      <li><a href="#seção-vi---luma3ds-no-ctrnand" id="markdown-toc-seção-vi---luma3ds-no-ctrnand">Seção VI - Luma3DS no CTRNAND</a></li>
-      <li><a href="#seção-vii---limpando-o-cartão-sd" id="markdown-toc-seção-vii---limpando-o-cartão-sd">Seção VII - Limpando o cartão SD</a></li>
-      <li><a href="#seção-viii---backup-de-arquivos-essenciais" id="markdown-toc-seção-viii---backup-de-arquivos-essenciais">Seção VIII - Backup de arquivos essenciais</a></li>
+      <li><a href="#section-ii---cfw-check" id="markdown-toc-section-ii---cfw-check">Section II - CFW Check</a></li>
+      <li><a href="#section-iii---updating-the-system" id="markdown-toc-section-iii---updating-the-system">Section III - Updating the System</a></li>
+      <li><a href="#section-iv---homebrew-launcher" id="markdown-toc-section-iv---homebrew-launcher">Section IV - Homebrew Launcher</a></li>
+      <li><a href="#section-v---rtc-and-dsp-setup" id="markdown-toc-section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</a></li>
+      <li><a href="#section-vi---installing-cias" id="markdown-toc-section-vi---installing-cias">Section VI - Installing CIAs</a></li>
+      <li><a href="#section-vii---ctrnand-luma3ds" id="markdown-toc-section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</a></li>
+      <li><a href="#section-viii---cleanup-sd-card" id="markdown-toc-section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</a></li>
+      <li><a href="#section-ix---backup-essential-files" id="markdown-toc-section-ix---backup-essential-files">Section IX - Backup Essential Files</a></li>
     </ul>
   </li>
   <li><a href="#informações-e-notas" id="markdown-toc-informações-e-notas">Informações e Notas</a></li>
@@ -536,7 +537,22 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/godmode9-location.png" alt="" /></p>
 
-<h4 id="seção-ii---atualização-do-sistema">Seção II - Atualização do Sistema</h4>
+<h4 id="section-ii---cfw-check">Section II - CFW Check</h4>
+
+<p>Como uma medida de segurança adicional, realizaremos uma verificação adicional de custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.</p>
+
+<ol>
+  <li>Desligue seu dispositivo</li>
+  <li>Segure o botão (Select)</li>
+  <li>Ligue seu dispositivo enquanto segura o botão (Select)</li>
+  <li>If the check was successful, your device should have booted into the Luma3DS configuration menu</li>
+  <li>Aperte (Start) para salvar e reiniciar</li>
+  <li>Desligue seu dispositivo</li>
+</ol>
+
+<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask, in English, for help.</p>
+
+<h4 id="section-iii---updating-the-system">Section III - Updating the System</h4>
 
 <p>Nesta seção, você atualizará seu sistema para a versão mais recente, que é seguro de fazer com custom firmware.</p>
 
@@ -551,7 +567,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="seção-iii---homebrew-launcher">Seção III - Homebrew Launcher</h4>
+<h4 id="section-iv---homebrew-launcher">Section IV - Homebrew Launcher</h4>
 
 <p>Nesta seção, você irá substituir temporariamente o Download Play com o Homebrew Launcher (que precisamos para iniciar o FBI). O Download Play voltará automaticamente para o normal quando você reiniciar seu dispositivo.</p>
 
@@ -574,7 +590,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="seção-iv---configuração-do-rtc-e-dsp">Seção IV - Configuração do RTC e DSP</h4>
+<h4 id="section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</h4>
 
 <p>Nesta seção, você irá sincronizar o relógio interno do seu 3DS com a hora real e descarregar o firmware de som (que é necessário para que alguns softwares de homebrew utilizem o som corretamente).</p>
 
@@ -589,7 +605,7 @@ window.cookieconsent.initialise({
   <li>Aperte (B) para sair do menu do Rosalina</li>
 </ol>
 
-<h4 id="seção-v---instalando-cias">Seção V - Instalando CIAs</h4>
+<h4 id="section-vi---installing-cias">Section VI - Installing CIAs</h4>
 
 <p>Nesta seção, você instalará vários aplicativos de homebrew úteis no Menu HOME.</p>
 
@@ -601,7 +617,7 @@ window.cookieconsent.initialise({
   <li>Aperte (Home), depois feche o Download Play</li>
 </ol>
 
-<h4 id="seção-vi---luma3ds-no-ctrnand">Seção VI - Luma3DS no CTRNAND</h4>
+<h4 id="section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</h4>
 
 <p>Nesta seção, você usará um script para copiar alguns dos arquivos do Luma3DS para a memória interna para que eles possam ser acessados, mesmo sem um cartão SD inserido.</p>
 
@@ -624,7 +640,7 @@ window.cookieconsent.initialise({
   <li>Aperte (A) para continuar</li>
 </ol>
 
-<h4 id="seção-vii---limpando-o-cartão-sd">Seção VII - Limpando o cartão SD</h4>
+<h4 id="section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</h4>
 
 <p>Nesta seção, você usará um script para remover alguns arquivos desnecessários do seu cartão SD.</p>
 
@@ -635,7 +651,7 @@ window.cookieconsent.initialise({
   <li>Aperte (B) para retornar para o menu principal</li>
 </ol>
 
-<h4 id="seção-viii---backup-de-arquivos-essenciais">Seção VIII - Backup de arquivos essenciais</h4>
+<h4 id="section-ix---backup-essential-files">Section IX - Backup Essential Files</h4>
 
 <p>Nesta seção, você fará backups de arquivos que podem ser usados para recuperar bricks de software ou para recuperar dados.</p>
 

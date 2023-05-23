@@ -454,10 +454,9 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#notes-de-compatibilité" id="markdown-toc-notes-de-compatibilité">Notes de compatibilité</a></li>
   <li><a href="#ce-dont-vous-avez-besoin" id="markdown-toc-ce-dont-vous-avez-besoin">Ce dont vous avez besoin</a>    <ul>
-      <li><a href="#section-i---mise-à-jour-de-la-console" id="markdown-toc-section-i---mise-à-jour-de-la-console">Section I - Mise à jour de la console</a></li>
-      <li><a href="#section-ii---préparatifs" id="markdown-toc-section-ii---préparatifs">Section II - Préparatifs</a></li>
-      <li><a href="#section-iii---super-skaterhax" id="markdown-toc-section-iii---super-skaterhax">Section III - super-skaterhax</a></li>
-      <li><a href="#section-iv---contrôle-matériel-des-boutons" id="markdown-toc-section-iv---contrôle-matériel-des-boutons">Section IV - Contrôle matériel des boutons</a></li>
+      <li><a href="#section-i---préparatifs" id="markdown-toc-section-i---préparatifs">Section I - Préparatifs</a></li>
+      <li><a href="#section-ii---super-skaterhax" id="markdown-toc-section-ii---super-skaterhax">Section II - super-skaterhax</a></li>
+      <li><a href="#section-iii---hardware-button-check" id="markdown-toc-section-iii---hardware-button-check">Section III - Hardware Button Check</a></li>
       <li><a href="#étape-suivante--choisissez-un-exploit" id="markdown-toc-étape-suivante--choisissez-un-exploit">Étape suivante : Choisissez un exploit</a></li>
     </ul>
   </li>
@@ -474,7 +473,7 @@ window.cookieconsent.initialise({
 
 <h3 id="notes-de-compatibilité">Notes de compatibilité</h3>
 
-<p>Super-skaterhax (lorsqu’il est utilisé pour lancer l’Homebrew Launcher) est compatible avec les modèles New en version 11.16.0 dans toutes les régions, sauf TWN/CHN.</p>
+<p>Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.</p>
 
 <p class="notice--warning">Les instructions fournies ne s’appliquent qu’aux New 3DS, New 3DS XL et New 2DS XL. Veuillez vous assurer que la console que vous hackez est une New 3DS, New 3DS XL ou New 2DS XL avant de continuer.</p>
 
@@ -485,18 +484,7 @@ window.cookieconsent.initialise({
   <li>La dernière version de <a href="https://github.com/zoogie/super-skaterhax/releases">super-skaterhax</a> (le fichier <code class="language-plaintext highlighter-rouge">.zip</code>)</li>
 </ul>
 
-<h4 id="section-i---mise-à-jour-de-la-console">Section I - Mise à jour de la console</h4>
-
-<ol>
-  <li>Mettez à jour votre console en vous rendant dans les Paramètres de la console, puis “Autres paramètres”, puis tout à droite sur l’option “Mise à jour”
-    <ul>
-      <li>La console peut afficher un message disant “Aucune mise à jour nécessaire” au lieu de faire une mise à jour. Ceci est normal si vous êtes déjà à jour ; passez à la section suivante.</li>
-      <li>Si vous obtenez une erreur, réglez vos paramètres DNS et proxy sur « Automatique »</li>
-    </ul>
-  </li>
-</ol>
-
-<h4 id="section-ii---préparatifs">Section II - Préparatifs</h4>
+<h4 id="section-i---préparatifs">Section I - Préparatifs</h4>
 
 <p>Dans cette section, vous copierez les fichiers nécessaires pour déclencher à la fois super-skaterhax et l’Homebrew Launcher.</p>
 
@@ -515,7 +503,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/skater-root-layout.png" alt="" /></p>
 
-<h4 id="section-iii---super-skaterhax">Section III - super-skaterhax</h4>
+<h4 id="section-ii---super-skaterhax">Section II - super-skaterhax</h4>
 
 <p>Dans cette section, vous allez visiter la page web d’exploit du Navigateur Internet, qui lancera l’Homebrew Launcher.</p>
 
@@ -553,38 +541,34 @@ window.cookieconsent.initialise({
       <li>Si des invites apparaissent, approuvez les tous</li>
       <li>Si votre console se bloque sur un écran jaune, maintenez le bouton POWER jusqu’à ce qu’elle s’éteigne, puis réessayez cette section</li>
       <li>Si votre console se bloque sur un écran rouge, maintenez le bouton POWER jusqu’à ce qu’elle s’éteigne, refaites l’étape 3 de la section II, puis recommencez cette section</li>
-      <li>Si vous recevez un autre message d’erreur, <a href="troubleshooting#homebrew-launcher-super-skaterhax">suivez ce guide de dépannage</a></li>
+      <li>If you get another error, try again up to 5 times, and if it still doesn’t work, <a href="troubleshooting#homebrew-launcher-super-skaterhax">follow this troubleshooting guide</a></li>
     </ul>
   </li>
   <li>Si l’exploit a réussi, votre console aura démarré dans l’Homebrew Launcher</li>
   <li>Éteignez votre console</li>
 </ol>
 
-<h4 id="section-iv---contrôle-matériel-des-boutons">Section IV - Contrôle matériel des boutons</h4>
+<h4 id="section-iii---hardware-button-check">Section III - Hardware Button Check</h4>
 
 <ol>
-  <li>Lorsque votre console encore éteinte, maintenez enfoncés les boutons suivants : (L) + (R) + (Haut sur la croix directionnelle) + (A), et tout en maintenant ces boutons enfoncés, allumez votre console
+  <li>Allumez votre console</li>
+  <li>Press the (Left Shoulder) and (Right Shoulder) buttons at the same time
     <ul>
-      <li>Maintenez les boutons enfoncés jusqu’à ce que la console démarre sur un écran de mise à jour de la console (c’est le mode sans échec)</li>
+      <li>The camera applet should appear</li>
     </ul>
   </li>
-  <li>Si vous voyez l’écran de mise à jour de la console, appuyez sur Annuler
-    <ul>
-      <li>Votre console va s’éteindre</li>
-      <li>Si la console démarre à partir du menu HOME, éteignez simplement votre console</li>
-    </ul>
-  </li>
+  <li>Éteignez votre console</li>
 </ol>
 
 <hr />
 
 <h3 id="étape-suivante--choisissez-un-exploit">Étape suivante : Choisissez un exploit</h3>
 
-<p>Si vous avez vu l’écran de mise à jour de la console dans la section précédente, le mode sans échec fonctionne sur votre console.</p>
+<p>If the camera appeared in the previous section, Safe Mode is likely to be working on your device.</p>
 
-<p class="notice--primary">Si votre console a démarré en mode sans échec, continuez vers <a href="installing-boot9strap-(hbl-usm)">Installer boot9strap (HBL-USM)</a></p>
+<p class="notice--primary">If the camera appeared, continue to <a href="installing-boot9strap-(hbl-usm)">Installing boot9strap (HBL-USM)</a></p>
 
-<p class="notice--info">Si votre console ne démarre PAS en mode sans échec, continuez vers <a href="dumping-movable-(nimhax)">Dumping du Movable (nimhax)</a></p>
+<p class="notice--info">If the camera did NOT appear, continue to <a href="dumping-movable-(nimhax)">Dumping Movable (nimhax)</a></p>
 
         
       </section>

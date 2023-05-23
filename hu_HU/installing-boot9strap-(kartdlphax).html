@@ -519,17 +519,13 @@ window.cookieconsent.initialise({
 <h4 id="i-rész---fizikai-gombok-ellenőrzése-cél-3ds">I. rész - Fizikai gombok ellenőrzése (cél 3DS)</h4>
 
 <ol>
-  <li>Az eszközöd kikapcsolt állapotában tartsd nyomva a következő gombokat: (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A), majd ezen gombok nyomva tartása mellett kapcsold be az eszközöd
+  <li>Kapcsold be a készülékedet</li>
+  <li>Press the (Left Shoulder) and (Right Shoulder) buttons at the same time
     <ul>
-      <li>Tartsd nyomva a gombokat, amíg a konzolod be nem bootol a rendszer frissítés képernyőre (ez a Safe Mode)</li>
+      <li>The camera applet should appear</li>
     </ul>
   </li>
-  <li>Ha a rendszer frissítés képernyőt látod, nyomj Cancel-t
-    <ul>
-      <li>Az eszközöd ki fog kapcsolni</li>
-      <li>Ha az eszközöd a HOME menübe bootol, csak kapcsold ki az eszközöd</li>
-    </ul>
-  </li>
+  <li>Kapcsold ki a készüléked</li>
 </ol>
 
 <p class="notice--warning">Ha nem sikerül Safe Mode-ba bootolni több próbálkozás ellenére sem, akkor nem tudod követni ezt a metódust. Ebben az esetben csatlakozz a <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew-hoz Discord-on</a> és kérj, támogatást angolul.</p>
@@ -653,6 +649,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>Ha az eszközöd lefagy egy fehér képernyőn, tartsd nyomva a PWER gombot, amíg ki nem kapcsol, és próbáld újra ezt a részt</li>
       <li>Ha az eszközöd e helyett egy piros képernyőn fagy le, akkor hiányzik az <code class="language-plaintext highlighter-rouge">usm.bin</code> az SD kártya gyökerébőln</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -662,7 +659,11 @@ window.cookieconsent.initialise({
 <p>Ebben a fejezetben egyedi firmware-t fogsz telepíteni az eszközödre.</p>
 
 <ol>
-  <li>Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et</li>
+  <li>Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Ha ez elkészült, nyomd meg az (A) gombot az eszközöd újraindításához</li>
   <li>A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
     <ul>

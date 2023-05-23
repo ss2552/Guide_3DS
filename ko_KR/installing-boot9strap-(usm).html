@@ -529,7 +529,7 @@ window.cookieconsent.initialise({
   <li><code class="language-plaintext highlighter-rouge">데이터 관리</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD 카드</code>로 들어가주세요 (<a href="/images/screenshots/bb3/dsiware-management.png">사진</a>)
     <ul>
       <li>기기는 BB3 multihax 메뉴를 표시할 겁니다</li>
-      <li>이 과정에서 기기가 갑자기 꺼진다면, <a href="troubleshooting#bannerbomb3">이 문제 해결 가이드</a>를 참고해 주세요.</li>
+      <li>If the BB3 multihax menu doesn’t open, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
       <li>만약 BB3 multihax 메뉴에서 “cfw installed already”를 표시한다면, 해당 기기는 이미 커스텀 펌웨어가 설치되어 있다는 뜻으로 <a href="checking-for-cfw">여기</a>로 계속해야 합니다</li>
     </ul>
   </li>
@@ -538,6 +538,16 @@ window.cookieconsent.initialise({
       <li>기기가 자동으로 종료될 겁니다</li>
     </ul>
   </li>
+  <li>기기를 시작해 주세요</li>
+  <li>기기에서 본체 설정을 열어 주세요</li>
+  <li><code class="language-plaintext highlighter-rouge">인터넷 설정</code> -&gt; <code class="language-plaintext highlighter-rouge">인터넷 접속 설정</code>으로 이동해 주세요</li>
+  <li>Ensure that all three connections are named “Haaaaaaaxxxxxxxxx…”
+    <ul>
+      <li>Do NOT change these settings!</li>
+      <li>If all three connections are NOT all named “Haaaaaaaxxxxxxxxx…”, STOP! Something went wrong in this section and MUST be fixed before you can continue</li>
+    </ul>
+  </li>
+  <li>기기를 종료해 주세요</li>
 </ol>
 
 <h4 id="섹션-iii---unsafe_mode">섹션 III - unSAFE_MODE</h4>
@@ -563,6 +573,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>만약 기기에 하얀 화면이 표시되면, 전원 버튼을 길게 눌러 기기를 종료하고, 이 섹션을 다시 시도해 주세요</li>
       <li>만약 기기에 붉은 화면이 표시되면, SD 카드 루트에 <code class="language-plaintext highlighter-rouge">usm.bin</code>이 존재하지 않습니다</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -572,7 +583,11 @@ window.cookieconsent.initialise({
 <p>이 섹션에서는, 커스텀 펌웨어를 설치할 것입니다.</p>
 
 <ol>
-  <li>메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요</li>
+  <li>메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>작업이 완료되면, (A) 를 눌려 기기를 재부팅해 주세요</li>
   <li>기기는 Luma3DS 구성 메뉴로 부팅되었을 겁니다
     <ul>

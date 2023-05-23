@@ -529,7 +529,7 @@ window.cookieconsent.initialise({
   <li>Entra in <code class="language-plaintext highlighter-rouge">Gestione dati</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">Scheda SD</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)
     <ul>
       <li>La tua console dovrebbe mostrare il menu BB3 multihax</li>
-      <li>Se questo passaggio causa il crash della tua console, <a href="troubleshooting#bannerbomb3">segui questa guida per risolvere il problema</a></li>
+      <li>If the BB3 multihax menu doesn’t open, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
       <li>Se il menu BB3 multihax visualizza il messaggio “cfw installed already”, significa che hai già un custom firmware installato e dovresti continuare da <a href="checking-for-cfw">qui</a></li>
     </ul>
   </li>
@@ -538,6 +538,16 @@ window.cookieconsent.initialise({
       <li>La tua console si spegnerà automaticamente</li>
     </ul>
   </li>
+  <li>Accendi la console</li>
+  <li>Avvia “Impostazioni della console”</li>
+  <li>Entra in <code class="language-plaintext highlighter-rouge">Impostazioni Internet</code> -&gt; <code class="language-plaintext highlighter-rouge">Impostazioni di collegamento</code></li>
+  <li>Ensure that all three connections are named “Haaaaaaaxxxxxxxxx…”
+    <ul>
+      <li>Do NOT change these settings!</li>
+      <li>If all three connections are NOT all named “Haaaaaaaxxxxxxxxx…”, STOP! Something went wrong in this section and MUST be fixed before you can continue</li>
+    </ul>
+  </li>
+  <li>Spegni il tuo 3DS</li>
 </ol>
 
 <h4 id="sezione-iii---unsafe_mode">Sezione III - unSAFE_MODE</h4>
@@ -563,6 +573,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>Se la tua console invece si blocca con una schermata bianca, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione</li>
       <li>Se invece la console invece si blocca con una schermata rossa, manca il file <code class="language-plaintext highlighter-rouge">usm.bin</code> dalla directory principale della tua scheda SD</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -572,7 +583,11 @@ window.cookieconsent.initialise({
 <p>In questa sezione installerai il custom firmware nella tua console.</p>
 
 <ol>
-  <li>Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap</li>
+  <li>Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Una volta completato il processo, premi (A) per riavviare la tua console</li>
   <li>La tua console dovrebbe aver avviato il menu di configurazione di Luma3DS
     <ul>

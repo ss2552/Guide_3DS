@@ -484,7 +484,7 @@ window.cookieconsent.initialise({
 
 <p>SSLoth consente agli utenti alla versione di sistema 11.13.0 e precedenti di bypassare il controllo sulla versione del browser, permettendo l’uso di new-browserhax o old-browserhax (compatibile con tutte le versioni da 11.4.0 a 11.13.0 di ogni regionalità), che può quindi essere utilizzato in combinazione con universal-otherapp.</p>
 
-<p class="notice--warning">Se hai aggiornato la tua console alla versione corrente utilizzando una cartuccia, il tuo Browser Internet sarà inaccessibile. In tal caso, dovrai aggiornare la tua console all’ultima versione tramite Impostazioni della console, quindi seguire il metodo per la versione più recente.</p>
+<p class="notice--warning">Se hai aggiornato la tua console alla versione corrente utilizzando una cartuccia, il tuo Browser Internet sarà inaccessibile. If this is the case, you cannot follow this method. Stay on your current firmware and ask <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for help.</p>
 
 <h3 id="cosa-serve">Cosa serve</h3>
 
@@ -534,9 +534,7 @@ window.cookieconsent.initialise({
       <li>Il test dovrebbe andare a buon fine</li>
     </ul>
   </li>
-  <li>
-    <p>Clicca “OK” per continuare</p>
-  </li>
+  <li>Clicca “OK” per continuare</li>
   <li>Premi “Indietro” due volte, poi “Chiudi” per tornare al menu HOME</li>
 </ol>
 
@@ -552,12 +550,16 @@ window.cookieconsent.initialise({
   </li>
   <li>Tocca il pulsante Codice QR e scansiona <a href="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L">questo codice QR</a>
     <ul>
-      <li>Se ottieni un errore, <a href="troubleshooting#installing-boot9strap-ssloth-browser">segui questa guida per risolvere il problema</a></li>
+      <li>If you get a crash or an error code, <a href="troubleshooting#installing-boot9strap-ssloth-browser">follow this troubleshooting guide</a></li>
       <li>Se visualizzi un avviso riguardo un certificato di sicurezza, premi (A) per consentire la connessione</li>
     </ul>
   </li>
   <li>Tocca il pulsante “PROCEED TO HAXX”</li>
-  <li>Se l’exploit è andato a buon fine, si avvierà SafeB9SInstaller</li>
+  <li>Se l’exploit è andato a buon fine, si avvierà SafeB9SInstaller
+    <ul>
+      <li>Se ottieni un errore, <a href="troubleshooting#installing-boot9strap-ssloth-browser">segui questa guida per risolvere il problema</a></li>
+    </ul>
+  </li>
 </ol>
 
 <h4 id="sezione-iv---installazione-di-boot9strap">Sezione IV - Installazione di boot9strap</h4>
@@ -565,7 +567,11 @@ window.cookieconsent.initialise({
 <p>In questa sezione installerai il custom firmware nella tua console.</p>
 
 <ol>
-  <li>Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap</li>
+  <li>Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Una volta completato il processo, premi (A) per riavviare la tua console</li>
   <li>La tua console dovrebbe aver avviato il menu di configurazione di Luma3DS
     <ul>

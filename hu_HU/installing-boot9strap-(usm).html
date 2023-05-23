@@ -529,7 +529,7 @@ window.cookieconsent.initialise({
   <li>Navigálj ide: <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code> (<a href="/images/screenshots/bb3/dsiware-management.png">kép</a>)
     <ul>
       <li>Az eszközödnek a BB3 multihax menüt kell mutatnia</li>
-      <li>Ha összeomlik a rendszered, <a href="troubleshooting#bannerbomb3">kövesd ezt a hibaelhárítási útmutatót</a></li>
+      <li>If the BB3 multihax menu doesn’t open, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
       <li>Ha a BB3 multihax menü azt mondja, hogy a “cfw installed already”, akkor már van egyedi firmware-ed és <a href="checking-for-cfw">innen</a> kellene folytatnod</li>
     </ul>
   </li>
@@ -538,6 +538,16 @@ window.cookieconsent.initialise({
       <li>Az eszközöd automatikusan ki fog kapcsolni</li>
     </ul>
   </li>
+  <li>Kapcsold be a készülékedet</li>
+  <li>Lépj be a System Settings-be a készülékeden</li>
+  <li>Navigálj az <code class="language-plaintext highlighter-rouge">Internet Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Connection Settings</code> opciókhoz</li>
+  <li>Ensure that all three connections are named “Haaaaaaaxxxxxxxxx…”
+    <ul>
+      <li>Do NOT change these settings!</li>
+      <li>If all three connections are NOT all named “Haaaaaaaxxxxxxxxx…”, STOP! Something went wrong in this section and MUST be fixed before you can continue</li>
+    </ul>
+  </li>
+  <li>Kapcsold ki a készüléked</li>
 </ol>
 
 <h4 id="iii-rész---unsafe_mode">III. rész - unSAFE_MODE</h4>
@@ -563,6 +573,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>Ha az eszközöd lefagy egy fehér képernyőn, tartsd nyomva a PWER gombot, amíg ki nem kapcsol, és próbáld újra ezt a részt</li>
       <li>Ha az eszközöd e helyett egy piros képernyőn fagy le, akkor hiányzik az <code class="language-plaintext highlighter-rouge">usm.bin</code> az SD kártya gyökerébőln</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -572,7 +583,11 @@ window.cookieconsent.initialise({
 <p>Ebben a fejezetben egyedi firmware-t fogsz telepíteni az eszközödre.</p>
 
 <ol>
-  <li>Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et</li>
+  <li>Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Ha ez elkészült, nyomd meg az (A) gombot az eszközöd újraindításához</li>
   <li>A készülékednek az előzőekben a Luma3DS-be kellett bootolnia
     <ul>

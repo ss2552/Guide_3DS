@@ -457,13 +457,14 @@ window.cookieconsent.initialise({
   <li><a href="#준비물" id="markdown-toc-준비물">준비물</a></li>
   <li><a href="#진행-방법" id="markdown-toc-진행-방법">진행 방법</a>    <ul>
       <li><a href="#섹션-i---준비-작업" id="markdown-toc-섹션-i---준비-작업">섹션 I - 준비 작업</a></li>
-      <li><a href="#섹션-ii---본체-업데이트" id="markdown-toc-섹션-ii---본체-업데이트">섹션 II - 본체 업데이트</a></li>
-      <li><a href="#섹션-iii---homebrew-launcher" id="markdown-toc-섹션-iii---homebrew-launcher">섹션 III - Homebrew Launcher</a></li>
-      <li><a href="#섹션-iv---rtc-및-dsp-설정" id="markdown-toc-섹션-iv---rtc-및-dsp-설정">섹션 IV - RTC 및 DSP 설정</a></li>
-      <li><a href="#섹션-v---cia-설치" id="markdown-toc-섹션-v---cia-설치">섹션 V - CIA 설치</a></li>
-      <li><a href="#섹션-vi---ctrnand-luma3ds" id="markdown-toc-섹션-vi---ctrnand-luma3ds">섹션 VI - CTRNAND Luma3DS</a></li>
-      <li><a href="#섹션-vii---sd-카드-정리하기" id="markdown-toc-섹션-vii---sd-카드-정리하기">섹션 VII - SD 카드 정리하기</a></li>
-      <li><a href="#섹션-viii---중요-파일-백업" id="markdown-toc-섹션-viii---중요-파일-백업">섹션 VIII - 중요 파일 백업</a></li>
+      <li><a href="#section-ii---cfw-check" id="markdown-toc-section-ii---cfw-check">Section II - CFW Check</a></li>
+      <li><a href="#section-iii---updating-the-system" id="markdown-toc-section-iii---updating-the-system">Section III - Updating the System</a></li>
+      <li><a href="#section-iv---homebrew-launcher" id="markdown-toc-section-iv---homebrew-launcher">Section IV - Homebrew Launcher</a></li>
+      <li><a href="#section-v---rtc-and-dsp-setup" id="markdown-toc-section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</a></li>
+      <li><a href="#section-vi---installing-cias" id="markdown-toc-section-vi---installing-cias">Section VI - Installing CIAs</a></li>
+      <li><a href="#section-vii---ctrnand-luma3ds" id="markdown-toc-section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</a></li>
+      <li><a href="#section-viii---cleanup-sd-card" id="markdown-toc-section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</a></li>
+      <li><a href="#section-ix---backup-essential-files" id="markdown-toc-section-ix---backup-essential-files">Section IX - Backup Essential Files</a></li>
     </ul>
   </li>
   <li><a href="#정보와-메모" id="markdown-toc-정보와-메모">정보와 메모</a></li>
@@ -536,7 +537,22 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/godmode9-location.png" alt="" /></p>
 
-<h4 id="섹션-ii---본체-업데이트">섹션 II - 본체 업데이트</h4>
+<h4 id="section-ii---cfw-check">Section II - CFW Check</h4>
+
+<p>여기서 기기의 안전을 위해 커스텀 펌웨어가 설치되어 있는지 확인합니다. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.</p>
+
+<ol>
+  <li>기기를 종료해 주세요</li>
+  <li>(Select) 버튼을 길게 눌러 주세요</li>
+  <li>(Select) 버튼을 계속 눌러 있는 상태에서 기기의 전원을 켜 주세요</li>
+  <li>If the check was successful, your device should have booted into the Luma3DS configuration menu</li>
+  <li>(Start)를 눌러 저장하고 기기를 다시 시작해 주세요</li>
+  <li>기기를 종료해 주세요</li>
+</ol>
+
+<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask, in English, for help.</p>
+
+<h4 id="section-iii---updating-the-system">Section III - Updating the System</h4>
 
 <p>이 섹션에서는 커스텀 펌웨어가 설치된 기기에서도 안전하게 이용 가능한 최신 버전의 펌웨어로 본체를 업데이트합니다.</p>
 
@@ -551,7 +567,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="섹션-iii---homebrew-launcher">섹션 III - Homebrew Launcher</h4>
+<h4 id="section-iv---homebrew-launcher">Section IV - Homebrew Launcher</h4>
 
 <p>이 섹션에서는 FBI를 실행하기 위해 다운로드 플레이를 잠시 Homebrew Launcher로 치환합니다. 다운로드 플레이 앱은 기기를 다시 시작하면 원상태로 돌아옵니다.</p>
 
@@ -574,7 +590,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="섹션-iv---rtc-및-dsp-설정">섹션 IV - RTC 및 DSP 설정</h4>
+<h4 id="section-v---rtc-and-dsp-setup">Section V - RTC and DSP Setup</h4>
 
 <p>이 섹션에서는 3DS 내부 시계를 실제 시각과 맞추고, 홈브류 소프트웨어에서 음성을 적절하게 이용하기 위해 사운드 펌웨어를 백업합니다.</p>
 
@@ -589,7 +605,7 @@ window.cookieconsent.initialise({
   <li>(B)를 눌러 Rosalina 메뉴를 나와 주세요</li>
 </ol>
 
-<h4 id="섹션-v---cia-설치">섹션 V - CIA 설치</h4>
+<h4 id="section-vi---installing-cias">Section VI - Installing CIAs</h4>
 
 <p>이 섹션에서는, 홈 메뉴에 몇몇 유용한 홈브류 앱을 설치하게 됩니다.</p>
 
@@ -601,7 +617,7 @@ window.cookieconsent.initialise({
   <li>(Home) 키를 누르고, 다운로드 플레이를 종료해 주세요</li>
 </ol>
 
-<h4 id="섹션-vi---ctrnand-luma3ds">섹션 VI - CTRNAND Luma3DS</h4>
+<h4 id="section-vii---ctrnand-luma3ds">Section VII - CTRNAND Luma3DS</h4>
 
 <p>이 섹션에서는, Luma3DS의 핵심 파일을 내부 저장소에 복사하는 스크립트를 실행합니다. 이렇게 하면 SD 카드 없이도 커펌을 이용할 수 있습니다.</p>
 
@@ -624,7 +640,7 @@ window.cookieconsent.initialise({
   <li>(A)를 눌러 진행해 주세요</li>
 </ol>
 
-<h4 id="섹션-vii---sd-카드-정리하기">섹션 VII - SD 카드 정리하기</h4>
+<h4 id="section-viii---cleanup-sd-card">Section VIII - Cleanup SD Card</h4>
 
 <p>이 섹션에서는, SD 카드에서 불필요한 파일을 삭제하는 스크립트를 실행합니다.</p>
 
@@ -635,7 +651,7 @@ window.cookieconsent.initialise({
   <li>(B)를 눌러 메인 메뉴로 돌아가 주세요</li>
 </ol>
 
-<h4 id="섹션-viii---중요-파일-백업">섹션 VIII - 중요 파일 백업</h4>
+<h4 id="section-ix---backup-essential-files">Section IX - Backup Essential Files</h4>
 
 <p>이 섹션에서는 벽돌 현상이나 복구를 위해 사용할 수 있는 시스템 백업 파일을 생성합니다.</p>
 

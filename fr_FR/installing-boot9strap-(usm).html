@@ -529,7 +529,7 @@ window.cookieconsent.initialise({
   <li>Naviguez vers <code class="language-plaintext highlighter-rouge">Gestion des données</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code>-&gt; <code class="language-plaintext highlighter-rouge">Carte SD</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)
     <ul>
       <li>Votre console devrait afficher le menu BB3 multihax</li>
-      <li>Si cette étape provoque un plantage de votre console, <a href="troubleshooting#bannerbomb3">suivez ce guide de dépannage</a></li>
+      <li>If the BB3 multihax menu doesn’t open, <a href="troubleshooting#bannerbomb3">follow this troubleshooting guide</a></li>
       <li>Si le menu multihax BB3 dit “cfw installed already”, vous avez déjà un custom firmware et devriez continuer <a href="checking-for-cfw">ici</a></li>
     </ul>
   </li>
@@ -538,6 +538,16 @@ window.cookieconsent.initialise({
       <li>Votre console s’éteindra automatiquement</li>
     </ul>
   </li>
+  <li>Allumez votre console</li>
+  <li>Lancez les Paramètres de la console</li>
+  <li>Naviguez vers <code class="language-plaintext highlighter-rouge">Paramètres Internet</code> -&gt; <code class="language-plaintext highlighter-rouge">Paramètres de connexion</code></li>
+  <li>Ensure that all three connections are named “Haaaaaaaxxxxxxxxx…”
+    <ul>
+      <li>Do NOT change these settings!</li>
+      <li>If all three connections are NOT all named “Haaaaaaaxxxxxxxxx…”, STOP! Something went wrong in this section and MUST be fixed before you can continue</li>
+    </ul>
+  </li>
+  <li>Éteignez votre console</li>
 </ol>
 
 <h4 id="section-iii---unsafe_mode">Section III - unSAFE_MODE</h4>
@@ -563,6 +573,7 @@ window.cookieconsent.initialise({
     <ul>
       <li>Si votre console se bloque sur un écran blanc, maintenez le bouton POWER jusqu’à ce qu’elle s’éteigne, puis réessayez cette section</li>
       <li>Si votre console se bloque sur un écran rouge, il vous manque <code class="language-plaintext highlighter-rouge">usm.bin</code> à la racine de votre carte SD</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -572,7 +583,11 @@ window.cookieconsent.initialise({
 <p>Dans cette section, vous installerez un custom firmware sur votre console.</p>
 
 <ol>
-  <li>Lorsque vous y êtes invité, entrez la combinaison de touches indiquée sur l’écran supérieur pour installer boot9strap</li>
+  <li>Lorsque vous y êtes invité, entrez la combinaison de touches indiquée sur l’écran supérieur pour installer boot9strap
+    <ul>
+      <li>If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, <a href="troublshooting#issues-with-safeb9sinstaller">follow this troubleshooting guide</a></li>
+    </ul>
+  </li>
   <li>Une fois l’opération terminée, appuyez sur (A) pour redémarrer votre console</li>
   <li>Votre console devrait avoir démarré dans le menu de configuration de Luma3DS
     <ul>
