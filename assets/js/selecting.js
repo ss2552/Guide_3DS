@@ -70,6 +70,8 @@ function sslothablekor(s, n, o) {
     - N3DS & 11.16:
         - super-skaterhax, compatible with 11.15 - 11.16 but browser itself doesn't work on 11.15
         - This way N3DS users don't have to think too much about the slightly long Seedminer steps
+    - 11.17: 
+        - unhackable
 */
 function redirect() {
     var major = document.getElementById("major");
@@ -86,6 +88,9 @@ function redirect() {
     }
     else if (major.value == 0) {
         document.getElementById("result_invalidVersion").style.display = "block";
+    }
+    else if (major.value == 11 && minor.value == 17) {
+        document.getElementById("result_methodUnavailable").style.display = "block";
     }
     // only do things if major isnt 0, which would be invalid
     else {
