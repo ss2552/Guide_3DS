@@ -89,9 +89,6 @@ function redirect() {
     else if (major.value == 0) {
         document.getElementById("result_invalidVersion").style.display = "block";
     }
-    else if (major.value == 11 && minor.value == 17) {
-        document.getElementById("result_methodUnavailable").style.display = "block";
-    }
     // only do things if major isnt 0, which would be invalid
     else {
         // USA/EUR/JPN things
@@ -107,15 +104,12 @@ function redirect() {
             else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
-            // new browserhax for latest version
-            /*
-            else if (isN3DS) {
-                window.location.href = "homebrew-launcher-(super-skaterhax)";
-            }
-            */
             // seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
             else if (major.value == 11 && minor.value == 16) {
                 window.location.href = "seedminer";
+            }
+            else if (major.value == 11 && minor.value == 17 && isN3DS && region.value != "U") {
+                window.location.href = "homebrew-launcher-(super-skaterhax)";
             }
             else {
                 document.getElementById("result_methodUnavailable").style.display = "block";
