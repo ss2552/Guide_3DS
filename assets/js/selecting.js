@@ -114,8 +114,11 @@ function redirect() {
             }
             */
             // seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
-            else {
+            else if (major.value == 11 && minor.value == 16) {
                 window.location.href = "seedminer";
+            }
+            else {
+                document.getElementById("result_methodUnavailable").style.display = "block";
             }
         }
         //korea stuff
@@ -138,8 +141,11 @@ function redirect() {
             }
             */
             // seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
-            else {
+            else if (major.value == 11 && minor.value == 16) {
                 window.location.href = "seedminer";
+            }
+            else {
+                document.getElementById("result_methodUnavailable").style.display = "block";
             }
         }
         //taiwan stuff
@@ -155,11 +161,14 @@ function redirect() {
                 window.location.href = "installing-boot9strap-(ssloth-browser)";
             }
             */
-            else if (minor < 15 && isO3DS) {
+            else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
-            else { //seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
+            else if (major.value == 11 && minor.value == 16) { //seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
                 window.location.href = "seedminer-(twn)";
+            }
+            else {
+                document.getElementById("result_methodUnavailable").style.display = "block";
             }
         }
         // chn stuff
@@ -175,7 +184,7 @@ function redirect() {
                 window.location.href = "installing-boot9strap-(ssloth-browser)";
             }
             */
-            else if (minor < 15 && isO3DS) {
+            else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
             // seedminer itself works on CHN. But no exploit *chain* supports CHN
