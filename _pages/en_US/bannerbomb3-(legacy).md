@@ -1,5 +1,5 @@
 ---
-title: "BannerBomb3"
+title: "BannerBomb3 (Legacy)"
 ---
 
 {% include toc title="Table of Contents" %}
@@ -21,9 +21,6 @@ For a more technical explanation, see [here](https://github.com/zoogie/Bannerbom
 
 These instructions work on USA, Europe, Japan, and Korea region consoles as indicated by the letters U, E, J, or K after the system version.
 
-If you have a Taiwanese console (indicated by a T after the system version), follow [this page](bannerbomb3-fredtool-(twn)) instead.
-{: .notice--warning}
-
 ### What You Need
 
 * Your `movable.sed` file from completing Seedminer or nimhax
@@ -33,6 +30,10 @@ If you have a Taiwanese console (indicated by a T after the system version), fol
 {% include_relative include/bb3-prep.md %}
 
 #### Section II - Hardware Button Check
+
+In this section, you will see whether you can access Safe Mode on your device. This will determine which method you will follow on the next page.
+
+Your SD card should remain in your computer while you perform this check.
 
 {% include_relative include/safemodecheck.txt %}
 
@@ -45,5 +46,5 @@ If the camera appeared in the previous section, Safe Mode is likely to be workin
 If the camera appeared, continue to [Installing boot9strap (USM)](installing-boot9strap-(usm))
 {: .notice--primary}
 
-If the camera did NOT appear, continue to [Installing boot9strap (Fredtool)](installing-boot9strap-(fredtool))
+If the camera did NOT appear, continue to [Installing boot9strap (Fredtool, Legacy)](installing-boot9strap-(fredtool-legacy))
 {: .notice--info}
