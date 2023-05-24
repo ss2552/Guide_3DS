@@ -158,9 +158,6 @@ function redirect() {
             else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
-            else if(minor.value == 15) {
-                window.location.href = "updating-firmware-(kor-twn)";
-            }
             else if (major.value == 11 && minor.value == 16) { //seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
                 window.location.href = "seedminer-(twn)";
             }
