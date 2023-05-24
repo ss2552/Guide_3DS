@@ -104,6 +104,9 @@ function redirect() {
             else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
+            else if(isN3DS && region.value != "U" && (minor.value == 14 || minor.value == 15)) {
+                window.location.href = "updating-firmware-(new-3ds)";
+            }
             // seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
             else if (major.value == 11 && minor.value == 16) {
                 window.location.href = "seedminer";
@@ -128,12 +131,9 @@ function redirect() {
             else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
             }
-            // new browserhax for latest version
-            /*
-            else if (isN3DS) {
-                window.location.href = "homebrew-launcher-(super-skaterhax)";
+            else if(minor.value == 15) {
+                window.location.href = "updating-firmware-(kor-twn)";
             }
-            */
             // seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
             else if (major.value == 11 && minor.value == 16) {
                 window.location.href = "seedminer";
@@ -157,6 +157,9 @@ function redirect() {
             */
             else if (minor.value < 15 && isO3DS) {
                 window.location.href = "installing-boot9strap-(safecerthax)";
+            }
+            else if(minor.value == 15) {
+                window.location.href = "updating-firmware-(kor-twn)";
             }
             else if (major.value == 11 && minor.value == 16) { //seedminer does still work for the latest version on E/U/J/K/T/C, but can only be chained on E/U/J/K/T
                 window.location.href = "seedminer-(twn)";
