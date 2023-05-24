@@ -6,32 +6,25 @@ title: "Homebrew Launcher (PicHaxx)"
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
+[PicHaxx](https://github.com/zoogie/pichaxx) is an exploit for the game Pokémon Picross released by [zoogie](https://github.com/zoogie), originally discovered and [demonstrated](https://twitter.com/mrnbayoh/status/744899681663258624) by [MrNbaYoh](https://github.com/MrNbaYoh).
 
-This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used with unSAFE_MODE (via Homebrew Launcher) to run SafeB9SInstaller.
-
-For information on PicHaxx itself, see [here](https://github.com/zoogie/pichaxx).
-
+This method of using Seedminer for further exploitation uses your `movable.sed` file to write a custom save file for Pokémon Picross, which can then be used to launch the Homebrew Launcher.
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
-
-### Compatibility Notes
-
-These instructions work on USA, Europe, and Japan consoles as indicated by the letters U, E, or J after the system version.
-
-You will need a Nintendo Network ID to download Pokémon Picross.
 
 This process will overwrite your Pokémon Picross save file, if you have one. If you wish to preserve your Pokémon Picross game data, you should make a backup of your `00000001.sav` file before overwriting it.
 {: .notice--warning}
 
 ### What You Need
 
-* The game "Pokémon Picross" (free on eShop) installed on your device
-  + You can scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=ESHOP://50010000037815&margin=0&qzone=1&size=400x400&ecc=L) using the Nintendo 3DS Camera for a direct link to the eShop app
++ The game "Pokémon Picross" installed on your device
+  + If you have downloaded it before, you can [redownload it](https://en-americas-support.nintendo.com/app/answers/detail/a_id/607/~/how-to-download-or-redownload-content-in-nintendo-3ds-eshop)
   + Your SD card must be inserted in your device to install Pokémon Picross
-* Your `movable.sed` file from completing [Seedminer](seedminer)
-* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
-* The latest release of [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest) (the RELEASE `.zip` file)
++ Your `movable.sed` file from completing [Seedminer](seedminer)
++ The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
++ [otherapps.zip]({{ base_path }}/assets/otherapps.zip) (direct download)
+
 
 ### Instructions
 
@@ -39,12 +32,13 @@ This process will overwrite your Pokémon Picross save file, if you have one. If
 
 In this section, you will copy some of the files that will be used to launch the Homebrew Launcher.
 
+1. Power off your device
 1. Insert your SD card into your computer
 1. Copy `boot.firm` and `boot.3dsx` from the Luma3DS `.zip` to the root of your SD card
   + The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
-1. Create a folder named `3ds` on the root of your SD card
-1. Copy the `slotTool` folder from the unSAFE_MODE `.zip` to the `3ds` folder on your SD card
-1. Copy the otherapp payload for your region/version from the unSAFE_MODE `.zip`'s `otherapps_with_CfgS` folder to the root of your SD card and rename it to `otherapp.bin`
+1. Copy the otherapp payload for your model/region/version from `otherapps.zip` to the root of your SD card, then rename the payload to `otherapp.bin`
+  + Do not add the `.bin` extension if you do not already see it
+1. Copy `movable.sed` from your computer to the root of your SD card
 
 ![]({{ "/images/screenshots/hblpichaxx-root-layout.png" | absolute_url }})
 {: .notice--info}
@@ -55,28 +49,30 @@ In this section, you will copy some of the files that will be used to launch the
 
 #### Section II - PicHaxx
 
-In this section, you will create a hacked Pokémon Picross save file that, when used, will load the Homebrew Launcher on your device.
+In this section, you will create a hacked Pokémon Picross save file that, when loaded, will run the Homebrew Launcher on your device.
 
 1. Open [the PicHaxx Injector website](https://3dstools.nhnarwhal.com/#/pichaxx) on your computer
 1. Select your `movable.sed` file
 1. Select "Build and Download"
 1. Wait for the process to complete
 1. Navigate to `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` on your SD card
-  + The `<ID0>` will be the same one that you used in [Seedminer](seedminer)
+  + The `<ID0>` will be the same one that you used in Seedminer
   + The `<ID1>` is a 32 character long folder inside of the `<ID0>`
 1. Copy the newly downloaded `00000001.sav` file to the `data` folder on your SD card
   + Overwrite the old save file when prompted
 
     ![]({{ "/images/screenshots/pichaxx-save-location.png" | absolute_url }})
     {: .notice--info}
-	
+
 1. Reinsert your SD card into your device
 1. Power on your device
 1. Launch "Pokémon Picross"
 1. If the exploit was successful, your device will have booted into the Homebrew Launcher
-  + If you get an error message, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-pichaxx)
+
+#### Section III - Hardware Button Check
+
+{% include_relative include/safemodecheck.txt %}
 
 ___
 
-### Continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
-{: .notice--primary}
+{% include_relative include/hbl-common-exploits-movable.txt %}

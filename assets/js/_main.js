@@ -226,7 +226,16 @@ $(document).ready(function() {
     "updating-firmware-(new-3ds)": "23",
     "seedminer-(mii)": "24",
     "bannerbomb3-(legacy)": "25",
-    "installing-boot9strap-(fredtool-legacy)": "26"
+    "installing-boot9strap-(fredtool-legacy)": "26",
+    "alternate-exploits": "27",
+    "homebrew-launcher-(ninjhax2-dx)": "28",
+    "homebrew-launcher-(smilehax-iie)": "29",
+    "seedminer-(alternate)": "30",
+    "homebrew-launcher-(pichaxx)": "31",
+    "homebrew-launcher-(steelhax)": "32",
+    "homebrew-launcher-(freakyhax)": "33",
+    "dumping-eshop-dsiware": "34",
+    "installing-boot9strap-(fredtool-inject)": "35"
   };
 
   for(var device in devices){
@@ -274,17 +283,26 @@ $(document).ready(function() {
       "13": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
       "14": ["multiple-options", "finalizing-setup"],
       "15": ["seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
-      "16": ["homebrew-launcher-(super-skaterhax)", "dumping-movable-(nimhax)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
-      "17": ["homebrew-launcher-(super-skaterhax)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
+      "16": ["multiple-options", "installing-boot9strap-(frogtool)", "finalizing-setup"],
+      "17": ["multiple-options", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
       "18": ["homebrew-launcher-(super-skaterhax)", "multiple-options", "finalizing-setup"],
-      "19": ["homebrew-launcher-(super-skaterhax)", "dumping-movable-(nimhax)", "multiple-options", "finalizing-setup"],
+      "19": ["multiple-options", "dumping-movable-(nimhax)", "installing-boot9strap-(frogtool)", "finalizing-setup"],
       "20": ["installing-boot9strap-(safecerthax)", "finalizing-setup"],
       "21": ["updating-firmware-(twn)", "seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
       "22": ["updating-firmware-(kor)", "seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
       "23": ["updating-firmware-(new-3ds)", "homebrew-launcher-(super-skaterhax)", "multiple-options", "finalizing-setup"],
       "24": ["seedminer-(mii)", "bannerbomb3-(legacy)", "multiple-options", "finalizing-setup"],
       "25": ["seedminer-(mii)", "bannerbomb3-(legacy)", "multiple-options", "finalizing-setup"],
-      "26": ["seedminer-(mii)", "bannerbomb3-(legacy)", "installing-boot9strap-(fredtool-legacy)", "finalizing-setup"]
+      "26": ["seedminer-(mii)", "bannerbomb3-(legacy)", "installing-boot9strap-(fredtool-legacy)", "finalizing-setup"],
+      "27": ["alternate-exploits", "multiple-options", "finalizing-setup"],
+      "28": ["alternate-exploits", "homebrew-launcher-(ninjhax2-dx)", "multiple-options", "finalizing-setup"],
+      "29": ["alternate-exploits", "homebrew-launcher-(smilehax-iie)", "multiple-options", "finalizing-setup"],
+      "30": ["alternate-exploits", "seedminer-(alternate)", "multiple-options", "finalizing-setup"],
+      "31": ["alternate-exploits", "seedminer-(alternate)", "homebrew-launcher-(pichaxx)", "multiple-options", "finalizing-setup"],
+      "32": ["alternate-exploits", "seedminer-(alternate)", "homebrew-launcher-(steelhax)", "multiple-options", "finalizing-setup"],
+      "33": ["alternate-exploits", "homebrew-launcher-(freakyhax)", "multiple-options", "finalizing-setup"],
+      "34": ["alternate-exploits", "seedminer-(alternate)", "dumping-eshop-dsiware", "installing-boot9strap-(fredtool-inject)", "finalizing-setup"],
+      "35": ["alternate-exploits", "seedminer-(alternate)", "dumping-eshop-dsiware", "installing-boot9strap-(fredtool-inject)", "finalizing-setup"],
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
