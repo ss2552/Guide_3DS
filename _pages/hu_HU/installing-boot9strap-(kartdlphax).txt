@@ -4,6 +4,9 @@ title: "Boot9strap telepítése (kartdlphax)"
 
 {% include toc title="Tartalomjegyzék" %}
 
+Ez az exploit jelenleg nem működik az USA régiós konzolokon 11.17.0-val (pl. 11.17.0-50U).
+{: .notice--warning}
+
 {% capture technical_info %}
 <summary><em>Technikai részletek (opcionális)</em></summary>
 
@@ -48,7 +51,7 @@ A **cél 3DS**-en (a 3DS, amit módosítani szeretnél):
 
 {% include_relative include/safemodecheck.txt %}
 
-Ha nem sikerül Safe Mode-ba bootolni több próbálkozás ellenére sem, akkor nem tudod követni ezt a metódust. Ebben az esetben csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, támogatást angolul.
+Ha a kamera nem nyílik meg, nem tudod követni ezt a metódust. Ebben az esetben csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, támogatást angolul.
 {: .notice--warning}
 
 #### II. rész - Előkészületi munka (forrás 3DS)

@@ -4,6 +4,9 @@ title: "boot9strap 설치 (kartdlphax)"
 
 {% include toc title="목차" %}
 
+This exploit does not currently work on USA region consoles on 11.17.0 (e.g. 11.17.0-50U).
+{: .notice--warning}
+
 {% capture technical_info %}
 <summary><em>기술적 상세 정보 (선택 사항)</em></summary>
 
@@ -48,7 +51,7 @@ kartdlphax와 unSAFE_MODE의 더 자세한 설명은 다음 (영어) 페이지�
 
 {% include_relative include/safemodecheck.txt %}
 
-만약, 여러번 시도했음에도 불구하고 시스템 업데이트 (안전 모드) 화면이 나오지 않는다면, 이 방법을 사용하실 수 없습니다. 이 경우, [Nintendo Homebrew Discord 서버](https://discord.gg.MWxPgEp)에 오셔서 도움을 요청하세요.
+If the camera does not open, you cannot follow this method. 이 경우, [Nintendo Homebrew Discord 서버](https://discord.gg.MWxPgEp)에 오셔서 도움을 요청하세요.
 {: .notice--warning}
 
 #### 섹션 II - 준비 작업 (소스 3DS)
