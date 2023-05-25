@@ -187,9 +187,6 @@
 <loc>https://3ds.hacks.guide/pt_BR/credits.html</loc>
 </url>
 <url>
-<loc>https://3ds.hacks.guide/credits.html</loc>
-</url>
-<url>
 <loc>https://3ds.hacks.guide/ko_KR/credits.html</loc>
 </url>
 <url>
@@ -200,6 +197,9 @@
 </url>
 <url>
 <loc>https://3ds.hacks.guide/es_ES/credits.html</loc>
+</url>
+<url>
+<loc>https://3ds.hacks.guide/credits.html</loc>
 </url>
 <url>
 <loc>https://3ds.hacks.guide/it_IT/ctrtransfer.html</loc>
@@ -253,9 +253,6 @@
 <loc>https://3ds.hacks.guide/pt_BR/donations.html</loc>
 </url>
 <url>
-<loc>https://3ds.hacks.guide/donations.html</loc>
-</url>
-<url>
 <loc>https://3ds.hacks.guide/ko_KR/donations.html</loc>
 </url>
 <url>
@@ -266,6 +263,9 @@
 </url>
 <url>
 <loc>https://3ds.hacks.guide/es_ES/donations.html</loc>
+</url>
+<url>
+<loc>https://3ds.hacks.guide/donations.html</loc>
 </url>
 <url>
 <loc>https://3ds.hacks.guide/it_IT/dumping-movable-(nimhax).html</loc>
@@ -1678,9 +1678,6 @@
 <loc>https://3ds.hacks.guide/pt_BR/updating-firmware-(new-3ds).html</loc>
 </url>
 <url>
-<loc>https://3ds.hacks.guide/updating-firmware-(new-3ds).html</loc>
-</url>
-<url>
 <loc>https://3ds.hacks.guide/ko_KR/updating-firmware-(new-3ds).html</loc>
 </url>
 <url>
@@ -1691,6 +1688,9 @@
 </url>
 <url>
 <loc>https://3ds.hacks.guide/es_ES/updating-firmware-(new-3ds).html</loc>
+</url>
+<url>
+<loc>https://3ds.hacks.guide/updating-firmware-(new-3ds).html</loc>
 </url>
 <url>
 <loc>https://3ds.hacks.guide/updating-firmware-(twn).html</loc>
