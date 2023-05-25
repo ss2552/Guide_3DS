@@ -220,7 +220,13 @@ $(document).ready(function() {
     "installing-boot9strap-(hbl-usm)": "17",
     "homebrew-launcher-(super-skaterhax)": "18",
     "dumping-movable-(nimhax)": "19",
-    "installing-boot9strap-(safecerthax)": "20"
+    "installing-boot9strap-(safecerthax)": "20",
+    "updating-firmware-(twn)": "21",
+    "updating-firmware-(kor)": "22",
+    "updating-firmware-(new-3ds)": "23",
+    "seedminer-(mii)": "24",
+    "bannerbomb3-(legacy)": "25",
+    "installing-boot9strap-(fredtool-legacy)": "26"
   };
 
   for(var device in devices){
@@ -262,7 +268,7 @@ $(document).ready(function() {
       "7": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
       "8": ["seedminer", "bannerbomb3", "installing-boot9strap-(fredtool)", "finalizing-setup"],
       "9": ["seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
-      "10": ["seedminer", "bannerbomb3", "installing-boot9strap-(usm)", "finalizing-setup"],
+      "10": ["multiple-options", "installing-boot9strap-(usm)", "finalizing-setup"],
       "11": ["installing-boot9strap-(kartdlphax)", "finalizing-setup"],
       "12": ["seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
       "13": ["installing-boot9strap-(ssloth-browser)", "finalizing-setup"],
@@ -272,7 +278,13 @@ $(document).ready(function() {
       "17": ["homebrew-launcher-(super-skaterhax)", "installing-boot9strap-(hbl-usm)", "finalizing-setup"],
       "18": ["homebrew-launcher-(super-skaterhax)", "multiple-options", "finalizing-setup"],
       "19": ["homebrew-launcher-(super-skaterhax)", "dumping-movable-(nimhax)", "multiple-options", "finalizing-setup"],
-      "20": ["installing-boot9strap-(safecerthax)", "finalizing-setup"]
+      "20": ["installing-boot9strap-(safecerthax)", "finalizing-setup"],
+      "21": ["updating-firmware-(twn)", "seedminer-(twn)", "bannerbomb3-fredtool-(twn)", "finalizing-setup"],
+      "22": ["updating-firmware-(kor)", "seedminer", "bannerbomb3", "multiple-options", "finalizing-setup"],
+      "23": ["updating-firmware-(new-3ds)", "homebrew-launcher-(super-skaterhax)", "multiple-options", "finalizing-setup"],
+      "24": ["seedminer-(mii)", "bannerbomb3-(legacy)", "multiple-options", "finalizing-setup"],
+      "25": ["seedminer-(mii)", "bannerbomb3-(legacy)", "multiple-options", "finalizing-setup"],
+      "26": ["seedminer-(mii)", "bannerbomb3-(legacy)", "installing-boot9strap-(fredtool-legacy)", "finalizing-setup"]
     }
     // Can add custom routing if necessary but currently both routes are identical
     var device_old =  Object.assign({}, device_common,{
