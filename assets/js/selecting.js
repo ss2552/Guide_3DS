@@ -144,7 +144,8 @@ function can_miimine(major, minor, native, region, model) {
 // Seedminer, U/E/J/K region
 // only 11.16 can run Seedminer
 function can_seedminer(major, minor, native, region, model) {
-    let do_redirect_sysupdate = false;
+    let do_redirect_sysupdate_twn = false;
+    let do_redirect_sysupdate_kor = false;
     let do_redirect_twn = false;
     let do_redirect = false;
     // 11.16 should always do seedminer on 3DS
@@ -153,10 +154,16 @@ function can_seedminer(major, minor, native, region, model) {
         else if (region == "T") do_redirect_twn = true;
     }
     // KOR O3DS on any version should update to 11.16
-    else if (model == 0 && region == "K") do_redirect_sysupdate = true;
+    else if (model == 0 && region == "K") do_redirect_sysupdate_kor = true;
+    // KOR O3DS on any version should update to 11.16
+    else if (region == "T") do_redirect_sysupdate_twn = true;
 
-    if (do_redirect_sysupdate) {
-        window.location.href = "updating-firmware-(kor-twn)";
+    if (do_redirect_sysupdate_twn) {
+        window.location.href = "updating-firmware-(twn)";
+        return true;
+    }
+    if (do_redirect_sysupdate_kor) {
+        window.location.href = "updating-firmware-(kor)";
         return true;
     }
     else if (do_redirect_twn) {

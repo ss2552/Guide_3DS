@@ -1,5 +1,5 @@
 ---
-title: "Updating Firmware (KOR/TWN)"
+title: "Updating Firmware (KOR)"
 ---
 
 ### Required Reading
