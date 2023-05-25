@@ -121,6 +121,26 @@ function can_superskaterhax(major, minor, native, region, model) {
     return false;
 }
 
+function can_miimine(major, minor, native, region, model) {
+    let do_redirect = false;
+
+    if (major == 11) {
+        if (model == 0 && minor == 15) {
+            // KOR and TWN can do normal seedminer
+            // All other O3DS must Mii mine
+            if (region != "K" && region != "T") do_redirect = true;
+        }
+        else if (model == 1 && (minor == 14 || minor == 15)) {
+            // All other N3DS should system update
+            if (region == "U") do_redirect = true;
+        }
+    }
+    if (do_redirect) {
+        window.location.href = "seedminer-(mii)";
+        return true;
+    }
+}
+
 // Seedminer, U/E/J/K region
 // only 11.16 can run Seedminer
 function can_seedminer(major, minor, native, region, model) {
@@ -203,6 +223,7 @@ function redirect() {
       can_soundhax,
       can_ssloth,
       can_safecerthax,
+      can_miimine,
       can_seedminer,
       can_superskaterhax,
     ].some(func => func(major.value, minor.value, nver.value, region.value, model));
