@@ -4,12 +4,14 @@ title: "Seedminer (Mii)"
 
 {% include toc title="Table of Contents" %}
 
+{% capture gpu_warning %}
 This method requires a reasonably powerful GPU (any dedicated graphics card made in the last few years) and the ability to use a command line. If you don't know what those are or do not have the hardware necessary, you can ask someone to do this for you at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). You will need to have the following information ready:
-  + Your Mii QR code, uploaded directly to Discord (do not take a screenshot or a photo of the image, just send the HNI_XXXX.JPG image itself)
-  + Your console's ID0 (the name of the 32-character folder directly inside of Nintendo 3DS - see https://3ds.hacks.guide/troubleshooting#seedminer if you have multiple)
-  + Your console model (e.g. 3DS, 3DS XL, 2DS, New3DS, New3DS XL, New2DS XL)
-  + Your console's approximate year of manufacturing (it may be present behind the frontplate or backplate; if you don't know, just guess - it's not super important)
-{: .notice--warning}
++ Your Mii QR code, uploaded directly to Discord (do not take a screenshot or a photo of the image, just send the HNI_XXXX.JPG image itself)
++ Your console's ID0 (the name of the 32-character folder directly inside of Nintendo 3DS - see [this troubleshooting section](https://3ds.hacks.guide/troubleshooting#seedminer) if you have multiple)
++ Your console model (e.g. 3DS, 3DS XL, 2DS, New3DS, New3DS XL, New2DS XL)
++ Your console's approximate year of manufacturing (it may be present behind the frontplate or backplate; if you don't know, just guess - it's not super important)
+{% endcapture %}
+<div class="notice--warning">{{ gpu_warning | markdownify }}</div>
 
 {% capture technical_info %}
 <summary><em>Technical Details (optional)</em></summary>
