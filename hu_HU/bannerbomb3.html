@@ -493,25 +493,25 @@ window.cookieconsent.initialise({
 <ol>
   <li>Kapcsold ki a készüléked</li>
   <li>Helyezd az SD kártyád a számítógépbe</li>
-  <li>Nyisd meg a <a href="http://3dstools.nhnarwhal.com/#/bb3gen">BannerBomb3 Injector</a> oldalt a számítógépeden</li>
+  <li>Open <a href="http://3dstools.nhnarwhal.com/#/bb3gen">Bannerbomb3 Injector</a> on your computer</li>
   <li>Töltsd fel a <code class="language-plaintext highlighter-rouge">movable.sed</code> fájlod a “Choose File” opcióval</li>
   <li>Kattints a “Build and Download”-ra
     <ul>
-      <li>Ez letölt egy exploit DSiWare-t <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> néven és egy payload adatfájlt <code class="language-plaintext highlighter-rouge">bb3.bin</code> néven egy zip mappán belül (<code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>)</li>
+      <li>This will download an exploit DSiWare called <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> and a payload called <code class="language-plaintext highlighter-rouge">bb3.bin</code> inside of a zip archive (<code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>)</li>
     </ul>
   </li>
-  <li>Másold át a <code class="language-plaintext highlighter-rouge">bb3.bin</code> fájlt a <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>-ből az SD kártya gyökerébe
+  <li>Copy <code class="language-plaintext highlighter-rouge">bb3.bin</code> from <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code> to the root of your SD card
     <ul>
       <li>Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne</li>
-      <li>A fájlokat nem kell megnyitni, vagy kicsomagolni
+      <li>This file does not need to be opened or extracted
   <img src="https://3ds.hacks.guide/images/screenshots/bb3/bb3-root-layout.png" alt="" class="notice--info" /></li>
     </ul>
   </li>
   <li>Navigálj a <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> mappába az SD kártyádon
     <ul>
-      <li>Az <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> egy 32 karakter hosszú mappanév, amit a <a href="seedminer">Seedminer</a>-nél másoltál</li>
-      <li>Az <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> egy 32 karakter hosszú nevű mappa az <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> mappában</li>
-      <li>Ha több <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> nevű mappát látsz, kövesd <a href="troubleshooting#bannerbomb3">ezeket a lépéseket</a>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> is the 32-letter folder name that you copied in <a href="seedminer">Seedminer</a></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> is a 32-letter folder inside of the <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li>If you have multiple <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> folders, follow the instructions <a href="troubleshooting#bannerbomb3">here</a>
   <img src="https://3ds.hacks.guide/images/screenshots/bb3/dsiware-location-1.png" alt="" class="notice--info" /></li>
     </ul>
   </li>
@@ -520,16 +520,14 @@ window.cookieconsent.initialise({
       <li>Ha már van mappád <em>és</em> van benne DSiWare mentés fájl (<code class="language-plaintext highlighter-rouge">&lt;8-character-id&gt;.bin</code>), másold őket a számítógépedre és töröld őket az SD kártyáról</li>
     </ul>
   </li>
-  <li>Másold <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> fájlt a <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code>-ből a <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> mappába</li>
+  <li>Copy the <code class="language-plaintext highlighter-rouge">F00D43D5.bin</code> file from <code class="language-plaintext highlighter-rouge">DSIWARE_EXPLOIT.zip</code> to the <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> folder</li>
 </ol>
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/bb3/dsiware-location-2.png" alt="" /></p>
 
 <h4 id="ii-rész---fizikai-gombok-ellenőrzése">II. rész - Fizikai gombok ellenőrzése</h4>
 
-<p>Ebben a fejezetben tesztelni fogod azt, hogy egyáltalán eléred-e a SAFE_MODE funkcióját az eszközödnek. Ez meghatározza, hogy melyik metódust kell követned a következő oldalon.</p>
-
-<p>Az SD kártyádnak be kell helyezve lennie a számítógépedbe, amíg ez az ellenőrzés folyik.</p>
+<p>In this section, you will see whether your shoulder buttons are working on your device. This will determine which method you will follow on the next page.</p>
 
 <ol>
   <li>Kapcsold be a készülékedet</li>
