@@ -27,7 +27,7 @@ These instructions work on USA, Europe, Japan, and Korea region consoles as indi
 
 #### Section I - Prep Work
 
-{% include_relative include/bb3-prep.md %}
+{% include_relative include/bb3-prep.txt %}
 
 #### Section II - Hardware Button Check
 
