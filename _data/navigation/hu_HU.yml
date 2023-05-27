@@ -59,17 +59,32 @@ sidebar_pages:
     title: Kezdeti lépések
     url: get-started
   - 
+    title: Firmware frissítése (New 3DS)
+    url: updating-firmware-(new-3ds)
+  - 
+    title: Firmware frissítése (KOR)
+    url: updating-firmware-(kor)
+  - 
+    title: Firmware frissítése (TWN)
+    url: updating-firmware-(twn)
+  - 
     title: ntrboot
     url: ntrboot
   - 
     title: Seedminer
     url: seedminer
   - 
+    title: Seedminer (Mii)
+    url: seedminer-(mii)
+  - 
     title: Seedminer (TWN)
     url: seedminer-(twn)
   - 
     title: BannerBomb3
     url: bannerbomb3
+  - 
+    title: BannerBomb3 (Legacy)
+    url: bannerbomb3-(legacy)
   - 
     title: Homebrew Launcher (super-skaterhax)
     url: homebrew-launcher-(super-skaterhax)
@@ -101,10 +116,10 @@ sidebar_pages:
     title: Boot9strap telepítése (HBL-USM)
     url: installing-boot9strap-(hbl-usm)
   - 
-    title: boot9strap telepítése (ntrboot)
+    title: Boot9strap telepítése (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: boot9strap telepítése (Soundhax)
+    title: Boot9strap telepítése (Soundhax)
     url: installing-boot9strap-(soundhax)
   - 
     title: Boot9strap telepítése (safecerthax)
@@ -115,6 +130,9 @@ sidebar_pages:
   - 
     title: Boot9strap telepítése (Fredtool)
     url: installing-boot9strap-(fredtool)
+  - 
+    title: Boot9strap telepítése (Fredtool, Legacy)
+    url: installing-boot9strap-(fredtool-legacy)
   - 
     title: Boot9strap telepítése (USM)
     url: installing-boot9strap-(usm)
