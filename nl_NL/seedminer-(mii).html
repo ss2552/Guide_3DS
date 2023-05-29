@@ -584,8 +584,10 @@ window.cookieconsent.initialise({
     <ul>
       <li>Replace <code class="language-plaintext highlighter-rouge">&lt;model&gt;</code> with the model of your console (<code class="language-plaintext highlighter-rouge">new</code> or <code class="language-plaintext highlighter-rouge">old</code>) - if you aren’t sure, only models with the ZL/ZR buttons and C-Stick are new</li>
       <li>Replace <code class="language-plaintext highlighter-rouge">&lt;year&gt;</code> with the year the 3DS was made (you often find this on the backplate) - leave this empty if you aren’t sure, in which case it will start from the middle</li>
-      <li>If this fails with an error of <code class="language-plaintext highlighter-rouge">input.bin is invalid size</code>, remake the <code class="language-plaintext highlighter-rouge">input.bin</code> using your QR Code. If it ‘‘still’’ fails, open a different browser and remake the <code class="language-plaintext highlighter-rouge">input.bin</code> there</li>
+      <li>If this fails with an error of <code class="language-plaintext highlighter-rouge">input.bin is invalid size</code>, remake the <code class="language-plaintext highlighter-rouge">input.bin</code> using your QR Code. If it <em>still</em> fails, open a different browser and remake the <code class="language-plaintext highlighter-rouge">input.bin</code> there</li>
+      <li>If you see the message <code class="language-plaintext highlighter-rouge">"LFCS has been left blank</code>, use the opposite console model (e.g. <code class="language-plaintext highlighter-rouge">mii old</code> instead of <code class="language-plaintext highlighter-rouge">mii new</code>)</li>
       <li>The mining process will usually take up to 90 minutes, depending on luck and your GPU’s strength</li>
+      <li>If the second stage (<code class="language-plaintext highlighter-rouge">movable_part2.sed generation success</code>) gets past offset 100, Verify that you input the correct ID0. If your ID0 is correct, you cannot use this method and will have to update to the latest version and see if a non-Seedminer method is available for you <a href="https://troubleshoot.uwuu.ca/seventeen">here</a></li>
     </ul>
   </li>
   <li>When it finishes, a file called <code class="language-plaintext highlighter-rouge">movable.sed</code> will appear in the Seedminer folder</li>
