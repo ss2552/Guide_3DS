@@ -14,9 +14,10 @@ title: "FAQ"
 ## FAQ Pre-Installazione
 
 {% capture compat %}
-<summary><u>Ho installato l'ultima versione di sistema. Posso modificare la mia console senza alcun dispositivo esterno?</u></summary>
+<summary><u>Ho installato l'ultima versione di sistema. Posso modificare la mia console senza hardware esterno o altro?</u></summary>
 
-Currently the latest system version (11.17.0) cannot be hacked without external hardware.
+Dipende dal modello della tua console. Al momento, New 3DS / New 3DS XL / New 2DS XL possono essere modificati su 11.17.0 senza alcun prerequisito (es. giochi eShop titles, oggetti fisici), mentre non si può con 3DS / 3DS XL / 2DS.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
