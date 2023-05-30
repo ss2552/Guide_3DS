@@ -130,10 +130,6 @@ function can_miimine(major, minor, native, region, model) {
             // All other O3DS must Mii mine
             if (region != "K" && region != "T") do_redirect = true;
         }
-        else if (model == 1 && (minor == 14 || minor == 15)) {
-            // All other N3DS should system update
-            if (region == "U") do_redirect = true;
-        }
     }
     if (do_redirect) {
         window.location.href = "seedminer-(mii)";
