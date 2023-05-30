@@ -90,7 +90,7 @@ function can_safecerthax(major, minor, native, region, model) {
 
 // super-skaterhax
 // EUR/JPN/USA: 11.17 only
-// KOR: 11.16 only, KOR does not have 11.17
+// KOR: 11.16 only, KOR does not have 11.17 (Do seedminer first though)
 // CHN/TWN has no N3DS
 function can_superskaterhax(major, minor, native, region, model) {
     let do_redirect_sysupdate = false;
@@ -124,6 +124,8 @@ function can_superskaterhax(major, minor, native, region, model) {
     return false;
 }
 
+// Mii mining
+// Only do on 11.15 O3DS (except KOR and TWN, those don't have 11.17 and can update and do seedminer)
 function can_miimine(major, minor, native, region, model) {
     let do_redirect = false;
 
@@ -186,18 +188,18 @@ function can_seedminer(major, minor, native, region, model) {
     General exploits are as follows:
     - 1.0 - 11.3
         - Soundhax, compatible in all regions, all models
-    - 11.4 - 11.13 with matching NVer for each version:
+    - 11.4 - 11.13 with matching NVer for each version (and some KOR quirk):
         - SSLoth-Browser, doesn't work on cart-updated FW
     - O3DS & 11.4 - 11.14 & any cart-updated FW between said version:
         - safecerthax, compatible in all regions, O3DS only
         - This way O3DS still gets an easy way to install something if browser isn't functional
-    - N3DS & 11.14 - 11.15 (EUR / JPN) 
+    - N3DS & 11.14 - 11.15 (EUR / JPN / USA) 
         - Update and do 11.17 guide
     - O3DS & 11.15:
-        - Not implemented in this guide
-    - 11.16 (KOR is O3DS only):
+        - Mii mine
+    - 11.16:
         - Seedminer
-    - KOR N3DS 11.16, N3DS & 11.17 (EUR / JPN / USA):
+    - N3DS & 11.17 (EUR / JPN / USA):
         - super-skaterhax
     - O3DS & 11.17:
         - Unhackable
@@ -227,12 +229,12 @@ function redirect() {
     else if(isN3DS) model = DEVICE_N3DS;
 
     let redirected = [
-      can_soundhax,
-      can_ssloth,
-      can_safecerthax,
-      can_miimine,
-      can_seedminer,
-      can_superskaterhax,
+        can_soundhax,
+        can_ssloth,
+        can_safecerthax,
+        can_miimine,
+        can_seedminer,
+        can_superskaterhax,
     ].some(func => func(major.value, minor.value, nver.value, region.value, model));
     if (redirected) return true;
 
