@@ -543,15 +543,26 @@ window.cookieconsent.initialise({
 
 <ul>
   <li>The latest release of <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (direct download)</li>
-  <li>The latest release of <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> (direct download)</li>
-  <li><a href="https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/usm.bin">usm.bin</a> (direct download)</li>
+  <li>The latest release of <a href="https://github.com/zoogie/unSAFE_MODE/releases/download/v1.3/RELEASE_v1.3.zip">unSAFE_MODE</a> (direct download)</li>
 </ul>
 
 <h4 id="section-i---prep-work">Section I - Prep Work</h4>
 
-<p>In this section, you will use Homebrew Launcher to launch slotTool, which will overwrite your Wi-Fi slots with hacked data. Then, you will copy the files needed to trigger the unSAFE_MODE exploit onto your device’s SD card. Your Wi-Fi connection settings will be temporarily overwritten while the exploit is active.</p>
+<p>In this section, you will copy the files needed to trigger the unSAFE_MODE exploit onto your device’s SD card. Then, you will use Homebrew Launcher to launch slotTool, which will overwrite your Wi-Fi slots with hacked data. Your Wi-Fi connection settings will be temporarily overwritten while the exploit is active.</p>
 
 <ol>
+  <li>Insert your SD card into your computer</li>
+  <li>Create a folder named <code class="language-plaintext highlighter-rouge">boot9strap</code> on the root of your SD card</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> and <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/boot9strap/</code> folder on your SD card</li>
+  <li>Create a folder named <code class="language-plaintext highlighter-rouge">3ds</code> on the root of your SD card if it does not already exist
+    <ul>
+      <li>This folder stores homebrew applications and data; it is different from the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder that the device automatically generates</li>
+    </ul>
+  </li>
+  <li>Copy the <code class="language-plaintext highlighter-rouge">slotTool</code> folder from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/3ds/</code> folder on your SD card</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">usm.bin</code> from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the root folder on your SD card</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> from the SafeB9SInstaller <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
+  <li>Reinsert your SD card into your device</li>
   <li>Power on your device</li>
   <li>Open the Homebrew Launcher through your method of choice (likely the Internet Browser)</li>
   <li>Launch slotTool from the list of homebrew
@@ -564,12 +575,6 @@ window.cookieconsent.initialise({
       <li>You will see some on-screen text and then your system will shut down</li>
     </ul>
   </li>
-  <li>Remove your SD card from your console and connect it to your computer</li>
-  <li>Create a folder named <code class="language-plaintext highlighter-rouge">boot9strap</code> on the root of your SD card</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> and <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> from the boot9strap <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/boot9strap/</code> folder on your SD card</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> from the SafeB9SInstaller <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">usm.bin</code> to the root of your SD card</li>
-  <li>Put your SD card back into your console</li>
 </ol>
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/hblusm-root-layout.png" alt="" /></p>
