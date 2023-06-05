@@ -521,6 +521,7 @@ window.cookieconsent.initialise({
       <li><a href="#bannerbomb3">BannerBomb3</a></li>
       <li><a href="#installing-boot9strap-usm">Installing boot9strap (USM)</a></li>
       <li><a href="#installing-boot9strap-fredtool">Installing boot9strap (Fredtool)</a></li>
+      <li><a href="#homebrew-launcher-pichaxx">Homebrew Launcher (PicHaxx)</a></li>
     </ul>
   </li>
   <li><a href="#installing-boot9strap-soundhax">Installing boot9strap (Soundhax)</a></li>
@@ -746,6 +747,34 @@ window.cookieconsent.initialise({
 <summary><u>Unable to open Luma3DS configuration menu after running B9STool</u></summary>
 
 <p>Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and explain what has happened.</p>
+</details>
+
+<h2 id="homebrew-launcher-pichaxx">Homebrew Launcher (PicHaxx)</h2>
+
+<details>
+<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</u></summary>
+
+<p>Your <code class="language-plaintext highlighter-rouge">00000001.sav</code> and/or <code class="language-plaintext highlighter-rouge">otherapp.bin</code> files may be misplaced. Ensure that <code class="language-plaintext highlighter-rouge">00000001.sav</code> is in <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00040000</code> -&gt; <code class="language-plaintext highlighter-rouge">0017c100</code> -&gt; <code class="language-plaintext highlighter-rouge">data</code> and that <code class="language-plaintext highlighter-rouge">otherapp.bin</code> is on the root of your SD card.</p>
+
+<p>If your files are in the correct locations, re-create the save using the <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a>, then place it in <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00040000</code> -&gt; <code class="language-plaintext highlighter-rouge">0017c100</code> -&gt; <code class="language-plaintext highlighter-rouge">data</code>. Ensure that the file is named exactly <code class="language-plaintext highlighter-rouge">00000001.sav</code> and that you used your console’s <code class="language-plaintext highlighter-rouge">movable.sed</code> to create it. Re-download the latest release of <a href="https://github.com/zoogie/unSAFE_MODE/releases/latest">unSAFE_MODE</a>, place the <code class="language-plaintext highlighter-rouge">.bin</code> file relevant to your console from the <code class="language-plaintext highlighter-rouge">otherapps_with_CfgS</code> folder to the root of your SD card, and rename it to <code class="language-plaintext highlighter-rouge">otherapp.bin</code>. Do not add the <code class="language-plaintext highlighter-rouge">.bin</code> extension if you do not already see it.</p>
+</details>
+
+<details>
+<summary><u>"An exception occurred" or Errdisp when opening Picross</u></summary>
+
+<p>Your device already has custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
+</details>
+
+<details>
+<summary><u>"An error has occurred, forcing the software to close..." (white message box)</u></summary>
+
+<p>There is an issue with your <code class="language-plaintext highlighter-rouge">otherapp.bin</code> file. Download <a href="/assets/otherapps.zip">otherapps.zip</a>, place the <code class="language-plaintext highlighter-rouge">.bin</code> file relevant to your console to the root of your SD card, and rename it to <code class="language-plaintext highlighter-rouge">otherapp.bin</code>. Do not add the <code class="language-plaintext highlighter-rouge">.bin</code> extension if you do not already see it.</p>
+</details>
+
+<details>
+<summary><u>Game starts normally</u></summary>
+
+<p>Your modified <code class="language-plaintext highlighter-rouge">00000001.sav</code> file may be misplaced, or you may have used the wrong <code class="language-plaintext highlighter-rouge">movable.sed</code> when creating it. Re-generate your <code class="language-plaintext highlighter-rouge">movable.sed</code> from <a href="https://seedminer.hacks.guide">Bruteforce Movable</a>, then re-create the save using the <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a> and place the resulting file (<code class="language-plaintext highlighter-rouge">00000001.sav</code>) in <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00040000</code> -&gt; <code class="language-plaintext highlighter-rouge">0017c100</code> -&gt; <code class="language-plaintext highlighter-rouge">data</code>.</p>
 </details>
 
 <h2 id="installing-boot9strap-soundhax">Installing boot9strap (Soundhax)</h2>
