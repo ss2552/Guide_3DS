@@ -14,7 +14,7 @@ Per i dettagli tecnici sugli exploit che utilizzerai in questa pagina, vedi [qui
 
 ### Note di Compatibilità
 
-Super-skaterhax (quando utilizzato per avviare l'Homebrew Launcher) è compatibile con i modelli New alla versione 11.16.0 di tutte le regioni, e 11.17.0 per le regioni EUR e JPN.
+Super-skaterhax (quando utilizzato per avviare l'Homebrew Launcher) è compatibile con i modelli New alla versione 11.16.0 di tutte le regioni, e 11.17.0 per le regioni EUR, JPN e USA.
 
 Le istruzioni indicate si applicano solo a New 3DS, New 3DS XL e New 2DS XL. Assicurati che la console che stai modificando sia un New 3DS, New 3DS XL, o un New 2DS XL prima di continuare.
 {: .notice--warning}
@@ -32,7 +32,7 @@ In questa sezione copierai i file necessari per attivare sia super-skaterhax che
 1. Inserisci la scheda SD nel tuo computer
 1. Copia i file `boot.firm` e `boot.3dsx` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
   + La directory principale della scheda SD è la cartella della tua scheda SD in cui è possibile visualizzare la cartella Nintendo 3DS, ma non il suo interno
-1. Copia tutto il contenuto della cartella per la regione della tua console dell'archivio `.zip` di super-skaterhax nella directory principale della tua scheda SD
+1. Copia tutto il contenuto della cartella per la regione della tua console (e anche della versione di sistema in caso di USA) dell'archivio `.zip` di super-skaterhax nella directory principale della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
@@ -69,18 +69,10 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
 1. Se l'exploit ha avuto successo, la tua console avrà avviato l'Homebrew Launcher
 1. Spegni il tuo 3DS
 
-#### Sezione III - Verifica Pulsanti Hardware 
+#### Sezione III - Verifica Pulsanti Hardware
 
 {% include_relative include/safemodecheck.txt %}
 
 ___
 
-### Passaggio successivo: Scelta di un exploit
-
-Se è apparsa la fotocamera nella sezione precedente, la tua console ha la Modalità Provvisoria probabilmente funzionante.
-
-Se è apparsa la fotocamera, prosegui con [Installazione di boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
-{: .notice--primary}
-
-Se la fotocamera NON è apparsa, prosegui con [Dump di Movable (nimhax)](dumping-movable-(nimhax))
-{: .notice--info}
+{% include_relative include/hbl-common-exploits.txt %}

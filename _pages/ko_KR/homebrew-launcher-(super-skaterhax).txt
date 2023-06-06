@@ -14,7 +14,7 @@ title: "Homebrew Launcher (super-skaterhax)"
 
 ### 호환성 안내
 
-Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR, JPN and USA regions.
 
 The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. 해킹되는 기기가 New 3DS, New 3DS XL, 또는 New 2DS XL이 맞는지 확인 하고 진행하시길 바랍니다.
 {: .notice--warning}
@@ -32,7 +32,7 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Luma3DS `.zip`안에 있는 `boot.firm`과 `boot.3dsx`를 SD 카드의 루트에 복사해 주세요
   + SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 않 들어가 있는 상태의 폴더 입니다
-1. Copy everything inside the folder for your device's region in the super-skaterhax `.zip` to the root of your SD card
+1. Copy everything inside the folder for your device's region (and also system version if the region is USA) in the super-skaterhax `.zip` to the root of your SD card
 1. SD 카드를 기기에 다시 삽입해 주세요
 1. 기기를 시작해 주세요
 
@@ -69,18 +69,10 @@ In this section, you will visit the browser exploit webpage, which will launch t
 1. 익스플로잇이 성공적이었다면 Homebrew Launcher로 부팅되었을 것입니다
 1. 기기를 종료해 주세요
 
-#### 섹션 III - 하드웨어 버튼 작동 확인 
+#### 섹션 III - 하드웨어 버튼 작동 확인
 
 {% include_relative include/safemodecheck.txt %}
 
 ___
 
-### 다음 단계: 익스플로잇 선택
-
-이전 섹션에서 카메라가 표시되었다면, 안전 모드가 정상적으로 실행될 수 있을 것입니다.
-
-If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
-{: .notice--primary}
-
-If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
-{: .notice--info}
+{% include_relative include/hbl-common-exploits.txt %}

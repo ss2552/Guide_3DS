@@ -15,6 +15,7 @@ Pages du guide :
   * [BannerBomb3](#bannerbomb3)
   * [Installation de boot9strap (USM)](#installing-boot9strap-usm)
   * [Installation de boot9strap (Fredtool)](#installing-boot9strap-fredtool)
+  * [Homebrew Launcher (PicHaxx)](#homebrew-launcher-pichaxx)
 * [Installation de boot9strap (Soundhax)](#installing-boot9strap-soundhax)
 * [Installation de boot9strap (SSLoth-Browser)](#installing-boot9strap-ssloth-browser)
 * [Homebrew Launcher (super-skaterhax)](#homebrew-launcher-super-skaterhax)
@@ -124,7 +125,7 @@ Pour résoudre ce problème, vous devrez déterminer quel dossier contient vos d
 
 {% capture compat %}
 <summary><u>Le menu de Gestion des Nintendo DSiWare plante sans afficher le menu multihax BB3</u></summary>
-Assurez-vous que `F00D43D5.bin` est le seul fichier dans `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si c'est le cas, recréez le avec l'injecteur [Bannerbomb3](http://3dstools.nhnarwhal.com/#/bb3gen). 
+Assurez-vous que `F00D43D5.bin` est le seul fichier dans `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Si c'est le cas, recréez le avec l'injecteur [Bannerbomb3](http://3dstools.nhnarwhal.com/#/bb3gen).
 
 Assurez-vous également que `bb3.bin` est à la racine de la carte SD. S'il est absent, téléchargez la dernière version de [Bannerbomb3](https://github.com/lifehackerhansol/Bannerbomb3/releases/download/v3. -lhs1/bb3.bin) (téléchargement direct) et copiez le fichier `bb3.bin` vers la racine de votre carte SD.
 
@@ -256,6 +257,38 @@ Il y a un problème avec votre fichier `boot.nds`. Re-téléchargez la dernière
 <summary><u>Impossible d'ouvrir le menu de configuration de Luma3DS après avoir exécuté B9STool</u></summary>
 
 Rejoignez [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp) et expliquez ce qu'il s'est passé.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+## Homebrew Launcher (PicHaxx)
+
+{% capture compat %}
+<summary><u>"Une erreur est survenue. Maintenez le bouton POWER enfoncé pour éteindre la console..." (écran noir avec texte)</u></summary>
+
+Your `00000001.sav` and/or `otherapp.bin` files may be misplaced. Ensure that `00000001.sav` is in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` and that `otherapp.bin` is on the root of your SD card.
+
+If your files are in the correct locations, re-create the save using the [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx), then place it in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Ensure that the file is named exactly `00000001.sav` and that you used your console's `movable.sed` to create it. Re-download [otherapps.zip](/assets/otherapps.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. N'ajoutez pas l'extension `.bin` si vous ne la voyez pas déjà.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"An exception occurred" or Errdisp when opening Picross</u></summary>
+
+Your device already has custom firmware. Vous devriez [vérifier la présence d'un CFW](checking-for-cfw).
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>"Le logiciel a été arrêté car une erreur est survenue. La console va redémarrer." (boîte de message blanche)</u></summary>
+
+There is an issue with your `otherapp.bin` file. Download [otherapps.zip](/assets/otherapps.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. N'ajoutez pas l'extension `.bin` si vous ne la voyez pas déjà.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Game starts normally</u></summary>
+
+Your modified `00000001.sav` file may be misplaced, or you may have used the wrong `movable.sed` when creating it. Re-generate your `movable.sed` from [Bruteforce Movable](https://seedminer.hacks.guide), then re-create the save using the [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx) and place the resulting file (`00000001.sav`) in `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -429,7 +462,7 @@ Si cela échoue, essayez d'utiliser une autre carte SD.
 {% capture compat %}
 <summary><u>"Une erreur est survenue. Veuillez sauvegarder les données de tout logiciel en cours d'utilisation et redémarrer la console."</u></summary>
 
-La date n'est pas correctement configurée. Pour la configurer correctement, suivez ces étapes : 
+La date n'est pas correctement configurée. Pour la configurer correctement, suivez ces étapes :
 
 1. Ouvrez les Paramètres de la console depuis le Menu HOME.
 1. Allez dans Autres paramètres.
@@ -438,7 +471,7 @@ La date n'est pas correctement configurée. Pour la configurer correctement, sui
 1. Appuyez sur les flèches Haut/Bas pour définir le jour, le mois et l'année.
 1. Appuyez sur OK pour confirmer.
 
-Si le problème persiste et que vous avez une version du logiciel système se terminant par E, et que la langue est réglée sur l'anglais, changez la langue dans n'importe quelle autre langue **temporairement**. Vous pouvez annuler cette modification lorsque vous atteindrez la Finalisation de l'installation. 
+Si le problème persiste et que vous avez une version du logiciel système se terminant par E, et que la langue est réglée sur l'anglais, changez la langue dans n'importe quelle autre langue **temporairement**. Vous pouvez annuler cette modification lorsque vous atteindrez la Finalisation de l'installation.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -544,7 +577,7 @@ Les étapes ci-dessous peuvent être tentées dans n'importe quel ordre, mais so
 1. Éteignez votre console, éjectez la carte de jeu si elle est insérée, allumez votre console, puis attendez jusqu'à dix minutes. Si votre console démarre dans les dix minutes, le problème a été résolu et il est peu probable qu'il se reproduise
 1. Renommez le dossier `Nintendo 3DS` sur votre carte SD en `Nintendo 3DS_BACKUP`, puis essayez de démarrer. Si votre console démarre avec succès, il y a un problème dans votre dossier `Nintendo 3DS`. Essayez d'effacer les données "extdata" du Menu HOME :
 	+ Naviguez vers `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
-  + Supprimez le dossier correspondant à la région de votre 3DS : 
+  + Supprimez le dossier correspondant à la région de votre 3DS :
 		+ **Région EUR** : `00000098`
 		+ **Région JPN** : `00000082`
 		+ **Région USA** : `0000008f`
@@ -632,7 +665,7 @@ Veuillez prendre une photo de l'erreur et rejoindre [Nintendo Homebrew sur Disco
 1. Appuyez sur (Start) pour redémarrer la console
 1. Effectuez une Mise à jour du Système en vous rendant dans les Paramètres de la console, puis "Autres paramètres", puis tout à droite sur l'option "Mise à jour du Système"
   + Le processus de mise à jour verra que les titres TWL essentiels ont été désinstallés, et va les re-télécharger et les réinstaller
-1. Une fois la mise à jour terminée, appuyez sur "OK" pour redémarrer la console 
+1. Une fois la mise à jour terminée, appuyez sur "OK" pour redémarrer la console
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

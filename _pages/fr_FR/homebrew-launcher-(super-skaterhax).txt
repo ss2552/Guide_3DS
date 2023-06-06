@@ -14,7 +14,7 @@ Pour des détails techniques sur les exploits que vous utiliserez sur cette page
 
 ### Notes de compatibilité
 
-Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR and JPN regions.
+Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.16.0 in all regions, and 11.17.0 in the EUR, JPN and USA regions.
 
 Les instructions fournies ne s'appliquent qu'aux New 3DS, New 3DS XL et New 2DS XL. Veuillez vous assurer que la console que vous hackez est une New 3DS, New 3DS XL ou New 2DS XL avant de continuer.
 {: .notice--warning}
@@ -32,7 +32,7 @@ Dans cette section, vous copierez les fichiers nécessaires pour déclencher à 
 1. Insérez votre carte SD dans votre ordinateur
 1. Copiez `boot.firm` et `boot.3dsx` depuis Luma3DS `.zip`vers la racine de votre carte SD
   + La racine de la carte SD représente le répertoire initial de la carte SD où vous pouvez voir le dossier Nintendo 3DS, mais ce n'est pas à l'intérieur de ce dernier
-1. Copiez tout ce qui se trouve dans le dossier correspondant à la région de votre console dans le fichier `.zip` à la racine de votre carte SD
+1. Copy everything inside the folder for your device's region (and also system version if the region is USA) in the super-skaterhax `.zip` to the root of your SD card
 1. Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console
 1. Allumez votre console
 
@@ -69,18 +69,10 @@ Si vous ne l'avez pas déjà fait, assurez-vous d'avoir une connexion Internet f
 1. Si l'exploit a réussi, votre console aura démarré dans l'Homebrew Launcher
 1. Éteignez votre console
 
-#### Section III - Hardware Button Check 
+#### Section III - Hardware Button Check
 
 {% include_relative include/safemodecheck.txt %}
 
 ___
 
-### Étape suivante : Choisissez un exploit
-
-Si l'appareil photo numérique est apparu dans la section précédente, le mode sans échec devrait fonctionner sur votre console.
-
-If the camera appeared, continue to [Installing boot9strap (HBL-USM)](installing-boot9strap-(hbl-usm))
-{: .notice--primary}
-
-If the camera did NOT appear, continue to [Dumping Movable (nimhax)](dumping-movable-(nimhax))
-{: .notice--info}
+{% include_relative include/hbl-common-exploits.txt %}

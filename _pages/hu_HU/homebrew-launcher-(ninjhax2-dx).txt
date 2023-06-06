@@ -1,0 +1,55 @@
+---
+title: "Homebrew Launcher (ninjhax2-dx)"
+---
+
+{% include toc title="Tartalomjegyzék" %}
+
+{% capture technical_info %}
+<summary><em>Technikai részletek (opcionális)</em></summary>
+A [Ninjhax2](https://github.com/smealum/ninjhax2.x) egy exploit a "Cubic Ninja" játékhoz, amit [smealum](https://github.com/smealum) készített. Ez az oldal egy [zoogie](https://github.com/zoogie) által frissített verzióját tartalmazza a ninjhax-nak [ninjhax2-dx](https://github.com/zoogie/ninjhax2-dx) néven, ami támogatja a 11.17.0 verziót.
+{% endcapture %}
+<details>{{ technical_info | markdownify }}</details>
+{: .notice--info}
+
+Ez a metódus működő 3DS kamerát igényel.
+{: .notice--info}
+
+Etz a folyamat felülírja a Cubic Ninja mentés fájlt, ha rendelkezel ilyennel.
+{: .notice--warning}
+
+## Amire szükséged lesz
+* A "Cubic Ninja" játék
+* A [ninjhax2-dx](https://github.com/zoogie/ninjhax2-dx/releases) legújabb kiadása
+* A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl)
+
+## Lépések
+
+### I. rész - Előkészületek
+
+1. Kapcsold ki a készüléked
+1. Helyezd az SD kártyád a számítógépbe
+1. Másold át a ´Launcher.dat´ a konzolodnak megfelelő mappából a.zip´ fájlból az SD kártya gyökerébe a ninjhax2-dx `.zip` fájlból az SD kártyád gyökerébe
+  + Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne
+1. Másold át a `boot.firm` és `boot.3dsx` fájlt a Luma3DS `.zip`-ből az SD kártya gyökerébe
+
+### II. rész - ninjhax2-dx
+1. Tedd vissza az SD kártyád a készülékedbe
+1. Kapcsold be a készülékedet
+1. Indítsd el a "Cubic Ninja" egyszer és válaszd a "Create" opciót
+  + Ha kérdezi, törölj minden adatot
+1. Válaszd a "QR Code" opciót
+1. Válaszd a "Scan QR Code" opciót
+1. A PC-n nyiss meg egy böngészőt és menj a [ninjhax2-dx weboldalára](https://zoogie.github.io/web/nh2dx/)
+1. Válaszd ki a konzolod régióját és hardverét
+1. Az eszközödön olvasd le a QR kódot
+  + Ha a játék kilép a HOME menübe, az exploit sikeresen telepítésre került
+1. Indítsd el a "Cubic Ninja"-t még egyszer
+  + Ha az exploit sikeres volt, a készülékednek ezt követően be kell bootolnia a Homebrew Launcherbe
+
+### III. rész - Fizikai gombok ellenőrzése
+
+{% include_relative include/safemodecheck.txt %}
+
+___
+
+{% include_relative include/hbl-common-exploits.txt %}

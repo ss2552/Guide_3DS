@@ -1,0 +1,34 @@
+---
+title: "Seedminer (Alternatív)"
+---
+
+{% include toc title="Tartalomjegyzék" %}
+
+{% include_relative include/seedminer-base.txt %}
+
+___
+
+### Következő lépések
+
+Válaszd ki a metódust az applikciótól függően ami teleptve van a 3DS-edre. Nem számít melyik metódust választod, a végeredmény ugyanaz lesz.
+
+#### DSiWare
+
+Ha rendelkezel bármilyen [DSiWare](https://en.wikipedia.org/wiki/List_of_DSiWare_games_and_applications) címmel a 3DS-edem, akkor dumpolhatod az SD kártyára, így használható arra, hogy átmenetileg injektálja a Flipnote-oz a DS Connection Settings-be.
+
+Tovább a [eShop DSiWare dumpolására](dumping-eshop-dsiware)
+{: .notice--primary}
+
+#### PicHaxx
+
+Ez a metódus a Pokémon Picross játékot használja, am egy free-to-play játék. A `movable.sed` használatával létrehozhatsz egy olyan mentést fájlt, ami hozzáférést ad a Homebrew Launcher-hez, am további exploitolásra kerül felhasználásra.
+
++ Folytatás a [Homebrew Launcher (PicHaxx)](homebrew-launcher-(pichaxx))-szal
+{: .notice--primary}
+
+#### steelhax
+
+Ez a metódus a Steel Diver: Sub Wars játékot használja, am egy free-to-play játék. A `movable.sed` használatával létrehozhatsz egy olyan mentést fájlt, ami hozzáférést ad a Homebrew Launcher-hez, am további exploitolásra kerül felhasználásra.
+
+Tovább a [Homebrew Launcher (steelhax)](homebrew-launcher-(steelhax))-re
+{: .notice--primary}
