@@ -1,4 +1,4 @@
-Ebben a fejezetben vissza fogod állítano a DS Connection Settings-et az az előtti állapotára, mielőtt lecserélésre került a Flipnote Studio-ra egy korábbi szakaszban.
+Ebben a fejezetben vissza fogod állítani a DS Connection Settings-et az az előtti állapotára, mielőtt lecserélésre került a Flipnote Studio-ra egy korábbi szakaszban.
 
 1. Navigálj a `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` mappába az SD kártyán
 1. Másold a `42383841.bin` fájlt az `clean` mappájából a letöltött DSiWare csomagból (output_(name).zip) a `Nintendo DSiWare` mappába, felülírva az ott találhatót

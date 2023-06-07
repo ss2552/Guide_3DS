@@ -18,7 +18,7 @@ Se você ver um menu incomum, PARE - você já tem custom firmware! Continue [da
 
 #### Seção II - Verificação da Versão do Sistema
 
-1. Abra o aplicativo Configuração do Console
+1. Abra a Configuração do Console em seu dispositivo
 1. A versão do seu sistema será exibida na parte inferior direita da tela superior (por exemplo, "Ver. 11.17.0-50U")
 
 #### Seção III - Selecione um Método
@@ -34,7 +34,7 @@ Esta não parece ser uma versão válida de sistema.
 {% endcapture %}
 
 {% capture methodUnavailable %}
-Você atualmente não pode hackear seu 3DS nesta versão usando os métodos principais. If you want to hack your console, you may have to use ntrboot.
+Você atualmente não pode hackear seu 3DS nesta versão usando os métodos principais. Se você quiser aplicar hacks em seu console, você pode ter que usar ntrboot.
 {% endcapture %}
 
 {% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}

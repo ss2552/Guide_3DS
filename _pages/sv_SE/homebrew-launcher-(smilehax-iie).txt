@@ -14,19 +14,18 @@ This set of instructions does not support the Japanese version of SmileBASIC.
 <details>{{ technical_info | markdownify }}</details>
 {: .notice--info}
 
-## What You Need 
+### What You Need 
 + The game "SmileBASIC" installed on your device
   + If you have downloaded it before, you can [redownload it](https://en-americas-support.nintendo.com/app/answers/detail/a_id/607/~/how-to-download-or-redownload-content-in-nintendo-3ds-eshop)
   + Your SD card must be inserted in your device to install SmileBASIC
-+ Your `movable.sed` file from completing [Seedminer](seedminer)
 + The latest release of [smilehax-IIe](https://github.com/zoogie/smilehax-IIe/releases/download/v1.0/Release_sh2e_v1.0.zip) (direct download) 
 + The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 + [otherapps.zip]({{ base_path }}/assets/otherapps.zip) (direct download)
 
 
-## Instructions
+### Instructions
 
-### Section I - Prep Work
+#### Section I - Prep Work
 
 1. Stäng av din enhet
 1. Insert your SD card into your computer
@@ -37,7 +36,7 @@ This set of instructions does not support the Japanese version of SmileBASIC.
 1. Transfer the `.wav` for your region from the Release_sh2e `.zip` to a device that can play `.wav` files, for example a phone
 1. Copy the petitcom `.icn` for your region to the root of your SD card
 
-### Section II - smilehax
+#### Section II - smilehax
 
 1. Launch SmileBASIC
   + Update the game if prompted
@@ -57,9 +56,9 @@ This set of instructions does not support the Japanese version of SmileBASIC.
 1. Press the START button
 1. Select the SH2E-xxx.TXT file, then press OK, then "Yes" to execute it
   + If you get kicked back into menu, make sure you're using the latest version of SmileBASIC
-1. Your device should load into the Homebrew Launcher
+1. If the exploit was successful, your device will have booted into the Homebrew Launcher
 
-### Section III - Hardware Button Check
+#### Section III - Hardware Button Check
 
 {% include_relative include/safemodecheck.txt %}
 

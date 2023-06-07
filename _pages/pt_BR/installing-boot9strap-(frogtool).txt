@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (Frogtool)"
+title: "Instalando boot9strap (Frogtool)"
 ---
 
 {% include toc title="Tabela de Conteúdo" %}
@@ -52,11 +52,12 @@ Caso não seja possível instalar um, siga [Bannerbomb3](bannerbomb3).
 
 #### Seção IV - Exploit do Flipnote
 
-{% include_relative include/install-boot9strap-b9stool.txt method="dsinternet" %}
+{% include_relative include/install-boot9strap-b9stool.txt method="dsdlp" %}
 
 #### Seção VI - Configuração do Luma3DS
 
-{% include_relative include/configure-luma3ds.txt onboot="true" %}
+1. Press and hold (Select), and while holding (Select), power on your device
+{% include_relative include/configure-luma3ds.txt %}
 
 {% include_relative include/luma3ds-installed-note.txt %}
 

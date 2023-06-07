@@ -18,7 +18,7 @@ Ha egy szokatlan menüt látsz ÁLLJ MEG - már vagy egyedi firmwared! Folytasd 
 
 #### II. rész - Rendszer verzió ellenőrzés
 
-1. Indítsd el a System Settings alkalmazást
+1. Lépj be a System Settings-be a készülékeden
 1. A rendszer verziód ki lesz írva a felső képernyő jobb alsó sarkában (pl.: "Ver. 11.17.0-50U")
 
 #### III. rész - Metódus választása
@@ -34,7 +34,7 @@ Ez nem tűnik egy érvényes rendszer verziónak.
 {% endcapture %}
 
 {% capture methodUnavailable %}
-Jelenleg nem tudod hackelni a 3DS-ed ezen a verzión a fő metódusokkal. If you want to hack your console, you may have to use ntrboot.
+Jelenleg nem tudod hackelni a 3DS-ed ezen a verzión a fő metódusokkal. Ha meg szeretnéd hackelni a konzolod, lehet hogy ntrbootot kell használnod.
 {% endcapture %}
 
 {% include consoleVersionSelect.html noneSelected=noneSelected invalidVersion=invalidVersion methodUnavailable=methodUnavailable %}
