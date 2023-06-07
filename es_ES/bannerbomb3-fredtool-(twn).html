@@ -595,8 +595,9 @@ window.cookieconsent.initialise({
   <li>Click the “output_(name).zip” link</li>
   <li>Navigate to <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> on your SD card
     <ul>
-      <li>La <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> en cuestión es la misma que usaste en <a href="seedminer">Seedminer</a></li>
-      <li>El <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> es una carpeta con un nombre compuesto por 32 caracteres, dentro de <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> is the 32-letter folder name that you copied in <a href="seedminer">Seedminer</a></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> is a 32-letter folder inside of the <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li>If you have multiple <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> folders, follow the instructions <a href="troubleshooting#bannerbomb3">here</a></li>
     </ul>
   </li>
   <li>Create a folder named <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> inside of the <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code>
@@ -618,7 +619,7 @@ window.cookieconsent.initialise({
   <li>Copy the <code class="language-plaintext highlighter-rouge">.bin</code> file that is the same number as the one that was on the second page of the DSiWare Management menu to the <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> folder, and overwrite when prompted</li>
   <li>Enciende tu consola</li>
   <li>Entra a Configuración de la consola</li>
-  <li>Navigate to <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code></li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)</li>
   <li>Wait a while
     <ul>
       <li>The following should happen, in this order: A progress swirl, a short freeze, the bottom screen turning purple, the music stopping, then the device showing an error message and rebooting</li>
@@ -708,11 +709,12 @@ window.cookieconsent.initialise({
 <h4 id="section-vi---luma3ds-configuration">Section VI - Luma3DS Configuration</h4>
 
 <ol>
-  <li>Press and hold (Select), and while holding (Select), power on your device. This will launch Luma3DS configuration
+  <li>Press and hold (Select), and while holding (Select), power on your device</li>
+  <li>Your device should have booted into the Luma3DS configuration menu
     <ul>
       <li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
-      <li>For the purpose of this guide, these settings will be left on default settings</li>
-      <li>If you boot to HOME Menu, <a href="https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md">follow this troubleshooting guide</a></li>
+      <li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
+      <li>If your device shuts down when you try to power it on, ensure that you have copied <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
     </ul>
   </li>
   <li>Presiona (Start) para guardar y reiniciar</li>

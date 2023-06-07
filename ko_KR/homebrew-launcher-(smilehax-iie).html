@@ -508,14 +508,14 @@ window.cookieconsent.initialise({
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> 목차</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#what-you-need" id="markdown-toc-what-you-need">What You Need</a></li>
+  <li><a href="#준비물" id="markdown-toc-준비물">준비물</a></li>
   <li><a href="#진행-방법" id="markdown-toc-진행-방법">진행 방법</a>    <ul>
       <li><a href="#섹션-i---준비-작업" id="markdown-toc-섹션-i---준비-작업">섹션 I - 준비 작업</a></li>
-      <li><a href="#section-ii---smilehax" id="markdown-toc-section-ii---smilehax">Section II - smilehax</a></li>
-      <li><a href="#section-iii---hardware-button-check" id="markdown-toc-section-iii---hardware-button-check">Section III - Hardware Button Check</a></li>
-      <li><a href="#다음-단계-익스플로잇-선택" id="markdown-toc-다음-단계-익스플로잇-선택">다음 단계: 익스플로잇 선택</a></li>
+      <li><a href="#섹션-ii---smilehax" id="markdown-toc-섹션-ii---smilehax">섹션 II - smilehax</a></li>
+      <li><a href="#섹션-iii---하드웨어-버튼-작동-확인" id="markdown-toc-섹션-iii---하드웨어-버튼-작동-확인">섹션 III - 하드웨어 버튼 작동 확인</a></li>
     </ul>
   </li>
+  <li><a href="#다음-단계-익스플로잇-선택" id="markdown-toc-다음-단계-익스플로잇-선택">다음 단계: 익스플로잇 선택</a></li>
 </ul>
 
   </nav>
@@ -528,23 +528,22 @@ window.cookieconsent.initialise({
 <p><a href="https://github.com/zoogie/smilehax-IIe">smilehax-IIe</a> is an exploit for the game “SmileBASIC” made by zoogie, compatible with system versions 9.0.0 through 11.17.0 for USA/EUR/JPN region consoles.</p>
 </details>
 
-<h2 id="what-you-need">What You Need</h2>
+<h3 id="준비물">준비물</h3>
 <ul>
-  <li>The game “SmileBASIC” installed on your device
+  <li>기기에 설치된 게임 “SmileBASIC”
     <ul>
       <li>If you have downloaded it before, you can <a href="https://en-americas-support.nintendo.com/app/answers/detail/a_id/607/~/how-to-download-or-redownload-content-in-nintendo-3ds-eshop">redownload it</a></li>
-      <li>Your SD card must be inserted in your device to install SmileBASIC</li>
+      <li>SmileBASIC을 설치하려면 SD 카드가 들어가 있어야 합니다</li>
     </ul>
   </li>
-  <li>Your <code class="language-plaintext highlighter-rouge">movable.sed</code> file from completing <a href="seedminer">Seedminer</a></li>
-  <li>The latest release of <a href="https://github.com/zoogie/smilehax-IIe/releases/download/v1.0/Release_sh2e_v1.0.zip">smilehax-IIe</a> (direct download)</li>
-  <li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> file)</li>
-  <li><a href="/assets/otherapps.zip">otherapps.zip</a> (direct download)</li>
+  <li>최신 버전의 <a href="https://github.com/zoogie/smilehax-IIe/releases/download/v1.0/Release_sh2e_v1.0.zip">smilehax-IIe</a> (직접 다운로드)</li>
+  <li>최신 버전의 <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (<code class="language-plaintext highlighter-rouge">.zip</code> 파일)</li>
+  <li><a href="/assets/otherapps.zip">otherapps.zip</a> (직접 다운로드)</li>
 </ul>
 
-<h2 id="진행-방법">진행 방법</h2>
+<h3 id="진행-방법">진행 방법</h3>
 
-<h3 id="섹션-i---준비-작업">섹션 I - 준비 작업</h3>
+<h4 id="섹션-i---준비-작업">섹션 I - 준비 작업</h4>
 
 <ol>
   <li>기기를 종료해 주세요</li>
@@ -556,14 +555,14 @@ window.cookieconsent.initialise({
   </li>
   <li>Copy the otherapp payload for your model/region/version from <code class="language-plaintext highlighter-rouge">otherapps.zip</code> to the root of your SD card, then rename the payload to <code class="language-plaintext highlighter-rouge">otherapp.bin</code>
     <ul>
-      <li>Do not add the <code class="language-plaintext highlighter-rouge">.bin</code> extension if you do not already see it</li>
+      <li><code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요</li>
     </ul>
   </li>
   <li>Transfer the <code class="language-plaintext highlighter-rouge">.wav</code> for your region from the Release_sh2e <code class="language-plaintext highlighter-rouge">.zip</code> to a device that can play <code class="language-plaintext highlighter-rouge">.wav</code> files, for example a phone</li>
   <li>Copy the petitcom <code class="language-plaintext highlighter-rouge">.icn</code> for your region to the root of your SD card</li>
 </ol>
 
-<h3 id="section-ii---smilehax">Section II - smilehax</h3>
+<h4 id="섹션-ii---smilehax">섹션 II - smilehax</h4>
 
 <ol>
   <li>Launch SmileBASIC
@@ -590,10 +589,10 @@ window.cookieconsent.initialise({
       <li>If you get kicked back into menu, make sure you’re using the latest version of SmileBASIC</li>
     </ul>
   </li>
-  <li>Your device should load into the Homebrew Launcher</li>
+  <li>익스플로잇이 성공적이었다면 Homebrew Launcher로 부팅되었을 것입니다</li>
 </ol>
 
-<h3 id="section-iii---hardware-button-check">Section III - Hardware Button Check</h3>
+<h4 id="섹션-iii---하드웨어-버튼-작동-확인">섹션 III - 하드웨어 버튼 작동 확인</h4>
 
 <p>이 섹션에서는 기기의 좌/우 어깨 버튼 (L, R 버튼)이 정상적으로 동작하는지 확인합니다. 이 테스트를 통해, 다음 페이지에서 어떤 방법을 취해야 할지 결정할 수 있습니다.</p>
 
@@ -613,9 +612,10 @@ window.cookieconsent.initialise({
 
 <p>이전 섹션에서 카메라가 표시되었다면, 안전 모드가 정상적으로 실행될 수 있을 것입니다.</p>
 
-<p class="notice--primary">If the camera appeared, continue to <a href="installing-boot9strap-(hbl-usm)">Installing boot9strap (HBL-USM)</a></p>
+<p class="notice--primary">카메라가 실행되었다면, <a href="installing-boot9strap-(hbl-usm)">boot9strap 설치 (HBL-USM)</a>으로 계속합니다</p>
 
-<p class="notice--info">If the camera did NOT appear, continue to <a href="dumping-movable-(nimhax)">Dumping Movable (nimhax)</a></p>
+<p class="notice--info">카메라가 실행되지 않았다면, <a href="dumping-movable-(nimhax)">movable.sed 덤프 (nimhax)</a>로 계속합니다</p>
+
 
         
       </section>

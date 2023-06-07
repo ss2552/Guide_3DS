@@ -595,8 +595,9 @@ window.cookieconsent.initialise({
   <li>Drücke auf den “output_(name).zip” Link</li>
   <li>Gehe zu <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt; auf deiner SD-Karte</code>
     <ul>
-      <li>Diese <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> ist dieselbe die du bei <a href="seedminer">Seedminer</a> verwendet hast</li>
-      <li>Die <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> ist ein 32 Zeichen langer Ordner innerhalb der <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> is the 32-letter folder name that you copied in <a href="seedminer">Seedminer</a></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> is a 32-letter folder inside of the <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li>If you have multiple <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> folders, follow the instructions <a href="troubleshooting#bannerbomb3">here</a></li>
     </ul>
   </li>
   <li>Erstelle einen Ordner mit dem Namen <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> innerhalb der <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code>
@@ -615,7 +616,7 @@ window.cookieconsent.initialise({
   <li>Kopiere die <code class="language-plaintext highlighter-rouge">.bin</code> Datei mit der gleichen Nummer wie die auf der zweiten Seite des DSiWare Management Menüs zum <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> Ordners, überschreibe, wenn du gefragt wirst</li>
   <li>Schalte deine Konsole an</li>
   <li>Starte die Systemeinstellungen auf deinem 3DS</li>
-  <li>Gehe zu <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code></li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)</li>
   <li>Warte ein bisschen
     <ul>
       <li>Folgendes sollte in dieser Reihenfolge passieren: Ein Progress swirl, kurzes Einfrieren der Bildschirme, der untere Bildschirm wird violett, die Musik hört auf, der 3DS zeigt eine Fehlermeldung und startet sich neu</li>
@@ -623,7 +624,7 @@ window.cookieconsent.initialise({
     </ul>
   </li>
   <li>Du solltest nun die <code class="language-plaintext highlighter-rouge">42383821.bin</code> Datei im Stammverzeichnis deiner SD-Karte haben</li>
-  <li>Gehe zu <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> auf deiner SD-Karte</li>
+  <li>Navigiere zu <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> auf deiner SD-Karte</li>
   <li>Lösche alle <code class="language-plaintext highlighter-rouge">.bin</code> Dateien im <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> Ordner</li>
 </ol>
 
@@ -655,7 +656,7 @@ window.cookieconsent.initialise({
   <li>Kopiere die <code class="language-plaintext highlighter-rouge">484E4441.bin</code> Datei von dem <code class="language-plaintext highlighter-rouge">hax</code> Ordner des heruntergeladenen DSiWare-Archives (output_(name).zip) in den <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> Ordner</li>
   <li>Stecke deine SD-Karte nun wieder in deinen 3DS</li>
   <li>Schalte deine Konsole an</li>
-  <li>Starte die Systemeinstellungen auf deiner Konsole</li>
+  <li>Starte die Systemeinstellungen auf deinem 3DS</li>
   <li>Navigiere zu “Data Management” -&gt; “DSiWare”</li>
   <li>Beim “SD Card” Abschnitt, wähle den “Haxxxxxxxxx!” Titel</li>
   <li>Drücke “Copy”, und dann “OK”</li>
@@ -705,11 +706,12 @@ window.cookieconsent.initialise({
 <h4 id="section-vi---luma3ds-configuration">Section VI - Luma3DS Configuration</h4>
 
 <ol>
-  <li>Press and hold (Select), and while holding (Select), power on your device. This will launch Luma3DS configuration
+  <li>Press and hold (Select), and while holding (Select), power on your device</li>
+  <li>Your device should have booted into the Luma3DS configuration menu
     <ul>
-      <li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
-      <li>For the purpose of this guide, these settings will be left on default settings</li>
-      <li>If you boot to HOME Menu, <a href="https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md">follow this troubleshooting guide</a></li>
+      <li>Das Luma3DS Konfigurations-Menü enthält Einstellungen für die Luma3DS Custom Firmware. Viele dieser Einstellungen sind nützlich für Personalisierung und Debugging</li>
+      <li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
+      <li>Wenn sich deine Konsole beim Starten direkt wieder ausschaltet, solltest du sicherstellen, dass du die <code class="language-plaintext highlighter-rouge">boot.firm</code> Datei aus der Luma3DS.<code class="language-plaintext highlighter-rouge">zip</code> Datei in das Stammverzeichnis deiner SD-Karte kopiert hast</li>
     </ul>
   </li>
   <li>Drücke (Start) zum Speichern und neustarten</li>
@@ -718,11 +720,11 @@ window.cookieconsent.initialise({
 <h4 id="abschnitt-vii---ds-download-spiel-wiederherstellen">Abschnitt VII - DS Download-Spiel wiederherstellen</h4>
 
 <ol>
-  <li>Navigiere zu <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> auf deiner SD-Karte</li>
+  <li>Gehe zu <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> auf deiner SD-Karte</li>
   <li>Copy the <code class="language-plaintext highlighter-rouge">484E4441.bin</code>  file from the <code class="language-plaintext highlighter-rouge">clean</code> folder of the downloaded DSiWare archive (output_(name).zip) to the <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> folder</li>
   <li>Stecke deine SD-Karte nun wieder in deinen 3DS</li>
   <li>Schalte deine Konsole an</li>
-  <li>Launch System Settings on your device</li>
+  <li>Starte die Systemeinstellungen auf deiner Konsole</li>
   <li>Navigiere zu “Data Management” -&gt; “DSiWare”</li>
   <li>Beim “SD Card” Abschnitt, wähle den “Haxxxxxxxxx!” Titel</li>
   <li>Drücke “Copy”, und dann “OK”</li>

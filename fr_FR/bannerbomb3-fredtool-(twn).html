@@ -595,8 +595,9 @@ window.cookieconsent.initialise({
   <li>Cliquez sur le lien “output_(name).zip”</li>
   <li>Naviguez vers <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> sur votre carte SD
     <ul>
-      <li>L’<code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> sera le même que celui que vous avez utilisé dans <a href="seedminer">Seedminer</a></li>
-      <li>L’<code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> est un dossier de 32 caractères à l’intérieur du dossier <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> est le nom du dossier à 32 lettres que vous avez copié dans <a href="seedminer">Seedminer</a></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> est un dossier de 32 caractères à l’intérieur de <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code></li>
+      <li>Si vous avez plusieurs dossiers <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code>, suivez les instructions <a href="troubleshooting#bannerbomb3">ici</a></li>
     </ul>
   </li>
   <li>Créez un dossier nommé <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> à l’intérieur de <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code>
@@ -618,7 +619,7 @@ window.cookieconsent.initialise({
   <li>Copiez le fichier <code class="language-plaintext highlighter-rouge">.bin</code> portant le même numéro que celui qui se trouvait sur la deuxième page du menu de Gestion des Nintendo DSiWare dans le dossier <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> et écrasez-le lorsque vous y êtes invité</li>
   <li>Allumez votre console</li>
   <li>Lancez les Paramètres de la console</li>
-  <li>Accédez à <code class="language-plaintext highlighter-rouge">Gestion des données</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">Carte SD</code></li>
+  <li>Navigate to <code class="language-plaintext highlighter-rouge">Data Management</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD Card</code> (<a href="/images/screenshots/bb3/dsiware-management.png">image</a>)</li>
   <li>Attendez un peu
     <ul>
       <li>Ce qui suit devrait se produire, dans cet ordre : un indicateur de progression, un blocage court, l’écran du bas devient violet, la musique s’arrête, puis la console affiche un message d’erreur et redémarre</li>
@@ -656,7 +657,7 @@ window.cookieconsent.initialise({
   <li>Cliquez sur le lien “output_(name).zip”</li>
   <li>Naviguez vers <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> sur votre carte SD</li>
   <li>Copiez le fichier <code class="language-plaintext highlighter-rouge">484E4441.bin</code> du dossier <code class="language-plaintext highlighter-rouge">hax</code> de l’archive DSiWare téléchargée (output_(name).zip) dans le dossier <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code></li>
-  <li>Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console</li>
+  <li>Réinsérez la carte SD dans votre console</li>
   <li>Allumez votre console</li>
   <li>Lancez les Paramètres de la console</li>
   <li>Naviguez vers<code class="language-plaintext highlighter-rouge">Gestion des données</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code></li>
@@ -708,11 +709,12 @@ window.cookieconsent.initialise({
 <h4 id="section-vi---configuration-de-luma3ds">Section VI - Configuration de Luma3DS</h4>
 
 <ol>
-  <li>Appuyez sur le bouton (Select) et maintenez-le, et tout en maintenant le bouton (Select), allumez votre console. Ceci va lancer la configuration de Luma3DS
+  <li>Press and hold (Select), and while holding (Select), power on your device</li>
+  <li>Votre console devrait avoir démarré dans le menu de configuration de Luma3DS
     <ul>
       <li>Le menu de configuration de Luma3DS sert à régler les paramètres du custom firmware Luma3DS. Beaucoup de ces paramètres peuvent être utiles pour la personnalisation ou le débogage</li>
-      <li>Aux fins de ce guide, ces paramètres seront laissés dans les paramètres par défaut</li>
-      <li>Si vous démarrez vers le menu HOME <a href="https://github.com/zoogie/b9sTool/blob/master/TROUBLESHOOTING.md">suivez ce guide de dépannage</a></li>
+      <li>Pour les besoins de ce guide, <strong>laissez ces options sur les paramètres par défaut</strong> (ne cochez ni ne décochez rien)</li>
+      <li>Si votre console s’éteint lorsque vous essayez de l’allumer, assurez-vous d’avoir copié le fichier <code class="language-plaintext highlighter-rouge">boot.firm</code> depuis l’archive <code class="language-plaintext highlighter-rouge">.zip</code> de Luma3DS à la racine de votre carte SD</li>
     </ul>
   </li>
   <li>Appuyez sur (Start) pour enregistrer les modifications et redémarrer</li>
