@@ -37,7 +37,7 @@ If you are unable to install one, follow [Bannerbomb3](bannerbomb3) instead.
 1. `Frogtool.3dsx` 파일을 SD 카드의 `/3ds/` 폴더에 복사해 주세요
 1. 'frogcert.bin' 파일을 SD 카드의 루트에 복사해 주세요
 1. SD 카드를 기기에 다시 삽입해 주세요
-1. 기기를 시작해 주세요
+1. 콘솔을 시작해 주세요
 
 #### Section III - Patching DS Download Play
 
@@ -47,7 +47,7 @@ If you are unable to install one, follow [Bannerbomb3](bannerbomb3) instead.
 1. Frogtool will automatically run and inject the JPN version of Flipnote Studio into your DS Download Play
 1. Once this operation has finished, read the screens and check if the process was successful
 1. Tap the touch screen, then select "BOOT patched DS Download Play"
-1. 만약 익스플로잇이 성공적이었다면, 기기는 JPN 버전의 Flipnote Studio를 실행할 겁니다
+1. 만약 익스플로잇이 성공적이었다면, 콘솔은 JPN 버전의 Flipnote Studio를 실행할 겁니다
     + If you get stuck on a black screen, follow [this](https://wiki.hacks.guide/wiki/3DS:TWLFix#Homebrew_Launcher-0) page, then try again
 
 #### 섹션 IV - Flipnote 익스플로잇
@@ -56,7 +56,7 @@ If you are unable to install one, follow [Bannerbomb3](bannerbomb3) instead.
 
 #### 섹션 VI - Luma3DS 구성
 
-1. Press and hold (Select), and while holding (Select), power on your device
+1. (Select) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요
 {% include_relative include/configure-luma3ds.txt %}
 
 {% include_relative include/luma3ds-installed-note.txt %}
