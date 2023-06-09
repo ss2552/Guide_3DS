@@ -553,7 +553,7 @@ window.cookieconsent.initialise({
     </ul>
   </li>
   <li>La dernière version de <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (le fichier Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> qui n’est pas le code source)</li>
-  <li>Le <code class="language-plaintext highlighter-rouge">.firm</code> correspondant à votre console et version:</li>
+  <li>The <code class="language-plaintext highlighter-rouge">.firm</code> corresponding to your console and version:</li>
 </ul>
 
 <table>
@@ -769,14 +769,14 @@ window.cookieconsent.initialise({
   <li>Copiez votre fichier <code class="language-plaintext highlighter-rouge">.firm</code> vers le dossier hardmod-b9s-installer sur votre ordinateur</li>
   <li>Renommez votre fichier <code class="language-plaintext highlighter-rouge">.firm</code> dans le dossier hardmod-b9s-installer sur votre ordinateur en <code class="language-plaintext highlighter-rouge">current.firm</code></li>
   <li>Copiez <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> et <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> depuis le fichier “.zip” de boot9strap vers votre ordinateur</li>
-  <li>Retirez la carte SD de votre ordinateur et réinsérez-la dans votre console</li>
+  <li>Réinsérez votre carte SD dans votre console</li>
   <li>Utilisez votre hardmod pour créer une sauvegarde de votre NAND</li>
   <li>Déplacez votre backup de NAND dans le dossier hardmod-b9s-installer de votre ordinateur et renommez-le <code class="language-plaintext highlighter-rouge">NAND.bin</code></li>
 </ol>
 
 <h4 id="section-ii---installation-de-boot9strap">Section II - Installation de boot9strap</h4>
 
-<p>Dans cette section, vous installerez un custom firmware sur l’image de la NAND dumpée, puis réinstallerez cette image NAND sur la console pour y installer un custom firmware.</p>
+<p>In this section, you will install custom firmware to the dumped NAND image, and then install this NAND image back onto the console to install custom firmware on it.</p>
 
 <ol>
   <li>Exécutez hardmod-b9s-installer
@@ -785,15 +785,15 @@ window.cookieconsent.initialise({
       <li>Utilisateurs Mac et Linux: Lancer <code class="language-plaintext highlighter-rouge">install-b9s.py</code></li>
     </ul>
   </li>
-  <li>Flashez le nouveau fichier <code class="language-plaintext highlighter-rouge">NAND-patched.bin</code> sur votre console avec votre hardmod</li>
+  <li>Flash your outputted <code class="language-plaintext highlighter-rouge">NAND-patched.bin</code> to your console with your hardmod</li>
   <li>Éteignez votre console</li>
   <li>Déconnectez votre hardmod</li>
-  <li>Press and hold (Select), and while holding (Select), power on your device</li>
-  <li>Votre console devrait avoir démarré dans le menu de configuration de Luma3DS
+  <li>Press and hold (Select), and while holding (Select), power on your console</li>
+  <li>Your console should have booted into the Luma3DS configuration menu
     <ul>
       <li>Le menu de configuration de Luma3DS sert à régler les paramètres du custom firmware Luma3DS. Beaucoup de ces paramètres peuvent être utiles pour la personnalisation ou le débogage</li>
       <li>Pour les besoins de ce guide, <strong>laissez ces options sur les paramètres par défaut</strong> (ne cochez ni ne décochez rien)</li>
-      <li>Si votre console s’éteint lorsque vous essayez de l’allumer, assurez-vous d’avoir copié le fichier <code class="language-plaintext highlighter-rouge">boot.firm</code> depuis l’archive <code class="language-plaintext highlighter-rouge">.zip</code> de Luma3DS à la racine de votre carte SD</li>
+      <li>If your console shuts down when you try to power it on, ensure that you have copied <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
     </ul>
   </li>
   <li>Appuyez sur (Start) pour enregistrer les modifications et redémarrer</li>

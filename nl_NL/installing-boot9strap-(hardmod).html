@@ -551,7 +551,7 @@ window.cookieconsent.initialise({
     </ul>
   </li>
   <li>De nieuwste versie van <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (het Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> bestand dat broncode is)</li>
-  <li>De <code class="language-plaintext highlighter-rouge">.firm</code> voor je apparaat en versie:</li>
+  <li>The <code class="language-plaintext highlighter-rouge">.firm</code> corresponding to your console and version:</li>
 </ul>
 
 <table>
@@ -760,21 +760,21 @@ window.cookieconsent.initialise({
 <p>In this section, you will download the necessary files for the hardmod and dump the NAND image in preparation to install custom firmware.</p>
 
 <ol>
-  <li>Schakel je 3DS uit</li>
+  <li>Power off your console</li>
   <li>Plaats je SD kaart in je computer</li>
   <li>Kopieer <code class="language-plaintext highlighter-rouge">boot.firm</code> en <code class="language-plaintext highlighter-rouge">boot.3dsx</code> van de Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> naar de hoofdmap van je SD-kaart</li>
   <li>Koppieer de hardmod-b9s-installer map van de hardmod-b9s-installer <code class="language-plaintext highlighter-rouge">.zip</code> naar je computer</li>
   <li>Koppieer je gedownloade <code class="language-plaintext highlighter-rouge">.firm</code> naar de hardmod-b9s-installer map op uw computer</li>
   <li>Hernoem je gedownloade <code class="language-plaintext highlighter-rouge">.firm</code> in de hardmod-b9s-installer map op je computer naar <code class="language-plaintext highlighter-rouge">current.firm</code></li>
   <li>Kopieer <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> en <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> van de boot9strap <code class="language-plaintext highlighter-rouge">.zip</code> naar de hardmod-b9s-installer map op je computer</li>
-  <li>Stop je SD kaart terug in je 3DS</li>
+  <li>Reinsert your SD card into your console</li>
   <li>Gebruik je hardmod om een NAND backup te maken</li>
   <li>Verplaats je NAND backup naar de hardmod-b9s-installer map op je computer en hernoem het naar <code class="language-plaintext highlighter-rouge">NAND.bin</code></li>
 </ol>
 
 <h4 id="deel-ii---boot9strap-installeren">Deel II - Boot9strap installeren</h4>
 
-<p>In this section, you will install custom firmware to the dumped NAND image, and then install this NAND image back onto the device to install custom firmware on it.</p>
+<p>In this section, you will install custom firmware to the dumped NAND image, and then install this NAND image back onto the console to install custom firmware on it.</p>
 
 <ol>
   <li>Start hardmod-b9s-installer
@@ -783,15 +783,15 @@ window.cookieconsent.initialise({
       <li>Mac en Linux gebruikers: Start <code class="language-plaintext highlighter-rouge">install-b9s.py</code></li>
     </ul>
   </li>
-  <li>Flash je gemaakt <code class="language-plaintext highlighter-rouge">NAND-patched.bin</code> naar je apparaat met je hardmod</li>
-  <li>Schakel je 3DS uit</li>
+  <li>Flash your outputted <code class="language-plaintext highlighter-rouge">NAND-patched.bin</code> to your console with your hardmod</li>
+  <li>Power off your console</li>
   <li>Koppel je hardmod los</li>
-  <li>Press and hold (Select), and while holding (Select), power on your device</li>
-  <li>Your device should have booted into the Luma3DS configuration menu
+  <li>Press and hold (Select), and while holding (Select), power on your console</li>
+  <li>Your console should have booted into the Luma3DS configuration menu
     <ul>
       <li>Luma3DS configuration menu are settings for the Luma3DS custom firmware. Many of these settings may be useful for customization or debugging</li>
       <li>For the purpose of this guide, <strong>leave these options on the default settings</strong> (do not check or uncheck anything)</li>
-      <li>If your device shuts down when you try to power it on, ensure that you have copied <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
+      <li>If your console shuts down when you try to power it on, ensure that you have copied <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
     </ul>
   </li>
   <li>Druk op (Start) om op te slaan en opnieuw op te starten</li>

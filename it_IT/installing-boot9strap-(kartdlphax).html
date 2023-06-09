@@ -551,7 +551,7 @@ window.cookieconsent.initialise({
     </ul>
   </li>
   <li>Una copia fisica o digitale di Mario Kart della stessa regione di entrambe le console</li>
-  <li>Una scheda SD per entrambe le console</li>
+  <li>An SD card for both consoles</li>
 </ul>
 
 <h3 id="cosa-serve">Cosa serve</h3>
@@ -574,16 +574,16 @@ window.cookieconsent.initialise({
 
 <h4 id="sezione-i---verifica-pulsanti-hardware-3ds-di-destinazione">Sezione I - Verifica Pulsanti Hardware (3DS di destinazione)</h4>
 
-<p>In questa sezione verificherai se i pulsanti dorsali della tua console funzionano. Serve per determinare quale metodo seguirai nella prossima pagina.</p>
+<p>In this section, you will see whether your shoulder buttons are working on your console. Serve per determinare quale metodo seguirai nella prossima pagina.</p>
 
 <ol>
-  <li>Accendi la console</li>
+  <li>Power on your console</li>
   <li>Nel menu HOME premi contemporaneamente i pulsanti L e R
     <ul>
       <li>L’applicazione fotocamera dovrebbe apparire</li>
     </ul>
   </li>
-  <li>Spegni il tuo 3DS</li>
+  <li>Spegni la tua console</li>
 </ol>
 
 <p class="notice--warning">Se la fotocamera non si apre, non è possibile seguire questo metodo. In tal caso, puoi ricevere assistenza chiedendo, in inglese, nel <a href="https://discord.gg/MWxPgEp">canale Discord di Nintendo Homebrew</a>.</p>
@@ -646,11 +646,11 @@ window.cookieconsent.initialise({
   </li>
   <li>Seleziona <code class="language-plaintext highlighter-rouge">Più giocatori (locale)</code>. Dovrebbe apparire un menu
     <ul>
-      <li>Se la schermata si blocca, tieni premuto il pulsante di accensione per quindici secondi per forzare lo spegnimento della console, quindi riprova</li>
+      <li>If the screen freezes, hold the power button for fifteen seconds to force power off your console, then try again</li>
       <li>Se hai già lanciato kartdlphax in precedenza, verrà caricata l’ultima configurazione utilizzata. Se è corretta, seleziona <code class="language-plaintext highlighter-rouge">Use settings</code> e salta i prossimi 3 passaggi. Se non è corretta, seleziona <code class="language-plaintext highlighter-rouge">Change settings</code> e prosegui.</li>
     </ul>
   </li>
-  <li>Seleziona la tipologia del <strong>3DS di destinazione</strong> (Old 3DS o New 3DS)</li>
+  <li>Select your <strong>target 3DS</strong> console type (Old 3DS family or New 3DS family)</li>
   <li>Scegli uno degli exploit seguenti a seconda della tua versione del software:
     <ul>
       <li>11.16.0: seleziona <code class="language-plaintext highlighter-rouge">xPloitInjector (11.16)</code></li>
@@ -694,12 +694,12 @@ window.cookieconsent.initialise({
 
 <h4 id="sezione-v---unsafe_mode">Sezione V - unSAFE_MODE</h4>
 
-<p>In questa sezione avvierai la Modalità Provvisoria (una funzionalità disponibile su ogni console della famiglia 3DS) ed entrerai in un menu che attiverà unSAFE_MODE, per avviare l’installer di boot9strap (custom firmware).</p>
+<p>In this section, you will enter Safe Mode (a feature available on all 3DS family consoles) and navigate to a menu where unSAFE_MODE will be triggered, which will launch you into the boot9strap (custom firmware) installer.</p>
 
 <ol>
-  <li>Con la console ancora spenta, tieni premuto i pulsanti (L) + (R) + (Su) + (A), dopodiché, tenendo premuti i pulsanti, accendi la console
+  <li>With your console still powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your console
     <ul>
-      <li>Mantieni premuti i pulsanti finché la console non si avvia in Safe Mode (una specie di menu per aggiornare il sistema)</li>
+      <li>Keep holding the buttons until the console boots into Safe Mode (a “system update” menu)</li>
     </ul>
   </li>
   <li>Premi “OK” per accettare l’aggiornamento
@@ -711,10 +711,10 @@ window.cookieconsent.initialise({
   <li>L’aggiornamento fallirà, con codice di errore <code class="language-plaintext highlighter-rouge">003-1099</code>. Questo risultato è corretto</li>
   <li>Alla richiesta “Vuoi configurare le Impostazioni internet?”, seleziona “Sì”</li>
   <li>Nel menu successivo, entra in <code class="language-plaintext highlighter-rouge">Connessione 1</code> -&gt; <code class="language-plaintext highlighter-rouge">Modifica</code> -&gt; pagina successiva (la freccia a destra) -&gt; <code class="language-plaintext highlighter-rouge">Impostazioni proxy</code> -&gt; <code class="language-plaintext highlighter-rouge">Impostazioni avanzate</code> (<a href="/images/screenshots/usm/safemode_highlighted.png">image</a>)</li>
-  <li>Se l’exploit è andato a buon fine, la tua console avvierà SafeB9SInstaller
+  <li>If the exploit was successful, your console will have booted into SafeB9SInstaller
     <ul>
-      <li>Se la tua console invece si blocca con una schermata bianca, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione</li>
-      <li>Se invece la console invece si blocca con una schermata rossa, manca il file <code class="language-plaintext highlighter-rouge">usm.bin</code> dalla directory principale della tua scheda SD</li>
+      <li>If your console instead freezes on a white screen, hold the POWER button until it turns off, then retry this section</li>
+      <li>If your console instead freezes on a red screen, you are missing <code class="language-plaintext highlighter-rouge">usm.bin</code> from the root of your SD card</li>
       <li>Se ottieni un errore diverso, <a href="troubleshooting#installing-boot9strap-usm">segui questa guida per risolvere il problema</a></li>
     </ul>
   </li>
@@ -722,7 +722,7 @@ window.cookieconsent.initialise({
 
 <h4 id="sezione-vi---installazione-di-boot9strap">Sezione VI - Installazione di boot9strap</h4>
 
-<p>In questa sezione installerai il custom firmware nella tua console.</p>
+<p>In this section, you will install custom firmware onto your console.</p>
 
 <ol>
   <li>Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
@@ -730,12 +730,12 @@ window.cookieconsent.initialise({
       <li>Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, <a href="troubleshooting#issues-with-safeb9sinstaller">segui questa guida per risolvere i problemi</a></li>
     </ul>
   </li>
-  <li>Una volta completato il processo, premi (A) per riavviare la tua console</li>
-  <li>La tua console dovrebbe aver avviato il menu di configurazione di Luma3DS
+  <li>Once it is complete, press (A) to reboot your console</li>
+  <li>Your console should have booted into the Luma3DS configuration menu
     <ul>
       <li>Il menu di configurazione di Luma3DS contiene le impostazioni per il custom firmware Luma3DS. Molte di queste impostazioni possono essere utili per la personalizzazione o per debug</li>
       <li>Ai fini di questa guida, <strong>lascia queste opzioni nelle impostazioni predefinite</strong> (non spuntare o deselezionare nulla)</li>
-      <li>Se la console dovesse spegnersi quando provi ad accenderla, assicurati di aver copiato il file <code class="language-plaintext highlighter-rouge">boot.firm</code> dall’archivio <code class="language-plaintext highlighter-rouge">.zip</code> di Luma3DS nella directory principale della tua scheda SD</li>
+      <li>If your console shuts down when you try to power it on, ensure that you have copied <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
     </ul>
   </li>
   <li>Premi (Start) per salvare e riavviare il 3DS</li>
@@ -766,10 +766,10 @@ window.cookieconsent.initialise({
   <li>Premi (B) per uscire dal menu di Rosalina</li>
   <li>Premi il pulsante HOME, quindi chiudi l’applicazione “Modalità download”</li>
   <li>Riavvia l’applicazione “Modalità download”</li>
-  <li>La console dovrebbe ora avviare l’Homebrew Launcher</li>
+  <li>Your console should load the Homebrew Launcher</li>
   <li>Avvia slotTool dalla lista degli homebrew disponibili</li>
   <li>Seleziona “RESTORE original wifi slots 1,2,3”</li>
-  <li>La console verrà riavviata</li>
+  <li>Your console will then reboot</li>
 </ol>
 
 <hr />

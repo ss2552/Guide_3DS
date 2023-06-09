@@ -551,12 +551,12 @@ window.cookieconsent.initialise({
 <ol>
   <li>기기를 종료해 주세요</li>
   <li>(Select) 버튼을 길게 눌러 주세요</li>
-  <li>(Select) 버튼을 계속 눌러 있는 상태에서 기기의 전원을 켜 주세요</li>
+  <li>(Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요</li>
   <li>만약 HOME 메뉴가 켜지면, 이 확인은 성공적이고, 가이드를 진행하면 됩니다</li>
   <li>기기를 종료해 주세요</li>
 </ol>
 
-<p class="notice--danger">만약 설정 메뉴가 보이거나 기기의 전원이 바로 종료된다면, 이 기기는 이미 커스텀 펌웨어가 설치되어 있고, 이 작업을 진행하면 기기가 벽돌 될수가 있습니다! 이미 존재하는 CFW를 업데이트 할 수 있도록 <a href="checking-for-cfw">CFW 확인</a>을 진행해 주세요.</p>
+<p class="notice--danger">If you see a configuration menu or the console immediately powers off, you already have CFW, and continuing with these instructions may BRICK your console! 이미 존재하는 CFW를 업데이트 할 수 있도록 <a href="checking-for-cfw">CFW 확인</a>을 진행해 주세요.</p>
 
 <h4 id="섹션-ii---bannerbomb3">섹션 II - BannerBomb3</h4>
 
@@ -564,17 +564,17 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>SD 카드를 기기에 다시 삽입해 주세요</li>
-  <li>기기를 시작해 주세요</li>
-  <li>기기에서 본체 설정을 열어 주세요</li>
+  <li>콘솔을 시작해 주세요</li>
+  <li>콘솔에서 본체 설정을 열어 주세요</li>
   <li><code class="language-plaintext highlighter-rouge">데이터 관리</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD 카드</code>로 들어가주세요 (<a href="/images/screenshots/bb3/dsiware-management.png">사진</a>)
     <ul>
-      <li>기기는 BB3 multihax 메뉴를 표시할 겁니다</li>
-      <li>이 과정에서 기기가 갑자기 꺼진다면, <a href="troubleshooting#installing-boot9strap-fredtool">이 문제 해결 가이드</a>를 참고해 주세요.</li>
+      <li>콘솔은 BB3 multihax 메뉴를 표시할 겁니다</li>
+      <li>이 과정에서 콘솔이 갑자기 꺼진다면, <a href="troubleshooting#installing-boot9strap-fredtool">이 문제 해결 가이드</a>를 참고해 주세요.</li>
     </ul>
   </li>
   <li>십자 패드를 이용해 “Dump DSiWare” 에 (A) 버튼을 눌러 선택해 주세요
     <ul>
-      <li>기기가 자동으로 재부팅될 겁니다</li>
+      <li>콘솔이 자동으로 재부팅될 겁니다</li>
     </ul>
   </li>
   <li>기기를 종료해 주세요</li>
@@ -621,7 +621,7 @@ window.cookieconsent.initialise({
   <li>SD 카드의 루트로 Frogminer_save <code class="language-plaintext highlighter-rouge">.zip</code>안에 압축이 되있는 <code class="language-plaintext highlighter-rouge">private</code> 폴더를 복사해 주세요</li>
   <li>SD 카드를 기기에 다시 삽입해 주세요</li>
   <li>
-    <p>기기를 시작해 주세요</p>
+    <p>콘솔을 시작해 주세요</p>
 
     <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/fredtool/fredtool-root-layout.png" alt="" /></p>
   </li>
@@ -632,7 +632,7 @@ window.cookieconsent.initialise({
 <p>이 섹션에서는, 해킹된 DS 소프트웨어용 설정 DSiWare를 내부 메모리로 복사하여, 이 앱을 잠시 동안 Flipnote Studio으로 변경합니다</p>
 
 <ol>
-  <li>기기에서 본체 설정을 열어 주세요</li>
+  <li>콘솔에서 본체 설정을 열어 주세요</li>
   <li><code class="language-plaintext highlighter-rouge">데이터 관리</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD 카드</code>로 들어가주세요 (<a href="/images/screenshots/bb3/dsiware-management.png">사진</a>)</li>
   <li>“Haxxxxxxxxx!” 타이틀을 선택해 주세요
     <ul>
@@ -642,9 +642,9 @@ window.cookieconsent.initialise({
   <li>“복사”를 선택한 후, “OK”를 선택해 주세요</li>
   <li>본체 설정의 메인 메뉴로 돌아가 주세요</li>
   <li><code class="language-plaintext highlighter-rouge">인터넷 설정</code> -&gt; <code class="language-plaintext highlighter-rouge">DS 소프트웨어용 설정</code>으로 들어가 “OK”를 선택해 주세요 (<a href="/images/screenshots/fredtool/dsconnection.png">사진 (영어)</a>)</li>
-  <li>만약 익스플로잇이 성공적이었다면, 기기는 JPN 버전의 Flipnote Studio를 실행할 겁니다
+  <li>만약 익스플로잇이 성공적이었다면, 콘솔은 JPN 버전의 Flipnote Studio를 실행할 겁니다
     <ul>
-      <li>기기가 일본어 Flipnote Studio로 로드되지 않는다면, <a href="troubleshooting#installing-boot9strap-fredtool">이 문제 해결 가이드</a>를 참고해 주세요</li>
+      <li>If your console does not load the JPN version of Flipnote Studio, <a href="troubleshooting#installing-boot9strap-fredtool">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
@@ -670,18 +670,18 @@ window.cookieconsent.initialise({
   <li>“A”가 들어가 있는 세 번째 버튼을 눌러 주세요</li>
   <li>“1/3”이 선택될 때까지 왼쪽으로 스크롤해 주세요</li>
   <li>“A”가 들어가 있는 네 번째 버튼을 눌러 주세요</li>
-  <li>익스플로잇이 성공적이었다면 b9sTool을 실행했을 것입니다</li>
+  <li>If the exploit was successful, your console will have loaded b9sTool</li>
   <li>십자 패드를 사용해서, “Install boot9strap”으로 이동해 주세요
     <ul>
       <li>이 단계를 놓쳤다면, 시스템은 boot9strap을 설치하는 대신 HOME 메뉴로 나가집니다. 이렇게 되면 다시 DS 소프트웨어용 설정을 열어서 이 섹션의 처음부터 시작해야 합니다</li>
     </ul>
   </li>
   <li>(A) 버튼을 누른 후, START와 SELECT를 동시에 눌러 작업을 실행해 주세요</li>
-  <li>완료되고 아래 화면에 “done.”이라고 표시되면, b9sTool를 종료하고 기기의 전원을 꺼 주세요
+  <li>Once completed and the bottom screen says “done.”, exit b9sTool, then power off your console
     <ul>
       <li>전원버튼을 계속 눌러 강제종료를 해야 할 수도 있습니다</li>
-      <li>만약 기기가 부팅시에 꺼진다면 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 파일 안에 압축 되있는 <code class="language-plaintext highlighter-rouge">boot.firm</code>을 SD 카드의 루트로 복사 했는지 확인해 주세요</li>
-      <li>만약 Luma3DS 구성 메뉴가 표시되면, 기기의 전원을 끄고 다음 섹션으로 넘어가 주세요</li>
+      <li>만약 콘솔이 부팅시에 꺼진다면 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 파일 안에 압축 되있는 <code class="language-plaintext highlighter-rouge">boot.firm</code>을 SD 카드의 루트로 복사 했는지 확인해 주세요</li>
+      <li>If you see the Luma Configuration screen, power off your console and continue to the next section</li>
     </ul>
   </li>
 </ol>
@@ -689,12 +689,12 @@ window.cookieconsent.initialise({
 <h4 id="섹션-vi---luma3ds-구성">섹션 VI - Luma3DS 구성</h4>
 
 <ol>
-  <li>Press and hold (Select), and while holding (Select), power on your device</li>
-  <li>기기는 Luma3DS 구성 메뉴로 부팅되었을 겁니다
+  <li>(Select) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요</li>
+  <li>Your console should have booted into the Luma3DS configuration menu
     <ul>
       <li>Luma3DS 구성 메뉴는 Luma3DS 커스텀 펌웨어의 설정들 입니다. 이 설정들은 디버깅 또는 맞춤화의 유용합니다</li>
       <li>일단 이 가이드에서는 <strong>모든 설정을 기본으로 남겨 두세요</strong> (켜기 또는 끄기를 누르지 마세요)</li>
-      <li>만약 기기가 부팅시에 꺼진다면 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 파일 안에 압축 되있는 <code class="language-plaintext highlighter-rouge">boot.firm</code>을 SD 카드의 루트로 복사 했는지 확인해 주세요</li>
+      <li>만약 콘솔이 부팅시에 꺼진다면 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 파일 안에 압축 되있는 <code class="language-plaintext highlighter-rouge">boot.firm</code>을 SD 카드의 루트로 복사 했는지 확인해 주세요</li>
     </ul>
   </li>
   <li>(Start)를 눌러 저장하고 기기를 다시 시작해 주세요</li>
@@ -714,8 +714,8 @@ window.cookieconsent.initialise({
   <li>SD 카드의 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> 폴더로 이동해 주세요</li>
   <li>다운로드한 DSiWare 압축 파일(output_(이름).zip)에서, <code class="language-plaintext highlighter-rouge">clean</code> 폴더 안에 있는 <code class="language-plaintext highlighter-rouge">42383841.bin</code> 파일을 <code class="language-plaintext highlighter-rouge">Nintendo DSiWare</code> 폴더로 복사해 주세요</li>
   <li>SD 카드를 기기에 다시 삽입해 주세요</li>
-  <li>기기를 시작해 주세요</li>
-  <li>기기에서 본체 설정을 열어 주세요</li>
+  <li>콘솔을 시작해 주세요</li>
+  <li>콘솔에서 본체 설정을 열어 주세요</li>
   <li><code class="language-plaintext highlighter-rouge">데이터 관리</code> -&gt; <code class="language-plaintext highlighter-rouge">DSiWare</code> -&gt; <code class="language-plaintext highlighter-rouge">SD 카드</code>로 들어가주세요 (<a href="/images/screenshots/bb3/dsiware-management.png">사진</a>)</li>
   <li>“Nintendo DSi™” 타이틀을 선택해 주세요</li>
   <li>“복사”를 선택한 후, “OK”를 선택해 주세요</li>

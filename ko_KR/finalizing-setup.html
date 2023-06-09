@@ -531,7 +531,7 @@ window.cookieconsent.initialise({
 
 <h3 id="중요">중요</h3>
 
-<p><code class="language-plaintext highlighter-rouge">boot.firm</code> 파일은 boot9strap이 NAND에서 로딩을 완료한 후 실행하는 것입니다. 이번 경우에서는, <a href="https://github.com/LumaTeam/">LumaTeam</a>의 Luma3DS를 사용해서 기기를 패치하고, 홈브류 소프트웨어를 실행할 수 있도록 합니다.</p>
+<p><code class="language-plaintext highlighter-rouge">boot.firm</code> 파일은 boot9strap이 NAND에서 로딩을 완료한 후 실행하는 것입니다. In this case, we are using Luma3DS by <a href="https://github.com/LumaTeam/">LumaTeam</a> to patch the console, allowing it to run homebrew software.</p>
 
 <p>이 가이드에서는, 중요한 시스템 파일의 백업을 하고, 다음의 홈브류 프로그램을 설치할 겁니다:</p>
 
@@ -576,7 +576,7 @@ window.cookieconsent.initialise({
   <li>모든 CIA 파일들 (<code class="language-plaintext highlighter-rouge">Anemone3DS.cia</code>, <code class="language-plaintext highlighter-rouge">Checkpoint.cia</code>, <code class="language-plaintext highlighter-rouge">FBI</code>, <code class="language-plaintext highlighter-rouge">Homebrew_Launcher.cia</code>, <code class="language-plaintext highlighter-rouge">Universal-Updater.cia</code>) 를 SD 카드의 <code class="language-plaintext highlighter-rouge">/cias/</code> 폴더로 복사해 주세요</li>
   <li>SD 카드의 루트에 <code class="language-plaintext highlighter-rouge">3ds</code> 폴더가 없을 경우 폴더를 만들어 주세요
     <ul>
-      <li>이 폴더에는 홈브류 에플리케이션과 데이터가 보관되어 있으며, 기기가 자동으로 생성하는 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> 폴더와 다른 폴더입니다</li>
+      <li>이 폴더에는 홈브류 에플리케이션과 데이터가 보관되어 있으며, 콘솔이 자동으로 생성하는 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> 폴더와 다른 폴더입니다</li>
     </ul>
   </li>
   <li><code class="language-plaintext highlighter-rouge">FBI.3dsx</code> 파일을 SD 카드의 <code class="language-plaintext highlighter-rouge">/3ds/</code> 폴더에 복사해 주세요</li>
@@ -584,7 +584,7 @@ window.cookieconsent.initialise({
   <li>SD 카드의 <code class="language-plaintext highlighter-rouge">/luma/payloads/</code>폴더에 GodMode9 <code class="language-plaintext highlighter-rouge">.zip</code>안에 압축되있는 <code class="language-plaintext highlighter-rouge">GodMode9.firm</code>을 복사해 주세요</li>
   <li>SD카드의 루트로 GodMode9 <code class="language-plaintext highlighter-rouge">.zip</code>안에 압축이 되있는 <code class="language-plaintext highlighter-rouge">gm9</code> 폴더를 복사해 주세요</li>
   <li>SD 카드를 기기에 다시 삽입해 주세요</li>
-  <li>기기를 시작해 주세요</li>
+  <li>콘솔을 시작해 주세요</li>
 </ol>
 
 <p>이 스크린샷들은 이 가이드를 따랐을 때의 최소한의 SD 카드 레이아웃을 표시합니다. 이전에 따른 방법에 따라, SD 카드에 추가 파일과 폴더가 있을 수 있습니다.</p>
@@ -600,20 +600,20 @@ window.cookieconsent.initialise({
 <ol>
   <li>기기를 종료해 주세요</li>
   <li>(Select) 버튼을 길게 눌러 주세요</li>
-  <li>(Select) 버튼을 계속 눌러 있는 상태에서 기기의 전원을 켜 주세요</li>
-  <li>If the check was successful, your device should have booted into the Luma3DS configuration menu</li>
+  <li>(Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요</li>
+  <li>If the check was successful, your console should have booted into the Luma3DS configuration menu</li>
   <li>(Start)를 눌러 저장하고 기기를 다시 시작해 주세요</li>
   <li>기기를 종료해 주세요</li>
 </ol>
 
-<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your device. <a href="https://discord.gg.MWxPgEp">Nintendo Homebrew Discord 서버</a>에 오셔서 도움을 요청하세요.</p>
+<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your console. <a href="https://discord.gg.MWxPgEp">Nintendo Homebrew Discord 서버</a>에 오셔서 도움을 요청하세요.</p>
 
 <h4 id="섹션-iii---본체-업데이트">섹션 III - 본체 업데이트</h4>
 
 <p>이 섹션에서는 커스텀 펌웨어가 설치된 기기에서도 안전하게 이용 가능한 최신 버전의 펌웨어로 본체를 업데이트합니다.</p>
 
 <ol>
-  <li>본체 설정의 “기타 설정”에서 가장 오른쪽에 있는 “본체 업데이트”를 선택해 기기를 업데이트해 주세요
+  <li>본체 설정의 “기타 설정”에서 가장 오른쪽에 있는 “본체 업데이트”를 선택해 콘솔을 업데이트해 주세요
     <ul>
       <li>boot9strap과 Luma을 이용한 (지금 가지고 계신 버전) 업데이트는 안전합니다</li>
       <li>이 작업에서 “이 본체는 이미 최신 버전으로 업데이트되어 있습니다” 라는 메세지가 표시 될 수 가 있습니다. 이미 최신 버전이였다면, 이것은 문제가 아니며, 다음 섹션으로 넘어가 주시기 바랍니다</li>
@@ -625,7 +625,7 @@ window.cookieconsent.initialise({
 
 <h4 id="섹션-iv---homebrew-launcher">섹션 IV - Homebrew Launcher</h4>
 
-<p>이 섹션에서는 FBI를 실행하기 위해 다운로드 플레이를 잠시 Homebrew Launcher로 치환합니다. 다운로드 플레이 앱은 기기를 다시 시작하면 원상태로 돌아옵니다.</p>
+<p>이 섹션에서는 FBI를 실행하기 위해 다운로드 플레이를 잠시 Homebrew Launcher로 치환합니다. Download Play will automatically go back to normal once you reboot your console.</p>
 
 <ol>
   <li>다운로드 플레이 앱을 실행해 주세요 (<img src="https://3ds.hacks.guide/images/download-play-icon.png" alt="" height="24px" width="24px" />)</li>
@@ -641,7 +641,7 @@ window.cookieconsent.initialise({
   <li>다운로드 플레이 앱을 다시 실행해 주세요</li>
   <li>성공하면 Homebrew Launcher가 실행될 것입니다
     <ul>
-      <li>만약 기기가 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> 화면에 정지되면, SD 카드 루트에 <code class="language-plaintext highlighter-rouge">boot.3dsx</code>이 존재하지 않습니다</li>
+      <li>If your console is stuck on the loading splash screen, you are missing <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the root of your SD card</li>
     </ul>
   </li>
 </ol>
@@ -679,7 +679,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>기기를 종료해 주세요</li>
-  <li>(Start)를 길게 누르고, 이 상태에서 전원을 켜 주세요. GodMode9이 실행 될 겁니다
+  <li>(Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행 될 겁니다
     <ul>
       <li>만약 GodMode9이 실행되지 않을 경우, <code class="language-plaintext highlighter-rouge">GodMode9.firm</code>이 <code class="language-plaintext highlighter-rouge">/luma/payloads/</code> 에 존재를 확인하고, <code class="language-plaintext highlighter-rouge">payloads</code>가 정확히 쓰여 있음을 확인해 주시기 바랍니다</li>
     </ul>
@@ -733,7 +733,7 @@ window.cookieconsent.initialise({
   </li>
   <li>(A)를 눌러 진행해 주세요</li>
   <li>(Home)을 눌러 작업 메뉴를 열어 주세요</li>
-  <li>“Poweroff system”을 선택해 기기의 전원을 꺼 주세요</li>
+  <li>Select “Poweroff system” to power off your console</li>
   <li>SD 카드를 컴퓨터에 삽입해 주세요</li>
   <li>SD 카드의 <code class="language-plaintext highlighter-rouge">/gm9/out/</code> 폴더의 <code class="language-plaintext highlighter-rouge">&lt;날짜&gt;_&lt;일련번호&gt;_sysnand_##.bin</code>, <code class="language-plaintext highlighter-rouge">&lt;날짜&gt;_&lt;일련번호&gt;_sysnand_##.bin.sha</code>, <code class="language-plaintext highlighter-rouge">essential.exefs</code>을 컴퓨터의 안전한 위치에 복사해 주세요
     <ul>
@@ -748,12 +748,12 @@ window.cookieconsent.initialise({
   </li>
   <li>만약 존재한다면, SD 카드의 <code class="language-plaintext highlighter-rouge">/luma/backups/</code> 폴더를 컴퓨터의 안전한 위치에 복사해 주세요</li>
   <li>SD 카드를 기기에 다시 삽입해 주세요</li>
-  <li>기기를 시작해 주세요</li>
+  <li>콘솔을 시작해 주세요</li>
 </ol>
 
 <hr />
 
-<p class="notice--success">모든 작업이 끝났습니다! 이제 커스텀 펌웨어는 완벽하게 설정되었습니다.</p>
+<p class="notice--success">모든 작업이 끝났습니다! Custom firmware is now fully configured on your console.</p>
 
 <h3 id="정보와-메모">정보와 메모</h3>
 
