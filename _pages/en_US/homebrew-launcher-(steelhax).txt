@@ -66,6 +66,7 @@ In this section, you will create a hacked Steel Diver: Sub Wars save file that, 
 1. Power on your console
 1. Launch "Steel Diver: Sub Wars"
 1. If the exploit was successful, your console will have booted into the Homebrew Launcher
+1. Power off your console
 
 #### Section III - Hardware Button Check
 
