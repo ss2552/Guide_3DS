@@ -61,6 +61,8 @@ This set of instructions does not support the Japanese version of SmileBASIC.
 
 #### Section III - Hardware Button Check
 
+In this section, you will see whether you can access Safe Mode on your console. This will determine which method you will follow on the next page.
+
 {% include_relative include/safemodecheck.txt %}
 
 ___

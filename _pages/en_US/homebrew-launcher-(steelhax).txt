@@ -70,6 +70,8 @@ In this section, you will create a hacked Steel Diver: Sub Wars save file that, 
 
 #### Section III - Hardware Button Check
 
+In this section, you will see whether you can access Safe Mode on your console. This will determine which method you will follow on the next page.
+
 {% include_relative include/safemodecheck.txt %}
 
 ___
