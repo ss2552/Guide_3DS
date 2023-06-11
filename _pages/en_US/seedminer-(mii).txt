@@ -44,14 +44,14 @@ In this section, you will set up Seedminer and obtain your console's files that 
 1. Extract the contents of the Seedminer `.zip` and move the folder with your operating systeem's name to anywhere on your PC
   + Keep this location handy, as this Seedminer folder will be where multiple other files are placed
 1. In the Seedminer folder, hold SHIFT and right-click anywhere in the folder's empty space, then click the option that opens Terminal, PowerShell, or Command Prompt
-1. In the command line window, type `py -3 -mpip install pycryptodomex`, hit ENTER, and allow it to install
+1. In the command line window, type `py -3 -m pip install pycryptodomex`, hit ENTER, and allow it to install
   + If this command fails with the error `No module named pip`, you must manually install pip. The methods to do this can be found on [this page](https://pip.pypa.io/en/stable/installation/).
-1. Turn your console on while the SD card is inserted
+1. Power on your console while the SD card is inserted
 1. Open the Mii Maker app
 1. Tap the "QR Code/Image Options" button
 1. Tap "Save Mii as QR Code"
 1. Select any Mii Character (make a new one first if you don't have any), and press "OK"
-1. Turn the console off
+1. Power off your console
 1. Put the console's SD card into your computer, navigate to the `Nintendo 3DS` folder on the SD, and copy the name of the 32-character-long folder directly inside
   + This folder, known as the ID0, is system-specific. Only one should be present. If you see multiple, follow [these instructions](troubleshooting#seedminer)
   + Once you have the ID0, paste it into a document so you can reference it later
