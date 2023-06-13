@@ -15,15 +15,15 @@ If your console has a menuhax-based CFW setup, you should [clear HOME Menu's ext
 
 ### Instructies
 
-1. Schakel je console uit
+1. Power off your console
 1. Houd de (Select) knop ingedrukt
-1. Zet je console aan terwijl je de (Select) knop ingedrukt blijft houden
+1. Power on your console while still holding the (Select) button
 1. Je zou nu een soort configuratie menu moeten zien
 
 ___
 ### Volgende stap
 
-Als je console opstart naar het normale HOME Menu, ga dan terug naar [Begin](get-started)
+Als je console opstart naar het normale HOME-menu, ga dan terug naar [Begin](get-started)
 {: .notice--success}
 
 Als je een Luma3DS versie van 7.0.5 of lager ziet, ga dan naar [A9LH naar B9S](a9lh-to-b9s)

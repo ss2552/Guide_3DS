@@ -73,10 +73,12 @@ Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor
 This occurs when you use your SD card in multiple 3DS consoles and is intended to prevent inadvertently merging data that would not be valid on other consoles. Om erachter te komen welke lange mapnaam correct is voor je 3DS, volg dan deze instructies:
 
 1. Hernoem de `Nintendo 3DS` map naar `BACKUP_Nintendo 3DS`
-1. Reinsert your SD card into your console and power on your console
+1. Reinsert your SD card into your console
+1. Power on your console
 1. Wait for the console to generate the SD card data
 	+ Je applicaties zullen verdwenen zijn. Dit is normaal en wordt binnenkort opgelost
-1. Power off your console and reinsert your SD card into your computer
+1. Power off your console
+1. Plaats je SD kaart in je computer
 1. Ga naar de `Nintendo 3DS` map op je SD-kaart
 1. Kopieer de 32-tekens lange naam van de map die je ziet
 	+ Dit is je echte ID0 die je zal gebruiken in [Deel II van Seedminer](seedminer#section-ii---seedminer)
@@ -414,7 +416,7 @@ If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which
 1. Ensure that the proxy that you used for SSLoth is still actively applied to your internet connection
 1. With your console powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your console
   + Keep holding the buttons until the console boots into Safe Mode (a "system update" menu)
-1. Press "OK" to accept the update
+1. Druk op "OK" om de update te accepteren
 1. If everything worked correctly, the update will fail and the 3DS will boot into SafeB9SInstaller. If it did, then continue from [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
 
 ---
@@ -575,7 +577,7 @@ De volgende stappen kunnen in elke volgorde uitgevoerd worden, maar zijn gesorte
 
 1. Power off your console, remove the SD card, re-insert it, then power on your console.
 1. Power off your console, eject the game cartridge if inserted, power on your console, then wait up to ten minutes. If your console boots within ten minutes, the issue has been fixed and is unlikely to reoccur
-1. Hernoem de `Nintendo 3DS` map op je SD-kaart naar `Nintendo 3DS_BACKUP` en probeer dan je 3DS op te starten. If your console successfully boots, there is some issue within your `Nintendo 3DS` folder. Probeer HOME Menu extdata te wissen:
+1. Hernoem de `Nintendo 3DS` map op je SD-kaart naar `Nintendo 3DS_BACKUP` en probeer dan je 3DS op te starten. If your console successfully boots, there is some issue within your `Nintendo 3DS` folder. Probeer HOME-menu extdata te wissen:
 	+ Navigeer naar `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
   + Verwijder de overeenkomende map voor je 3DS regio:
 		+ **EUR Regio**: `00000098`
@@ -663,7 +665,7 @@ Neem een foto van de fout en meld je aan bij [Nintendo Homebrew on Discord](http
 1. Start TWLFix-CFW op uit de lijst met homebrew
 1. Klik op (A) om de kapotte TWL titels te verwijderen
 1. Press (Start) to reboot the console
-1. Update je 3DS door naar Systeemsinstellingen te gaan en dan naar "Algemeene Instellingen". Ga in dit menu helemaal naar rechts en klik op "Systeemupdate"
+1. Update your console by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
   + De update zal zien dat de essenciële TWL titels zijn gedeïstalleerd en zal ze opnieuw installeren
 1. Once the update is complete, tap "OK" to reboot the console
 {% endcapture %}
@@ -733,9 +735,9 @@ You can disable the Parental Controls feature by going to System Settings -> Par
 However, if you do not know the PIN and therefore cannot access the console's settings, you will need to disable it. In order to do this, you need to obtain your console's master key (mkey):
 1. Go to [this website](https://mkey.eiphax.tech/)
 1. Fill the following boxes with the information:
-+ Console Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
-+ System Date: The day and month your console's clock is set to
-+ Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
+  + Device Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
+  + System Date: The day and month your console's clock is set to
+  + Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
 1. After you have obtained your mkey, press OK on the screen you have obtained your Inquiry Number, then input the master key
 1. Press "Clear Settings", then "Delete" to remove all Parental Controls data
 {% endcapture %}

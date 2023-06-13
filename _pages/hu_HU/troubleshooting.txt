@@ -23,8 +23,8 @@ Több oldalon használt:
 * [Telepítés véglegesítése](#finalizing-setup)
 
 Problémák telepítést követően:
-* [Boot issues](#boot-issues-on-consoles-with-custom-firmware)
-* [Software issues](#software-issues-on-consoles-with-custom-firmware)
+* [Boot problémák](#boot-issues-on-consoles-with-custom-firmware)
+* [Szoftver problémák](#software-issues-on-consoles-with-custom-firmware)
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -73,10 +73,12 @@ Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatorn�
 This occurs when you use your SD card in multiple 3DS consoles and is intended to prevent inadvertently merging data that would not be valid on other consoles. Ahhoz, hogy megtaláld melyik hosszú mappa név a helyes a 3DS-edhez, kövesd a következő lépéseket:
 
 1. Nevezd át a `Nintendo 3DS` mappát `BACKUP_Nintendo 3DS` névre
-1. Reinsert your SD card into your console and power on your console
+1. Tedd vissza az SD kártyád a konzoldba
+1. Kapcsold be a konzolod
 1. Wait for the console to generate the SD card data
 	+ Az alkalmazásaidnak el kell tűnniük. Ez normális, hamarosan megoldjuk
-1. Power off your console and reinsert your SD card into your computer
+1. Kapcsold ki a konzolod
+1. Helyezd az SD kártyád a számítógépbe
 1. Lépj be az SD kártyád `Nintendo 3DS` könyvtárába
 1. Másold le a 32 karakter hosszú nevét annak a mappának, amit látsz
 	+ Ez a te valódi ID0-d, amit használni fogsz a [II. részben a Seedminer-nél](seedminer#section-ii---seedminer)
@@ -129,7 +131,7 @@ Biztosítsd, hogy az `F00D43D5.bin` az egyetlen fájl a `Nintendo 3DS` -> `<ID0>
 
 Továbbá légy biztos abban, hogy a `bb3.bin` fájl megtalálható az SD kártyád gyökerében. Ha hiányzik, töltsd le a legutolsó kiadását az [Bannerbomb3](https://github.com/lifehackerhansol/Bannerbomb3/releases/download/v3.0-lhs1/bb3.bin)-nak (közvetlen letöltés), és másold a `bb3.bin` fájlt az SD kártyád gyökerébe.
 
-If neither of these solutions fixes this problem, then custom firmware may have been uninstalled on this console in a way that makes this method impossible to perform. Ebben az esetben csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, támogatást angolul.
+Ha ezen megoldások egyike sem javítja ezt a problémát, akkor az egyedi firmware eltávolításra kerülhetett erről a konzolról, úgy, hogy az lehetetlenné teszi ennek a metódusnak a végrehajtását. Ebben az esetben csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, támogatást angolul.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -297,9 +299,9 @@ A `00000001.sav` fájlod valószínüleg rossz helyen van, vagy nem a jó `movab
 {% capture compat %}
 <summary><u>Piros/lila/rózsaszín és fehér képernyő a Soundhax futtatása után</u></summary>
 
-If your console is on system version 9.4.0, 9.5.0, or 9.6.0, you may be encountering a bug with an old version of universal-otherapp. Download the latest version from [here](https://github.com/TuxSH/universal-otherapp/releases/latest).
+Ha a konzol rendszer verziód 9.4.0, 9.5.0, vagy 9.6.0, hibát tapasztalhatsz az universal-otherapp egy régebbi verziójával. Töltsd le a legfrissebb verziót [innen](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
-If your console is not on those firmwares, it likely indicates that you already have custom firmware. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
+Ha nem ezeken a firmware verziókon van a konzolod, akkor ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -313,7 +315,7 @@ Probléma van a `otherapp.bin` fájloddal (nem jó, hiányzik, rossz helyen van 
 {% capture compat %}
 <summary><u>"Could not play"</u></summary>
 
-You have the wrong Soundhax file for your console and region, or your console is incompatible with Soundhax. In the latter case, you should update your console to the latest version and follow [Seedminer](seedminer).
+Rossz Soundhax fájlod van a konzolodhoz és a régiódhoz vagy az eszközöd nem kompatibilis a Soundhax-szal. Ez utóbbi esetben frissítsd a konzolod a legutolsó verzióra és kövesd a [Seedminer](seedminer) lépéseit.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -379,7 +381,7 @@ Az SSLoth proxy nem lett megfelelően konfigurálva. Csináld újra az SSLoth fe
 
 Kövesd az alábbi lépéseket:
 
-1. Launch System Settings on your console
+1. Lépj be a "System Settings"-be a konzolodon
 1. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
 1. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz
 1. Állítsd a "Proxy Settings"-t "No"-ra
@@ -398,7 +400,7 @@ Kövesd az alábbi lépéseket:
 {% capture compat %}
 <summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
 
-Először győződj meg arról, hogy a megfelelő proxy-t adtad meg a kapcsolathoz amit használsz. Ha nem, menj vissza a [II. részhez](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). If the proxy is correct, then your console has been cart-updated, which means an alternate exploit will need to be used.
+Először győződj meg arról, hogy a megfelelő proxy-t adtad meg a kapcsolathoz amit használsz. Ha nem, menj vissza a [II. részhez](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). Ha a proxy helyes, akkor a konzolodhoz kártya-frissített, ami azt jelenti, hogy egy alternatív exploit-ot kell használnod.
 
 <u>1. metódus</u><br>
 Ha a szám a régió előtt kisebb vagy egyenlő 36-tal (pl. Ver. 11.14.0-**36**U), akkor követheted a [Soundhax](installing-boot9strap-(soundhax)) metódust. Amikor kérdezi, válassz és használj egy firmware-t a hangfájl generáláshoz:
@@ -413,7 +415,7 @@ Ha Old 3DS / Old 3DS XL / 2DS -ed van kipróbálhatod a Safe Mode frissítést, 
 
 1. Bizonyosodj meg róla, hogy a proxy amit az SSLoth-hoz használtál még aktívan az internet kapcsolatodra
 1. With your console powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your console
-  + Keep holding the buttons until the console boots into Safe Mode (a "system update" menu)
+  + Tartsd nyomva a gombokat, amíg a konzol be nem bootol a Safe Mode-ba (a "system update" menübe)
 1. Nyomj "OK"-ot a frissítés elfogadásához
 1. Ha minden megfelelő volt, akkor a frissítésnek nem kell sikerülnie és a 3DS be fog bootolni a SafeB9SInstaller-be. Ha így történt, folytasd a [IV. résszel](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
 
@@ -486,7 +488,7 @@ Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvége
 ## Telepítés véglegesítése
 
 {% capture compat %}
-<summary><u>Unable to update console</u></summary>
+<summary><u>Sikertelen a konzol frissítése</u></summary>
 
 Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista a legkönnyebbtől a legnehezebben végrehajthatóig van összeállítva.
 
@@ -585,7 +587,7 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 		+ **KOR régió**: `000000A9`
 		+ **TWN régió**: `000000B1`
 1. Próbálj meg recovery mode-ba bootolni, majd onnét frissíteni a rendszeredet:
-	+ Power off your console
+	+ Kapcsold ki a konzolod
 	+ Tartsd nyomva a (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A) gombokat
 	+ Power on your console
 	+ If you were successful, the console will boot to an "update your system" screen
@@ -613,7 +615,7 @@ Számos oka lehet, hogy miért történik így. Bármelyik esetben, ez a hiba á
 <summary><u>"An error has occurred. Hold down the POWER button to turn off the power..."</u></summary>
 
 Az ARM11 kivételkezelők tiltva, vagy az egyedi firmware nincs telepítve. Próbáld meg engedélyezni az ARM11 kivétel kezelőket:
-  + Power off your console
+  + Kapcsold ki a konzolod
   + Tartsd nyomva a (Select) gombot
   + Power on your console, while still holding (Select)
   + Ha a "Disable ARM11 exception handlers" jelölőnégyzet bejelölt, vedd ki a jelölést
@@ -637,8 +639,8 @@ Ha ez a helyzet, próbáld meg a lépéseket alább, ami a legkönnyebbtől a le
 {% capture compat %}
 <summary><u>Kék "BOOTROM ERROR" képernyő</u></summary>
 
-Your console is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your console. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
-  + Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Try leaving your console powered on, waiting on the blue screen, for five minutes.
+A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
+  + Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Próbáld meg a konzolod bekapcsolva hagyni, várva a kék képernyőre, 5 percig.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -649,7 +651,7 @@ Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Disc
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Software issues on consoles with custom firmware
+## Szoftver problémák egyedi firmware-rel rendelkező konzolokon
 
 {% capture compat %}
 <summary><u>DSi / DS funkcionalitás hibás vagy felcserélt a Flipnote Studio-val</u></summary>
@@ -662,24 +664,24 @@ Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Disc
 1. Nyisd meg a Homebrew Lancher-t
 1. Indítsd el a TWLFix-CFW-t a homebrew listából
 1. Nyomj (A)-t a törött TWL címek eltávolításához
-1. Press (Start) to reboot the console
-1. Frissítsd az eszközödet következőképp. Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót
+1. Nyomd meg a (Start) gombot a konzol újraindításához
+1. Frissítsd a konzolod következőképp: Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót
   + A frissítés észreveszi, hogy lényeges TWL címek kerültek eltávolításra és le fogja tölteni és újratelepíteni azokat
-1. Once the update is complete, tap "OK" to reboot the console
+1. Ha a frissítés kész, érintsd meg az "OK"-ot a konzol újraindításához
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
 <summary><u>GBA Virtual Console és/vagy Safe Mode funkcionalitás hibás</u></summary>
 
-Your console is running Luma3DS 6.6 or older, likely via arm9loaderhax. You should follow [A9LH to B9S](a9lh-to-b9s) to update your console to a modern custom firmware environment.
+A konzolod Luma3DS 6.6 vagy régebbi verziót futtat, valószínűleg arm9loaderhax-szal. Kövesd az [A9LH-ről B9S-re](a9lh-to-b9s) lépéseit a konzolod frissítéséhez modern egyedi firmware környezetre.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
 <summary><u>Bővített memória módú játékok (Pokemon Sun/Moon, Smash, etc.) nem működnek</u></summary>
 
-Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. You will need to system format your console to fix this issue.
+Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Rendszer formáznod kell a konzolod a javításhoz.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -730,12 +732,12 @@ Ha nem sikerült megtalálni a hibádat, vagy a lépések nem működnek, csatla
 <summary><u>A szülői felügyelet kikapcsolása</u></summary>
 
 Letilthatod a szülői felügyeletet (Parental Controls) a System Settings -> Parental Controls-hoz navigálással és a PIN megadásával, majd a "Clear Settings" megnyomásával. Ezt követően a "Delete"-tel törölheted azt.
-However, if you do not know the PIN and therefore cannot access the console's settings, you will need to disable it. In order to do this, you need to obtain your console's master key (mkey):
+Azonban, ha nem tudod a PIN-t így nem tudsz hozzáférni az konzol beállításokhoz, akkor le kell tiltanod. Ahhoz hogy megtehesd ezt, meg kell szerezned a konzolod mester kulcsát (mkey):
 1. Menj [erre a weboldalra](https://mkey.eiphax.tech/)
 1. Töltsd ki a következő dobozokat az információval:
-+ Console Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
-+ System Date: A nap és a hónap a konzolod óráján beállított
-+ Inquiry Number: Beszerezhető a "Forgot PIN" majd az "I Forgot" gombbal a Parental Controls képernyőn
+  + Device Type: Válaszd a "3DS"-t (ugyanez vonatkozik, ha 2DS, New 3DS (XL/LL) vagy New 2DS (XL/LL) típusod van)
+  + System Date: A nap és a hónap a konzolod óráján beállított
+  + Inquiry Number: Beszerezhető a "Forgot PIN" majd az "I Forgot" gombbal a Parental Controls képernyőn
 1. Ha megszerezted az mkey-edet, nyomj OK gombot azon a képernyőn, ahol megkaptad az Inquiry Number számod, és add meg a mester kulcsot
 1. Nyomj "Clear Settings"-et, majd "Delete"-et a minden Parental Controls adat eltávolításához
 {% endcapture %}

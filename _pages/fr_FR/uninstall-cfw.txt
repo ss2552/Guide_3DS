@@ -39,7 +39,7 @@ These instructions will only work on consoles with a Luma3DS version of 8.0 or h
 
 ## Ce dont vous avez besoin
 
-* La dernière version de [Luma3DS] (https://github.com/LumaTeam/Luma3DS/releases/latest)
+* La dernière version de [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (le fichier `.zip' de Luma3DS)
 * La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * La dernière version de [DSiWare Uninstaller](https://github.com/MechanicalDragon0687/DSiWare-Uninstaller/releases/latest)
 * [safety_test.gm9]({{ base_path }}/gm9_scripts/safety_test.gm9)
@@ -117,7 +117,7 @@ Si votre console ne démarre PAS dans le Menu HOME 3DS habituel, ou si les Param
 1. Appuyez sur (B) pour revenir au menu principal
 1. Sélectionnez “Exit”
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions (action menu)
-1. Select “Poweroff system” to power off your console
+1. Select "Poweroff system" to power off your console
 
 #### Section V - Suppression du contenu illégitime
 Cette section supprimera le contenu illégitime, comme les homebrew et les cartes de jeu dumpées. Si vous avez des données de sauvegarde qui vous intéressent, sauvegardez-les avec un gestionnaire de sauvegardes avant de continuer !

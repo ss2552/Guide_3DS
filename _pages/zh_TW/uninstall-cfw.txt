@@ -39,7 +39,7 @@ These instructions will only work on consoles with a Luma3DS version of 8.0 or h
 
 ### 必備項目
 
-* 最新版的 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 * 最新版的 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * 最新版的 [DSiWare Uninstaller](https://github.com/MechanicalDragon0687/DSiWare-Uninstaller/releases/latest)
 * [safety_test.gm9]({{ base_path }}/gm9_scripts/safety_test.gm9)
@@ -117,7 +117,7 @@ These instructions will only work on consoles with a Luma3DS version of 8.0 or h
 1. 按『B』回到主選單
 1. 選擇『Exit』
 1. 按『Home』鍵以叫出主選單
-1. Select “Poweroff system” to power off your console
+1. Select "Poweroff system" to power off your console
 
 #### 第五節－移除所有非法內容
 本章節將會移除任何非法內容，如自製程式及轉存的遊戲卡帶。 如果你有任何您特別在意的存檔，請先透過存檔管理員將其備份再行繼續。
