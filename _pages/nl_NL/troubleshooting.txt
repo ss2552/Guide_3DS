@@ -73,11 +73,11 @@ Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor
 This occurs when you use your SD card in multiple 3DS consoles and is intended to prevent inadvertently merging data that would not be valid on other consoles. Om erachter te komen welke lange mapnaam correct is voor je 3DS, volg dan deze instructies:
 
 1. Hernoem de `Nintendo 3DS` map naar `BACKUP_Nintendo 3DS`
-1. Reinsert your SD card into your console
-1. Power on your console
+1. Stop je SD-kaart terug in je console
+1. Zet je console aan
 1. Wait for the console to generate the SD card data
 	+ Je applicaties zullen verdwenen zijn. Dit is normaal en wordt binnenkort opgelost
-1. Power off your console
+1. Zet je console uit
 1. Plaats je SD kaart in je computer
 1. Ga naar de `Nintendo 3DS` map op je SD-kaart
 1. Kopieer de 32-tekens lange naam van de map die je ziet
@@ -168,7 +168,7 @@ There is also a possibility that the console isn't reading your SD card. Make su
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Failed to open SafeB9SInstaller.bin</u></summary>
+<summary><u>Kan SafeB9SInstaller.bin niet openen</u></summary>
 
 Het bestand `SafeB9SInstaller.bin` ontbreekt of zit in de verkeerde map. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip), pak het uit en plaats `SafeB9SInstaller.bin` op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 {% endcapture %}
@@ -177,7 +177,7 @@ Het bestand `SafeB9SInstaller.bin` ontbreekt of zit in de verkeerde map. Downloa
 {% capture compat %}
 <summary><u>Failed to mount the SD card!</u></summary>
 
-Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.
+Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard en het formatteer programma van HP (HPUSBDisk) zijn ervoor bekend om problemen te veroorzaken met 3DS SD-kaarten.
 
 Mocht dit niet lukken, gebruik dan een andere SD-kaart.
 {% endcapture %}
@@ -320,7 +320,7 @@ You have the wrong Soundhax file for your console and region, or your console is
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Failed to open SafeB9SInstaller.bin</u></summary>
+<summary><u>Kan SafeB9SInstaller.bin niet openen</u></summary>
 
 Het bestand `SafeB9SInstaller.bin` ontbreekt of zit in de verkeerde map. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip), pak het uit en plaats `SafeB9SInstaller.bin` op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 {% endcapture %}
@@ -328,7 +328,7 @@ Het bestand `SafeB9SInstaller.bin` ontbreekt of zit in de verkeerde map. Downloa
 
 {% capture compat %}
 <summary><u>Failed to mount the SD card!</u></summary>
-Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.
+Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard en het formatteer programma van HP (HPUSBDisk) zijn ervoor bekend om problemen te veroorzaken met 3DS SD-kaarten.
 
 Mocht dit niet lukken, gebruik dan een andere SD-kaart.
 {% endcapture %}
@@ -339,22 +339,22 @@ Mocht dit niet lukken, gebruik dan een andere SD-kaart.
 {% capture compat %}
 <summary><u>Red/purple/pink and white screen after running Browserhax</u></summary>
 
-This likely indicates that you already have custom firmware. Je zou best [controleren op CFW](checking-for-cfw).
+Dit geeft waarschijnlijk aan dat je al custom firmware hebt. Je zou best [controleren op CFW](checking-for-cfw).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)</u></summary>
+<summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (zwart scherm met deze tekst)</u></summary>
 
-The file `arm11code.bin` is missing or misplaced. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
+The file `arm11code.bin` is missing or misplaced. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), plaats `otherapp.bin` op de hoofdmap van je SD-kaart en hernoem het naar `arm11code.bin`. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 
 {% capture compat %}
-<summary><u>"An error has occurred, forcing the software to close..." (white message box)</u></summary>
+<summary><u>"An error has occured, forcing the software to close..." (wit berichtveld)</u></summary>
 
-There is an issue with your `arm11code.bin` file. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
+There is an issue with your `arm11code.bin` file. Download de nieuwste versie van [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), plaats `otherapp.bin` op de hoofdmap van je SD-kaart en hernoem het naar `arm11code.bin`. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -398,36 +398,7 @@ Follow these steps in order:
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
-
-First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). If the proxy is correct, then your console has been cart-updated, which means an alternate exploit will need to be used.
-
-<u>Method 1</u><br>
-If the two numbers before the region in the system version string is equal to or less than 36 (e.g. Ver. 11.14.0-**36**U), you can follow [Soundhax](installing-boot9strap-(soundhax)). When prompted to select a firmware to generate the sound file, use:
-
-* 1.x - 2.1 if the number is between 0 and 2
-* 2.1 - 2.2 if the number is between 3 and 4
-* 3.x - 4.x if the number is between 5 and 10
-* 5.x - 11.3 if the number is between 11 and 36
-
-<u>Method 2 (Old 3DS only)</u><br>
-If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which will trigger an alternate exploit:
-
-1. Ensure that the proxy that you used for SSLoth is still actively applied to your internet connection
-1. With your console powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your console
-  + Keep holding the buttons until the console boots into Safe Mode (a "system update" menu)
-1. Druk op "OK" om de update te accepteren
-1. If everything worked correctly, the update will fail and the 3DS will boot into SafeB9SInstaller. If it did, then continue from [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
-
----
-
-If these methods didn't work (or do not apply to you), update your console to the latest version and follow [Seedminer](seedminer).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Failed to open SafeB9SInstaller.bin</u></summary>
+<summary><u>Kan SafeB9SInstaller.bin niet openen</u></summary>
 
 Het bestand `SafeB9SInstaller.bin` ontbreekt of zit in de verkeerde map. Download de nieuwste versie van [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip), pak het uit en plaats `SafeB9SInstaller.bin` op de hoofdmap van je SD-kaart. Voeg de `.bin` extensie niet toe als je het nog niet ziet.
 {% endcapture %}
@@ -451,9 +422,9 @@ Sluit je aan bij [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) voor
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Failed to mount the SD card!</u></summary>
+<summary><u>De SD-kaart wordt niet herkend!</u></summary>
 
-Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard and the HP formatting tool (HPUSBDisk) are known to cause issues with 3DS SD cards.
+Maak een back-up van je data en herformatteer je SD-kaart als FAT32 met het aanbevolen hulpmiddel afhankelijk van je besturingssysteem: ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)) of [Linux](formatting-sd-(linux))). MiniTool Partition Wizard en het formatteer programma van HP (HPUSBDisk) zijn ervoor bekend om problemen te veroorzaken met 3DS SD-kaarten.
 
 Mocht dit niet lukken, gebruik dan een andere SD-kaart.
 {% endcapture %}
@@ -462,7 +433,7 @@ Mocht dit niet lukken, gebruik dan een andere SD-kaart.
 ## Homebrew Launcher (super-skaterhax)
 
 {% capture compat %}
-<summary><u>"An error has occured. Please save your data in any software currently in use, then restart the system."</u></summary>
+<summary><u>"An error has occurred. Please save your data in any software currently in use, then restart the system."</u></summary>
 
 The date is set incorrectly. To set it correctly, follow these steps:
 
@@ -480,7 +451,7 @@ If the problem persists and you have a system version ending in E, and the langu
 {% capture compat %}
 <summary><u>An exception occured or ErrDisp when pressing GO! GO!</u></summary>
 
-This likely indicates that you already have custom firmware. Je zou best [controleren op CFW](checking-for-cfw).
+Dit geeft waarschijnlijk aan dat je al custom firmware hebt. Je zou best [controleren op CFW](checking-for-cfw).
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -507,7 +478,7 @@ De volgende stappen kunnen in elke volgorde uitgevoerd worden, maar zijn gesorte
 {% capture compat %}
 <summary><u>Unable to enter Rosalina menu due to broken Left Shoulder / Down D-Pad / Select button(s)</u></summary>
 
-Download this [alternate config.ini](assets/config.ini) and place it in `/luma/`. Dit zal de Rosalina sleutel combinatie veranderen naar (X) + (Y).
+Download deze [alternatieve config.ini](/assets/config.ini) en plaats het in `/luma/`. Dit zal de Rosalina sleutel combinatie veranderen naar (X) + (Y).
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -528,11 +499,11 @@ Je hebt de map `gm9` niet van de GodMode9 `.zip` naar de hoofdmap van de SD-kaar
 {% capture compat %}
 <summary><u>"Backup failed" or "Error: Could not open directory" when attempting a NAND backup</u></summary>
 Make sure you have at least 1.3GB available in your SD card. If you don't have enough space, follow these steps:
-1. Power off your console
+1. Zet je console uit
 1. Remove the SD card and insert it into your computer
 1. Copy the `Nintendo 3DS` folder from the root of your SD card to your computer
 1. Delete the Nintendo 3DS folder from the SD card
-1. Reinsert your SD card into your console
+1. Stop je SD-kaart terug in je console
 1. Power off your console, hold START and power on still holding START to boot on GodMode9
 1. Perform a [NAND Backup](godmode9-usage#creating-a-nand-backup)
 1. Copy the files in `gm9/out` on your SD to a safe location on your computer
@@ -587,9 +558,9 @@ De volgende stappen kunnen in elke volgorde uitgevoerd worden, maar zijn gesorte
 		+ **KOR Regio**: `000000A9`
 		+ **TWN Regio**: `000000B1`
 1. Probeer in herstelmodus op te starten en je systeem up te daten:
-	+ Power off your console
+	+ Zet je console uit
 	+ Hou de volgende knoppen vast: (Left Shoulder) + (Right Shoulder) + (D-Pad omhoog) + (A)
-	+ Power on your console
+	+ Zet je console aan
 	+ If you were successful, the console will boot to an "update your system" screen
 1. Volg de [CTRTransfer](ctrtransfer) handleiding
 1. Voor verdere ondersteuning vraag om hulp in de [Nintendo Homebrew Discord](https://discord.gg/MWxPgEp)
@@ -615,7 +586,7 @@ There are a number of reasons as to why this could be happening. In any case, th
 <summary><u>"An error has occurred. Hold down the POWER button to turn off the power..."</u></summary>
 
 ARM11 exception handlers zijn uitgeschakeld of custom firmware is niet geïnstalleerd. Probeer ARM11 exception handlers in te schakelen:
-  + Power off your console
+  + Zet je console uit
   + Hou (Select) vast
   + Power on your console, while still holding (Select)
   + Als "Disable ARM11 exception handlers" is aangevinkt, vink het uit
@@ -657,10 +628,10 @@ Neem een foto van de fout en meld je aan bij [Nintendo Homebrew on Discord](http
 <summary><u>DSi / DS functionality is broken or has been replaced with Flipnote Studio</u></summary>
 
 1. Download de nieuwste versie van [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) (het `.3dsx` bestand)
-1. Power off your console
+1. Zet je console uit
 1. Maak een map genaamd "3ds" op de hoofdmap van je SD-kaart als die nog niet bestaat
 1. Kopieer `TWLFix-CFW.3dsx` naar de `/3ds/` map op je SD kaart
-1. Reinsert your SD card into your console
+1. Stop je SD-kaart terug in je console
 1. Start de Homebrew Launcher op
 1. Start TWLFix-CFW op uit de lijst met homebrew
 1. Klik op (A) om de kapotte TWL titels te verwijderen
@@ -700,7 +671,7 @@ If you weren't able to find your error or the instructions didn't work, join [Ni
 {% capture compat %}
 <summary><u>Clear HOME Menu extdata</u></summary>
 
-1. Power off your console
+1. Zet je console uit
 1. Plaats je SD kaart in je computer
 1. Navigeer naar de `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` map op je SD-kaart
 1. Verwijder de overeenkomende map voor je 3DS regio:
@@ -710,21 +681,21 @@ If you weren't able to find your error or the instructions didn't work, join [Ni
   + **CHN Regio**: `000000A1`
   + **KOR Regio**: `000000A9`
   + **TWN Regio**: `000000B1`
-1. Reinsert your SD card into your console
+1. Stop je SD-kaart terug in je console
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
 <summary><u>Clear HOME Menu theme data</u></summary>
 
-1. Power off your console
+1. Zet je console uit
 1. Plaats je SD kaart in je computer
 1. Navigeer naar de `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` map op je SD-kaart
 1. Verwijder de overeenkomende map voor je 3DS regio:
   + **EUR Regio**: `000002ce`
   + **JPN Regio**: `000002cc`
   + **USA Regio**: `000002cd`
-1. Reinsert your SD card into your console
+1. Stop je SD-kaart terug in je console
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

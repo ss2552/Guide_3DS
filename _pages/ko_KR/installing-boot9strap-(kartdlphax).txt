@@ -40,7 +40,6 @@ kartdlphax와 unSAFE_MODE의 더 자세한 설명은 다음 (영어) 페이지�
 **타겟 3DS** (커스텀 펌웨어를 설치하려고 하는 3DS)에서:
 
 * 최신 버전의 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (직접 다운로드)
-* 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (직접 다운로드)
 * 최신 버전의 [일반 Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (Luma3DS `.zip` 파일)
 * 최신 버전의 [unSAFE_MODE](https://github.com/zoogie/unSAFE_MODE/releases/latest) (RELEASE `.zip` 파일)
 
@@ -57,7 +56,7 @@ kartdlphax와 unSAFE_MODE의 더 자세한 설명은 다음 (영어) 페이지�
 
 1. **소스 3DS**의 SD 카드를 컴퓨터에 삽입해 주세요
 1. Luma3DS 3GX Loader 버전의 `boot.firm`을 **소스 3DS**의 SD 카드에 복사해 주세요. 파일이 있다면 교체해 주세요
-  + SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 않 들어가 있는 상태의 폴더 입니다
+  + SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 들어가 있지 않은 상태의 폴더입니다
 1. kartdlphax의 `plugin.3gx`을 **가지고 계신 마리오 카트 7의 지역**에 맞추어 **소스 3DS**의 SD 카드의 다음 경로에 복사해 주세요
   - USA: `luma/plugins/0004000000030800`
   - EUR: `luma/plugins/0004000000030700`
@@ -72,11 +71,11 @@ kartdlphax와 unSAFE_MODE의 더 자세한 설명은 다음 (영어) 페이지�
 1. **타겟 3DS**의 SD 카드를 컴퓨터에 삽입해 주세요
 1. 일반 Luma3DS `.zip`안에 있는 `boot.firm`과 `boot.3dsx`를 SD 카드의 루트에 복사해 주세요
 1. SD 카드이 루트에 `boot9strap` 라는 이름으로 새 폴더를 생성해 주세요
-1. SD 카드에 있는 `/boot9strap/` 폴더에 boot9strap `.zip` 파일 안에 압축되있는 `boot9strap.firm`과 `boot9strap.firm.sha`을 복사해 주세요
+1. SD 카드에 있는 `/boot9strap/` 폴더에 RELEASE `.zip` 파일 안에 압축되있는 `boot9strap.firm`과 `boot9strap.firm.sha`을 복사해 주세요
 1. SafeB9SInstaller `.zip`의 `SafeB9SInstaller.bin`을 SD 카드의 루트로 복사해 주세요
-1. `unSAFE_MODE.zip` 안에 있는 `usm.bin`을 SD 카드의 루트에 복사해 주세요
+1. RELEASE `.zip`안에 있는 `usm.bin`을 SD 카드의 루트에 복사해 주세요
 1. SD 카드의 루트에 '3ds' 폴더를 생성해 주세요
-1. unSAFE_MODE `.zip`안에 있는 `slotTool` 폴더를 SD 카드의 `3ds` 폴더에 복사해 주세요
+1. RELEASE `.zip`안에 `slotTool`폴더에 있는 `slotTool.3dsx`를 SD 카드의 `/3ds/` 폴더에 복사해 주세요
 1. SD 카드를 분리해 **타겟 3DS**에 장착해 주세요
 
 #### 섹션 IV - kartdlphax
@@ -94,9 +93,9 @@ kartdlphax와 unSAFE_MODE의 더 자세한 설명은 다음 (영어) 페이지�
   + 화면이 멎는다면, 전원 버튼을 약 15초간 길게 눌러 전원을 강제 종료하고, 다시 시도해 주세요
   - 이전에 kartdlphax를 실행한 적이 있다면, 마지막으로 지정한 설정이 로드됩니다. 그 설정이 맞다면, `Use settings`를 누르고 다음 세 과정을 건너뛰어주세요. 설정이 다르다면 `Change settings`를 눌러 계속해 주세요
 1. **타겟 3DS**의 콘솔 종류를 선택해 주세요 (`Old 3DS family` 또는 `New 3DS family`)
-1. Select the following exploit type depending on your system version:
-  - 11.16.0: select `xPloitInjector (11.16)`
-  - 11.17.0: select `xPloitInjector (11.17)`
+1. 시스템 버전에 따라 다음 취약점을 선택해 주세요:
+  - 11.16.0: `xPloitInjector (11.16)`를 선택해 주세요
+  - 11.17.0: `xPloitInjector (11.17)`를 선택해 주세요
 1. 확인 메뉴가 표시됩니다. 설정이 맞다면, `Use settings`를 선택해 주세요
   - 표시된 설정이 맞지 않다면, `Change settings`를 눌러 알맞게 조정해 주세요
 1. `방 만들기`를 눌러 주세요 (언어별로 메뉴 이름이 다를 수 있음)

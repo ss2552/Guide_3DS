@@ -269,7 +269,7 @@ SD 카드 루트에 Frogminer_save `.zip` 안에 있는 `private` 폴더를 복�
 
 `00000001.sav` 또는 `otherapp.bin` 파일이 잘못 들어갔습니다. `00000000.sav`가 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00004000` -> 0017c100` -> `data` 안에 있고 `otherapp.bin`이 SD 카드 루트에 있는지 다시 한 번 확인해 주세요.
 
-만약 위치가 정확하다면, [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx)을 이용해 세이브를 다시 생성한 후, `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 `00000001.sav`이고 기기의 `movable.sed`를 이용해야 합니다. Re-download [otherapps.zip](/assets/otherapps.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
+만약 위치가 정확하다면, [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx)을 이용해 세이브를 다시 생성한 후, `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 `00000001.sav`이고 기기의 `movable.sed`를 이용해야 합니다. [otherapps.zip](/assets/otherapps.zip)를 다운로드하고, 콘솔에 맞는 `.bin` 파일를 SD 카드의 루트로 복사하고, 이 파일을 `otherapp.bin`으로 이름을 바꿔 주세요. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -283,7 +283,7 @@ SD 카드 루트에 Frogminer_save `.zip` 안에 있는 `private` 폴더를 복�
 {% capture compat %}
 <summary><u>"에러가 발생하여 소프트웨어를 종료합니다..." (하얀 메시지 창)</u></summary>
 
-`otherapp.bin` 파일에 문제가 있습니다. Download [otherapps.zip](/assets/otherapps.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
+`otherapp.bin` 파일에 문제가 있습니다. [otherapps.zip](/assets/otherapps.zip)를 다운로드하고, 콘솔에 맞는 `.bin` 파일를 SD 카드의 루트로 복사하고, 이 파일을 `otherapp.bin`으로 이름을 바꿔 주세요. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -398,35 +398,6 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
-
-First, make sure you entered the correct proxy for the connection you're using. If not, go back to [Section II](installing-boot9strap-(ssloth-browser).html#section-ii---ssloth). If the proxy is correct, then your console has been cart-updated, which means an alternate exploit will need to be used.
-
-<u>Method 1</u><br>
-If the two numbers before the region in the system version string is equal to or less than 36 (e.g. Ver. 11.14.0-**36**U), you can follow [Soundhax](installing-boot9strap-(soundhax)). When prompted to select a firmware to generate the sound file, use:
-
-* 1.x - 2.1 if the number is between 0 and 2
-* 2.1 - 2.2 if the number is between 3 and 4
-* 3.x - 4.x if the number is between 5 and 10
-* 5.x - 11.3 if the number is between 11 and 36
-
-<u>Method 2 (Old 3DS only)</u><br>
-If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which will trigger an alternate exploit:
-
-1. Ensure that the proxy that you used for SSLoth is still actively applied to your internet connection
-1. 전원이 꺼져 있는 상태에서 (L 어깨) + (R 어깨) + (십자 Up) + (A) 를 길게 눌르고, 누르는 상태에서 전원을 켜 주세요
-  + 안전 모드로 부팅 될 때 까지 버튼들을 눌러 주세요 ("본체 업데이트" 메뉴)
-1. "OK"를 선택해서 업데이트를 확인해 주세요
-1. If everything worked correctly, the update will fail and the 3DS will boot into SafeB9SInstaller. If it did, then continue from [Section IV](installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap).
-
----
-
-If these methods didn't work (or do not apply to you), update your console to the latest version and follow [Seedminer](seedminer).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
 <summary><u>Failed to open SafeB9SInstaller.bin</u></summary>
 
 `SafeB9SInstaller.bin` 파일이 없거나 잘못 들어갔습니다. 최신 버전의 [SafeB9Installer](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInst20170605-122940.zip)을 다운받아 압축을 풀고, SD 카드의 최상위 디렉토리에 `SafeB9Installer.bin`을 복사해주세요. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
@@ -462,9 +433,9 @@ If these methods didn't work (or do not apply to you), update your console to th
 ## Homebrew Launcher (super-skaterhax)
 
 {% capture compat %}
-<summary><u>"An error has occured. Please save your data in any software currently in use, then restart the system."</u></summary>
+<summary><u>에러가 발생했습니다. Please save your data in any software currently in use, then restart the system."</u></summary>
 
-The date is set incorrectly. To set it correctly, follow these steps:
+날짜가 잘못 설정되어 있습니다. 날짜를 수정하려면 다음 단계를 따라 주세요:
 
 1. Select the System Settings icon on the HOME Menu, and tap Open.
 1. Tap Other Settings.
@@ -507,7 +478,7 @@ If the problem persists and you have a system version ending in E, and the langu
 {% capture compat %}
 <summary><u>L 버튼, 십자 패드 (아래), Select 버튼 중 하나 이상이 고장나 Rosalina 메뉴로 들어갈 수 없습니다</u></summary>
 
-Download this [alternate config.ini](assets/config.ini) and place it in `/luma/`. 이 파일은 Rosalina 키 조합을 (X) + (Y)로 바꿉니다.
+Download this [alternate config.ini](/assets/config.ini) and place it in `/luma/`. 이 파일은 Rosalina 키 조합을 (X) + (Y)로 바꿉니다.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -623,11 +594,11 @@ ARM11 오류 핸들러가 꺼져있거나, 커스텀 펌웨어가 정상적으�
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>HOME Menu is missing installed applications</u></summary>
+<summary><u>HOME 메뉴에 설치한 앱이 없어졌습니다</u></summary>
 
 여러 이유가 있을 수 있지만, 대부분 시스템이 SD 카드를 읽지 못해 발생합니다.
 SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 화면의 노란색 문구를 확인하세요: "Booted from CTRNAND via B9S"가 표시된다면 SD 카드가 읽히지 않아 내부 메모리에서 부팅되었음을 의미합니다.
-If this is the case, attempt the steps below, which are listed from easiest to hardest:
+그렇다면, 다음 단계를 따라주세요. 쉬운 것부터 어려운 순으로 나열되어 있습니다:
 1. 콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, 다시 장착하고 전원을 켜 보세요
 1. 콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, PC에 장착하세요. 최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)를 다운받아 `Luma3DS.zip`에서 `boot.firm` 파일을 복사해 SD 카드의 루트에 넣어주세요. 이미 있다면 덮어씌워주세요
 1. 콘솔의 전원을 끄고, SD 카드를 분리한 뒤, PC에 장착해 운영 체제에 따른 방식으로 포멧해 주세요: [Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux)). *(이 과정은 SD 카드의 데이터를 모두 삭제합니다)*

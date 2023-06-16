@@ -7,9 +7,9 @@ In this section, you will copy the files necessary to temporarily replace DS Con
 1. Onder het veld "MovableSed", upload je `movable.sed` bestand met behulp van de tweede "Browse..." optie
 1. Under the "InjectionTarget" field, set the injection target to `DSinternet` (NOT memorypit)
 1. Klik op "Build"
-  + Wait a few seconds for the build process to complete
+  + Wacht enkele seconden tot het bouwproces voltooid is
 1. In the Build History section on the left, type the Username into the "Filter Builds" field
-1. Click on the first search result
+1. Klik op het eerste zoekresultaat
   + This result should have the latest timestamp
 1. Klik op de "output_(name).zip" link
 1. Navigeer naar `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare` op je SD-kaart
@@ -22,8 +22,8 @@ In this section, you will copy the files necessary to temporarily replace DS Con
   + De hoofdmap van de SD-kaart verwijst naar de bovenste map van de SD-kaart, waarin je alle mappen op de SD-kaart kunt zien, waaronder de Nintendo 3DS map, zonder je in de Nintendo 3DS map te bevinden
 1. Copy `boot.nds` (B9STool) from the release `.zip` to the root of your SD card
 1. Kopieer de `private` map van de Frogminer_save `.zip` naar de hoofdmap van je SD-kaart
-1. Reinsert your SD card into your console
-1. Power on your console
+1. Stop je SD-kaart terug in je console
+1. Zet je console aan
 
     ![]({{ "/images/screenshots/fredtool/fredtool-root-layout.png" | absolute_url }})
     {: .notice--info}
