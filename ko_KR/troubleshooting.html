@@ -758,7 +758,7 @@ window.cookieconsent.initialise({
 
 <p><code class="language-plaintext highlighter-rouge">00000001.sav</code> 또는 <code class="language-plaintext highlighter-rouge">otherapp.bin</code> 파일이 잘못 들어갔습니다. <code class="language-plaintext highlighter-rouge">00000000.sav</code>가 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00004000</code> -&gt; 0017c100<code class="language-plaintext highlighter-rouge"> -&gt; </code>data<code class="language-plaintext highlighter-rouge"> 안에 있고 </code>otherapp.bin`이 SD 카드 루트에 있는지 다시 한 번 확인해 주세요.</p>
 
-<p>만약 위치가 정확하다면, <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a>을 이용해 세이브를 다시 생성한 후, <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00040000</code> -&gt; <code class="language-plaintext highlighter-rouge">0017c100</code> -&gt; <code class="language-plaintext highlighter-rouge">data</code> 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 <code class="language-plaintext highlighter-rouge">00000001.sav</code>이고 기기의 <code class="language-plaintext highlighter-rouge">movable.sed</code>를 이용해야 합니다. Re-download <a href="/assets/otherapps.zip">otherapps.zip</a>, place the <code class="language-plaintext highlighter-rouge">.bin</code> file relevant to your console to the root of your SD card, and rename it to <code class="language-plaintext highlighter-rouge">otherapp.bin</code>. <code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요.</p>
+<p>만약 위치가 정확하다면, <a href="https://3dstools.nhnarwhal.com/#/pichaxx">PicHaxx Save Tool</a>을 이용해 세이브를 다시 생성한 후, <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID0&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">&lt;ID1&gt;</code> -&gt; <code class="language-plaintext highlighter-rouge">title</code> -&gt; <code class="language-plaintext highlighter-rouge">00040000</code> -&gt; <code class="language-plaintext highlighter-rouge">0017c100</code> -&gt; <code class="language-plaintext highlighter-rouge">data</code> 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 <code class="language-plaintext highlighter-rouge">00000001.sav</code>이고 기기의 <code class="language-plaintext highlighter-rouge">movable.sed</code>를 이용해야 합니다. <a href="/assets/otherapps.zip">otherapps.zip</a>를 다운로드하고, 콘솔에 맞는 <code class="language-plaintext highlighter-rouge">.bin</code> 파일를 SD 카드의 루트로 복사하고, 이 파일을 <code class="language-plaintext highlighter-rouge">otherapp.bin</code>으로 이름을 바꿔 주세요. <code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요.</p>
 </details>
 
 <details>
@@ -770,7 +770,7 @@ window.cookieconsent.initialise({
 <details>
 <summary><u>"에러가 발생하여 소프트웨어를 종료합니다..." (하얀 메시지 창)</u></summary>
 
-<p><code class="language-plaintext highlighter-rouge">otherapp.bin</code> 파일에 문제가 있습니다. Download <a href="/assets/otherapps.zip">otherapps.zip</a>, place the <code class="language-plaintext highlighter-rouge">.bin</code> file relevant to your console to the root of your SD card, and rename it to <code class="language-plaintext highlighter-rouge">otherapp.bin</code>. <code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요.</p>
+<p><code class="language-plaintext highlighter-rouge">otherapp.bin</code> 파일에 문제가 있습니다. <a href="/assets/otherapps.zip">otherapps.zip</a>를 다운로드하고, 콘솔에 맞는 <code class="language-plaintext highlighter-rouge">.bin</code> 파일를 SD 카드의 루트로 복사하고, 이 파일을 <code class="language-plaintext highlighter-rouge">otherapp.bin</code>으로 이름을 바꿔 주세요. <code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요.</p>
 </details>
 
 <details>
@@ -881,41 +881,6 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>"To use the Internet Browser, please update your system using the System Update option in the System Settings."</u></summary>
-
-<p>First, make sure you entered the correct proxy for the connection you’re using. If not, go back to <a href="installing-boot9strap-(ssloth-browser).html#section-ii---ssloth">Section II</a>. If the proxy is correct, then your console has been cart-updated, which means an alternate exploit will need to be used.</p>
-
-<p><u>Method 1</u><br />
-If the two numbers before the region in the system version string is equal to or less than 36 (e.g. Ver. 11.14.0-<strong>36</strong>U), you can follow <a href="installing-boot9strap-(soundhax)">Soundhax</a>. When prompted to select a firmware to generate the sound file, use:</p>
-
-<ul>
-  <li>1.x - 2.1 if the number is between 0 and 2</li>
-  <li>2.1 - 2.2 if the number is between 3 and 4</li>
-  <li>3.x - 4.x if the number is between 5 and 10</li>
-  <li>5.x - 11.3 if the number is between 11 and 36</li>
-</ul>
-
-<p><u>Method 2 (Old 3DS only)</u><br />
-If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which will trigger an alternate exploit:</p>
-
-<ol>
-  <li>Ensure that the proxy that you used for SSLoth is still actively applied to your internet connection</li>
-  <li>전원이 꺼져 있는 상태에서 (L 어깨) + (R 어깨) + (십자 Up) + (A) 를 길게 눌르고, 누르는 상태에서 전원을 켜 주세요
-    <ul>
-      <li>안전 모드로 부팅 될 때 까지 버튼들을 눌러 주세요 (“본체 업데이트” 메뉴)</li>
-    </ul>
-  </li>
-  <li>“OK”를 선택해서 업데이트를 확인해 주세요</li>
-  <li>If everything worked correctly, the update will fail and the 3DS will boot into SafeB9SInstaller. If it did, then continue from <a href="installing-boot9strap-(ssloth-browser)#section-iv---installing-boot9strap">Section IV</a>.</li>
-</ol>
-
-<hr />
-
-<p>If these methods didn’t work (or do not apply to you), update your console to the latest version and follow <a href="seedminer">Seedminer</a>.</p>
-
-</details>
-
-<details>
 <summary><u>Failed to open SafeB9SInstaller.bin</u></summary>
 
 <p><code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> 파일이 없거나 잘못 들어갔습니다. 최신 버전의 <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInst20170605-122940.zip">SafeB9Installer</a>을 다운받아 압축을 풀고, SD 카드의 최상위 디렉토리에 <code class="language-plaintext highlighter-rouge">SafeB9Installer.bin</code>을 복사해주세요. <code class="language-plaintext highlighter-rouge">.bin</code> 확장자는 보이지 않는 이상 추가하지 말아 주세요.</p>
@@ -947,9 +912,9 @@ If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which
 <h2 id="homebrew-launcher-super-skaterhax">Homebrew Launcher (super-skaterhax)</h2>
 
 <details>
-<summary><u>"An error has occured. Please save your data in any software currently in use, then restart the system."</u></summary>
+<summary><u>에러가 발생했습니다. Please save your data in any software currently in use, then restart the system."</u></summary>
 
-<p>The date is set incorrectly. To set it correctly, follow these steps:</p>
+<p>날짜가 잘못 설정되어 있습니다. 날짜를 수정하려면 다음 단계를 따라 주세요:</p>
 
 <ol>
   <li>Select the System Settings icon on the HOME Menu, and tap Open.</li>
@@ -993,7 +958,7 @@ If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which
 <details>
 <summary><u>L 버튼, 십자 패드 (아래), Select 버튼 중 하나 이상이 고장나 Rosalina 메뉴로 들어갈 수 없습니다</u></summary>
 
-<p>Download this <a href="assets/config.ini">alternate config.ini</a> and place it in <code class="language-plaintext highlighter-rouge">/luma/</code>. 이 파일은 Rosalina 키 조합을 (X) + (Y)로 바꿉니다.</p>
+<p>Download this <a href="/assets/config.ini">alternate config.ini</a> and place it in <code class="language-plaintext highlighter-rouge">/luma/</code>. 이 파일은 Rosalina 키 조합을 (X) + (Y)로 바꿉니다.</p>
 </details>
 
 <details>
@@ -1116,11 +1081,11 @@ If you have an Old 3DS / Old 3DS XL / 2DS, you can try a Safe Mode update, which
 </details>
 
 <details>
-<summary><u>HOME Menu is missing installed applications</u></summary>
+<summary><u>HOME 메뉴에 설치한 앱이 없어졌습니다</u></summary>
 
 <p>여러 이유가 있을 수 있지만, 대부분 시스템이 SD 카드를 읽지 못해 발생합니다.
 SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 화면의 노란색 문구를 확인하세요: “Booted from CTRNAND via B9S”가 표시된다면 SD 카드가 읽히지 않아 내부 메모리에서 부팅되었음을 의미합니다.
-If this is the case, attempt the steps below, which are listed from easiest to hardest:</p>
+그렇다면, 다음 단계를 따라주세요. 쉬운 것부터 어려운 순으로 나열되어 있습니다:</p>
 <ol>
   <li>콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, 다시 장착하고 전원을 켜 보세요</li>
   <li>콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, PC에 장착하세요. 최신 버전의 <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a>를 다운받아 <code class="language-plaintext highlighter-rouge">Luma3DS.zip</code>에서 <code class="language-plaintext highlighter-rouge">boot.firm</code> 파일을 복사해 SD 카드의 루트에 넣어주세요. 이미 있다면 덮어씌워주세요</li>
