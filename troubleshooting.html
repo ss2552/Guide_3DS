@@ -928,11 +928,19 @@ window.cookieconsent.initialise({
   <li>Select OK to confirm.</li>
 </ol>
 
-<p>If the problem persists and you have a system version ending in E, and the language set to English, change the language to any other language <strong>temporarily</strong>. You can revert this change when you reach Finalizing Setup.</p>
+<p>If the problem persists:</p>
+
+<ul>
+  <li>Ensure that <code class="language-plaintext highlighter-rouge">arm11code.bin</code>, <code class="language-plaintext highlighter-rouge">browserhax_hblauncher_ropbin_payload.bin</code>, and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> are on the root of the SD card (not inside of any folder)</li>
+  <li>Ensure that you selected the correct payload for your region AND system version</li>
+  <li>Ensure that your region settings look <a href="/images/screenshots/skater_lang.png">like this</a></li>
+  <li>Try changing the system language to something other than the current language</li>
+</ul>
+
 </details>
 
 <details>
-<summary><u>An exception occured or ErrDisp when pressing GO! GO!</u></summary>
+<summary><u>An exception occured or "DLL_HEAP_INFORMATION" when pressing GO! GO!</u></summary>
 
 <p>This likely indicates that you already have custom firmware. You should <a href="checking-for-cfw">check for CFW</a>.</p>
 
