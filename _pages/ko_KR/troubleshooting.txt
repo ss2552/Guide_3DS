@@ -35,6 +35,14 @@ title: "문제 해결"
 ### SigHaxed FIRM was not installed! Check lower screen for more info.
 
 {% capture compat %}
+<summary><u>MicroSD Card - init failed</u></summary>
+
+Your SD card is most likely acting weird. Try reformatting your SD card ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). If this doesn't work, try another SD card.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
 <summary><u>SigHaxed FIRM - File not found</u></summary>
 
 `boot9strap` 폴더에 `boot9strap.firm`과 `boot9strap.firm.sha`가 없거나, `boot9strap` 폴더의 이름이 잘못되어 있습니다. [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip)의 최신 버전을 다운로드하여, `boot9strap.firm`과 `boot9strap.firm.sha`를 `boot9strap` 폴더로 복사해 주세요.
@@ -315,7 +323,7 @@ SD 카드 루트에 Frogminer_save `.zip` 안에 있는 `private` 폴더를 복�
 {% capture compat %}
 <summary><u>"Could not play"</u></summary>
 
-콘솔과 지역 조합과 다른 Soundhax 파일을 이용하고 있거나, 콘솔이 Soundhax와 호환되지 않습니다. 후자라면, 콘솔을 최신 버전으로 업데이트한 후 [Seedminer](seedminer) 방식을 따라야 합니다.
+콘솔과 지역 조합과 다른 Soundhax 파일을 이용하고 있거나, 콘솔이 Soundhax와 호환되지 않습니다. In the latter case, your course of action will determine on what version your 3DS is currently on. [Nintendo Homebrew Discord 서버](https://discord.gg.MWxPgEp)에 오셔서 도움을 요청하세요.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -364,7 +372,7 @@ SD 카드 루트에 Frogminer_save `.zip` 안에 있는 `private` 폴더를 복�
 이러한 브라우저 기반의 익스플로잇은 불안정하고 자주 종료됩니다. 그러나 종종 다음 단계를 수행하면 고쳐질 수 있습니다.
 
 1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
-1. 밑으로 내려 저장 데이터 초기화를 눌러 주세요
+1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")
 1. 익스플로잇을 다시 시도해 주세요
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -407,10 +415,6 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 {% capture compat %}
 <summary><u>"Doing agbhax..."에서 멈춥니다</u></summary>
 `arm11code.bin`에 문제가 있을 수 있습니다. 최신 버전의 [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)을 다시 내려받아 SD 카드의 최상위 디렉토리에 복사하고, 이름을 `arm11code.bin`으로 변경해주세요. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
-
-태국발 콘솔 (버전 넘버 뒤에 T가 붙음, 예: 11.3.0-##T)을 이용하고 있는 경우, 이 방식으로는 커펌이 불가하며, 콘솔을 최신 버전으로 업데이트한 후 [Seedminer](seedminer) 를 이용해야 합니다.
-
-중국 본토발 콘솔(버전이 C로 끝남, 예: `11.3.0-##C`)을 이용하고 계신다면, [Nintendo Homebrew Discord 서버](https://discord.com/MWxPgEp)로 오셔서 도움을 요청하세요.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -444,12 +448,35 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 1. Tap Up/Down Arrows to set the correct Day, Month and Year.
 1. Select OK to confirm.
 
-If the problem persists and you have a system version ending in E, and the language set to English, change the language to any other language **temporarily**. You can revert this change when you reach Finalizing Setup.
+If the problem persists:
+
+- Ensure that `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin`, and `boot.3dsx` are on the root of the SD card (not inside of any folder)
+- Ensure that you selected the correct payload for your region AND system version
+- Ensure that your region settings look [like this](/images/screenshots/skater_lang.png)
+- Try resetting your browser data:
+  1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
+  1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initilize Save Data" or "Clear All Save Data")
+  1. 익스플로잇을 다시 시도해 주세요
+- Try changing the system language to something other than the current language
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+
 {% capture compat %}
-<summary><u>"GO! GO!" 선택 시 "An exception occurred" 또는 오류 화면이 표시됩니다 </u></summary>
+<summary><u>에러가 발생했습니다. 본체의 전원 버튼을 길게 눌러 전원을 끈 후..." (검은 화면에 텍스트)</u></summary>
+
+`arm11code.bin` 파일이 없거나 잘못 들어갔습니다. Make sure to copy the files of the [latest version of super-skaterhax](https://github.com/zoogie/super-skaterhax/releases/latest) for your region and version to the root of your SD card (not inside of a folder).
+
+![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+
+{% capture compat %}
+<summary><u>An exception occured or "DLL_HEAP_INFORMATION" when pressing GO! </u></summary>
 
 이미 커스텀 펌웨어가 설치되어 있을 수 있습니다. [CFW 확인](checking-for-cfw) 을 하는 것을 권장합니다.
 
@@ -476,28 +503,69 @@ If the problem persists and you have a system version ending in E, and the langu
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>L 버튼, 십자 패드 (아래), Select 버튼 중 하나 이상이 고장나 Rosalina 메뉴로 들어갈 수 없습니다</u></summary>
+<summary><u>Error #01: No Nintendo 3DS folder</u></summary>
 
-Download this [alternate config.ini](/assets/config.ini) and place it in `/luma/`. 이 파일은 Rosalina 키 조합을 (X) + (Y)로 바꿉니다.
+Your SD card does not have the `Nintendo 3DS` folder. Power on your device with your SD card inserted, then wait for the device to show a message box that says "Creating HOME Menu management information". Once the message box disappears, power off your device and try again.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>다운로드 플레이로 Homebrew Launcher 실행 시 로딩이 멈추지 않거나 "An exception occurred" 화면이 표시됩니다</u></summary>
+<summary><u>Error #02: Missing essential.exefs</u></summary>
 
-`boot.3dsx` 파일에 문제가 있습니다. (없거나, 잘못 들어갔거나, 혹은 잘못된 파일) 최신 버전의 [Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest)을 다시 내려받고 `boot.3dsx` 파일을 SD 카드의 최상위 디렉토리에 복사해주세요. 이미 파일이 있으면 덮어씌워 주세요.
+You said 'No' to the "Make essential files backup?" prompt in GodMode9. Power off your device, power it on while holding (Start) to re-enter GodMode9, say 'Yes' to the prompt, then try again.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>GodMode9에서 "Scripts directory not found"가 표시됩니다</u></summary>
 
-GodMode9 `.zip`안에 압축이 되있는 `gm9` 폴더를 SD 카드의 루트로 복사하지 않았습니다. 최신 버전의 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)을 다시 내려받고 `gm9` 폴더를 SD 카드의 최상위 디렉토리에 복사해주세요. 이미 폴더가 있으면 합병해 주세요.
+<summary><u>Unable to open GodMode9 or Error #03: Missing files</u></summary>
+
+You did not copy everything from `finalize.zip` to the root of your SD card. Remember, your SD card should have at least these files:
+
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>NAND 백업을 실행할 때 "Backup failed" 또는 "Error: Could not open directory"가 표시됩니다</u></summary>
+
+<summary><u>Error #04: No space</u></summary>
+
+You need at least 1.3GB of free space to perform the NAND backup, which is a part of the script. 빈 공간이 부족하다면 다음 단계를 따르세요.
+
+1. 콘솔을 종료해 주세요
+1. SD 카드를 분리해 컴퓨터에 장착해주세요
+1. SD 카드의 루트에 있는 `Nintendo 3DS` 폴더를 컴퓨터에 복사해주세요
+1. SD 카드에서 `Nintendo 3DS` 폴더를 지워주세요
+1. SD 카드를 콘솔에 다시 삽입해 주세요
+1. 콘솔의 전원을 끄고, START 버튼을 누른 채 전원을 켜 GodMode9로 진입하세요
+1. "Scripts..."를 선택해 주세요
+1. Select "finalize"
+1. Follow the prompts in the script, answering each question that you are asked
+1. SD 카드의 `gm9/out` 폴더 내 파일을 컴퓨터의 안전한 위치에 복사해 주세요
+1. SD 카드의 `/gm9/out` 폴더에서 essential.exefs는 남기고 `<date>_<serialnumber>_sysnand_##.bin` 및 `<date>_<serialnumber>_sysnand_##.bin.sha` 파일을 삭제해주세요
+1. 컴퓨터에서 SD 카드의 루트로 복사해 두었던 `Nintendo 3DS` 폴더를 다시 복사해 주세요
+1. 컴퓨터에서 `Nintendo 3DS` 폴더를 지워주세요
+
+Once done, re-run the script.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #05: No title database</u></summary>
+
+Press (A) to create a title database, unlock SysNAND writing by entering the buttons on-screen, follow the prompts [here](/images/screenshots/database-reset.jpg), then re-run the script.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #06 or "Error: Could not open directory" when attempting a NAND backup</u></summary>
+
 SD 카드에 1.3GB 이상의 빈 공간이 있는지 확인해주세요. 빈 공간이 부족하다면 다음 단계를 따르세요.
 1. 콘솔을 종료해 주세요
 1. SD 카드를 분리해 컴퓨터에 장착해주세요
@@ -512,6 +580,14 @@ SD 카드에 1.3GB 이상의 빈 공간이 있는지 확인해주세요. 빈 공
 1. 컴퓨터에서 `Nintendo 3DS` 폴더를 지워주세요
 
 SD 카드의 용량이 충분하다면, SD 카드가 손상되었거나 불량일 수 있습니다. 컴퓨터의 운영 체제에 따라 SD 카드에 오류가 있는지를 확인해주세요: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #08: Dummy title database</u></summary>
+
+You didn't delete the dummy title database that was created by Error #05. Follow the prompts [here](/images/screenshots/database-reset.jpg), then re-run the script.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -664,6 +740,13 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+{% capture compat %}
+<summary><u>Opening the HOME Menu settings crashes the console or loads the Homebrew Launcher</u></summary>
+
+Your console likely still has menuhax67 installed. To uninstall menuhax67, download the latest release of [menuhax67](https://github.com/zoogie/menuhax67/releases/latest) (the menuhax `.zip`), then follow the ["Uninstall menuhax67" section](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits/menuhax67#Uninstall_menuhax67) here.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
 ---
 
 ## 기타 문제 해결
@@ -696,6 +779,16 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
   + **JPN 지역**: `000002cc`
   + **USA 지역**: `000002cd`
 1. SD 카드를 콘솔에 다시 삽입해 주세요
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Manually entering Homebrew Launcher</u></summary>
+
+If you are missing the Homebrew Launcher application from your HOME Menu, you can follow these instructions to manually enter the Homebrew Launcher. (You will need [boot.3dsx and boot.firm](https://github.com/LumaTeam/Luma3DS/releases/latest) on the root of your SD card.)
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

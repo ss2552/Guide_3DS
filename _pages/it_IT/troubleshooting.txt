@@ -35,6 +35,14 @@ Problemi dopo l’installazione:
 ### SigHaxed FIRM was not installed! Check lower screen for more info.
 
 {% capture compat %}
+<summary><u>MicroSD Card - init failed</u></summary>
+
+La tua scheda SD ha probabilmente qualcosa che non va. Prova a riformattarla ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). Se questo non risolve il problema, prova una scheda SD diversa.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
 <summary><u>SigHaxed FIRM - File not found</u></summary>
 
 Ti mancano i file `boot9strap.firm` e `boot9strap.firm.sha` dalla cartella `boot9strap`, o la cartella `boot9strap` non è stata correttamente nominata. Scarica l'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip), e posiziona i file `boot9strap.firm` e `boot9strap.firm.sha` nella cartella `boot9strap`.
@@ -315,7 +323,7 @@ C'è un problema con il tuo file `otherapp.bin` (è mancante, mal posizionato o 
 {% capture compat %}
 <summary><u>"Impossibile riprodurre"</u></summary>
 
-Hai il file Soundhax sbagliato per la tua console e regione, o la tua console è incompatibile con Soundhax. Nell'ultimo caso, dovresti aggiornare la tua console all'ultima versione e seguire [Seedminer](seedminer).
+Hai il file Soundhax sbagliato per la tua console e regione, o la tua console è incompatibile con Soundhax. In quest'ultimo caso, dovrai scoprire la versione presente sul tuo 3DS. Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -364,7 +372,7 @@ C'è un problema con il tuo file `arm11code.bin`. Scarica l'ultima versione di [
 Gli exploit basati sul browser (come questo) sono instabili e crashano spesso, ma seguendo i seguenti passaggi, i problemi potrebbero venire risolti.
 
 1. Avvia il browser internet, quindi apri le sue impostazioni
-1. Scorri in fondo e clicca su "Inizializza Savedata" (potrebbe anche chiamarsi "Elimina tutti i dati salvati")
+1. Scorri verso il basso e seleziona "Reimposta tutti i dati salvati" (può avere nomi simili come "Inizializza i dati di salvataggio" o "Elimina tutti i dati salvati")
 1. Riprova ad eseguire l'exploit
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -407,10 +415,6 @@ Il file `SafeB9SInstaller.bin` è mancante o mal posizionato. Scarica l'ultima v
 {% capture compat %}
 <summary><u>Bloccato su "Doing agbhax..."</u></summary>
 Potrebbe esserci un problema con il tuo file `arm11code.bin`. Riscarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), posizionala nella directory principale della tua scheda SD` e rinominalo in `arm11code.bin`. Non aggiungere l'estensione `.bin` se non la vedi presente.
-
-Se hai una console taiwanese (con una T nella stringa della versione, ad esempio 11.3. -##T), non sarai in grado di seguire queste istruzioni e dovrai invece aggiornare la console ed eseguire [Seedminer](seedminer).
-
-Se hai una console dell'entroterra cinese (con una C nella stringa della versione, es. 11.3.0-##C), entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per richiedere assistenza.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -444,12 +448,35 @@ La data non è corretta. Per correggerla, segui questi passaggi:
 1. Tocca i pulsanti su/giù per impostare il giorno, il mese e l'anno corretti.
 1. Premi OK per confermare.
 
-Se il problema persiste e hai una versione di sistema che termina in E, e la lingua impostata in inglese, cambia **temporaneamente** la lingua in una diversa. Puoi ripristinare questo cambiamento quando arrivi al Completamento dell'installazione.
+Se il problema persiste:
+
+- Assicurati che i file `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin` e `boot.3dsx` siano nella directory principale della scheda SD (non all'interno di una cartella)
+- Assicurati di aver selezionato il payload corretto per la tua regione E la versione di sistema
+- Assicurati che le impostazioni "Area di residenza" siano [così](/images/screenshots/skater_lang.png)
+- Prova a reimpostare i dati del browser:
+  1. Avvia il browser internet, quindi apri le sue impostazioni
+  1. Scorri verso il basso e seleziona "Reimposta tutti i dati salvati" (può avere nomi simili come "Inizializza i dati di salvataggio" o "Elimina tutti i dati salvati")
+  1. Riprova ad eseguire l'exploit
+- Prova a cambiare la lingua di sistema in una lingua diversa da quella corrente
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+
 {% capture compat %}
-<summary><u>"Si è verificato un errore" o ErrDisp premendo GO! GO!</u></summary>
+<summary><u>"Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..." (schermo nero con testo)</u></summary>
+
+Il file `arm11code.bin` è mancante o mal posizionato. Make sure to copy the files of the [latest version of super-skaterhax](https://github.com/zoogie/super-skaterhax/releases/latest) for your region and version to the root of your SD card (not inside of a folder).
+
+![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+
+{% capture compat %}
+<summary><u>Si verifica un'eccezione oppure "DLL_HEAP_INFORMATION" premendo GO! GO!</u></summary>
 
 Probabilmente significa che hai già un custom firmware. Dovresti [verificare la presenza di un CFW](checking-for-cfw).
 
@@ -476,28 +503,69 @@ I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencat
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Impossibile avviare il menu Rosalina per guasto ai pulsanti L / D-Pad Giù / Select </u></summary>
+<summary><u>Error #01: No Nintendo 3DS folder</u></summary>
 
-Download this [alternate config.ini](/assets/config.ini) and place it in `/luma/`. Questo cambierà la combinazione di tasti del menù Rosalina in (X) + (Y).
+La tua scheda SD non ha una cartella `Nintendo 3DS`. Power on your device with your SD card inserted, then wait for the device to show a message box that says "Creating HOME Menu management information". Quando scompare il messaggio, spegni la console e riprova.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>All'avvio dell'Homebrew Launcher dalla "Modalità download" compare la scritta "Si è verificato un errore" o rimane fissa la schermata di caricamento "Nintendo 3DS"</u></summary>
+<summary><u>Error #02: Missing essential.exefs</u></summary>
 
-C'è un problema con il tuo file `boot.3dsx` (è mancante, mal posizionato o corrotto). Scarica l'ultima versione dell'[Homebrew Launcher](https://github.com/devkitPro/3ds-hbmenu/releases/latest) e posiziona il file `boot.3dsx` nella directory principale della tua scheda SD, sostituendo qualunque file preesistente.
+Hai risposto 'No' alla richiesta "Make essential files backup?" in GodMode9. Spegni la console, riaccendila tenendo premuto (Start) per avviare GodMode9, rispondi 'Yes' alla domanda, quindi riprova.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"Scripts directory not found" in GodMode9</u></summary>
 
-Non hai copiato la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD. Scarica l'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) e posiziona la cartella `gm9` nella directory principale della tua scheda SD, unendola a quella preesistente.
+<summary><u>Impossibile avviare GodMode9 o Error #03: Missing files</u></summary>
+
+Non hai copiato tutto dall'archivio `finalize.zip` nella directory principale della tua scheda SD. Ricorda, la tua scheda SD deve avere almeno questi file:
+
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>"Backup failed" o "Error: Could not open directory" durante il backup della NAND</u></summary>
+
+<summary><u>Error #04: No space</u></summary>
+
+Hai bisogno di almeno 1,3GB di spazio libero per eseguire il backup della NAND, che è una parte dello script. Se non hai abbastanza spazio, segui questi passaggi:
+
+1. Spegni la tua console
+1. Rimuovi la scheda SD e inseriscila nel tuo computer
+1. Copia la cartella `Nintendo 3DS` dalla directory principale della tua scheda SD al tuo computer
+1. Elimina la cartella `Nintendo 3DS` dalla scheda SD
+1. Reinserisci la scheda SD nella tua console
+1. Spegni la tua console, dopodiché riaccendila tenendo premuto il tasto START per avviare GodMode9
+1. Seleziona "Scripts..."
+1. Seleziona "finalize"
+1. Segui le istruzioni dello script, rispondendo ad ogni domanda che ti viene posta
+1. Copia i file in `gm9/out` sulla tua SD in una posizione sicura sul tuo computer
+1. Elimina i file `<data>_<seriale>_sysnand_##.bin` e `<data>_<seriale>_sysnand_##.bin.sha` dalla scheda SD, mantenendo il file `essential.exefs` in `/gm9/out/`
+1. Copia la cartella `Nintendo 3DS` dal tuo computer nella directory principale della tua scheda SD
+1. Elimina la cartella `Nintendo 3DS` dal tuo computer
+
+Al termine, riesegui lo script.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #05: No title database</u></summary>
+
+Press (A) to create a title database, unlock SysNAND writing by entering the buttons on-screen, follow the prompts [here](/images/screenshots/database-reset.jpg), then re-run the script.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #06 or "Error: Could not open directory" when attempting a NAND backup</u></summary>
+
 Assicurati di avere almeno 1.3GB disponibili nella tua scheda SD. Se non hai abbastanza spazio, segui questi passaggi:
 1. Spegni la tua console
 1. Rimuovi la scheda SD e inseriscila nel tuo computer
@@ -512,6 +580,14 @@ Assicurati di avere almeno 1.3GB disponibili nella tua scheda SD. Se non hai abb
 1. Elimina la cartella `Nintendo 3DS` dal tuo computer
 
 Se riieni di avere abbastanza spazio sulla tua scheda SD, questa potrebbe essere danneggiata o difettosa. Verifica la presenza di eventuali errori nella tua scheda SD seguendo la guida corretta per il sistema operativo del tuo computer: [Windows](h2testw-(windows)), [Linux](f3-(linux)), [macOS](f3xswift-(mac)).
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #08: Dummy title database</u></summary>
+
+You didn't delete the dummy title database that was created by Error #05. Segui le istruzioni [qui](/images/screenshots/database-reset.jpg), quindi esegui nuovamente lo script.
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -664,6 +740,13 @@ Se non sei stato in grado di trovare il tuo errore o le istruzioni non funzionan
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+{% capture compat %}
+<summary><u>Avviare le impostazioni del menu HOME crasha la console o carica l'Homebrew Launcher</u></summary>
+
+Probabilmente la tua console ha ancora menuhax67 installato. Per disinstallare menuhax67, scarica l'ultima versione di [menuhax67](https://github.com/zoogie/menuhax67/releases/latest) (il file `.zip` di menuhax), quindi segui la [sezione "Uninstall menuhax67"](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits/menuhax67#Uninstall_menuhax67).
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
 ---
 
 ## Risoluzione di problemi ulteriori
@@ -696,6 +779,16 @@ Se non sei stato in grado di trovare il tuo errore o le istruzioni non funzionan
   + **Regione JPN**: Elimina `000002cc`
   + **Regione USA**: Elimina `000002cd`
 1. Reinserisci la scheda SD nella tua console
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Avvio manuale dell'Homebrew Launcher</u></summary>
+
+Se ti manca l'applicazione Homebrew Launcher dal menu HOME, puoi seguire queste istruzioni per avviarlo manualmente. (Avrai bisogno dei file [boot.3dsx e boot.firm](https://github.com/LumaTeam/Luma3DS/releases/latest) nella directory principale della tua scheda SD.)
+
+{% include_relative include/launch-hbl-dlp.txt %}
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

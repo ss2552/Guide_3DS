@@ -29,22 +29,7 @@ Essas instruções funcionam nas versões de consoles EUA, Europa, Japão e Cor�
 
 {% include_relative include/bb3-prep.txt %}
 
-#### Seção II - Verificação de Botões
-
-In this section, you will see whether you can access Safe Mode on your console. Isso determinará qual método você seguirá na próxima página.
-
-Seu cartão SD deve permanecer em seu computador enquanto você executa esta verificação.
-
-{% include_relative include/safemodecheck.txt %}
-
 ___
 
-### Próximos passos: Escolha um exploit
-
-If the camera appeared in the previous section, Safe Mode is likely to be working on your console.
-
-Caso a câmera apareceu, continue em [Instalando boot9strap (USM)](installing-boot9strap-(usm))
+### Continue em [Instalando boot9strap (menuhax)](installing-boot9strap-(menuhax))
 {: .notice--primary}
-
-Se a câmera NÃO apareceu, continue em [Instalando boot9strap (Fredtool, Legado)](installing-boot9strap-(fredtool-legacy))
-{: .notice--info}

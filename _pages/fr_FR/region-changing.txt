@@ -13,7 +13,7 @@ Notez que le changement de région est presque totalement inutile puisque Luma3D
 Cette page suppose que vous avez déjà installé Luma3DS et boot9strap. Si vous avez suivi le guide de ce site web jusqu'à la fin (Finalisation de l'installation), vous avez Luma3DS et boot9strap.
 {: .notice--info}
 
-Dans le cadre de ce processus, les réglages de votre console seront réinitialisés à leurs valeurs par défaut. Cela inclut des éléments tels que votre nom d'utilisateur, votre pays et votre langue. Les jeux installés et leurs données de sauvegarde ne seront pas affectés.
+As a part of this process, your system settings will be reset to its defaults. Cela inclut des éléments tels que votre nom d'utilisateur, votre pays et votre langue. **Installed games and their save data will not be affected.**
 {: .notice--warning}
 
 {% capture notice-6 %}
@@ -21,7 +21,7 @@ If you change the region of your console:
 
 + Vous ne pourrez plus utiliser votre Identifiant Nintendo Network (NNID) (si vous en possédez un). Les Identifiants Nintendo Network (NNID) sont verrouillés sur la région dans laquelle ils ont été créés.
 + Vous ne pourrez peut-être pas accéder à l'eShop, même si vous [supprimez votre compte eShop](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) au préalable. En effet, certains titres ont tendance à rester liés à la 3DS, même après la suppression du compte (surtout sur New 3DS).
-	+ Bien que les achats ne puissent plus être effectués sur l'eShop, les mises à jour de jeu peuvent toujours être téléchargées. Des mises à jour sont généralement nécessaires pour le jeu en ligne.
+	+ This is still relevant because, while purchases can no longer be made on eShop, game updates are still being provided. Des mises à jour sont généralement nécessaires pour le jeu en ligne.
 	+ Cette logique s'étend aux Transferts de données, ce qui signifie que vous ne serez pas en mesure d'effectuer un Transfert de données d'une 3DS USA vers une 3DS avec région modifiée de JPN vers USA.
 	+ Cela étant dit, le Transfert de données et les mises à jour de jeu sont de toute façon verrouillées (par exemple, l'eShop japonais ne possède que des mises à jour de jeux japonais).
 + **You will not be able to uninstall custom firmware without bricking the console!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
@@ -63,7 +63,7 @@ Pour télécharger les images CTRTransfer sur cette page, vous aurez besoin d'un
 
 {% include_relative include/ctrtransfer-ticket-copy.txt %}
 
-#### Section VI - Suppression des données système
+#### Section VI - Fixing locale-related issues
 
 {% include_relative include/ctrnand-datayeet.txt %}
 

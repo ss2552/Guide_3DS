@@ -13,7 +13,7 @@ This is an add-on section for region changing your console. 这是通过安装�
 This page assumes that you have already installed Luma3DS and boot9strap. If you followed this website to the end (Finalizing Setup), you have Luma3DS and boot9strap.
 {: .notice--info}
 
-As a part of this process, your system configuration will be reset to its defaults. This includes things such as your username, country, and language. Installed games and their save data will not be affected.
+As a part of this process, your system settings will be reset to its defaults. This includes things such as your username, country, and language. **Installed games and their save data will not be affected.**
 {: .notice--warning}
 
 {% capture notice-6 %}
@@ -21,7 +21,7 @@ If you change the region of your console:
 
 + 如果你登录了一个 NNID，操作后将无法继续使用此 NNID。 NNID 在创建时即被锁定在它的创建区域。
 + 主机将无法访问 eShop，即使是[删除你的 eShop 账户](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account) 这是因为 3DS 中的某些应用会在进入时绑定使用区域（特别是 New 3DS 上）。
-	+ While purchases can no longer be made on eShop, game updates can still be downloaded. 联机通常需要将游戏更新至最新。
+	+ This is still relevant because, while purchases can no longer be made on eShop, game updates are still being provided. 联机通常需要将游戏更新至最新。
 	+ This logic extends to system transfers, meaning you would not be able to perform a system transfer from a USA 3DS to a region-changed JPN-to-USA 3DS.
 	+ That being said, system transfer and game updates are region locked anyway (e.g. Japanese eShop only has Japanese game updates).
 + **You will not be able to uninstall custom firmware without bricking the console!** If you intend to uninstall custom firmware in the future, you **MUST** restore your NAND backup that was created before the region change.
@@ -62,7 +62,7 @@ To download the CTRTransfer images on this page, you will need a torrent client 
 
 {% include_relative include/ctrtransfer-ticket-copy.txt %}
 
-#### Section VI - Deleting system save data
+#### Section VI - Fixing locale-related issues
 
 {% include_relative include/ctrnand-datayeet.txt %}
 
