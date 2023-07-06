@@ -642,7 +642,7 @@ window.cookieconsent.initialise({
   <li>Press (Home) to bring up the action menu</li>
   <li>Select “Scripts…”</li>
   <li>Select “finalize”</li>
-  <li>Follow the prompts in the script, answering each question that you are asked
+  <li>Follow the prompts in the script, answering any questions that you are asked
     <ul>
       <li>If you encounter an error, follow the instructions in the error message or consult the <a href="troubleshooting#finalizing-setup">troubleshooting</a> page</li>
     </ul>
@@ -653,14 +653,18 @@ window.cookieconsent.initialise({
     </ul>
   </li>
   <li>Insert your SD card into your computer</li>
-  <li>Copy the <code class="language-plaintext highlighter-rouge">/gm9/out/</code> folder to a safe location on your computer
+  <li>Copy the <code class="language-plaintext highlighter-rouge">/gm9/backups/</code> folder to a safe location on your computer
     <ul>
       <li>This folder contains critical file backups and should be backed up to multiple locations (i.e. cloud storage) if possible</li>
       <li>The two SysNAND files are your NAND backup and can be used to revert your console to a working state if it is bricked by a software issue</li>
       <li>The <code class="language-plaintext highlighter-rouge">essential.exefs</code> file contains your console’s system-unique files and can be used to recover your data in the event of a hardware failure</li>
     </ul>
   </li>
-  <li>Delete the contents of the <code class="language-plaintext highlighter-rouge">/gm9/out/</code> folder from your SD card</li>
+  <li>If you still have them, delete the two <code class="language-plaintext highlighter-rouge">SysNAND</code> files from the <code class="language-plaintext highlighter-rouge">/gm9/backups/</code> folder from your SD card
+    <ul>
+      <li>The <code class="language-plaintext highlighter-rouge">essential.exefs</code> file is small and may be kept on your SD card for ease of access</li>
+    </ul>
+  </li>
 </ol>
 
 <hr />
