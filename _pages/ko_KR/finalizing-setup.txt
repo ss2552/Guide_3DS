@@ -10,10 +10,8 @@ title: "마무리 단계"
 
 On this page, we will make critical system file backups and install some homebrew programs. Most of these steps will be automated using a script that you will run on your console.
 
-{% capture compat %}
-<summary>List of homebrew applications that will be installed</summary>
-
-Click the links to view the GitHub repository of each application. (Give them a star if you appreciate them!)
+{% capture notice-6 %}
+The script will install the following applications:
 
 +  **[FBI](https://github.com/Steveice10/FBI)** *(installs CIA formatted applications)*
 +  **[Homebrew Launcher Loader](https://github.com/PabloMK7/homebrew_launcher_dummy)** *(launches the Homebrew Launcher)*
@@ -23,9 +21,9 @@ Click the links to view the GitHub repository of each application. (Give them a 
 +  **[Universal-Updater](https://github.com/Universal-Team/Universal-Updater/)** *(a homebrew app store for downloading homebrew from the 3DS over Wi-Fi)*
 +  **[GodMode9](https://github.com/d0k3/GodMode9)** *(multipurpose tool which can do NAND and cartridge functions)*
 
+If you don't want one of these applications, you can remove them after you have finished this page by navigating to System Settings -> Data Management -> Nintendo 3DS -> Software. (GodMode9 cannot be removed in this way and is generally required for other functions.)
 {% endcapture %}
-<details>{{ compat | markdownify }}</details>
-{: .notice--info}
+<div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 ### 호환성 안내
 
@@ -102,16 +100,17 @@ In this section, you will use a script to automate homebrew installation, SD car
 1. (Home)을 눌러 작업 메뉴를 열어 주세요
 1. "Scripts..."를 선택해 주세요
 1. Select "finalize"
-1. Follow the prompts in the script, answering each question that you are asked
+1. Follow the prompts in the script, answering any questions that you are asked
   + If you encounter an error, follow the instructions in the error message or consult the [troubleshooting](troubleshooting#finalizing-setup) page
 1. Once the script says "Setup complete!", press (A) to power off the device
   + If you do NOT see the message "Setup complete!", the script was not successful and you will need to redo this section
 1. SD 카드를 컴퓨터에 삽입해 주세요
-1. Copy the `/gm9/out/` folder to a safe location on your computer
+1. Copy the `/gm9/backups/` folder to a safe location on your computer
   + This folder contains critical file backups and should be backed up to multiple locations (i.e. cloud storage) if possible
   + The two SysNAND files are your NAND backup and can be used to revert your console to a working state if it is bricked by a software issue
   + The `essential.exefs` file contains your console's system-unique files and can be used to recover your data in the event of a hardware failure
-1. Delete the contents of the `/gm9/out/` folder from your SD card
+1. If you still have them, delete the two `SysNAND` files from the `/gm9/backups/` folder from your SD card
+  + The `essential.exefs` file is small and may be kept on your SD card for ease of access
 
 ___
 
@@ -119,6 +118,9 @@ ___
 {: .notice--success}
 
 ### 정보와 메모
+
+Trying to figure out what to do with your newly modded device? Visit [our wiki](https://wiki.hacks.guide/wiki/3DS:Things_to_do)!
+{: .notice--info}
 
 {% capture notice-6 %}
 알아야 할 몇몇 버튼 콤보들이 있습니다:
@@ -130,9 +132,6 @@ ___
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
-
-커스텀 펌웨어를 사용해서 하는 것의 몇가지 추천을 [여기서](https://3ds.eiphax.tech/tips.html) 보실 수 있습니다.
-{: .notice--info}
 
 GodMode9의 여러 기능의 사용법에 대해서는, [GodMode9 사용법](godmode9-usage) 과 [타이틀과 게임 카트리지 추출](dumping-titles-and-game-cartridges)를 확인해 주세요.
 {: .notice--info}

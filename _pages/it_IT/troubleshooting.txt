@@ -466,7 +466,7 @@ Se il problema persiste:
 {% capture compat %}
 <summary><u>"Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..." (schermo nero con testo)</u></summary>
 
-Il file `arm11code.bin` è mancante o mal posizionato. Make sure to copy the files of the [latest version of super-skaterhax](https://github.com/zoogie/super-skaterhax/releases/latest) for your region and version to the root of your SD card (not inside of a folder).
+Il file `arm11code.bin` è mancante o mal posizionato. Assicurati di copiare i file [dell'ultima versione di super-skaterhax](https://github.com/zoogie/super-skaterhax/releases/latest) per la tua regione e versione della console nella directory principale della tua scheda SD (non all'interno di una cartella).
 
 ![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
 {: .notice--info}
@@ -503,9 +503,9 @@ I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencat
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error #01: No Nintendo 3DS folder</u></summary>
+<summary><u>Warning #01: No Nintendo 3DS folder</u></summary>
 
-La tua scheda SD non ha una cartella `Nintendo 3DS`. Power on your device with your SD card inserted, then wait for the device to show a message box that says "Creating HOME Menu management information". Quando scompare il messaggio, spegni la console e riprova.
+La tua scheda SD non ha una cartella `Nintendo 3DS`. Accendi la tua console con la scheda SD inserita, quindi attendi che la console mostri il messaggio "Creazione delle informazioni di sistema del menu HOME". Quando scompare il messaggio, spegni la console e riprova.
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -541,30 +541,43 @@ Hai bisogno di almeno 1,3GB di spazio libero per eseguire il backup della NAND, 
 1. Copia la cartella `Nintendo 3DS` dalla directory principale della tua scheda SD al tuo computer
 1. Elimina la cartella `Nintendo 3DS` dalla scheda SD
 1. Reinserisci la scheda SD nella tua console
-1. Spegni la tua console, dopodiché riaccendila tenendo premuto il tasto START per avviare GodMode9
+1. Spegni la tua console
+1. Accendi la console tenendo premuto il tasto START per avviare GodMode9
+1. Premi il pulsante (Home)
 1. Seleziona "Scripts..."
 1. Seleziona "finalize"
-1. Segui le istruzioni dello script, rispondendo ad ogni domanda che ti viene posta
-1. Copia i file in `gm9/out` sulla tua SD in una posizione sicura sul tuo computer
-1. Elimina i file `<data>_<seriale>_sysnand_##.bin` e `<data>_<seriale>_sysnand_##.bin.sha` dalla scheda SD, mantenendo il file `essential.exefs` in `/gm9/out/`
+1. Premi (A) per creare un backup della NAND
+  + Potrebbero volerci circa quindici minuti
+1. Premi di nuovo (A)
+  + La console dovrebbe spegnersi automaticamente
+1. Inserisci la scheda SD nel tuo computer
+1. Copia i file in `/gm9/backups/` sulla tua SD in una posizione sicura sul tuo computer
+1. Elimina i file `<data>_<seriale>_sysnand_##.bin` e `<data>_<seriale>_sysnand_##.bin.sha` dalla scheda SD
 1. Copia la cartella `Nintendo 3DS` dal tuo computer nella directory principale della tua scheda SD
 1. Elimina la cartella `Nintendo 3DS` dal tuo computer
 
-Al termine, riesegui lo script.
+Ora che hai il backup della NAND in un luogo sicuro:
+
+1. Inserisci la scheda SD nella tua console
+1. Accendi la console tenendo premuto il tasto START per avviare GodMode9
+1. Premi il pulsante (Home)
+1. Seleziona "Scripts..."
+1. Seleziona "finalize"
+1. Continua lo script normalmente
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error #05: No title database</u></summary>
+<summary><u>Information #05: No title database</u></summary>
 
-Press (A) to create a title database, unlock SysNAND writing by entering the buttons on-screen, follow the prompts [here](/images/screenshots/database-reset.jpg), then re-run the script.
+Premi (A) per creare un database dei titoli, sblocca la scrittura della SysNAND inserendo i pulsanti a schermo, segui le istruzioni [qui](/images/screenshots/database-reset.jpg), quindi riesegui lo script.
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error #06 or "Error: Could not open directory" when attempting a NAND backup</u></summary>
+<summary><u>Error #06 o "Error: Could not open directory" durante il backup della NAND</u></summary>
 
 Assicurati di avere almeno 1.3GB disponibili nella tua scheda SD. Se non hai abbastanza spazio, segui questi passaggi:
 1. Spegni la tua console
@@ -586,10 +599,28 @@ Se riieni di avere abbastanza spazio sulla tua scheda SD, questa potrebbe essere
 {% capture compat %}
 <summary><u>Error #08: Dummy title database</u></summary>
 
-You didn't delete the dummy title database that was created by Error #05. Segui le istruzioni [qui](/images/screenshots/database-reset.jpg), quindi esegui nuovamente lo script.
+Non hai eliminato il database dei titoli fittizio creato da Error #05. Segui le istruzioni [qui](/images/screenshots/database-reset.jpg), quindi esegui nuovamente lo script.
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error #09: Unsupported GodMode9 version</u></summary>
+
+Per qualche motivo stai eseguendo una versione di GodMode9 non inclusa con lo script. Assicurati di aver copiato il contenuto dell'archivio `finalize.zip` nella directory principale della tua scheda SD e che stai tenendo premuto il tasto START all'accensione della tua console.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Information #11: NAND backup flag detected</u></summary>
+
+Molto probabilmente hai già fatto un backup della NAND su questa console. Se non hai fatto un backup o ne hai perso l'accesso, seleziona "1. Make Another NAND Backup". Altrimenti, seleziona "2. Skip NAND Backup".
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+
 
 ---
 
