@@ -156,8 +156,8 @@ function can_seedminer(major, minor, native, region, model) {
         if (["U", "E", "J", "K"].includes(region)) do_redirect = true;
         else if (region == "T") do_redirect_twn = true;
     }
-    // KOR O3DS on any version should update to 11.16
-    else if (model == DEVICE_O3DS && region == "K") do_redirect_sysupdate_kor = true;
+    // KOR on any version should update to 11.16
+    else if (region == "K") do_redirect_sysupdate_kor = true;
     // TWN on any version should update to 11.16
     else if (region == "T") do_redirect_sysupdate_twn = true;
 
