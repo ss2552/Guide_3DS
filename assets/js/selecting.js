@@ -25,8 +25,14 @@ const major_minor_map = {
 }
 
 // Validate version
+// CHN/TWN doesn't have new model
+// KOR/CHN/TWN doesn't have 11.17 currently
 function validate_version(major, minor, native, region, model) {
     if (model == DEVICE_N3DS && ["C", "T"].includes(region)) {
+        return false;
+    }
+
+    if (major == 11 && minor == 17 && ["K", "C", "T"].includes(region)) {
         return false;
     }
 
