@@ -154,7 +154,7 @@ function can_superskaterhax(major, minor, native, region, model) {
         return true;
     }
     else if (do_redirect) {
-        window.location.href = "homebrew-launcher-(super-skaterhax)";
+        window.location.href = "installing-boot9strap-(super-skaterhax)";
         return true;
     }
     return false;
