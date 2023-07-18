@@ -77,6 +77,7 @@ In this section, you will create a hacked Pokémon Picross save file that, when 
   + If you get an error message, [follow this troubleshooting guide](troubleshooting#homebrew-launcher-pichaxx)
 1. Launch nimdsphax from the list of homebrew
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
+  + If your console freezes on a red screen, hold the POWER button until it turns off, then retry this section
 
 #### Section III - Installing boot9strap
 
