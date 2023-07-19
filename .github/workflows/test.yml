@@ -2,7 +2,8 @@ name: Test site build
 
 on:
   pull_request:
-    branches: [ master ]
+    branches-ignore:
+      - 'l10n'
 
 jobs:
   doc-test:
