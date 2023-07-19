@@ -1,0 +1,21 @@
+---
+title: "This page used to exist" #
+sitemap: false
+redirect_from:
+  - installing-boot9strap-(usm)
+  - installing-boot9strap-(hbl-usm)
+  - installing-boot9strap-(fredtool)
+  - installing-boot9strap-(frogtool)
+  - homebrew-launcher-(pichaxx)
+  - homebrew-launcher-(steelhax)
+  - homebrew-launcher-(smilehax-IIe)
+  - homebrew-launcher-(ninjhax2-dx)
+  - homebrew-launcher-(freakyhax)
+---
+
+The page you are trying to view used to exist, but it has been removed because it has been superseded by better exploits. Perhaps the instructions you are following are outdated?
+
+Go back to [Get Started](get-started)
+{: .notice--info}
+
+
