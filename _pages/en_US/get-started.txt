@@ -23,7 +23,7 @@ If you see an unusual menu, STOP - you already have custom firmware! Continue fr
 
 #### Section III - Select a Method
 
-To find the correct method for your console, please enter the system version you found in Section II.
+To find the correct method for your console, please select the model of your console and the system version you found in Section II.
 
 {% capture noneSelected %}
 System model is required.
