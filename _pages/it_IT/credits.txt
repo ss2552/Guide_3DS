@@ -2,19 +2,24 @@
 title: "Riconoscimenti"
 ---
 
-**Un ringraziamento speciale a Plailect, il creatore e manutentore originale della guida!**
-{: .notice--primary}
+Questa guida è attualmente mantenuta da: **lifehackerhansol, lilyuwuu, eip618, ihaveamac, e adrot**, con ulteriori contributi significativi da **Gruetzig, danny8376, MechanicalDragon0687, e i vari membri di #community-resources** che forniscono un contributo prezioso.
 
-**Un ringraziamento speciale a tutti gli utenti di [#Cakey su Freenode](http://webchat.freenode.net/?channels=%23Cakey)! Siete fantastici!**
-{: .notice--primary}
+Questa guida utilizza software homebrew sviluppato da **SciresM, TuxSH, AuroraWright, devkitPro, d0k3, PabloMK7, astronautlevel2, BernardoGiordano, mtheall, Universal-Team, ntrteam, jason0597, e MechanicalDragon0687**, ed exploit scritti/scoperti da **SciresM, zoogie, luigoalma, PabloMK7, TuxSH, MrNbaYoh, nedwill, e plutooo**.
 
-**Un ringraziamento speciale a [tutti i traduttori](https://crowdin.com/project/3ds-guide)! Siete fantastici!**
-{: .notice--primary}
+Se abbiamo dimenticato di aggiungerti all'elenco di ringraziamenti, [fatecelo sapere](https://github.com/hacks-guide/Guide_3DS/issues)!
 
-Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
+{% capture notice-6 %}
+**Un ringraziamento speciale a:**
+- **Plailect**, il creatore e manutentore originale della guida
+- [I traduttori della guida](https://crowdin.com/project/3ds-guide), che rendono questa guida più accessibile nel mondo
+- Chiunque abbia mai inviato una segnalazione, una richiesta di pull, o ci ha informato in qualche modo di problemi in questa guida
+- I collaboratori storici di questa guida, senza i quali questa guida oggi non esisterebbe
+{% endcapture %}
+<div class="notice--primary">{{ notice-6 | markdownify }}</div>
 
-{% capture notice-1 %}
-
+{% capture old_credits %}
+<summary><em>Collaboratori storici</em></summary>
+    + #Cakey su freenode
     + Al3x_10m
     + aliaspider
     + AngelSL
@@ -82,7 +87,6 @@ Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
     + yellows8
     + yifan_lu
     + zoogie
-
 {% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+<details>{{ old_credits | markdownify }}</details>
+{: .notice--info}
