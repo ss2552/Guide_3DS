@@ -1065,8 +1065,8 @@ window.cookieconsent.initialise({
   <li>Desligue o console, ejete o cartucho do jogo se estiver inserido, ligue o seu console, e espere até dez minutos. Se o seu console inicializar dentro de dez minutos, o problema foi corrigido e é improvável que volte a ocorrer</li>
   <li>Renomeie a pasta <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> no seu cartão SD para <code class="language-plaintext highlighter-rouge">Nintendo 3DS_BACKUP</code>, depois tente inicializar. Se o seu console é iniciado com sucesso, há alguns problemas na pasta <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code>. Tente limpar a extdata do Menu HOME:
     <ul>
-      <li>Navegue até <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code>
-      + Apague a pasta correspondente da região do seu 3DS:
+      <li>Navegue até <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code></li>
+      <li>Apague a pasta correspondente da região do seu 3DS:
         <ul>
           <li>** Região EUR**: <code class="language-plaintext highlighter-rouge">00000098</code></li>
           <li><strong>Região JPN</strong>: <code class="language-plaintext highlighter-rouge">00000082</code></li>
@@ -1107,13 +1107,11 @@ window.cookieconsent.initialise({
 <details>
 <summary><u>"Ocorreu um erro. Segure o botão POWER para desligar..."</u></summary>
 
-<p>Os ARM11 exception handlers estão desabilitados, ou custom firmware não está instalado. Tente habilitar os ARM11 exception handlers:</p>
-<ul>
-  <li>Desligue seu console</li>
-  <li>Segure (Select)</li>
-  <li>Ligue o seu console, enquanto ainda segura (Select)</li>
-  <li>Se a caixa “Disable ARM11 exception handlers” estiver marcada, desmarque a opção</li>
-</ul>
+<p>Os ARM11 exception handlers estão desabilitados, ou custom firmware não está instalado. Tente habilitar os ARM11 exception handlers:
+    + Desligue seu console
+    + Segure (Select)
+    + Ligue o seu console, enquanto ainda segura (Select)
+    + Se a caixa “Disable ARM11 exception handlers” estiver marcada, desmarque a opção</p>
 </details>
 
 <details>
@@ -1134,10 +1132,8 @@ Se este for o caso, tente os passos abaixo, os quais são listados de mais fáci
 <details>
 <summary><u>Tela azul "BOOTROM ERROR"</u></summary>
 
-<p>Seu console provavelmente está hard-bricked. Você precisará comprar um flashcart de ntrboot para reinstalar o boot9strap para tentar consertar seu console. Isso também pode indicar um problema de hardware que não pode ser corrigido. De qualquer forma, entre no <a href="https://discord.gg/MWxPgEp">Discord do Nintendo Homebrew</a> para obter ajuda.</p>
-<ul>
-  <li>Também é possível que alguém tenha definido um splash (tela que mostra uma imagem assim que o 3DS inicia) que se pareça com um brick. Tente deixar o seu console ligado, esperando na tela azul, por cinco minutos.</li>
-</ul>
+<p>Seu console provavelmente está hard-bricked. Você precisará comprar um flashcart de ntrboot para reinstalar o boot9strap para tentar consertar seu console. Isso também pode indicar um problema de hardware que não pode ser corrigido. De qualquer forma, entre no <a href="https://discord.gg/MWxPgEp">Discord do Nintendo Homebrew</a> para obter ajuda.
+    + Também é possível que alguém tenha definido um splash (tela que mostra uma imagem assim que o 3DS inicia) que se pareça com um brick. Tente deixar o seu console ligado, esperando na tela azul, por cinco minutos.</p>
 </details>
 
 <details>

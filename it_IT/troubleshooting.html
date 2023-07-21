@@ -1065,8 +1065,8 @@ window.cookieconsent.initialise({
   <li>Spegni la tua console, estrai la cartuccia di gioco se inserita, accendi la tua console, quindi attendi fino a dieci minuti. Se la tua console si avvia entro dieci minuti, il problema è stato risolto e probabilmente non avverrà più</li>
   <li>Rinomina la cartella <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> sulla tua scheda SD in <code class="language-plaintext highlighter-rouge">Nintendo 3DS_BACKUP</code>, poi tenta l’avvio. Se la tua console si avvia correttamente, c’è qualche problema con la tua cartella <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code>. Prova a cancellare gli extdata del menu HOME:
     <ul>
-      <li>Entra nella cartella <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code>
-      + Elimina la cartella corrispondente alla regione del tuo 3DS:
+      <li>Entra nella cartella <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code></li>
+      <li>Elimina la cartella corrispondente alla regione del tuo 3DS:
         <ul>
           <li><strong>Regione EUR</strong>: Elimina <code class="language-plaintext highlighter-rouge">00000098</code></li>
           <li><strong>Regione JPN</strong>: Elimina <code class="language-plaintext highlighter-rouge">00000082</code></li>
@@ -1107,13 +1107,11 @@ window.cookieconsent.initialise({
 <details>
 <summary><u>"Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..."</u></summary>
 
-<p>I gestori di eccezione ARM11 sono disabilitati, o un custom firware non è installato. Prova ad abilitare i gestori di eccezione ARM11:</p>
-<ul>
-  <li>Spegni la tua console</li>
-  <li>Tieni premuto (Select)</li>
-  <li>Accendi la tua console, continuando a tenere premuto il pulsante (Select)</li>
-  <li>Se la casella “Disable ARM11 exception handlers” è selezionata, deselezionala</li>
-</ul>
+<p>I gestori di eccezione ARM11 sono disabilitati, o un custom firware non è installato. Prova ad abilitare i gestori di eccezione ARM11:
+    + Spegni la tua console
+    + Tieni premuto (Select)
+    + Accendi la tua console, continuando a tenere premuto il pulsante (Select)
+    + Se la casella “Disable ARM11 exception handlers” è selezionata, deselezionala</p>
 </details>
 
 <details>
@@ -1134,10 +1132,8 @@ Se è questo il caso, prova a seguire i seguenti passaggi, indicati dal più sem
 <details>
 <summary><u>Schermata "BOOTROM ERROR" blu</u></summary>
 
-<p>La tua console è probabilmente brickata. Dovrai acquistare una flashcart ntrboot per reinstallare boot9strap e tentare riparare la tua console. Potrebbe anche indicare un problema hardware non risolvibile. In ogni caso, entra nel <a href="https://discord.gg/MWxPgEp">canale Discord di Nintendo Homebrew</a> per chiedere assistenza.</p>
-<ul>
-  <li>È anche possibile che qualcuno abbia impostato una schermata di avvio a tempo che assomigli al messaggio di errore. Prova a lasciare la tua console accesa sulla schermata blu per cinque minuti.</li>
-</ul>
+<p>La tua console è probabilmente brickata. Dovrai acquistare una flashcart ntrboot per reinstallare boot9strap e tentare riparare la tua console. Potrebbe anche indicare un problema hardware non risolvibile. In ogni caso, entra nel <a href="https://discord.gg/MWxPgEp">canale Discord di Nintendo Homebrew</a> per chiedere assistenza.
+    + È anche possibile che qualcuno abbia impostato una schermata di avvio a tempo che assomigli al messaggio di errore. Prova a lasciare la tua console accesa sulla schermata blu per cinque minuti.</p>
 </details>
 
 <details>

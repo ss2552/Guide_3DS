@@ -533,16 +533,8 @@ window.cookieconsent.initialise({
 
 <h3 id="o-que-é-necessário">O que é necessário</h3>
 
-<p>No <strong>3DS de origem</strong> (o 3DS com custom firmware):</p>
-
 <ul>
   <li>A versão mais recente do <a href="https://github.com/PabloMK7/kartdlphax/releases/latest">kartdlphax</a> (<code class="language-plaintext highlighter-rouge">plugin.3gx</code>)</li>
-  <li>A versão mais recente do <a href="https://github.com/PabloMK7/Luma3DS_3GX/releases/latest">Luma3DS 3GX Loader Edition</a> (<code class="language-plaintext highlighter-rouge">boot.firm</code>)</li>
-</ul>
-
-<p>No <strong>3DS de destino</strong> (o 3DS que você está tentando modificar):</p>
-
-<ul>
   <li>A versão mais recente do <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (download direto)</li>
   <li>A versão mais recente do <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (o arquivo <code class="language-plaintext highlighter-rouge">.zip</code> do Luma3DS)</li>
   <li>A versão mais recente do <a href="https://github.com/zoogie/unSAFE_MODE/releases/latest">unSAFE_MODE</a> (o arquivo RELEASE <code class="language-plaintext highlighter-rouge">.zip</code>)</li>
@@ -570,7 +562,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>Insira o cartão SD do seu <strong>3DS de origem</strong> no seu computador</li>
-  <li>Copie o <code class="language-plaintext highlighter-rouge">boot.firm</code> do Luma 3GX Loader Edition para a raiz do cartão SD do <strong>3DS de origem</strong>, substituindo qualquer arquivo existente
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>source 3DS</strong>’s SD card, replacing any existing file
     <ul>
       <li>A raiz do cartão SD refere-se ao diretório inicial no seu cartão SD onde você pode ver a pasta Nintendo 3DS, mas não está dentro dela</li>
     </ul>
@@ -592,7 +584,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>Insira o cartão SD do seu <strong>3DS de destino</strong> no seu computador</li>
-  <li>Copie <code class="language-plaintext highlighter-rouge">boot.firm</code> e <code class="language-plaintext highlighter-rouge">boot.3dsx</code> do <code class="language-plaintext highlighter-rouge">.zip</code> padrão Luma3DS para a raiz do seu cartão SD</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>target 3DS’s</strong> SD card</li>
   <li>Crie uma pasta chamada <code class="language-plaintext highlighter-rouge">boot9strap</code> na raiz do seu cartão SD</li>
   <li>Copie <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> e <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> do <code class="language-plaintext highlighter-rouge">.zip</code> RELEASE para a pasta <code class="language-plaintext highlighter-rouge">/boot9strap/</code> no seu cartão SD</li>
   <li>Copie <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> do <code class="language-plaintext highlighter-rouge">.zip</code> do SafeB9SInstaller para a raiz do seu cartão SD</li>

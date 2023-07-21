@@ -534,16 +534,8 @@ window.cookieconsent.initialise({
 
 <h3 id="你需要准备点啥">你需要准备点啥？</h3>
 
-<p>在<strong>源 3DS</strong>（已安装自制固件的 3DS）上操作以下步骤：</p>
-
 <ul>
   <li>最新版本的 <a href="https://github.com/PabloMK7/kartdlphax/releases/latest">kartdlphax</a>（下载 <code class="language-plaintext highlighter-rouge">plugin.3gx</code>）</li>
-  <li>The latest release of <a href="https://github.com/PabloMK7/Luma3DS_3GX/releases/latest">Luma3DS 3GX Loader Edition</a> (<code class="language-plaintext highlighter-rouge">boot.firm</code>)</li>
-</ul>
-
-<p>在<strong>目标 3DS</strong>（你试图破解的 3DS）上：</p>
-
-<ul>
   <li>最新版本的 <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a>（直链）</li>
   <li>最新版本的 <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a>（下载 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 文件）</li>
   <li>最新版本的 <a href="https://github.com/zoogie/unSAFE_MODE/releases/latest">unSAFE_MODE</a>（下载 RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> 文件）</li>
@@ -571,7 +563,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>在你的电脑中插入你的<strong>源 3DS</strong> 的 SD 卡</li>
-  <li>复制 Luma 3GX Loader Edition 的 <code class="language-plaintext highlighter-rouge">boot.firm</code> 到<strong>源 3DS</strong> 的 SD 卡根目录，替换当前已有的文件
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>source 3DS</strong>’s SD card, replacing any existing file
     <ul>
       <li>根目录指的是你点进 SD 卡看到的目录，你可以在这个目录下看到 Nintendo 3DS 文件夹，但请不要点进去</li>
     </ul>
@@ -581,7 +573,7 @@ window.cookieconsent.initialise({
       <li>美版： <code class="language-plaintext highlighter-rouge">luma/plugins/0004000000030800</code></li>
       <li>欧版： <code class="language-plaintext highlighter-rouge">luma/plugins/0004000000030700</code></li>
       <li>日版： <code class="language-plaintext highlighter-rouge">luma/plugins/0004000000030600</code>
-  如果 <code class="language-plaintext highlighter-rouge">plugins</code> 和 <code class="language-plaintext highlighter-rouge">00040000...</code> 文件夹不存在，请先创建它们</li>
+ 如果 <code class="language-plaintext highlighter-rouge">plugins</code> 和 <code class="language-plaintext highlighter-rouge">00040000...</code> 文件夹不存在，请先创建它们</li>
     </ul>
   </li>
   <li>弹出 SD 卡并将其插回<strong>源 3DS</strong></li>
@@ -593,7 +585,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>在你的电脑中插入你的<strong>目标 3DS</strong> 的 SD 卡</li>
-  <li>复制 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 里的 <code class="language-plaintext highlighter-rouge">boot.firm</code> 和 <code class="language-plaintext highlighter-rouge">boot.3dsx</code> 到你 SD 卡的根目录</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>target 3DS’s</strong> SD card</li>
   <li>在 SD 卡根目录创建一个名为 <code class="language-plaintext highlighter-rouge">boot9strap</code> 的文件夹</li>
   <li>Copy <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> and <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/boot9strap/</code> folder on your SD card</li>
   <li>从 SafeB9SInstaller <code class="language-plaintext highlighter-rouge">.zip</code> 压缩包中复制 <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> 到 SD 卡根目录下</li>

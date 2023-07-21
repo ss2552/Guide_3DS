@@ -533,18 +533,10 @@ window.cookieconsent.initialise({
 
 <h3 id="준비물">준비물</h3>
 
-<p><strong>소스 3DS</strong> (커스텀 펌웨어가 설치된 3DS)에서:</p>
-
 <ul>
   <li>최신 버전의 <a href="https://github.com/PabloMK7/kartdlphax/releases/latest`">kartdlphax</a> (<code class="language-plaintext highlighter-rouge">plugin.3gx</code>)</li>
-  <li>최신 버전의 <a href="https://github.com/PabloMK7/Luma3DS_3GX/releases/latest`">Luma3DS 3GX Loader 버전</a> (<code class="language-plaintext highlighter-rouge">boot.firm</code>)</li>
-</ul>
-
-<p><strong>타겟 3DS</strong> (커스텀 펌웨어를 설치하려고 하는 3DS)에서:</p>
-
-<ul>
   <li>최신 버전의 <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> (직접 다운로드)</li>
-  <li>최신 버전의 <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">일반 Luma3DS</a> (Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> 파일)</li>
+  <li>최신 버전의 <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> (<code class="language-plaintext highlighter-rouge">.zip</code> 파일)</li>
   <li>최신 버전의 <a href="https://github.com/zoogie/unSAFE_MODE/releases/latest">unSAFE_MODE</a> (RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> 파일)</li>
 </ul>
 
@@ -570,7 +562,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li><strong>소스 3DS</strong>의 SD 카드를 컴퓨터에 삽입해 주세요</li>
-  <li>Luma3DS 3GX Loader 버전의 <code class="language-plaintext highlighter-rouge">boot.firm</code>을 <strong>소스 3DS</strong>의 SD 카드에 복사해 주세요. 파일이 있다면 교체해 주세요
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>source 3DS</strong>’s SD card, replacing any existing file
     <ul>
       <li>SD 카드의 루트는 SD 카드를 열 때 보이는 디렉토리이고, Nintendo 3DS 폴더가 보이지만 그 안에 들어가 있지 않은 상태의 폴더입니다</li>
     </ul>
@@ -592,7 +584,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li><strong>타겟 3DS</strong>의 SD 카드를 컴퓨터에 삽입해 주세요</li>
-  <li>일반 Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code>안에 있는 <code class="language-plaintext highlighter-rouge">boot.firm</code>과 <code class="language-plaintext highlighter-rouge">boot.3dsx</code>를 SD 카드의 루트에 복사해 주세요</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>target 3DS’s</strong> SD card</li>
   <li>SD 카드이 루트에 <code class="language-plaintext highlighter-rouge">boot9strap</code> 라는 이름으로 새 폴더를 생성해 주세요</li>
   <li>SD 카드에 있는 <code class="language-plaintext highlighter-rouge">/boot9strap/</code> 폴더에 RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> 파일 안에 압축되있는 <code class="language-plaintext highlighter-rouge">boot9strap.firm</code>과 <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code>을 복사해 주세요</li>
   <li>SafeB9SInstaller <code class="language-plaintext highlighter-rouge">.zip</code>의 <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code>을 SD 카드의 루트로 복사해 주세요</li>

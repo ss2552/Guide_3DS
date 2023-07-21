@@ -1065,8 +1065,8 @@ window.cookieconsent.initialise({
   <li>전원을 끄고 게임 카트리지가 장착되어 있다면 분리한 다음, 10분 정도 기다려 주세요. 10분 후에 정상적으로 부팅된다면, 문제는 해결된 것이며 재발 가능성이 낮습니다</li>
   <li>SD 카드의 <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> 폴더를 다른 이름(예: <code class="language-plaintext highlighter-rouge">NIntendo 3DS_BACKUP</code>)으로 변경 후 부팅해보세요. 콘솔이 정상적으로 부팅된다면, <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> 폴더 내부에 문제가 있는 것입니다. 홈 메뉴의 추가 데이터를 정리해주세요:
     <ul>
-      <li>SD 카드에 있는 <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code> 폴더로 이동해 주세요
-      + 콘솔 지역에 해당되는 폴더를 삭제해 주세요:
+      <li>SD 카드에 있는 <code class="language-plaintext highlighter-rouge">/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/extdata/00000000/</code> 폴더로 이동해 주세요</li>
+      <li>콘솔 지역에 해당되는 폴더를 삭제해 주세요:
         <ul>
           <li><strong>EUR 지역</strong>: <code class="language-plaintext highlighter-rouge">00000098</code></li>
           <li><strong>JPN 지역</strong>: <code class="language-plaintext highlighter-rouge">00000082</code></li>
@@ -1107,13 +1107,11 @@ window.cookieconsent.initialise({
 <details>
 <summary><u>에러가 발생했습니다. 본체의 전원 버튼을 길게 눌러 전원을 끈 후..."</u></summary>
 
-<p>ARM11 오류 핸들러가 꺼져있거나, 커스텀 펌웨어가 정상적으로 설치되지 않았습니다. ARM11 오류 핸들러를 활성화해보세요:</p>
-<ul>
-  <li>콘솔의 전원을 꺼 주세요</li>
-  <li>(Select) 버튼을 길게 눌러 주세요</li>
-  <li>(Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요</li>
-  <li>“Disable ARM11 exception handlers” 박스가 체크되어 있다면, 체크를 해제해 주세요</li>
-</ul>
+<p>ARM11 오류 핸들러가 꺼져있거나, 커스텀 펌웨어가 정상적으로 설치되지 않았습니다. ARM11 오류 핸들러를 활성화해보세요:
+    + 콘솔의 전원을 꺼 주세요
+    + (Select) 버튼을 길게 눌러 주세요
+    + (Select) 버튼을 계속 눌러 있는 상태에서 콘솔의 전원을 켜 주세요
+    + “Disable ARM11 exception handlers” 박스가 체크되어 있다면, 체크를 해제해 주세요</p>
 </details>
 
 <details>
@@ -1134,10 +1132,8 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
 <details>
 <summary><u>파란색 "BOOTROM ERROR" 화면이 표시됩니다</u></summary>
 
-<p>이 콘솔은 벽돌 상태입니다. ntrboot 플래시카트를 구매한 후 이를 이용해 boot9strap를 설치하여 콘솔을 복구해야 합니다. 이 문제는 또 콘솔의 하드웨어 문제가 있다는 뜻일수도 있습니다. 어떠한 경우가 됐든, <a href="https://discord.gg.MWxPgEp">Nintendo Homebrew Discord 서버</a>에 오셔서 도움을 요청하세요.</p>
-<ul>
-  <li>또는, 누군가가 부팅 배경화면을 벽돌 사진으로 변경 했을 수도 있습니다. 콘솔을 이 화면에 5분 동안 나둬 보세요.</li>
-</ul>
+<p>이 콘솔은 벽돌 상태입니다. ntrboot 플래시카트를 구매한 후 이를 이용해 boot9strap를 설치하여 콘솔을 복구해야 합니다. 이 문제는 또 콘솔의 하드웨어 문제가 있다는 뜻일수도 있습니다. 어떠한 경우가 됐든, <a href="https://discord.gg.MWxPgEp">Nintendo Homebrew Discord 서버</a>에 오셔서 도움을 요청하세요.
+    + 또는, 누군가가 부팅 배경화면을 벽돌 사진으로 변경 했을 수도 있습니다. 콘솔을 이 화면에 5분 동안 나둬 보세요.</p>
 </details>
 
 <details>
