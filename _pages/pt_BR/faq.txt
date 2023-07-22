@@ -16,7 +16,7 @@ title: "FAQ"
 {% capture compat %}
 <summary><u>Estou na versão mais recente do sistema. É possível que meu console seja invadido sem o uso de qualquer hardware externo ou pré-requisito?</u></summary>
 
-Depende do seu modelo de console. At the moment, New 3DS / New 3DS XL / New 2DS XL is [able to be modded on 11.17.0](installing-boot9strap-(super-skaterhax)) without any prerequisites (e.g. aplicativos da eShop, itens físicos), enquanto 3DS / 3DS XL / 2DS requerem [software adicional ou hardware](alternate-exploits).
+Depende do seu modelo de console. No momento, New 3DS / New 3DS XL / New 2DS XL são [capazes de serem modificados na 11.17.0](homebrew-launcher-(super-skaterhax)) sem nenhum pré-requisito (ex. aplicativos da eShop, itens físicos), enquanto 3DS / 3DS XL / 2DS requerem [software adicional ou hardware](alternate-exploits).
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -57,9 +57,11 @@ Não. Consoles com custom firmware ainda podem jogar online e rodar cartuchos f�
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Posso manter meu NNID?</u></summary>
+<summary><u>Can I keep my NNID, saves, digital games (etc.)?</u></summary>
 
 Seu NNID (se você tiver um) não será afetado por este guia. Consoles com uma região de KOR, CHN ou TWN não têm funcionalidade de NNID em primeiro lugar e portanto não são afetados.
+
+Following this guide alone should not result in data loss (saves, digital games, etc), but SD card corruption is always a possibility. You should make a backup of your SD card contents if you have important data.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
