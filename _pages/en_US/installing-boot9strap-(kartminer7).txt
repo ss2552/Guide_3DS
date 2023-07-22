@@ -90,7 +90,7 @@ In this section, you will have the 3DS generate some data in Mario Kart 7 that w
     * If you don't see ANY colours, change your system language (if possible), then try the exploit again
 1. If the exploit was successful, the 3DS will have booted into the 3DS ROP xPloit Injector
 
-## Section V - Installing menuhax67
+#### Section V - Installing menuhax67
 
 {% include_relative include/menuhax67-install.txt %}
 

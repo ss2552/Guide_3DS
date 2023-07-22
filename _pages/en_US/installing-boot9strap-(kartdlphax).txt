@@ -107,7 +107,7 @@ In this section, you will use Download Play to transfer the exploit data from th
 1. If the exploit was successful, the **target 3DS** will have booted into the 3DS ROP xPloit Injector
     - If the exploit was not successful, power off the **source 3DS** and **target 3DS** and start again from the beginning of `Section III - kartdlphax`
 
-## Section IV - Installing menuhax67
+#### Section IV - Installing menuhax67
 
 {% include_relative include/menuhax67-install.txt %}
 
