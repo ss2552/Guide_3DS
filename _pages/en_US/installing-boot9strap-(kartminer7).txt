@@ -30,7 +30,7 @@ See [here](https://github.com/zoogie/kartminer7) for information about Kartminer
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
 + The latest release of [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (direct download)
 * The latest release of [menuhax67](https://github.com/zoogie/menuhax67/releases/latest)
-* The v12.0.1 release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/download/v12.0.1/Luma3DSv12.0.1.zip) (direct download)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 
 #### Section I - Preparing Mario Kart 7 data
 
