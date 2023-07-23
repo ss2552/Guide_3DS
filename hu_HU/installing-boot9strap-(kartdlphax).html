@@ -486,12 +486,13 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#kompatibilitási-megjegyzések" id="markdown-toc-kompatibilitási-megjegyzések">Kompatibilitási megjegyzések</a></li>
   <li><a href="#amire-szükséged-lesz" id="markdown-toc-amire-szükséged-lesz">Amire szükséged lesz</a>    <ul>
-      <li><a href="#section-i---prep-work-source-3ds" id="markdown-toc-section-i---prep-work-source-3ds">Section I - Prep Work (source 3DS)</a></li>
-      <li><a href="#section-ii---prep-work-target-3ds" id="markdown-toc-section-ii---prep-work-target-3ds">Section II - Prep Work (target 3DS)</a></li>
-      <li><a href="#section-iii---kartdlphax" id="markdown-toc-section-iii---kartdlphax">Section III - kartdlphax</a></li>
-      <li><a href="#section-iv---installing-menuhax67" id="markdown-toc-section-iv---installing-menuhax67">Section IV - Installing menuhax67</a></li>
-      <li><a href="#v-rész---boot9strap-telepítése" id="markdown-toc-v-rész---boot9strap-telepítése">V. rész - boot9strap telepítése</a></li>
-      <li><a href="#section-vi---removing-menuhax67" id="markdown-toc-section-vi---removing-menuhax67">Section VI - Removing menuhax67</a></li>
+      <li><a href="#section-i---hardware-button-check-target-3ds" id="markdown-toc-section-i---hardware-button-check-target-3ds">Section I - Hardware Button Check (target 3DS)</a></li>
+      <li><a href="#section-ii---prep-work-source-3ds" id="markdown-toc-section-ii---prep-work-source-3ds">Section II - Prep Work (source 3DS)</a></li>
+      <li><a href="#section-iii---prep-work-target-3ds" id="markdown-toc-section-iii---prep-work-target-3ds">Section III - Prep Work (target 3DS)</a></li>
+      <li><a href="#section-iv---kartdlphax" id="markdown-toc-section-iv---kartdlphax">Section IV - kartdlphax</a></li>
+      <li><a href="#section-v---unsafe_mode" id="markdown-toc-section-v---unsafe_mode">Section V - unSAFE_MODE</a></li>
+      <li><a href="#vi-rész---boot9strap-telepítése" id="markdown-toc-vi-rész---boot9strap-telepítése">VI. rész - boot9strap telepítése</a></li>
+      <li><a href="#section-vii---restoring-wifi-configuration-profiles" id="markdown-toc-section-vii---restoring-wifi-configuration-profiles">Section VII - Restoring WiFi Configuration Profiles</a></li>
     </ul>
   </li>
   <li><a href="#tovább-a-telepítés-véglegesítésére" id="markdown-toc-tovább-a-telepítés-véglegesítésére">Tovább a telepítés véglegesítésére</a></li>
@@ -503,15 +504,15 @@ window.cookieconsent.initialise({
 <details class="notice--info">
 <summary><em>Technikai részletek (opcionális)</em></summary>
 
-<p>In order to install custom firmware on our console, we need to get Homebrew Launcher access.</p>
+<p>In order to exploit the SAFE_MODE firmware of our system, we need to inject an exploited WiFi profile.</p>
 
 <p>Ennek eléréséhez a Download Play funkcionalitását használjuk a Mario Kart 7-nek, egy egyedi firmware-rel, valamint egy egyedi játék pluginnel már telepített 3DS használatával.</p>
 
-<p>This custom plugin will send a hacked payload to an unhacked console, which then exploits the system in order to inject menuhax67, which will allow us to get Homebrew Launcher access.</p>
+<p>This custom plugin will send a hacked payload to an unhacked console, which then exploits the system in order to inject the exploited WiFi profile into your connections list.</p>
 
-<p>Once we have Homebrew Launcher access, we can run nimdsphax to install boot9strap.</p>
+<p>Once the WiFi profile has been injected, we will use SAFE_MODE, which is a recovery feature present on all 3DS consoles, to activate the exploited WiFi profile.</p>
 
-<p>See <a href="https://github.com/PabloMK7/kartdlphax">here</a> for information about kartdlphax, <a href="https://github.com/zoogie/menuhax67">here</a> for information about menuhax67, and <a href="https://github.com/luigoalma/nimdsphax">here</a> for information about nimdsphax.</p>
+<p>For a more technical explanation, see the following links for information on the kartdlphax and unSAFE_MODE exploits: <a href="https://github.com/PabloMK7/kartdlphax">kartdlphax</a>, <a href="https://github.com/zoogie/unSAFE_MODE/">unSAFE_MODE</a>.</p>
 
 </details>
 
@@ -534,14 +535,28 @@ window.cookieconsent.initialise({
 
 <ul>
   <li>A [kartdlphax] legújabb kiadása (https://github.com/PabloMK7/kartdlphax/releases/latest) (<code class="language-plaintext highlighter-rouge">plugin.3gx</code>)</li>
-  <li>A <a href="https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip">boot9strap</a> legfrisseb verziója (közvetlen letöltés)</li>
   <li>A <a href="https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip">SafeB9SInstaller</a> legfrisseb verziója (közvetlen letöltés)</li>
-  <li>The latest release of <a href="https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip">nimdsphax</a> (direct download)</li>
-  <li>The latest release of <a href="https://github.com/zoogie/menuhax67/releases/latest">menuhax67</a></li>
   <li>A <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a> legújabb kiadása (a Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> fájl)</li>
+  <li>The latest release of <a href="https://github.com/zoogie/unSAFE_MODE/releases/latest">unSAFE_MODE</a> (the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> file)</li>
 </ul>
 
-<h4 id="section-i---prep-work-source-3ds">Section I - Prep Work (source 3DS)</h4>
+<h4 id="section-i---hardware-button-check-target-3ds">Section I - Hardware Button Check (target 3DS)</h4>
+
+<p>Ebben a fejezetben tesztelni fogod azt, hogy működnek-e a váll gombok a konzolodon. Ez meghatározza, hogy melyik metódust kell követned a következő oldalon.</p>
+
+<ol>
+  <li>Kapcsold be a konzolod</li>
+  <li>Mikor meglátod a Home menüt, nyomd meg az (Bal váll) és (Jobb váll) gombokat egyszerre
+    <ul>
+      <li>A kamera applettnek kell megjelennie</li>
+    </ul>
+  </li>
+  <li>Kapcsold ki a konzolod</li>
+</ol>
+
+<p class="notice--warning">If the camera does not open, you cannot follow this method. Ebben az esetben csatlakozz a <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew-hoz Discord-on</a> és kérj, támogatást angolul.</p>
+
+<h4 id="section-ii---prep-work-source-3ds">Section II - Prep Work (source 3DS)</h4>
 
 <p>Ebben a fejezetben befogod állítani a forrás 3DS-ed (a 3DS egyedi firmware-rel), hogy küldje az exploit adatot a cél 3DS-nek.</p>
 
@@ -563,34 +578,25 @@ window.cookieconsent.initialise({
   <li>Távolítsd el az SD kártyát és rakd be a <strong>forrás 3DS</strong>-be</li>
 </ol>
 
-<h4 id="section-ii---prep-work-target-3ds">Section II - Prep Work (target 3DS)</h4>
+<h4 id="section-iii---prep-work-target-3ds">Section III - Prep Work (target 3DS)</h4>
 
-<p>In this section, you will set up the files that the target 3DS will need to install custom firmware.</p>
+<p>In this section, you will copy the files needed to trigger the unSAFE_MODE exploit onto your target 3DS (the 3DS that you are trying to modify)’s SD card.</p>
 
 <ol>
   <li>Csatlakoztasd a <strong>cél 3DS</strong> SD kártyáját a számítógépedhez</li>
   <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> to the root of the <strong>target 3DS’s</strong> SD card</li>
   <li>Hozz létre egy mappát <code class="language-plaintext highlighter-rouge">boot9strap</code> néven az SD kártya gyökerében</li>
-  <li>Másold át a <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> fájlt és a <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> fájlt a boot9strap <code class="language-plaintext highlighter-rouge">.zip</code> fájlból az SD kártyád <code class="language-plaintext highlighter-rouge">/boot9strap/</code> mappájába</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">boot9strap.firm</code> and <code class="language-plaintext highlighter-rouge">boot9strap.firm.sha</code> from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/boot9strap/</code> folder on your SD card</li>
   <li>Másold át a <code class="language-plaintext highlighter-rouge">SafeB9SInstaller.bin</code> fájlt a SafeB9SInstaller <code class="language-plaintext highlighter-rouge">.zip</code>-ből az SD kártyád gyökerébe</li>
-  <li>Hozz létre egy mappát <code class="language-plaintext highlighter-rouge">3ds</code> néven az SD kártyád gyökerében, ha még nem létezik ilyen
-    <ul>
-      <li>This folder stores homebrew applications and data; it is different from the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder that the console automatically generates</li>
-    </ul>
-  </li>
-  <li>Copy the <code class="language-plaintext highlighter-rouge">nimdsphax</code> folder from the nimdsphax<code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/3ds/</code> folder on your SD card</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">menuhax67_installer.3dsx</code> from the menuhax <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/3ds/</code> folder on your SD card</li>
-  <li>Copy Launcher.dat from the folder for your model and region inside the menuhax <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">usm.bin</code> from the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the root of your SD card</li>
+  <li>Create a folder called <code class="language-plaintext highlighter-rouge">3ds</code> on the root of your SD card</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">slotTool.3dsx</code> from the <code class="language-plaintext highlighter-rouge">slotTool</code> folder inside the RELEASE <code class="language-plaintext highlighter-rouge">.zip</code> to the <code class="language-plaintext highlighter-rouge">/3ds/</code> folder on your SD card</li>
   <li>Távolítsd el az SD kártyát és rakd be a <strong>cél 3DS</strong>-be</li>
 </ol>
 
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/kart-root-layout.png" alt="" /></p>
+<h4 id="section-iv---kartdlphax">Section IV - kartdlphax</h4>
 
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/kart-3ds-layout.png" alt="" /></p>
-
-<h4 id="section-iii---kartdlphax">Section III - kartdlphax</h4>
-
-<p>In this section, you will use Download Play to transfer the exploit data from the source 3DS to the target 3DS, which can be used to install menuhax67, a Homebrew Launcher entrypoint. Your HOME Menu settings will be temporarily inaccessible on the target 3DS while this exploit is active.</p>
+<p>In this section, you will use Download Play to transfer the exploit data from the source 3DS to the target 3DS, which can be used to overwrite your Wi-Fi slots with hacked data. Your Wi-Fi connection settings will be temporarily overwritten while the exploit is active.</p>
 
 <ol>
   <li>Kapcsold be a <strong>forrás 3DS</strong>-t
@@ -641,32 +647,45 @@ window.cookieconsent.initialise({
       <li>Ha az exploit nem volt sikeres, kapcsold ki a <strong>forrás 3DS</strong>-t és a <strong>cél 3DS</strong>-t, és kezd újra a <code class="language-plaintext highlighter-rouge">III. rész - kartdlphax</code> kezdetétől</li>
     </ul>
   </li>
+  <li>Press (X) to inject unSAFE_MODE</li>
+  <li>If the injection was successful, the screen will turn green and the <strong>target 3DS</strong> will automatically power off
+    <ul>
+      <li>If the screen turns red, power off the target 3DS and start again from the beginning of <code class="language-plaintext highlighter-rouge">Section III - kartdlphax</code>. If this doesn’t work, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>)</li>
+    </ul>
+  </li>
 </ol>
 
-<h4 id="section-iv---installing-menuhax67">Section IV - Installing menuhax67</h4>
+<p class="notice--info">You will <strong>not</strong> need to use your <strong>source 3DS</strong> to complete any further steps on this guide. Any further steps should only be completed on the <strong>target 3DS</strong>.</p>
+
+<h4 id="section-v---unsafe_mode">Section V - unSAFE_MODE</h4>
+
+<p>In this section, you will enter Safe Mode (a feature available on all 3DS family consoles) and navigate to a menu where unSAFE_MODE will be triggered, which will launch you into the boot9strap (custom firmware) installer.</p>
 
 <ol>
-  <li>Press (Y) + (D-Pad Down) to install menuhax67
+  <li>A konzolod kikapcsolt állapotában tartsd nyomva a következő gombokat: (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A), majd ezen gombok nyomva tartása mellett kapcsold be a konzolod
     <ul>
-      <li>The console will automatically power off</li>
+      <li>Tartsd nyomva a gombokat, amíg a konzol be nem bootol a Safe Mode-ba (a “system update” menübe)</li>
     </ul>
   </li>
-  <li>Kapcsold be a konzolod</li>
-  <li>Tap on the small HOME Menu settings icon in the top left of the bottom screen (<img src="https://3ds.hacks.guide/images/homemenuicon.png" alt="" height="32px" width="52px" />)
+  <li>Nyomj “OK”-ot a frissítés elfogadásához
     <ul>
-      <li>If the console freezes for a while and then crashes, make sure you have Launcher.dat on the root of your SD card</li>
+      <li>Nincs frissítés. Ez része az exploitnak</li>
     </ul>
   </li>
-  <li>Ha az exploit sikeres volt, a konzolodnak ezt követően be kell bootolnia a Homebrew Launcherbe</li>
-  <li>Launch nimdsphax from the list of homebrew</li>
-  <li>Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
+  <li>Nyomj az “I accept”-re a feltételek elfogadásához</li>
+  <li>A frissítés sikertelen lesz a <code class="language-plaintext highlighter-rouge">003-1099</code> hibakóddal. Ez az elvárt viselkedés</li>
+  <li>When asked “Would you like to configure Internet settings?”, select “Yes”</li>
+  <li>On the following menu, navigate to <code class="language-plaintext highlighter-rouge">Connection 1</code> -&gt; <code class="language-plaintext highlighter-rouge">Change Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Next Page (right arrow)</code> -&gt; <code class="language-plaintext highlighter-rouge">Proxy Settings</code> -&gt; <code class="language-plaintext highlighter-rouge">Detailed Setup</code> (<a href="/images/screenshots/usm/safemode_highlighted.png">image</a>)</li>
+  <li>If the exploit was successful, your console will have booted into SafeB9SInstaller
     <ul>
-      <li>If your console freezes on a red screen, hold the POWER button until it turns off, then try running menuhax again by powering on your console and tapping on the HOME Menu settings icon</li>
+      <li>If your console instead freezes on a white screen, hold the POWER button until it turns off, then retry this section</li>
+      <li>If your console instead freezes on a red screen, you are missing <code class="language-plaintext highlighter-rouge">usm.bin</code> from the root of your SD card</li>
+      <li>If you get a different error, <a href="troubleshooting#installing-boot9strap-usm">follow this troubleshooting guide</a></li>
     </ul>
   </li>
 </ol>
 
-<h4 id="v-rész---boot9strap-telepítése">V. rész - boot9strap telepítése</h4>
+<h4 id="vi-rész---boot9strap-telepítése">VI. rész - boot9strap telepítése</h4>
 
 <p>Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.</p>
 
@@ -693,9 +712,9 @@ window.cookieconsent.initialise({
   <li>A következő oldalon hasznos homebrew alkalmazásokat telepítünk, hogy teljessé tegyük a telepítésedet.</li>
 </ul>
 
-<h4 id="section-vi---removing-menuhax67">Section VI - Removing menuhax67</h4>
+<h4 id="section-vii---restoring-wifi-configuration-profiles">Section VII - Restoring WiFi Configuration Profiles</h4>
 
-<p>In this section, you will use the Homebrew Launcher to remove menuhax67, which will let you access the HOME Menu Settings option normally.</p>
+<p>In this section, you will enter the Homebrew Launcher (using custom firmware) so that you can restore the Wi-Fi connection slots that were overwritten in Section I.</p>
 
 <ol>
   <li>Indítsd el a Download Play alkalmazást (<img src="https://3ds.hacks.guide/images/download-play-icon.png" alt="" height="24px" width="24px" />)</li>
@@ -714,9 +733,9 @@ window.cookieconsent.initialise({
       <li>Ha a konzolod a betöltő splash képernyőn ragad, akkor hiányzik az <code class="language-plaintext highlighter-rouge">boot.3dsx</code> az SD kártyád gyökeréből</li>
     </ul>
   </li>
-  <li>Launch menuhax67_installer from the list of homebrew</li>
-  <li>Select REMOVE menuhax67</li>
-  <li>When you see “done.”, press (A), then press (A) on “EXIT to menu”</li>
+  <li>Launch slotTool from the list of homebrew</li>
+  <li>Select “RESTORE original wifi slots 1,2,3”</li>
+  <li>Your console will then reboot</li>
 </ol>
 
 <hr />
