@@ -29,7 +29,7 @@ This exploit will not work on the New 3DS, New 3DS XL, or New 2DS XL. Please ens
 
 #### Section I - Hardware Button Check
 
-In this section, you will see whether your shoulder buttons are working on your console. This will determine which method you will follow on the next page.
+In this section, you will see whether your shoulder buttons are working on your console. This will determine whether your console is compatible with this method.
 
 1. Power on your console
 1. Once you see the HOME Menu, press the (Left Shoulder) and (Right Shoulder) buttons at the same time
