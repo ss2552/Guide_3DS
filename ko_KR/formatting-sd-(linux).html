@@ -520,19 +520,19 @@ mmcblk0     179:0    0   3,8G  0 disk
   <li>CTRL + C 를 입력해 메뉴를 닫으세요</li>
   <li>SD 카드 포멧을 위해 다음을 실행하세요:
     <ul>
-      <li>2GB 이하: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 64 -F 16</code>
+      <li>2GB or lower: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 64 -F 16</code>
         <ul>
-          <li>이것은 32KB 클러스터 크기를 가진 FAT16 파티션을 SD카드에 생성합니다</li>
+          <li>This creates a single FAT16 partition with 32 KB cluster size on the SD card</li>
         </ul>
       </li>
       <li>4GB - 128GB: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 64 -F 32</code>
         <ul>
-          <li>이것은 32KB 클러스터 크기를 가진 FAT32 파티션을 SD카드에 생성합니다</li>
+          <li>This creates a single FAT32 partition with 32 KB cluster size on the SD card</li>
         </ul>
       </li>
-      <li>128GB 이상: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 128 -F 32</code>
+      <li>128GB or higher: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 128 -F 32</code>
         <ul>
-          <li>이것은 64KB 클러스터 크기를 가진 FAT32 파티션을 SD카드에 생성합니다</li>
+          <li>This creates a single FAT32 partition with 64 KB cluster size on the SD card</li>
         </ul>
       </li>
     </ul>
