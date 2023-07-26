@@ -13,11 +13,11 @@ title: "문제 해결"
 가이드 페이지:
 * [Seedminer](#seedminer)
     * [BannerBomb3](#bannerbomb3)
-    * [Installing boot9strap (Fredtool-Inject)](#installing-boot9strap-fredtool-inject)
-    * [Installing boot9strap (PicHaxx)](#installing-boot9strap-pichaxx)
+    * [boot9strap 설치 (Fredtool-Inject)](#installing-boot9strap-fredtool-inject)
+    * [boot9strap 설치 (PicHaxx)](#installing-boot9strap-pichaxx)
 * [boot9strap 설치 (Soundhax)](#installing-boot9strap-soundhax)
 * [boot9strap 설치 (SSLoth-Browser)](#installing-boot9strap-ssloth-browser)
-* [Installing boot9strap (super-skaterhax)](#installing-boot9strap-super-skaterhax)
+* [boot9strap 설치 (super-skaterhax)](#installing-boot9strap-super-skaterhax)
 
 * [마무리 단계](#finalizing-setup)
 
@@ -92,12 +92,12 @@ Your SD card is most likely acting weird. Try reformatting your SD card ([Window
 1. SD 카드를 콘솔에 다시 삽입해 주세요
 1. 콘솔의 전원을 켜 주세요
 1. 콘솔이 SD 카드 데이터를 생성할 때까지 기다려 주세요
-	+ 당신의 앱들이 사라졌을 것입니다. 이는 정상이며, 잠시 후에 고쳐질 것입니다.
+    + 당신의 앱들이 사라졌을 것입니다. 이는 정상이며, 잠시 후에 고쳐질 것입니다.
 1. 콘솔의 전원을 꺼 주세요
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. SD 카드의 `Nintendo 3DS` 폴더를 열어 주세요
 1. `Nintendo 3DS` 폴더 내 32글자의 폴더 이름을 복사해 주세요
-	+ 이것이 [Seedminer의 섹션 II](seedminer#section-ii---seedminer)에서 사용할 진짜 ID0입니다
+    + 이것이 [Seedminer의 섹션 II](seedminer#section-ii---seedminer)에서 사용할 진짜 ID0입니다
 1. `Nintendo 3DS` 폴더를 삭제해 주세요
 1. `BACKUP_Nintendo 3DS` 폴더를 `Nintendo 3DS` 폴더로 이름을 변경해 주세요
 {% endcapture %}
@@ -165,12 +165,12 @@ To fix this, you will need to determine which folder contains your data. 이것�
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Installing boot9strap (Fredtool-Inject)
+## boot9strap 설치 (Fredtool-Inject)
 
 {% capture compat %}
-<summary><u>Error on DSiHaxInjector page</u></summary>
+<summary><u>DSiHaxInjector 페이지에서 오류가 발생합니다</u></summary>
 
-`movable.sed`와 DSiWare 백업 파일이 동일 기기에서 추출한 것인지 확인해 주세요. 서로 다르면 오류가 발생합니다.
+`movable.sed`와 DSiWare 백업 파일이 동일한 콘솔에서 추출한 것인지 확인해 주세요. 서로 다르면 오류가 발생합니다.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -182,7 +182,7 @@ To fix this, you will need to determine which folder contains your data. 이것�
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>DSiWare launches normally</u></summary>
+<summary><u>게임이 정상적으로 실행됩니다</u></summary>
 
 `Haxxxxxxxxx!`가 SD 카드에서 시스템 메모리로 복사되지 않았습니다.
 {% endcapture %}
@@ -229,14 +229,14 @@ SD 카드 루트에 Frogminer_save `.zip` 안에 있는 `private` 폴더를 복�
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Installing boot9strap (PicHaxx)
+## boot9strap 설치 (PicHaxx)
 
 {% capture compat %}
 <summary><u>에러가 발생했습니다. 본체의 전원 버튼을 길게 눌러 전원을 끈 후..." (검은 화면에 텍스트)</u></summary>
 
 `00000001.sav` 또는 `otherapp.bin` 파일이 잘못 들어갔습니다. `00000000.sav`가 `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00004000` -> 0017c100` -> `data` 안에 있고 `otherapp.bin`이 SD 카드 루트에 있는지 다시 한 번 확인해 주세요.
 
-만약 위치가 정확하다면, [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx)을 이용해 세이브를 다시 생성한 후, `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 `00000001.sav`이고 기기의 `movable.sed`를 이용해야 합니다. Re-download [HBL otherapps](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
+만약 위치가 정확하다면, [PicHaxx Save Tool](https://3dstools.nhnarwhal.com/#/pichaxx)을 이용해 세이브를 다시 생성한 후, `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` 폴더 안에 다시 복사해 주세요. 반드시 파일의 이름이 `00000001.sav`이고 콘솔의 `movable.sed`를 이용해야 합니다. Re-download [HBL otherapps](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip), place the `.bin` file relevant to your console to the root of your SD card, and rename it to `otherapp.bin`. `.bin` 확장자는 보이지 않는 이상 추가하지 말아 주세요.
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -402,14 +402,14 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 
 If the problem persists:
 
-- Ensure that `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin`, and `boot.3dsx` are on the root of the SD card (not inside of any folder)
-- Ensure that you selected the correct payload for your region AND system version
-- Ensure that your region settings look [like this](/images/screenshots/skater_lang.png)
-- Try resetting your browser data:
-  1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
-  1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initilize Save Data" or "Clear All Save Data")
-  1. 익스플로잇을 다시 시도해 주세요
-- Try changing the system language to something other than the current language
++ Ensure that `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin`, and `boot.3dsx` are on the root of the SD card (not inside of any folder)
++ Ensure that you selected the correct payload for your region AND system version
++ Ensure that your region settings look [like this](/images/screenshots/skater_lang.png)
++ Try resetting your browser data:
+    1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
+    1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initilize Save Data" or "Clear All Save Data")
+    1. 익스플로잇을 다시 시도해 주세요
++ Try changing the system language to something other than the current language
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -501,7 +501,7 @@ You need at least 1.3GB of free space to perform the NAND backup, which is a par
 1. Press (A) to create a NAND backup
     + This may take around fifteen minutes
 1. Press (A) again
-    + The console should automatically power off
+    + 콘솔의 전윈이 자동으로 꺼질 겁니다
 1. SD 카드를 컴퓨터에 삽입해 주세요
 1. Copy the files in `/gm9/backups/` on your SD to a safe location on your computer
 1. Delete the `<date>_<serialnumber>_sysnand_##.bin` and `<date>_<serialnumber>_sysnand_##.bin.sha` files from the SD card
@@ -510,7 +510,7 @@ You need at least 1.3GB of free space to perform the NAND backup, which is a par
 
 Now that you have your NAND backup in a safe place:
 
-1. Insert your SD card into your console
+1. SD 카드를 콘솔에 다시 삽입해 주세요
 1. Hold START and power on still holding START to open GodMode9
 1. Press the (Home) button
 1. "Scripts..."를 선택해 주세요
@@ -590,9 +590,9 @@ You most likely already made a NAND backup on this console. If you did not make 
 
 알림 LED가 깜빡인다면:
 
-- **하얀색**: SD 카드 혹은 내부 메모리에서 `boot.firm`을 찾지 못했습니다.
-- **다홍색**: SD 카드에서 `boot.firm`을 찾지 못했습니다. 내부 메모리에 있는 `boot.firm`을 확인했으나, 파일이 손상되었습니다.
-- **빨간색**: `boot.firm` 파일을 찾았지만, SD 카드와 내부 메모리에 있는 파일 모두가 손상되었습니다.
++ **White**: Your 3DS was not able to find `boot.firm` on your SD card or on internal memory.
++ **Magenta**: Your 3DS was not able to find `boot.firm` on your SD card. 내부 메모리에 있는 `boot.firm`을 확인했으나, 파일이 손상되었습니다.
++ **Red**: Your 3DS was able to find `boot.firm` on both your SD card and on internal memory, but both files are corrupted.
 
 [Luma3DS의 최신 버전](https://github.com/LumaTeam/Luma3DS/releases/latest)을 다운받아 압축을 해제해, 새 `boot.firm` 파일을 SD 카드의 루트 디렉토리에 넣어주세요. (파일이 이미 있다면 덮어씌워주세요.) `boot.firm` 파일이 계속 문제가 있는 것으로 인식된다면, SD 카드에 문제가 있는지 확인해야 할 수 있습니다: ([Windows](h2testw-(windows)), [Linux](f3-(linux)), or [macOS](f3xswift-(mac))) 또, WinRAR로 압축 해제한 파일은 3DS에서 문제를 자주 일으키는 것으로 알려져 있습니다.
 
@@ -608,19 +608,19 @@ You most likely already made a NAND backup on this console. If you did not make 
 1. 콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, 다시 장착하고 전원을 켜 보세요.
 1. 전원을 끄고 게임 카트리지가 장착되어 있다면 분리한 다음, 10분 정도 기다려 주세요. 10분 후에 정상적으로 부팅된다면, 문제는 해결된 것이며 재발 가능성이 낮습니다
 1. SD 카드의 `Nintendo 3DS` 폴더를 다른 이름(예: `NIntendo 3DS_BACKUP`)으로 변경 후 부팅해보세요. 콘솔이 정상적으로 부팅된다면, `Nintendo 3DS` 폴더 내부에 문제가 있는 것입니다. 홈 메뉴의 추가 데이터를 정리해주세요:
-	+ SD 카드에 있는 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` 폴더로 이동해 주세요
+    + SD 카드에 있는 `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` 폴더로 이동해 주세요
     + 콘솔 지역에 해당되는 폴더를 삭제해 주세요:
-		+ **EUR 지역**: `00000098`
-		+ **JPN 지역**: `00000082`
-		+ **USA 지역**: `0000008f`
-		+ **CHN 지역**: `000000A1`
-		+ **KOR 지역**: `000000A9`
-		+ **TWN 지역**: `000000B1`
+        + **EUR 지역**: `00000098`
+        + **JPN 지역**: `00000082`
+        + **USA 지역**: `0000008f`
+        + **CHN 지역**: `000000A1`
+        + **KOR 지역**: `000000A9`
+        + **TWN 지역**: `000000B1`
 1. 복구 모드로 부팅하여 본체를 업데이트해 보세요:
-	+ 콘솔의 전원을 꺼 주세요
-	+ (L 버튼) + (R 버튼) + (D패드 상) + (A) 버튼을 길게 눌러주세요
-	+ 콘솔의 전원을 켜 주세요
-	+ 성공적일 경우엔 콘솔이 "본체 업데이트"로 부팅됩니다
+    + 콘솔의 전원을 꺼 주세요
+    + (L 버튼) + (R 버튼) + (D패드 상) + (A) 버튼을 길게 눌러주세요
+    + 콘솔의 전원을 켜 주세요
+    + 성공적일 경우엔 콘솔이 "본체 업데이트"로 부팅됩니다
 1. [CTRTransfer](ctrtransfer) 설명서를 따라 주세요
 1. 지원이 필요하면 [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 (영어로) 지원을 요청해 주세요
 {% endcapture %}
@@ -789,4 +789,3 @@ However, if you do not know the PIN and therefore cannot access the console's se
 1. Press "Clear Settings", then "Delete" to remove all Parental Controls data
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
-

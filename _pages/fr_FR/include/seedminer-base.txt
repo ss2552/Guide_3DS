@@ -30,8 +30,8 @@ Avant de suivre cette section :
     + Si vous voyez plusieurs dossiers de 32 lettres, suivez [ces instructions](troubleshooting#seedminer)
     + Vous pouvez ignorer le dossier `private` si vous en avez un
 
-	![]({{ "/images/screenshots/seedminer/id0-example.png" | absolute_url }})
-	{: .notice--info}
+    ![]({{ "/images/screenshots/seedminer/id0-example.png" | absolute_url }})
+    {: .notice--info}
 1. Collez votre nom de dossier de 32 lettres dans [un document](/images/screenshots/seedminer/text-document.png) auquel vous pourrez vous référer ultérieurement
     + Ce dossier représente votre "ID0". Prenez note de cela car ce guide y fera référence plus tard
 1. Power on your console
@@ -61,5 +61,6 @@ In this section, you will use the Bruteforce Movable website to retrieve your co
     + Au cours de ce processus, le bot que vous avez ajouté peut ne pas apparaître sur votre 3DS. Tant que le site se met à jour, ce n'est pas un problème
     + Si vous êtes toujours en train d'attendre après une demi-heure, veuillez rejoindre [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp) et demandez (en anglais) à quelqu'un de vous aider
     + Si vous obtenez le message suivant : "We were unable to successfully complete your bruteforce request. :`(", suivez les [instructions de dépannage sur cette page](troubleshooting#seedminer)
+1. When the process is completed, download your `movable.sed` file from the site
     + Gardez ce fichier car vous en aurez besoin dans la prochaine page
 1. Éteignez votre console

@@ -21,10 +21,10 @@ The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL.
 
 ### Qué necesitas
 
-+ The latest release of [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (the release `.zip` file)
+* The latest release of [super-skaterhax](https://github.com/zoogie/super-skaterhax/releases) (the release `.zip` file)
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (direct download)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (direct download)
-+ The latest release of [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (direct download)
+* The latest release of [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (direct download)
 * The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
 
 #### Sección I - Preparativos
@@ -35,7 +35,7 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 1. Inserta tu tarjeta SD en tu computadora
 1. Copia los archivos `boot.firm` y `boot.3dsx` desde el `.zip` de Luma3DS a la raíz de tu tarjeta SD
     + La raíz de tu tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
-1. Copy everything inside the folder for your console's region (and also system version if the region is USA) in the super-skaterhax `.zip` to the root of your SD card
+1. Copy everything inside the folder for your console's region and version (`arm11code.bin` and `browserhax_hblauncher_ropbin_payload.bin`) in the super-skaterhax `.zip` to the root of your SD card
 1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
 1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de `boot9strap` a la carpeta `/boot9strap/` en tu tarjeta SD
 1. Copia `SafeB9SInstaller.bin` desde el `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD

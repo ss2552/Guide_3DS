@@ -30,8 +30,8 @@ Mielőtt követnéd ezt a fejezetet:
     + Ha több 32 karakter hosszú nevű mappát látsz, kövesd [ezeket a lépéseket](troubleshooting#seedminer)
     + Figyelmen kívül hagyhatod a `private` mappát, ha rendelkezel vele
 
-	![]({{ "/images/screenshots/seedminer/id0-example.png" | absolute_url }})
-	{: .notice--info}
+    ![]({{ "/images/screenshots/seedminer/id0-example.png" | absolute_url }})
+    {: .notice--info}
 1. Illesztd be a te 32-karakteres mappa neved [egy dokumentumba](/images/screenshots/seedminer/text-document.png) amit megtalálsz később
     + Ez a mappa a te "ID0" mappád. Jegyezd fel ezt, mert az útmutató később hivatkozni fog rá
 1. Kapcsold be a konzolod
@@ -61,5 +61,6 @@ Ebben a fejezetben a Bruteforce Movable weboldalt fogod használni, hogy megszer
     + Ez alatt a folyamat alatt, a bot, amit hozzáadtál nem biztos, hogy feltűnik a 3DS-eden. Egészen addig, amíg a weboldal frissül, ez nem probléma
     + Ha egy fél óra után is még mindig várakozol, csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához, és kérj segítséget (angol nyelven) valakitől
     + Ha a "We were unable to successfully complete your bruteforce request. :`(" üzenetet kaptad, kövesd [a vonatkozó hibaelhárítási lépéseket ezen az oldalon](troubleshooting#seedminer)
+1. When the process is completed, download your `movable.sed` file from the site
     + Őrizd meg ezt fájlt, mert szükséged lesz rá a következő oldalon
 1. Kapcsold ki a konzolod

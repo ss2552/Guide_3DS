@@ -19,7 +19,7 @@ See [here](https://github.com/luigoalma/nimdsphax) for information about nimdsph
 
 * 최신 버전의 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (직접 다운로드)
 * 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (직접 다운로드)
-+ 최신 버전의 [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (직접 다운로드)
+* 최신 버전의 [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (직접 다운로드)
 * 최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (`.zip` 파일)
 
 #### 섹션 I - 준비 작업
@@ -32,7 +32,7 @@ See [here](https://github.com/luigoalma/nimdsphax) for information about nimdsph
 1. SafeB9SInstaller `.zip`의 `SafeB9SInstaller.bin`을 SD 카드의 루트로 복사해 주세요
 1. SD 카드의 루트에 `3ds` 폴더가 없을 경우 폴더를 만들어 주세요
     + 이 폴더에는 홈브류 에플리케이션과 데이터가 보관되어 있으며, 콘솔이 자동으로 생성하는 `Nintendo 3DS` 폴더와 다른 폴더입니다
-1. Copy the `nimdsphax` folder from the nimdsphax `.zip` to the `/3ds/` folder on your SD card
+1. nimdsphax `.zip`안에 있는 `nimdsphax` 폴더를 SD 카드의 `/3ds/` 폴더에 복사해 주세요
 1. SD 카드를 콘솔에 다시 삽입해 주세요
 
 ![]({{ "/images/screenshots/menuhax-root-layout.png" | absolute_url }})
@@ -49,7 +49,7 @@ See [here](https://github.com/luigoalma/nimdsphax) for information about nimdsph
 In this section you will use the menuhax67 exploit installed earlier to launch nimdsphax, which will load SafeB9SInstaller.
 
 1. 콘솔의 전원을 켜 주세요
-1. Tap on the small HOME Menu settings icon in the top left of the bottom screen (![]({{ "/images/homemenuicon.png" | absolute_url }}){: height="32px" width="52px"})
+1. 아래 화면 왼쪽에 있는 HOME 메뉴 설정 아이콘을 눌러 주세요 (![]({{ "/images/homemenuicon.png" | absolute_url }}){: height="32px" width="52px"})
     + If the console freezes for a while and then crashes, make sure you have Launcher.dat on the root of your SD card
 1. 익스플로잇이 성공적이었다면 Homebrew Launcher로 부팅되었을 것입니다
 1. 홈브류 목록에서 nimdsphax를 실행해 주세요

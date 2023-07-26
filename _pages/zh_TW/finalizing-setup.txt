@@ -36,25 +36,11 @@ If your **New 3DS** was on version 2.1.0 before following this guide, you should
 ### 必備項目
 
 * [finalizing.zip]({{ base_path }}/assets/finalizing.zip) (direct download)
+* The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)
 
 ### 操作說明
 
-#### 第一節 — 準備工作
-
-In this section, you will copy the files necessary to follow the rest of the instructions on this page.
-
-1. Power off your console
-1. 將 SD 卡插入至電腦中
-1. Copy the contents of `finalizing.zip` (`finalize`, `gm9`, and `luma`) to the root of your SD card, merging/replacing any existing folders if prompted
-    + If you are using a Mac, hold the Option key while dragging the folders to the root of your SD card, then click "Merge"
-1. Insert your SD card into your console
-
-The screenshot below indicates the minimum SD card layout that is required to follow this page. 您可能在遵循其他頁面指示中會有一些多的資料夾及檔案在您的 SD 卡中。
-
-![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
-{: .notice--info}
-
-#### Section II - CFW Check
+#### 第一節 — 檢查自製韌體
 
 As an additional safety measure, we will perform an additional check for custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.
 
@@ -69,11 +55,28 @@ If you do NOT boot into the Luma3DS configuration menu, custom firmware was not 
 {: .notice--danger}
 
 
-#### Section III - Updating the System
+#### Section II - Updating the System
 
 In this section, you will update your system to the latest version, which is safe to do with custom firmware.
 
 {% include_relative include/sysupdate.txt cfw="true" %}
+
+#### Section III - Prep Work
+
+In this section, you will copy the files necessary to follow the rest of the instructions on this page.
+
+1. Power off your console
+1. 將 SD 卡插入至電腦中
+1. Copy the contents of `finalizing.zip` (`finalize`, `gm9`, and `luma`) to the root of your SD card, merging/replacing any existing folders if prompted
+    + If you are using a Mac, hold the Option key while dragging the folders to the root of your SD card, then click "Merge"
+1. Delete `boot.firm` and `boot.3dsx` from the root of the SD card
+1. Copy `boot.firm` and `boot.3dsx` from the latest Luma3DS `.zip` (the one you just downloaded) to the root of the SD card, replacing any existing files if prompted
+1. Reinsert your SD card into your console
+
+The screenshot below indicates the minimum SD card layout that is required to follow this page. 您可能在遵循其他頁面指示中會有一些多的資料夾及檔案在您的 SD 卡中。
+
+![]({{ "/images/screenshots/finalizing-root-layout.png" | absolute_url }})
+{: .notice--info}
 
 #### Section IV - RTC and DSP setup
 
@@ -126,10 +129,10 @@ Trying to figure out what to do with your newly modded device? Visit [our wiki](
 {% capture notice-6 %}
 以下是你該注意的快捷鍵：
 
-- 開機時，按住『Select』鍵將會進入 Luma3DS 的設定選單。
-- 開機時，按住『Start』鍵將會進入 GodMode9 選單；或者如果你的 `/luma/payloads/` 資料夾中有多個 Payload，則會進入 Luma3DS 加載選單。
-- 預設情況下，在 3DS 模式下按住 『L』鍵 +『下』鍵 +『Select』鍵，將會開啟 Rosalina 選單；在本選單中，你能檢視系統資訊、進行截圖、開啟作弊、及其他功能。 這可以從 Rosalina 選單更改。
-- Holding (Start) + (Select) + (X) on boot will make the notification LED show a color for debug purposes. See the [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4) for a list.
++ Holding (Select) on boot will launch the Luma3DS configuration menu.
++ Holding (Start) on boot will launch GodMode9, or if you have multiple payloads in `/luma/payloads/`, the Luma3DS chainloader.
++ By default, pressing (Left Shoulder) + (Down D-Pad) + (Select) while in 3DS mode will open the Rosalina menu, where you can check system information, take screenshots, enable cheats, and more. 這可以從 Rosalina 選單更改。
++ Holding (Start) + (Select) + (X) on boot will make the notification LED show a color for debug purposes. See the [changelog](https://github.com/SciresM/boot9strap/releases/tag/1.4) for a list.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

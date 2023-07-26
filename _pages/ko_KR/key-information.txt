@@ -58,7 +58,7 @@ title: "주요 내용"
 {% capture compat %}
 <summary><strong>Potential risks (Disclaimer)</strong></summary>
 
-기기를 수정함으로서, 여러분은 온라인 플레이로부터 차단되거나 벽돌이 되는 것(기기가 작동하지 않는 현상)에 대한 희박한, 하지만 0은 아닌 가능성을 염두에 두어야 합니다. __파일을 잘못 넣는다고 콘솔이 벽돌이 되지는 않지만__, 의도적으로 순서를 건너뛴다면 벽돌이 될 수도 있습니다. 비슷하게, 마지막 대량 밴은 5년 이상 전에 진행되었지만, 미래에 그런 일이 절대로 벌어지지 않는다고 단정지을 수 없습니다.
+콘솔을 수정함으로서, 여러분은 온라인 플레이로부터 차단되거나 벽돌이 되는 것(콘솔이 작동하지 않는 현상)에 대한 희박한, 하지만 0은 아닌 가능성을 염두에 두어야 합니다. __파일을 잘못 넣는다고 콘솔이 벽돌이 되지는 않지만__, 의도적으로 순서를 건너뛴다면 벽돌이 될 수도 있습니다. 비슷하게, 마지막 대량 밴은 5년 이상 전에 진행되었지만, 미래에 그런 일이 절대로 벌어지지 않는다고 단정지을 수 없습니다.
 
 요약하자면: 콘솔을 수정하는 것은 안전하지만, 뭔가 잘못되었다면 그것은 __여러분의 책임__입니다.
 
@@ -124,9 +124,9 @@ In this guide, you will copy files that are downloaded on your computer/phone to
 
 만약 이 가이드를 따라가다 문제가 발생했다면, 도움을 받을 수 있는 경로도 여러 가지입니다!
 
-- 만약 이 페이지에 없는 것에 대한 질문이 있다면, [설치 전 자주 묻는 질문](faq#설치-전-자주-묻는-질문)에서 찾을 수 있습니다.
-- 만약 이 가이드를 따라가다 문제를 겪게 되었다면, [문제 해결](troubleshooting) 페이지에서 해결 방법을 찾아볼 수 있습니다.
-- 제공해드리는 정보들이 딱히 도움이 되지 않는다면, [Discord의 Nintendo Homebrew](https://discord.gg/MWxPgEp)에서 (영어로) 1:1 지원을 요청할 수 있습니다.
++ If you have any questions that haven't been answered on this page, their answers might be in the [Pre-Installation FAQ](faq#pre-installation-faq).
++ If you experience an issue while following this guide, you can check the [Troubleshooting](troubleshooting) page for a solution.
++ If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 [시작하기](get-started)로 계속합니다
 {: .notice--primary}

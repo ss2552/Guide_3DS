@@ -17,13 +17,13 @@ title: "boot9strap 설치 (freakyhax)"
 
 ### 준비물
 
-+ EUR/USA/JPN 버전의 Freakyforms Deluxe (e숍 또는 카트리지)
-+ 최신 버전의 [freakyhax](https://github.com/plutooo/freakyhax/releases/latest)
+* EUR/USA/JPN 버전의 Freakyforms Deluxe (e숍 또는 카트리지)
+* 최신 버전의 [freakyhax](https://github.com/plutooo/freakyhax/releases/latest)
 * 최신 버전의 [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip) (직접 다운로드)
 * 최신 버전의 [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (직접 다운로드)
-+ 최신 버전의 [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (직접 다운로드)
+* 최신 버전의 [nimdsphax](https://github.com/luigoalma/nimdsphax/releases/download/v1.0/nimdsphax_v1.0.zip) (직접 다운로드)
 * 최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (`.zip` 파일)
-+ 최신 버전의 [HBL otherapp 파일들](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip) (직접 다운로드)
+* 최신 버전의 [HBL otherapp 파일들](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip) (직접 다운로드)
 
 ### 진행 방법
 
@@ -63,7 +63,7 @@ title: "boot9strap 설치 (freakyhax)"
 1. Freakyforms Deluxe를 실행해 주세요
 1. 게임 메뉴에서 `Play -> Camera -> Load a QR code`를 선택해 주세요
 1. QR 코드를 선택해 주세요
-1. Your console will have booted into the Homebrew Launcher
+1. 콘솔은 Homebrew Launcher로 부팅되었을 겁니다
 1. 홈브류 목록에서 nimdsphax를 실행해 주세요
 1. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
     + 만약 콘솔에 적색 화면이 표시되면, 전원 버튼을 길게 눌러 콘솔의 전원을 끄고, 이 섹션을 다시 시도해 주세요

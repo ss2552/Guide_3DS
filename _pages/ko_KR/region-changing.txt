@@ -13,7 +13,7 @@ Luma3DS가 지역 외 게임들과 [타이틀별 지역 에뮬레이션](https:/
 이 페이지에서는 이미 Luma3DS와 boot9strap이 설치되어 있는 것으로 가정합니다. 이 웹사이트를 끝까지 진행했다면 (마무리 단계), Luma3DS와 boot9strap이 설치되어 있는 것입니다.
 {: .notice--info}
 
-As a part of this process, your system settings will be reset to its defaults. 이것은 사용자 이름, 국가, 언어 등을 포함합니다. **Installed games and their save data will not be affected.**
+이 과정에서, 콘솔의 본체 설정이 초기화 될 겁니다. 이것은 사용자 이름, 국가, 언어 등을 포함합니다. **설치 되있는 게임 및 저장 데이터는 유지될 것이니, 걱정 안하셔도 됩니다.**
 {: .notice--warning}
 
 {% capture notice-6 %}
@@ -21,9 +21,9 @@ As a part of this process, your system settings will be reset to its defaults. �
 
 + (만약 있다면) Nintendo 네트워크 ID를 이용할 수 없게 됩니다. NNID들은 작성된 지역에서만 사용할 수 있습니다.
 + 이전에 [eShop 계정을 지우더라도 (영어)](https://en-americas-support.nintendo.com/app/answers/detail/a_id/74/~/how-to-delete-a-nintendo-eshop-account), eShop에 접속하지 못할 수 있습니다. 몇몇 타이틀들은, 계정 삭제 후도 3DS 링크를 유지하려는 경향이 있어서입니다 (특히 New 3DS에서).
-	+ e숍에서 더 이상 구매할 수 없지만 게임 업데이트는 계속 제공되기 때문에 여전히 관련이 있습니다. 업데이트들은 보통 온라인 플레이를 할 시 필요합니다.
-	+ 이 로직은 데이터 이사를 할 때에도 적용됩니다. 즉, USA 3DS로부터 JPN에서 USA로 지역 변경한 3DS로의 데이터 이사는 불가합니다.
-	+ 따라서, 데이터 이사와 게임 업데이트는 여전히 지역 제한이 걸려 있습니다 (예: 일본 eShop에서는 일본 게임 업데이트만 가능합니다).
+    + e숍에서 더 이상 구매할 수 없지만 게임 업데이트는 계속 제공되기 때문에 여전히 관련이 있습니다. 업데이트들은 보통 온라인 플레이를 할 시 필요합니다.
+    + 이 로직은 데이터 이사를 할 때에도 적용됩니다. 즉, USA 3DS로부터 JPN에서 USA로 지역 변경한 3DS로의 데이터 이사는 불가합니다.
+    + 따라서, 데이터 이사와 게임 업데이트는 여전히 지역 제한이 걸려 있습니다 (예: 일본 eShop에서는 일본 게임 업데이트만 가능합니다).
 + **콘솔을 벽돌로 하는 것을 감수하지 않고선 커스텀 펌웨어를 지울 수 없습니다!** 만약 미래에 커스텀 펌웨어를 지우려고 생각한다면, **반드시** 지역 변경을 하기 전의 NAND 백업을 복원하고 나서 해야 합니다.
 {% endcapture %}
 
@@ -37,7 +37,7 @@ As a part of this process, your system settings will be reset to its defaults. �
 
 * 최신 버전의 [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (`.zip` 파일)
 * 최신 버전의 [FBI](https://github.com/Steveice10/FBI/releases/latest) *(`.3dsx` 파일)*
-* The latest release of [faketik](https://github.com/ihaveamac/faketik/releases/latest) *(the `.3dsx` file)*
+* 최신 버전의 [faketik](https://github.com/ihaveamac/faketik/releases/latest) *(`.3dsx` 파일)*
 * 변경하고 싶은 지역의 종류에 맞는 11.15.0 CTRTransfer 이미지 (예: New 3DS를 가지고 있고 지역을 미국으로 변경하려면 "New 3DS or 3DS - USA"를 다운로드)
 {% include_relative include/ctrtransfer-images.txt %}
 
