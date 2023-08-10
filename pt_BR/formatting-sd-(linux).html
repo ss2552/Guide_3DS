@@ -486,6 +486,7 @@ window.cookieconsent.initialise({
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#leitura-obrigatória" id="markdown-toc-leitura-obrigatória">Leitura Obrigatória</a></li>
   <li><a href="#instruções" id="markdown-toc-instruções">Instruções</a></li>
+  <li><a href="#troubleshooting" id="markdown-toc-troubleshooting">Troubleshooting</a></li>
 </ul>
 
   </nav>
@@ -520,24 +521,34 @@ mmcblk0     179:0    0   3,8G  0 disk
   <li>Pressione CRTL + C para sair do do menu</li>
   <li>Digite o seguinte para o seu cartão SD:
     <ul>
-      <li>2GB or lower: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 64 -F 16</code>
+      <li>2GB ou inferior: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(nome do dispositivo acima) -s 64 -F 16</code>
         <ul>
-          <li>This creates a single FAT16 partition with 32 KB cluster size on the SD card</li>
+          <li>Isso cria uma única partição FAT16 com 32 KB de cluster no cartão SD</li>
         </ul>
       </li>
-      <li>4GB - 128GB: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 64 -F 32</code>
+      <li>4GB - 128GB: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(nome do dispositivo acima) -s 64 -F 32</code>
         <ul>
-          <li>This creates a single FAT32 partition with 32 KB cluster size on the SD card</li>
+          <li>Isso cria uma única partição FAT32 com 32 KB de cluster no cartão SD</li>
         </ul>
       </li>
-      <li>128GB or higher: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(device name from above) -s 128 -F 32</code>
+      <li>128GB ou superior: <code class="language-plaintext highlighter-rouge">sudo mkfs.fat /dev/(nome do dispositivo acima) -s 128 -F 32</code>
         <ul>
-          <li>This creates a single FAT32 partition with 64 KB cluster size on the SD card</li>
+          <li>Isso cria uma única partição FAT32 com 64 KB de cluster no cartão SD</li>
         </ul>
       </li>
     </ul>
   </li>
 </ol>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<ul>
+  <li>SD card remains undetected by console or continues to display the wrong capacity after formatting
+    <ul>
+      <li>Your SD card may be partitioned or have unallocated space. Follow the instructions <a href="https://wiki.hacks.guide/wiki/SD_Clean/Linux">here</a> to reformat your SD card.</li>
+    </ul>
+  </li>
+</ul>
 
         
       </section>

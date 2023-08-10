@@ -488,7 +488,7 @@ window.cookieconsent.initialise({
   <li><a href="#o-que-é-necessário" id="markdown-toc-o-que-é-necessário">O que é necessário</a></li>
   <li><a href="#instruções-32gb-ou-menor" id="markdown-toc-instruções-32gb-ou-menor">Instruções (32GB ou menor)</a></li>
   <li><a href="#instruções-64gb-ou-maior" id="markdown-toc-instruções-64gb-ou-maior">Instruções (64GB ou maior)</a></li>
-  <li><a href="#erros-comuns-usando-o-guiformat" id="markdown-toc-erros-comuns-usando-o-guiformat">Erros comuns usando o guiformat</a></li>
+  <li><a href="#troubleshooting" id="markdown-toc-troubleshooting">Troubleshooting</a></li>
 </ul>
 
   </nav>
@@ -545,7 +545,7 @@ window.cookieconsent.initialise({
   <li>Selecione um tamanho para “Allocation unit size”
     <ul>
       <li>Se o cartão SD for 64GB, escolha 32768</li>
-      <li>If the SD card is larger than 64GB, choose 65536</li>
+      <li>Se o cartão SD for maior que 64GB, escolha 65536</li>
     </ul>
   </li>
   <li>Digite qualquer coisa para “Volume label”</li>
@@ -557,17 +557,22 @@ window.cookieconsent.initialise({
   <li>Se o cartão SD tinha quaisquer arquivos ou pastas nele, copie tudo de volta para o SD do seu computador</li>
 </ol>
 
-<h3 id="erros-comuns-usando-o-guiformat">Erros comuns usando o guiformat</h3>
+<h3 id="troubleshooting">Troubleshooting</h3>
 
 <ul>
-  <li>Failed to open device: GetLastError()=32
+  <li>guiformat shows the error “Failed to open device: GetLastError()=32”
     <ul>
       <li>Feche tudo que estiver utilizando o cartão SD, como qualquer janela do Explorador de Arquivos.</li>
     </ul>
   </li>
-  <li>GetLastError()=1117
+  <li>guiformat shows the error “GetLastError()=1117”
     <ul>
       <li>A chave de proteção no cartão SD pode estar <a href="/images/sdlock.png">ligada</a>. A chave deve ser virada para cima para permitir a manipulação de arquivos no cartão SD (incluindo formatação).</li>
+    </ul>
+  </li>
+  <li>SD card remains undetected by console or continues to display the wrong capacity after formatting
+    <ul>
+      <li>Your SD card may be partitioned or have unallocated space. Follow the instructions <a href="https://wiki.hacks.guide/wiki/SD_Clean/Windows">here</a> to reformat your SD card.</li>
     </ul>
   </li>
 </ul>

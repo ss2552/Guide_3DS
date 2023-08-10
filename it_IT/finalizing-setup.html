@@ -489,8 +489,8 @@ window.cookieconsent.initialise({
   <li><a href="#cosa-serve" id="markdown-toc-cosa-serve">Cosa serve</a></li>
   <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>    <ul>
       <li><a href="#sezione-i---controllo-del-cfw" id="markdown-toc-sezione-i---controllo-del-cfw">Sezione I - Controllo del CFW</a></li>
-      <li><a href="#section-ii---updating-the-system" id="markdown-toc-section-ii---updating-the-system">Section II - Updating the System</a></li>
-      <li><a href="#section-iii---prep-work" id="markdown-toc-section-iii---prep-work">Section III - Prep Work</a></li>
+      <li><a href="#sezione-ii---aggiornare-il-sistema" id="markdown-toc-sezione-ii---aggiornare-il-sistema">Sezione II - Aggiornare il Sistema</a></li>
+      <li><a href="#sezione-iii---preparazione" id="markdown-toc-sezione-iii---preparazione">Sezione III - Preparazione</a></li>
       <li><a href="#sezione-iv---installazione-di-rtc-e-dsp" id="markdown-toc-sezione-iv---installazione-di-rtc-e-dsp">Sezione IV - Installazione di RTC e DSP</a></li>
       <li><a href="#sezione-v---installazione-dello-script" id="markdown-toc-sezione-v---installazione-dello-script">Sezione V - Installazione dello Script</a></li>
     </ul>
@@ -533,7 +533,7 @@ window.cookieconsent.initialise({
 
 <ul>
   <li><a href="/assets/finalizing.zip">finalizing.zip</a> (download diretto)</li>
-  <li>The latest release of <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a></li>
+  <li>L’ultima versione di <a href="https://github.com/LumaTeam/Luma3DS/releases/latest">Luma3DS</a></li>
 </ul>
 
 <h3 id="istruzioni">Istruzioni</h3>
@@ -553,7 +553,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--danger">Se NON viene avviato il menu di configurazione di Luma3DS, il custom firmware non è stato installato sulla tua console. Entra nel <a href="https://discord.gg/MWxPgEp">canale Discord di Nintendo Homebrew</a> e chiedi aiuto in inglese.</p>
 
-<h4 id="section-ii---updating-the-system">Section II - Updating the System</h4>
+<h4 id="sezione-ii---aggiornare-il-sistema">Sezione II - Aggiornare il Sistema</h4>
 
 <p>In questa sezione, aggiornerai il tuo sistema all’ultima versione, tranquillamente fattibile con il custom firmware.</p>
 
@@ -568,7 +568,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="section-iii---prep-work">Section III - Prep Work</h4>
+<h4 id="sezione-iii---preparazione">Sezione III - Preparazione</h4>
 
 <p>In questa sezione, copierai i file necessari per seguire le rimanenti istruzioni in questa pagina.</p>
 
@@ -580,8 +580,8 @@ window.cookieconsent.initialise({
       <li>Se stai usando un Mac, tieni premuto il tasto Opzione durante il trascinamento delle cartelle nella directory principale della scheda SD, quindi fai clic su “Unisci”</li>
     </ul>
   </li>
-  <li>Delete <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the root of the SD card</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">boot.firm</code> and <code class="language-plaintext highlighter-rouge">boot.3dsx</code> from the latest Luma3DS <code class="language-plaintext highlighter-rouge">.zip</code> (the one you just downloaded) to the root of the SD card, replacing any existing files if prompted</li>
+  <li>Cancella i file <code class="language-plaintext highlighter-rouge">boot.firm</code> e <code class="language-plaintext highlighter-rouge">boot.3dsx</code> dalla directory principale della scheda SD</li>
+  <li>Copia i file <code class="language-plaintext highlighter-rouge">boot.firm</code> e <code class="language-plaintext highlighter-rouge">boot.3dsx</code> dall’archvio <code class="language-plaintext highlighter-rouge">.zip</code> del più recente Luma3DS (quello che hai appena scaricato) nella directory principale della scheda SD, sostituendo qualsiasi file esistente se richiesto</li>
   <li>Reinserisci la scheda SD nella tua console</li>
 </ol>
 
@@ -661,10 +661,10 @@ window.cookieconsent.initialise({
 <p>Ecco alcune combinazioni di tasti che dovresti conoscere:</p>
 
 <ul>
-  <li>Holding (Select) on boot will launch the Luma3DS configuration menu.</li>
-  <li>Holding (Start) on boot will launch GodMode9, or if you have multiple payloads in <code class="language-plaintext highlighter-rouge">/luma/payloads/</code>, the Luma3DS chainloader.</li>
-  <li>By default, pressing (Left Shoulder) + (Down D-Pad) + (Select) while in 3DS mode will open the Rosalina menu, where you can check system information, take screenshots, enable cheats, and more. Si può modificare da Rosalina stesso.</li>
-  <li>Holding (Start) + (Select) + (X) on boot will make the notification LED show a color for debug purposes. Consulta la lista nel <a href="https://github.com/SciresM/boot9strap/releases/tag/1.4">changelog</a>.</li>
+  <li>Tenere premuto (Select) all’accensione della console avvierà il menu di configurazione di Luma3DS.</li>
+  <li>Tenere premuto (Start) all’accensione avvierà GodMode9 o, se hai più payload in <code class="language-plaintext highlighter-rouge">/luma/payloads/</code>, il chainloader Luma3DS.</li>
+  <li>Per impostazione predefinita, premere (L) + (Giù) + (Select) in modalità 3DS aprirà il menu di Rosalina, dove è possibile controllare le informazioni di sistema, catturare screenshot, abilitare i trucchi e altro ancora. Si può modificare da Rosalina stesso.</li>
+  <li>Tenendo premuto (Start) + (Select) + (X) all’avvio, il LED di notifica mostrerà un colore a scopo di debug. Consulta la lista nel <a href="https://github.com/SciresM/boot9strap/releases/tag/1.4">changelog</a>.</li>
 </ul>
 </div>
 
