@@ -28,6 +28,8 @@ F3XSwift는 macOS 10.13 (High Sierra)와 이상만 호환됩니다. 이하의 ma
 1. "Open"을 눌러 SD 카드의 쓰기를 확인해 주세요
 1. 완료될 때까지 기다려 주세요
 
+___
+
 시험 결과가 `Success! Your card is ok!`이면 SD 카드는 정상이며 SD 카드의 모든 `.h2w` 파일을 삭제해도 됩니다.
 {: .notice--success}
 

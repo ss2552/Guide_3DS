@@ -34,8 +34,8 @@ While the ntrboot exploit works independently of the system version, the ntrboot
 | **R4iSDHC RTS LITE 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 | **R4iSDHC Dual-Core 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 
-  ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
-  {: .notice--info}
+![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
+{: .notice--info}
 
 Ensure your flashcart is able to launch `.nds` files on your console before beginning. Для работы некоторых картриджей на их SD-карту сперва нужно скопировать прошивку или "ядро" (kernel). Обратитесь к инструкции по конкретному флешкатриджу для получения дополнительной информации.
 
@@ -48,7 +48,7 @@ To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons whi
 
 Обратите внимание, что флешкартридж не сможет использоваться для своих стандартных функций, пока на нем установлен эксплойт ntrboot (кроме Acekard 2i, который сохраняет функционал, *но только на NDS или на прошитых консолях 3DS*). This means that, for most flashcarts, it will not even display on the HOME Menu. В конце инструкций по прошивке ntrboot есть дополнительные шаги, чтобы по окончанию удалить его с флешкартриджа.
 
-Обратите внимание, что в некоторых редких случаях процесс прошивки может **брикнуть** поддельный флешкартридж и навсегда сделать его нерабочим. This is unlikely, but nevertheless, only original listed flashcarts are supported. Чтобы уменьшить вероятность получения поддельного картриджа, рекомендуется использовать проверенный сайт для покупки флешкартриджа (например [NDS Card](http://www.nds-card.com/))
+Обратите внимание, что в некоторых редких случаях процесс прошивки может **брикнуть** поддельный флешкартридж и навсегда сделать его нерабочим. This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
 {: .notice--danger}
 
 ___

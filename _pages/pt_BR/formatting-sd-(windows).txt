@@ -49,7 +49,7 @@ Esta página é destinada apenas a usuários do Windows. Caso você não esteja 
 
 1. Selecione um tamanho para "Allocation unit size"
     + Se o cartão SD for 64GB, escolha 32768
-    + If the SD card is larger than 64GB, choose 65536
+    + Se o cartão SD for maior que 64GB, escolha 65536
 1. Digite qualquer coisa para "Volume label"
 1. Certifique-se de que "Quick Format" está selecionado
 1. Clique em "Start"
@@ -58,10 +58,13 @@ Esta página é destinada apenas a usuários do Windows. Caso você não esteja 
 1. Clique em "Close"
 1. Se o cartão SD tinha quaisquer arquivos ou pastas nele, copie tudo de volta para o SD do seu computador
 
-### Erros comuns usando o guiformat
+### Troubleshooting
 
-* Failed to open device: GetLastError()=32
+* guiformat shows the error "Failed to open device: GetLastError()=32"
     + Feche tudo que estiver utilizando o cartão SD, como qualquer janela do Explorador de Arquivos.
 
-* GetLastError()=1117
+* guiformat shows the error "GetLastError()=1117"
     + A chave de proteção no cartão SD pode estar [ligada](/images/sdlock.png). A chave deve ser virada para cima para permitir a manipulação de arquivos no cartão SD (incluindo formatação).
+
+* SD card remains undetected by console or continues to display the wrong capacity after formatting
+    + Your SD card may be partitioned or have unallocated space. Follow the instructions [here](https://wiki.hacks.guide/wiki/SD_Clean/Windows) to reformat your SD card.

@@ -58,10 +58,13 @@ Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy,
 1. Kattints a "Close"-ra
 1. Ha az SD kártya tartalmazott adatot a formázás előtt, akkor azokat most másold vissza a számítógépről
 
-### Gyakori hibák a guiformat használata során
+### Hibaelhárítás
 
-* Failed to open device: GetLastError()=32
+* guiformat shows the error "Failed to open device: GetLastError()=32"
     + Csukj le mindent, ami esetleg használhatja az SD kártyát, mint például bármelyik Fájlkezelő ablak.
 
-* GetLastError()=1117
+* guiformat shows the error "GetLastError()=1117"
     + Az SD kártyád írás védelmi kapcsolója lehet, hogy [be van állítva](/images/sdlock.png). A zárat felfelé kell tolni, hogy engedélyezd az írást az SD kártyára (beleértve a formázást is).
+
+* SD kártya továbbra sem detektálható a konzol által, vagy a formázás után továbbra is a rossz kapacitást mutatja
+    + Az SD kártyád lehet, hogy partícionált vagy van nem lefoglalt területe. Kövesd a lépéseket [itt](https://wiki.hacks.guide/wiki/SD_Clean/Windows) az SD kártyád újraformázásához.

@@ -34,8 +34,8 @@ While the ntrboot exploit works independently of the system version, the ntrboot
 | **R4iSDHC RTS LITE 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 | **R4iSDHC Dual-Core 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 
-  ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
-  {: .notice--info}
+![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
+{: .notice--info}
 
 Ensure your flashcart is able to launch `.nds` files on your console before beginning. フラッシュカードによっては、ファームウェアまたはカーネルファイルをフラッシュカードのSDカードにコピーする必要がある場合があります。 詳細については、特定のフラッシュカートの手順を参照してください。
 
@@ -48,7 +48,7 @@ To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons whi
 
 ntrbootエクスプロイトがインストールされている間は、フラッシュカードは標準機能では使用できないことに注意してください(Acekard 2iの場合を除く)。 NDSとカスタムファームウェア3DSシステムのみ*で機能し続けます。 This means that, for most flashcarts, it will not even display on the HOME Menu. 完了したら、ntrbootのインストール手順の最後にオプションの手順を実行して、フラッシュカードから削除する手順があります。
 
-稀ですが、フェイクのフラッシュカードを**文鎮化**する可能性があります。 This is unlikely, but nevertheless, only original listed flashcarts are supported. 偽造されたカードを受け取る可能性を減らすためには、評判のいいサイトを利用することをおすすめします。(例えば[NDS Card](http://www.nds-card.com/)など)
+稀ですが、フェイクのフラッシュカードを**文鎮化**する可能性があります。 This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
 {: .notice--danger}
 
 ___

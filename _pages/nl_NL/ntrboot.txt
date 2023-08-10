@@ -34,8 +34,8 @@ Sommige flashkaarten met een "Time Bomb" zullen niet meer `.nds` bestanden start
 | **R4iSDHC RTS LITE 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 | **R4iSDHC Dual-Core 20XX** (r4isdhc.com) | | 4.0b: September 3, 2024 | ALL | ALL | Only r4isdhc **.com** carts marked with a year of 2014 or later are compatible. |
 
-  ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
-  {: .notice--info}
+![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
+{: .notice--info}
 
 Ensure your flashcart is able to launch `.nds` files on your console before beginning. Sommige flashkaarten hebben misschien firmware of "kernel" bestanden nondig op de SD kaart. Controlleer uw specefieke flashkaart's instructies voor meer informatie.
 
@@ -48,7 +48,7 @@ To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons whi
 
 Onthoud dat de flashkaart niet meer zijn normale functies kan gebruiken terwijl ntrboot er op geinstalleerd is (behalve voor de Acekard 2i, die werkt nog normaal *alleen op NDS mode en custom firmware 3DS systemen*). Dit betekent dat voor de meeste flashkaarten het niet eens zal worden weergegeven in het HOME-menu. Op het einde van de intructies van ntrboot flashen, zijn er instructies hoe je ntrboot van je flashkaart kan verwijderen.
 
-Merk op dat je namaak flashkaarten in zeldzame gevallen kan **bricken** tijdens het flashproces en hem dus onbruikbaar maakt. Dat is onwaarschijnlijk, maar toch worden alleen originele opgesomde flashkaarten ondersteund. Om de kans op namaak flashkaarten te verminderen, is het aangeraden om de kaarten te kopen van sites met een goede naam (zoals [NDS Card](http://www.nds-card.com/))
+Merk op dat je namaak flashkaarten in zeldzame gevallen kan **bricken** tijdens het flashproces en hem dus onbruikbaar maakt. Dat is onwaarschijnlijk, maar toch worden alleen originele opgesomde flashkaarten ondersteund. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
 {: .notice--danger}
 
 ___

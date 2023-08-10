@@ -10,15 +10,15 @@ Antes de prosseguir, certifique-se de que você leu todas as informações em [n
 
 Este método requer acesso temporário a um segundo console da família 3DS que já está executando boot9strap. Isso não requer que seu flashcart suporte nenhuma das versões de ambos 3DS.
 
-Note que em algumas raras circunstâncias, pode ser possível que o processo de instalação cause um **brick** em um flashcart falso e torne-o permanentemente inutilizável. Isso é pouco provável, mas, no entanto, apenas os flashcarts originais listados são suportados. Para reduzir as chances de receber um flashcart falso, é recomendado que você use um site com uma boa reputação para comprar o seu flashcart (como o [NDS Card](http://www.nds-card.net/))
+Note que em algumas raras circunstâncias, pode ser possível que o processo de instalação cause um **brick** em um flashcart falso e torne-o permanentemente inutilizável. Isso é pouco provável, mas, no entanto, apenas os flashcarts originais listados são suportados. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
 {: .notice--danger}
 
 ### O que você precisa
 
 * Seu flashcart compatível com ntrboot
 * Dois consoles da família 3DS
-    * **The source 3DS**: the 3DS family console that is already running boot9strap
-    * **The target 3DS**: the 3DS family console on stock firmware
+    * **3DS de origem**: o console da linha 3DS que já está executando boot9strap
+    * **3DS de destino**: o console da linha 3DS com o firmware padrão
 * A versão v1.3 do [boot9strap-ntr](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) (download direto)
 * A versão mais recente do [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 

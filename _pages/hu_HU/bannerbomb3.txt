@@ -27,7 +27,7 @@ Ha tajvani konzolod van (amit T betű jelez a rendszer verzió mögött), akkor 
 ### Amire szükséged lesz
 
 * A `movable.sed` fájlodra a Seedminer befejezéséből
-* A [BannerBomb3](https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip) legfrissebb verziója (közvetlen letöltés)
+* A [BannerBomb3](https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip) legfrissebb verziója (`Release_v3.0.zip`, közvetlen letöltés)
 
 #### I. rész - Előkészületek
 

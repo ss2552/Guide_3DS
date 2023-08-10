@@ -27,7 +27,7 @@ Se hai una console taiwanese (indicata da una T dopo la versione di sistema), se
 ### Cosa serve
 
 * Il tuo file `movable.sed` dalla sezione Seedminer
-* L'ultima versione di [BannerBomb3](https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip) (download diretto)
+* The latest release of [BannerBomb3](https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip) (`Release_v3.0.zip`, direct download)
 
 #### Sezione I - Preparazione
 
@@ -39,7 +39,7 @@ In questa sezione, copierai i file necessari per attivare l'exploit BannerBomb3 
 1. Carica il tuo file movable.sed scegliendo l'opzione “Choose File”
 1. Seleziona “Build and Download”
     + Verrà scaricato un exploit DSiWare chiamato `F00D43D5.bin`, all'interno di un archivio zip (`BannerBomb3.zip`)
-1. Copia il file `bb3.bin` dall'archivio `DSIWARE_EXPLOIT.zip` nella directory principale della scheda SD
+1. Copia il file `bb3.bin` dall'archivio `Release_v3.0.zip` nella directory principale della scheda SD
     + La directory principale della scheda SD è la cartella della tua scheda SD in cui è possibile visualizzare la cartella Nintendo 3DS, ma non il suo interno
     + Questo file non ha bisogno di essere aperto o estratto
     ![]({{ "/images/screenshots/bb3/bb3-root-layout.png" | absolute_url }}){: .notice--info}
