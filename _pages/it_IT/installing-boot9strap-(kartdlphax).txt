@@ -7,7 +7,7 @@ title: "Installazione di boot9strap (kartdlphax)"
 {% capture technical_info %}
 <summary><em>Dettagli Tecnici (opzionale)</em></summary>
 
-Per installare un custom firmware sulla nostra console, abbiamo bisogno di ottenere l'accesso a Homebrew Launcher.
+Per installare un custom firmware sulla nostra console, abbiamo bisogno di ottenere l'accesso all'Homebrew Launcher.
 
 Per farlo possiamo utilizzare la funzionalità "Modalità download" del gioco Mario Kart 7, utilizzando un 3DS con custom firmware già installato insieme a un plugin di gioco personalizzato.
 
