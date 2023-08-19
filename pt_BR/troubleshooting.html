@@ -921,13 +921,6 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>Warning #01: No Nintendo 3DS folder</u></summary>
-
-<p>Seu cartão SD não tem a pasta <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code>. Ligue seu dispositivo com o cartão SD inserido, em seguida, aguarde o dispositivo mostrar uma caixa de mensagem que diz “Criando informações de gerenciamento do Menu HOME”. Quando a caixa de mensagem desaparecer, desligue seu dispositivo e tente novamente.</p>
-
-</details>
-
-<details>
 <summary><u>Error #02: Missing essential.exefs</u></summary>
 
 <p>Você disse ‘No’ para a mensagem “Make essential files backup?” no GodMode9. Desligue seu dispositivo, ligue-o enquanto segura (Start) para entrar novamente no GodMode9, diga ‘Yes’ para a mensagem, e então tente novamente.</p>
@@ -984,7 +977,11 @@ window.cookieconsent.initialise({
   <li>Pressione o botão (Home)</li>
   <li>Selecione “Scripts…”</li>
   <li>Selecione “finalize”</li>
-  <li>Continue o script normalmente</li>
+  <li>Continue o script normalmente
+    <ul>
+      <li>The NAND backup will be automatically skipped</li>
+    </ul>
+  </li>
 </ol>
 
 </details>
@@ -992,7 +989,7 @@ window.cookieconsent.initialise({
 <details>
 <summary><u>Information #05: No title database</u></summary>
 
-<p>Aperte (A) para criar um title database, desbloqueie SysNAND writing pressionando nos botões na tela, siga as instruções <a href="/images/screenshots/database-reset.jpg">aqui</a>, e então execute novamente o script.</p>
+<p>Press (A) to import a title database, unlock SysNAND writing by entering the buttons on-screen, then continue the script as normal.</p>
 
 </details>
 
@@ -1018,13 +1015,6 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>Error #08: Dummy title database</u></summary>
-
-<p>Você não excluiu o arquivo de title database falso que foi criado por Error #05. Siga as instruções <a href="/images/screenshots/database-reset.jpg">aqui</a>, e então execute novamente o script.</p>
-
-</details>
-
-<details>
 <summary><u>Error #09: Unsupported GodMode9 version</u></summary>
 
 <p>Você está de alguma forma executando uma versão do GodMode9 não empacotada com o script. Certifique-se de que você copiou o conteúdo do <code class="language-plaintext highlighter-rouge">finalize.zip</code> para a raiz do seu cartão SD e que você está segurando START enquanto liga seu console.</p>
@@ -1032,9 +1022,42 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>Information #11: NAND backup flag detected</u></summary>
+<summary><u>Error #11: Missing donor database</u></summary>
 
-<p>Você provavelmente já fez um backup da NAND neste console. Se você não fez um backup ou perdeu o acesso ao seu backup, selecione “1. Make Another NAND Backup”. Caso contrário, selecione “2. Skip NAND Backup”.</p>
+<p>Você não copiou tudo do <code class="language-plaintext highlighter-rouge">finalize.zip</code> para a raiz do seu cartão SD. Lembre-se, seu cartão SD deve ter pelo menos estes arquivos:</p>
+
+<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
+
+</details>
+
+<details>
+<summary><u>Error #12: Copy (file).db fail</u></summary>
+
+<p>Ensure that your SD card is not <a href="/images/sdlock.png">locked</a>. If the SD card is not locked and you continue to get this error, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+
+</details>
+
+<details>
+<summary><u>Information #17: Duplicate NAND backup</u></summary>
+
+<p>The script has detected that the Nintendo 3DS folder is missing AND that you have already made a NAND backup before. If you intend to install homebrew applications, you should do the following:</p>
+
+<ol>
+  <li>Press (B) to cancel making another NAND backup</li>
+  <li>Press (Right Shoulder) + (Start) to power off your device</li>
+  <li>Copy the contents of <code class="language-plaintext highlighter-rouge">/gm9/backups/</code> to a safe location on your computer</li>
+  <li>Delete <code class="language-plaintext highlighter-rouge">/gm9/backups/</code> from your SD card</li>
+  <li>If you moved your Nintendo 3DS folder off of your SD card to get to this point, copy it back to your SD card
+    <ul>
+      <li>If you do not have a Nintendo 3DS folder, boot into the HOME Menu at least once with the SD card inserted to automatically generate it</li>
+    </ul>
+  </li>
+  <li>Aperte e segure (Start), e enquanto segura (Start), ligue seu console. Isso vai inicializar o GodMode9</li>
+  <li>Aperte (Home) para abrir o menu de ações</li>
+  <li>Select “Scripts…”</li>
+  <li>Select “finalize”</li>
+  <li>Siga as instruções no script, respondendo a quaisquer perguntas que lhe sejam feitas</li>
+</ol>
 
 </details>
 
