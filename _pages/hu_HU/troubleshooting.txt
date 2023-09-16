@@ -418,7 +418,7 @@ Ha a probléma továbbra is fennáll:
 {% capture compat %}
 <summary><u>"An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)</u></summary>
 
-A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Make sure to copy the files of the [latest version of super-skaterhax](https://github.com/zoogie/super-skaterhax/releases/latest) for your region and version to the root of your SD card (not inside of a folder).
+A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Biztosítsd, hogy [super-skaterhax legfrissebb verziójából](https://github.com/zoogie/super-skaterhax/releases/latest) régiódhoz és verziódhoz tartozó fájlokat az SD kártya gyökerébe másold (nem egy mappán belülre).
 
 ![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
 {: .notice--info}
@@ -582,7 +582,7 @@ The script has detected that the Nintendo 3DS folder is missing AND that you hav
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 1. Válaszd a "Scripts..." opciót
 1. Válaszd az "finalize" opciót
-1. Follow the prompts in the script, answering any questions that you are asked 
+1. Kövesd a script utasításait és válaszolj meg minden kérdést 
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
