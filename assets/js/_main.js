@@ -144,8 +144,7 @@ $(document).ready(function() {
     }
   });
 
-  // Custom sidebar, guide-specific
-
+/* hacks-guide change start: add configs for navigation bar and language selector */
   if((window.location.href.indexOf("/he_IL/") > -1) || (window.location.href.indexOf("/ar_SA/") > -1)) {
     $("body").css("direction", "rtl");
 
@@ -177,7 +176,9 @@ $(document).ready(function() {
     $('nav.greedy-nav').prepend('<style>.hidden-links:after{right:inherit !important;}</style>');
     $('nav.greedy-nav').prepend('<style>.hidden-links:after{left:5px !important;}</style>');
   }
+/* hacks-guide change end */
 
+/* hacks-guide change start: add progress table */
   var sidebar_shown = true;
   var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "dumping-titles-and-game-cartridges",
                               "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)",
@@ -335,4 +336,5 @@ $(document).ready(function() {
       }
     }
   }
+/* hacks-guide change end */
 });
