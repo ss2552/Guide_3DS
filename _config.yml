@@ -183,6 +183,7 @@ exclude: [
   README,
   tmp,
   rss.py,
+  clean_translations.py,
   crowdin.yaml,
   staticman.yml,
   torrents,
