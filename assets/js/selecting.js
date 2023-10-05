@@ -213,6 +213,7 @@ function can_seedminer(major, minor, native, region, model) {
     return false;
 }
 
+// Huzzah, MSET9 for O3DS!
 function is_o3ds_1117(major, minor, native, region, model) {
     let do_redirect = false;
     if (model == 0) {
@@ -222,7 +223,7 @@ function is_o3ds_1117(major, minor, native, region, model) {
         }
     }
     if (do_redirect) {
-        window.location.href = "alternate-exploits"
+        window.location.href = "installing-boot9strap-(mset9)"
         return true;
     }
     return false;
@@ -251,7 +252,7 @@ function is_o3ds_1117(major, minor, native, region, model) {
     - N3DS & 11.17 (EUR / JPN / USA):
         - super-skaterhax
     - O3DS & 11.17:
-        - Use alternate exploits; can't hack without any extra stuff
+        - MSET9
 */
 function redirect() {
     const major = document.getElementById("major").value;
