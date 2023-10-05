@@ -611,12 +611,17 @@ window.cookieconsent.initialise({
 
 
   <script>
-  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-  ga('create','UA-86465881-1','auto');
-  ga('set', 'anonymizeIp', false);
-  ga('send','pageview')
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '397069354']);
+  
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 
 
 
