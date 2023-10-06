@@ -14,7 +14,7 @@ title: "Installing boot9strap (MSET9)"
 
 ### Compatibility Notes
 
-This method currently only works on Old3DS-family consoles (3DS, 3DS XL, 2DS) on firmwares between (and including) 11.8.0 and 11.17.0.
+The instructions as written only work on Old3DS-family consoles (3DS, 3DS XL, 2DS) on firmwares between (and including) 11.8.0 and 11.17.0.
 {: .notice--warning}
 
 This method requires a computer running Windows or Linux. macOS is NOT supported, nor are phones or tablets. If you do not have access to Windows or Linux, you will need to use an [alternate exploit](alternate-exploits).
@@ -37,7 +37,7 @@ This method requires a computer running Windows or Linux. macOS is NOT supported
     + If you just reach the normal Mii Maker screen, exit Mii Maker and continue to the next step
 1. Power off your console
 1. Insert your SD card into your computer
-1. Copy everything inside the `SDMC` folder from the Release `.zip` to the root of your SD card, overwriting any existing files
+1. Copy everything from the Release `.zip` to the root of your SD card, overwriting any existing files
 
     ![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout.png)
     {: .notice--info}
