@@ -203,17 +203,14 @@ function can_mset9(major, minor, native, region, model) {
     let do_redirect_sysupdate = false;
     let do_redirect = false;
 
-    // The guide currently doesn't support N3DS for this exploit
-    if (model != DEVICE_O3DS) return false;
-
     // Exploit supports 11.4 or later
     // Update consoles that aren't there yet
-    if(!(major == 11 && minor >= 4)) {
+    if(model == DEVICE_O3DS && !(major == 11 && minor >= 4)) {
         do_redirect_sysupdate = true;
     }
     else do_redirect = true;
 
-    if (do_redirect_sysupdate) {
+    if (do_redirect_sysupdate && model == DEVICE_O3DS) {
         window.location.href = "updating-firmware-(old-3ds)";
         return true;
     }
