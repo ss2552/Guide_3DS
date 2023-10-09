@@ -478,6 +478,7 @@ This can happen when Option 1 stopped because of an error and there is an incomp
         +If this doesn't work: hold SHIFT and right-click anywhere in the SD card window, then click the option that opens Terminal, PowerShell, or Command Prompt, then type `py -3 mset9.py` and press Enter
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
     + You should see a window that says "MSET9 ... SETUP by zoogie"
+1. Type the number corresponding to your console model and version, then press Enter
 1. Type `4`, then press Enter to remove MSET9
 1. Return to the [beginning of Section I](installing-boot9strap-(mset9)#section-i---prep-work)
 
@@ -487,7 +488,7 @@ This can happen when Option 1 stopped because of an error and there is an incomp
 {% capture compat %}
 <summary><u>Red screen after reinserting SD card (Section II Step 11)</u></summary>
 
-You may be missing `SafeB9S.bin` from the root of your SD card, or the file may be corrupted. Copy it from the `SDMC` folder in the MSET9 `.zip` replacing any existing files.
+You may be missing `SafeB9S.bin` from the root of your SD card, or the file may be corrupted. Copy it from the `SDMC` folder in the MSET9 `.zip`, replacing any existing files.
 
 Alternatively, your SD card may be improperly formatted or partitioned. Try reformatting your SD card: [Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)) *(this will wipe your SD card data)*
 
@@ -513,7 +514,7 @@ You have multiple ID0 folders. To determine the correct folder, follow these ins
 1. Move the true ID0 folder from the `BACKUP_Nintendo 3DS` folder to the `Nintendo 3DS` folder
 1. If it exists, move the `Private` folder from the `BACKUP_Nintendo 3DS` folder to the `Nintendo 3DS` folder
 
-Once you've done this, re-run mset9.py and continue from [Section I Step 7](installing-boot9strap-(mset9)#section-i---prep-work).
+Once you've done this, continue from [Section I Step 7](installing-boot9strap-(mset9)#section-i---prep-work).
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -529,6 +530,45 @@ Your SD card does not have Mii Maker Data, which is necessary for this exploit t
         + If this doesn't work: hold SHIFT and right-click anywhere in the SD card window, then click the option that opens Terminal, PowerShell, or Command Prompt, then type `py -3 mset9.py` and press Enter
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
     + You should see a window that says "MSET9 ... SETUP by zoogie"
+1. Type the number corresponding to your console model and version, then press Enter
+1. Type `4`, then press Enter to remove MSET9
+1. Insert the SD card into your console
+1. Power on your console
+1. Launch Mii Maker
+1. Wait for your console to reach the "Welcome to Mii Maker" screen, then exit Mii Maker
+1. Power off your console
+1. Insert the SD card into your computer
+1. Return to [Section I Step 7](installing-boot9strap-(mset9)#section-i---prep-work)
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>System Settings loading infinitely after reinserting the SD card</u></summary>
+
+You most likely did something different from the MSET9 instructions, or selected the wrong model or version.
+
+1. Close the script window
+1. Execute the `mset9.py` script on the root of the SD card
+    + **Windows**: Double-click `mset9.bat`
+        + If this doesn't work: hold SHIFT and right-click anywhere in the SD card window, then click the option that opens Terminal, PowerShell, or Command Prompt, then type `py -3 mset9.py` and press Enter
+    + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
+    + You should see a window that says "MSET9 ... SETUP by zoogie"
+1. Type the number corresponding to your console model and version, then press Enter
+1. Type `3`, then press Enter
+1. Once the window says "Deleting... done.", insert the SD card into your console
+1. Power on your console
+1. Return to [Section II Step 1](installing-boot9strap-(mset9)#section-ii---mset9)
+
+If you continue to have this issue and are sure that you did everything correctly, it's possible that there's something wrong with your Mii Maker extdata. Follow these instructions to reset it:
+
+1. Close the script window
+1. Execute the `mset9.py` script on the root of the SD card
+    + **Windows**: Double-click `mset9.bat`
+        + If this doesn't work: hold SHIFT and right-click anywhere in the SD card window, then click the option that opens Terminal, PowerShell, or Command Prompt, then type `py -3 mset9.py` and press Enter
+    + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
+    + You should see a window that says "MSET9 ... SETUP by zoogie"
+1. Type the number corresponding to your console model and version, then press Enter
 1. Type `4`, then press Enter to remove MSET9
 1. Insert the SD card into your console
 1. Power on your console
