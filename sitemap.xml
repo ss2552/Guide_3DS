@@ -1090,6 +1090,9 @@
 <loc>https://3ds.hacks.guide/hu_HU/installing-boot9strap-(menuhax).html</loc>
 </url>
 <url>
+<loc>https://3ds.hacks.guide/installing-boot9strap-(mset9).html</loc>
+</url>
+<url>
 <loc>https://3ds.hacks.guide/zh_CN/installing-boot9strap-(ninjhax2-dx).html</loc>
 </url>
 <url>
@@ -1948,6 +1951,9 @@
 <loc>https://3ds.hacks.guide/hu_HU/updating-firmware-(new-3ds).html</loc>
 </url>
 <url>
+<loc>https://3ds.hacks.guide/updating-firmware-(old-3ds).html</loc>
+</url>
+<url>
 <loc>https://3ds.hacks.guide/zh_CN/updating-firmware-(twn).html</loc>
 </url>
 <url>
@@ -1970,9 +1976,6 @@
 </url>
 <url>
 <loc>https://3ds.hacks.guide/it_IT/updating-firmware-(twn).html</loc>
-</url>
-<url>
-<loc>https://3ds.hacks.guide/updating-firmware-(twn).html</loc>
 </url>
 <url>
 <loc>https://3ds.hacks.guide/nl_NL/updating-firmware-(twn).html</loc>
