@@ -50,7 +50,7 @@ Nesta seção, você irá copiar os arquivos necessários para acionar o exploit
     + Se você tiver múltiplas pastas `<ID1>, siga as instruções [aqui](troubleshooting#bannerbomb3)
     ![]({{ "/images/screenshots/bb3/dsiware-location-1.png" | absolute_url }}){: .notice--info}
 1. Crie uma pasta chamada `Nintendo DSiWare` dentro do `<ID1>`
-    + Se você já teve a pasta *e* já existe algum arquivo de backup de DSiWare existente (`<id-de-8-caracteres>. dentro) dentro, copie-os para seu PC e remova-os do seu cartão SD
+    + Se você já teve a pasta *e* existem algum arquivo de backup de DSiWare existente (`<8-character-id>.bin) dentro desta pasta, copie-os para o seu computador e remova-os do seu cartão SD
 1. Copie o arquivo `F00D43D5.bin` do `BannerBomb3.zip` para a pasta `Nintendo DSiWare`
 
 ![]({{ "/images/screenshots/bb3/dsiware-location-2.png" | absolute_url }})
