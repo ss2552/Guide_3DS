@@ -633,7 +633,7 @@ window.cookieconsent.initialise({
 
 <p>De website heeft bepaald dat jouw ‘movable.sed’ niet kan gebruteforced worden. Zorg ervoor dat je de website het juiste ID0 gegeven hebt. If your ID0 is correct, then you will be unable to use Seedminer and you will have to use an alternate method.</p>
 
-<p>If you have a New 3DS / New 3DS XL / New 2DS XL (as indicated by the four shoulder buttons on the back and the C-Stick on the right), you can follow <a href="installing-boot9strap-(super-skaterhax)">Installing boot9strap (super-skaterhax)</a>. Otherwise, you will need to follow a method that requires additional games or hardware.</p>
+<p>New 3DS users can follow <a href="installing-boot9strap-(super-skaterhax)">Installing boot9strap (super-skaterhax)</a>, while Old 3DS users can follow <a href="installing-boot9strap-(mset9)">Installing boot9strap (MSET9)</a>. If you cannot do MSET9 for any reason, you will need to follow a method that requires additional games or hardware.</p>
 
 </details>
 
@@ -930,6 +930,37 @@ window.cookieconsent.initialise({
 <h2 id="installing-boot9strap-mset9">Installing boot9strap (MSET9)</h2>
 
 <details>
+<summary><u>assert(id0_count == 1) AssertionError</u></summary>
+
+<p>You have multiple ID0 folders. To determine the correct folder, follow these instructions:</p>
+
+<ol>
+  <li>Hernoem de <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> map naar <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code></li>
+  <li>Stop je SD-kaart terug in je console</li>
+  <li>Zet je console aan</li>
+  <li>Wait for the console to generate the SD card data
+    <ul>
+      <li>Je applicaties zullen verdwenen zijn. Dit is normaal en wordt binnenkort opgelost</li>
+    </ul>
+  </li>
+  <li>Zet je console uit</li>
+  <li>Plaats je SD kaart in je computer</li>
+  <li>Ga naar de <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> map op je SD-kaart</li>
+  <li>Write down the first few characters of the folder you see
+    <ul>
+      <li>This is your true ID0, which we will keep in the real Nintendo 3DS folder</li>
+    </ul>
+  </li>
+  <li>Delete the ID0 from the current <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
+  <li>Move the true ID0 folder from the <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code> folder to the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
+  <li>If it exists, move the <code class="language-plaintext highlighter-rouge">Private</code> folder from the <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code> folder to the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
+</ol>
+
+<p>Once you’ve done this, continue from <a href="installing-boot9strap-(mset9)#section-i---prep-work">Section I Step 7</a>.</p>
+
+</details>
+
+<details>
 <summary><u>(title/import).db does not exist, create them now?" / invalid database</u></summary>
 
 <p>Full error messages:</p>
@@ -987,37 +1018,6 @@ window.cookieconsent.initialise({
 <p>You may be missing <code class="language-plaintext highlighter-rouge">SafeB9S.bin</code> from the root of your SD card, or the file may be corrupted. Copy it from the <code class="language-plaintext highlighter-rouge">SDMC</code> folder in the MSET9 <code class="language-plaintext highlighter-rouge">.zip</code>, replacing any existing files.</p>
 
 <p>Alternatively, your SD card may be improperly formatted or partitioned. Try reformatting your SD card: <a href="formatting-sd-(windows)">Windows</a>, <a href="formatting-sd-(linux)">Linux</a> <em>(this will wipe your SD card data)</em></p>
-
-</details>
-
-<details>
-<summary><u>assert(id0_count == 1) AssertionError</u></summary>
-
-<p>You have multiple ID0 folders. To determine the correct folder, follow these instructions:</p>
-
-<ol>
-  <li>Hernoem de <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> map naar <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code></li>
-  <li>Stop je SD-kaart terug in je console</li>
-  <li>Zet je console aan</li>
-  <li>Wait for the console to generate the SD card data
-    <ul>
-      <li>Je applicaties zullen verdwenen zijn. Dit is normaal en wordt binnenkort opgelost</li>
-    </ul>
-  </li>
-  <li>Zet je console uit</li>
-  <li>Plaats je SD kaart in je computer</li>
-  <li>Ga naar de <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> map op je SD-kaart</li>
-  <li>Write down the first few characters of the folder you see
-    <ul>
-      <li>This is your true ID0, which we will keep in the real Nintendo 3DS folder</li>
-    </ul>
-  </li>
-  <li>Delete the ID0 from the current <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
-  <li>Move the true ID0 folder from the <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code> folder to the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
-  <li>If it exists, move the <code class="language-plaintext highlighter-rouge">Private</code> folder from the <code class="language-plaintext highlighter-rouge">BACKUP_Nintendo 3DS</code> folder to the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder</li>
-</ol>
-
-<p>Once you’ve done this, continue from <a href="installing-boot9strap-(mset9)#section-i---prep-work">Section I Step 7</a>.</p>
 
 </details>
 
@@ -1262,6 +1262,13 @@ window.cookieconsent.initialise({
   <li>Select “finalize”</li>
   <li>Follow the prompts in the script, answering any questions that you are asked</li>
 </ol>
+
+</details>
+
+<details>
+<summary><u>Error #18: MSET9 detected</u></summary>
+
+<p>You didn’t remove MSET9 when prompted to. Follow <a href="installing-boot9strap-(mset9)#section-iv---removing-mset9">Section IV - Removing MSET9</a>, then re-run the script.</p>
 
 </details>
 
