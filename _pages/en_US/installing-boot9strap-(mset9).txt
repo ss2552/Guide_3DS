@@ -25,7 +25,7 @@ This method requires a computer running Windows or Linux. macOS is NOT supported
 
 ### Instructions
 
-On this page, you will use the MSET9 script, which is used to trigger MSET9. If you get a numbered error (e.g. Error 01) when running the script, the solution to that error can most likely be found on the [troubleshooting](troubleshooting#installing-boot9strap-(mset9) page.
+On this page, you will use the MSET9 script, which is used to trigger MSET9. If you get a numbered error (e.g. Error 01) when running the script, the solution to that error can most likely be found on the [troubleshooting](troubleshooting#installing-boot9strap-mset9) page.
 {: .notice--info}
 
 #### Section I - Prep Work
@@ -59,7 +59,7 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
 
     + Ensure that the correct console model and version is displayed
 1. Type `1`, then press Enter to ensure your console is prepared for MSET9
-    + If you get an error, check the [troubleshooting](troubleshooting#installing-boot9strap-(mset9), then try again
+    + If you get an error, check the [troubleshooting](troubleshooting#installing-boot9strap-mset9), then try again
 1. If you see the message "Everything appears to be functional!", MSET9 is ready to be injected. Press Enter to close the MSET9 script
 1. Reinsert your SD card into your console
 1. Power on your console
