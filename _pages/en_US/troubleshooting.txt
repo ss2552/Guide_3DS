@@ -522,7 +522,7 @@ Once you've done this, continue from [Section I Step 7](installing-boot9strap-(m
 {% capture compat %}
 <summary><u>Error 08: One or more files are missing or malformed!</u></summary>
 
-One or more files that MSET9 needs to run is missing or corrupted. Re-download the [MSET9 ZIP](https://github.com/zoogie/MSET9/releases/latest) and extract it to the root of your SD card, replacing all existing files, then try again.
+One or more files that MSET9 needs to run is missing or corrupted. Re-download the [MSET9 Release `.zip`](https://github.com/zoogie/MSET9/releases/latest) and extract it to the root of your SD card, replacing all existing files, then try again.
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -577,12 +577,11 @@ You most likely did something different from the MSET9 instructions, or selected
 1. Close the script window
 1. Execute the `mset9.py` script on the root of the SD card
     + **Windows**: Double-click `mset9.bat`
-        + If this doesn't work: hold SHIFT and right-click anywhere in the SD card window, then click the option that opens Terminal, PowerShell, or Command Prompt, then type `py -3 mset9.py` and press Enter
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
     + You should see a window that says "MSET9 ... SETUP by zoogie"
 1. Type the number corresponding to your console model and version, then press Enter
 1. Type `3`, then press Enter
-1. Once the window says "Successfully removed MSET9!", insert the SD card into your console
+1. Once the window says "Successfully removed MSET9!", reinsert the SD card into your console
 1. Power on your console
 1. Return to [Section II Step 1](installing-boot9strap-(mset9)#section-ii---mset9)
 
@@ -595,7 +594,12 @@ If you continue to have this issue and are sure that you did everything correctl
     + You should see a window that says "MSET9 ... SETUP by zoogie"
 1. Type the number corresponding to your console model and version, then press Enter
 1. Type `3`, then press Enter to remove MSET9
-1. Return to [the beginning of Section I](installing-boot9strap-(mset9)#section-i---prep-work)
+1. If possible, use a new SD card; otherwise, backup and reformat your existing SD card as FAT32 ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)))
+1. Insert the formatted, blank SD card into your console
+1. Return to [Section I Step 1](installing-boot9strap-(mset9)#section-i---prep-work)
+
+After finishing the MSET9 page, you should switch back to your old SD card before continuing to Finalizing Setup.
+{: .notice--warning}
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
