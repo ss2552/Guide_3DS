@@ -2,15 +2,7 @@
 title: "Seedminer"
 ---
 
-{% include toc title="Table of Contents" %}
+The era of Seedminer is over, for now... [MSET9](installing-boot9strap-(mset9)) can be used on all firmwares Seedminer was previously used on, and is quicker and less resource-intensive overall. If you really need the instructions, check out the [wiki page](https://wiki.hacks.guide/wiki/3DS:Seedminer/BFM) for it.
 
-{% include_relative include/seedminer-base.txt %}
-
-___
-
-### Next step: BannerBomb3
-
-Once you have your console's encryption key (`movable.sed`), you can use it in conjunction with BannerBomb3, which uses your `movable.sed` file to take advantage of exploits in the System Settings application.
-
-Continue to [BannerBomb3](bannerbomb3)
+### Return to the [Index page](index)
 {: .notice--primary}
