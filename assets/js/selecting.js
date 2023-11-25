@@ -45,7 +45,7 @@ function validate_version(major, minor, native, region, model) {
 }
 
 // Soundhax
-// 1.0-11.3, all regions, all consoles
+// 1.0-11.3
 function can_soundhax(major, minor, native, region, model) {
     let do_redirect = false;
     if(major <= 10) do_redirect = true;
@@ -58,10 +58,6 @@ function can_soundhax(major, minor, native, region, model) {
     return false;
 }
 
-// SSLoth
-// U/E/J has different version table than KOR
-// KOR/CHN/TWN Old 3DS browser (spider) 1.7630 (v10240, shipped with 11.1~11.8) isn't supported by browserhax
-// CHN/TWN isn't validated for now as those cannot exploit atm
 function can_ssloth(major, minor, native, region, model) {
     let do_redirect = false;
     if(major == 11) {
@@ -130,91 +126,27 @@ function can_safecerthax(major, minor, native, region, model) {
 // KOR: 11.16 only, KOR does not have 11.17
 // CHN/TWN has no N3DS
 function can_superskaterhax(major, minor, native, region, model) {
-    let do_redirect_sysupdate = false;
     let do_redirect = false;
     // N3DS only
     if(model == DEVICE_N3DS) {
         if (major == 11) {
             if (minor >= 16) do_redirect = true;
-            // Since this exploit works on latest,
-            // if no other exploit exists for that version, update
-            else do_redirect_sysupdate = true;
         }
     }
 
-    if (do_redirect_sysupdate) {
-        window.location.href = "updating-firmware-(new-3ds)";
-        return true;
-    }
-    else if (do_redirect) {
+    if (do_redirect) {
         window.location.href = "installing-boot9strap-(super-skaterhax)";
         return true;
     }
     return false;
 }
 
-// Mii mining
-// Only do on 11.15 O3DS
-function can_miimine(major, minor, native, region, model) {
-    let do_redirect = false;
-
-    if (model == DEVICE_O3DS) {
-        if (major == 11 && minor == 15) {
-            // KOR and TWN can do normal seedminer
-            // CHN can't do seedminer at all (no valid exploit after doing so)
-            // All other O3DS must Mii mine
-            if (!["C", "K", "T"].includes(region)) do_redirect = true;
-        }
-    }
-
-    if (do_redirect) {
-        window.location.href = "seedminer-(mii)";
-        return true;
-    }
-}
-
-// Seedminer, U/E/J/K region
-// only 11.16 can run Seedminer
-function can_seedminer(major, minor, native, region, model) {
-    let do_redirect_sysupdate_kor = false;
-    let do_redirect = false;
-
-    // 11.16 should always do seedminer on 3DS
-    // CHN/TWN will use MSET9
-    if (major == 11 && minor == 16) {
-        if (["U", "E", "J", "K"].includes(region)) do_redirect = true;
-    }
-    // KOR on any version should update to 11.16
-    else if (region == "K") do_redirect_sysupdate_kor = true;
-
-    if (do_redirect_sysupdate_kor) {
-        window.location.href = "updating-firmware-(kor)";
-        return true;
-    }
-    else if (do_redirect) {
-        window.location.href = "seedminer";
-        return true;
-    }
-    return false;
-}
-
-// Huzzah, MSET9 for O3DS!
+// MSET9
+// 11.4-11.17
 function can_mset9(major, minor, native, region, model) {
-    let do_redirect_sysupdate = false;
-    let do_redirect = false;
 
     // Exploit supports 11.4 or later
-    // Update consoles that aren't there yet
-    if(model == DEVICE_O3DS && !(major == 11 && minor >= 4)) {
-        do_redirect_sysupdate = true;
-    }
-    else do_redirect = true;
-
-    if (do_redirect_sysupdate && model == DEVICE_O3DS) {
-        window.location.href = "updating-firmware-(old-3ds)";
-        return true;
-    }
-    else if (do_redirect) {
+    if(major == 11 && minor >= 4) {
         window.location.href = "installing-boot9strap-(mset9)"
         return true;
     }
@@ -222,14 +154,14 @@ function can_mset9(major, minor, native, region, model) {
 }
 
 /*
+    Reality:
+
     Redirects page based on input from user.
     Input:
         - System version
         - O3DS/N3DS
 
-    Exploits are compatibility-checked in the following order.
-    Free exploits (exploits that do not require purchase of another device)
-    on latest system version will be updated if the console's version is not compatible.
+    Exploits are compatibility-checked in the following order:
 
     - Soundhax
         - 1.0 - 11.3
@@ -243,23 +175,12 @@ function can_mset9(major, minor, native, region, model) {
         - 11.4 - 11.14
         - All regions
         - O3DS only
-    - Mii mine
-        - 11.15
-        - USA / EUR / JPN
-        - O3DS only
-    - Seedminer
-        - 11.16
-            - KOR consoles will update to this version
-        - USA / EUR / JPN / KOR
-        - O3DS only
     - super-skaterhax
         - 11.16 - 11.17
-            - All N3DS consoles will update to this version
         - USA / EUR / JPN / KOR
         - N3DS only
     - MSET9
         - 11.4 - 11.17
-            - All consoles will update to this version
         - All regions
         - All models
 */
@@ -272,7 +193,6 @@ function redirect() {
     const isO3DS = document.getElementById("old3DS").checked;
     document.getElementById("result_noneSelected").style.display = "none";
     document.getElementById("result_invalidVersion").style.display = "none";
-    document.getElementById("result_methodUnavailable").style.display = "none";
     if ((!isN3DS) && (!isO3DS)) {
         document.getElementById("result_noneSelected").style.display = "block";
         return;
@@ -292,9 +212,7 @@ function redirect() {
       can_soundhax,
       can_ssloth,
       can_safecerthax,
-      can_miimine,
       can_superskaterhax,
-      can_seedminer,
       can_mset9
     ].some(func => func(major, minor, nver, region, model));
     if (redirected) return true;
