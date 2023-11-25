@@ -59,101 +59,47 @@ sidebar_pages:
     title: 시작하기
     url: get-started
   - 
-    title: 펌웨어 업데이트 (New 3DS)
-    url: updating-firmware-(new-3ds)
-  - 
-    title: 펌웨어 업데이트 (한글판)
-    url: updating-firmware-(kor)
-  - 
-    title: 펌웨어 업데이트 (타이완)
-    url: updating-firmware-(twn)
-  - 
     title: ntrboot
     url: ntrboot
   - 
-    title: 대체 취약점
-    url: alternate-exploits
-  - 
-    title: Seedminer
-    url: seedminer
-  - 
-    title: Seedminer (대체)
-    url: seedminer-(alternate)
-  - 
-    title: Seedminer (Mii)
-    url: seedminer-(mii)
-  - 
-    title: Seedminer (타이완)
-    url: seedminer-(twn)
-  - 
-    title: BannerBomb3
-    url: bannerbomb3
-  - 
-    title: boot9strap 설치 (ninjhax2-dx)
-    url: installing-boot9strap-(ninjhax2-dx)
-  - 
-    title: boot9strap 설치 (PicHaxx)
-    url: installing-boot9strap-(pichaxx)
-  - 
-    title: boot9strap 설치 (smilehax-IIe)
-    url: installing-boot9strap-(smilehax-iie)
-  - 
-    title: boot9strap 설치 (Steelhax)
-    url: installing-boot9strap-(steelhax)
-  - 
-    title: boot9strap 설치 (super-skaterhax)
-    url: installing-boot9strap-(super-skaterhax)
-  - 
-    title: boot9strap 설치 (MSET9)
+    title: Installing boot9strap (MSET9)
     url: installing-boot9strap-(mset9)
   - 
-    title: boot9strap 설치 (petit-compwner)
-    url: installing-boot9strap-(petit-compwner)
-  - 
-    title: eShop DSiWare 덤프
-    url: dumping-eshop-dsiware
-  - 
-    title: 다중 옵션
+    title: Multiple Options
     url: multiple-options
   - 
-    title: ntrboot 플래싱 (단일 3DS)
+    title: Flashing ntrboot (3DS Single System)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: ntrboot 플래싱 (3DS 두 대)
+    title: Flashing ntrboot (3DS Multi System)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: ntrboot 플래싱 (DSi)
+    title: Flashing ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: ntrboot 플래싱 (NDS)
+    title: Flashing ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: BannerBomb3 + Fredtool (타이완)
-    url: bannerbomb3-fredtool-(twn)
-  - 
-    title: boot9strap 설치 (하드모드)
+    title: Installing boot9strap (Hardmod)
     url: installing-boot9strap-(hardmod)
   - 
-    title: boot9strap 설치 (ntrboot)
+    title: Installing boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: boot9strap 설치 (Soundhax)
+    title: Installing boot9strap (Soundhax)
     url: installing-boot9strap-(soundhax)
   - 
-    title: boot9strap 설치 (safecerthax)
+    title: Installing boot9strap (safecerthax)
     url: installing-boot9strap-(safecerthax)
   - 
-    title: boot9strap 설치 (SSLoth-Browser)
+    title: Installing boot9strap (SSLoth-Browser)
     url: installing-boot9strap-(ssloth-browser)
   - 
-    title: boot9strap 설치 (Fredtool-Inject)
-    url: installing-boot9strap-(fredtool-inject)
+    title: Installing boot9strap (super-skaterhax)
+    url: installing-boot9strap-(super-skaterhax)
   - 
-    title: boot9strap 설치 (menuhax)
-    url: installing-boot9strap-(menuhax)
-  - 
-    title: boot9strap 설치 (kartdlphax)
+    title: Installing boot9strap (kartdlphax)
     url: installing-boot9strap-(kartdlphax)
   - 
-    title: 마무리 단계
+    title: Finalizing Setup
     url: finalizing-setup

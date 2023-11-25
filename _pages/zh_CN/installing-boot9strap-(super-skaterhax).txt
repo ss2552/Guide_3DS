@@ -56,6 +56,17 @@ In this section, you will visit the browser exploit webpage, which will launch t
 在开始之前，请确保你的主机已经设置了一个可以连接互联网的无线网络。
 {: .notice--info}
 
+{% capture set_date %}
+<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+1. Launch System Settings on your console
+1. 选择 “其他设置（Other Settings）”
+1. Navigate to "Date & Time" -> "Today's date"
+1. Tap Up/Down Arrows to set the correct Day, Month and Year
+1. Select OK to confirm
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. On the HOME Menu, press the Left and Right shoulder buttons at the same time to open the camera
     + If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/super/` for EUR/USA/JPN, `https://zoogie.github.io/web/korea` for KOR)
 1. Tap the QR code button and scan one of the following QR codes for your console's region [here](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
@@ -74,6 +85,8 @@ In this section, you will visit the browser exploit webpage, which will launch t
     + If any prompts appear, approve all of them
     + If your console freezes on a yellow screen, hold the POWER button until it turns off, then retry this section
     + If your console freezes on a red screen, hold the POWER button until it turns off, redo step 3 of Section II, then retry this section
+    + If your console shows "Text" on the bottom screen, you have an Old 3DS and this exploit **will not work on your device**
+      + Return to [Get Started](get-started) and select Old 3DS/2DS as your model and reinput your system version
     + If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting#installing-boot9strap-super-skaterhax)
 1. Your console will have booted into the Homebrew Launcher
 1. Launch nimdsphax from the list of homebrew

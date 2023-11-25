@@ -11,15 +11,10 @@ Usado em múltiplas páginas:
 * [SafeB9SInstaller](#problemas-com-o-safeb9sinstaller)
 
 Páginas do guia:
-* [Seedminer](#seedminer)
-    * [BannerBomb3](#bannerbomb3)
-    * [Instalando boot9strap (Fredtool-Inject)](#installing-boot9strap-fredtool-inject)
-    * [Installing boot9strap (PicHaxx)](#installing-boot9strap-pichaxx)
 * [Instalando boot9strap (Soundhax)](#installing-boot9strap-soundhax)
+* [Instalando boot9strap (MSET9)](#installing-boot9strap-mset9)
 * [Instalando boot9strap (SSLoth-Browser)](#installing-boot9strap-ssloth-browser)
 * [Instalando boot9strap (super-skaterhax)](#installing-boot9strap-super-skaterhax)
-* [Instalando boot9strap (MSET9)](#installing-boot9strap-mset9)
-
 * [Finalizando a instalação](#finalizando-a-instalação)
 
 Erros após a instalação:
@@ -79,187 +74,6 @@ Entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) para obter a
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
-## Seedminer
-
-{% capture compat %}
-<summary><u>Várias pastas de nome longo na pasta Nintendo 3DS</u></summary>
-
-![]({{ "/images/screenshots/multiple-id0.png" | absolute_url }})
-{: .notice--info}
-
-Isso ocorre quando você usa o seu cartão SD em vários consoles de 3DS e se destina a evitar a fusão inadvertidamente de dados que não seriam válidos em outros consoes. Para descobrir qual pasta de nome longo é a correta para seu 3DS, siga estas instruções:
-
-1. Renomeie a pasta `Nintendo 3DS` para `BACKUP_Nintendo 3DS`
-1. Reinsira o cartão SD no seu console
-1. Ligue o seu console
-1. Espere o console gerar os dados do cartão SD
-    + Seus aplicativos terão desaparecido. Isto é normal e será resolvido em breve
-1. Desligue seu console
-1. Insira o cartão SD no seu computador
-1. Vá até a pasta `Nintendo 3DS` no seu cartão SD
-1. Copie o nome da pasta de 32 caracteres que você vê
-    + Esta é a sua ID0 verdadeira que você usará na [Seção II do Seedminer](seedminer#section-ii---seedminer)
-1. Apague a pasta `Nintendo 3DS`
-1. Renomeie a pasta `BACKUP_Nintendo 3DS` para `Nintendo 3DS`
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Bruteforce Movable pula para o Step 4</u></summary>
-
-O site já minerou seu `movable.sed` usando seu friend code e a combinação do ID0. Você pode usar o `movable.sed` que ele te fornece.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Important! You have been locked out of the automated part1 dumper system...</u></summary>
-
-Seu friend code foi bloqueado de usar o bot porque o seu 3DS falhou em adicionar o bot como amigo. Certifique-se de que seu 3DS esteja conectado à internet corretamente e, em seguida, entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e peça para ser desbloqueado.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>We were unable to successfully complete your bruteforce request. :`(</u></summary>
-
-O site determinou que seu `movable.sed` não pode ser brute-forced. Certifique-se de que você deu o ID0 correto para o site. Se o seu ID0 estiver correto, então você não poderá usar o Seedminer e precisará usar um método alternativo.
-
-Usuários do New 3DS podem seguir [Instalando boot9strap (superskaterhax)](installing-boot9strap-(super-skaterhax)), enquanto usuários do 3DS original podem seguir [Instalando boot9strap (MSET9)](installing-boot9strap-(mset9)). Se você não pode fazer o MSET9 por qualquer motivo, precisará seguir um método que requer jogos ou hardware adicionais.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-## BannerBomb3
-
-{% capture compat %}
-<summary><u>Múltiplas pastas ID1 dentro de ID0</u></summary>
-
-![]({{ "/images/screenshots/multiple-id1.png" | absolute_url }})
-
-{% include_relative include/id1-check.txt %}
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Menu de Gerenciamento de DSiWare mostra um crash sem mostrar o menu multihax do BB3</u></summary>
-Certifique-se de que `F00D43D5.bin` seja o único arquivo em `Nintendo 3DS` -> `<ID0>` -><ID1>` -> `Nintendo DSiWare`. Se for o caso, re-crie-o com o [Bannerbomb3 Injector](https://zoogie.github.io/web/bb3).
-
-Além disso, certifique-se de que o `bb3.bin` está na raiz do cartão SD. Caso esteja faltando, baixe a última versão do [Bannerbomb3](https://github.com/zoogie/Bannerbomb3/releases/download/v3.0/Release_v3.0.zip) (download direto) e copie o arquivo `bb3.bin` do `.zip` para a raiz do seu cartão SD.
-
-Se nenhuma destas soluções resolver este problema, então custom firmware pode ter sido desinstalado nesse console de uma forma que torna esse método impossível de executar. Se for esse o caso, junte-se ao [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e peça ajuda, em Inglês.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O Menu de Gerenciamento DSiWare mostra "Sem data de software acessível".</u></summary>
-
-`F00D43D5.bin` está ausente em `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`. Certifique-se de que `Nintendo DSiWare` esteja corretamente escrito e espaçado. Letras maiúsculas ou minúsculas não importam.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O Gerenciamento de DSiWare mostra um ponto de interrogação</u></summary>
-
-Pode haver um problema com o seu arquivo `F00D43D5.bin` (pode estar corrompido ou destinado ao 3DS errado). Recrie seu arquivo `F00D43D5.bin` com o [Bannerbomb3 Injector](https://zoogie.github.io/web/bb3), garantindo que você use o arquivo `movable.sed` para o seu console.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-## Instalando boot9strap (Fredtool-Inject)
-
-{% capture compat %}
-<summary><u>Erro na página do DSiHaxInjector</u></summary>
-
-Certifique-se de que o seu `movable.sed` e backup de DSiWare venham do mesmo console. Uma incompatibilidade resultará em erro.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>"Haxxxxxxxxx!" não aparece</u></summary>
-
-Há um problema com seu arquivo `42383821.bin` (ele está incorreto, faltando, colocado no lugar errado ou corrompido). Recrie seus arquivos com o site [DSIHaxInjector_new](https://3ds.https://jenkins.nelthorya.net/job/DSIHaxInjector_new/build?delay=0sec) e certifique-se de colocar o arquivo `42383821.bin` do `output.zip` -> `hax` em `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `Nintendo DSiWare`.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O DSiWare inicia normalmente</u></summary>
-
-`Haxxxxxxxxxxx!` não foi copiado do cartão SD para a memória do sistema.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O cartão SD está cinza no Flipnote</u></summary>
-
-O Flipnote pode levar um bom tempo para indexar o seu cartão se você tiver um cartão SD grande. Deixe-o por alguns minutos.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O Lenny face não aparece na seção do cartão SD</u></summary>
-
-Você não copiou a pasta `private` do Frogminer_save `.zip` para a raiz do seu cartão SD.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O Flipnote congela</u></summary>
-
-Você pode ter tocado acidentalmente na tela enquanto estava no Flipnote modificado. Entre novamente nas Conexões Nintendo DS e tente novamente, garantindo que você não use acidentalmente a touchscreen.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Tela verde após colar</u></summary>
-
-O arquivo `boot.nds` está faltando ou está fora do lugar apropriado. Baixe a versão mais recente do [b9stool](https://github.com/zoogie/b9sTool/releases/latest) e coloque `boot.nds` na raiz do seu cartão SD, substituindo o existente.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Tela branca após colar</u></summary>
-Há um problema com o seu arquivo `boot.nds`. Baixe novamente a versão mais recente do [b9stool](https://github.com/zoogie/b9sTool/releases/latest) e coloque `boot.nds` na raiz do seu cartão SD, substituindo o existente.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Não é possível abrir o menu de configuração do Luma3DS depois de executar B9STool</u></summary>
-
-Entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) e explique o que aconteceu.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-## Installing boot9strap (PicHaxx)
-
-{% capture compat %}
-<summary><u>"Ocorreu um erro. Segure o botão POWER para desligar..." (tela preta com texto)</u></summary>
-
-Seus arquivos `00000001.sav` e/ou `otherapp.bin` podem estar fora do local apropriado. Certifique-se de que `00000001.sav` está em `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data` e que `otherapp. em` está na raiz do seu cartão SD.
-
-Se seus arquivos estiverem nos locais corretos, re-crie o save usando a [PicHaxx Save Tool](https://3dstools.nhnarwhal. om/#/pichaxx), então coloque-o em `Nintendo 3DS` -> `<ID0>` -><ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`. Certifique-se de que o arquivo tem exatamente o nome de `00000001.sav` e que você usou o `movable.sed` do seu console para criá-lo. Rebaixe [HBL otherapps](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip), coloque o arquivo `.bin` relevante ao seu console na raiz do seu cartão SD e renomeie-o para `otherapp.bin`. Não adicione a extensão `.bin` se você não a vê.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>"An exception occurred" ou Errdisp quando abro o Picross</u></summary>
-
-Seu console já possui custom firmware. Você deve [checar por CFW](checking-for-cfw).
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>"Um erro ocorreu, forçando o fechamento do software..." (caixa de mensagens branca)</u></summary>
-
-Há um problema com seu arquivo `otherapp.bin`. Baixe [HBL otherapps](https://github.com/zoogie/ninjhax2.x/releases/download/v11.17/otherapps_with_CfgS_11.17.zip), coloque o arquivo `.bin` relevante para o seu console na raiz do seu cartão SD e renomeie-o para `otherapp.bin`. Não adicione a extensão `.bin` se você não a vê.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>O jogo começa normalmente</u></summary>
-
-Seu arquivo `00000001.sav` modificado pode estar fora do local apropriado, ou você pode ter usado o `movable.sed` errado ao criá-lo. Regere seu `movable.sed` a partir do [Bruteforce Movable](https://seedminer.hacks.guide), e re-crie o save usando a [PicHaxx Save Tool](https://3dstools.nhnarwhal. om/#/pichaxx) e coloque o arquivo resultante (`00000001.sav`) em `Nintendo 3DS` -> `<ID0>` -> `<ID1>` -> `title` -> `00040000` -> `0017c100` -> `data`.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
 ## Instalando boot9strap (Soundhax)
 
 {% capture compat %}
@@ -290,6 +104,227 @@ Você tem o arquivo Soundhax errado para o seu console e região, ou seu console
 Faça o backup de seus dados e formate novamente seu cartão SD como FAT32 com a ferramenta recomendada dependendo do seu sistema operacional ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool Partition Wizard e a ferramenta de formatação da HP (HPUSBDisk) são conhecidas por causar problemas com cartões SD para 3DS.
 
 Se isso falhar, tente usar outro cartão SD.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+## Instalando boot9strap (MSET9)
+
+{% capture compat %}
+<summary><u>Python 3 não está instalado</u></summary>
+
+O Python não está instalado no computador que você está usando. Baixe-o do [site do Python](https://www.python.org/downloads/), clique duas vezes no instalador e siga as instruções para instalar o Python. Quando o Python estiver instalado, tente novamente.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 01: Couldn't find Nintendo 3DS folder</u></summary>
+
+Você não está executando o MSET9 na raiz do cartão SD, ou o cartão SD está sem a pasta Nintendo 3DS.
+
+Lembre-se, seu cartão SD deve ficar assim:
+
+![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout.png)
+{: .notice--info}
+
+Se o layout do seu cartão SD estiver correto, então provavelmente o cartão SD não está sendo lido pelo console. Re-format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac))), then start again from the beginning of [Section I](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 02: Your SD is write protected</u></summary>
+
+A proteção contra gravação está ativada neste cartão SD. Se você está usando um cartão SD completo, certifique-se de que a alavanca está [para cima](/images/sdlock.png). Caso contrário, tente ejetar e reinserir seu cartão SD.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 03: Don't change console version</u></summary>
+
+Você digitou um número diferente entre diferentes execuções do MSET9 (por exemplo, você selecionou inicialmente a opção 1 para "Old 3DS, 11.8 - 11.17" e depois selecionou a opção 2 para "New 3DS, 11.8 - 11.17").
+
+Se isso aconteceu ao tentar desinstalar o MSET9, o script removeu automaticamente o MSET9 para você e você pode continuar para a próxima página. Caso contrário, comece novamente do início da [Seção I](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 04: No HOME Menu Extdata.</u></summary>
+
+Your SD card is not formatted properly.
+
+Copy everything off the SD Card to your PC, re-format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac))), copy everything back, then start again from the beginning of [Section I](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 05: No Mii Maker Data!</u></summary>
+
+Dados do Mii Maker não foram encontrados no cartão SD. Comece novamente do início da [Seção I](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 06: You need at least 16MB free</u></summary>
+
+Seu cartão SD não possui espaço suficiente para acionar o MSET9. Libere um pouco de espaço e tente novamente.
+
+No final deste guia, você precisará de pelo menos 1,3GB para fazer um backup da NAND, então é melhor liberar pelo menos isso.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 07: You don't have 1 ID0, you have (#)!</u></summary>
+
+Você tem múltiplas pastas ID0. Para determinar a pasta correta, siga estas instruções:
+
+1. Renomeie a pasta `Nintendo 3DS` para `BACKUP_Nintendo 3DS`
+1. Reinsira o cartão SD no seu console
+1. Ligue o seu console
+1. Espere o console gerar os dados do cartão SD
+    + Seus aplicativos terão desaparecido. Isto é normal e será resolvido em breve
+1. Desligue seu console
+1. Insira o cartão SD no seu computador
+1. Vá até a pasta `Nintendo 3DS` no seu cartão SD
+1. Anote os primeiros caractéres da pasta que você ver
+    + Este é seu ID0 real, no qual nós iremos manter na pasta Nintendo 3DS real
+1. Remova o ID0 da pasta `Nintendo 3DS` atual
+1. Mova a pasta do verdadeiro ID0 da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
+1. Se existir, mova a pasta `Private` da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
+
+Assim que isto for feito, continue na [Seção I Passo 7](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 08: One or more files are missing or malformed!</u></summary>
+
+Um ou mais arquivos que o MSET9 precisa executar estão ausentes ou corrompidos. Rebaixe o [`.zip` MSET9 Release](https://github.com/zoogie/MSET9/releases/latest) e extraia-o para a raiz do seu cartão SD, substituindo todos os arquivos existentes e tente novamente.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 10: Database(s) malformed or missing!</u></summary>
+
+Isto acontece por que nenhuma title database está presente, normalmente porque você nunca instalou nenhum aplicativo da eShop com este cartão SD.
+
+1. Se você ainda não o fez, pressione Enter para fechar o script MSET9
+1. Insira seu cartão SD no seu console
+1. Ligue o seu console
+1. Navegue para Configurações do Sistema -> Gerenciamento de Dados -> Nintendo 3DS -> Software -> Reiniciar ([instruções visuais](/images/screenshots/database-reset.jpg))
+1. Desligue seu console
+1. Insira seu cartão SD no seu computador
+1. Retorne para [Seção I Passo 7](installing-boot9strap-(mset9)#section-i---prep-work)
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 12: You don't have 1 ID1, you have (#)!</u></summary>
+
+{% include_relative include/id1-check.txt %}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Tela vermelha após reinserir cartão SD (Seção II Passo 11)</u></summary>
+
+Talvez você esteja sem o `SafeB9S.bin` na raiz do seu cartão SD, ou o arquivo pode estar corrompido. Copie-o do `.zip` do MSET9, substituindo quaisquer arquivos existentes.
+
+Alternativamente, seu cartão SD pode estar sem a formatação apropriada ou mal particionado. Try reformatting your SD card: [Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)) *(this will wipe your SD card data)*
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Configurações do Sistema carregando infinitamente após reinserir o cartão SD</u></summary>
+
+É bem provável que você tenha feito algo de diferente das instruções do MSET9, ou selecionou o modelo ou versão errada.
+
+1. Feche a janela do script
+1. Execute o script `mset9.py` na raiz do seu cartão SD
+    + **Windows**: Clique duas vezes em `mset9.bat`
+    + **Linux**: Abra uma janela do Terminal, use `cd` até o root do seu cartão SD, então digite `python3 mset9.py` e pressione Enter
+    + Você deve ver uma janela que diz "MSET9 ... SETUP by zoogie"
+1. Digite o número correspondente ao modelo do seu console e a versão, então pressione Enter
+1. Digite `3`, então presione Enter
+1. Assim que a janela disser "Successfully removed MSET9!", reinsira o cartão SD no seu console
+1. Ligue o seu console
+1. Retorne para [Seção II Passo 1](installing-boot9strap-(mset9)#section-ii---mset9)
+
+Se o erro persistir e você ter certeza que fez tudo corretamente, é possível que tenha algo de errado com os dados extdata do Mii Maker. Siga estas instruções para redefini-los:
+
+1. Feche a janela do script
+1. Execute o script MSET9
+    + **Windows**: Clique duas vezes em `mset9.bat`
+    + **Linux**: Abra uma janela do Terminal, use `cd` até o root do seu cartão SD, então digite `python3 mset9.py` e pressione Enter
+    + Você deve ver uma janela que diz "MSET9 ... SETUP by zoogie"
+1. Digite o número correspondente ao modelo do seu console e a versão, então pressione Enter
+1. Digite `3` e pressione Enter para remover o MSET9
+1. If possible, use a new SD card; otherwise, backup and reformat your existing SD card as FAT32 ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Insira o cartão SD formatado e vazio no seu console
+1. Retorne à [Seção I Etapa 1](installing-boot9strap-(mset9)#section-i---prep-work)
+
+Depois de terminar a página MSET9, você deve voltar para o seu antigo cartão SD antes de terminar a instalação.
+{: .notice--warning}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+## Installing boot9strap (super-skaterhax)
+
+{% capture compat %}
+<summary><u>"Ocorreu um erro. Salve seus dados em qualquer software atualmente em uso e reinicie o sistema."</u></summary>
+
+A data está definida incorretamente. Para defini-la corretamente, siga estas etapas:
+
+1. Selecione o ícone de Configuração do Sistema no Menu HOME, e toque em Abrir.
+1. Toque em Outras Configurações.
+1. Toque em Data e Hora.
+1. Toque na data de hoje.
+1. Use as setas para cima/baixo para definir o dia, mês e ano correto.
+1. Selecione OK para confirmar.
+
+Se o problema persistir:
+
++ Certifique-se de que o `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin`, e `boot.3dsx` estão na raiz do cartão SD (não dentro de nenhuma pasta)
++ Certifique-se de que você selecionou o payload correto para a sua região E versão do sistema
++ Certifique-se de que suas configurações de região se pareçam [com isso](/images/screenshots/skater_lang.png)
++ Tente redefinir os dados do seu navegador:
+    1. Inicie o navegador, e então abra as configurações do navegador
+    1. Role até a parte inferior e selecione "Redefinir os dados salvos" (também pode ser chamado de "Inicializar Dados Salvos" ou "Limpar todos os dados salvos")
+    1. Tente o exploit novamente
++ Tente alterar o idioma do sistema para algo diferente do idioma atual
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+
+{% capture compat %}
+<summary><u>"Ocorreu um erro. Segure o botão POWER para desligar..." (tela preta com texto)</u></summary>
+
+O arquivo `arm11code.bin` está faltando ou está deslocado. Certifique-se de copiar os arquivos da [versão mais recente do super-skaterhax](https://github. om/zoogie/super-skaterhax/releases/latest) para sua região e versão para a raiz do seu cartão SD (não dentro de uma pasta).
+
+![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
+{: .notice--info}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+
+{% capture compat %}
+<summary><u>An exception occured ou "DLL_HEAP_INFORMATION" após pressionar GO! GO!</u></summary>
+
+Isso provavelmente indica que você já possui custom firmware. Você deve [checar por CFW](checking-for-cfw).
+
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
@@ -382,217 +417,6 @@ Entre no [Discord do Nintendo Homebrew](https://discord.gg/MWxPgEp) para obter a
 Faça o backup de seus dados e formate novamente seu cartão SD como FAT32 com a ferramenta recomendada dependendo do seu sistema operacional ([Windows](formatting-sd-(windows)), [macOS](formatting-sd-(mac)), [Linux](formatting-sd-(linux))). MiniTool Partition Wizard e a ferramenta de formatação da HP (HPUSBDisk) são conhecidas por causar problemas com cartões SD para 3DS.
 
 Se isso falhar, tente usar outro cartão SD.
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-## Installing boot9strap (super-skaterhax)
-
-{% capture compat %}
-<summary><u>"Ocorreu um erro. Salve seus dados em qualquer software atualmente em uso e reinicie o sistema."</u></summary>
-
-A data está definida incorretamente. Para defini-la corretamente, siga estas etapas:
-
-1. Selecione o ícone de Configuração do Sistema no Menu HOME, e toque em Abrir.
-1. Toque em Outras Configurações.
-1. Toque em Data e Hora.
-1. Toque na data de hoje.
-1. Use as setas para cima/baixo para definir o dia, mês e ano correto.
-1. Selecione OK para confirmar.
-
-Se o problema persistir:
-
-+ Certifique-se de que o `arm11code.bin`, `browserhax_hblauncher_ropbin_payload.bin`, e `boot.3dsx` estão na raiz do cartão SD (não dentro de nenhuma pasta)
-+ Certifique-se de que você selecionou o payload correto para a sua região E versão do sistema
-+ Certifique-se de que suas configurações de região se pareçam [com isso](/images/screenshots/skater_lang.png)
-+ Tente redefinir os dados do seu navegador:
-    1. Inicie o navegador, e então abra as configurações do navegador
-    1. Role até a parte inferior e selecione "Redefinir os dados salvos" (também pode ser chamado de "Inicializar Dados Salvos" ou "Limpar todos os dados salvos")
-    1. Tente o exploit novamente
-+ Tente alterar o idioma do sistema para algo diferente do idioma atual
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-
-{% capture compat %}
-<summary><u>"Ocorreu um erro. Segure o botão POWER para desligar..." (tela preta com texto)</u></summary>
-
-O arquivo `arm11code.bin` está faltando ou está deslocado. Certifique-se de copiar os arquivos da [versão mais recente do super-skaterhax](https://github. om/zoogie/super-skaterhax/releases/latest) para sua região e versão para a raiz do seu cartão SD (não dentro de uma pasta).
-
-![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
-{: .notice--info}
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-
-{% capture compat %}
-<summary><u>An exception occured ou "DLL_HEAP_INFORMATION" após pressionar GO! GO!</u></summary>
-
-Isso provavelmente indica que você já possui custom firmware. Você deve [checar por CFW](checking-for-cfw).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-## Instalando boot9strap (MSET9)
-
-{% capture compat %}
-<summary><u>Python 3 não está instalado</u></summary>
-
-O Python não está instalado no computador que você está usando. Baixe-o do [site do Python](https://www.python.org/downloads/), clique duas vezes no instalador e siga as instruções para instalar o Python. Quando o Python estiver instalado, tente novamente.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 01: Couldn't find Nintendo 3DS folder</u></summary>
-
-Você não está executando o MSET9 na raiz do cartão SD, ou o cartão SD está sem a pasta Nintendo 3DS.
-
-Lembre-se, seu cartão SD deve ficar assim:
-
-![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout.png)
-{: .notice--info}
-
-Se o layout do seu cartão SD estiver correto, então provavelmente o cartão SD não está sendo lido pelo console. Reformate-o ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), e então comece novamente do início da [Seção I](installing-boot9strap-(mset9)#section-i---prep-work).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 02: Your SD is write protected</u></summary>
-
-A proteção contra gravação está ativada neste cartão SD. Se você está usando um cartão SD completo, certifique-se de que a alavanca está [para cima](/images/sdlock.png). Caso contrário, tente ejetar e reinserir seu cartão SD.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 03: Don't change console version</u></summary>
-
-Você digitou um número diferente entre diferentes execuções do MSET9 (por exemplo, você selecionou inicialmente a opção 1 para "Old 3DS, 11.8 - 11.17" e depois selecionou a opção 2 para "New 3DS, 11.8 - 11.17").
-
-Se isso aconteceu ao tentar desinstalar o MSET9, o script removeu automaticamente o MSET9 para você e você pode continuar para a próxima página. Caso contrário, comece novamente do início da [Seção I](installing-boot9strap-(mset9)#section-i---prep-work).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 05: No Mii Maker Data!</u></summary>
-
-Dados do Mii Maker não foram encontrados no cartão SD. Comece novamente do início da [Seção I](installing-boot9strap-(mset9)#section-i---prep-work).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 06: You need at least 16MB free</u></summary>
-
-Seu cartão SD não possui espaço suficiente para acionar o MSET9. Libere um pouco de espaço e tente novamente.
-
-No final deste guia, você precisará de pelo menos 1,3GB para fazer um backup da NAND, então é melhor liberar pelo menos isso.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 07: You don't have 1 ID0, you have (#)!</u></summary>
-
-Você tem múltiplas pastas ID0. Para determinar a pasta correta, siga estas instruções:
-
-1. Renomeie a pasta `Nintendo 3DS` para `BACKUP_Nintendo 3DS`
-1. Reinsira o cartão SD no seu console
-1. Ligue o seu console
-1. Espere o console gerar os dados do cartão SD
-    + Seus aplicativos terão desaparecido. Isto é normal e será resolvido em breve
-1. Desligue seu console
-1. Insira o cartão SD no seu computador
-1. Vá até a pasta `Nintendo 3DS` no seu cartão SD
-1. Anote os primeiros caractéres da pasta que você ver
-    + Este é seu ID0 real, no qual nós iremos manter na pasta Nintendo 3DS real
-1. Remova o ID0 da pasta `Nintendo 3DS` atual
-1. Mova a pasta do verdadeiro ID0 da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
-1. Se existir, mova a pasta `Private` da pasta `BACKUP_Nintendo 3DS` para a pasta `Nintendo 3DS`
-
-Assim que isto for feito, continue na [Seção I Passo 7](installing-boot9strap-(mset9)#section-i---prep-work).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 08: One or more files are missing or malformed!</u></summary>
-
-Um ou mais arquivos que o MSET9 precisa executar estão ausentes ou corrompidos. Rebaixe o [`.zip` MSET9 Release](https://github.com/zoogie/MSET9/releases/latest) e extraia-o para a raiz do seu cartão SD, substituindo todos os arquivos existentes e tente novamente.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 10: Database(s) malformed or missing!</u></summary>
-
-Isto acontece por que nenhuma title database está presente, normalmente porque você nunca instalou nenhum aplicativo da eShop com este cartão SD.
-
-1. Se você ainda não o fez, pressione Enter para fechar o script MSET9
-1. Insira seu cartão SD no seu console
-1. Ligue o seu console
-1. Navegue para Configurações do Sistema -> Gerenciamento de Dados -> Nintendo 3DS -> Software -> Reiniciar ([instruções visuais](/images/screenshots/database-reset.jpg))
-1. Desligue seu console
-1. Insira seu cartão SD no seu computador
-1. Retorne para [Seção I Passo 7](installing-boot9strap-(mset9)#section-i---prep-work)
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 12: You don't have 1 ID1, you have (#)!</u></summary>
-
-{% include_relative include/id1-check.txt %}
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Tela vermelha após reinserir cartão SD (Seção II Passo 11)</u></summary>
-
-Talvez você esteja sem o `SafeB9S.bin` na raiz do seu cartão SD, ou o arquivo pode estar corrompido. Copie-o do `.zip` do MSET9, substituindo quaisquer arquivos existentes.
-
-Alternativamente, seu cartão SD pode estar sem a formatação apropriada ou mal particionado. Tente reformatar seu cartão SD: [Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)) *(isto irá apagar seus dados do cartão SD)*
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Configurações do Sistema carregando infinitamente após reinserir o cartão SD</u></summary>
-
-É bem provável que você tenha feito algo de diferente das instruções do MSET9, ou selecionou o modelo ou versão errada.
-
-1. Feche a janela do script
-1. Execute o script `mset9.py` na raiz do seu cartão SD
-    + **Windows**: Clique duas vezes em `mset9.bat`
-    + **Linux**: Abra uma janela do Terminal, use `cd` até o root do seu cartão SD, então digite `python3 mset9.py` e pressione Enter
-    + Você deve ver uma janela que diz "MSET9 ... SETUP by zoogie"
-1. Digite o número correspondente ao modelo do seu console e a versão, então pressione Enter
-1. Digite `3`, então presione Enter
-1. Assim que a janela disser "Successfully removed MSET9!", reinsira o cartão SD no seu console
-1. Ligue o seu console
-1. Retorne para [Seção II Passo 1](installing-boot9strap-(mset9)#section-ii---mset9)
-
-Se o erro persistir e você ter certeza que fez tudo corretamente, é possível que tenha algo de errado com os dados extdata do Mii Maker. Siga estas instruções para redefini-los:
-
-1. Feche a janela do script
-1. Execute o script MSET9
-    + **Windows**: Clique duas vezes em `mset9.bat`
-    + **Linux**: Abra uma janela do Terminal, use `cd` até o root do seu cartão SD, então digite `python3 mset9.py` e pressione Enter
-    + Você deve ver uma janela que diz "MSET9 ... SETUP by zoogie"
-1. Digite o número correspondente ao modelo do seu console e a versão, então pressione Enter
-1. Digite `3` e pressione Enter para remover o MSET9
-1. Se possível, use um novo cartão SD; caso contrário, faça backup e reformate seu cartão SD atual para FAT32 ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)))
-1. Insira o cartão SD formatado e vazio no seu console
-1. Retorne à [Seção I Etapa 1](installing-boot9strap-(mset9)#section-i---prep-work)
-
-Depois de terminar a página MSET9, você deve voltar para o seu antigo cartão SD antes de terminar a instalação.
-{: .notice--warning}
-
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 

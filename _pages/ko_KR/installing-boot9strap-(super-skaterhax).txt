@@ -56,6 +56,17 @@ title: "boot9strap 설치 (super-skaterhax)"
 아직 안하셨다면, 콘솔을 인터넷에 연결해 주세요.
 {: .notice--info}
 
+{% capture set_date %}
+<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+1. 콘솔에서 본체 설정을 열어 주세요
+1. "기타 설정"을 선택해 주세요
+1. Navigate to "Date & Time" -> "Today's date"
+1. Tap Up/Down Arrows to set the correct Day, Month and Year
+1. Select OK to confirm
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. HOME 메뉴에서 L, R 버튼을 동시에 눌러 카메라를 열어 주세요
     + 카메라를 열 수 없다면, 인터넷 브라우저를 열어 URL을 직접 입력해주세요 (EUR/USA/JPN의 경우 `https://zoogie.github.io/web/super/`, KOR의 경우 `https://zoogie.github.io/web/korea`).
 1. QR 코드 버튼을 터치해, [여기](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)에서 콘솔의 지역에 맞는 QR 코드를 스캔해주세요
@@ -74,6 +85,8 @@ title: "boot9strap 설치 (super-skaterhax)"
     + If any prompts appear, approve all of them
     + 만약 콘솔에 노란 화면이 표시되면, 전원 버튼을 길게 눌러 콘솔의 전원을 끄고, 이 섹션을 다시 시도해 주세요
     + 만약 콘솔이 적색 화면에서 멈추는 경우, 전원 버튼을 길게 눌러 콘솔의 전원을 끄고, 섹션 II의 3단계를 다시 실행한 다음, 이 섹션을 다시 시도해 주세요
+    + If your console shows "Text" on the bottom screen, you have an Old 3DS and this exploit **will not work on your device**
+      + Return to [Get Started](get-started) and select Old 3DS/2DS as your model and reinput your system version
     + 또 다른 오류가 발생하면 최대 5회까지 다시 시도하고, 여전히 작동하지 않으면 [이 문제 해결 가이드를 따라 주세요](troubleshooting#installing-boot9strap-super-skaterhax)
 1. 콘솔은 Homebrew Launcher로 부팅되었을 겁니다
 1. 홈브류 목록에서 nimdsphax를 실행해 주세요

@@ -56,6 +56,17 @@ In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà
 Se non l'hai già fatto, assicurati di avere una connessione Internet funzionante configurata sulla tua console.
 {: .notice--info}
 
+{% capture set_date %}
+<summary>Se la data del tuo sistema non è corretta, questo exploit non funzionerà.<br>Segui i passaggi seguenti per impostare correttamente la data di sistema.</summary>
+1. Avvia le Impostazioni di sistema sulla tua console
+1. Seleziona "Impostazioni generali"
+1. Entra in "Data e ora" -> "Data"
+1. Tocca i pulsanti su/giù per impostare il giorno, il mese e l'anno corretti
+1. Premi OK per confermare
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. Nel menu HOME, premi contemporaneamente i pulsanti dorsali L e R per avviare la fotocamera
     + Se non riesci ad aprire la fotocamera, apri il browser Internet e digita manualmente l'URL (`https://zoogie.github.io/web/super/` per EUR/USA/JPN, `https://zoogie.github.io/web/korea` per KOR)
 1. Tocca il pulsante "codice QR" e scansiona uno dei seguenti codici QR per la regione della tua console [qui](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
@@ -74,6 +85,8 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
     + Se vengono visualizzate delle richieste, approvale tutte
     + Se la tua console si blocca con una schermata gialla, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione
     + Se la tua console si blocca con una schermata rossa, tieni premuto il pulsante POWER finché non si spegne, riprova il passo 3 della Sezione II, quindi riprova questa sezione
+    + Se la tua console mostra "Text" sullo schermo inferiore, hai un Old 3DS e questo exploit **non funzionerà sulla tua console**
+      + Ritorna a [Cominciamo!](get-started), seleziona Old 3DS/2DS come modello e reinserisci la versione del tuo sistema
     + Se ottieni un altro errore riprova altre 5 volte, e se continua a non funzionare [segui questa guida per risolvere il problema](troubleshooting#installing-boot9strap-super-skaterhax)
 1. La tua console avvierà l'Homebrew Launcher
 1. Avvia nimdsphax dalla lista degli homebrew
