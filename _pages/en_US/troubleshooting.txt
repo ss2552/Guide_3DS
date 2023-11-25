@@ -478,6 +478,16 @@ If this happened when trying to uninstall MSET9, the script has automatically re
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
+<summary><u>Error 04: No Home Menu Extdata.</u></summary>
+
+Your SD card is not formatted properly.
+
+Copy everything off the SD Card to your PC, re-format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux))), copy everything back, then start again from the beginning of [Section I](installing-boot9strap-(mset9)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
 <summary><u>Error 05: No Mii Maker Data!</u></summary>
 
 Mii Maker data was not found on the SD card. Start again from the beginning of [Section I](installing-boot9strap-(mset9)#section-i---prep-work).
