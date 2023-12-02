@@ -279,6 +279,14 @@ After finishing the MSET9 page, you should switch back to your old SD card befor
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
+{% capture compat %}
+<summary><u>An exception occured after triggering MSET9</u></summary>
+
+This likely indicates that you already have custom firmware. You should [check for CFW](checking-for-cfw).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
 ## Installing boot9strap (super-skaterhax)
 
 {% capture compat %}
@@ -383,7 +391,7 @@ The SSLoth proxy was incorrectly configured. Re-do the SSLoth section on the pag
 Follow these steps in order:
 
 1. Launch System Settings on your console
-1. Navigate to `Internet Settings` -> `Connection Settings`
+1. Navigiere zu `Interneteinstellungen` → `Verbindungseinstellungen`
 1. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
 1. Set "Proxy Settings" to "No"
 1. Click OK, then click Save
