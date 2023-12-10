@@ -1,12 +1,12 @@
 ---
-title: "Installing boot9strap (MSET9 CLI)"
+title: "Boot9strap telepítése (MSET9 CLI)"
 ---
 
 {% include toc title="Tartalomjegyzék" %}
 
 {% capture technical_info %}
 <summary><em>Technikai részletek (opcionális)</em></summary>
-[MSET9](https://github.com/zoogie/MSET9) is an exploit for the System Settings application developed by [zoogie](https://github.com/zoogie). It exploits a flaw where the ID1 (the second 32-character folder name inside of the Nintendo 3DS folder, inside of the ID0) can be *any* name as long as it is 32 characters. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the 3DS.
+Az [MSET9](https://github.com/zoogie/MSET9) egy exploit a System Setting alkalmazáshoz, amit [zoogie](https://github.com/zoogie) készített. Kihasznál egy hibát, ahol az ID1 (a második 32 karakteres mappanév a Nintendo 3DS mappán belül, az ID0-n belül) lehet *minden* név, amíg 32 karakteres. Egy adott műveletsor végrehajtása azt eredményezi, hogy a konzol végrehajtja az ID1 mappanévbe kódolt utasításokat, amelyek segítségével teljes körű irányítást szerez a 3DS felett.
 
 {% endcapture %}
 <details>{{ technical_info | markdownify }}</details>
@@ -14,32 +14,32 @@ title: "Installing boot9strap (MSET9 CLI)"
 
 ### Kompatibilitási megjegyzések
 
-This page requires a computer running Windows, Linux, or macOS. If you have an Android phone/tablet or a Chromebook, follow [Installing boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Ez a metódus Windows, Linux vagy MacOS számítógépet igényel. Ha Android telefonod/tableted vagy Chromebook-od van, kövesd a [Boot9strap telepítése (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) oldalt helyette. Ha nem férsz hozzá ezen eszközök egyikéhez sem, akkor [alternatív exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits) kell használnod.
 {: .notice--warning}
 
 ### Amire szükséged lesz
 
-* The latest release of [MSET9](https://github.com/zoogie/MSET9/releases/latest) (the Release `.zip` file)
-* Any 3.x version of [Python](https://www.python.org/downloads/) **installed on your computer**
-    + If you are on Linux or macOS, you may already have Python 3. Check by opening a Terminal window and entering `python3 -V`. Ha ez egy verziószámot ad vissza, működni fog ezzel az útmutatóval.
+* Az [MSET9](https://github.com/zoogie/MSET9/releases/latest) legújabb kiadása (a Release `.zip` fájl)
+* Bármelyik a **számítógépedre telepített 3.x verziója** a [Python](https://www.python.org/downloads/)-nak
+    + Ha Linux-ot vagy macOS-t használsz valószínűleg már van Python 3-ad. Ellenőrizd egy Terminal ablak megnyitásával, majd a `python3 -V` parancs megadásával. Ha ez egy verziószámot ad vissza, működni fog ezzel az útmutatóval.
 
 ### Lépések
 
-On this page, you will use the MSET9 script, which is used to trigger MSET9. If you get a numbered error (e.g. Error 01) when running the script, the solution to that error can most likely be found on the [troubleshooting](troubleshooting#installing-boot9strap-mset9) page.
+Ezen az oldalon a MSET9 szkriptet fogod használni, ami kiváltja az MSET9-et. Ha számozott hibát kapsz (pl. Error 01) a szkript futtatásakor, akkor a megoldás a hibára valószínüleg megtalálható a [hibaelhárítás](troubleshooting#installing-boot9strap-mset9) oldalon.
 {: .notice--info}
 
 #### I. rész - Előkészületek
 
-In this section, you will prepare the SD card data necessary for the MSET9 exploit to trigger.
+Ebben a részben előkészítjük az SD kártyád a szükséges adatokkal amik kiváltják az MSET9 exploitot.
 
 1. Kapcsold be a konzolod, miközben **az SD kártya be van helyezve**
-1. Open Mii Maker
-1. Wait for your console to reach the "Welcome to Mii Maker" screen, then exit Mii Maker
-    + You may see [this screen](/images/screenshots/mset9/mii-extdata.png), which indicates the necessary data has been created
-    + If you just reach the normal Mii Maker screen, exit Mii Maker and continue to the next step
+1. Nyisd meg a Mii Maker alkalmazást
+1. Várj amíg a konzolod elérí a "Welcome to Mii Maker" képernyőt, majd lépj ki a Mii Maker-ből
+    + [Ezt a képernyőt láthatod](/images/screenshots/mset9/mii-extdata.png), ami azt mutatja, hogy a szükséges adatok létrejöttek
+    + Ha normál Mii Maker képernyőre jutottál, lépj ki a Mii Maker-ből és folytasd a következő lépéssel
 1. Kapcsold ki a konzolod
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy everything from the Release `.zip` to the root of your SD card, overwriting any existing files
+1. Másolj át a mindent a Release `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt
 
     ![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout.png)
     {: .notice--info}
@@ -58,50 +58,51 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
     ![Image: MSET9 setup](/images/screenshots/mset9/mset9-setup.png)
     {: .notice--info}
 
-    + Ensure that the correct console model and version is displayed
-1. Type `1`, then press Enter to ensure your console is prepared for MSET9
-    + If you get an error, check the [troubleshooting](troubleshooting#installing-boot9strap-mset9), then try again
-1. If you see the message "Everything appears to be functional!", MSET9 is ready to be injected. Press Enter to close the MSET9 script
+    + Legyél biztos abban, hogy a helyes model és verzió megjelenített
+1. Nyomj `1`-et, majd Enter hogy a konzolod fel legyen készítve az MSET9-re
+    + Ha hibát kapsz, nézd meg a [hibaelhárítási útmutatót](troubleshooting#installing-boot9strap-mset9), majd próbáld újra
+1. Ha az "Everything appears to be functional!" üzenetet látod az MSET9 kész az injektálásra. Nyomj Enter-t az MSET9 szkript bezárásához
 1. Tedd vissza az SD kártyád a konzoldba
 1. Kapcsold be a konzolod
 
-#### Section II - MSET9
+#### II. rész - MSET9
 
-In this section, you will trigger MSET9 to launch SafeB9SInstaller (the custom firmware installer).
+Ebben a fejezetben az MSET9 fogod triggerelni, hogy elindítsa a SafeB9SInstaller-t (az egyedi firmware telepítőt).
 
-These instructions must be followed **EXACTLY**, so double-check EVERYTHING you are doing to avoid errors!
+Ezeket a lépéseket **PONTOSAN** kell követni, így ellenőrizz MINDENT kétszer a hibák elkerülése érdekében!
 {: .notice--danger}
 
-1. **[Hover over](/images/screenshots/mset9/hover-settings.png)** the System Settings icon using the D-Pad (do not select it yet)
-1. Power off, then power on your console
-1. Press (A) to launch System Settings
-1. Navigate to `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([image](/images/screenshots/mset9/settings-extdata.png))
-1. **Do not press any buttons or touch the screen** - ensure that you see the Mii Maker icon
-1. **With the console STILL ON, and without pressing any buttons or touching the screen**, remove your SD card from your console
-    + The menu will refresh and say that no SD card is inserted, which is expected
+1. **[Állj rá](/images/screenshots/mset9/hover-settings.png)** a System Settings ikonra a D-Pad 
+ használatával (de még ne válaszd ki)
+1. Kapcsold ki, majd vissza a konzolod
+1. Nyomj (A) gombot a System Settings indításához
+1. Navigálj ide: `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([image](/images/screenshots/mset9/settings-extdata.png))
+1. **Ne nyomj semmilyen gombot vagy érintsd meg a képernyőt** - legyél biztos abban, hogy látod a Mii Maker ikonját
+1. ** A konzolod BEKAPCSOLT állapotában, bármilyen gomb vagy a képernyő érintése nélkül** vedd ki az SD kártyádat a konzolból
+    + A menü frissülni fog, és ki fogja írni, hogy nincs SD kártya behelyezve, ami elvárt működés
 1. Helyezd az SD kártyád a számítógépbe
 1. Futtasd az MSET9 szkriptet:
     + **Windows**: Dupla kattintás az `mset9.bat`-on
     + **macOS**: Dupla kattintás az `mset9.command`-on, majd add meg a jelszavad, ha kéri
     + **Linux**: nyiss meg egy Terminal ablakot, majd `cd`-z az SD kártyád gyökerébe, és írd be, a `python3 mset9.py` parancsot és nyomj Enter-t
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és nyomj Enter-t
-1. In the MSET9 window, type `2`, then press Enter to inject MSET9
-    + You should see "MSET9 successfully injected!"
-1. Press Enter to close the MSET9 script
-1. Reinsert your SD card into your console **without pressing any buttons or touching the screen**
+1. Az MSET9 ablakba írj `2`-t és nyomj Enter-t az MSET9 injektálásához
+    + Az "MSET9 successfully injected!" üzenetet kell látnod
+1. Nyomj Enter-t az MSET9 szkript bezárásához
+1. Helyezd vissza az SD kártyád a konzolodba, **bármilyen gomb vagy a képernyő érintése nélkül**
 1. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert 
-    + If you get a red screen or the console gets stuck on a loading screen, follow the [troubleshooting guide](troubleshooting#installing-boot9strap-mset9)
+    + Ha piros képernyőt kapsz vagy a konzol beragad a betöltő képernyőn, kövesd a [hibaelhárítási útmutatót](troubleshooting#installing-boot9strap-mset9)
 
 #### III. rész - boot9strap telepítése
 
 {% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
 {%- include_relative include/configure-luma3ds.txt %}
 
-#### Section IV - Removing MSET9
+#### IV. rész- Az MSET9 eltávolítása
 
-In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)
+Ebben a fejezetben el fogod távolítani az MSET9-et, hogy megelőzz további problémákat. (Ez nem fogja eltávolítani az egyéni firmware-t amit éppen telepítettél.)
 
-Do NOT skip this section! If you skip it, applications may crash unexpectedly and you will encounter errors on the next page!
+NE ugord át ezt a részt! Ha kihagyod, akkor az alkalmazások váratlanul összeomolhanak és hibákat fogsz kapni a következő oldalon!
 {: .notice--danger}
 
 1. Kapcsold ki a konzolod
@@ -113,7 +114,7 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és nyomj Enter-t
 1. Az MSET9 ablakba írj `3`-at és nyomj Enter-t az MSET9 eltávolításához
     + A "Successfully removed MSET9!" üzenetet kell látnod
-1. Press Enter to close the MSET9 script
+1. Nyomj Enter-t az MSET9 szkript bezárásához
 
 {% include_relative include/luma3ds-installed-note.txt %}
 ___
