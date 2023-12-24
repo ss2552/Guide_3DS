@@ -386,11 +386,7 @@ window.cookieconsent.initialise({
           
         
           
-            <li style="display: none;" data-name="finalizing-setup"><a href='/hu_HU/installing-boot9strap-(kartdlphax)'>Boot9strap telepítése (kartdlphax)</a></li>
-          
-        
-          
-            <li style="display: none;" data-name=""><a href='/hu_HU/finalizing-setup'>Telepítés véglegesítése</a></li>
+            <li style="display: none;" data-name="finalizing-setup"><a href='/hu_HU/finalizing-setup'>Finalizing Setup</a></li>
           
         
       </ol>
@@ -469,7 +465,7 @@ window.cookieconsent.initialise({
 
 <h3 id="kompatibilitási-megjegyzések">Kompatibilitási megjegyzések</h3>
 
-<p class="notice--warning">Ez az oldal Android telefont/tabletet vagy Chromebook-ot igényel. Ha Windows, macOS, or Linux számítógéped van, kövesd a <a href="installing-boot9strap-(mset9-cli)">Boot9strap telepítése (MSET9 CLI)</a> oldalt helyette. Ha nem férsz hozzá ezen eszközök egyikéhez sem, akkor <a href="alternate-exploits">alternatív exploit</a>-ot kell használnod.</p>
+<p class="notice--warning">Ez az oldal Android telefont/tabletet vagy Chromebook-ot igényel. Ha Windows, macOS, or Linux számítógéped van, kövesd a <a href="installing-boot9strap-(mset9-cli)">Boot9strap telepítése (MSET9 CLI)</a> oldalt helyette. Ha nem férsz hozzá ezen eszközök egyikéhez sem, akkor <a href="https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits">alternatív exploit</a> kell használnod.</p>
 
 <p class="notice--warning">Android telefonokon/tableteken a szükséges minimum Android verzió: 6.0 (Marshmallow).</p>
 
@@ -506,20 +502,20 @@ window.cookieconsent.initialise({
   <li>Másolj át a mindent a Release <code class="language-plaintext highlighter-rouge">.zip</code>-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt:
     <ul>
       <li>Nyisd meg a ZArchiver-t</li>
-      <li>If prompted, <a href="/images/screenshots/mset9/zarchiver-allow.png">allow ZArchiver to access files on your SD card</a></li>
-      <li>Navigate to where the downloaded MSET9 Release <code class="language-plaintext highlighter-rouge">.zip</code> is located (<a href="/images/screenshots/mset9/zarchiver-zip-location.png">likely in the Downloads folder</a>)</li>
-      <li>Select the Release <code class="language-plaintext highlighter-rouge">.zip</code>, then select “Extract…” (<a href="/images/screenshots/mset9/zarchiver-extract-1.png">image</a>)</li>
-      <li>Navigate to your SD card, then tap the blue ‘down arrow’ icon to extract the files to the root of your SD card (<a href="/images/screenshots/mset9/zarchiver-extract-2.png">image</a>)</li>
+      <li>Ha kérdezi, <a href="/images/screenshots/mset9/zarchiver-allow.png">engedd a ZArchiver-t, hogy hozzá férjen z SD kártya fájljaihoz</a></li>
+      <li>Navigálj oda, aholva letöltötted az MSET9 Release <code class="language-plaintext highlighter-rouge">.zip</code>-et (<a href="/images/screenshots/mset9/zarchiver-zip-location.png">valószínűleg a Letöltések (Downloads) mappa</a>)</li>
+      <li>Válaszd a Release <code class="language-plaintext highlighter-rouge">.zip</code>-et majd az “Extract…” (<a href="/images/screenshots/mset9/zarchiver-extract-1.png">image</a>) (Kicsomagol) opciót</li>
+      <li>Navigálj az SD kártyádra, majd nyomd meg a kék “lefelé nyilat”, hogy kicsomagold a fájlokat az SD kártyád gyökerébe (<a href="/images/screenshots/mset9/zarchiver-extract-2.png">kép</a>)</li>
     </ul>
 
     <p class="notice--info"><img src="/images/screenshots/mset9/mset9-root-layout-android.png" alt="MSET9 root layout" /></p>
   </li>
-  <li>Run the <a href="/images/screenshots/mset9/mset9-setup-android.png">MSET9 Installer application</a></li>
-  <li>Tap on <code class="language-plaintext highlighter-rouge">Select "Nintendo 3DS" Folder</code>, then navigate to your <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder on your SD card (<a href="/images/screenshots/mset9/select-mset9-folder-1.png">image</a>)</li>
-  <li>Once inside the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder, tap on “Use this folder”, then “Allow” if asked (<a href="/images/screenshots/mset9/select-mset9-folder-2.png">image</a>)</li>
-  <li>If “Setup MSET9” is <a href="/images/screenshots/mset9/setup-mset9-highlighted.png">highlighted</a>, MSET9 is ready to be injected. Close the MSET9 Installer for now
+  <li>Futtasd az <a href="/images/screenshots/mset9/mset9-setup-android.png">MSET9 Installer alkalmazást</a></li>
+  <li>Válaszd a <code class="language-plaintext highlighter-rouge">Select "Nintendo 3DS" Folder</code> opciót, majd navigálj a <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> mappához az SD kártyádon(<a href="/images/screenshots/mset9/select-mset9-folder-1.png">kép</a>)</li>
+  <li>Ha a <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> mappában vagy, érintsd meg a “Use this folder” opciót, majd az “Allow”-ot, ha kérdezi (<a href="/images/screenshots/mset9/select-mset9-folder-2.png">kép</a>)</li>
+  <li>Ha a “Setup MSET9” opció <a href="/images/screenshots/mset9/setup-mset9-highlighted.png">kiemelt</a>, akkor az MSET9 kész az injektálásra. Zárd be az MSET9 Installer-t most
     <ul>
-      <li>If “Check Again” is highlighted, there is a problem that you need to resolve before you can use MSET9. Refer to the <a href="troubleshooting#installing-boot9strap-mset9">troubleshooting</a></li>
+      <li>Ha a “Check Again” a kiemelt, akkor problémába ütközték, amit fel kellene oldani, mielőtt használatod az MSET9-et. Használd a <a href="troubleshooting#installing-boot9strap-mset9">hibaelhárítást</a></li>
     </ul>
   </li>
   <li>Tedd vissza az SD kártyád a konzoldba</li>
