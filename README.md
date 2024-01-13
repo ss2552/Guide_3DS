@@ -10,7 +10,13 @@ This requires the following installed on your system:
 - ruby(-dev)
 - bundler
 
-To test the website locally, simply run the following commands:
+To test the website locally, clone the source code:
+```sh
+git clone https://github.com/hacks-guide/Guide_3DS --recurse-submodules
+cd Guide_3DS
+```
+
+Then simply run the following commands:
 
 ```sh
 bundle config set --local path vendor/bundle

@@ -1,0 +1,4 @@
+[submodule "_theme"]
+	url = https://github.com/hacks-guide/minimal-mistakes
+	path = _theme
+	branch = hacks-guide
