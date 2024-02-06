@@ -382,7 +382,7 @@ window.cookieconsent.initialise({
           
         
           
-            <li style="display: none;" data-name="finalizing-setup"><a href='/it_IT/finalizing-setup'>Finalizing Setup</a></li>
+            <li style="display: none;" data-name="finalizing-setup"><a href='/it_IT/finalizing-setup'>Completamento dell'installazione</a></li>
           
         
       </ol>
@@ -897,18 +897,30 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>Error #02: Missing essential.exefs</u></summary>
+<summary><u>Error #22: finalize.romfs is invalid</u></summary>
 
-<p>Hai risposto ‘No’ alla richiesta “Make essential files backup?” in GodMode9. Spegni la console, riaccendila tenendo premuto (Start) per avviare GodMode9, rispondi ‘Yes’ alla domanda, quindi riprova.</p>
+<p>The file <code class="language-plaintext highlighter-rouge">finalize.romfs</code> is corrupt or unreadable. <a href="/assets/finalize.romfs">Re-download it</a> and copy it to the root of the SD card, replacing any existing copy, then try again.</p>
 
 </details>
 
 <details>
-<summary><u>Impossibile avviare GodMode9 o Error #03: Missing files</u></summary>
+<summary><u>Information #23: finalize.romfs in wrong location</u></summary>
 
-<p>Non hai copiato tutto dall’archivio <code class="language-plaintext highlighter-rouge">finalize.zip</code> nella directory principale della tua scheda SD. Ricorda, la tua scheda SD deve avere almeno questi file:</p>
+<p>The file <code class="language-plaintext highlighter-rouge">finalize.romfs</code> was placed in the wrong location instead of root of SD. The script will attempt to resolve this, but requires your permission to do so. Press (A) on the next few prompts to continue.</p>
 
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
+</details>
+
+<details>
+<summary><u>Error #24: SD is write-protected</u></summary>
+
+<p>Assicurati che la tua scheda SD non sia <a href="/images/sdlock.png">protetta dalla scrittura</a>. Se la scheda SD non è protetta e continui ad ottenere questo errore, entra nel <a href="https://discord.gg/MWxPgEp">canale Nintendo Homebrew su Discord</a> per ricevere assistenza.</p>
+
+</details>
+
+<details>
+<summary><u>Error #02: Missing essential.exefs</u></summary>
+
+<p>Hai risposto ‘No’ alla richiesta “Make essential files backup?” in GodMode9. Spegni la console, riaccendila tenendo premuto (Start) per avviare GodMode9, rispondi ‘Yes’ alla domanda, quindi riprova.</p>
 
 </details>
 
@@ -987,22 +999,6 @@ window.cookieconsent.initialise({
 </ol>
 
 <p>Se riieni di avere abbastanza spazio sulla tua scheda SD, questa potrebbe essere danneggiata o difettosa. Verifica la presenza di eventuali errori nella tua scheda SD seguendo la guida corretta per il sistema operativo del tuo computer: <a href="h2testw-(windows)">Windows</a>, <a href="f3-(linux)">Linux</a>, <a href="f3xswift-(mac)">macOS</a>.</p>
-</details>
-
-<details>
-<summary><u>Error #09: Unsupported GodMode9 version</u></summary>
-
-<p>Per qualche motivo stai eseguendo una versione di GodMode9 non inclusa con lo script. Assicurati di aver copiato il contenuto dell’archivio <code class="language-plaintext highlighter-rouge">finalize.zip</code> nella directory principale della tua scheda SD e che stai tenendo premuto il tasto START all’accensione della tua console.</p>
-
-</details>
-
-<details>
-<summary><u>Error #11: Missing donor database</u></summary>
-
-<p>Non hai copiato tutto dall’archivio <code class="language-plaintext highlighter-rouge">finalize.zip</code> nella directory principale della tua scheda SD. Ricorda, la tua scheda SD deve avere almeno questi file:</p>
-
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
-
 </details>
 
 <details>

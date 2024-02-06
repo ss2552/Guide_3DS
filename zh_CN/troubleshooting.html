@@ -898,18 +898,30 @@ window.cookieconsent.initialise({
 </details>
 
 <details>
-<summary><u>Error #02: Missing essential.exefs</u></summary>
+<summary><u>Error #22: finalize.romfs is invalid</u></summary>
 
-<p>You said ‘No’ to the “Make essential files backup?” prompt in GodMode9. Power off your console, power it on while holding (Start) to re-enter GodMode9, say ‘Yes’ to the prompt, then try again.</p>
+<p>The file <code class="language-plaintext highlighter-rouge">finalize.romfs</code> is corrupt or unreadable. <a href="/assets/finalize.romfs">Re-download it</a> and copy it to the root of the SD card, replacing any existing copy, then try again.</p>
 
 </details>
 
 <details>
-<summary><u>Unable to open GodMode9 or Error #03: Missing files</u></summary>
+<summary><u>Information #23: finalize.romfs in wrong location</u></summary>
 
-<p>You did not copy everything from <code class="language-plaintext highlighter-rouge">finalize.zip</code> to the root of your SD card. Remember, your SD card should have at least these files:</p>
+<p>The file <code class="language-plaintext highlighter-rouge">finalize.romfs</code> was placed in the wrong location instead of root of SD. The script will attempt to resolve this, but requires your permission to do so. Press (A) on the next few prompts to continue.</p>
 
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
+</details>
+
+<details>
+<summary><u>Error #24: SD is write-protected</u></summary>
+
+<p>Ensure that your SD card is not <a href="/images/sdlock.png">locked</a>. If the SD card is not locked and you continue to get this error, join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> for assistance.</p>
+
+</details>
+
+<details>
+<summary><u>Error #02: Missing essential.exefs</u></summary>
+
+<p>You said ‘No’ to the “Make essential files backup?” prompt in GodMode9. Power off your console, power it on while holding (Start) to re-enter GodMode9, say ‘Yes’ to the prompt, then try again.</p>
 
 </details>
 
@@ -924,7 +936,7 @@ window.cookieconsent.initialise({
   <li>Copy the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder from the root of your SD card to your computer</li>
   <li>Delete the Nintendo 3DS folder from the SD card</li>
   <li>Reinsert your SD card into your console</li>
-  <li>Press and hold (Start), and while holding (Start), power on your console. 这会启动 GodMode9</li>
+  <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>Press the (Home) button</li>
   <li>选择 “Scripts…”</li>
   <li>Select “finalize”</li>
@@ -949,7 +961,7 @@ window.cookieconsent.initialise({
 
 <ol>
   <li>Reinsert your SD card into your console</li>
-  <li>Press and hold (Start), and while holding (Start), power on your console. 这会启动 GodMode9</li>
+  <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>Press the (Home) button</li>
   <li>选择 “Scripts…”</li>
   <li>Select “finalize”</li>
@@ -979,7 +991,7 @@ window.cookieconsent.initialise({
   <li>Copy the <code class="language-plaintext highlighter-rouge">Nintendo 3DS</code> folder from the root of your SD card to your computer</li>
   <li>Delete the Nintendo 3DS folder from the SD card</li>
   <li>Reinsert your SD card into your console</li>
-  <li>Press and hold (Start), and while holding (Start), power on your console. 这会启动 GodMode9</li>
+  <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>Perform a <a href="godmode9-usage#creating-a-nand-backup">NAND Backup</a></li>
   <li>Copy the files in <code class="language-plaintext highlighter-rouge">gm9/out</code> on your SD to a safe location on your computer</li>
   <li>Delete the <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin</code> and <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin.sha</code> files from the SD card, keeping essential.exefs in <code class="language-plaintext highlighter-rouge">/gm9/out/</code></li>
@@ -988,22 +1000,6 @@ window.cookieconsent.initialise({
 </ol>
 
 <p>If you have enough space on your SD card, your SD might be corrupted or faulty. Check your SD card for any errors by following the guide according to your computer’s operating system: <a href="h2testw-(windows)">Windows</a>, <a href="f3-(linux)">Linux</a>, <a href="f3xswift-(mac)">macOS</a>.</p>
-</details>
-
-<details>
-<summary><u>Error #09: Unsupported GodMode9 version</u></summary>
-
-<p>You are somehow running a version of GodMode9 not packaged with the script. Make sure you copied the contents of <code class="language-plaintext highlighter-rouge">finalize.zip</code> to the root of your SD card and that you are holding START while powering on your console.</p>
-
-</details>
-
-<details>
-<summary><u>Error #11: Missing donor database</u></summary>
-
-<p>You did not copy everything from <code class="language-plaintext highlighter-rouge">finalize.zip</code> to the root of your SD card. Remember, your SD card should have at least these files:</p>
-
-<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
-
 </details>
 
 <details>
@@ -1028,7 +1024,7 @@ window.cookieconsent.initialise({
       <li>If you do not have a Nintendo 3DS folder, boot into the HOME Menu at least once with the SD card inserted to automatically generate it</li>
     </ul>
   </li>
-  <li>Press and hold (Start), and while holding (Start), power on your console. 这会启动 GodMode9</li>
+  <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>按下 “Home” 键来打开功能菜单</li>
   <li>选择 “Scripts…”</li>
   <li>Select “finalize”</li>

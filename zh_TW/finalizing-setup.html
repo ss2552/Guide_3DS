@@ -442,10 +442,9 @@ window.cookieconsent.initialise({
   <li><a href="#必備項目" id="markdown-toc-必備項目">必備項目</a></li>
   <li><a href="#操作說明" id="markdown-toc-操作說明">操作說明</a>    <ul>
       <li><a href="#第一節--準備工作" id="markdown-toc-第一節--準備工作">第一節 — 準備工作</a></li>
-      <li><a href="#section-ii---cfw-check" id="markdown-toc-section-ii---cfw-check">Section II - CFW Check</a></li>
-      <li><a href="#section-iii---updating-the-system" id="markdown-toc-section-iii---updating-the-system">Section III - Updating the System</a></li>
-      <li><a href="#section-iv---rtc-and-dsp-setup" id="markdown-toc-section-iv---rtc-and-dsp-setup">Section IV - RTC and DSP setup</a></li>
-      <li><a href="#section-v---setup-script" id="markdown-toc-section-v---setup-script">Section V - Setup Script</a></li>
+      <li><a href="#section-ii---updating-the-system" id="markdown-toc-section-ii---updating-the-system">Section II - Updating the System</a></li>
+      <li><a href="#section-iii---rtc-and-dsp-setup" id="markdown-toc-section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</a></li>
+      <li><a href="#section-iv---setup-script" id="markdown-toc-section-iv---setup-script">Section IV - Setup Script</a></li>
     </ul>
   </li>
   <li><a href="#information-and-notes" id="markdown-toc-information-and-notes">Information and Notes</a></li>
@@ -485,7 +484,8 @@ window.cookieconsent.initialise({
 <h3 id="必備項目">必備項目</h3>
 
 <ul>
-  <li><a href="/assets/finalizing.zip">finalizing.zip</a> (direct download)</li>
+  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (direct download)</li>
+  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (direct download)</li>
 </ul>
 
 <h3 id="操作說明">操作說明</h3>
@@ -497,11 +497,9 @@ window.cookieconsent.initialise({
 <ol>
   <li>Power off your console</li>
   <li>將 SD 卡插入至電腦中</li>
-  <li>Copy the contents of <code class="language-plaintext highlighter-rouge">finalizing.zip</code> (<code class="language-plaintext highlighter-rouge">finalize</code>, <code class="language-plaintext highlighter-rouge">gm9</code>, and <code class="language-plaintext highlighter-rouge">luma</code>) to the root of your SD card, merging/replacing any existing folders if prompted
-    <ul>
-      <li>If you are using a Mac, hold the Option key while dragging the folders to the root of your SD card, then click “Merge”</li>
-    </ul>
-  </li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">finalize.romfs</code> to the root of your SD card</li>
+  <li>Open the <code class="language-plaintext highlighter-rouge">luma</code> folder and create a folder named <code class="language-plaintext highlighter-rouge">payloads</code> inside, if it does not already exist</li>
+  <li>Copy <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> to the <code class="language-plaintext highlighter-rouge">payloads</code> folder</li>
   <li>Reinsert your SD card into your console</li>
 </ol>
 
@@ -509,21 +507,9 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-root-layout.png" alt="" /></p>
 
-<h4 id="section-ii---cfw-check">Section II - CFW Check</h4>
+<p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-luma-payloads.png" alt="" /></p>
 
-<p>As an additional safety measure, we will perform an additional check for custom firmware. If custom firmware is not installed by this point for any reason, the next section may render your console unable to be hacked without external hardware.</p>
-
-<ol>
-  <li>Power off your console</li>
-  <li>按住「Select」鍵</li>
-  <li>Power on your console while still holding the (Select) button</li>
-  <li>If the check was successful, your console should have booted into the Luma3DS configuration menu</li>
-  <li>按『Start』鍵以存檔並重新啟動系統</li>
-</ol>
-
-<p class="notice--danger">If you do NOT boot into the Luma3DS configuration menu, custom firmware was not installed on your console. Join <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a> and ask, in English, for help.</p>
-
-<h4 id="section-iii---updating-the-system">Section III - Updating the System</h4>
+<h4 id="section-ii---updating-the-system">Section II - Updating the System</h4>
 
 <p>In this section, you will update your system to the latest version, which is safe to do with custom firmware.</p>
 
@@ -538,7 +524,7 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="section-iv---rtc-and-dsp-setup">Section IV - RTC and DSP setup</h4>
+<h4 id="section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</h4>
 
 <p>In this section, you will sync your 3DS internal clock with the actual time and dump the sound firmware (which is necesssary for some homebrew software to use sound properly).</p>
 
@@ -557,15 +543,23 @@ window.cookieconsent.initialise({
   <li>按『B』退出 Rosalina 選單</li>
 </ol>
 
-<h4 id="section-v---setup-script">Section V - Setup Script</h4>
+<h4 id="section-iv---setup-script">Section IV - Setup Script</h4>
 
-<p>In this section, you will use a script to automate homebrew installation, SD card cleanup, and system file backup.</p>
+<p>In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.</p>
 
 <ol>
   <li>Power off your console</li>
-  <li>Press and hold (Start), and while holding (Start), power on your console. 這將會啟動 GodMode9
+  <li>Press and hold (Start), and while holding (Start), power on your console. This will launch the Finalizing Setup Helper
     <ul>
-      <li>If you do not boot into GodMode9, ensure that you copied the three folders from <code class="language-plaintext highlighter-rouge">finalizing.zip</code> to the root of your SD card and that the folders are not misnamed (e.g. <code class="language-plaintext highlighter-rouge">luma (1)</code>)</li>
+      <li>If you boot to the Luma3DS configuration menu, you held SELECT instead of START</li>
+      <li>If you boot to the HOME Menu, your <code class="language-plaintext highlighter-rouge">payloads</code> folder may be incorrectly spelled or in the wrong location</li>
+      <li>If you see a “Luma3DS Chainloader” menu, use the D-Pad and (A) buttons to navigate to and select <code class="language-plaintext highlighter-rouge">finalize_helper</code> from the list</li>
+      <li>If you encounter an error, consult the <a href="troubleshooting#finalizing-setup">troubleshooting</a> page</li>
+    </ul>
+  </li>
+  <li>If the Helper was successful, your console will boot into GodMode9
+    <ul>
+      <li>From this point forward, you can access GodMode9 by holding START while powering on your console</li>
     </ul>
   </li>
   <li>當提示重要檔案備份時，按下『A』繼續，並在完畢後按下『A』繼續</li>
@@ -580,7 +574,7 @@ window.cookieconsent.initialise({
   </li>
   <li>Once the script says “Setup complete!”, press (A) to power off the device
     <ul>
-      <li>If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section</li>
+      <li>If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section from Step 3</li>
     </ul>
   </li>
   <li>將 SD 卡插入至電腦中</li>
@@ -602,9 +596,9 @@ window.cookieconsent.initialise({
 
 <p class="notice--success">大功告成！ Custom firmware is now fully configured on your console.</p>
 
-<h3 id="information-and-notes">Information and Notes</h3>
-
 <p class="notice--info">Trying to figure out what to do with your newly modded device? Visit <a href="https://wiki.hacks.guide/wiki/3DS:Things_to_do">our wiki</a>!</p>
+
+<h3 id="information-and-notes">Information and Notes</h3>
 
 <div class="notice--info">
 <p>以下是你該注意的快捷鍵：</p>
