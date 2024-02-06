@@ -36,7 +36,7 @@ safecerthax는 시스템 버전 1.0.0 - 11.14.0가 설치되어 있는 모든 �
     + 카메라 앱이 실행되어야 합니다
 1. 콘솔의 전원을 꺼 주세요
 
-카메라가 보이지 않으면 이 방법을 따를 수 없습니다. If this is the case, use [Installing boot9strap (MSET9)](installing-boot9strap-(mset9)) instead.
+카메라가 보이지 않으면 이 방법을 따를 수 없습니다. 이 경우, [boot9strap 설치 (MSET9)](installing-boot9strap-(mset9)) 를 진행해 주세요.
 {: .notice--warning}
 
 #### 섹션 II - 준비 작업
