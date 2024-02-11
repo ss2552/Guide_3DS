@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="creating-a-nand-backup">Creating a NAND Backup</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="restoring-a-nand-backup">Restoring a NAND Backup</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>Select your NAND backup</li>
   <li>Press (A) to unlock SysNAND (lvl3) writing, then input the key combo given
     <ul>
-      <li>This will not overwrite your boot9strap installation</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>This process will take some time</li>
     </ul>
   </li>
@@ -555,21 +559,27 @@ window.cookieconsent.initialise({
   <li>Press (A) to relock write permissions if prompted</li>
 </ol>
 
-<h2 id="injecting-any-cia-app-into-health--safety">Injecting any .CIA app into Health &amp; Safety</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">For organizational purposes, copy the <code class="language-plaintext highlighter-rouge">.cia</code> file you wish to inject to the <code class="language-plaintext highlighter-rouge">/cias/</code> folder on your SD card</p>
+<h2 id="injecting-any-cia-app-into-health--safety">Injecting any .CIA app into Health &amp; Safety</h2>
 
 <p class="notice--info">Note that it is not possible to inject files into Health &amp; Safety that are larger than it (including games and other large applications)</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>Navigate to <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it, then select “CIA image options…”, then select “Mount image to drive”</li>
-  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file, then select “NCCH image options”, then select “Inject to H&amp;S”</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given</li>
   <li>Press (A) to continue</li>
   <li>Press (A) to relock write permissions if prompted</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="restoring-health--safety-after-injecting-a-cia-app">Restoring Health &amp; Safety after injecting a .CIA app</h2>
 
@@ -584,12 +594,19 @@ window.cookieconsent.initialise({
   <li>Press (A) to relock write permissions if prompted</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="format-an-sd-card">Format an SD card</h2>
 
 <p class="notice--danger"><strong>Note that this will erase the contents of your SD card!</strong></p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>Press (Home) to bring up the action menu</li>
   <li>Select “More…”</li>
   <li>Select “SD format menu”</li>
@@ -603,7 +620,11 @@ window.cookieconsent.initialise({
   <li>When prompted, input the key combo given to confirm</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="removing-an-nnid-without-formatting-your-console">Removing an NNID without formatting your console</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
@@ -620,6 +641,8 @@ window.cookieconsent.initialise({
   <li>Press (A) to relock write permissions if prompted</li>
   <li>Press (Start) to reboot your console</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>
