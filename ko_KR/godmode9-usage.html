@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>SD 카드를 콘솔에 다시 삽입해 주세요</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="nand-백업-생성">NAND 백업 생성</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>SD 카드를 콘솔에 다시 삽입해 주세요</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="nand-백업-복구">NAND 백업 복구</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>NAND 백업 파일을 선택해 주세요</li>
   <li>(A) 를 눌려 SysNAND (lvl3) 쓰기 잠금을 풀고 화면에 표시된 키 조합을 입력해 주세요
     <ul>
-      <li>이 과정은 boot9strap를 덮어쓰지 않습니다</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>이 과정은 시간이 좀 걸릴 것입니다</li>
     </ul>
   </li>
@@ -555,21 +559,27 @@ window.cookieconsent.initialise({
   <li>메세지가 표시되면, (A)를 눌러서 쓰기잠금을 확인해 주세요</li>
 </ol>
 
-<h2 id="cia-앱을-안전을-위한-주의사항에-주입">.CIA 앱을 안전을 위한 주의사항에 주입</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">작업에 앞서, 주입하고자 하는 <code class="language-plaintext highlighter-rouge">.cia</code> 파일을 SD 카드의 <code class="language-plaintext highlighter-rouge">/cias/</code> 폴더에 복사해 주세요.</p>
+<h2 id="cia-앱을-안전을-위한-주의사항에-주입">.CIA 앱을 안전을 위한 주의사항에 주입</h2>
 
 <p class="notice--info">안전을 위한 주의사항 앱보다 용량이 큰 파일은 주입할 수 없습니다. (용량이 큰 게임과 다른 큰 어플리케이션 등)</p>
 
 <ol>
   <li>(Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행될 겁니다</li>
   <li><code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code>로 이동해 주세요</li>
-  <li><code class="language-plaintext highlighter-rouge">.cia</code>에 (A)를 눌러 선택하고 “CIA image options…“를 선택하고 “Mount image to drive”를 선택해 주세요</li>
-  <li><code class="language-plaintext highlighter-rouge">.app</code> 파일에 (A)를 부르고 “NCCH image options”를 선택하고 “Inject to H&amp;S”를 선택해 주세요</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>(A)를 눌려 SysNAND (lvl1) 쓰기 잠금을 풀고 주어진 키 조합을 입력해 주세요</li>
   <li>(A)를 눌러 진행해 주세요</li>
   <li>메세지가 표시되면, (A)를 눌러서 쓰기잠금을 확인해 주세요</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="cia-앱-주입-이후-안전을-위한-주의사항-복구">.CIA 앱 주입 이후 안전을 위한 주의사항 복구</h2>
 
@@ -584,12 +594,19 @@ window.cookieconsent.initialise({
   <li>메세지가 표시되면, (A)를 눌러서 쓰기잠금을 확인해 주세요</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="sd-카드-포맷">SD 카드 포맷</h2>
 
 <p class="notice--danger"><strong>이 과정 중 SD 카드의 모든 정보가 지워진다는 것을 명심해 주세요!</strong></p>
 
 <ol>
   <li>(Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행될 겁니다</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>(Home)을 눌러 작업 메뉴를 열어 주세요</li>
   <li>“More…“를 선택해 주세요</li>
   <li>“SD format menu”를 선택해 주세요</li>
@@ -603,7 +620,11 @@ window.cookieconsent.initialise({
   <li>메시지가 나타나면 사용을 확인하기 위해 주어진 키 조합을 입력해 주세요</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="콘솔을-포맷하지-않고-nnid-제거하기">콘솔을 포맷하지 않고 NNID 제거하기</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>(Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행될 겁니다</li>
@@ -620,6 +641,8 @@ window.cookieconsent.initialise({
   <li>메세지가 표시되면, (A)를 눌러서 쓰기잠금을 확인해 주세요</li>
   <li>(Start)를 눌러 콘솔을 다시 시작해 주세요</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>

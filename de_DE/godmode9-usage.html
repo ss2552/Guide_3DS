@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="erstellen-einer-nand-sicherheitskopie">Erstellen einer NAND-Sicherheitskopie</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="wiederherstellen-einer-nand-sicherheitskopie">Wiederherstellen einer NAND-Sicherheitskopie</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>Wähle dein NAND backup aus</li>
   <li>Drücke (A) um die Schreibrechte für SysNAND (lvl3) zu aktivieren und gibt dann die angezeigte Tastenkombination ein
     <ul>
-      <li>Die Installation von boot9strap wird dadurch nicht überschrieben</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>Dieser Vorgang nimmt einige Zeit in Anspruch</li>
     </ul>
   </li>
@@ -555,9 +559,9 @@ window.cookieconsent.initialise({
   <li>Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst</li>
 </ol>
 
-<h2 id="injektion-einer-beliebigen-cia-app-in-die-gesundheits--und-sicherheitsinformationen-app">Injektion einer beliebigen .CIA app in die “Gesundheits- und Sicherheitsinformationen”-App</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">Für organisatorische Zwecke kopiere die <code class="language-plaintext highlighter-rouge">.cia</code>-Datei, die du initiieren willst, in den <code class="language-plaintext highlighter-rouge">/cias/</code>-Ordner auf deiner SD-Karte</p>
+<h2 id="injektion-einer-beliebigen-cia-app-in-die-gesundheits--und-sicherheitsinformationen-app">Injektion einer beliebigen .CIA app in die “Gesundheits- und Sicherheitsinformationen”-App</h2>
 
 <p class="notice--info">Beachte, dass es nicht möglich ist, Dateien in die
 Gesundheit &amp; Sicherheitsinformationen zu injizieren, die größer sind als die eigentliche App (einschließlich Spiele und andere große Anwendungen)</p>
@@ -565,12 +569,18 @@ Gesundheit &amp; Sicherheitsinformationen zu injizieren, die größer sind als d
 <ol>
   <li>Drücke und halte (Start), und während du (Start) hältst, schaltest du deine Konsole ein. Dies wird GodMode9 starten</li>
   <li>Navigiere zu <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt;<code class="language-plaintext highlighter-rouge"> cias</code></li>
-  <li>Drücke (A) auf deiner <code class="language-plaintext highlighter-rouge">.cia</code> um sie auszuwählen, und wähle dann “CIA image otions…” und dann “Mount image to drive”</li>
-  <li>Drücke (A) auf der <code class="language-plaintext highlighter-rouge">.app</code>-Datei, dann wähle “NCCH Image options” und danach wählst du “Inject to H&amp;S”</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>Drücke (A), um die SysNAND (Stufe 1) Bearbeitung zu aktivieren. Gebe dann die angegebene Tastenkombination ein</li>
   <li>Drücke (A), um fortzufahren</li>
   <li>Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="wiederherstellen-der-gesundheit--sicherheitsinformationen-nach-der-initiierung-einer-cia-app">Wiederherstellen der Gesundheit &amp; Sicherheitsinformationen nach der Initiierung einer .CIA App</h2>
 
@@ -585,12 +595,19 @@ Gesundheit &amp; Sicherheitsinformationen zu injizieren, die größer sind als d
   <li>Drücke (A), um die Schreibrechte zu widerrufen, wenn du dazu aufgefordert wirst</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="formatieren-einer-sd-karte">Formatieren einer SD-Karte</h2>
 
 <p class="notice--danger">**Beachte dies wird alles von deiner SD karte entfernen</p>
 
 <ol>
   <li>Drücke und halte (Start), und während du (Start) hältst, schaltest du deine Konsole ein. Dies wird GodMode9 starten</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>Drücke (Home), um das Aktionsmenü aufzurufen</li>
   <li>Wähle “More…”</li>
   <li>Wähle “SD format menu”</li>
@@ -604,7 +621,11 @@ Gesundheit &amp; Sicherheitsinformationen zu injizieren, die größer sind als d
   <li>Gib die Schlüsselkombination zur Bestätigung ein, wenn danach verlangt wird</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="removing-an-nnid-without-formatting-your-console">Removing an NNID without formatting your console</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>Drücke und halte (Start), und während du (Start) hältst, schaltest du deine Konsole ein. Dies wird GodMode9 starten</li>
@@ -621,6 +642,8 @@ Gesundheit &amp; Sicherheitsinformationen zu injizieren, die größer sind als d
   <li>Drücke (A), um die Schreibrechte zu deaktivieren, wenn du dazu aufgefordert wirst</li>
   <li>Drücke (Start), um deine Konsole neu zu starten</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>

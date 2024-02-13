@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="建立-nand-備份">建立 NAND 備份</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="還原-nand-備份">還原 NAND 備份</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>選擇您的 NAND 備份</li>
   <li>按『A』解鎖 SysNAND(lvl3)的寫入保護，然後按下提示的按鍵組合
     <ul>
-      <li>這不會複寫您的 boot9strap 安裝</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>此過程將花費一些時間</li>
     </ul>
   </li>
@@ -555,21 +559,27 @@ window.cookieconsent.initialise({
   <li>如提示時，按下『A』取消檔案寫入鎖定</li>
 </ol>
 
-<h2 id="植入任何-cia-程式至健康與警示程式中">植入任何 .CIA 程式至『健康與警示』程式中</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">為了整潔，請將您所想要植入的 <code class="language-plaintext highlighter-rouge">.cia</code> 檔複製至 SD 卡的 <code class="language-plaintext highlighter-rouge">/cias/</code> 資料夾中</p>
+<h2 id="植入任何-cia-程式至健康與警示程式中">植入任何 .CIA 程式至『健康與警示』程式中</h2>
 
 <p class="notice--info">請注意，您將無法植入比『健康與警示』程式還大的檔案 (包括遊戲以及其他較大的程式)</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. 這將會啟動 GodMode9</li>
   <li>移動至 <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>按『A』選取您的 <code class="language-plaintext highlighter-rouge">.cia</code> 檔案，並選擇『CIA image options…』，再選『Mount image to drive』</li>
-  <li>按『A』選取 <code class="language-plaintext highlighter-rouge">.app</code> 結尾的檔案，並選擇『NCCH image options』，再選『Inject to H&amp;S』</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>按『A』解鎖 SysNAND(lvl1)的寫入保護，然後按下提示的按鍵組合</li>
   <li>按『A』 繼續</li>
   <li>如提示時，按下『A』取消檔案寫入鎖定</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="還原植入前的健康與警示程式">還原植入前的『健康與警示』程式</h2>
 
@@ -584,12 +594,19 @@ window.cookieconsent.initialise({
   <li>如提示時，按下『A』取消檔案寫入鎖定</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="格式化-sd-卡">格式化 SD 卡</h2>
 
 <p class="notice--danger"><strong>請注意，這將清除您 SD 卡的所有資料！</strong></p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. 這將會啟動 GodMode9</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>按『Home』鍵以叫出主選單</li>
   <li>選擇『More…』</li>
   <li>選擇『SD format menu』</li>
@@ -603,7 +620,11 @@ window.cookieconsent.initialise({
   <li>出現提示時，輸入提示的按鍵組合以確認</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="removing-an-nnid-without-formatting-your-console">Removing an NNID without formatting your console</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. 這將會啟動 GodMode9</li>
@@ -620,6 +641,8 @@ window.cookieconsent.initialise({
   <li>如提示時，按下『A』取消檔案寫入鎖定</li>
   <li>Press (Start) to reboot your console</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>

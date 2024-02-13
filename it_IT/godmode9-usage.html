@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>Reinserisci la scheda SD nella tua console</li>
 </ol>
 
+<p class="notice--success">GodMode9 è ora aggiornato.</p>
+
 <h2 id="creare-un-backup-della-nand">Creare un backup della NAND</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>Reinserisci la scheda SD nella tua console</li>
 </ol>
 
+<p class="notice--success">Il tuo backup NAND è stato creato con successo.</p>
+
 <h2 id="ripristinare-un-backup-della-nand">Ripristinare un backup della NAND</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>Seleziona il tuo backup della NAND</li>
   <li>Premi il pulsante (A) per sbloccare i permessi di scrittura di terzo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
     <ul>
-      <li>Questo processo non eliminerà boot9strap</li>
+      <li>Questo processo <strong>non</strong> eliminerà boot9strap</li>
       <li>Questo processo durerà un po’</li>
     </ul>
   </li>
@@ -555,21 +559,27 @@ window.cookieconsent.initialise({
   <li>Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura</li>
 </ol>
 
-<h2 id="iniettare-unapp-cia-dentro-informazioni-per-la-salute-e-la-sicurezza">Iniettare un’app .CIA dentro “Informazioni per la salute e la sicurezza”</h2>
+<p class="notice--success">Il tuo backup NAND è stato ripristinato con successo. Ora puoi eliminare <code class="language-plaintext highlighter-rouge">&lt;data&gt;_&lt;numeroseriale&gt;_sysnand_###.bin</code> dalla tua scheda SD.</p>
 
-<p class="notice--info">Per motivi pratici, copia il file <code class="language-plaintext highlighter-rouge">.cia</code> che desideri iniettare dentro la cartella <code class="language-plaintext highlighter-rouge">/cias/</code> della tua scheda SD</p>
+<h2 id="iniettare-unapp-cia-dentro-informazioni-per-la-salute-e-la-sicurezza">Iniettare un’app .CIA dentro “Informazioni per la salute e la sicurezza”</h2>
 
 <p class="notice--info">Tieni presente che non possibile iniettare dentro “Informazioni per la salute e la sicurezza” file che siano più grandi di quest’ultima (come giochi o altre applicazioni pesanti)</p>
 
 <ol>
   <li>Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9</li>
   <li>Entra nella cartella <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>Premi (A) sul file <code class="language-plaintext highlighter-rouge">.cia</code> per selezionarlo, quindi seleziona “CIA image options…”, ed infine seleziona “Mount image to drive”</li>
-  <li>Premi (A) sul file <code class="language-plaintext highlighter-rouge">.app</code>, quindi seleziona “NCHH image options”, ed infine seleziona “Inject to H&amp;S”</li>
+  <li>Premi (A) sul tua <code class="language-plaintext highlighter-rouge">.cia</code> per selezionarlo</li>
+  <li>Seleziona “CIA image options…”</li>
+  <li>Seleziona “Mount image to drive”</li>
+  <li>Premi (A) sul file <code class="language-plaintext highlighter-rouge">.app</code></li>
+  <li>Seleziona “NCCH image options”</li>
+  <li>Seleziona “Inject to H&amp;S”</li>
   <li>Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo</li>
   <li>Premi il pulsante (A) per continuare</li>
   <li>Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura</li>
 </ol>
+
+<p class="notice--success">L’applicazione desiderata è stata ora iniettata in Informazioni per la salute e la sicurezza.</p>
 
 <h2 id="ripristinare-informazioni-per-la-salute-e-la-sicurezza-dopo-aver-iniettato-unapp-cia">Ripristinare “Informazioni per la salute e la sicurezza” dopo aver iniettato un’app .CIA</h2>
 
@@ -584,12 +594,19 @@ window.cookieconsent.initialise({
   <li>Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura</li>
 </ol>
 
+<p class="notice--success">Informazioni per la salute e la sicurezza è stato ripristinata alla normalità.</p>
+
 <h2 id="formattare-una-scheda-sd">Formattare una scheda SD</h2>
 
 <p class="notice--danger"><strong>Questo procedimento cancellerà tutti i dati della tua scheda SD!</strong></p>
 
 <ol>
   <li>Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9</li>
+  <li>Premi (R) + (B) per poter rimuovere la scheda SD e inserire quella che si desidera formattare
+    <ul>
+      <li>Se GodMode9 mostra un errore di inizializzazione all’inserimento della scheda SD da formattare, si può ignorare tranquillamente</li>
+    </ul>
+  </li>
   <li>Premi il pulsante HOME per far apparire il menu delle azioni</li>
   <li>Seleziona “More…”</li>
   <li>Seleziona “SD format menu”</li>
@@ -603,7 +620,11 @@ window.cookieconsent.initialise({
   <li>Quando richiesto, inserisci la combinazione di tasti richiesta a schermo</li>
 </ol>
 
+<p class="notice--success">La scheda SD è stata formattata con successo per essere utilizzata con la console.</p>
+
 <h2 id="rimuovere-un-nnid-senza-formattare-la-console">Rimuovere un NNID senza formattare la console</h2>
+
+<p class="notice--info">Questo processo ti disconnetterà solo dal tuo NNID. Non sarà comunque possibile utilizzare il NNID su un’altra console, in quanto il NNID rimane collegato alla console.</p>
 
 <ol>
   <li>Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9</li>
@@ -620,6 +641,8 @@ window.cookieconsent.initialise({
   <li>Se richiesto, premi (A) per ritirare le autorizzazioni di scrittura</li>
   <li>Premi (Start) per riavviare la tua console</li>
 </ol>
+
+<p class="notice--success">Ora sei disconnesso dal tuo NNID.</p>
 
         
       </section>

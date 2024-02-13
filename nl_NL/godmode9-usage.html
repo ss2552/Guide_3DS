@@ -486,6 +486,8 @@ window.cookieconsent.initialise({
   <li>Stop je SD-kaart terug in je console</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="een-nand-back-up-maken">Een NAND back-up maken</h2>
 
 <ol>
@@ -529,6 +531,8 @@ window.cookieconsent.initialise({
   <li>Stop je SD-kaart terug in je console</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="een-nand-back-up-herstellen">Een NAND back-up herstellen</h2>
 
 <ol>
@@ -545,7 +549,7 @@ window.cookieconsent.initialise({
   <li>Selecteer je NAND back-up</li>
   <li>Druk op (A) om SysNAND (lvl3) writing te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven
     <ul>
-      <li>Dit zal niet je boot9strap installatie overschrijven</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>Dit proces zal enige tijd duren</li>
     </ul>
   </li>
@@ -555,21 +559,27 @@ window.cookieconsent.initialise({
   <li>Druk op (A) om schrijfrechten te vergrendelen als dit gevraagd wordt</li>
 </ol>
 
-<h2 id="een-cia-app-in-veiligheid--en-gezondheidsinformatie-injecteren">Een .CIA app in veiligheid- en gezondheidsinformatie injecteren</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">Voor organisatorische redenen, kopieer het <code class="language-plaintext highlighter-rouge">.cia</code> bestand dat je wilt injecteren naar de <code class="language-plaintext highlighter-rouge">/cias/</code> map op je SD kaart</p>
+<h2 id="een-cia-app-in-veiligheid--en-gezondheidsinformatie-injecteren">Een .CIA app in veiligheid- en gezondheidsinformatie injecteren</h2>
 
 <p class="notice--info">Het niet mogelijk is om bestanden groter dan veiligheid- en gezondheidsinformatie te injecteren (zoals spellen en andere grote apps)</p>
 
 <ol>
   <li>Houd (Start) ingedrukt en terwijl je (Start) ingedrukt houdt, zet je je console aan. Dit zal GodMode9 starten</li>
   <li>Navigeer naar <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code>-&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>Druk op (A) op je <code class="language-plaintext highlighter-rouge">FBI.cia</code> om deze te selecteren, selecteer vervolgens “CIA image options…”, en selecteer dan “Mount image to drive”</li>
-  <li>Druk op (A) op het <code class="language-plaintext highlighter-rouge">.app</code> bestand, selecteer vervolgens “NCCH image options”, en selecteer dan “Inject to H&amp;S”</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>Druk op (A) om SysNAND (lvl1) writing te ontgrendelen en voer daarna de toetsencombinatie in die wordt gegeven</li>
   <li>Druk op (A) om door te gaan</li>
   <li>Druk op (A) om schrijfrechten te vergrendelen als dit gevraagd wordt</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="veiligheid--en-gezondheidsinformatie-herstellen-na-een-injectie-van-een-cia-app">Veiligheid- en gezondheidsinformatie herstellen na een injectie van een .CIA app</h2>
 
@@ -584,12 +594,19 @@ window.cookieconsent.initialise({
   <li>Druk op (A) om schrijfrechten te vergrendelen als dit gevraagd wordt</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="een-sd-kaart-formatteren">Een SD-kaart formatteren</h2>
 
 <p class="notice--danger"><strong>Dit zal alle inhoud van je SD kaart verwijderen!</strong></p>
 
 <ol>
   <li>Houd (Start) ingedrukt en terwijl je (Start) ingedrukt houdt, zet je je console aan. Dit zal GodMode9 starten</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>Druk op de (Home) knop om het actiemenu te openen</li>
   <li>Selecteer “More…”</li>
   <li>Selecteer “SD format menu”</li>
@@ -603,7 +620,11 @@ window.cookieconsent.initialise({
   <li>Wanneer er om gevraagd wordt, voer de gegeven combinatie van knoppen in om te bevestigen</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="removing-an-nnid-without-formatting-your-console">Removing an NNID without formatting your console</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>Houd (Start) ingedrukt en terwijl je (Start) ingedrukt houdt, zet je je console aan. Dit zal GodMode9 starten</li>
@@ -620,6 +641,8 @@ window.cookieconsent.initialise({
   <li>Druk op (A) om schrijfrechten te vergrendelen als dit gevraagd wordt</li>
   <li>Press (Start) to reboot your console</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>

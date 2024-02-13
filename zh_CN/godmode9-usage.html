@@ -487,6 +487,8 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">GodMode9 is now up to date.</p>
+
 <h2 id="创建-nand-备份">创建 NAND 备份</h2>
 
 <ol>
@@ -530,11 +532,13 @@ window.cookieconsent.initialise({
   <li>Reinsert your SD card into your console</li>
 </ol>
 
+<p class="notice--success">Your NAND backup has been successfully created.</p>
+
 <h2 id="还原-nand">还原 NAND</h2>
 
 <ol>
   <li>将主机关机</li>
-  <li>将 SD 卡插入电脑</li>
+  <li>将你的 SD 卡插入到电脑</li>
   <li>Copy <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_##.bin</code> from your computer to the <code class="language-plaintext highlighter-rouge">/gm9/out/</code> folder on your SD card</li>
   <li>Reinsert your SD card into your console</li>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
@@ -546,7 +550,7 @@ window.cookieconsent.initialise({
   <li>选择你的 NAND 备份</li>
   <li>按 “A” 键解锁 SysNAND (lvl3) 写入权限，并根据屏幕上的提示依次按下按键
     <ul>
-      <li>这不会覆盖你已安装好的 boot9strap</li>
+      <li>This will <strong>not</strong> overwrite your boot9strap installation</li>
       <li>此过程将花费一些时间</li>
     </ul>
   </li>
@@ -556,21 +560,27 @@ window.cookieconsent.initialise({
   <li>如果提示重新锁定写入权限，按下 “A” 键来确认</li>
 </ol>
 
-<h2 id="将任意-cia-应用注入-健康与安全提示health--safety-软件">将任意 .CIA 应用注入 “健康与安全提示(Health &amp; Safety)” 软件</h2>
+<p class="notice--success">Your NAND backup has been successfully restored. You can now delete <code class="language-plaintext highlighter-rouge">&lt;date&gt;_&lt;serialnumber&gt;_sysnand_###.bin</code> from your SD card.</p>
 
-<p class="notice--info">为了避免文件混乱，请将你要注入的 <code class="language-plaintext highlighter-rouge">.cia</code> 文件复制到SD卡上的 <code class="language-plaintext highlighter-rouge">/cias/</code> 目录</p>
+<h2 id="将任意-cia-应用注入-健康与安全提示health--safety-软件">将任意 .CIA 应用注入 “健康与安全提示(Health &amp; Safety)” 软件</h2>
 
 <p class="notice--info">请注意，你无法注入比 “健康与安全提示(Health &amp; Safety)” 软件大的文件（包括游戏及其他大型应用程序）</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
   <li>进入到 <code class="language-plaintext highlighter-rouge">[0:] SDCARD</code> -&gt; <code class="language-plaintext highlighter-rouge">cias</code></li>
-  <li>按 “A” 键选中你的 <code class="language-plaintext highlighter-rouge">.cia</code> 文件，在弹出窗口中依次选择 “CIA image options…” ， “Mount image to drive” 选项</li>
-  <li>选中 <code class="language-plaintext highlighter-rouge">.app</code> 文件后按下 “A” 键，选择 “NCCH image options” ，并选择 “Inject to H&amp;S”</li>
+  <li>Press (A) on your <code class="language-plaintext highlighter-rouge">.cia</code> to select it</li>
+  <li>Select “CIA image options…”</li>
+  <li>Select “Mount image to drive”</li>
+  <li>Press (A) on the <code class="language-plaintext highlighter-rouge">.app</code> file</li>
+  <li>Select “NCCH image options”</li>
+  <li>Select “Inject to H&amp;S”</li>
   <li>按 “A” 键解锁SysNAND (lvl1) 写入权限，并根据屏幕上的提示依次按下按键</li>
   <li>按 “A” 键继续</li>
   <li>如果提示重新锁定写入权限，按下 “A” 键来确认</li>
 </ol>
+
+<p class="notice--success">Your desired application has now been injected into Health &amp; Safety.</p>
 
 <h2 id="恢复被注入-cia-程序的-健康与安全提示health--safety-软件">恢复被注入 .CIA 程序的 “健康与安全提示(Health &amp; Safety)” 软件</h2>
 
@@ -585,12 +595,19 @@ window.cookieconsent.initialise({
   <li>如果提示重新锁定写入权限，按下 “A” 键来确认</li>
 </ol>
 
+<p class="notice--success">Health &amp; Safety has been reverted to normal.</p>
+
 <h2 id="格式化sd卡">格式化SD卡</h2>
 
 <p class="notice--danger"><strong>请注意，该操作会清除你SD卡上的所有文件！</strong></p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
+  <li>Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
+    <ul>
+      <li>If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed</li>
+    </ul>
+  </li>
   <li>按下 “Home” 键来打开功能菜单</li>
   <li>选择 “More…”</li>
   <li>选择 “SD format menu”</li>
@@ -604,7 +621,11 @@ window.cookieconsent.initialise({
   <li>出现提示时，按照提示依次输入按键来确认格式化</li>
 </ol>
 
+<p class="notice--success">Your SD card has successfully been formatted for use with the console.</p>
+
 <h2 id="removing-an-nnid-without-formatting-your-console">Removing an NNID without formatting your console</h2>
+
+<p class="notice--info">This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.</p>
 
 <ol>
   <li>Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9</li>
@@ -621,6 +642,8 @@ window.cookieconsent.initialise({
   <li>如果提示重新锁定写入权限，按下 “A” 键来确认</li>
   <li>Press (Start) to reboot your console</li>
 </ol>
+
+<p class="notice--success">You have now been logged out of your NNID.</p>
 
         
       </section>

@@ -442,9 +442,9 @@ window.cookieconsent.initialise({
   <li><a href="#amire-szükséged-lesz" id="markdown-toc-amire-szükséged-lesz">Amire szükséged lesz</a></li>
   <li><a href="#utasítások" id="markdown-toc-utasítások">Utasítások</a>    <ul>
       <li><a href="#i-rész---előkészületek" id="markdown-toc-i-rész---előkészületek">I. rész - Előkészületek</a></li>
-      <li><a href="#section-ii---updating-the-system" id="markdown-toc-section-ii---updating-the-system">Section II - Updating the System</a></li>
-      <li><a href="#section-iii---rtc-and-dsp-setup" id="markdown-toc-section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</a></li>
-      <li><a href="#section-iv---setup-script" id="markdown-toc-section-iv---setup-script">Section IV - Setup Script</a></li>
+      <li><a href="#ii-rész---a-rendszer-frissítése" id="markdown-toc-ii-rész---a-rendszer-frissítése">II. rész - A rendszer frissítése</a></li>
+      <li><a href="#iii-rész---rtc-és-dsp-telepítése" id="markdown-toc-iii-rész---rtc-és-dsp-telepítése">III. rész - RTC és DSP telepítése</a></li>
+      <li><a href="#iv-rész---telepítő-szkript" id="markdown-toc-iv-rész---telepítő-szkript">IV. rész - Telepítő szkript</a></li>
     </ul>
   </li>
   <li><a href="#információk-és-megjegyzések" id="markdown-toc-információk-és-megjegyzések">Információk és megjegyzések</a></li>
@@ -484,8 +484,8 @@ window.cookieconsent.initialise({
 <h3 id="amire-szükséged-lesz">Amire szükséged lesz</h3>
 
 <ul>
-  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (direct download)</li>
-  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (direct download)</li>
+  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (közvetlen letöltés)</li>
+  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (közvetlen letöltés)</li>
 </ul>
 
 <h3 id="utasítások">Utasítások</h3>
@@ -497,9 +497,9 @@ window.cookieconsent.initialise({
 <ol>
   <li>Kapcsold ki a konzolod</li>
   <li>Helyezd az SD kártyád a számítógépbe</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize.romfs</code> to the root of your SD card</li>
-  <li>Open the <code class="language-plaintext highlighter-rouge">luma</code> folder and create a folder named <code class="language-plaintext highlighter-rouge">payloads</code> inside, if it does not already exist</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> to the <code class="language-plaintext highlighter-rouge">payloads</code> folder</li>
+  <li>Másold az <code class="language-plaintext highlighter-rouge">finalize.romfs</code> fájlt az SD kártyád gyökerébe</li>
+  <li>Nyisd meg a <code class="language-plaintext highlighter-rouge">luma</code> mappát és hozz létre egy mappát <code class="language-plaintext highlighter-rouge">payloads</code> néven benne, ha még nem létezik</li>
+  <li>Másold át a <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> fájlt a <code class="language-plaintext highlighter-rouge">payloads</code> mappába</li>
   <li>Tedd vissza az SD kártyád a konzoldba</li>
 </ol>
 
@@ -509,7 +509,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-luma-payloads.png" alt="" /></p>
 
-<h4 id="section-ii---updating-the-system">Section II - Updating the System</h4>
+<h4 id="ii-rész---a-rendszer-frissítése">II. rész - A rendszer frissítése</h4>
 
 <p>Ebben a fejezetben frissíteni fogod a rendszered a legutolsó verzióra, ami biztonságos az egyedi firmware-rel.</p>
 
@@ -524,14 +524,14 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</h4>
+<h4 id="iii-rész---rtc-és-dsp-telepítése">III. rész - RTC és DSP telepítése</h4>
 
 <p>Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális időhöz és dumpolni a hang firmware-t (ami szükséges néhány homebrew alkalmazáshoz, hogy a hangot megfelelően használja).</p>
 
 <ol>
   <li>Nyomd le az (Bal Váll) + (D-Pad le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
     <ul>
-      <li>Ha valamelyik gombod törött, töltsd le a <a href="/assets/config.ini">config.ini</a> fájlt és rakd a <code class="language-plaintext highlighter-rouge">luma</code> mappádva, felülírva az ott lévőt. Ez átállítja a Rosalina menu billentyű kombinációt (X) + (Y)</li>
+      <li>If one of these buttons is broken, download <a href="/assets/config.ini" download="config.ini">config.ini</a> and put it in your <code class="language-plaintext highlighter-rouge">luma</code> folder, replacing the existing one. Ez átállítja a Rosalina menu billentyű kombinációt (X) + (Y)</li>
     </ul>
   </li>
   <li>Válaszd ki a “Miscellaneous options”-t</li>
@@ -543,23 +543,23 @@ window.cookieconsent.initialise({
   <li>Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből</li>
 </ol>
 
-<h4 id="section-iv---setup-script">Section IV - Setup Script</h4>
+<h4 id="iv-rész---telepítő-szkript">IV. rész - Telepítő szkript</h4>
 
-<p>In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.</p>
+<p>Ebben a fejezetben szkripteket fogsz használni arra, hogy automatizáld a homebrew telepítést, az SD kártya takarítást és a rendszer mentést.</p>
 
 <ol>
   <li>Kapcsold ki a konzolod</li>
-  <li>Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. This will launch the Finalizing Setup Helper
+  <li>Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a Finalizing Setup Helper-t
     <ul>
-      <li>If you boot to the Luma3DS configuration menu, you held SELECT instead of START</li>
-      <li>If you boot to the HOME Menu, your <code class="language-plaintext highlighter-rouge">payloads</code> folder may be incorrectly spelled or in the wrong location</li>
-      <li>If you see a “Luma3DS Chainloader” menu, use the D-Pad and (A) buttons to navigate to and select <code class="language-plaintext highlighter-rouge">finalize_helper</code> from the list</li>
-      <li>If you encounter an error, consult the <a href="troubleshooting#finalizing-setup">troubleshooting</a> page</li>
+      <li>Ha a Luma3DS konfigurációs menübe bootoltál, a SELECT-et tartottad nyomva a START helyett</li>
+      <li>Ha a HOME menübe bootoltál, akkor lehet hogy a <code class="language-plaintext highlighter-rouge">payloads</code> mappád neve elírt, vagy rossz helyen van</li>
+      <li>Ha a “Luma3DS Chainloader” menüt látod, használd a D-Pad-et és az (A) gombot a <code class="language-plaintext highlighter-rouge">finalize_helper</code> kiválasztásához a listából</li>
+      <li>Ha hibát kapsz, tekintsd meg a <a href="troubleshooting#finalizing-setup">hibaelhárítás</a> oldalt</li>
     </ul>
   </li>
-  <li>If the Helper was successful, your console will boot into GodMode9
+  <li>Ha a Helper sikeres volt, a konzolodnak ezt követően be kell bootolni a GodMode9-be
     <ul>
-      <li>From this point forward, you can access GodMode9 by holding START while powering on your console</li>
+      <li>Ettől a ponttól kezdve a GodMode9-et a START gomb bekapcsolás melletti nyomva tartásával éred el</li>
     </ul>
   </li>
   <li>Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz</li>
@@ -574,7 +574,7 @@ window.cookieconsent.initialise({
   </li>
   <li>Ha a szkript a “Setup complete!” üzenetet írja, nyomj (A) gombot az eszköz kikapcsolásához
     <ul>
-      <li>If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section from Step 3</li>
+      <li>Ha NEM láttad a “Setup complete!” üzenetet, akkor a szkript nem volt sikeres és újra kell csinálnod ezt a részt a 3. lépéstől</li>
     </ul>
   </li>
   <li>Helyezd az SD kártyád a számítógépbe</li>

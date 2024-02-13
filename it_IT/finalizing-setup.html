@@ -442,9 +442,9 @@ window.cookieconsent.initialise({
   <li><a href="#cosa-serve" id="markdown-toc-cosa-serve">Cosa serve</a></li>
   <li><a href="#istruzioni" id="markdown-toc-istruzioni">Istruzioni</a>    <ul>
       <li><a href="#sezione-i---preparazione" id="markdown-toc-sezione-i---preparazione">Sezione I - Preparazione</a></li>
-      <li><a href="#section-ii---updating-the-system" id="markdown-toc-section-ii---updating-the-system">Section II - Updating the System</a></li>
-      <li><a href="#section-iii---rtc-and-dsp-setup" id="markdown-toc-section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</a></li>
-      <li><a href="#section-iv---setup-script" id="markdown-toc-section-iv---setup-script">Section IV - Setup Script</a></li>
+      <li><a href="#sezione-ii---aggiornare-il-sistema" id="markdown-toc-sezione-ii---aggiornare-il-sistema">Sezione II - Aggiornare il Sistema</a></li>
+      <li><a href="#sezione-iii---installazione-di-rtc-e-dsp" id="markdown-toc-sezione-iii---installazione-di-rtc-e-dsp">Sezione III - Installazione di RTC e DSP</a></li>
+      <li><a href="#sezione-iv---installazione-dello-script" id="markdown-toc-sezione-iv---installazione-dello-script">Sezione IV - Installazione dello Script</a></li>
     </ul>
   </li>
   <li><a href="#informazioni-e-note" id="markdown-toc-informazioni-e-note">Informazioni e Note</a></li>
@@ -484,8 +484,8 @@ window.cookieconsent.initialise({
 <h3 id="cosa-serve">Cosa serve</h3>
 
 <ul>
-  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (direct download)</li>
-  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (direct download)</li>
+  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (download diretto)</li>
+  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (download diretto)</li>
 </ul>
 
 <h3 id="istruzioni">Istruzioni</h3>
@@ -497,9 +497,9 @@ window.cookieconsent.initialise({
 <ol>
   <li>Spegni la tua console</li>
   <li>Inserisci la scheda SD nel tuo computer</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize.romfs</code> to the root of your SD card</li>
-  <li>Open the <code class="language-plaintext highlighter-rouge">luma</code> folder and create a folder named <code class="language-plaintext highlighter-rouge">payloads</code> inside, if it does not already exist</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> to the <code class="language-plaintext highlighter-rouge">payloads</code> folder</li>
+  <li>Copia il file <code class="language-plaintext highlighter-rouge">finalize.romfs</code> nella directory principale della tua scheda SD</li>
+  <li>Apri la cartella <code class="language-plaintext highlighter-rouge">luma</code> e crea all’interno una cartella chiamata <code class="language-plaintext highlighter-rouge">payloads</code>, se non esiste già</li>
+  <li>Copia il file <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> nella cartella <code class="language-plaintext highlighter-rouge">payloads</code></li>
   <li>Reinserisci la scheda SD nella tua console</li>
 </ol>
 
@@ -509,7 +509,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-luma-payloads.png" alt="" /></p>
 
-<h4 id="section-ii---updating-the-system">Section II - Updating the System</h4>
+<h4 id="sezione-ii---aggiornare-il-sistema">Sezione II - Aggiornare il Sistema</h4>
 
 <p>In questa sezione, aggiornerai il tuo sistema all’ultima versione, tranquillamente fattibile con il custom firmware.</p>
 
@@ -524,14 +524,14 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</h4>
+<h4 id="sezione-iii---installazione-di-rtc-e-dsp">Sezione III - Installazione di RTC e DSP</h4>
 
 <p>In questa sezione, sincronizzerai l’orologio interno del tuo 3DS con l’ora reale e scaricherai il firmware audio (necessario per permettere ad alcuni software homebrew di usare correttamente i suoni).</p>
 
 <ol>
   <li>Premi simultaneamente i pulsanti (L) + (Giù) + (Select) per aprire il menu di Rosalina
     <ul>
-      <li>Se uno di questi pulsanti è rotto, scarica <a href="/assets/config.ini">config.ini</a> e mettilo nella tua cartella <code class="language-plaintext highlighter-rouge">luma</code>, sostituendo il file preesistente. Questo cambierà la combinazione di tasti del menù Rosalina in (X) + (Y)</li>
+      <li>If one of these buttons is broken, download <a href="/assets/config.ini" download="config.ini">config.ini</a> and put it in your <code class="language-plaintext highlighter-rouge">luma</code> folder, replacing the existing one. Questo cambierà la combinazione di tasti del menù Rosalina in (X) + (Y)</li>
     </ul>
   </li>
   <li>Seleziona “Miscellaneous options”</li>
@@ -543,23 +543,23 @@ window.cookieconsent.initialise({
   <li>Premi (B) per uscire dal menu di Rosalina</li>
 </ol>
 
-<h4 id="section-iv---setup-script">Section IV - Setup Script</h4>
+<h4 id="sezione-iv---installazione-dello-script">Sezione IV - Installazione dello Script</h4>
 
-<p>In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.</p>
+<p>In questa sezione, userai una serie di script per automatizzare l’installazione di homebrew, la pulizia della scheda SD e il backup dei file di sistema.</p>
 
 <ol>
   <li>Spegni la tua console</li>
-  <li>Premi (Start) e accendi la console continuando a tenerlo premuto. This will launch the Finalizing Setup Helper
+  <li>Premi (Start) e accendi la console continuando a tenerlo premuto. Questo avvierà il supporto al Completamento dell’installazione
     <ul>
-      <li>If you boot to the Luma3DS configuration menu, you held SELECT instead of START</li>
-      <li>If you boot to the HOME Menu, your <code class="language-plaintext highlighter-rouge">payloads</code> folder may be incorrectly spelled or in the wrong location</li>
-      <li>If you see a “Luma3DS Chainloader” menu, use the D-Pad and (A) buttons to navigate to and select <code class="language-plaintext highlighter-rouge">finalize_helper</code> from the list</li>
-      <li>If you encounter an error, consult the <a href="troubleshooting#finalizing-setup">troubleshooting</a> page</li>
+      <li>Se si avvia nel menu di configurazione di Luma3DS, hai tenuto premuto SELECT anziché START</li>
+      <li>Se si avvia nel menu HOME, la cartella <code class="language-plaintext highlighter-rouge">payloads</code> potrebbe essere scritta in modo errato o trovarsi nella posizione sbagliata</li>
+      <li>Se vedi un menu “Luma3DS Chainloader”, usa i pulsanti D-Pad e (A) per navigare e selezionare <code class="language-plaintext highlighter-rouge">finalize_helper</code> dalla lista</li>
+      <li>Se riscontri un errore, consulta la <a href="troubleshooting#finalizing-setup">guida per risolvere i problemi</a></li>
     </ul>
   </li>
-  <li>If the Helper was successful, your console will boot into GodMode9
+  <li>Se il supporto ha avuto successo, la console si avvierà in GodMode9
     <ul>
-      <li>From this point forward, you can access GodMode9 by holding START while powering on your console</li>
+      <li>Da qui in avanti sarà possibile accedere a GodMode9 tenendo premuto START all’accensione della console</li>
     </ul>
   </li>
   <li>Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire</li>
@@ -574,7 +574,7 @@ window.cookieconsent.initialise({
   </li>
   <li>Quando lo script mostrerà “Setup complete!”, premi (A) per spegnere la console
     <ul>
-      <li>If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section from Step 3</li>
+      <li>Se NON vedi il messaggio “Setup complete!”, lo script non ha avuto successo e dovrai ripetere questa sezione dal Punto 3</li>
     </ul>
   </li>
   <li>Inserisci la scheda SD nel tuo computer</li>
