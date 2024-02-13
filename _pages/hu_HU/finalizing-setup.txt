@@ -35,8 +35,8 @@ Ha az előző egyedi firmware rendszered EmuNAND alapú volt és szeretnéd az E
 
 ### Amire szükséged lesz
 
-* [finalize_helper.firm]({{ base_path }}/assets/finalize_helper.firm) (direct download)
-* [finalize.romfs]({{ base_path }}/assets/finalize.romfs) (direct download)
+* [finalize_helper.firm]({{ base_path }}/assets/finalize_helper.firm) (közvetlen letöltés)
+* [finalize.romfs]({{ base_path }}/assets/finalize.romfs) (közvetlen letöltés)
 
 ### Utasítások
 
@@ -46,9 +46,9 @@ Ebben a fejezetben fel fogod másolni az ahhoz szükséges fájlokat, hogy köve
 
 1. Kapcsold ki a konzolod
 1. Helyezd az SD kártyád a számítógépbe
-1. Copy `finalize.romfs` to the root of your SD card
-1. Open the `luma` folder and create a folder named `payloads` inside, if it does not already exist
-1. Copy `finalize_helper.firm` to the `payloads` folder
+1. Másold az `finalize.romfs` fájlt az SD kártyád gyökerébe
+1. Nyisd meg a `luma` mappát és hozz létre egy mappát `payloads` néven benne, ha még nem létezik
+1. Másold át a `finalize_helper.firm` fájlt a `payloads` mappába
 1. Tedd vissza az SD kártyád a konzoldba
 
 Az alábbi képernyőképek mutatják az SD kártya minimális elrendezését ahhoz, hogy ezt az útmutatót követni tudd. Lehetnek extra fájljaid és mappáid az SD kártyádon, függően a korábbi telepítésedtől vagy metódustól, amit követtél.
@@ -59,18 +59,18 @@ Az alábbi képernyőképek mutatják az SD kártya minimális elrendezését ah
 ![]({{ "/images/screenshots/finalizing-luma-payloads.png" | absolute_url }})
 {: .notice--info}
 
-#### Section II - Updating the System
+#### II. rész - A rendszer frissítése
 
 Ebben a fejezetben frissíteni fogod a rendszered a legutolsó verzióra, ami biztonságos az egyedi firmware-rel.
 
 {% include_relative include/sysupdate.txt cfw="true" %}
 
-#### Section III - RTC and DSP setup
+#### III. rész - RTC és DSP telepítése
 
 Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális időhöz és dumpolni a hang firmware-t (ami szükséges néhány homebrew alkalmazáshoz, hogy a hangot megfelelően használja).
 
 1. Nyomd le az (Bal Váll) + (D-Pad le) + (Select) gombokat egyszerre a Rosalina menü megnyitásához
-    + Ha valamelyik gombod törött, töltsd le a [config.ini]({{ base_path }}/assets/config.ini) fájlt és rakd a `luma` mappádva, felülírva az ott lévőt. Ez átállítja a Rosalina menu billentyű kombinációt (X) + (Y)
+    + If one of these buttons is broken, download [config.ini]({{ base_path }}/assets/config.ini){:download="config.ini"} and put it in your `luma` folder, replacing the existing one. Ez átállítja a Rosalina menu billentyű kombinációt (X) + (Y)
 1. Válaszd ki a "Miscellaneous options"-t
 1. Válaszd a "Dump DSP firmware" opciót
 1. Nyomd meg a (B) gombot a folytatáshoz
@@ -79,18 +79,18 @@ Ebben a fejezetben szinkronizálni fogod a 3DS belső óráját az aktuális id�
 1. Nyomd meg a (B) gombot, hogy visszakerülj a Rosalina főmenüjébe
 1. Nyomd meg a (B) gombot, hogy kilépj a Rosalina menüből
 
-#### Section IV - Setup Script
+#### IV. rész - Telepítő szkript
 
-In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.
+Ebben a fejezetben szkripteket fogsz használni arra, hogy automatizáld a homebrew telepítést, az SD kártya takarítást és a rendszer mentést.
 
 1. Kapcsold ki a konzolod
-1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. This will launch the Finalizing Setup Helper
-    + If you boot to the Luma3DS configuration menu, you held SELECT instead of START
-    + If you boot to the HOME Menu, your `payloads` folder may be incorrectly spelled or in the wrong location
-    + If you see a "Luma3DS Chainloader" menu, use the D-Pad and (A) buttons to navigate to and select `finalize_helper` from the list
-    + If you encounter an error, consult the [troubleshooting](troubleshooting#finalizing-setup) page
-1. If the Helper was successful, your console will boot into GodMode9
-    + From this point forward, you can access GodMode9 by holding START while powering on your console
+1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a Finalizing Setup Helper-t
+    + Ha a Luma3DS konfigurációs menübe bootoltál, a SELECT-et tartottad nyomva a START helyett
+    + Ha a HOME menübe bootoltál, akkor lehet hogy a `payloads` mappád neve elírt, vagy rossz helyen van
+    + Ha a "Luma3DS Chainloader" menüt látod, használd a D-Pad-et és az (A) gombot a `finalize_helper` kiválasztásához a listából
+    + Ha hibát kapsz, tekintsd meg a [hibaelhárítás](troubleshooting#finalizing-setup) oldalt
+1. Ha a Helper sikeres volt, a konzolodnak ezt követően be kell bootolni a GodMode9-be
+    + Ettől a ponttól kezdve a GodMode9-et a START gomb bekapcsolás melletti nyomva tartásával éred el
 1. Ha rákérdez arra, hogy csináljon-e egy biztonsági másolatot (essential files backup), akkor nyomd meg az (A) gombot, hogy csináljon, majd amikor végzett, nyomd meg ismét az (A) gombot a folytatáshoz
 1. Ha rákérdez arra, hogy szeretnéd-e a valós dátumot és időt javítani (fix the RTC date&time), nyomd meg az (A) gombot, állítsd be a helyes dátumot és időt, majd nyomd meg az (A) gombot a folytatáshoz
 1. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
@@ -99,7 +99,7 @@ In this section, you will use a series of scripts to automate homebrew installat
 1. Kövesd a script utasításait és válaszolj meg minden kérdést
     + Ha hibát kapsz, kövesd a hibaüzenet lépéseti vagy tekintsd meg a [hibaelhárítás](troubleshooting#finalizing-setup) oldalt
 1. Ha a szkript a "Setup complete!" üzenetet írja, nyomj (A) gombot az eszköz kikapcsolásához
-    + If you do NOT see the message "Setup complete!", the script was not successful and you will need to redo this section from Step 3
+    + Ha NEM láttad a "Setup complete!" üzenetet, akkor a szkript nem volt sikeres és újra kell csinálnod ezt a részt a 3. lépéstől
 1. Helyezd az SD kártyád a számítógépbe
 1. Másold a `/gm9/backups/` mappát az SD kártyádról egy biztonságos helyre a számítógépeden
     + Ez a mappa tartalmazza a kritkus mentés fájlokat és célszerű több helyre menteni (pl. felhős tárolás) ha lehetséges
