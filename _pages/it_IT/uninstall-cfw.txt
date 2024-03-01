@@ -14,6 +14,8 @@ Qualunque giorno non firmato (illegittimo) verrà reso inutilizzabile e sarà ri
 Se stai rimuovendo il CFW perché:
 
 * Vuoi reinstallarlo
+* Vuoi cambiare la tua scheda SD
+* Hai perso la tua scheda SD, o si è corrotta
 * Uno dei tuoi giochi non funziona correttamente
 * Una delle applicazioni di sistema non funziona correttamente
 * La tua console non riesce ad avviare il menu HOME
@@ -165,6 +167,8 @@ Questa è la tua ultima occasione per verificare che tutti i controlli di sicure
 Se stai rimuovendo il CFW perché:
 
 * Vuoi reinstallarlo
+* Vuoi cambiare la tua scheda SD
+* Hai perso la tua scheda SD, o si è corrotta
 * Uno dei tuoi giochi non funziona correttamente
 * Una delle applicazioni di sistema non funziona correttamente
 * La tua console non riesce ad avviare il menu HOME

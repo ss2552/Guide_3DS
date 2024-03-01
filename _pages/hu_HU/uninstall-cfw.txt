@@ -14,6 +14,8 @@ Minden aláíratlan (nem eredeti) játék használhatatlanná fog válni és elt
 Ha azért távolítod el a CFW-t, mert:
 
 * Szeretnéd újratelepíteni
+* Mert szeretnél SD kártyát cserélni
+* Az SD kártyád elveszett vagy megsérült
 * Valamelyik játékod hibás
 * Valamelyik rendszer alkalmazásod hibás
 * A konzolod nem tud bebootolni a HOME Menübe
@@ -165,6 +167,8 @@ Ez az utolsó lehetőséged, hogy ellenőrizd, hogy minden fenti biztonsági lé
 Ha azért távolítod el a CFW-t, mert:
 
 * Szeretnéd újratelepíteni
+* Mert szeretnél SD kártyát cserélni
+* Az SD kártyád elveszett vagy megsérült
 * Valamelyik játékod hibás
 * Valamelyik rendszer alkalmazásod hibás
 * A konzolod nem tud bebootolni a HOME Menübe
