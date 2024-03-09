@@ -442,9 +442,9 @@ window.cookieconsent.initialise({
   <li><a href="#o-que-você-precisa" id="markdown-toc-o-que-você-precisa">O que você precisa</a></li>
   <li><a href="#instruções" id="markdown-toc-instruções">Instruções</a>    <ul>
       <li><a href="#seção-i---preparação" id="markdown-toc-seção-i---preparação">Seção I - Preparação</a></li>
-      <li><a href="#section-ii---updating-the-system" id="markdown-toc-section-ii---updating-the-system">Section II - Updating the System</a></li>
-      <li><a href="#section-iii---rtc-and-dsp-setup" id="markdown-toc-section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</a></li>
-      <li><a href="#section-iv---setup-script" id="markdown-toc-section-iv---setup-script">Section IV - Setup Script</a></li>
+      <li><a href="#seção-ii---atualizando-o-sistema" id="markdown-toc-seção-ii---atualizando-o-sistema">Seção II - Atualizando o Sistema</a></li>
+      <li><a href="#seção-iii---configuração-rtc-e-dsp" id="markdown-toc-seção-iii---configuração-rtc-e-dsp">Seção III - Configuração RTC e DSP</a></li>
+      <li><a href="#seção-iv---preparando-o-script" id="markdown-toc-seção-iv---preparando-o-script">Seção IV - Preparando o Script</a></li>
     </ul>
   </li>
   <li><a href="#informações-e-notas" id="markdown-toc-informações-e-notas">Informações e Notas</a></li>
@@ -463,7 +463,7 @@ window.cookieconsent.initialise({
 <p>O script irá instalar os seguintes aplicativos:</p>
 
 <ul>
-  <li><strong><a href="https://github.com/Steveice10/FBI">FBI</a></strong> <em>(instala aplicativos formatados em CIA)</em></li>
+  <li><strong><a href="https://github.com/lifehackerhansol/FBI">FBI</a></strong> <em>(instala aplicativos formatados em CIA)</em></li>
   <li><strong><a href="https://github.com/PabloMK7/homebrew_launcher_dummy">Homebrew Launcher Loader</a></strong> <em>(inicia o Homebrew Launcher)</em></li>
   <li><strong><a href="https://github.com/astronautlevel2/Anemone3DS">Anemone3DS</a></strong> <em>(instala temas personalizados)</em></li>
   <li><strong><a href="https://github.com/FlagBrew/Checkpoint">Checkpoint</a></strong> <em>(faz backup e restaura arquivos de saves para jogos de 3DS e DS)</em></li>
@@ -484,8 +484,8 @@ window.cookieconsent.initialise({
 <h3 id="o-que-você-precisa">O que você precisa</h3>
 
 <ul>
-  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (direct download)</li>
-  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (direct download)</li>
+  <li><a href="/assets/finalize_helper.firm">finalize_helper.firm</a> (download direto)</li>
+  <li><a href="/assets/finalize.romfs">finalize.romfs</a> (download direto)</li>
 </ul>
 
 <h3 id="instruções">Instruções</h3>
@@ -497,9 +497,9 @@ window.cookieconsent.initialise({
 <ol>
   <li>Desligue seu console</li>
   <li>Insira o cartão SD no seu computador</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize.romfs</code> to the root of your SD card</li>
-  <li>Open the <code class="language-plaintext highlighter-rouge">luma</code> folder on your SD card and create a folder named <code class="language-plaintext highlighter-rouge">payloads</code> inside, if it does not already exist</li>
-  <li>Copy <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> to the <code class="language-plaintext highlighter-rouge">payloads</code> folder</li>
+  <li>Copie <code class="language-plaintext highlighter-rouge">finalize.romfs</code> para a raiz do seu cartão SD</li>
+  <li>Abra a pasta <code class="language-plaintext highlighter-rouge">luma</code> no seu cartão SD e crie uma pasta chamada <code class="language-plaintext highlighter-rouge">payloads</code> dentro, se já não existir</li>
+  <li>Copie o <code class="language-plaintext highlighter-rouge">finalize_helper.firm</code> para a pasta <code class="language-plaintext highlighter-rouge">payloads</code></li>
   <li>Reinsira o cartão SD no seu console</li>
 </ol>
 
@@ -509,7 +509,7 @@ window.cookieconsent.initialise({
 
 <p class="notice--info"><img src="https://3ds.hacks.guide/images/screenshots/finalizing-luma-payloads.png" alt="" /></p>
 
-<h4 id="section-ii---updating-the-system">Section II - Updating the System</h4>
+<h4 id="seção-ii---atualizando-o-sistema">Seção II - Atualizando o Sistema</h4>
 
 <p>Nesta seção, você atualizará seu sistema para a versão mais recente, que é seguro de fazer com custom firmware.</p>
 
@@ -524,14 +524,14 @@ window.cookieconsent.initialise({
   </li>
 </ol>
 
-<h4 id="section-iii---rtc-and-dsp-setup">Section III - RTC and DSP setup</h4>
+<h4 id="seção-iii---configuração-rtc-e-dsp">Seção III - Configuração RTC e DSP</h4>
 
 <p>Nesta seção, você irá sincronizar o relógio interno do seu 3DS com a hora real e descarregar o firmware de som (que é necessário para que alguns softwares de homebrew utilizem o som corretamente).</p>
 
 <ol>
   <li>Aperte (Gatilho Esquerdo) + (D-pad pra baixo) + (Select) ao mesmo tempo para abrir o menu Rosalina
     <ul>
-      <li>If one of these buttons is broken, download <a href="/assets/config.ini" download="config.ini">config.ini</a> and put it in your <code class="language-plaintext highlighter-rouge">luma</code> folder, replacing the existing one. Isso vai mudar a combinação de botões do Rosalina menu para (X) + (Y)</li>
+      <li>Se um destes botões estiver quebrado, baixe <a href="/assets/config.ini">config.ini</a> e coloque em sua pasta <code class="language-plaintext highlighter-rouge">luma</code>, substituindo o já existente. Isso vai mudar a combinação de botões do Rosalina menu para (X) + (Y)</li>
     </ul>
   </li>
   <li>Selecione “Miscellaneous options”</li>
@@ -543,23 +543,23 @@ window.cookieconsent.initialise({
   <li>Aperte (B) para sair do menu do Rosalina</li>
 </ol>
 
-<h4 id="section-iv---setup-script">Section IV - Setup Script</h4>
+<h4 id="seção-iv---preparando-o-script">Seção IV - Preparando o Script</h4>
 
-<p>In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.</p>
+<p>Nesta seção, você usará uma série de scripts para automatizar a instalação de homebrews, limpeza de cartão SD e backup de arquivos do sistema.</p>
 
 <ol>
   <li>Desligue seu console</li>
-  <li>Aperte e segure (Start), e enquanto segura (Start), ligue seu console. This will launch the Finalizing Setup Helper
+  <li>Aperte e segure (Start), e enquanto segura (Start), ligue seu console. Isto irá iniciar o Finalizing Setup Helper
     <ul>
-      <li>If you boot to the Luma3DS configuration menu, you held SELECT instead of START</li>
-      <li>If you boot to the HOME Menu, your <code class="language-plaintext highlighter-rouge">payloads</code> folder may be incorrectly spelled or in the wrong location</li>
-      <li>If you see a “Luma3DS Chainloader” menu, use the D-Pad and (A) buttons to navigate to and select <code class="language-plaintext highlighter-rouge">finalize_helper</code> from the list</li>
-      <li>If you encounter an error, consult the <a href="troubleshooting#finalizing-setup">troubleshooting</a> page</li>
+      <li>Se você inicializar no menu de configuração do Luma3DS, você pressionou SELECT ao invés de START</li>
+      <li>Se você inicializar no Menu HOME, sua pasta <code class="language-plaintext highlighter-rouge">payloads</code> pode estar nomeada incorretamente ou no local errado</li>
+      <li>Caso você veja um menu “Luma3DS Chainloader”, use os botões direcionais e (A) para navegar e selecione <code class="language-plaintext highlighter-rouge">finalize_helper</code> da lista</li>
+      <li>Se você encontrar um erro, consulte a página de <a href="troubleshooting#finalizing-setup">troubleshooting</a></li>
     </ul>
   </li>
-  <li>If the Helper was successful, your console will boot into GodMode9
+  <li>Se o Helper for bem-sucedido, o seu console iniciará no GodMode9
     <ul>
-      <li>From this point forward, you can access GodMode9 by holding START while powering on your console</li>
+      <li>A partir daqui você pode acessar o GodMode9 segurando START enquanto inicia o seu console</li>
     </ul>
   </li>
   <li>Se você for solicitado para criar um backup de arquivos essenciais, aperte (A) pra fazê-lo, e depois aperte (A) para continuar quando ele for concluído</li>
@@ -574,7 +574,7 @@ window.cookieconsent.initialise({
   </li>
   <li>Uma vez que o script disser “Setup complete!”, aperte (A) para desligar o dispositivo
     <ul>
-      <li>If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section from Step 3</li>
+      <li>Se você NÃO ver a mensagem “Setup complete!”, o script não foi bem sucedido e você precisará refazer esta seção</li>
     </ul>
   </li>
   <li>Insira o cartão SD no seu computador</li>
@@ -597,6 +597,18 @@ window.cookieconsent.initialise({
 <p class="notice--success">Você terminou! Custom firmware agora está totalmente configurado no seu console.</p>
 
 <p class="notice--info">Tentando descobrir o que fazer com seu dispositivo recém-modificado? Visite <a href="https://wiki.hacks.guide/wiki/3DS:Things_to_do">nossa wiki</a>!</p>
+
+<div class="notice--info">
+<p>As you may already know, Nintendo is shutting down Nintendo Network services for the Nintendo 3DS and Wii U on April 8th, 2024. This means that online play servers and SpotPass content (e.g. in StreetPass Mii Plaza, Super Mario Maker, and the Pokémon games) will be rendered inaccessible after this date.</p>
+
+<p>The revival service <a href="https://pretendo.network/">Pretendo</a> is aiming to provide these services after Nintendo shuts down the official one. However, their efforts require the collection of data from Nintendo Network servers in order to understand how they work, which can only be accomplished before the network shutdown.</p>
+
+<p>If you would like to assist with this effort, you can contribute dumps of network data while the official servers are still online.</p>
+<ul>
+  <li>For information about preserving <strong>SpotPass data</strong> (data routed through Nintendo’s SpotPass feature), see <a href="https://spotpassarchive.github.io/">the SpotPass Archive project</a>. This project is not affiliated with Pretendo, but provides a more user-friendly instruction and submission format. <strong>SpotPass dumps do not contain any sensitive information.</strong></li>
+  <li>For information about preserving <strong>game and HTTP packets</strong> (data used by games for servers and other features), see <a href="https://pretendo.network/docs/network-dumps">Pretendo’s Network Dumps page</a>. <strong>Please note that this data may contain sensitive information, and that retrieving this data is more technically challenging.</strong></li>
+</ul>
+</div>
 
 <h3 id="informações-e-notas">Informações e Notas</h3>
 
