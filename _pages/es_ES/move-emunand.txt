@@ -22,7 +22,7 @@ Ya DEBES tener instalado Luma3DS y boot9strap para usar esto.
 
 #### Sección I - Preparativos
 
-1. Power off your console
+1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
 1. Copia el archivo `GodMode9.firm` desde el `.zip` de GodMode9 a la carpeta `/luma/payloads/` en tu tarjeta SD
 1. Copia la carpeta `gm9`contenida en el `.zip`de GodMode9 al directorio raíz de tu tarjeta SD
@@ -106,7 +106,7 @@ Si no habías respaldado datos de partidas de Consola Virtual de GBA antes, pued
 Para identificar el Title ID de un archivo `<TitleID>.gbavc.sav`, puedes revisar una lista de todos los juegos en la consola y sus Title IDs correspondientes presionando (Home) para mostrar el menú de acciones, seleccionando `Title manager` y luego `[A:] SD CARD`.
 {: .notice--info}
 
-1. Hold (R) and press (Start) at the same time to power off your console
+1. Mantén pulsado (R) y presiona (Start) al mismo tiempo para apagar tu consola
 1. Power on your console into SysNAND
 1. Haz lo siguiente por cada juego de Consola Virtual de GBA del cual quieras restaurar sus datos de guardado:
     + Inicia el juego de Consola Virtual de GBA
