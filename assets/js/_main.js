@@ -179,17 +179,7 @@ $(document).ready(function() {
 /* hacks-guide change end */
 
 /* hacks-guide change start: add progress table */
-  var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "dumping-titles-and-game-cartridges",
-                              "f3-(linux)", "f3xswift-(mac)", "faq", "file-extensions-(windows)",
-                              "godmode9-usage", "h2testw-(windows)", "region-changing", "site-navigation", "troubleshooting",
-                              "uninstall-cfw","updating-b9s", "privacy-policy", "checking-for-cfw", "restoring-updating-cfw"];
-
-  for(var i = 0; i < sidebar_hidden_pages.length; i++){
-    if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
-      sidebar_shown = false;
-    }
-  }
+  var sidebar_shown = false;
 
   var devices = {
     "get-started-(old-3ds)": "0",
@@ -220,13 +210,20 @@ $(document).ready(function() {
   for(var device in devices){
     if(window.location.href.indexOf("/" + device) > -1) {
       localStorage.setItem('device', devices[device]);
+      sidebar_shown = true;
     }
   }
 
   for(var method in methods){
     if(window.location.href.indexOf("/" + method) > -1) {
       localStorage.setItem('method', methods[method]);
+      sidebar_shown = true;
     }
+  }
+
+  if((window.location.href.indexOf("/" + "key-information") > -1) || (window.location.href.indexOf("/" + "get-started") > -1)) {
+    localStorage.setItem('method', methods[method]);
+    sidebar_shown = true;
   }
 
   var device, method;
