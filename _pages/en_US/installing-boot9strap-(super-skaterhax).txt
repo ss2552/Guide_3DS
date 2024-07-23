@@ -42,6 +42,10 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 1. Create a folder named `3ds` on the root of your SD card if it does not already exist
     + This folder stores homebrew applications and data; it is different from the `Nintendo 3DS` folder that the console automatically generates
 1. Copy the `nimdsphax` folder from the nimdsphax `.zip` to the `/3ds/` folder on your SD card
+
+    ![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
+    {: .notice--info}
+
 1. Reinsert your SD card into your console
 1. Power on your console
 1. Launch System Settings
@@ -53,10 +57,6 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
     + JPN: 日本, -
     + KOR: 대한민국, -
 1. Exit System Settings
-
-![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
-{: .notice--info}
-
 
 #### Section II - super-skaterhax
 
