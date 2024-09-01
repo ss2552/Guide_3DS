@@ -52,10 +52,10 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 1. Select "Other Settings"
 1. Navigate to "Profile" -> "Region Settings"
 1. Select the following options according to your console's region ([image](/images/screenshots/skater_lang.png))
-    + USA: United States, -
-    + EUR: United Kingdom, -
-    + JPN: 日本, -
-    + KOR: 대한민국, -
+    + USA: United States, Do Not Set
+    + EUR: United Kingdom, Do Not Set
+    + JPN: 日本, 設定しない
+    + KOR: 대한민국, 설정하지 않음
 1. Exit System Settings
 
 #### Section II - super-skaterhax
