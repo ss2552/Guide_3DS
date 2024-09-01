@@ -351,7 +351,7 @@ If the problem persists:
 + Ensure that your region settings look [like this](/images/screenshots/skater_lang.png)
 + Try resetting your browser data:
     1. Launch the browser, then launch the browser settings
-    1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initilize Save Data" or "Clear All Save Data")
+    1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")
     1. Try the exploit again
 + Try changing the system language to something other than the current language
 
