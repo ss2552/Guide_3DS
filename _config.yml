@@ -96,7 +96,7 @@ exclude: [
   _pages/cs_CZ,
   _pages/da_DK,
   # _pages/de_DE,
-  _pages/el_GR,
+  # _pages/el_GR,
   _pages/en_PT,
   # _pages/en_US,
   _pages/et_EE,
