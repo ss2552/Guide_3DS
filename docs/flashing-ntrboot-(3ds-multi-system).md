@@ -1,19 +1,18 @@
----
-title: "Flashing ntrboot (3DS Multi System)"
----
+# Flashing ntrboot (3DS Multi System)
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot).
 
 This method requires temporary access to a second 3DS family console that is already running boot9strap. This does not require your flashcart to support either 3DS's version.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
-{: .notice--danger}
+::: danger
 
-### What You Need
+Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless, only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](https://www.nds-card.com/)).
+
+:::
+
+## What You Need
 
 * Your ntrboot compatible flashcart
 * Two 3DS family consoles
@@ -22,9 +21,9 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 * The v1.3 release of [boot9strap-ntr](https://github.com/SciresM/boot9strap/releases/download/1.3/boot9strap-1.3-ntr.zip) (direct download)
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 1. Power off **the source 3DS**
 1. Insert **the source 3DS**'s SD card into your computer
@@ -34,7 +33,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 1. Reinsert **the source 3DS**'s SD card back into **the source 3DS**
 1. Insert your ntrboot compatible DS / DSi flashcart into **the source 3DS**
 
-#### Section II - Flashing ntrboot
+### Section II - Flashing ntrboot
 
 1. Launch the Luma3DS chainloader by holding (Start) during boot on **the source 3DS**
 1. Select "ntrboot_flasher"
@@ -54,5 +53,8 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 
 ___
 
-### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
-{: .notice--primary}
+::: tip
+
+Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+
+:::

@@ -1,20 +1,22 @@
----
-title: "Dumping Titles and Game Cartridges"
----
+# Dumping Titles and Game Cartridges
 
-{% include toc title="Table of Contents" %}
+::: info
 
 For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join [GodMode9 on Discord](https://discord.gg/BRcbvtFxX4).
-{: .notice--primary}
 
-### Required Reading
+:::
+
+## Required Reading
 
 Aside from creating and restoring NAND backups, GodMode9 has the functionality to dump installed titles to an installable `.cia` file, to dump game cartridge data to a `.3ds` ROM file, and to directly install a game cartridge to the system.
 
 ## Updating GodMode9
 
+::: info
+
 These instructions are written for use with GodMode9 v2.0.0 or later. If you have an older version of GodMode9, follow these instructions to update it.
-{: .notice--info}
+
+:::
 
 ### What You Need
 
@@ -30,13 +32,13 @@ These instructions are written for use with GodMode9 v2.0.0 or later. If you hav
 
 ## Dumping a Game Cartridge
 
-{% capture notice %}
+::: info
+
 Insert the game cartridge you intend to dump into your console
 + 3DS game cartridges will be dumped to a `.3ds` format
 + NDS game cartridges will be dumped to a `.nds` format
-{% endcapture %}
 
-<div class="notice--info">{{ notice | markdownify }}</div>
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Navigate to `[C:] GAMECART`
@@ -49,8 +51,11 @@ Insert the game cartridge you intend to dump into your console
 
 ## Installing a Game Cartridge Directly to the System
 
+::: info
+
 This will only work for 3DS games; it is not possible to install an NDS game cartridge to the system as a title.
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Navigate to `[C:] GAMECART`
@@ -60,8 +65,11 @@ This will only work for 3DS games; it is not possible to install an NDS game car
 
 ## Dumping a 3DS Game Cartridge to .CIA
 
+::: info
+
 This should only be used if [Installing a Game Cartridge Directly to the System](#installing-a-game-cartridge-directly-to-the-system) does not work.
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Navigate to `[C:] GAMECART`
@@ -70,8 +78,11 @@ This should only be used if [Installing a Game Cartridge Directly to the System]
 
 ## Dumping an Installed Title
 
+::: info
+
 This allows dumping of both System- and User-installed digital titles, such as ones downloaded from the eShop.
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Press (Home) to bring up the action menu
@@ -86,11 +97,17 @@ This allows dumping of both System- and User-installed digital titles, such as o
 
 ## Backup GBA VC Saves
 
+::: info
+
 The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
-{: .notice--info}
+
+:::
+
+::: info
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting `Title manager`, and selecting `[A:] SD CARD`.
-{: .notice--info}
+
+:::
 
 1. Do the following process for each GBA VC game that you want to back up the save for:
     + Launch the GBA VC game
@@ -106,8 +123,11 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Restore GBA VC Saves
 
+::: info
+
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by pressing (Home) to bring up the action menu, selecting `Title manager`, and selecting `[A:] SD CARD`.
-{: .notice--info}
+
+:::
 
 1. Do the following process for each GBA VC game that you want to restore the save for:
     + Launch the GBA VC game
@@ -128,8 +148,11 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Encrypting / Decrypting a .CIA file
 
+::: info
+
 For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Navigate to `[0:] SDCARD` -> `cias`

@@ -1,6 +1,4 @@
----
-title: "Credits"
----
+# Credits
 
 This guide is currently maintained by: **lifehackerhansol, lilyuwuu, eip618, ihaveamac, and adrot**, with additional significant contributions from **Gruetzig, danny8376, MechanicalDragon0687, and the various #community-resources members** who provide valuable input.
 
@@ -8,17 +6,18 @@ This guide uses homebrew software developed by **SciresM, TuxSH, AuroraWright, d
 
 If we forgot to add you to this list of credits, [let us know](https://github.com/hacks-guide/Guide_3DS/issues)!
 
-{% capture notice-6 %}
+::: info
+
 **Special thanks to:**
 + **Plailect**, the original creator and maintainer of this guide
 + [The guide translators](https://crowdin.com/project/3ds-guide), who make this guide more accessible around the world
 + Anyone who has ever submitted an issue, pull request, or otherwise informed us about problems on this guide
 + The historical contributors to this guide, without whom this guide would not exist today
-{% endcapture %}
-<div class="notice--primary">{{ notice-6 | markdownify }}</div>
 
-{% capture old_credits %}
-<summary><em>Historical contributors</em></summary>
+:::
+
+::: details Historical contributors
+
     + #Cakey on freenode
     + Al3x_10m
     + aliaspider
@@ -87,6 +86,5 @@ If we forgot to add you to this list of credits, [let us know](https://github.co
     + yellows8
     + yifan_lu
     + zoogie
-{% endcapture %}
-<details>{{ old_credits | markdownify }}</details>
-{: .notice--info}
+
+:::

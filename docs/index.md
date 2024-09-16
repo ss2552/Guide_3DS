@@ -1,23 +1,24 @@
 ---
-layout: splash
-title: "3DS Hacks Guide" #
-header:
-  overlay_color: "#5e616c" #
-  overlay_image: /images/home-page-feature.jpg
-  overlay_filter: 0.5
-  cta_label: "Get Started"
-  cta_url: "key-information"
-  caption:
-excerpt: "A complete guide to 3DS (and 2DS) custom firmware, <br /> from stock to boot9strap.<br />"
+layout: home
+title: "3DS Hacks Guide"
+hero:
+  text: "3DS Hacks Guide"
+  tagline: "A complete guide to 3DS (and 2DS) custom firmware, from stock to boot9strap."
+  image:
+    src: /images/home-page-feature.jpg
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
-{: .notice--info}
+::: info
 
-{% capture update-notice %}
-{% include_relative include/3ds-online.txt %}
-{% endcapture %}
-<div class="notice--danger">{{ update-notice | markdownify }}</div>
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+
+:::
+
+::: danger
+
+<!--@include: ./_include/3ds-online.md -->
+
+:::
 
 ## What is custom firmware?
 
@@ -43,5 +44,8 @@ This guide will:
 
 ___
 
-### Continue to [Key Information](key-information)
-{: .notice--primary}
+::: tip
+
+Continue to [Key Information](key-information)
+
+:::

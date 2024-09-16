@@ -1,26 +1,26 @@
----
-title: "Installing boot9strap (MSET9 Play Store)"
----
+# Installing boot9strap (MSET9 Play Store)
 
-{% include toc title="Table of Contents" %}
+::: details Technical Details (optional)
 
-{% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
 [MSET9](https://github.com/zoogie/MSET9) is an exploit for the System Settings application developed by [zoogie](https://github.com/zoogie). It exploits a flaw where the ID1 (the second 32-character folder name inside of the Nintendo 3DS folder, inside of the ID0) can be *any* name as long as it is 32 characters. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the 3DS.
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+:::
 
-### Compatibility Notes
+## Compatibility Notes
+
+::: warning
 
 This page requires an Android phone/tablet or a Chromebook. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
-{: .notice--warning}
+
+:::
+
+::: warning
 
 On Android phones/tablets, the minimum Android version required is 6.0 (Marshmallow).
-{: .notice--warning}
 
-### What You Need
+:::
+
+## What You Need
 
 * The following applications installed from the Google Play Store:
     * [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
@@ -28,9 +28,9 @@ On Android phones/tablets, the minimum Android version required is 6.0 (Marshmal
     * If you wish, you can sideload these applications instead
 * The latest release of [MSET9](https://github.com/zoogie/MSET9/releases/latest) (the Release `.zip` file)
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
 In this section, you will prepare the SD card data necessary for the MSET9 exploit to trigger.
 
@@ -48,8 +48,11 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
     + Select the Release `.zip`, then select "Extract..." ([image](/images/screenshots/mset9/zarchiver-extract-1.png))
     + Navigate to your SD card, then tap the blue 'down arrow' icon to extract the files to the root of your SD card ([image](/images/screenshots/mset9/zarchiver-extract-2.png))
 
+    ::: info
+
     ![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout-android.png)
-    {: .notice--info}
+
+    :::
 
 1. Run the [MSET9 Installer application](/images/screenshots/mset9/mset9-setup-android.png)
 1. Tap on `Select "Nintendo 3DS" Folder`, then navigate to your `Nintendo 3DS` folder on your SD card ([image](/images/screenshots/mset9/select-mset9-folder-1.png))
@@ -59,12 +62,15 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
 1. Reinsert your SD card into your console
 1. Power on your console
 
-#### Section II - MSET9
+### Section II - MSET9
 
 In this section, you will trigger MSET9 to launch SafeB9SInstaller (the custom firmware installer).
 
+::: danger
+
 These instructions must be followed **EXACTLY**, so double-check EVERYTHING you are doing to avoid errors!
-{: .notice--danger}
+
+:::
 
 1. **[Hover over](/images/screenshots/mset9/hover-settings.png)** the System Settings icon using the D-Pad (do not select it yet)
 1. Power off, then power on your console
@@ -82,17 +88,24 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
 1. If the exploit was successful, you will have booted into SafeB9SInstaller 
     + If you get a red screen or the console gets stuck on a loading screen, follow the [troubleshooting guide](troubleshooting#installing-boot9strap-mset9)
 
-#### Section III - Installing boot9strap
+### Section III - Installing boot9strap
 
-{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
-{%- include_relative include/configure-luma3ds.txt %}
+In this section, you will install custom firmware onto your console.
 
-#### Section IV - Removing MSET9
+1. When prompted, input the key combo given on the top screen to install boot9strap
+    + If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting#issues-with-safeb9sinstaller)
+1. Once it is complete, press (A) to reboot your console
+<!--@include: ./_include/configure-luma3ds.md -->
+
+### Section IV - Removing MSET9
 
 In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)
 
+::: danger
+
 Do NOT skip this section! If you skip it, applications may crash unexpectedly and you will encounter errors on the next page!
-{: .notice--danger}
+
+:::
 
 1. Power off your console
 1. Insert your SD card into your phone/tablet/computer
@@ -100,11 +113,18 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
 1. Tap "Remove MSET9"
 1. Close the MSET9 Installer application
 
-{% include_relative include/luma3ds-installed-note.txt %}
+<!--@include: ./_include/luma3ds-installed-note.md -->
+
 ___
 
-Did you follow Section IV (Removing MSET9)? That section is MANDATORY!
-{: .notice--danger}
+::: danger
 
-### Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--primary}
+Did you follow Section IV (Removing MSET9)? That section is MANDATORY!
+
+:::
+
+::: tip
+
+Continue to [Finalizing Setup](finalizing-setup)
+
+:::

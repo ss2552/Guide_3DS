@@ -1,10 +1,6 @@
----
-title: "F3 (Linux)"
----
+# F3 (Linux)
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 This is an add-on section for checking your SD card for errors using F3.
 
@@ -12,11 +8,11 @@ Depending on the size of your SD card and the speed of your computer, this proce
 
 This page is for Linux users only. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3XSwift (Mac)](f3xswift-(mac)) pages.
 
-### What You Need
+## What You Need
 
 * The latest version of [F3](https://github.com/AltraMayor/f3/releases/tag/v8.0)
 
-### Instructions
+## Instructions
 
 1. Unzip the f3 `.zip` file
 1. `cd` into the f3 directory
@@ -56,11 +52,20 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
+::: tip
+
 If the test shows the result `Data LOST: 0.00 Byte (0 sectors)`, your SD card is good and you can delete all `.h2w` files on your SD card.
-{: .notice--success}
+
+:::
+
+::: danger
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
-{: .notice--danger}
 
-### Return to [Get Started](get-started)
-{: .notice--primary}
+:::
+
+::: tip
+
+Return to [Get Started](get-started)
+
+:::

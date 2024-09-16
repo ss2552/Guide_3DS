@@ -1,5 +1,8 @@
+::: info
+
 If the script found no user tickets, continue to the next section.
-{: .notice--info}
+
+:::
 
 1. Launch FBI from the list of homebrew
 1. Select "SD"

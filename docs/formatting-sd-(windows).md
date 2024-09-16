@@ -1,10 +1,6 @@
----
-title: "Formatting SD (Windows)"
----
+# Formatting SD (Windows)
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 This is an add-on section for formatting an SD card to work with the 3DS.
 
@@ -12,12 +8,12 @@ If the 3DS already recognizes the SD card, this guide is not required.
 
 This page is for Windows users only. If you are not on Windows, check out the [Formatting SD (Linux)](formatting-sd-(linux)) or [Formatting SD (Mac)](formatting-sd-(mac)) pages.
 
-### What You Need
+## What You Need
 
 * **For SD cards 32GB or smaller:** the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
 * **For SD cards 64GB or larger:** The latest version of [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
 
-### Instructions (32GB or smaller)
+## Instructions (32GB or smaller)
 
 1. Insert your SD card into your computer
 1. If the SD card has any files and folders on it, copy everything to a folder on your computer
@@ -25,8 +21,11 @@ This page is for Windows users only. If you are not on Windows, check out the [F
 1. Run `SD Card Formatter` from the Start Menu
 1. Select your SD card's drive letter for "Select card"
 
+    ::: danger
+
     Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
-    {: .notice--danger}
+
+    :::
 
 1. Enter anything for "Volume label"
 1. Ensure that "Quick Format" is selected
@@ -37,15 +36,18 @@ This page is for Windows users only. If you are not on Windows, check out the [F
 1. Close SD Card Formatter
 1. If the SD card had any files and folders on it before the format, copy everything back from your computer
 
-### Instructions (64GB or larger)
+## Instructions (64GB or larger)
 
 1. Insert your SD card into your computer
 1. If the SD card has any files and folders on it, copy everything to a folder on your computer
 1. Run `guiformat.exe`
 1. Select your SD card's drive letter for "Drive"
 
+    ::: danger
+
     Make sure you choose the correct drive letter, otherwise you might accidentally erase the wrong drive!
-    {: .notice--danger}
+
+    :::
 
 1. Select a size for "Allocation unit size"
     + If the SD card is 64GB, choose 32768
@@ -58,7 +60,7 @@ This page is for Windows users only. If you are not on Windows, check out the [F
 1. Click "Close"
 1. If the SD card had any files and folders on it before the format, copy everything back from your computer
 
-### Troubleshooting
+## Troubleshooting
 
 * guiformat shows the error "Failed to open device: GetLastError()=32"
     + Close everything that may be using the SD card, such as any File Explorer windows.

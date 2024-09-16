@@ -1,16 +1,18 @@
----
-title: "GodMode9 Usage"
----
+# GodMode9 Usage
 
-{% include toc title="Table of Contents" %}
+::: info
 
 For information on dumping cartridge or SD card content, see [Dumping Titles and Game Cartridges](dumping-titles-and-game-cartridges).
-{: .notice--info}
+
+:::
+
+::: info
 
 For support (in English) with GodMode9, as well as help with scripting and to get updates and info, join [GodMode9 on Discord](https://discord.gg/BRcbvtFxX4).
-{: .notice--primary}
 
-### Required Reading
+:::
+
+## Required Reading
 
 GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
 
@@ -20,8 +22,11 @@ GodMode9 is powerful software that has the capability to modify essentially anyt
 
 ## Updating GodMode9
 
+::: info
+
 Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Overwrite any existing files.
-{: .notice--info}
+
+:::
 
 ### What You Need
 
@@ -35,16 +40,22 @@ Some of the instructions below are only applicable to the latest version of GodM
 1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Reinsert your SD card into your console
 
+::: tip
+
 GodMode9 is now up to date.
-{: .notice--success}
+
+:::
 
 ## Creating a NAND Backup
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
-{% include_relative include/nand-backup.txt %}
+<!--@include: ./_include/nand-backup.md -->
+
+::: tip
 
 Your NAND backup has been successfully created.
-{: .notice--success}
+
+:::
 
 ## Restoring a NAND Backup
 
@@ -67,13 +78,19 @@ Your NAND backup has been successfully created.
 1. Select "Exit"
 1. Press (A) to relock write permissions if prompted
 
+::: tip
+
 Your NAND backup has been successfully restored. You can now delete `<date>_<serialnumber>_sysnand_###.bin` from your SD card.
-{: .notice--success}
+
+:::
 
 ## Injecting any .CIA app into Health & Safety
 
+::: info
+
 Note that it is not possible to inject files into Health & Safety that are larger than it (including games and other large applications)
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Navigate to `[0:] SDCARD` -> `cias`
@@ -87,13 +104,19 @@ Note that it is not possible to inject files into Health & Safety that are large
 1. Press (A) to continue
 1. Press (A) to relock write permissions if prompted
 
+::: tip
+
 Your desired application has now been injected into Health & Safety.
-{: .notice--success}
+
+:::
 
 ## Restoring Health & Safety after injecting a .CIA app
 
+::: info
+
 This will only work if the Health & Safety injection was performed by GodMode9 (not Decrypt9 or Hourglass9).
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Press (Home) to bring up the action menu
@@ -102,26 +125,38 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to relock write permissions if prompted
 
+::: tip
+
 Health & Safety has been reverted to normal.
-{: .notice--success}
+
+:::
 
 ## Format an SD card
 
+::: danger
+
 **Note that this will erase the contents of your SD card!**
-{: .notice--danger}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Press (Right Shoulder) + (B) to unmount the current SD card and insert the one you want to format
     + If GodMode9 shows an initialization error when inserting the SD Card to be formatted, it can safely be dismissed
-{% include_relative include/format-sd-gm9.txt %}
+<!--@include: ./_include/format-sd-gm9.md -->
+
+::: tip
 
 Your SD card has successfully been formatted for use with the console.
-{: .notice--success}
+
+:::
 
 ## Removing an NNID without formatting your console
 
+::: info
+
 This process will only log you out of your NNID. You will still not be able to use the NNID on another console, as the NNID remains linked to the console.
-{: .notice--info}
+
+:::
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 1. Press (Home) to bring up the action menu
@@ -137,5 +172,8 @@ This process will only log you out of your NNID. You will still not be able to u
 1. Press (A) to relock write permissions if prompted
 1. Press (Start) to reboot your console
 
+::: tip
+
 You have now been logged out of your NNID.
-{: .notice--success}
+
+:::

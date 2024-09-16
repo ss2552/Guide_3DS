@@ -1,10 +1,6 @@
----
-title: "Installing boot9strap (MSET9)"
----
+# Installing boot9strap (MSET9)
 
-{% include toc title="Table of Contents" %}
-
-### Choose your operating system
+## Choose your operating system
 
 The instructions for MSET9 differ depending on the computer, phone, or tablet **that you are using to mod your console**.
 

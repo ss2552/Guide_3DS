@@ -1,10 +1,6 @@
----
-title: "F3X (Mac)"
----
+# F3X (Mac)
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 This is an add-on section for checking your SD card for errors using F3X.
 
@@ -12,14 +8,17 @@ Depending on the size of your SD card and the speed of your computer, this proce
 
 This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 
-If you're using a Mac on macOS 10.13 (High Sierra) and above, follow [F3XSwift (Mac)](f3xswift-(mac)) instead.
-{: .notice--primary}
+::: info
 
-### What You Need
+If you're using a Mac on macOS 10.13 (High Sierra) and above, follow [F3XSwift (Mac)](f3xswift-(mac)) instead.
+
+:::
+
+## What You Need
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+## Instructions
 
 1. Unzip the F3X `.zip` file
 1. Insert your SD card into your computer
@@ -30,11 +29,20 @@ If you're using a Mac on macOS 10.13 (High Sierra) and above, follow [F3XSwift (
 
 ___
 
+::: tip
+
 If the test shows the result `Success! Your card is ok!`, your SD card is good and you can delete all `.h2w` files on your SD card.
-{: .notice--success}
+
+:::
+
+::: danger
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
-{: .notice--danger}
 
-### Return to [Get Started](get-started)
-{: .notice--primary}
+:::
+
+::: tip
+
+Return to [Get Started](get-started)
+
+:::

@@ -1,19 +1,18 @@
----
-title: "Site Navigation" #
-sitemap: false
----
+# Site Navigation
 
-{% capture notice-1 %}
+::: tip
+
 **Popular**
 
 + [Finalizing Setup](finalizing-setup)
 + [Installing boot9strap (Soundhax)](installing-boot9strap-(soundhax))
 + [Installing boot9strap (MSET9)](installing-boot9strap-(mset9))
 
-{% endcapture %}
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
+:::
 
-{% capture notice-2 %}
+
+::: info
+
 **All**
 
 + [A9LH to B9S](a9lh-to-b9s)
@@ -56,5 +55,5 @@ sitemap: false
 + [Troubleshooting](troubleshooting)
 + [Uninstall CFW](uninstall-cfw)
 + [Updating B9S](updating-b9s)
-{% endcapture %}
-<div class="notice--primary">{{ notice-2 | markdownify }}</div>
+
+:::

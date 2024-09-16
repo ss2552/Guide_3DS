@@ -1,4 +1,4 @@
-1. Launch the Download Play application (![]({{ "/images/download-play-icon.png" | absolute_url }}){: height="24px" width="24px"})
+1. Launch the Download Play application (![](/images/download-play-icon.png){height="24px" width="24px"})
 1. Wait until you see the `Nintendo 3DS` and `Nintendo DS` buttons
 1. Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu
 1. Select "Miscellaneous options"

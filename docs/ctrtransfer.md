@@ -1,20 +1,22 @@
----
-title: "CTRTransfer"
----
+# CTRTransfer
 
-{% include toc title="Table of Contents" %}
-
-### Required Reading
+## Required Reading
 
 This is an add-on section for installing an 11.15.0 CTRTransfer image to your console.
 
+::: info
+
 This page assumes that you have already installed Luma3DS and boot9strap. If you followed this website to the end (Finalizing Setup), you have Luma3DS and boot9strap.
-{: .notice--info}
+
+:::
+
+::: warning
 
 As a part of this process, your system settings will be reset to its defaults. This includes things such as your username, country, and language. **Installed games and their save data will not be affected.**
-{: .notice--warning}
 
-### What You Need
+:::
+
+## What You Need
 
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
 * The latest release of [FBI](https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.3dsx) (direct download)
@@ -22,36 +24,39 @@ As a part of this process, your system settings will be reset to its defaults. T
 * A torrent client like [qBittorrent](https://www.qbittorrent.org/download.php) or [Deluge](http://dev.deluge-torrent.org/wiki/Download)
     * If you already have a torrent client, you do not need to download a new one
 * The 11.15.0 CTRTransfer image for your console and region:
-{% include_relative include/ctrtransfer-images.txt %}
+<!--@include: ./_include/ctrtransfer-images.md -->
 
-### Instructions
+## Instructions
 
-#### Section I - Prep Work
+### Section I - Prep Work
 
-{% include_relative include/ctrtransfer-prep.txt %}
+<!--@include: ./_include/ctrtransfer-prep.md -->
 
-#### Section II - NAND Backup
+### Section II - NAND Backup
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
-{% include_relative include/nand-backup.txt %}
+<!--@include: ./_include/nand-backup.md -->
 
-#### Section III - CTRTransfer
+### Section III - CTRTransfer
 
-{% include_relative include/ctrtransfer-main.txt %}
+<!--@include: ./_include/ctrtransfer-main.md -->
 
-#### Section IV - Launching FBI
+### Section IV - Launching FBI
 
-{% include_relative include/launch-hbl-dlp.txt %}
+<!--@include: ./_include/launch-hbl-dlp.md -->
 
-#### Section V - Reinstalling Tickets
+### Section V - Reinstalling Tickets
 
-{% include_relative include/ctrtransfer-ticket-copy.txt %}
+<!--@include: ./_include/ctrtransfer-ticket-copy.md -->
 
-#### Section VI - Fixing locale-related issues
+### Section VI - Fixing locale-related issues
 
-{% include_relative include/ctrnand-datayeet.txt %}
+<!--@include: ./_include/ctrnand-datayeet.md -->
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--primary}
+::: tip
+
+Continue to [Finalizing Setup](finalizing-setup)
+
+:::

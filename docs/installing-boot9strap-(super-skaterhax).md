@@ -1,23 +1,20 @@
----
-title: "Installing boot9strap (super-skaterhax)"
----
+# Installing boot9strap (super-skaterhax)
 
-{% include toc title="Table of Contents" %}
+::: details Technical Details (optional)
 
-{% capture technical_info %}
-<summary><em>Technical Details (optional)</em></summary>
 For technical details on the exploits that you will be using on this page, see [here](https://github.com/zoogie/super-skaterhax).
 
-{% endcapture %}
-<details>{{ technical_info | markdownify }}</details>
-{: .notice--info}
+:::
 
 ### Compatibility Notes
 
 Super-skaterhax (when used to launch the Homebrew Launcher) is compatible with New models on version 11.15.0 and above in all regions.
 
+::: warning
+
 The instructions provided only apply to the New 3DS, New 3DS XL, and New 2DS XL. Please ensure that the console you are modding is a New 3DS, New 3DS XL, or New 2DS XL before continuing.
-{: .notice--warning}
+
+:::
 
 ### What You Need
 
@@ -31,8 +28,11 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 1. Insert your SD card into your computer
 1. Copy everything from the sk8rhax `.zip` to the root of your SD card, overwriting any existing files
 
-    ![]({{ "/images/screenshots/skater-root-layout.png" | absolute_url }})
-    {: .notice--info}
+    ::: info
+
+    ![](/images/screenshots/skater-root-layout.png)
+
+    :::
 
 1. Reinsert your SD card into your console
 1. Power on your console
@@ -52,8 +52,11 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 
 In this section, you will visit the browser exploit webpage, which will launch the Homebrew Launcher.
 
+::: info
+
 If you haven't already, make sure you have a working Internet connection set up on your console.
-{: .notice--info}
+
+:::
 
 1. On the HOME Menu, press the Left and Right shoulder buttons at the same time to open the camera
     + If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/super/` for EUR/USA/JPN, `https://zoogie.github.io/web/korea` for KOR)
@@ -89,15 +92,25 @@ If you haven't already, make sure you have a working Internet connection set up 
 
 #### Section III - Installing boot9strap
 
-{% include_relative include/install-boot9strap-safeb9sinstaller.txt %}
-{%- include_relative include/configure-luma3ds.txt %}
+In this section, you will install custom firmware onto your console.
 
-{% include_relative include/luma3ds-installed-note.txt %}
+1. When prompted, input the key combo given on the top screen to install boot9strap
+    + If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting#issues-with-safeb9sinstaller)
+1. Once it is complete, press (A) to reboot your console
+<!--@include: ./_include/configure-luma3ds.md -->
+
+<!--@include: ./_include/luma3ds-installed-note.md -->
 
 ___
 
-You may now restore your region settings back to normal.
-{: .notice--info}
+::: info
 
-### Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--primary}
+You may now restore your region settings back to normal.
+
+:::
+
+::: tip
+
+Continue to [Finalizing Setup](finalizing-setup)
+
+:::
