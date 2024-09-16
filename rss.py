@@ -24,7 +24,7 @@ import bencodepy
 
 
 dir = os.path.join(os.getcwd(), "torrents")
-rss = os.path.join(os.getcwd(), "rss.xml")
+rss = os.path.join(os.getcwd(), "docs/public/rss.xml")
 
 
 items = []
