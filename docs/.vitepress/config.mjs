@@ -50,4 +50,5 @@ export default defineConfig({
       ]
     }
   },
+  srcExclude: ['**/_include/**', '**/_internal/**']
 })
