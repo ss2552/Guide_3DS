@@ -8,6 +8,8 @@ import { defineConfig } from 'vitepress'
 
 import * as i18n from './i18n'
 
+process.env.VITE_EXTRA_EXTENSIONS = 'ini,gm9'
+
 export default defineConfig({
   title: "3DS Hacks Guide",
   description: "A complete guide to 3DS custom firmware",
