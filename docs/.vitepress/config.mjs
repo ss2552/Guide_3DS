@@ -11,6 +11,7 @@ import * as i18n from './i18n'
 export default defineConfig({
   title: "3DS Hacks Guide",
   description: "A complete guide to 3DS custom firmware",
+  head: [['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }]],
   locales: {
     root: i18n.en_US
   },
