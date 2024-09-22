@@ -11,7 +11,11 @@ import * as i18n from './i18n'
 export default defineConfig({
   title: "3DS Hacks Guide",
   description: "A complete guide to 3DS custom firmware",
-  head: [['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-760Y60FQ3T' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-760Y60FQ3T');`]
+  ],
   locales: {
     root: i18n.en_US
   },
