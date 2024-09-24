@@ -337,7 +337,7 @@ This likely indicates that you already have custom firmware. You should [check f
 
 If no colors flash after pressing "GO GO!":
 
-+ Ensure that you have set your system date and [region](/images/screenshots/skater_lang.png) correctly
++ Ensure that you have set your system date and [region](/images/screenshots/skater/skater-lang.png) correctly
 + Ensure that no other browser tabs are open, then restart the browser and try the exploit again
 
 If the screen flashes colors then freezes/crashes:
