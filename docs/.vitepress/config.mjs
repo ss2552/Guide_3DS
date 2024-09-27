@@ -48,6 +48,12 @@ export default defineConfig({
           replacement: fileURLToPath(
             new URL('./theme/components/VPFooter.vue', import.meta.url)
           )
+        },
+        {
+          find: /^.*\/VPDocOutlineItem\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPDocOutlineItem.vue', import.meta.url)
+          )
         }
       ]
     }
