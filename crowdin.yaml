@@ -2,6 +2,6 @@ files:
   - source: /docs/*.md
     translation: /docs/%locale_with_underscore%/%original_file_name%
   - source: /docs/_include/*.md
-    translation: /docs/%locale_with_underscore%/include/%original_file_name%
+    translation: /docs/%locale_with_underscore%/_include/%original_file_name%
   - source: /docs/.vitepress/i18n/strings/en_US.json
     translation: /docs/.vitepress/i18n/strings/%locale_with_underscore%.json
