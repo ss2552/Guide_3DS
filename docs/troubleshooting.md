@@ -385,6 +385,7 @@ Follow these steps in order:
 :::
 
 ::: details Frozen on "Doing agbhax..."
+
 There may be an issue with your `arm11code.bin` file. Re-download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place it on the root of your SD card, and rename it to `arm11code.bin`. Do not add the `.bin` extension if you do not already see it.
 
 :::
@@ -601,6 +602,7 @@ Your Luma3DS version is outdated. Download the latest release of [Luma3DS](https
 :::
 
 ::: details "Unable to mount CTRNAND or load the CTRNAND FIRM. Please use an external one."
+
 There are a number of reasons as to why this could be happening. In any case, this error can usually be fixed by following the [CTRTransfer](ctrtransfer) guide.
 
 :::
