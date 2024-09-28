@@ -713,6 +713,7 @@ Your console likely still has menuhax67 installed. To uninstall menuhax67, downl
     + **EUR Region**: `000002ce`
     + **JPN Region**: `000002cc`
     + **USA Region**: `000002cd`
+    + **KOR Region**: `000002cf`
 1. Reinsert your SD card into your console
 
 :::
