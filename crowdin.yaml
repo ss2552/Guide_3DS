@@ -1,4 +1,5 @@
 project_id: 240581
+api_token_env: CROWDIN_TOKEN
 
 files:
   - source: /docs/*.md
