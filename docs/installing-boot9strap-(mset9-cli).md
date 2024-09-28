@@ -37,7 +37,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     ::: info
 
-    ![MSET9 root layout](/images/screenshots/mset9/mset9-root-layout.png)
+    ![](/images/screenshots/mset9/mset9-root-layout.png)
 
     :::
 
@@ -45,7 +45,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 <!--@include: ./_include/mset9-chorus.md -->
     ::: info
 
-    ![Image: MSET9 setup](/images/screenshots/mset9/mset9-select.png)
+    ![](/images/screenshots/mset9/mset9-select.png)
 
     :::
 
@@ -54,7 +54,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     ::: info
 
-    ![Image: MSET9 setup](/images/screenshots/mset9/mset9-setup-notcreated.png)
+    ![](/images/screenshots/mset9/mset9-setup-notcreated.png)
 
     :::
 
@@ -81,7 +81,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     ::: info
 
-    ![Image: MSET9 setup](/images/screenshots/mset9/mset9-ready.png)
+    ![](/images/screenshots/mset9/mset9-ready.png)
 
     :::
 
