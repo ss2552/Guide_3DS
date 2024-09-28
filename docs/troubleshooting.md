@@ -128,10 +128,10 @@ If this does not work, your SD card needs to be formatted:
 ::: details Title database: Not initialized!
 
 Ensure that you have reset the title database.
-    + Please power on your console with your SD inserted 
-    + Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
-        + This will not wipe any of your data
-    + If you get a reset prompt, after resetting, power off your console and start again from [Section I Step 14](installing-boot9strap-(mset9-cli)#section-i---prep-work)
++ Please power on your console with your SD inserted 
++ Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
+    + This will not wipe any of your data
++ If you get a reset prompt, after resetting, power off your console and start again from [Section I Step 14](installing-boot9strap-(mset9-cli)#section-i---prep-work)
 
 If you do *not* getting a reset prompt, your SD card needs to be formatted:
 
@@ -608,10 +608,10 @@ There are a number of reasons as to why this could be happening. In any case, th
 ::: details "An error has occurred. Hold down the POWER button to turn off the power..."
 
 ARM11 exception handlers are disabled, or custom firmware is not installed. Try enabling ARM11 exception handlers:
-    + Power off your console
-    + Hold (Select)
-    + Power on your console, while still holding (Select)
-    + If the "Disable ARM11 exception handlers" box is checked, uncheck it
++ Power off your console
++ Hold (Select)
++ Power on your console, while still holding (Select)
++ If the "Disable ARM11 exception handlers" box is checked, uncheck it
 
 :::
 
