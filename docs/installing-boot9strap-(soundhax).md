@@ -38,7 +38,7 @@ In this section, you will copy the files needed to trigger both Soundhax and uni
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -56,7 +56,7 @@ In this section, you will launch Soundhax through the Nintendo 3DS Sound app, wh
 
     ::: info
 
-    ![](/images/screenshots/soundhax-welcome.png)
+    ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
     :::
 
@@ -70,7 +70,7 @@ In this section, you will launch Soundhax through the Nintendo 3DS Sound app, wh
 
     ::: info
 
-    ![](/images/screenshots/soundhax-launch.png)
+    ![](/images/screenshots/soundhax/soundhax-launch.png)
 
     :::
 
