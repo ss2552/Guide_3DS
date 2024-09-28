@@ -138,7 +138,6 @@ If you do *not* getting a reset prompt, your SD card needs to be formatted:
 1. Copy everything off the SD Card to your PC
 1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
-1. Run the MSET9 script:
 <!--@include: ./_include/mset9-chorus.md -->
 1. Type the number corresponding to your console model and version, then press Enter
 1. Type `2` then press enter to check the MSET9 status
@@ -229,7 +228,6 @@ You may be missing `SafeB9S.bin` from the root of your SD card, or the file may 
 
 1. Force power off your console by holding the Power button for 20 seconds
 1. Insert your SD card into your computer
-1. Run the MSET9 script:
 <!--@include: ./_include/mset9-chorus.md -->
 1. Type the number corresponding to your console model and version, then press Enter
     + The current state should display [Injected](/images/screenshots/mset9/mset9-injected.png)
@@ -257,7 +255,6 @@ Follow these instructions to remove the trigger file and to retry Section II:
 
 1. Force power off your console by holding the Power button for 20 seconds
 1. Insert your SD card into your computer
-1. 1. Run the MSET9 script:
 <!--@include: ./_include/mset9-chorus.md -->
 1. Type the number corresponding to your console model and version, then press Enter
     + The current state should display [Injected](/images/screenshots/mset9/mset9-injected.png)
