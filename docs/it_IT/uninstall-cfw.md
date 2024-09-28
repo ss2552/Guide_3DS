@@ -1,6 +1,6 @@
 # Disinstallare il CFW
 
-## Required Reading
+## Lettura necessaria
 
 In questa sezione verrà spiegato come rimuovere completamente il CFW dalla tua console, boot9strap e Luma3DS inclusi, per riportarla al suo stato iniziale.
 
@@ -41,20 +41,20 @@ Queste istruzioni funzioneranno solo su console con una versione di Luma3DS ugua
 
 :::
 
-## What You Need
+## Cosa serve
 
-- The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
-- The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
+- L'ultima versione di [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (il file `.zip` di Luma3DS)
+- L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (il file `.zip` di GodMode9)
 - The latest release of [DSiWare Uninstaller](https://github.com/MechanicalDragon0687/DSiWare-Uninstaller/releases/latest)
 - [safety_test.gm9](/gm9_scripts/safety_test.gm9)
 
-## Instructions
+## Istruzioni
 
-### Section I - Prep Work
+### Sezione I - Preparazione
 
 1. Spegni la tua console
 2. Inserisci la scheda SD nel tuo computer
-3. Copia i file `boot.firm` e `boot.3dsx` dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
+3. Copia tutto dall'archivio `.zip` di Luma3DS nella directory principale della tua scheda SD
 4. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
 5. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
 6. Copia il file `DSiWareUninstaller.3dsx` nella cartella `/3ds/` della tua scheda SD
@@ -127,7 +127,7 @@ Se NON si avvia il normale menu HOME 3DS, le Impostazioni della console e/o la t
 5. Seleziona "Backup Options"
 6. Seleziona "SysNAND Backup"
 7. Premi (A) per confermare
-   - This process will take some time
+   - Questo passaggio richiederà un po' di tempo
    - If you get an error, ensure you have at least 1.3GB of free space on your SD card
 8. Premi (B) per ritornare al menu principale
 9. Seleziona “Exit”

@@ -1,7 +1,7 @@
 1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
 2. Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire
 3. Se ti viene chiesto di reimpostare la data e l'ora dell'RTC, premi (A) per farlo, poi imposta la data e l'ora, infine premi (A) per continuare
-   - Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
+   - Tieni presente che in tal caso dovrai anche reimpostare data ed ora anche nelle Impostazioni della Console al termine della guida
 4. Entra nella cartella `[0:] SDCARD` -> `gm9`
 5. Premi (A) sul file `.bin` del CTRTransfer per selezionarlo
 6. Seleziona "CTRNAND options..."
@@ -9,7 +9,7 @@
 8. Se richiesto, seleziona "Transfer to SysNAND"
    - This prompt will only appear if you have an EmuNAND
 9. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
-   - This process will take some time
+   - Questo passaggio richiederà un po' di tempo
 10. Una volta completato il trasferimento, premi (A) per proseguire
 11. Se richiesto, premi (B) per rifiutare il ritiro delle autorizzazioni di scrittura
 12. Premi (B) due volte per ritornare al menu principale
