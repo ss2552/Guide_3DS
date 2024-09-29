@@ -39,7 +39,7 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -57,7 +57,7 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 
    ::: info
 
-   ![](/images/screenshots/soundhax-welcome.png)
+   ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
    :::
 
@@ -73,7 +73,7 @@ Soundhax（和 universal-otherapp 一起使用时）与所有区域 1.0.0 至 11
 
    ::: info
 
-   ![](/images/screenshots/soundhax-launch.png)
+   ![](/images/screenshots/soundhax/soundhax-launch.png)
 
    :::
 

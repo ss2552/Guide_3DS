@@ -39,7 +39,7 @@ Nesta seção, você irá copiar os arquivos necessários para acionar o Soundha
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -57,7 +57,7 @@ Nesta seção, você irá iniciar o Soundhax através do aplicativo Som Nintendo
 
    ::: info
 
-   ![](/images/screenshots/soundhax-welcome.png)
+   ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
    :::
 
@@ -73,7 +73,7 @@ Nesta seção, você irá iniciar o Soundhax através do aplicativo Som Nintendo
 
    ::: info
 
-   ![](/images/screenshots/soundhax-launch.png)
+   ![](/images/screenshots/soundhax/soundhax-launch.png)
 
    :::
 

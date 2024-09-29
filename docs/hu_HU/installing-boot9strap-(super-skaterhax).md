@@ -32,7 +32,7 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
 
    ::: info
 
-   ![](/images/screenshots/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
    :::
 

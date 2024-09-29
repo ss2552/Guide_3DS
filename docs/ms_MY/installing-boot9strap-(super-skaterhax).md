@@ -32,7 +32,7 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 
    ::: info
 
-   ![](/images/screenshots/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
    :::
 

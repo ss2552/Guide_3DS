@@ -39,7 +39,7 @@ Soundhax는 (universal-otherapp과 사용할 때) 모든 지역의 1.0.0 이상 
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -57,7 +57,7 @@ Soundhax는 (universal-otherapp과 사용할 때) 모든 지역의 1.0.0 이상 
 
    ::: info
 
-   ![](/images/screenshots/soundhax-welcome.png)
+   ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
    :::
 
@@ -73,7 +73,7 @@ Soundhax는 (universal-otherapp과 사용할 때) 모든 지역의 1.0.0 이상 
 
    ::: info
 
-   ![](/images/screenshots/soundhax-launch.png)
+   ![](/images/screenshots/soundhax/soundhax-launch.png)
 
    :::
 

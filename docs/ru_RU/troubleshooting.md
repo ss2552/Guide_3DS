@@ -315,7 +315,7 @@ The file `arm11code.bin` is missing or misplaced. Make sure to copy the files of
 
 ::: info
 
-![](/images/screenshots/skater-root-layout.png)
+![](/images/screenshots/skaterhax/skater-root-layout.png)
 
 :::
 

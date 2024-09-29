@@ -39,7 +39,7 @@ In questa sezione copierai i file necessari per attivare sia Soundhax che univer
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -57,7 +57,7 @@ In questa sezione avvierai Soundhax attraverso l'app Sound Nintendo 3DS, che uti
 
    ::: info
 
-   ![](/images/screenshots/soundhax-welcome.png)
+   ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
    :::
 
@@ -73,7 +73,7 @@ In questa sezione avvierai Soundhax attraverso l'app Sound Nintendo 3DS, che uti
 
    ::: info
 
-   ![](/images/screenshots/soundhax-launch.png)
+   ![](/images/screenshots/soundhax/soundhax-launch.png)
 
    :::
 

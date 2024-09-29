@@ -32,7 +32,7 @@ In questa sezione copierai i file necessari per attivare sia super-skaterhax che
 
    ::: info
 
-   ![](/images/screenshots/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
    :::
 

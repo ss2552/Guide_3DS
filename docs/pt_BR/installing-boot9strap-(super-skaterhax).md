@@ -32,7 +32,7 @@ Nesta seção, você irá copiar os arquivos necessários para acionar tanto sup
 
    ::: info
 
-   ![](/images/screenshots/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
    :::
 

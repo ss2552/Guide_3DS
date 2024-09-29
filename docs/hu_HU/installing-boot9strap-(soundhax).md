@@ -39,7 +39,7 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a Soundhax és az univer
 
 ::: info
 
-![](/images/screenshots/uosoundhax-root-layout.png)
+![](/images/screenshots/soundhax/soundhax-root-layout.png)
 
 :::
 
@@ -57,7 +57,7 @@ Ebben a fejezetben el fogod indítani a Soundhax-ot a Nintendo 3DS Sound app-on 
 
    ::: info
 
-   ![](/images/screenshots/soundhax-welcome.png)
+   ![](/images/screenshots/soundhax/soundhax-welcome.png)
 
    :::
 
@@ -73,7 +73,7 @@ Ebben a fejezetben el fogod indítani a Soundhax-ot a Nintendo 3DS Sound app-on 
 
    ::: info
 
-   ![](/images/screenshots/soundhax-launch.png)
+   ![](/images/screenshots/soundhax/soundhax-launch.png)
 
    :::
 

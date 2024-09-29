@@ -32,7 +32,7 @@
 
    ::: info
 
-   ![](/images/screenshots/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
    :::
 
