@@ -12,7 +12,7 @@ Ha segítségre van szükséged GodMode9-nal kapcsolatban (angol nyelven), legye
 
 :::
 
-## Required Reading
+## Kötelező olvasmány
 
 A GodMode9 egy teljes hozzáférést biztosító fájlkezelő a Nintendo 3DS konzolhoz, amely hozzáférést ad az SD kártyához, a SysNAND-od és EmuNAND-od FAT partícióihoz, és alapvetően bármi máshoz. Sok más funkció mellett lehetőséged van másolni, törölni, átnevezni fájlokat és létrehozni mappákat.
 
@@ -20,7 +20,7 @@ Vedd figyelembe, hogy amennyiben van más payload fájl a `GodMode9.firm` fájlo
 
 A GodMode9 egy nagy tudású szoftver, ami képes módosítani alapvetően bármit a konzolodon. Bár ezen módosítások jelentős része zárolva van egy jogosultsági rendszer segítségével, és lehetetlen veszélyes műveleteket végezni csak úgy véletlenül a védelem feloldása nélkül, fontos, hogy pontosan kövesd az utasításokat, és tarts biztonsági másolatokat.
 
-## Updating GodMode9
+## GodMode9 frissítése
 
 ::: info
 
@@ -28,11 +28,11 @@ A lentebbi utasítások egy része csak a legfrissebb GodMode9-on érhető el, e
 
 :::
 
-### What You Need
+### Amire szükséged lesz
 
-- The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
+- A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása (a GodMode9 `.zip` fájl)
 
-### Instructions
+### Lépések
 
 1. Kapcsold ki a konzolod
 2. Helyezd az SD kártyád a számítógépbe

@@ -6,7 +6,7 @@ Ha segítségre van szükséged GodMode9-nal kapcsolatban (angol nyelven), legye
 
 :::
 
-## Required Reading
+## Kötelező olvasmány
 
 Amellett, hogy létrehozni és helyreállítani képes NAND mentéseket, a GodMode9-nek van olyan funkciója, hogy dumpoljon telepített címeket egy telepíthető `.cia` fájlba, és hogy játék cartridge adatot egy `.3ds` ROM fájlba, és hogy direkt módon telepítsen játék cardridge-eket a rendszerre.
 
@@ -18,11 +18,11 @@ Ezek a lépések GodMode9 v2.0.0 vagy későbbi verzióhoz készültek. Ha rége
 
 :::
 
-### What You Need
+### Amire szükséged lesz
 
-- The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) (the GodMode9 `.zip` file)
+- A [GodMode9](https://github.com/d0k3/GodMode9/releases/latest) legújabb kiadása (a GodMode9 `.zip` fájl)
 
-### Instructions
+### Lépések
 
 1. Kapcsold ki a konzolod
 2. Helyezd az SD kártyád a számítógépbe
@@ -111,8 +111,8 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 :::
 
 1. Csináld végig az alábbi lépéseket minden egyes GBA VC játékhoz, aminek a mentését vissza akarod állítani:
-   - Launch the GBA VC game
-   - Exit the GBA VC game
+   - Indítsd el a GBA VC játékot
+   - Lépj ki a GBA VC játékból
    - Kapcsold ki a konzolod
    - Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et
    - Menj ide: `[S:] SYSNAND VIRTUAL`
@@ -131,8 +131,8 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
 :::
 
 1. Csináld végig az alábbi lépéseket minden egyes GBA VC játékhoz, aminek a mentését vissza akarod állítani:
-   - Launch the GBA VC game
-   - Exit the GBA VC game
+   - Indítsd el a GBA VC játékot
+   - Lépj ki a GBA VC játékból
    - Kapcsold ki a konzolod
    - Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et
    - Menj ide: `[0:] SDCARD` -> `gm9` -> `out`
@@ -144,8 +144,8 @@ Egy `<TitleID>.gbavc.sav` fájl Title ID-jének azonosításához használhatod 
    - Select "Inject GBA VC save"
    - Nyomd meg az (A) gombot a folytatáshoz
    - Nyomd meg a (Start) gombot a konzolod újraindításához
-   - Launch the GBA VC game
-   - Exit the GBA VC game
+   - Indítsd el a GBA VC játékot
+   - Lépj ki a GBA VC játékból
 
 ## Encrypting / Decrypting a .CIA file
 

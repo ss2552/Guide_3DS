@@ -1,16 +1,16 @@
-# Restoring / Updating CFW
+# CFW visszaállítása / frissítése
 
-## Required Reading
+## Kötelező olvasmány
 
 Ez az oldal egy létező modern boot9strap telepítésre mutatja be a custom firmware appok újra telepítését és/vagy frissítését. Továbbá használható abban az esetben is helyreállításra, ha elveszett vagy megsérült az SD kártya.
 
 Az SD kártyád FAT32-re kell legyen formázva, hogy követhesd ezt az útmutatót, vagy a 3DS nem fogja felismerni. Ha az SD kártyád nem megfelelően formázott, használd ezen oldalak valamelyikét a formázáshoz, az operációs rendszeredtől függően: [Windows](formatting-sd-\(windows\)), [Mac](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)).
 
-## What You Need
+## Amire szükséged lesz
 
-- The latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (the Luma3DS `.zip` file)
+- A [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) legújabb kiadása (a Luma3DS `.zip` fájl)
 
-## Instructions
+## Lépések
 
 1. Helyezd az SD kártyád a számítógépbe
 2. Copy everything from the Luma3DS `.zip` to the root of your SD card, replacing any existing files
@@ -19,16 +19,14 @@ Az SD kártyád FAT32-re kell legyen formázva, hogy követhesd ezt az útmutat�
 4. Kapcsold be a konzolod
    - If you see the Luma3DS configuration menu, press (Start) to save and reboot
 
-::: tip
+::: info
 
 A Luma3DS legfrissebb verziója most már telepítésre került az SD kártyára és a belső memóriába.
 
 :::
 
-___
+::: tip
 
-::: info
-
-Ha szeretnél újratelepíteni, vagy frissíteni más homebrew alkalmazásokat, folytasd a [Telepítés véglegesítése](finalizing-setup) oldallal
+If you wish to re-install or update other homebrew applications (e.g. FBI, Homebrew Launcher), continue to [Finalizing Setup](finalizing-setup)
 
 :::

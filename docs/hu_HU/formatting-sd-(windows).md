@@ -1,6 +1,6 @@
-# Formatting SD (Windows)
+# SD formázás (Windows)
 
-## Required Reading
+## Kötelező olvasmány
 
 Ez egy kiegészítő rész az SD kártya formázásához, hogy az működjön a 3DS-el.
 
@@ -8,12 +8,12 @@ Ha a 3DS már felismeri az SD kártyát, ez az útmutató nem szükséges.
 
 Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy, kövesd az [SD formázás (Linux)](formatting-sd-\(linux\)) vagy [SD formázás (Mac)](formatting-sd-\(mac\)) útmutatókat.
 
-## What You Need
+## Amire szükséged lesz
 
 - **For SD cards 32GB or smaller:** the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
 - **For SD cards 64GB or larger:** The latest version of [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
 
-## Instructions (32GB or smaller)
+## Lépések (32GB vagy kisebb)
 
 1. Helyezd az SD kártyád a számítógépbe
 
@@ -47,7 +47,7 @@ Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy,
 
 13. Ha az SD kártya tartalmazott adatot a formázás előtt, akkor azokat most másold vissza a számítógépről
 
-## Instructions (64GB or larger)
+## Lépések (64GB vagy nagyobb)
 
 1. Helyezd az SD kártyád a számítógépbe
 
@@ -90,5 +90,5 @@ Ez az oldal Windows felhasználókra vonatkozik. Ha nem Windows rendszeren vagy,
 - guiformat shows the error "GetLastError()=1117"
   - Your SD card write-protection switch may be [enabled](/images/sdlock.png). A zárat felfelé kell tolni, hogy engedélyezd az írást az SD kártyára (beleértve a formázást is).
 
-- SD card remains undetected by console or continues to display the wrong capacity after formatting
-  - Your SD card may be partitioned or have unallocated space. Kövesd a lépéseket [itt](https://wiki.hacks.guide/wiki/SD_Clean/Windows) az SD kártyád újraformázásához.
+- SD kártya továbbra sem detektálható a konzol által, vagy a formázás után továbbra is a rossz kapacitást mutatja
+  - Az SD kártyád lehet, hogy partícionált vagy van nem lefoglalt területe. Kövesd a lépéseket [itt](https://wiki.hacks.guide/wiki/SD_Clean/Windows) az SD kártyád újraformázásához.

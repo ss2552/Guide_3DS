@@ -1,11 +1,5 @@
 # 주요 내용
 
-::: danger
-
-<!--@include: ./_include/3ds-online.md -->
-
-:::
-
 ::: info
 
 만약 이번이 3DS를 처음으로 모딩하는 것 (혹은 모딩에 익숙하지 않다면) 이라면, 계속 정독하세요! 반면, 사전에 모딩을 해봤거나 할 줄 안다면, [시작하기](get-started) 페이지로 계속하세요.
@@ -52,7 +46,7 @@
 
 3DS 모델에 따라 SD카드 슬롯의 위치나 호환되는 종류가 다릅니다. 자세한 정보는 [닌텐도 공식 지원](https://www.nintendo.co.kr/3DS/customer/qna.php) 에서 찾아볼 수 있습니다.
 
-3DS는 어떤 용량의 SD 카드 (32GB보다 커도 가능)도 사용할 수 있지만, 그 카드는 무조건 FAT32로 포맷되어 있어야합니다. (exFAT이나 NTFS **는 불가능**). SD 카드를 포맷하기 위해 자신의 OS에 해당하는 프로그램을 사용할 수 있습니다: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)). GBA/DS 그래픽과 커스텀 테마 문제 때문에 128GB를 넘기는 SD 카드를 사용하는 것은 권장하지 않습니다.
+3DS는 어떤 용량의 SD 카드 (32GB보다 커도 가능)도 사용할 수 있지만, 그 카드는 무조건 FAT32로 포맷되어 있어야합니다. (exFAT이나 NTFS **는 불가능**). SD 카드를 포맷하기 위해 자신의 OS에 해당하는 프로그램을 사용할 수 있습니다: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)). GBA/DS 그래픽과 커스텀 테마 문제 때문에 **128GB**를 넘기는 SD 카드를 사용하는 것은 권장하지 않습니다.
 
 ::: warning
 
@@ -69,13 +63,15 @@
 ::::
 
 :::: warning
-::: details Potential risks (Disclaimer)
 
-By modding your console, you subject it to the remote (but non-zero) possibility of the console being bricked (rendered non-functional). **파일을 잘못 넣는다고 콘솔이 벽돌이 되지는 않지만**, 의도적으로 순서를 건너뛴다면 벽돌이 될 수도 있습니다.
+:::details Potential risks (Disclaimer)
+
+콘솔을 수정함으로서, 여러분은 콘솔이 벽돌이 되는 것(콘솔이 작동하지 않는 현상)에 대한 희박한, 하지만 0은 아닌 가능성을 염두에 두어야 합니다. **파일을 잘못 넣는다고 콘솔이 벽돌이 되지는 않지만**, 의도적으로 순서를 건너뛴다면 벽돌이 될 수도 있습니다.
 
 요약하자면: 콘솔을 수정하는 것은 안전하지만, 뭔가 잘못되었다면 그것은 __여러분의 책임__입니다.
 
 :::
+
 ::::
 
 ## 컴퓨터에서 해야 할 일
@@ -122,7 +118,7 @@ SD 카드에 파일을 복사할 때 올바른 위치에 넣는 것이 중요합
 
 :::
 
-이 가이드를 통해 컴퓨터나 핸드폰으로 다운받은 파일을 3DS의 SD 카드로 복사하게 됩니다. 이러한 파일의 대부분은 개발자가 오픈 소스 릴리즈를 게시하는 데 사용하는 웹사이트인 GitHub에서 제공됩니다. GitHub에서 파일을 다운로드할 때에는 소스 코드가 _아닌_ 파일을 다운로드해야 합니다.
+이 가이드를 통해 컴퓨터나 핸드폰으로 다운받은 파일을 콘솔의 SD 카드로 복사하게 됩니다. 이러한 파일의 대부분은 개발자가 오픈 소스 릴리즈를 게시하는 데 사용하는 웹사이트인 GitHub에서 제공됩니다. GitHub에서 파일을 다운로드할 때에는 소스 코드가 _아닌_ 파일을 다운로드해야 합니다.
 
 ::::
 
