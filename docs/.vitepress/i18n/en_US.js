@@ -26,6 +26,7 @@ const themeConfig = {
 			text: localeData.extras,
 			items: [
 				{ text: localeData.pages["godmode9-usage"], link: `/godmode9-usage` },
+				{ text: localeData.pages["dumping-titles-and-game-cartridges"], link: `/dumping-titles-and-game-cartridges` },
 				{ text: localeData.pages["region-changing"], link: `/region-changing` },
 				{ text: localeData.pages["uninstall-cfw"], link: `/uninstall-cfw` },
 			]
