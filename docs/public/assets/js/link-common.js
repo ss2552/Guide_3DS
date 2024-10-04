@@ -28,6 +28,11 @@ if (selectedVersion && window.MATCH && window.generateLink) {
     } else {
         replaceLink();
     }
+
+    if (!window.autoLinkAddedCustomEvent) {
+        window.autoLinkAddedCustomEvent = true;
+        document.addEventListener("customEventReplaceLink", replaceLink);
+    }
 }
 
 })();
