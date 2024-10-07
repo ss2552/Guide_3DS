@@ -59,7 +59,7 @@ Hiányzik a `secret_sector.bin` fájl a `boot9strap` mappából vagy a `boot9str
 
 :::
 
-:::details Something else
+:::details Valami más
 
 Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához segítségért és írd le az üzenetet amit láttál.
 
@@ -67,7 +67,7 @@ Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatorn�
 
 ## Boot9strap telepítése (Soundhax)
 
-:::details Red/purple/pink and white screen after running Soundhax
+:::details Piros/lila/rózsaszín és fehér képernyő a Soundhax futtatása után
 
 Ha a konzol rendszer verziód 9.4.0, 9.5.0, vagy 9.6.0, hibát tapasztalhatsz az universal-otherapp egy régebbi verziójával. Töltsd le a legfrissebb verziót [innen](https://github.com/TuxSH/universal-otherapp/releases/latest).
 
@@ -309,7 +309,7 @@ Ha a képernyő színeket villogtat, akkor lefagy/összeomlik:
 
 :::
 
-:::: details "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
+:::: details "An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)
 
 A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Biztosítsd, hogy [super-skaterhax legfrissebb verziójából](https://github.com/zoogie/super-skaterhax/releases/latest) régiódhoz és verziódhoz tartozó fájlokat az SD kártya gyökerébe másold (nem egy mappán belülre).
 
@@ -329,33 +329,23 @@ Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvége
 
 ## Boot9strap telepítése (SSLoth-Browser)
 
-:::details Red/purple/pink and white screen after running Browserhax
+:::details Piros/lila/rózsaszín és fehér képernyő a browserhax futtatása után
 
 Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
 
 :::
 
-:::details "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
+:::details "An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)
 
-A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
 
 :::
 
 :::details "An error has occurred, forcing the software to close..." (fehér üzenet ablak)
 
-There may be an issue with your `arm11code.bin` file. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.
+Probléma lehet az arm11code.bin`fájloddal. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az`otherapp.bin`fájlt az SD kártyád gyökerébe, majd nevezd át`arm11code.bin`-re. Ne add hozzá a `.bin\` kiterjesztést, ha nem látod.
 
-You can also try resetting your browser save data:
-
-1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
-2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
-3. Próbáld meg újra végrehajtani az exploitot
-
-:::
-
-:::details Opening the browserhax QR code or URL crashes
-
-Browser based exploits (such as this one) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+Megpróbálhatod még alaphelyzetbe állítani a böngésző mentés adatot:
 
 1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
 2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
@@ -363,29 +353,39 @@ Browser based exploits (such as this one) are often unstable and crash frequentl
 
 :::
 
-:::details System Update prompt when opening browser
+:::details A browserhax QR kód vagy URL megnyitásásakor összeomlik
 
-The SSLoth proxy was incorrectly configured. Re-do the SSLoth section on the page.
+A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszor lefagynak, de néha megjavíthatók az alábbi lépések végrehajtásával.
+
+1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
+2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
+3. Próbáld meg újra végrehajtani az exploitot
 
 :::
 
-:::details Error 032-0420 when opening browser
+:::details Rendszerfrissítés (System Update) ugrik fel, amikor megnyitom a böngészőt
 
-Follow these steps in order:
+Az SSLoth proxy nem lett megfelelően konfigurálva. Csináld újra az SSLoth fejezetet erről az oldalról.
+
+:::
+
+:::details Error 032-0420 hiba a böngésző megnyitásakor
+
+Kövesd az alábbi lépéseket:
 
 1. Lépj be a "System Settings"-be a konzolodon
-2. Navigate to `Internet Settings` -> `Connection Settings`
-3. Click on your network connection slot and navigate to `Change Settings` -> `Next Page (right arrow)` -> `Proxy Settings`
-4. Set "Proxy Settings" to "No"
+2. Navigálj az `Internet Settings` -> `Connection Settings` opciókhoz
+3. Kattints a saját hálózati kapcsolatodra és navigálj a `Change Settings` -> `Next Page (jobb nyíl)` -> `Proxy Settings` opcióhoz
+4. Állítsd a "Proxy Settings"-t "No"-ra
 5. Kattints az OK-ra, majd kattints a Save-re
-6. When prompted, click "Test" to perform the connection test
-   - The test should succeed
+6. Amikor kérdezi, kattints a "Test"-re a kapcsolat ellenőrzéséhez
+   - A tesztnek sikeresnek kell lennie
 7. Kattints az OK gombra a folytatáshoz
 8. Nyomj a "Back"-re kétszer, majd a "Close"-ra, hogy visszajuszz a HOME Menübe
-9. Open the Internet Browser once
-10. If prompted about a system update, press OK
-    - This won't actually update the system
-11. Start again from [Section II](installing-boot9strap-\(ssloth-browser\).html#section-ii---ssloth)
+9. Nyisd meg az Internet Browser-t egyszer
+10. Ha kérdezi a rendszer frissítést, nyomj OK-t
+    - Ez nem fogja frissíteni a rendszert
+11. Kezd előlről a [II. résszel](installing-boot9strap-\(ssloth-browser\).html#section-ii---ssloth)
 
 :::
 
@@ -585,20 +585,20 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
      - **USA régió**: `0000008f`
      - **CHN régió**: `000000A1`
      - **KOR régió**: `000000A9`
-     - **TWN Region**: `000000B1`
+     - **TWN régió**: `000000B1`
 4. Próbálj meg recovery mode-ba bootolni, majd onnét frissíteni a rendszeredet:
    - Kapcsold ki a konzolod
-   - Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)
+   - Tartsd nyomva a (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A) gombokat
    - Kapcsold be a konzolod
-   - If you were successful, the console will boot to an "update your system" screen
+   - Ha sikeres voltál, a konzolod egy "update your system" képernyőre bootol
 5. Kövesd a [CTRTransfer](ctrtransfer) útmutatót
 6. További támogatásért kérj segítséget a [Nintendo Homebrew-tól a Discord-on](https://discord.gg/MWxPgEp)
 
 :::
 
-### Error message on boot
+### Hibaüzenet bootoláskor
 
-:::details "An error has occurred: Failed to apply 1 FIRM patch(es)" or "An exception has occurred -- Current process: pm"
+:::details "An error has occurred: Failed to apply 1 FIRM patch(es)" vagy "An exception has occurred -- Current process: pm"
 
 A Luma3DS verziód régi. Töltsd le a legutolsó kiadását az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)-nak és rakd a `boot.firm` fájlt az SD kártyád gyökerébe, felülírva bármilyen létező fájlt. Legyél biztos abban, hogy a ZIP fájlt más eszközzel csomagolod ki, mint a WinRAR, mert ismert, hogy problémái vannak a 3DS-sel kapcsolatos fájlokkal.
 
@@ -606,22 +606,22 @@ A Luma3DS verziód régi. Töltsd le a legutolsó kiadását az [Luma3DS](https:
 
 :::details "Unable to mount CTRNAND or load the CTRNAND FIRM. Please use an external one."
 
-There are a number of reasons as to why this could be happening. In any case, this error can usually be fixed by following the [CTRTransfer](ctrtransfer) guide.
+Számos oka lehet, hogy miért történik így. Bármelyik esetben, ez a hiba általában javítható a [CTRTransfer](ctrtransfer) útmutató követésével.
 
 :::
 
 :::details "An error has occurred. Hold down the POWER button to turn off the power..."
 
-Az ARM11 kivételkezelők tiltva, vagy az egyedi firmware nincs telepítve. Try enabling ARM11 exception handlers:
+Az ARM11 kivételkezelők tiltva, vagy az egyedi firmware nincs telepítve. Próbáld meg engedélyezni az ARM11 kivétel kezelőket:
 
 - Kapcsold ki a konzolod
-- Hold (Select)
-- Power on your console, while still holding (Select)
-- If the "Disable ARM11 exception handlers" box is checked, uncheck it
+- Tartsd nyomva a (Select) gombot
+- Kapcsold be a konzolod, miközben nyomva tartod a (Select) gombot
+- Ha a "Disable ARM11 exception handlers" jelölőnégyzet bejelölt, vedd ki a jelölést
 
 :::
 
-:::details HOME Menu is missing installed applications
+:::details A HOME Menüből hiányoznak telepített alkalmazások
 
 Ez különböző okokból is előfordulhat, de leginkább azért, mert az SD kártyád nem került beolvasásra a rendszer által.
 Ellenőrizheted, hogy az SD kártyád olvasásra kerül-e a SELECT gomb nyomva tartásával bootoláskor, és az alsó képernyőn megjelenő sárga szöveg ellenőrzésével; ha azt mondja, hogy "Booted from CTRNAND via B9S", akkor a konzolod a belső memóriáról bootolt, nem az SD kártyáról.
@@ -635,22 +635,22 @@ Ha ez a helyzet, próbáld meg a lépéseket alább, ami a legkönnyebbtől a le
 
 :::
 
-:::details Blue "BOOTROM ERROR" screen
+:::details Kék "BOOTROM ERROR" képernyő
 
 A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 \+ Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Próbáld meg a konzolod bekapcsolva hagyni, várva a kék képernyőre, 5 percig.
 
 :::
 
-:::details Some other error
+:::details Egyéb más hibák
 
 Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 :::
 
-## Software issues on consoles with custom firmware
+## Szoftver problémák egyedi firmware-rel rendelkező konzolokon
 
-:::details DSi / DS functionality is broken or has been replaced with Flipnote Studio
+:::details DSi / DS funkcionalitás hibás vagy felcserélt a Flipnote Studio-val
 
 1. Töltsd le a [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) legutolsó kiadását (a `.3dsx` fájlt)
 2. Kapcsold ki a konzolod
@@ -662,31 +662,32 @@ Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Disc
 8. Nyomj (A)-t a törött TWL címek eltávolításához
 9. Nyomd meg a (Start) gombot a konzol újraindításához
 10. Frissítsd a konzolod következőképp: Lépj be a System Settings-be, majd az "Other settings"-be, ahol addig lépkedj jobbra, amíg a végére nem érsz. Itt válaszd a "System Update" opciót
-    - The update will see that the essential TWL titles have been uninstalled, and will redownload and reinstall them
+    - A frissítés észreveszi, hogy lényeges TWL címek kerültek eltávolításra és le fogja tölteni és újratelepíteni azokat
 11. Ha a frissítés kész, érintsd meg az "OK"-ot a konzol újraindításához
 
 :::
 
-:::details GBA Virtual Console and/or Safe Mode functionality is broken
+:::details GBA Virtual Console és/vagy Safe Mode funkcionalitás hibás
 
 A konzolod Luma3DS 6.6 vagy régebbi verziót futtat, valószínűleg arm9loaderhax-szal. Kövesd az [A9LH-ről B9S-re](a9lh-to-b9s) lépéseit a konzolod frissítéséhez modern egyedi firmware környezetre.
 
 :::
 
-:::details Extended memory mode games (Pokemon Sun/Moon, Smash, etc.) don't work
+:::details Bővített memória módú játékok (Pokemon Sun/Moon, Smash, stb.) nem működnek
 
-Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Follow the instructions [here](region-changing#section-vi---fixing-locale-related-issues) to fix this issue (skipping steps 3, 4, 5, and 6).
+Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Kövesd a lépéseket [itt](region-changing#section-vi---fixing-locale-related-issues) hogy kijavíthasd ezt a hibát. (átlépve a 3, 4, 5 és 6. lépéseket).
 
 :::
 
-:::details Exception screen when booting/loading an application
+:::details Kivétel képernyő egy alkalmazás bootolásakor/betöltésekor
 
 Tekintsd meg a kivétel képernyőt [ezen az oldalon](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
 Ha nem sikerült megtalálni a hibádat, vagy a lépések nem működnek, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) további támogatásért.
 
 :::
 
-:::details Opening the HOME Menu settings crashes the console or loads the Homebrew Launcher
+:::details A HOME Menu beállítások megnyitása összeomlasztja a konzolt
+vagy betölti a Homebrew Launcher-t
 
 A konzolodon még mindig van menuhax67 telepítve. A menuhax67 eltávolításához, tölsd le a [menuhax67](https://github.com/zoogie/menuhax67/releases/latest) legfrissebb kiadását (a menuhax `.zip`), majd kövesd a ["Menuhax67 eltávolítása" részt](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits/menuhax67#Uninstall_menuhax67) here.
 
@@ -694,7 +695,7 @@ A konzolodon még mindig van menuhax67 telepítve. A menuhax67 eltávolításáh
 
 ---
 
-## Other troubleshooting
+## Egyéb hibaelhárítás
 
 :::details A HOME Menu extdata takarítása
 
@@ -726,7 +727,7 @@ A konzolodon még mindig van menuhax67 telepítve. A menuhax67 eltávolításáh
 
 :::
 
-:::details Manually entering Homebrew Launcher
+:::details Homebrew Launcher kézi hozzáadása
 
 Ha hiányzik a Homebrew Launcher alkalmazás a HOME Menüből, akkor a következő lépésekkel megadhatod a Homebrew Launcher-t kézzel. (A [boot.3dsx és a boot.firm](https://github.com/LumaTeam/Luma3DS/releases/latest) kell legyen az SD kártyád gyökerében.)
 
@@ -734,7 +735,7 @@ Ha hiányzik a Homebrew Launcher alkalmazás a HOME Menüből, akkor a következ
 
 :::
 
-:::details Turning off Parental Controls
+:::details A szülői felügyelet kikapcsolása
 
 Letilthatod a szülői felügyeletet (Parental Controls) a System Settings -> Parental Controls-hoz navigálással és a PIN megadásával, majd a "Clear Settings" megnyomásával. Ezt követően a "Delete"-tel törölheted azt.
 Azonban, ha nem tudod a PIN-t így nem tudsz hozzáférni az konzol beállításokhoz, akkor le kell tiltanod. Ahhoz hogy megtehesd ezt, meg kell szerezned a konzolod mester kulcsát (mkey):

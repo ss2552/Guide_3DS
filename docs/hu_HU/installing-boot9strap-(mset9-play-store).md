@@ -22,11 +22,11 @@ Android telefonokon/tableteken a szükséges minimum Android verzió: 6.0 (Marsh
 
 ## Amire szükséged lesz
 
-- The following applications installed from the Google Play Store:
+- Az alábbi alkalmazásokra a Google Play Store-ból telepítve:
   - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
   - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-  - If you wish, you can sideload these applications instead
-- The latest release of [MSET9](https://github.com/zoogie/MSET9/releases/latest) (the Release `.zip` file)
+  - Ha szeretnéd, telepítheted őket Play Store-on kívülről is helyette
+- Az [MSET9](https://github.com/zoogie/MSET9/releases/latest) legújabb kiadása (a Release `.zip` fájl)
 
 ## Lépések
 
@@ -39,8 +39,8 @@ Ebben a részben előkészítjük az SD kártyád a szükséges adatokkal amik k
 2. Nyisd meg a Mii Maker alkalmazást
 
 3. Várj amíg a konzolod elérí a "Welcome to Mii Maker" képernyőt, majd lépj ki a Mii Maker-ből
-   - You may see [this screen](/images/screenshots/mset9/mii-extdata.png), which indicates the necessary data has been created
-   - If you just reach the normal Mii Maker screen, exit Mii Maker and continue to the next step
+   - [Ezt a képernyőt láthatod](/images/screenshots/mset9/mii-extdata.png), ami azt mutatja, hogy a szükséges adatok létrejöttek
+   - Ha normál Mii Maker képernyőre jutottál, lépj ki a Mii Maker-ből és folytasd a következő lépéssel
 
 4. Kapcsold ki a konzolod
 
@@ -48,11 +48,11 @@ Ebben a részben előkészítjük az SD kártyád a szükséges adatokkal amik k
 
 6. Másolj át a mindent a Release `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt:
 
-   - Open ZArchiver
-   - If prompted, [allow ZArchiver to access files on your SD card](/images/screenshots/mset9/zarchiver-allow.png)
-   - Navigate to where the downloaded MSET9 Release `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
-   - Válaszd a Release `.zip`-et majd az "Extract..." opciót ([image](/images/screenshots/mset9/zarchiver-extract-1.png))
-   - Navigate to your SD card, then tap the blue 'down arrow' icon to extract the files to the root of your SD card ([image](/images/screenshots/mset9/zarchiver-extract-2.png))
+   - Nyisd meg a ZArchiver-t
+   - Ha kérdezi, [engedd a ZArchiver-t, hogy hozzá férjen z SD kártya fájljaihoz](/images/screenshots/mset9/zarchiver-allow.png)
+   - Navigálj oda, aholva letöltötted az MSET9 Release `.zip`-et ([valószínűleg a Letöltések (Downloads) mappa](/images/screenshots/mset9/zarchiver-zip-location.png))
+   - Válaszd a Release `.zip`-et majd az "Extract..." opciót ([kép](/images/screenshots/mset9/zarchiver-extract-1.png))
+   - Navigálj az SD kártyádra, majd nyomd meg a kék "lefelé nyilat", hogy kicsomagold a fájlokat az SD kártyád gyökerébe ([kép](/images/screenshots/mset9/zarchiver-extract-2.png))
 
    ::: info
 
@@ -67,7 +67,7 @@ Ebben a részben előkészítjük az SD kártyád a szükséges adatokkal amik k
 9. Ha a `Nintendo 3DS` mappában vagy, érintsd meg a "Use this folder" opciót, majd az "Allow"-ot, ha kérdezi ([kép](/images/screenshots/mset9/select-mset9-folder-2.png))
 
 10. Ha a "Setup MSET9" opció [kiemelt](/images/screenshots/mset9/setup-mset9-highlighted.png), akkor haladj tovább a következő lépésre. \*\* Még ne telepítsd az MSET9-et.\*\* Zárd be az MSET9 telepítőt most
-    - If "Check Again" is highlighted, there is a problem that you need to resolve before you can use MSET9. Használd a [hibaelhárítást](troubleshooting#installing-boot9strap-mset9)
+    - Ha a "Check Again" a kiemelt, akkor problémába ütközték, amit fel kellene oldani, mielőtt használatod az MSET9-et. Használd a [hibaelhárítást](troubleshooting#installing-boot9strap-mset9)
 
 11. Tedd vissza az SD kártyád a konzoldba
 
@@ -90,22 +90,22 @@ Ezeket a lépéseket **PONTOSAN** kell követni, így ellenőrizz MINDENT kétsz
 4. Navigálj ide: `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([image](/images/screenshots/mset9/settings-extdata.png))
 5. **Ne nyomj meg semmi gombot vagy éríntsd meg a képernyőt**
 6. \*\* A konzolod BEKAPCSOLT állapotában, bármilyen gomb vagy a képernyő érintése nélkül\*\* vedd ki az SD kártyádat a konzolból
-   - The menu will refresh and say that no SD card is inserted, which is expected
+   - A menü frissülni fog, és ki fogja írni, hogy nincs SD kártya behelyezve, ami elvárt működés
 7. Helyezd az SD kártyád a telefonodba/tabletedbe/számítógépedbe
 8. Nyisd meg az MSET9 Installer alkalmazást
 9. Éríntsd meg a "Setup MSET9" opciót
 10. Érintsd meg a modellednek megfelelő fényképet, majd a firmware verziódnak megfelelő gombot
-    - If the injection was successful, all buttons should become grayed out except for "Remove MSET9"
+    - Ha az injektálás sikeres volt, minden gomb kiszürkül kivéve a "Remove MSET9" gombot
 11. Helyezd vissza az SD kártyád a konzolodba, **bármilyen gomb vagy a képernyő érintése nélkül**
 12. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
-    - If you get a red screen or the console gets stuck on a loading screen, follow the [troubleshooting guide](troubleshooting#installing-boot9strap-mset9)
+    - Ha piros képernyőt kapsz vagy a konzol beragad a betöltő képernyőn, kövesd a [hibaelhárítási útmutatót](troubleshooting#installing-boot9strap-mset9)
 
 ### III. rész - boot9strap telepítése
 
 Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.
 
 1. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
-   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting#issues-with-safeb9sinstaller)
+   - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting#issues-with-safeb9sinstaller)
 2. Ha ez elkészült, nyomd meg az (A) gombot a konzolod újraindításához
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -138,6 +138,6 @@ Követted a IV. részt (Az MSET9 eltávolítása)? Az a rész KÖTELEZŐ!
 
 ::: tip
 
-Continue to [Finalizing Setup](finalizing-setup)
+Tovább a [telepítés véglegesítésére](finalizing-setup)
 
 :::

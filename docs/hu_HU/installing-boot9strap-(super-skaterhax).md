@@ -28,7 +28,7 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
 
 2. Helyezd az SD kártyád a számítógépbe
 
-3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card, overwriting any existing files
+3. Másolj át a mindent a uper-skaterhax `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt
 
    ::: info
 
@@ -45,8 +45,9 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
 7. Válaszd az "Other Settings"-t
 
 8. Navigálj a "Profile" -> "Region Settings" opcióhoz
-   - Ha egy [warning](/images/screenshots/skaterhax/country-change-notice.png)-ot kapsz, amit azt mondja, hogy el fogod veszíteni a a hozzáférést a Nintendo Network ID funkciókhoz, akkor biztonságosan kiválaszthatod az OK-t a folytatáshoz
-   - Az oldal befejezését követően visszaállíthatod a régiós beállításaidat a normálisra
+   - These settings will be temporarily changed to increase the success rate of the exploit
+   - You can restore your region settings back to normal once you have finished this page
+   - If you get a [warning](/images/screenshots/skaterhax/country-change-notice.png) that says you will lose access to Nintendo Network ID features, you can safely select OK to continue
 
 9. Válaszd ki a következő opciókat a konzolod régiójának megfelelően ([kép](/images/screenshots/skaterhax/skater-lang.png))
    - USA: United States, Do Not Set

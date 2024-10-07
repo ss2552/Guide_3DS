@@ -10,11 +10,11 @@ Ez az útmutató nyílt forrású - a repository-ja elérhető [itt](https://git
 
 Ha szeretnéd lefordítani ezt az útmutatót más nyelvekre (vagy segítenél napra készen tartani a fordításokat) nézd meg a [Crowdin](https://crowdin.com/project/3ds-guide) oldalunkat.
 
-## Seeding
+## Seed-elés
 
 A fájlok egy része ebben az útmutatóban csak torrentként érhető el. Ha szeretnéd seed-elni ezeket a torrenteket, hogy biztosítsd elérhetőségüket a jövőben, töltsd le a minden `.torrent` fájlunkat tartalmazó `.zip` fájlt: [torrents.zip](/assets/torrents.zip) (utoljára frissítve: 2023-03-16)
 
-There is also an [RSS feed](/rss.xml) that may be updated for future torrents, which you can subscribe to.
+Van továbbá egy [RSS feed-ünk](/rss.xml) ami frissítésre kerül a jövőbeli törrentekkel, amire feliratkozhatsz.
 
 ## Adományok
 
