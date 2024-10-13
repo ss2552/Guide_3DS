@@ -45,9 +45,9 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
 7. Válaszd az "Other Settings"-t
 
 8. Navigálj a "Profile" -> "Region Settings" opcióhoz
-   - These settings will be temporarily changed to increase the success rate of the exploit
-   - You can restore your region settings back to normal once you have finished this page
-   - If you get a [warning](/images/screenshots/skaterhax/country-change-notice.png) that says you will lose access to Nintendo Network ID features, you can safely select OK to continue
+   - Ezek a beállítások átmenetileg megváltoznak, hogy növeljék az exploit sikerarányát
+   - Visszaállíthatod a régiós beállításaidat a normálisra, amint befejezted ezt az oldalt
+   - Ha egy [warning](/images/screenshots/skaterhax/country-change-notice.png)-ot kapsz, amit azt mondja, hogy el fogod veszíteni a a hozzáférést a Nintendo Network ID funkciókhoz, akkor biztonságosan kiválaszthatod az OK-t a folytatáshoz
 
 9. Válaszd ki a következő opciókat a konzolod régiójának megfelelően ([kép](/images/screenshots/skaterhax/skater-lang.png))
    - USA: United States, Do Not Set
@@ -92,7 +92,7 @@ Ha még nem történt meg, biztosítsd, hogy legyen működő Internet kapcsolat
     - Ha a konzolod lefagy egy sárga képernyőn, tartsd nyomva a POWER gombot, amíg ki nem kapcsol, és próbáld újra ezt a részt
     - Ha a konzolod lefagy egy piros képernyőn, tartsd nyomva a POWER gombot, amíg ki nem kapcsol, csináld újra a 3. lépést a II. részben, majd próbáld újra ezt a részt
     - Ha a konzolod a [Text szót jeleníti meg az alsó képernyő bal felső sarkában](/images/screenshots/skaterhax/skater-old3ds.png), akkor Old 3DS-ed van és ez az exploit **nem fog működni az eszközödön**. Ha ez az eset, használd az [MSET9](installing-boot9strap-\(mset9\))-et helyette
-    - Ha más hibát kapsz, próbáld meg 5x, és ha még minden nem megy [kövesd ezt a hibaelhárítási útmutatót](troubleshooting#installing-boot9strap-super-skaterhax)
+    - If you get another error, try again up to 5 times, and if it still doesn't work, [follow this troubleshooting guide](troubleshooting-super-skaterhax)
 16. Ekkor a konzolodnak be kell bootolni a Homebrew Launcher-be
 17. Indítsd el a nimdsphax-et a homebrew listájáról
 18. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
@@ -104,7 +104,7 @@ Ha még nem történt meg, biztosítsd, hogy legyen működő Internet kapcsolat
 Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.
 
 1. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
-   - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting#issues-with-safeb9sinstaller)
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-super-skaterhax)
 2. Ha ez elkészült, nyomd meg az (A) gombot a konzolod újraindításához
 
 <!--@include: ./_include/configure-luma3ds.md -->
