@@ -266,7 +266,7 @@ const themeConfig = {
 
 export default {
 	lang: "en",
-	label: localeData.language,
+	label: "English",
     title: localeData.title,
     description: localeData.description,
     themeConfig: themeConfig
