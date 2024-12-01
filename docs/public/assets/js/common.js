@@ -34,6 +34,10 @@ if (!window.COMMON_LOADED) {
     // CHN/TWN doesn't have new model
     // KOR/CHN/TWN doesn't have 11.17 currently
     c("validate_version", (major, minor, native, region, model) => {
+        // These need to actually exist.
+        if(!major || !minor || !native || !region) {
+            return false;
+        }
         if (model == DEVICE_N3DS && ["C", "T"].includes(region)) {
             return false;
         }
