@@ -1,48 +1,48 @@
-# Installing boot9strap (MSET9 Play Store)
+# Memasang boot9strap (MSET9 Play Store)
 
-:::details Technical Details (optional)
+:::details Perincian Teknis (opsional)
 
-[MSET9](https://github.com/zoogie/MSET9) is an exploit for the System Settings application developed by [zoogie](https://github.com/zoogie). It exploits a flaw where the ID1 (the second 32-character folder name inside of the Nintendo 3DS folder, inside of the ID0) can be _any_ name as long as it is 32 characters. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the 3DS.
+[MSET9](https://github.com/zoogie/MSET9) adalah eksploit untuk System Settings yang dikembangkan oleh [zoogie](https://github.com/zoogie). Eksploit ini menyasar kelemahan ID1 (32 huruf dari nama folder kedua, di folder Nintendo 3DS setelah ID0) yang bisa nama _apa saja_ asalkan 32 huruf. Gunanya untuk melakukan tindakan tertentu yang membuat konsol menjalankan instruksi sesuai kode dalam nama folder ID1, sehingga mendapat kendali penuh atas konsol 3DS.
 
 :::
 
-## Compatibility Notes
+## Catatan Kompatibilitas
 
 ::: warning
 
-This page requires an Android phone/tablet or a Chromebook. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Laman ini perlu ponsel/tablet Android atau Chromebook. Jika punya komputer bersistem Windows, macOS, atau Linux, ikuti saja [Memasang boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Jika tidak punya perangkat tersebut, berarti perlu [eksploit yang lain](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits) (gunakan penerjemah).
 
 :::
 
 ::: warning
 
-On Android phones/tablets, the minimum Android version required is 6.0 (Marshmallow).
+Di ponsel/tablet Android, versi Android yang diperlukan minimal 6.0 (Marshmallow).
 
 :::
 
-## What You Need
+## Apa yang Perlu
 
-- The following applications installed from the Google Play Store:
+- Memasang aplikasi berikut dari Google Play Store:
   - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
   - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-  - If you wish, you can sideload these applications instead
-- The latest release of [MSET9](https://github.com/zoogie/MSET9/releases/latest) (the Release `.zip` file)
+  - Atau, pasang .apk tersebut dari sumber lain (_sideload_)
+- Versi terkini dari [MSET9](https://github.com/zoogie/MSET9/releases/latest) (yang `.zip` Release)
 
-## Instructions
+## Instruksi
 
-### Section I - Prep Work
+### Bagian I - Persiapan
 
-In this section, you will prepare the SD card data necessary for the MSET9 exploit to trigger.
+Di bagian ini akan menyiapkan data ke kartu SD untuk mengaktifkan eksploit MSET9.
 
-1. Insert your SD card into your phone/tablet/computer
+1. Sisipkan kartu SD ke ponsel/tablet/komputer
 
-2. Copy everything from the Release `.zip` to the root of your SD card, overwriting any existing files:
+2. Salin semuanya dari `.zip` Release_v2.0 ke akar kartu SD, timpa berkas yang ada:
 
-   - Open ZArchiver
-   - If prompted, [allow ZArchiver to access files on your SD card](/images/screenshots/mset9/zarchiver-allow.png)
-   - Navigate to where the downloaded MSET9 Release `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
-   - Select the Release `.zip`, then select "Extract..." ([image](/images/screenshots/mset9/zarchiver-extract-1.png))
-   - Navigate to your SD card, then tap the blue 'down arrow' icon to extract the files to the root of your SD card ([image](/images/screenshots/mset9/zarchiver-extract-2.png))
+   - Buka ZArchiver
+   - Jika diminta, [izinkan ZArchiver mengakses ke kartu SD](/images/screenshots/mset9/zarchiver-allow.png)
+   - Navigasi ke letak `.zip` Release_v2.0 MSET9 diunduh ([mungkin di folder Downloads](/images/screenshots/mset9/zarchiver-zip-location.png))
+   - Pilih `.zip` Release_v2.0, lalu pilih "Extract..." ([gambar](/images/screenshots/mset9/zarchiver-extract-1.png))
+   - Navigasi ke kartu SD, lalu sentuh ikon 'panah bawah' biru untuk mengekstrak berkas ke akar kartu SD ([gambar](/images/screenshots/mset9/zarchiver-extract-2.png))
 
    ::: info
 
@@ -50,101 +50,101 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
 
    :::
 
-3. Run the [MSET9 Installer application](/images/screenshots/mset9/mset9-setup-android.png)
+3. Jalankan aplikasi [MSET9 Installer](/images/screenshots/mset9/mset9-setup-android.png)
 
-4. Tap on `Select "Nintendo 3DS" Folder`, then navigate to your `Nintendo 3DS` folder on your SD card ([image](/images/screenshots/mset9/select-mset9-folder-1.png))
+4. Sentuh `Select "Nintendo 3DS" Folder`, lalu navigasi ke folder `Nintendo 3DS` di kartu SD ([gambar](/images/screenshots/mset9/select-mset9-folder-1.png))
 
-5. Once inside the `Nintendo 3DS` folder, tap on "Use this folder", then "Allow" if asked ([image](/images/screenshots/mset9/select-mset9-folder-2.png))
+5. Setiba di folder `Nintendo 3DS`, sentuh "Use this folder", lalu "Allow" jika diminta ([gambar](/images/screenshots/mset9/select-mset9-folder-2.png))
 
-6. If `Setup MSET9` is [highlighted](/images/screenshots/mset9/setup-mset9-highlighted.png), proceed to the next step
-   - If you get an error, you need to resolve before you can use MSET9. Refer to the [troubleshooting](troubleshooting-mset9)
+6. Jika opsi `Setup MSET9` [tersorot](/images/screenshots/mset9/setup-mset9-highlighted.png), lanjut ke langkah berikutnya
+   - Jika muncul galat, perbaiki dulu galatnya sebelum menggunakan MSET9. Coba rujuk ke [sidik gangguan](troubleshooting-mset9)
 
-7. Tap on `Setup MSET9` to begin the process of setting up MSET9
+7. Sentuh `Setup MSET9` untuk memulai proses penyiapan MSET9
 
-8. After reviewing the disclaimer, tap on `Confirm` to accept it
+8. Setelah membaca sangkalan yang ada, sentuh `Confirm` untuk iya
 
-9. Tap on the photo corresponding to your console model, then at the bottom, pick your current firmware version
+9. Sentuh foto sesuai model konsol, lalu di bawahnya pilih versi firmware konsol saat ini
 
-10. If you see the prompt of `Hax ID1 Created`, tap OK to continue
-    - If you get an error, check the [troubleshooting](troubleshooting-mset9), then try again
-    - Your 3DS will appear to lose most data / no user-installed apps on HOME Menu. This is expected. Your data will come back at a later step
+10. Jika ada sembulan `Hax ID1 Created`, sentuh OK untuk lanjut
+    - Jika muncul galat, lihat laman [sidik gangguan](troubleshooting-mset9), lalu coba lagi
+    - Konsol 3DS akan seperti kehilangan aplikasi terpasang / data di HOME Menu. Memang seperti ini. Data akan balik di langkah berikutnya
 
-11. Reinsert your SD card into your console
+11. Sisip kembali kartu SD ke konsol
 
-12. Power on your console
+12. Nyalakan daya konsol
 
-13. Open Mii Maker
+13. Buka Mii Maker
 
-14. Wait for your console to reach the "Welcome to Mii Maker" screen, then exit Mii Maker
-    - You may see [this screen](/images/screenshots/mset9/mii-extdata.png), which indicates the necessary data has been created
-    - If you just reach the normal Mii Maker screen, exit Mii Maker and return to the HOME Menu
+14. Tunggu konsol sampai layar "Welcome to Mii Maker", lalu keluar dari Mii Maker
+    - Mungkin muncul [layar ini](/images/screenshots/mset9/mii-extdata.png), ini menandakan data yang perlu sudah dibuat
+    - Jika hanya sampai layar Mii Maker biasa, keluar dari Mii Maker dan kembali ke HOME Menu
 
-15. Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
-    - This will not wipe any of your data
+15. Buka System Settings dan navigasi ke `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([gambar](/images/screenshots/database-reset.jpg))
+    - Ini tidak akan menghapus data
 
-16. Power off your console by pressing the power button then tapping Power Off on the lower screen
+16. Matikan daya konsol dengan menekan tombol daya lalu sentuh Power Off di layar bawah
 
-17. Insert your SD card into your phone/tablet/computer
+17. Sisipkan kartu SD ke ponsel/tablet/komputer
 
-18. The MSET9 Installer application should automatically check if you have done previous steps properly
-    - It may take a few seconds for the app to detect the SD card and react
-    - If it doesn't check automatically, tap `Check MSET9 status` to check manually
-    - If you get an error, check the [troubleshooting](troubleshooting-mset9), then try again
+18. Aplikasi MSET9 Installer akan otomatis memeriksa apakah langkah sebelumnya sudah benar
+    - Aplikasi perlu beberapa detik untuk mendeteksi kartu SD dan bereaksi
+    - Jika tidak otomatis memeriksa, sentuh `Check MSET9 status` untuk memeriksa
+    - Jika muncul galat, lihat laman [sidik gangguan](troubleshooting-mset9), lalu coba lagi
 
-19. If the check passed, you'll see `Inject trigger file` become [highlighted](/images/screenshots/mset9/inject-trigger-highlighted.png) and you can continue to the next step. **Do not inject trigger yet.** Put your phone/tablet/computer aside for now
+19. Jika periksa berhasil, tombol `Inject trigger file` akan [tersorot](/images/screenshots/mset9/inject-trigger-highlighted.png) yang berarti boleh ke langkah berikutnya. **Tapi jangan _inject trigger file_ dulu.** Taruh dulu ponsel/tablet/komputer
 
-20. Reinsert your SD card into your console
+20. Sisip kembali kartu SD ke konsol
 
-### Section II - MSET9
+### Bagian II - MSET9
 
-In this section, you will trigger MSET9 to launch SafeB9SInstaller (the custom firmware installer).
+Di bagian ini akan mengaktifkan MSET9 untuk membuka SafeB9SInstaller (pemasang CFW).
 
 ::: danger
 
-These instructions must be followed **EXACTLY**, so double-check EVERYTHING you are doing to avoid errors!
+Instruksi ini harus diikuti **PERSIS**, periksa lagi SEMUA yang tadi sudah agar tidak keliru!
 
 :::
 
-1. Power on your console, ensuring System Settings is selected
-   - If System Settings is not selected, **[hover over](/images/screenshots/mset9/hover-settings.png)** the System Settings icon using the D-Pad, power your console off, then back on
-2. Press (A) to launch System Settings
-3. Navigate to `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([image](/images/screenshots/mset9/settings-extdata.png))
-4. **Do not press any buttons or touch the screen**
-5. **With the console STILL ON, and without pressing any buttons or touching the screen**, remove your SD card from your console
-   - The menu will refresh and say that no SD card is inserted, which is expected
-6. Insert your SD card into your phone/tablet/computer
-7. Open the MSET9 Installer application
-8. Tap `Inject trigger file`
-   - The button should become greyed out and `Remove trigger file` become [highlighted](/images/screenshots/mset9/remove-trigger-highlighted.png)
-9. Reinsert your SD card into your console **without pressing any buttons or touching the screen**
-10. If the exploit was successful, you will have booted into SafeB9SInstaller
-    - If you get a red screen or the console gets stuck on a loading screen, follow the [troubleshooting guide](troubleshooting-mset9)
+1. Nyalakan daya konsol, pastikan sudah sorot System Settings
+   - Jika belum sorot System Settings, **[arahkan](/images/screenshots/mset9/hover-settings.png)** ke ikon System Settings dengan tombol arah, matikan daya konsol, dan nyalakan lagi
+2. Tekan (A) untuk membuka System Settings
+3. Navigasi ke `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([gambar](/images/screenshots/mset9/settings-extdata.png))
+4. **Jangan tekan tombol apa pun atau sentuh layar**
+5. **Selagi konsol MASIH NYALA, dan tidak menyentuh layar atau menekan tombol apa pun**, lepas kartu SD dari konsol
+   - Menu akan menyegar dan muncul pesan tidak ada kartu SD, memang begitu
+6. Sisipkan kartu SD ke ponsel/tablet/komputer
+7. Buka aplikasi MSET9 Installer
+8. Sentuh `Inject trigger file`
+   - Tombolnya akan berubah abu-abu dan `Remove trigger file` akan [tersorot](/images/screenshots/mset9/remove-trigger-highlighted.png)
+9. Sisip kembali kartu SD ke konsol **tanpa menekan tombol atau menyentuh layar**
+10. Jika eksploit berhasil akan muncul SafeB9SInstaller
+    - Jika muncul layar merah atau konsol tersangkut di layar memuat, ikuti [panduan sidik gangguan](troubleshooting-mset9)
 
-### Section III - Installing boot9strap
+### Bagian III - Memasang boot9strap
 
-In this section, you will install custom firmware onto your console.
+Di bagian ini akan mulai memasang _custom firmware_ ke konsol.
 
-1. When prompted, input the key combo given on the top screen to install boot9strap
-   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9)
-2. Once it is complete, press (A) to reboot your console
+1. Saat diminta, tekan kombo tombol mengikuti layar atas untuk memasang boot9strap
+   - Jika langkah di layar bawah ada teks warna merah, dan tidak diminta kombo tombol, [ikuti panduan sidik gangguan ini](troubleshooting-mset9)
+2. Saat selesai, tekan (A) untuk nyalakan ulang konsol
 
 <!--@include: ./_include/configure-luma3ds.md -->
 
-### Section IV - Removing MSET9
+### Bagian IV - Menghapus MSET9
 
-In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)
+Di bagian ini akan menghapus MSET9 agar tidak ada isu lain. (Ini tidak akan menghapus _custom firmware_ yang tadi dipasang.)
 
 ::: danger
 
-Do NOT skip this section! If you skip it, applications may crash unexpectedly and you will encounter errors on the next page!
+JANGAN lewati bagian ini! Jika dilewati, aplikasi bisa tiba-tiba mogok dan akan ada galat di laman berikutnya!
 
 :::
 
-1. Power off your console
-2. Insert your SD card into your phone/tablet/computer
-3. Open the MSET9 Installer application
-4. Tap `Remove MSET9`
-5. Close the MSET9 Installer application
+1. Matikan daya konsol
+2. Sisipkan kartu SD ke ponsel/tablet/komputer
+3. Buka aplikasi MSET9 Installer
+4. Sentuh `Remove MSET9`
+5. Tutup aplikasi MSET9 Installer
 
 <!--@include: ./_include/luma3ds-installed-note.md -->
 
@@ -152,12 +152,12 @@ ___
 
 ::: danger
 
-Did you follow Section IV (Removing MSET9)? That section is MANDATORY!
+Sudah belum ikuti Bagian IV (Menghapus MSET9)? Bagian itu **WAJIB**!
 
 :::
 
 ::: tip
 
-Continue to [Finalizing Setup](finalizing-setup)
+Lanjut ke [Penyiapan Akhir](finalizing-setup)
 
 :::
