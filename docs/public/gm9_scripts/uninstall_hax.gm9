@@ -29,6 +29,11 @@ if	not sha S:/sector0x96.bin 82F2730D2C2DA3F30165F987FDCCAC5CBAB24B4E5F65C981CD7
 
 	cp -n -w S:/sector0x96.bin $[SECRET].bak
 	cp -n -w $[SECRET] S:/sector0x96.bin
+
+	if	not sha S:/sector0x96.bin 82F2730D2C2DA3F30165F987FDCCAC5CBAB24B4E5F65C981CD7BE6F438E6D9D3
+		echo "Sector 0x96 can't be restored properly! Aborting!"
+		goto Exit
+	end
 end
 
 if	not find 1:/title/00040138/20000002/content/????????.app NATIVE_NCCH
