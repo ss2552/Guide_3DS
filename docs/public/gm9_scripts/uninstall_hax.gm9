@@ -63,14 +63,14 @@ if	allow -a S:
 	cp -n $[NATIVE_FIRM] S:/firm0.bin
 	shaget S:/firm0.bin@0:200 FIRM0_HDR_HASH
 	if chk -u $[FIRM0_HDR_HASH] $[NFIRM_HDR_HASH]
-		echo "FIRM0 get corrupted during uninstallation! Aborting!"
+		echo "FIRM0 got corrupted during uninstallation! Aborting!"
 		goto Exit
 	end
 	verify S:/firm0.bin
 	cp -n $[NATIVE_FIRM] S:/firm1.bin
 	shaget S:/firm1.bin@0:200 FIRM1_HDR_HASH
 	if chk -u $[FIRM1_HDR_HASH] $[NFIRM_HDR_HASH]
-		echo "FIRM1 get corrupted during uninstallation! Aborting!"
+		echo "FIRM1 got corrupted during uninstallation! Aborting!"
 		goto Exit
 	end
 	verify S:/firm1.bin
