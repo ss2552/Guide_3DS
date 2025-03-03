@@ -2,7 +2,7 @@
 
 ## Bacaan Penting
 
-Berkas `boot.firm` adalah apa yang dibaca boot9strap selesai memuat NAND. Untuk ini, kita gunakan Luma3DS oleh [LumaTeam](https://github.com/LumaTeam/) untuk menambal konsol agar bisa menjalankan _homebrew_.
+Setelah memasang boot9strap, yaitu _custom firmware_ yang memuat `boot.firm` dari kartu SD atau NAND (memori internal). Selanjutnya kita gunakan Luma3DS oleh [LumaTeam](https://github.com/LumaTeam/) sebagai `boot.firm` untuk menambal konsol agar bisa membuka _homebrew_.
 
 Di laman ini juga akan mencadang berkas sistem kritis dan memasang beberapa _homebrew_. Hampir semua langkah ini menggunakan naskah otomatis yang dijalankan di konsol.
 
@@ -10,25 +10,31 @@ Di laman ini juga akan mencadang berkas sistem kritis dan memasang beberapa _hom
 
 Naskahnya akan memasang aplikasi berikut:
 
-- **[FBI](https://github.com/lifehackerhansol/FBI)** _(memasang aplikasi berformat CIA)_
-- **[Homebrew Launcher Loader](https://github.com/PabloMK7/homebrew_launcher_dummy)** _(membuka Homebrew Launcher)_
-- **[Anemone3DS](https://github.com/astronautlevel2/Anemone3DS)** _(memasang tema kustom)_
-- **[Checkpoint](https://github.com/FlagBrew/Checkpoint)** _(mencadang dan memulih simpanan permainan 3DS dan DS)_
-- **[ftpd](https://github.com/mtheall/ftpd)** _(akses nirkabel ke kartu SD 3DS)_
-- **[Universal-Updater](https://github.com/Universal-Team/Universal-Updater/)** _(toko apli homebrew untuk mengunduh homebrew di 3DS lewat Wi-Fi)_
-- **[GodMode9](https://github.com/d0k3/GodMode9)** _(alat serbaguna untuk mengurus NAND dan kartrid)_
+- **FBI** oleh Steveice10 _(memasang aplikasi berformat CIA)_
+- **Homebrew Launcher Loader** oleh PabloMK7 _(ke Homebrew Launcher, untuk homebrew .3DSX)_
+- **Anemone3DS** oleh astronautlevel2 _(memasang tema, splash, dan lencana kustom)_
+- **Checkpoint** oleh BernardoGiordano/FlagBrew _(mengelola simpanan 3DS/DS)_
+- **ftpd** oleh mtheall _(mengakses kartu SD 3DS tanpa kabel lewat FTP)_
+- **Universal-Updater** oleh Universal-Team _(aplikasi konsol untuk mengunduh homebrew lewat Wi-Fi)_
+- **GodMode9** oleh d0k3 _(alat serbaguna untuk mengekstrak data kartrid atau memori internal)_
 
-Jika ada aplikasi yang tidak diinginkan, nanti bisa dihapus setelah selesai panduan ini di System Settings -> Data Management -> Nintendo 3DS -> Software. (GodMode9 tidak bisa dihapus dengan cara ini karena wajib untuk fungsi lain.)
+Jika ada aplikasi yang tidak diinginkan, nanti bisa dihapus setelah selesai panduan ini di `System Settings` -> `Data Management` -> `Nintendo 3DS` -> `Software`. (GodMode9 tidak bisa dihapus dengan cara ini karena perlu untuk fungsi lain.)
+
+::: details Tautan kode sumber (opsional)
+
+Semua aplikasi di panduan ini bersumber terbuka. Jika ingin melihat cara kerja kodenya, atau ingin ditandai bintang sebagai terima kasih, kode sumbernya ditaut di sini:
+
+- [FBI](https://github.com/lifehackerhansol/FBI)
+- [Homebrew Launcher Loader](https://github.com/PabloMK7/homebrew_launcher_dummy)
+- [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS)
+- [Checkpoint](https://github.com/bernardogiordano/checkpoint/releases)
+- [ftpd](https://github.com/mtheall/ftpd)
+- [Universal-Updater](https://github.com/Universal-Team/Universal-Updater/)
+- [GodMode9](https://github.com/d0k3/GodMode9)
 
 :::
 
 ## Catatan Kompatibilitas
-
-::: warning
-
-Jika **New 3DS** ada di versi 2.1.0 sebelum mengikuti panduan ini, maka [pulihkan dulu cadangan NAND](godmode9-usage#restoring-a-nand-backup) sebelum lanjut. Ini abaikan saja jika tidak pernah mengikuti panduan ini di tahun 2017.
-
-:::
 
 ::: info
 
@@ -104,6 +110,7 @@ Di bagian ini akan menggunakan naskah agar otomatis memasang _homebrew_, members
 7. Pilih "Scripts..."
 8. Pilih "finalize"
 9. Ikuti sembulan perintah yang diminta dari naskah
+   - Jika muncul "Information #05: No title database", tekan (A) untuk impor dan tekan tombol sesuai layar untuk lanjut
    - Jika ada galat, ikuti instruksi di pesan galat atau rujuk ke laman [sidik gangguan](troubleshooting-finalizing-setup)
 10. Sesudah naskah bertulis "Setup complete!", tekan (A) untuk matikan daya konsol
     - Jika TIDAK muncul pesan "Setup complete!", naskahnya tidak berhasil dan harus ulangi bagian ini dari Langkah 3
