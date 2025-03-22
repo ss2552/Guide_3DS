@@ -35,19 +35,19 @@ The steps below can be attempted in any order, but are listed from least to most
 1. Power off your console, remove the SD card, re-insert it, then power on your console.
 2. Power off your console, eject the game cartridge if inserted, power on your console, then wait up to ten minutes. If your console boots within ten minutes, the issue has been fixed and is unlikely to reoccur
 3. Rename the `Nintendo 3DS` folder on your SD card to `Nintendo 3DS_BACKUP`, then attempt to boot. If your console successfully boots, there is some issue within your `Nintendo 3DS` folder. Try clearing HOME Menu extdata:
-   - Navigate to `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
-   - Delete the corresponding folder for your 3DS region:
-     - **EUR Region**: `00000098`
-     - **JPN Region**: `00000082`
-     - **USA Region**: `0000008f`
-     - **CHN Region**: `000000A1`
-     - **KOR Region**: `000000A9`
-     - **TWN Region**: `000000B1`
+    - Navigate to `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/`
+    - Delete the corresponding folder for your 3DS region:
+        - **EUR Region**: `00000098`
+        - **JPN Region**: `00000082`
+        - **USA Region**: `0000008f`
+        - **CHN Region**: `000000A1`
+        - **KOR Region**: `000000A9`
+        - **TWN Region**: `000000B1`
 4. Try booting into recovery mode and updating your system:
-   - Apaga la consola
-   - Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)
-   - Power on your console
-   - If you were successful, the console will boot to an "update your system" screen
+    - Apaga la consola
+    - Hold (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A)
+    - Power on your console
+    - If you were successful, the console will boot to an "update your system" screen
 5. Follow the [CTRTransfer](ctrtransfer) guide
 6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
@@ -112,14 +112,14 @@ Please take a photo of the error and join [Nintendo Homebrew on Discord](https:/
 
 1. Download the latest release of [TWLFix-CFW](https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/latest) (the `.3dsx` file)
 2. Apaga la consola
-3. Create a folder named `3ds` on the root of your SD card if it does not already exist
+3. Crea una carpeta llamada `3ds` en la raíz de tu tarjeta SD, si aún no existe
 4. Copy `TWLFix-CFW.3dsx` to the `/3ds/` folder on your SD card
 5. Reinserta la tarjeta SD en la consola
 6. Open the Homebrew Launcher
 7. Launch TWLFix-CFW from the list of homebrew
 8. Press (A) to uninstall the broken TWL titles
 9. Press (Start) to reboot the console
-10. Update your console by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
+10. Actualiza tu consola dirigiéndote a la configuración de la consola, después a "Otras opciones", luego ve al último menú de la derecha y toca "Actualización"
     - The update will see that the essential TWL titles have been uninstalled, and will redownload and reinstall them
 11. Once the update is complete, tap "OK" to reboot the console
 
@@ -164,12 +164,12 @@ Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, 
 2. Inserta la tarjeta SD en tu computadora
 3. Navigate to the `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` folder on your SD card
 4. Delete the corresponding folder for your 3DS region:
-   - **EUR Region**: `00000098`
-   - **JPN Region**: `00000082`
-   - **USA Region**: `0000008f`
-   - **CHN Region**: `000000A1`
-   - **KOR Region**: `000000A9`
-   - **TWN Region**: `000000B1`
+    - **EUR Region**: `00000098`
+    - **JPN Region**: `00000082`
+    - **USA Region**: `0000008f`
+    - **CHN Region**: `000000A1`
+    - **KOR Region**: `000000A9`
+    - **TWN Region**: `000000B1`
 5. Reinserta la tarjeta SD en la consola
 
 :::
@@ -180,10 +180,10 @@ Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, 
 2. Inserta la tarjeta SD en tu computadora
 3. Navigate to the `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` folder on your SD card
 4. Delete the corresponding folder for your 3DS region:
-   - **EUR Region**: `000002ce`
-   - **JPN Region**: `000002cc`
-   - **USA Region**: `000002cd`
-   - **KOR Region**: `000002cf`
+    - **EUR Region**: `000002ce`
+    - **JPN Region**: `000002cc`
+    - **USA Region**: `000002cd`
+    - **KOR Region**: `000002cf`
 5. Reinserta la tarjeta SD en la consola
 
 :::
@@ -203,9 +203,9 @@ However, if you do not know the PIN and therefore cannot access the console's se
 
 1. Go to [this website](https://mkey.eiphax.tech/)
 2. Fill the following boxes with the information:
-   - Device Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
-   - System Date: The day and month your console's clock is set to
-   - Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
+    - Device Type: Select "3DS" (the same applies if you are using a 2DS, New 3DS (XL/LL) or New 2DS (XL/LL))
+    - System Date: The day and month your console's clock is set to
+    - Inquiry Number: Can be obtained by pressing "Forgot PIN" then "I Forgot" in the Parental Controls screen
 3. After you have obtained your mkey, press OK on the screen you have obtained your Inquiry Number, then input the master key
 4. Press "Clear Settings", then "Delete" to remove all Parental Controls data
 
@@ -214,3 +214,4 @@ However, if you do not know the PIN and therefore cannot access the console's se
 ---
 
 <!--@include: ./_include/troubleshooting-return.md -->
+

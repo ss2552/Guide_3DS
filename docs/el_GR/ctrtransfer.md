@@ -22,9 +22,12 @@
 - Την πιο πρόσφατη έκδοση του [FBI](https://github.com/nh-server/FBI-NH/releases/download/2.6.1/FBI.3dsx) (απευθείας λήψη)
 - Την πιο πρόσφατη έκδοση του [faketik](https://github.com/ihaveamac/faketik/releases/latest) _(το αρχείο `.3dsx`)_
 - Την πιο πρόσφατη έκδοση του [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (κάντε δεξί κλικ και επιλέξτε «Αποθήκευση συνδέσμου ως»)
-- Ένα πρόγραμμα torrent, όπως το [qBittorrent](https://www.qbittorrent.org/download.php) ή το [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-  - Εάν διαθέτετε ήδη κάποιο πρόγραμμα torrent, δεν χρειάζεται να κάνετε λήψη ενός νέου
-- Το είδωλο του CTRTransfer 11.15.0 για την κονσόλα και την περιοχή σας:
+- Το είδωλο CTRTransfer 11.15.0 για την κονσόλα και την περιοχή σας
+  ::: warning
+
+Θα πρέπει να χρησιμοποιήσετε ένα πρόγραμμα torrent client για να κάνετε λήψη των ειδώλων CTRTransfer, όπως το [qBitTorrent](https://www.qbittorrent.org/download) ή το [Deluge](https://deluge-torrent.org/download/).
+
+:::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

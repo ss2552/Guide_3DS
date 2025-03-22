@@ -12,9 +12,9 @@ head:
 
 ::: danger
 
-# This method is currently **not working** due to server-side SSL certificate changes. The timeline for a fix is unknown. In the meantime, follow [Installing boot9strap (MSET9)](installing-boot9strap-\(mset9\)) instead.
+# Metode ini sedang **tidak berfungsi** karena sertifikat di server SSL berubah. Belum ada rencana perbaikan. Untuk sementara, ikuti [Memasang boot9strap (MSET9)](installing-boot9strap-\(mset9\)).
 
-[![distraction so that people don't look at the rest of the page](/images/distraction.gif)](installing-boot9strap-\(mset9\))
+[![kecohan agar orang tidak melihat lanjutan laman ini](/images/distraction.gif)](installing-boot9strap-\(mset9\))
 
 :::
 
@@ -26,7 +26,7 @@ Untuk perincian teknis perihal eksploit pada laman ini, lihat di [sini](https://
 
 ### Catatan Kompatibilitas
 
-Super-skaterhax (jika untuk membuka Homebrew Launcher) bisa untuk 3DS "New" dari _firmware_ 11.15.0 ke atas di semua daerah kecuali CHN/TWN.
+Super-skaterhax itu (jika untuk Homebrew Launcher) kompatibel pada 3DS "New" _firmware_ 11.15.0 ke atas di semua daerah kecuali CHN/TWN.
 
 ::: warning
 
