@@ -39,11 +39,12 @@
 - Την πιο πρόσφατη έκδοση του [faketik](https://github.com/ihaveamac/faketik/releases/latest) _(το αρχείο `.3dsx`)_
 - Την πιο πρόσφατη έκδοση του [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (κάντε δεξί κλικ και επιλέξτε «Αποθήκευση συνδέσμου ως»)
 - Το είδωλο CTRTransfer 11.15.0 για την περιοχή που θέλετε να έχει ο τύπος της κονσόλας σας (π.χ. κάντε λήψη του «New 3DS ή 2DS - USA» αν διαθέτετε ένα New 3DS και θέλετε να αλλάξετε την περιοχή του στις ΗΠΑ)
+
     ::: warning
 
-Θα πρέπει να χρησιμοποιήσετε ένα πρόγραμμα torrent client για να κάνετε λήψη των ειδώλων CTRTransfer, όπως το [qBitTorrent](https://www.qbittorrent.org/download) ή το [Deluge](https://deluge-torrent.org/download/).
+    Θα πρέπει να χρησιμοποιήσετε ένα πρόγραμμα torrent client για να κάνετε λήψη των ειδώλων CTRTransfer, όπως το [qBitTorrent](https://www.qbittorrent.org/download) ή το [Deluge](https://deluge-torrent.org/download/).
 
-:::
+    :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

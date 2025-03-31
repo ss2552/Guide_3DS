@@ -39,11 +39,12 @@ Ha módosítod a régióját a konzolodnak:
 - A [faketik](https://github.com/ihaveamac/faketik/releases/latest) legújabb kiadása _(a`.3dsx` fájl)_
 - Az [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) legfrissebb kiadása (jobb kattintás, Link mentése másként...)
 - - A 11.15.0 CTRTransfer képfájlok közül a konzolod típusának és a régiónak, amire módosítani szeretnél megfelelő verziója (pl. Töltsd le a "New 3DS or 2DS - USA" fájlt, ha vagy egy New 3DS-ed és szeretnéd a régiódat USA-ra módosítani.)
-        ::: warning
 
-Egy torrent kliens használata, mint például a [qBittorrent](https://www.qbittorrent.org/download) vagy a [Deluge](https://deluge-torrent.org/download/) szükséges a CTRTransfer képfájlok letöltéséhez.
+    ::: warning
 
-:::
+    Egy torrent kliens használata, mint például a [qBittorrent](https://www.qbittorrent.org/download) vagy a [Deluge](https://deluge-torrent.org/download/) szükséges a CTRTransfer képfájlok letöltéséhez.
+
+    :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

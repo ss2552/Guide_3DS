@@ -23,11 +23,12 @@ Untuk proses bagian ini, pengaturan sistem akan diatur ulang ke bawaan. Ini term
 - Versi terkini dari [faketik](https://github.com/ihaveamac/faketik/releases/latest) _(yang berkas `.3dsx`)_
 - Versi terkini dari [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (pencet kanan lalu _save link as_; simpan tautan)
 - Berkas CTRTransfer 11.15.0 sesuai jenis dan daerah konsol
-  ::: warning
 
-Perlu klien torrent untuk mengunduh berkas CTRTransfer, seperti [qBitTorrent](https://www.qbittorrent.org/download) atau [Deluge](https://deluge-torrent.org/download/).
+    ::: warning
 
-:::
+    Perlu klien torrent untuk mengunduh berkas CTRTransfer, seperti [qBitTorrent](https://www.qbittorrent.org/download) atau [Deluge](https://deluge-torrent.org/download/).
+
+    :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 
