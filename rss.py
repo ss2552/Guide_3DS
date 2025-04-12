@@ -35,7 +35,7 @@ with open(rss, "w") as xml:
     xml.write("<rss version=\"2.0\">\n")
     xml.write("\t<channel>\n")
     xml.write("\t\t<title>Plailect Guide Feed</title>\n")
-    xml.write(f"\t\t<lastBuildDate>{datetime.datetime.utcnow().strftime("%a, %d %b %Y %X +0000")}</lastBuildDate>\n")
+    xml.write(f"\t\t<lastBuildDate>{datetime.datetime.now(datetime.UTC).strftime("%a, %d %b %Y %X +0000")}</lastBuildDate>\n")
     xml.write("\t\t<link>https://github.com/hacks-guide/Guide_3DS/</link>\n")
 
     for filename in os.listdir(dir):
@@ -64,7 +64,7 @@ with open(rss, "w") as xml:
     items = sorted(items, key=lambda d: d['ts'], reverse=True)
 
     for i in items:
-        pubdate = datetime.datetime.utcfromtimestamp(int(i["ts"]))
+        pubdate = datetime.datetime.fromtimestamp(int(i["ts"]), datetime.UTC)
         xml.write("\t\t<item>\n")
         xml.write(f"\t\t\t<title>{i['name']}</title>\n")
         xml.write(f"\t\t\t<description>{i['name']}</description>\n".format(i["name"]))
