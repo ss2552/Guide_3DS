@@ -55,6 +55,8 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
     + EUR: United Kingdom, Do Not Set
     + JPN: 日本, 設定しない
     + KOR: 대한민국, 설정하지 않음
+1. Navigate to "Date & Time"
+1. Set "Today's Date" and "Current Time" to the current date and time in your timezone
 1. Exit System Settings
 
 #### Section II - super-skaterhax
@@ -84,13 +86,13 @@ A video detailing these steps is available [here](https://www.youtube.com/watch?
 1. Tap the 3-line (☰) icon on the bottom-right corner of the screen
 1. Tap on `Settings` -> `Delete Cookies` -> `Yes`
 1. Press (Home) to return to the HOME Menu, then immediately reopen the Internet Browser
-1. Tap the "GO GO!" button on the top of the bottom screen
-1. Press (A) to dismiss the [popup](/images/screenshots/skaterhax/skater-popup.png)
+1. Wait for the page to fully load, then tap the "GO GO!" button on the top of the bottom screen
+1. Wait for the page to fully load, then press (A) to dismiss the [popup](/images/screenshots/skaterhax/skater-popup.png)
 1. If your console displays:
     + **"The Homebrew Launcher" screen**: Continue to the next step
-    + **A white "Error has occurred" message box**: Open System Settings, change the language to a different one (if possible), then retry this section
-    + **A black screen that says "An error has occurred"**: Your file placement is incorrect; ensure that the super-skaterhax files are on the root of the SD card
-    + **A yellow screen**: Hold the POWER button until the console turns off, then retry this section
+    + **A white "Error has occurred" message box**: The exploit failed due to random chance. Open System Settings, change the language to a different one (if possible), then retry this section. Be persistent; you may have to repeat this sequence up to ten times
+    + **A black screen that says "An error has occurred"**: Your file placement is incorrect. Ensure that the super-skaterhax files are on the root of the SD card
+    + **A yellow screen**: Homebrew Launcher failed to open due to random chance. Hold the POWER button until the console turns off, then retry this section
     + **[The word "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: You have an Old 3DS, where this exploit **does not work**. If this is the case, you should follow [MSET9](installing-boot9strap-(mset9)) instead
 1. Launch nimdsphax from the list of homebrew
 1. If the exploit was successful, you will have booted into SafeB9SInstaller
