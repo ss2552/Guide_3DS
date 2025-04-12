@@ -1,4 +1,10 @@
-Ez a rész a rendszer beállítások alaphelyzetbe állítását szolgálja. **A telepített játékok ls mentéseik nem érintettek.** Ez **szükséges**, hogy megelőzzük az ismert problémákat, amit a kibővített memória módhoz és appletekhez bizonyos konzolokon.
+Ez a rész a rendszer beállítások alaphelyzetbe állítását szolgálja. **A telepített játékok és mentéseik nem érintettek.** Ez **szükséges**, hogy megelőzzük az ismert problémákat, amit a kibővített memória módhoz és appletekhez bizonyos konzolokon.
+
+::: warning
+
+Ez a folyamat alaphelyzetbe állítja a Mii adatot. Ha szeretnéd menteni Mii-ket amiket létrehoztál, either [generálj egy QR kódot](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii) minden Mii-hez, amit menteni szeretnél, vagy készíts egy mentést a `SYSNAND CTRNAND:/data/<ID0>/extdata/00048000/f000000b`-ről mielőtt folytatot ezeket a lépéseket. Visszaállíthatod ezt a fájlt ugyanebbe a könyvtárba _miután_ a konzolod végig ment a kezdeti telepítési folyamaton.
+
+:::
 
 1. Kapcsold ki a konzolod
 2. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et

@@ -26,7 +26,7 @@ Android telefonokon/tableteken a szükséges minimum Android verzió: 6.0 (Marsh
     - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
     - Ha szeretnéd, telepítheted őket Play Store-on kívülről is helyette
-- Az [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) legújabb kiadása (a Release `.zip` fájl)
+- Az [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) legújabb kiadása (az MSET9 `.zip` fájl)
 
 ## Lépések
 
@@ -36,12 +36,12 @@ Ebben a részben előkészítjük az SD kártyád a szükséges adatokkal amik k
 
 1. Helyezd az SD kártyád a telefonodba/tabletedbe/számítógépedbe
 
-2. Másolj át a mindent a Release `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt:
+2. Másolj át a mindent a MSET9 `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt:
 
     - Nyisd meg a ZArchiver-t
     - Ha kérdezi, [engedd a ZArchiver-t, hogy hozzá férjen z SD kártya fájljaihoz](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigálj oda, aholva letöltötted az MSET9 Release `.zip`-et ([valószínűleg a Letöltések (Downloads) mappa](/images/screenshots/mset9/zarchiver-zip-location.png))
-    - Válaszd a Release `.zip`-et majd az "Extract..." opciót ([kép](/images/screenshots/mset9/zarchiver-extract-1.png))
+    - Navigálj oda, ahova letöltötted az MSET9 `.zip`-et ([valószínűleg a Letöltések (Downloads) mappa](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Válaszd a MSET9 `.zip`-et majd az "Extract..." opciót ([kép](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Navigálj az SD kártyádra, majd nyomd meg a kék "lefelé nyilat", hogy kicsomagold a fájlokat az SD kártyád gyökerébe ([kép](/images/screenshots/mset9/zarchiver-extract-2.png))
 
     ::: info

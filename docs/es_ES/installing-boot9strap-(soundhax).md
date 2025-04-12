@@ -10,7 +10,7 @@ head:
 
 # Installing boot9strap (Soundhax)
 
-:::details Technical Details (optional)
+:::details Detalles técnicos (opcional)
 
 For technical details on the exploits that you will be using on this page, see [here](https://github.com/nedwill/soundhax) (Soundhax) and [here](https://github.com/TuxSH/universal-otherapp) (universal-otherapp).
 
@@ -87,9 +87,9 @@ In this section, you will launch Soundhax through the Nintendo 3DS Sound app, wh
 
     :::
 
-4. If the exploit was successful, you will have booted into SafeB9SInstaller
+4. Si el exploit fue exitoso, habrás iniciado SafeB9SInstaller
 
-### Section III - Installing boot9strap
+### Sección III - Instalar boot9strap
 
 En esta sección, instalarás custom firmware en tu consola.
 
