@@ -8,9 +8,6 @@ This process will reset your Mii data. If you wish to save any Miis that you hav
 
 1. Power off your console
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
-1. Navigate to `[0:] SDCARD` -> `gm9` -> `in`
-1. Press (X) on the CTRTransfer image `.bin` to delete it
-1. Press (A) to confirm
 1. Press (B) a few times to go back to the main menu
 1. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
     + The `<ID0>` will be a folder with a 32-character long name
