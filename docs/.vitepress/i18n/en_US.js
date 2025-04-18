@@ -254,7 +254,7 @@ const themeConfig = {
 		],
 	},
 	footer: {
-		copyright: 'Copyright © 2024 Nintendo Homebrew',
+		copyright: 'Copyright © 2025 Nintendo Homebrew',
 		items: [
 			{ text: localeData.pages["contribute"], link: `/contribute` },
 			{ text: localeData.pages["credits"], link: `/credits` },
