@@ -2,7 +2,7 @@ Esta seção redefinirá a configuração do console para os valores padrão. \*
 
 ::: warning
 
-This process will reset your Mii data. If you wish to save any Miis that you have created, either [generate a QR code](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii) for each Mii that you want to save, or make a backup of `SYSNAND CTRNAND:/data/<ID0>/extdata/00048000/f000000b` before following these instructions. You can restore this file to the same directory _after_ your console has gone through initial setup.
+Este processo irá redefinir seus dados do Mii. Se você deseja salvar qualquer Miis que você criou, [gere um QR code](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii) para cada Mii que você deseja salvar, ou faça um backup de `SYSNAND CTRNAND:/data/<ID0>/extdata/00048000/f000000b` antes de seguir estas instruções. Você pode restaurar este arquivo para o mesmo diretório _depois_ que seu console passou pela configuração inicial.
 
 :::
 
