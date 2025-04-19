@@ -2,7 +2,7 @@
 
 ::: details Technical Details (optional)
 
-[MSET9](https://github.com/zoogie/MSET9) is an exploit for the System Settings application developed by [zoogie](https://github.com/zoogie). It exploits a flaw where the ID1 (the second 32-character folder name inside of the Nintendo 3DS folder, inside of the ID0) can be *any* name as long as it is 32 characters. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the 3DS.
+[MSET9](https://github.com/zoogie/MSET9) is an exploit for the System Settings application developed by [zoogie](https://github.com/zoogie). It exploits a flaw where the ID1 (the second 32-character folder name inside of the Nintendo 3DS folder, inside of the ID0) can be *any* name as long as it is 32 characters. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the console.
 
 :::
 
@@ -22,17 +22,17 @@ On Android phones/tablets, the minimum Android version required is 6.0 (Marshmal
 
 ## What You Need
 
+* The latest release of [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (the MSET9 `.zip` file)
 * The following applications installed from the Google Play Store:
     * [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
     * [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
     * If you wish, you can sideload these applications instead
-* The latest release of [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (the MSET9 `.zip` file)
 
 ## Instructions
 
 ### Section I - Prep Work
 
-In this section, you will prepare the SD card data necessary for the MSET9 exploit to trigger.
+In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Your existing user data will disappear, but will come back when you are finished with this page.
 
 1. Insert your SD card into your phone/tablet/computer
 1. Copy everything from the MSET9 `.zip` to the root of your SD card, overwriting any existing files:
@@ -58,13 +58,13 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
 1. Tap on the photo corresponding to your console model, then at the bottom, pick your current firmware version
 1. If you see the prompt of `Hax ID1 Created`, tap OK to continue
     + If you get an error, check the [troubleshooting](troubleshooting-mset9), then try again
-    + Your 3DS will appear to lose most data / no user-installed apps on HOME Menu. This is expected. Your data will come back at a later step
+    + Your console will appear to lose most data / no user-installed apps on HOME Menu. **This is expected.** Your data will come back at a later step
 1. Reinsert your SD card into your console
 1. Power on your console
 1. Open Mii Maker
-1. Wait for your console to reach the "Welcome to Mii Maker" screen, then exit Mii Maker
+1. Wait for your console to reach the [Welcome to Mii Maker](/images/screenshots/mset9/mii-welcome.png) screen, then exit Mii Maker and return to the HOME Menu
     + You may see [this screen](/images/screenshots/mset9/mii-extdata.png), which indicates the necessary data has been created
-    + If you just reach the normal Mii Maker screen, exit Mii Maker and return to the HOME Menu
+    + If you just reach the [normal](/images/screenshots/mset9/mii-existing.png) Mii Maker screen, then the data already exists. Exit Mii Maker and return to the HOME Menu
 1. Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
     + This will not wipe any of your data
 1. Power off your console by pressing the power button then tapping Power Off on the lower screen
@@ -85,7 +85,6 @@ In this section, you will trigger MSET9 to launch SafeB9SInstaller (the custom f
 These instructions must be followed **EXACTLY**, so double-check EVERYTHING you are doing to avoid errors!
 
 :::
-
 
 1. Power on your console, ensuring System Settings is selected
     + If System Settings is not selected, **[hover over](/images/screenshots/mset9/hover-settings.png)** the System Settings icon using the D-Pad, power your console off, then back on
@@ -113,7 +112,7 @@ In this section, you will install custom firmware onto your console.
 
 ### Section IV - Removing MSET9
 
-In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)
+In this section, you will remove MSET9 to prevent further issues and to restore your user data (games, themes, etc). (This will not remove the custom firmware that you have just installed.)
 
 ::: danger
 
