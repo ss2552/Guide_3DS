@@ -15,3 +15,9 @@
 13. Perbarui konsol dengan ke System Settings, ke "Other Settings", lalu ke kanan sampai pojok dan pilih "System Update"
     - Memperbarui selagi ada B9S + Luma (yang terpasang) itu aman
     - Jika terjadi galat, atur pengaturan DNS ke "auto"
+
+::: info
+
+Sekarang, sudah boleh menghapus `.bin` dan `.bin.sha` CTRTransfer dari folder `/gm9/in/` untuk meluangkan memori kartu SD.
+
+:::

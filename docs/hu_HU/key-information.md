@@ -142,6 +142,12 @@ Ha azt az utasítás kapod, hogy "másolj (egy adott fájlt) a (fájl).zip-ből"
 
 A legtöbb operációs rendszeren dupla kattintással ki tudod csomagolni a fájlt. Ha ez nem működik, telepíthetsz egy megbízható kicsomagoló eszközt helyette, mint például a [7-zip](https://7-zip.org/).
 
+::: warning
+
+A Windows-os "WinRAR" applikáció kifejezetten ismert, hogy kompatibilitási problémákat okoz a 3DS-el különösen az egyéni firmware telepítő exploitok esetében. Ha Windows számítógépen vagy, inkább használd az alapértelmezett Fájlkezelő-t vagy a 7-zip-et fájlok kicsomagolására.
+
+:::
+
 ::::
 
 :::: details Mik azok a fájl kiterjesztések?

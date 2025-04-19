@@ -15,3 +15,9 @@
 13. Atualize seu console indo em Configurações do Sistema, depois em "Outras Configurações", depois indo até a direita e usando "Atualização do Sistema"
     - Atualizações feitas enquanto usa B9S + Luma (o que você tem) são seguras
     - Se você receber um erro, defina suas configurações de DNS para "Automático"
+
+::: info
+
+At this point, you may remove the CTRTransfer `.bin` and `.bin.sha` files  from the `/gm9/in/` folder to reclaim space on your SD card.
+
+:::

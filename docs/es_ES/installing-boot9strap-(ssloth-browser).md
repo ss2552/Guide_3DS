@@ -34,10 +34,10 @@ In this section, you will copy the files needed to trigger both browserhax and u
 3. Copy `otherapp.bin` to the root of your SD card and rename it to `arm11code.bin`
     - La raíz de la tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
     - If you do not see the `.bin` extension, do not add it to the end of the filename
-4. Copy everything from the Luma3DS `.zip` to the root of your SD card
+4. Copia todo lo que está dentro del `.zip` de Luma3DS a la raíz de tu tarjeta SD
 5. Crea una carpeta llamada `boot9strap` en la raíz de la tarjeta SD
 6. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en la tarjeta SD
-7. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+7. Copia `SafeB9SInstaller.bin` del `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD
 8. Reinserta la tarjeta SD en la consola
 9. Enciende tu consola
 
@@ -58,8 +58,8 @@ In this section, you will visit the browser exploit webpage, which will use univ
 
 2. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - When you get a prompt with error code `012-1511`, press (A) to allow the connection
-    - If you get a crash or a different error code, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
+    - Cuando aparezca una ventana emergente con el código de error `012-1511`, presiona (A) para permitir la conexión
+    - Si se congela la consola o aparece otro código de error, [sigue esta guía de resolución de problemas](troubleshooting-ssloth-browser)
 
     ::: danger
 

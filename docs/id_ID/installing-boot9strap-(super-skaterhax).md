@@ -10,14 +10,6 @@ head:
 
 # Memasang boot9strap (super-skaterhax)
 
-::: danger
-
-# Metode ini sedang **tidak berfungsi** karena sertifikat di server SSL berubah. Belum ada rencana perbaikan. Untuk sementara, ikuti [Memasang boot9strap (MSET9)](installing-boot9strap-\(mset9\)).
-
-[![kecohan agar orang tidak melihat lanjutan laman ini](/images/distraction.gif)](installing-boot9strap-\(mset9\))
-
-:::
-
 :::details Perincian Teknis (opsional)
 
 Untuk perincian teknis perihal eksploit pada laman ini, lihat di [sini](https://github.com/zoogie/super-skaterhax).
@@ -28,9 +20,9 @@ Untuk perincian teknis perihal eksploit pada laman ini, lihat di [sini](https://
 
 Super-skaterhax itu (jika untuk Homebrew Launcher) kompatibel pada 3DS "New" _firmware_ 11.15.0 ke atas di semua daerah kecuali CHN/TWN.
 
-::: warning
+::: info
 
-Instruksi di sini hanya berlaku untuk New 3DS, New 3DS XL, dan New 2DS XL. Mohon pastikan konsol yang akan dimodif itu New 3DS, New 3DS XL, atau New 2DS XL sebelum lanjut.
+Eksploit ini diketahui tidak konsisten: sebagian ada yang berhasil, ada yang tidak. Jika lebih pilih eksploit yang lebih konsisten (akan lebih lama, tapi hasil akhirnya akan sama), ikuti saja [MSET9](installing-boot9strap-\(mset9\)).
 
 :::
 
@@ -73,7 +65,11 @@ Di bagian ini akan menaruh berkas untuk mengaktifkan super-skaterhax dan Homebre
     - JPN: 日本, 設定しない
     - KOR: 대한민국, 설정하지 않음
 
-10. Keluar dari System Settings
+10. Navigasi ke "Date & Time"
+
+11. Atur "Today's Date" dan "Current Time" ke tanggal dan waktu hari ini sesuai zona waktu
+
+12. Keluar dari System Settings
 
 #### Bagian II - super-skaterhax
 
@@ -81,41 +77,41 @@ Di bagian ini akan membuka laman web eksploit Browser untuk menjalankan Homebrew
 
 ::: info
 
-Jika sekiranya belum, pastikan konsol sudah tersambung ke internet.
+Video yang menjelaskan langkah ini ada di [sini](https://www.youtube.com/watch?v=DEcZB72vJts).
 
 :::
 
-1. Saat di HOME Menu, tekan tombol L dan R bersamaan untuk membuka kamera
-    - Jika tidak bisa membuka kamera, buka Internet Browser dan coba ketik sendiri URL `https://zoogie.github.io/web/super/` untuk EUR/USA/JPN; atau `https://zoogie.github.io/web/korea` untuk KOR
-2. Sentuh tombol kode QR dan pindai salah satu kode QR berikut sesuai daerah konsol di [sini](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
-    - Jika ada peringatan sertifikat keamanan, pastikan tanggal sistem itu hari ini
-3. Tekan (Select) untuk membuka tab markah
-    - Jika tombol (Select) tidak tanggap, sentuh ikon bintang di pojok kiri-bawah layar
-4. Sentuh "Bookmark this page"
-5. Tekan (B) sekali untuk kembali ke Browser
-6. Tekan (ZR) untuk membuka daftar tab
-    - Jika tombol (ZR) tidak tanggap, sentuh gambar dua kotak bertumpuk di pojok kanan-bawah layar
-7. Pastikan tab yang terbuka hanya situs super-skaterhax
-    - Tab ini harus bersorot warna biru di daftar tab
-    - Tutup tab yang lain jika ada
-8. Tekan (B) sekali untuk kembali ke Browser
-9. Tekan (Start) untuk membuka menu konteks
-    - Jika tombol (Start) tidak tanggap, sentuh menu 3-garis di pojok kanan-bawah layar
-10. Sentuh "Settings"
-11. Sentuh "Delete Cookies"
-12. Tekan (A) untuk lanjut
-13. Tekan (Home) untuk ke HOME Menu, lalu langsung tekan (A) untuk membuka Browser lagi
-14. Pilih tombol "GO GO!" di layar bawah bagian atas
-15. Tekan (A) untuk abaikan [sembulan](/images/screenshots/skaterhax/skater-popup.png)
-    - Jika konsolnya macet di layar kuning, tahan tombol POWER sampai daya mati, lalu coba lagi bagian ini
-    - Jika konsolnya macet di layar merah, tahan tombol POWER sampai daya mati, ulangi Langkah 3 Bagian II, lalu coba lagi bagian ini
-    - Jika [ada tulisan "Text" di pojok kiri-atas layar bawah](/images/screenshots/skaterhax/skater-old3ds.png), berarti konsol Anda Old 3DS dan eksploit ini **tidak berfungsi di konsol tersebut**. Jika begitu, maka ikuti saja [MSET9](installing-boot9strap-\(mset9\))
-    - Jika muncul galat lain, coba lagi hingga 5 kali, dan jika masih galat, [ikuti panduan sidik gangguan ini](troubleshooting-super-skaterhax)
-16. Konsol akan menyala ke Homebrew Launcher
+1. Buka Internet Browser
+2. Sentuh ikon 3 garis (☰) di pojok kanan bawah layar bawah
+3. Sentuh `Settings` -> gulir ke bawah -> `Reset Save Data` -> `Clear All` -> `Clear` -> `OK`
+    - Browser akan ditutup
+4. Buka lagi Internet Browser
+5. Sentuh `Next` -> `Google` -> `OK` -> `OK`
+6. Sentuh kolom alamat di bagian atas layar bawah
+7. Ketik URL berikut sesuai daerah konsol Anda:
+    - **USA/EUR/JPN**: `https://skater.686178.xyz/go/super`
+    - **KOR**: `https://skater.686178.xyz/go/korea`
+8. Sentuh "Open"
+    - Seharusnya muncul teks "GO GO!". Jangan dipencet dulu
+9. Sentuh ikon 3 garis (☰) di pojok kanan bawah layar bawah
+10. Sentuh "Add to Bookmarks"
+11. Sentuh ikon 3 garis (☰) di pojok kanan bawah layar bawah
+12. Sentuh `Settings` -> `Delete Cookies` -> `Yes`
+13. Tekan (Home) untuk ke HOME Menu, lalu langsung buka lagi Internet Browser
+14. Tunggu sampai laman selesai dimuat, lalu sentuh tombol "GO GO!" di bagian atas layar bawah
+15. Tunggu sampai laman selesai dimuat, lalu tekan (A) untuk tutup [sembulan](/images/screenshots/skaterhax/skater-popup.png)
+16. Jika konsol muncul:
+    - **Layar "Homebrew Launcher"**: Lanjut ke langkah berikutnya
+    - **Kotak pesan putih "Error has occurred"**: Eksploitnya kebetulan gagal. Buka System Settings, ubah bahasa sistem ke yang lain (jika bisa), lalu coba lagi bagian ini. Bagian ini mungkin harus diulangi hingga sepuluh kali
+        - Di konsol berdaerah JPN/KOR, pengaturan hanya ada satu bahasa. Untuk konsol tersebut, caranya buka System Settings, tutup apli, lalu coba lagi bagian ini
+        - Jika eksploit masih gagal setelah mencoba lima kali, mungkin masalahnya di persiapan berkas. Pastikan daerah dan tanggal/waktu konsol sudah benar dan mengikuti bagian ini dengan **persis**. Jika tadi mengekstrak berkas ke kartu SD dengan WinRAR, ekstrak ulang berkasnya dengan File Explorer atau 7-zip
+        - Jika eksploit masih gagal setelah mencoba sepuluh kali, ikuti saja [MSET9](installing-boot9strap-\(mset9\))
+    - **Layar hitam bertulis "An error has occurred"**: Berkasnya salah taruh. Pastikan berkas super-skaterhax ditaruh di akar kartu SD
+    - **Layar kuning**: Homebrew Launcher tidak bisa dibuka karena kebetulan gagal. Tahan tombol POWER konsol sampai daya mati, lalu coba lagi bagian ini
+    - **[Tulisan "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Konsol Anda Old 3DS, eksploit ini **bukan untuk Old 3DS**. Jika begitu, maka ikuti saja [MSET9](installing-boot9strap-\(mset9\))
 17. Buka nimdsphax dari Homebrew Launcher
 18. Jika eksploit berhasil akan muncul SafeB9SInstaller
     - Jika konsolnya macet di layar merah atau hijau, tahan tombol POWER sampai daya mati, lalu coba lagi bagian ini
-    - Ini mungkin perlu dicoba lima kali
 
 #### Bagian III - Memasang boot9strap
 
@@ -133,7 +129,7 @@ ___
 
 ::: info
 
-Sekarang pengaturan daerah bisa dikembalikan ke biasa lagi.
+Sekarang pengaturan daerah boleh diatur ke biasa lagi.
 
 :::
 

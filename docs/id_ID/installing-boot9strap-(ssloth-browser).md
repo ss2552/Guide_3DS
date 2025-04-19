@@ -2,11 +2,11 @@
 
 :::details Perincian Teknis (opsional)
 
-Untuk mengeksploit aplikasi Browser, harus melangkaui pemeriksaan versi Browser, karena penggunaan peramban akan ditahan jika belum memperbarui sistem ke versi terbaru.
+Untuk mengeksploit aplikasi Browser, harus melongkap pemeriksaan versi Browser, karena penggunaan perambah akan ditahan jika belum memperbarui sistem ke versi terbaru.
 
-Tersedia server Proxy publik, yang dengan bantuan eksploit SSLoth, bisa melangkaui pemeriksaan ini.
+Tersedia server Proxy publik, yang dengan bantuan eksploit SSLoth, bisa melongkap pemeriksaan ini.
 
-Sesudah pelangkauannya aktif, laman web eksploit akan bisa diakses dan memulai tugasnya.
+Sesudah longkapannya aktif, laman web eksploit akan bisa diakses dan melakukan sisanya.
 
 Untuk perincian teknis perihal eksploit pada laman ini, lihat di [sini](https://github.com/MrNbaYoh/3ds-ssloth) (SSLoth) dan [sini](https://github.com/TuxSH/universal-otherapp) (universal-otherapp).
 
@@ -14,7 +14,7 @@ Untuk perincian teknis perihal eksploit pada laman ini, lihat di [sini](https://
 
 ## Catatan Kompatibilitas
 
-SSLoth mengizinkan pengguna pada versi 11.13.0 ke bawah melangkaui periksa versi Browser, jadi bisa menggunakan new-browserhax atau old-browserhax (kompatibel di versi 11.4.0 hingga 11.13.0 di semua daerah), lalu akan digunakan bersama universal-otherapp.
+SSLoth mengizinkan pengguna pada versi 11.13.0 ke bawah melongkap periksa versi Browser, jadi bisa menggunakan new-browserhax atau old-browserhax (kompatibel di versi 11.4.0 hingga 11.13.0 di semua daerah), lalu akan digunakan bersama universal-otherapp.
 
 ## Apa yang Perlu
 
@@ -43,7 +43,7 @@ Di bagian ini akan menaruh berkas untuk mengaktifkan browserhax dan universal-ot
 
 ### Bagian II - SSLoth
 
-Di bagian ini akan mengubah pengaturan sambungan Internet ke jejaring Proxy untuk melangkaui periksa versi Browser, sehingga Browser bisa berfungsi tanpa pembaruan sistem. Ini agar bisa mengakses laman web eksploit Browser di bagian berikutnya.
+Di bagian ini akan mengubah pengaturan sambungan Internet ke jejaring Proxy untuk melongkap periksa versi Browser, sehingga Browser bisa berfungsi tanpa pembaruan sistem. Ini agar bisa mengakses laman web eksploit Browser di bagian berikutnya.
 
 <!--@include: ./_include/addproxy.md -->
 
@@ -58,8 +58,8 @@ Di bagian ini akan membuka laman web eksploit Browser dengan universal-otherapp 
 
 2. Sentuh tombol kode QR dan pindai [kode QR ini](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - When you get a prompt with error code `012-1511`, press (A) to allow the connection
-    - If you get a crash or a different error code, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
+    - Jika muncul kode galat `012-1511`, tekan (A) untuk izinkan sambungan
+    - Jika mogok atau muncul kode galat lain, [ikuti panduan sidik gangguan ini](troubleshooting-ssloth-browser)
 
     ::: danger
 

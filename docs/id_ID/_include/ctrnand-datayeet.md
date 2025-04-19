@@ -2,28 +2,24 @@ Bagian ini akan mengembalikan pengaturan sistem ke bawaan. **Tidak memengaruhi p
 
 ::: warning
 
-This process will reset your Mii data. If you wish to save any Miis that you have created, either [generate a QR code](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii) for each Mii that you want to save, or make a backup of `SYSNAND CTRNAND:/data/<ID0>/extdata/00048000/f000000b` before following these instructions. You can restore this file to the same directory _after_ your console has gone through initial setup.
+Ini akan mengatur ulang data Mii Anda. Jika ingin menyimpan Mii buatan Anda, bisa [buat kode QR](https://en-americas-support.nintendo.com/app/answers/detail/a_id/298/~/how-to-generate-a-qr-code%E2%84%A2-for-a-mii) untuk tiap Mii yang ingin disimpan, atau cadangkan `SYSNAND CTRNAND:/data/<ID0>/extdata/00048000/f000000b` sebelum mengikuti instruksi ini. Berkas ini boleh dipulihkan ke direktori itu lagi _**jika sudah**_ melewati penyiapan awal konsol.
 
 :::
 
 1. Matikan daya konsol
 2. Tahan tombol (Start) selagi menyalakan konsol. Ini akan masuk ke GodMode9
-3. Navigasi ke `[0:] SDCARD` -> `gm9` -> `in`
-4. Tekan (X) pada `.bin` citra CTRTransfer untuk dihapus
-5. Tekan (A) untuk konfirmasi
-6. Tekan (B) beberapa kali untuk ke menu utama
-7. Navigasi ke `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
+3. Navigasi ke `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
     - `<ID0>` di sini folder dengan nama berjumlah 32 huruf
-8. Sorot ke `00010017` dengan Tombol Arah
-9. Tekan (R) + (A) untuk memunculkan opsi folder
-10. Pilih "Copy to 0:/gm9/out"
-11. Tekan (A) untuk lanjut
-12. Selagi menyorot `00010017`, tekan (X) untuk dihapus
-13. Tekan (A) untuk konfirmasi
-14. Tekan (A) untuk membuka izin tulis SysNAND (lvl1), lalu tekan kombo yang diberikan
-15. Sesudah berkas dihapus, tekan (A) untuk lanjut
-16. Tekan (A) untuk menutup ulang izin tulis jika diminta
-17. Tekan (Start) untuk nyalakan ulang konsol
-18. Konsol akan memuat ke menu penyiapan awal
+4. Sorot ke `00010017` dengan Tombol Arah
+5. Tekan (R) + (A) untuk memunculkan opsi folder
+6. Pilih "Copy to 0:/gm9/out"
+7. Tekan (A) untuk lanjut
+8. Selagi menyorot `00010017`, tekan (X) untuk dihapus
+9. Tekan (A) untuk konfirmasi
+10. Tekan (A) untuk membuka izin tulis SysNAND (lvl1), lalu tekan kombo yang diberikan
+11. Sesudah berkas dihapus, tekan (A) untuk lanjut
+12. Tekan (A) untuk menutup ulang izin tulis jika diminta
+13. Tekan (Start) untuk nyalakan ulang konsol
+14. Konsol akan memuat ke menu penyiapan awal
     - Memang akan seperti ini. Data permainan masih ada semua
-19. Selesaikan menu penyiapan awal dengan mengikuti yang diminta di layar konsol
+15. Selesaikan menu penyiapan awal dengan mengikuti yang diminta di layar konsol
