@@ -2,7 +2,7 @@
 
 :::details Detalhes Técnicos (opcional)
 
-[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de um erro onde a ID1 (a pasta de 32 caractéres dentro da pasta Nintendo 3DS, dentro de ID0) pode ter _qualquer_ nome desde que seja composto por 32 caractéres. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the console.
+[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de um erro onde a ID1 (a pasta de 32 caractéres dentro da pasta Nintendo 3DS, dentro de ID0) pode ter _qualquer_ nome desde que seja composto por 32 caractéres. Executar uma sequência específica de ações fará com que o console execute as instruções que estão codificadas no nome da pasta ID1, que pode ser usado para conceder controle total sobre o console.
 
 :::
 
@@ -22,7 +22,7 @@ Em telefones/tablets Android, a versão mínima do Android é 6.0 (Marshmallow).
 
 ## O que é necessário
 
-- The latest release of [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (the MSET9 `.zip` file)
+- A versão mais recente de [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (o arquivo MSET9 `.zip`)
 - Os aplicativos a seguir serão instalados pela Google Play Store:
     - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
@@ -32,16 +32,16 @@ Em telefones/tablets Android, a versão mínima do Android é 6.0 (Marshmallow).
 
 ### Seção I - Preparação
 
-In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Seus dados de usuário existentes desaparecerão, mas voltarão quando você terminar esta página.
+Nesta seção, você vai preparar o exploit MSET9 através da criação **temporária** de um novo perfil do Menu HOME com quase nenhum dado de usuário, e, em seguida, configurar esse perfil com apenas os dados mínimos necessários para que o MSET9 acione. Seus dados de usuário existentes desaparecerão, mas voltarão quando você terminar esta página.
 
 1. Insira o cartão SD no seu telefone/tablet/computador
 
-2. Copy everything from the MSET9 `.zip` to the root of your SD card, overwriting any existing files:
+2. Copie tudo do `.zip` MSET9 para a raiz do seu cartão SD, substituindo quaisquer arquivos existentes:
 
     - Abra o ZArchiver
     - Se solicitado, [permita ao ZArchiver acessar os arquivos do seu cartão SD](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
-    - Select the MSET9 `.zip`, then select "Extract..." ([imagem](/images/screenshots/mset9/zarchiver-extract-1.png))
+    - Navegue para onde o `.zip` do MSET9 baixado está localizado ([provavelmente na pasta Downloads](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Selecione o `.zip` do MSET9, então selecione "Extract..." ([imagem](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Navegue para o seu cartão SD, então toque o ícone azul de 'seta para baixo' para extrair os arquivos para a raiz do seu cartão SD ([imagem](/images/screenshots/mset9/zarchiver-extract-2.png))
 
     ::: info
@@ -67,7 +67,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 10. Se você ver a mensagem `Hax ID1 Created`, toque em OK para continuar
     - Se você receber um erro, verifique o [guia de troubleshooting](troubleshooting-mset9), depois tente novamente
-    - Your console will appear to lose most data / no user-installed apps on HOME Menu. **Isto é esperado.** Seus dados voltarão mais tarde
+    - Seu console parecerá que perdeu a maioria dos dados / não há nenhum aplicativo instalado pelo usuário no Menu HOME. **Isto é esperado.** Seus dados voltarão mais tarde
 
 11. Reinsira o cartão SD no seu console
 

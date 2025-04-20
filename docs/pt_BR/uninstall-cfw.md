@@ -59,7 +59,7 @@ Estas instruções só funcionarão em consoles com uma versão 8.0 ou superior 
 4. Copie `GodMode9.firm` do `.zip` do GodMode9 para a pasta `/luma/payloads/` no seu cartão SD
 5. Copie a pasta `gm9` do `.zip` do GodMode9 para a raiz do seu cartão SD
 6. Copie `DSiWareUninstaller.3dsx` para a pasta `/3ds/` no seu cartão SD
-7. Copy `safety_test.gm9` and `uninstall_cfw.gm9` to the `/gm9/scripts/` folder on your SD card
+7. Copie `safety_test.gm9` e `uninstall_cfw.gm9` para a pasta `/gm9/scripts/` no seu cartão SD
 8. Reinsira o cartão SD no seu console
 
 ### Seção II - Testes do Modo DS
@@ -158,7 +158,7 @@ Esta seção removerá conteúdo ilegítimo, como homebrew e cartuchos dumped. S
 10. Aperte (Gatilho Esquerdo) + (D-pad pra baixo) + (Select) ao mesmo tempo para abrir o menu Rosalina
 11. Selecione "Miscellaneous options"
 12. Selecione "Switch the hb. title to the current app."
-13. Press (B) to continue
+13. Pressione (B) para continuar
 14. Aperte (B) para retornar para o menu principal do Rosalina
 15. Aperte (B) para sair do menu do Rosalina
 16. Aperte (Home), depois feche o Download Play
@@ -204,9 +204,9 @@ Se você está removendo o CFW porque:
     - Se ao invés disso você ver o chainloader do Luma3DS, use o D-Pad e o botão (A) para selecionar o GodMode9
 2. Aperte (Home) para abrir o menu de ações
 3. Selecione "Scripts..."
-4. Select "uninstall_cfw"
+4. Selecione "uninstall_cfw"
 5. Quando solicitado, aperte (A) para prosseguir
-6. Press (A) again to proceed
+6. Aperte (A) novamente para continuar
 7. Aperte (A) para destravar "SysNAND (lvl3) writing", então aperte a sequência de botões solicitada
 8. Aperte (A) para continuar
 9. Se solicitado, aperte (A) para bloquear as permissões de escrita

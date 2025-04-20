@@ -54,7 +54,7 @@ Nesta seção, você irá copiar os arquivos necessários para acionar o exploit
 
 ::: warning
 
-This section is MANDATORY! Failure to setup the proxy may cause you to update your console to a newer firmware by mistake.
+Esta seção é OBRIGATÓRIA! Falha ao configurar o proxy pode fazer com que você atualize seu console para um firmware mais recente por engano.
 
 :::
 

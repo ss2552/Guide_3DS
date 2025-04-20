@@ -32,7 +32,7 @@ Este guia funciona com todos os consoles de varejo da família de consoles do Ni
 
 :::
 
-Na maioria dos casos você pode seguir este guia desde que você consiga baixar arquivos da internet e copiá-los para seu cartão SD. This includes most consumer electronic devices, such as computers running Windows, macOS, Linux, and chromeOS (Chromebooks), as well as Android phones. Depending on your electronic device, you may need to purchase a USB to SD card adapter to allow it to read your SD card.
+Na maioria dos casos você pode seguir este guia desde que você consiga baixar arquivos da internet e copiá-los para seu cartão SD. Isso inclui a maioria dos dispositivos eletrônicos de consumidores, como computadores que rodam Windows, macOS, Linux e chromeOS (Chromebooks), bem como os telefones Android. Dependendo do seu dispositivo eletrônico, talvez seja necessário comprar um adaptador de cartão USB para cartão SD para permitir que ele leia seu cartão SD.
 
 ::::
 
@@ -50,7 +50,7 @@ O 3DS pode ler cartões SD de qualquer capacidade (mesmo os maiores que 32GB), m
 
 ::: info
 
-It is highly recommended to **only use one SD card** with a console at any given time, as you cannot merge the contents of two SD cards later on. So, if your console already has an SD card, you should use that SD card to mod your console, or copy everything to a larger SD card before or after you mod it.
+É altamente recomendado que **use apenas um cartão SD** com um console em determinado momento, já que você não pode unir os conteúdos de dois cartões SD mais tarde. Então, se o seu console já possui um cartão SD, você deve usar esse cartão SD para aplicar mods em seu console, ou copie tudo para um cartão SD maior antes ou depois de realizar os mods.
 
 :::
 
@@ -62,7 +62,7 @@ Para seguir este guia, você precisará de um cartão SD com capacidade de pelo 
 
 ::: info
 
-If you want, you can check your SD card for errors before following this guide using [H2testw (Windows)](h2testw-\(windows\)), [F3 (Linux)](f3-\(linux\)), or [F3XSwift (Mac)](f3xswift-\(mac\)).
+Se você quiser, você pode verificar erros no seu cartão SD antes de seguir este guia usando [H2testw (Windows)](h2testw-\(windows\)), [F3 (Linux)](f3-\(linux\)), ou [F3XSwift (Mac)](f3xswift-\(mac\)).
 
 :::
 
@@ -144,7 +144,7 @@ Na maioria dos sistemas operacionais, você pode extrair arquivos clicando duas 
 
 ::: warning
 
-The Windows application "WinRAR" is specifically known to cause compatibility issues with the 3DS, particularly with custom firmware installation exploits. If you are on a Windows computer, you should use either the default File Explorer or 7-zip to extract files.
+O aplicativo para Windows "WinRAR" é conhecido especificamente por causar problemas de compatibilidade com o 3DS, particularmente com a instalação de custom firmware. Se estiver em um computador do Windows, use o Gerenciador de Arquivos padrão ou o 7-zip para extrair arquivos.
 
 :::
 
