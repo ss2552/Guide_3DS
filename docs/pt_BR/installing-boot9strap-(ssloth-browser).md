@@ -58,12 +58,12 @@ Nesta seção, você vai visitar a página de exploit do navegador, que usará o
 
 2. Toque no botão do código QR e escaneie [este código QR](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - When you get a prompt with error code `012-1511`, press (A) to allow the connection
-    - If you get a crash or a different error code, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
+    - Quando você receber um prompt com o código de erro `012-1511`, aperte (A) para permitir a conexão
+    - Se você receber um crash ou um código de erro, [siga esse guia de troubleshooting](troubleshooting-ssloth-browser)
 
     ::: danger
 
-    If you receive a prompt telling you to update your console, STOP! Redo Section II from the beginning and ensure you have set up the proxy correctly.
+    Caso você receba um prompt dizendo para atualizar seu console, PARE! Refaça a Seção II desde o início e garantir que você configurou o proxy corretamente.
 
     :::
 
