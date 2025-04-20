@@ -22,7 +22,7 @@ Super-skaterhax (quando usado para iniciar o Homebrew Launcher) é compatível c
 
 ::: info
 
-This exploit is known to be inconsistent: it works for some people, but not others. If you prefer to use a more consistent exploit (which may take longer, but will have the same end result), follow [MSET9](installing-boot9strap-\(mset9\)) instead.
+Sabe-se que este exploit é inconsistente: funciona para alguns, mas não para outros. Se você preferir usar um exploit mais consistente (que pode demorar mais tempo, mas terá o mesmo resultado final), siga [MSET9](installing-boot9strap-\(mset9\)) em vez disso.
 
 :::
 
@@ -65,9 +65,9 @@ Nesta seção, você irá copiar os arquivos necessários para acionar tanto sup
     - JPN: 日本, 設定しない
     - KOR: 대한민국, 설정하지 않음
 
-10. Navigate to "Date & Time"
+10. Navegue até "Data e Hora"
 
-11. Set "Today's Date" and "Current Time" to the current date and time in your timezone
+11. Defina "Data de Hoje" e "Hora Atual" para a data e hora atuais em seu fuso horário
 
 12. Saia das Configurações do Sistema
 
@@ -77,38 +77,38 @@ Nesta seção, você visitará a página web contendo o exploit, que iniciará o
 
 ::: info
 
-A video detailing these steps is available [here](https://www.youtube.com/watch?v=DEcZB72vJts).
+Um vídeo que detalha essas etapas está disponível [aqui](https://www.youtube.com/watch?v=DEcZB72vJts).
 
 :::
 
-1. Open the Internet Browser
-2. Tap the 3-line (☰) icon on the bottom-right corner of the screen
-3. Tap `Settings` -> scroll down -> `Reset Save Data` -> `Clear All` -> `Clear` -> `OK`
-    - The browser will close
-4. Reopen the Internet Browser
-5. Tap `Next` -> `Google` -> `OK` -> `OK`
-6. Tap on the address bar at the top of the bottom screen
-7. Enter the URL corresponding to your console's region:
-    - **USA/EUR/JPN**: `https://skater.686178.xyz/go/super`
+1. Abra o Navegador de Internet
+2. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+3. Toque em `Configurações` -> vá para baixo -> `Redefinir Dados Salvos` -> `Limpar Tudo` -> `Limpar` -> `OK`
+    - O navegador será fechado
+4. Abra novamente o Navegador de Internet
+5. Toque em `Próximo` -> `Google` -> `OK` -> `OK`
+6. Toque na barra de endereços na parte superior da tela inferior
+7. Digite a URL correspondente à região do seu console:
+    - **EUA/EUR/JPN**: `https://skater.686178.xyz/go/super`
     - **KOR**: `https://skater.686178.xyz/go/korea`
-8. Tap "Open"
-    - You should see the text "GO GO!". Do not click on it yet
-9. Tap the 3-line (☰) icon on the bottom-right corner of the screen
-10. Tap on "Add to Bookmarks"
-11. Tap the 3-line (☰) icon on the bottom-right corner of the screen
-12. Tap on `Settings` -> `Delete Cookies` -> `Yes`
-13. Press (Home) to return to the HOME Menu, then immediately reopen the Internet Browser
-14. Wait for the page to fully load, then tap the "GO GO!" button on the top of the bottom screen
-15. Wait for the page to fully load, then press (A) to dismiss the [popup](/images/screenshots/skaterhax/skater-popup.png)
-16. If your console displays:
-    - **"The Homebrew Launcher" screen**: Continue to the next step
-    - **A white "Error has occurred" message box**: The exploit failed due to random chance. Open System Settings, change the language to a different one (if possible), then retry this section. You may have to repeat this sequence up to ten times
-        - On JPN/KOR region consoles, there is only one language setting. On those consoles, you should open System Settings, close it, then retry this section
-        - If the exploit is still unsuccessful after five attempts, there may be a problem with your files or prep work. Ensure that region and date/time are correct, and that you have been following this section **exactly**. If you used WinRAR to extract files to the SD card, re-extract the files using File Explorer or 7-zip instead
-        - If the exploit is still unsuccessful after ten attempts, follow [MSET9](installing-boot9strap-\(mset9\)) instead
-    - **A black screen that says "An error has occurred"**: Your file placement is incorrect. Ensure that the super-skaterhax files are on the root of the SD card
-    - **A yellow screen**: Homebrew Launcher failed to open due to random chance. Hold the POWER button until the console turns off, then retry this section
-    - **[The word "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: You have an Old 3DS, where this exploit **does not work**. Se este for o caso, siga [Instalando boot9strap (MSET9)](installing-boot9strap-\(mset9\)) ao invés disso
+8. Toque em "Abrir"
+    - Você deve ver o texto "GO GO!". Não clique nele ainda
+9. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+10. Toque em "Adicionar aos Favoritos"
+11. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+12. Toque em `Configurações` -> `Excluir Cookies` -> `Sim`
+13. Aperte (Home) para retornar ao Menu HOME, depois imediatamente abra novamente o Navegador de Internet
+14. Aguarde a página carregar completamente e, em seguida, toque no botão "GO GO!" no topo da tela inferior
+15. Espere a página carregar completamente, depois aperte (A) para dispensar o [popup](/images/screenshots/skaterhax/skater-popup.png)
+16. Se o seu console exibir:
+    - **A tela do "The Homebrew Launcher"**: Continue para o próximo passo
+    - **Mensagem "Um erro ocorreu"**: O exploit falhou devido a chance aleatória. Abra a Configuração do Sistema, mude o idioma para um diferente (se possível), então tente novamente esta seção. Você pode ter que repetir esta sequência até dez vezes
+        - Em consoles da região JPN/KOR, há apenas uma configuração de idioma. Nesses console, você deve abrir a Configuração do Console, fechá-la, então tentar esta seçao novamente
+        - Se o exploit ainda não for bem-sucedido após cinco tentativas, poderá haver um problema com seus arquivos ou com a preparação. Certifique-se de que a região e a data/hora estejam corretas e de que você tem seguido esta seção **exatamente**. Se você usou o WinRAR para extrair arquivos para o cartão SD, re-extraia os arquivos usando o Explorador de Arquivos ou 7-zip ao invés disso
+        - Se o exploit ainda não for bem-sucedido após dez tentativas, siga [MSET9](installing-boot9strap-\(mset9\)) ao invés disso
+    - **Uma tela preta que diz "Ocorreu um erro"**: Seus arquivos estão no lugar incorreto. Certifique-se de que os arquivos super-skaterhax estejam na raiz do cartão SD
+    - **Uma tela amarela**: o Homebrew Launcher falhou ao abrir devido a chance aleatória. Segure o botão POWER até que o console desligue, e tente novamente esta seção
+    - **[A palavra "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Você tem um Old 3DS, no qual esse exploit **não funciona**. Se este for o caso, siga [MSET9](installing-boot9strap-\(mset9\)) ao invés disso
 17. Abra o nimdsphax da lista de homebrews
 18. Se o exploit for bem-sucedido, você terá entrado no SafeB9SInstaller
     - Se o seu console congelar em uma tela vermelha ou verde, segure o botão POWER até que ele desligue, então tente esta seção novamente
@@ -118,7 +118,7 @@ A video detailing these steps is available [here](https://www.youtube.com/watch?
 Nesta seção, você instalará custom firmware no seu console.
 
 1. Quando solicitado, aperte a sequência de botões fornecida na tela superior para instalar o boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-super-skaterhax)
+    - Se um passo na parte inferior da tela tiver texto vermelho e você não for solicitado a introduzir um combo de botões, [siga este guia de troubleshooting](troubleshooting-super-skaterhax)
 2. Quando concluído, aperte (A) para reiniciar o seu console
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -129,7 +129,7 @@ ___
 
 ::: info
 
-You may now restore your region settings back to normal.
+Agora você pode restaurar suas configurações de região de volta ao normal.
 
 :::
 
