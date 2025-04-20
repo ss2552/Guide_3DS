@@ -2,7 +2,7 @@
 
 ## Leitura Obrigatória
 
-On the previous page, you installed boot9strap, a custom firmware loader that loads the file `boot.firm` from SD card or NAND (internal memory). In this case, we are using Luma3DS by [LumaTeam](https://github.com/LumaTeam/) as our `boot.firm` to patch the console, allowing it to run homebrew software.
+Na página anterior, você instalou o boot9strap, um loader de custom firmware que carrega o arquivo `boot.firm` do cartão SD ou NAND (memória interna). Neste caso, estamos usando o Luma3DS por [LumaTeam](https://github.com/LumaTeam/) como nosso `boot.firm` para alterar o console, permitindo que ele execute software homebrew.
 
 Nesta página, faremos backups de arquivos críticos do sistema e instalaremos os seguintes programas de homebrew. A maioria dessas etapas serão automatizadas usando um script que você irá executar no seu console.
 
@@ -10,19 +10,19 @@ Nesta página, faremos backups de arquivos críticos do sistema e instalaremos o
 
 O script irá instalar os seguintes aplicativos:
 
-- **FBI** by Steveice10 _(installs CIA formatted applications)_
-- **Homebrew Launcher Loader** by PabloMK7 _(runs Homebrew Launcher, for 3DSX format homebrew)_
-- **Anemone3DS** by astronautlevel2 _(installs custom themes, splashes, and badges)_
-- **Checkpoint** by BernardoGiordano/FlagBrew _(manages 3DS/DS game save data)_
-- **ftpd** by mtheall _(allows wireless 3DS SD card access over FTP)_
-- **Universal-Updater** by Universal-Team _(on-device app store for downloading homebrew over Wi-Fi)_
-- **GodMode9** by d0k3 _(multipurpose tool for extracting data from internal memory or cartridges)_
+- **FBI** por Steveice10 _(instala aplicativos formatados em CIA)_
+- **Homebrew Launcher Loader** pelo PabloMK7 _(executa o Homebrew Launcher, para homebrew em formato 3DSX)_
+- **Anemone3DS** por astronautlevel2 _(instala temas, splashes e insígnias)_
+- **Checkpoint** de BernardoGiordano/FlagBrew _(gerencia dados salvos para jogos de 3DS/DS)_
+- **ftpd** by mtheall _(permite acesso sem fio ao cartão SD do 3DS via FTP)_
+- **Universal-Updater** por Universal-Team _(loja de aplicativos no dispositivo para baixar homebrew através do Wi-Fi)_
+- **GodMode9** por d0k3 _(ferramenta multiuso para extrair dados da memória interna ou de cartuchos)_
 
 Se você não quer um destes aplicativos, você pode removê-los depois de concluir esta página navegando até Configurações do Sistema -> Gerenciamento de Dados -> Nintendo 3DS -> Software. (GodMode9 não pode ser removido desta maneira e é geralmente necessário para outras funções.)
 
-::: details Source code links (optional)
+::: details Links do código-fonte (opcional)
 
-All applications installed on this guide are open-source. If you are interested in seeing how they work, or would like to leave a star to show your appreciation, their source code is linked here:
+Todos os aplicativos instalados neste guia são de código aberto. Se você está interessado em ver como eles funcionam, ou gostaria de deixar uma estrela para mostrar sua apreciação, seu código-fonte está vinculado aqui:
 
 - [FBI](https://github.com/lifehackerhansol/FBI)
 - [Homebrew Launcher Loader](https://github.com/PabloMK7/homebrew_launcher_dummy)
@@ -88,9 +88,9 @@ Nesta seção, você irá sincronizar o relógio interno do seu 3DS com a hora r
     - Se algum desses botões estiver quebrado, baixe o arquivo [config.ini](/assets/config.ini) e coloque-o na pasta `luma`, substituindo o arquivo já existente. Isso vai mudar a combinação de botões do Rosalina menu para (X) + (Y)
 2. Selecione "Miscellaneous options"
 3. Selecione "Dump DSP firmware"
-4. Press (B) to continue
+4. Pressione (B) para continuar
 5. Selecione "Nullify user time offset"
-6. Press (B) to continue
+6. Pressione (B) para continuar
 7. Aperte (B) para retornar para o menu principal do Rosalina
 8. Aperte (B) para sair do menu do Rosalina
 
@@ -110,7 +110,7 @@ Nesta seção, você usará uma série de scripts para automatizar a instalaçã
 7. Selecione "Scripts..."
 8. Selecione "finalize"
 9. Siga as instruções no script, respondendo a quaisquer perguntas que lhe sejam feitas
-    - If you see "Information #05: No title database", press (A) to import and enter the buttons on-screen to proceed
+    - Se você ver "Information #05: No title database", pressione (A) para importar e aperte os botões na tela para prosseguir
     - Se você encontrar um erro, siga as instruções na mensagem de erro ou consulte a página de [troubleshooting](troubleshooting-finalizing-setup)
 10. Uma vez que o script disser "Setup complete!", aperte (A) para desligar o dispositivo
     - Se você NÃO ver a mensagem "Setup complete!", o script não foi bem-sucedido e você terá que refazer esta seção a partir do Passo 3
