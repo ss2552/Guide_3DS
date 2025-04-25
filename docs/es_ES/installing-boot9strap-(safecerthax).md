@@ -6,11 +6,11 @@
 
 ## Notas de compatibilidad
 
-safecerthax is compatible with all Old 3DS and Old 2DS consoles in all regions on system versions 1.0.0 through 11.14.0.
+safecerthax es compatible con todas las consolas Old 3DS y Old 2DS en todas las regiones en versiones de sistema desde la 1.0.0 hasta la 11.14.0.
 
 ::: info
 
-This exploit will not work on the New 3DS, New 3DS XL, or New 2DS XL. Please ensure that the console you are modding is an Old 3DS, Old 3DS XL, or Old 2DS before continuing.
+Este exploit NO funcionará en consolas New 3DS, New 3DS XL o New 2DS XL. Por favor, asegúrate de que la consola que estés modificando sea una Old 3DS, Old 3DS XL u Old 2DS antes de continuar.
 
 :::
 
@@ -22,51 +22,51 @@ This exploit will not work on the New 3DS, New 3DS XL, or New 2DS XL. Please ens
 
 ## Instrucciones
 
-### Section I - Hardware Button Check
+### Sección I - Probar los botones laterales
 
-In this section, you will see whether your shoulder buttons are working on your console. This will determine whether your console is compatible with this method.
+En esta sección, verás si tus botones laterales funcionan en tu consola. Esto determinará si tu consola es compatible con este método.
 
 1. Enciende tu consola
-2. Once you see the HOME Menu, press the (Left Shoulder) and (Right Shoulder) buttons at the same time
-    - The camera applet should appear
+2. Una vez veas el menú HOME, presiona los botones laterales (L) y (R) al mismo tiempo
+    - La cámara debería activarse
 3. Apaga la consola
 
 ::: warning
 
-If the camera did NOT appear, you cannot follow this method. If this is the case, use [Installing boot9strap (MSET9)](installing-boot9strap-\(mset9\)) instead.
+Si la cámara NO ha aparecido, no puedes utilizar este método. Si este es el caso, utiliza [Instalar boot9strap (MSET9)](installing-boot9strap-\(mset9\)).
 
 :::
 
-### Section II - Prep Work
+### Sección II - Preparativos
 
-In this section, you will copy the files needed to trigger the safecerthax exploit.
+En esta sección, copiarás los archivos necesarios para activar el exploit safecerthax.
 
 1. Inserta la tarjeta SD en tu computadora
-2. Copy everything from the Luma3DS `.zip` to the root of your SD card
+2. Copia todo lo que está dentro del `.zip` de Luma3DS a la raíz de tu tarjeta SD
     - La raíz de la tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
 3. Crea una carpeta llamada `boot9strap` en la raíz de la tarjeta SD
 4. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en la tarjeta SD
-5. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the root of your SD card
+5. Copia `SafeB9SInstaller.bin` del `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD
 6. Reinserta la tarjeta SD en la consola
 7. Enciende tu consola
 
-### Section III - safecerthax proxy
+### Sección III - Proxy de safecerthax
 
 ::: warning
 
-This section is MANDATORY! Failure to setup the proxy may cause you to update your console to a newer firmware by mistake.
+¡Hacer esta sección es OBLIGATORIO! No configurar el proxy podría causar que tu consola se actualice a un firmware más reciente por accidente.
 
 :::
 
-In this section, you will change your Internet connection settings to use a proxy network designed to exploit the System Update feature of your console.
+En esta sección, cambiarás la configuración de tu conexión a Internet para utilizar una red proxy diseñada para explotar la función Actualización del Sistema de tu consola.
 
 <!--@include: ./_include/addproxy.md -->
 
 1. Apaga la consola
 
-### Section IV - safecerthax
+### Sección IV - safecerthax
 
-In this section, you will enter Safe Mode (a feature available on all 3DS family consoles) where safecerthax will be triggered, which will launch you into the boot9strap (custom firmware) installer.
+En esta sección, entrarás en el Modo Seguro (una característica disponible en todas las consolas de la familia 3DS) y navegarás a un menú donde safecerthax será activado, lo cual iniciará el instalador de boot9strap (custom firmware).
 
 1. With your console still powered off, hold the following buttons: (Left Shoulder) + (Right Shoulder) + (D-Pad Up) + (A), and while holding these buttons together, power on your console
     - Keep holding the buttons until the console boots into Safe Mode (a "system update" menu)

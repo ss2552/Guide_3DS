@@ -2,7 +2,7 @@
 
 :::details Detalhes Técnicos (opcional)
 
-[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de um erro onde a ID1 (a pasta de 32 caractéres dentro da pasta Nintendo 3DS, dentro de ID0) pode ter _qualquer_ nome desde que seja composto por 32 caractéres. Fazer uma sequência de ações específicas resultará no console executando instruções que estão codificadas no nome da pasta da ID1, que pode ser utilizada para garantir controle total sobre o 3DS.
+[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de um erro onde a ID1 (a pasta de 32 caractéres dentro da pasta Nintendo 3DS, dentro de ID0) pode ter _qualquer_ nome desde que seja composto por 32 caractéres. Executar uma sequência específica de ações fará com que o console execute as instruções que estão codificadas no nome da pasta ID1, que pode ser usado para conceder controle total sobre o console.
 
 :::
 
@@ -22,26 +22,26 @@ Em telefones/tablets Android, a versão mínima do Android é 6.0 (Marshmallow).
 
 ## O que é necessário
 
+- A versão mais recente de [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (o arquivo MSET9 `.zip`)
 - Os aplicativos a seguir serão instalados pela Google Play Store:
     - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
     - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
     - Se você desejar, você pode fazer sideloading destes aplicativos em vez disso
-- The latest release of [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (the MSET9 `.zip` file)
 
 ## Instruções
 
 ### Seção I - Preparação
 
-Nesta seção, você irá preparar os dados no seu cartão SD necessários para que o exploit MSET9 possa ser ativado.
+Nesta seção, você vai preparar o exploit MSET9 através da criação **temporária** de um novo perfil do Menu HOME com quase nenhum dado de usuário, e, em seguida, configurar esse perfil com apenas os dados mínimos necessários para que o MSET9 acione. Seus dados de usuário existentes desaparecerão, mas voltarão quando você terminar esta página.
 
 1. Insira o cartão SD no seu telefone/tablet/computador
 
-2. Copy everything from the MSET9 `.zip` to the root of your SD card, overwriting any existing files:
+2. Copie tudo do `.zip` MSET9 para a raiz do seu cartão SD, substituindo quaisquer arquivos existentes:
 
     - Abra o ZArchiver
     - Se solicitado, [permita ao ZArchiver acessar os arquivos do seu cartão SD](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
-    - Select the MSET9 `.zip`, then select "Extract..." ([imagem](/images/screenshots/mset9/zarchiver-extract-1.png))
+    - Navegue para onde o `.zip` do MSET9 baixado está localizado ([provavelmente na pasta Downloads](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Selecione o `.zip` do MSET9, então selecione "Extract..." ([imagem](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Navegue para o seu cartão SD, então toque o ícone azul de 'seta para baixo' para extrair os arquivos para a raiz do seu cartão SD ([imagem](/images/screenshots/mset9/zarchiver-extract-2.png))
 
     ::: info
@@ -67,7 +67,7 @@ Nesta seção, você irá preparar os dados no seu cartão SD necessários para 
 
 10. Se você ver a mensagem `Hax ID1 Created`, toque em OK para continuar
     - Se você receber um erro, verifique o [guia de troubleshooting](troubleshooting-mset9), depois tente novamente
-    - Seu 3DS vai parecer não ter dados/nenhum aplicativo instalado pelo usuário no Menu HOME. Isso é esperado. Seus dados voltarão em uma etapa posterior
+    - Seu console parecerá que perdeu a maioria dos dados / não há nenhum aplicativo instalado pelo usuário no Menu HOME. **Isto é esperado.** Seus dados voltarão mais tarde
 
 11. Reinsira o cartão SD no seu console
 
@@ -75,9 +75,9 @@ Nesta seção, você irá preparar os dados no seu cartão SD necessários para 
 
 13. Abra o Mii Maker
 
-14. Espere seu console chegar a tela "Bem-vindo ao Mii Maker", então saia do Mii Maker
+14. Espere o seu console chegar a tela de [Bem-vindo do Mii Maker](/images/screenshots/mset9/mii-welcome.png), depois saia do Mii Maker e retorne ao Menu HOME
     - Você verá [esta tela](/images/screenshots/mset9/mii-extdata.png), o que indica que os dados necessários foram criados
-    - Se você apenas chegar à tela normal do Mii Maker, saia do Mii Maker e volte ao Menu HOME
+    - Se você apenas chegar à [tela normal](/images/screenshots/mset9/mii-existing.png) do Mii Maker, então os dados já existem. Saia do Mi Maker e volte para o Menu HOME
 
 15. Inicie as Configurações do Sistema e navegue para `Gerenciador de Dados` -> `Nintendo 3DS` -> `Software` -> Apagar ([imagem](/images/screenshots/database-reset.jpg))
     - Isso não irá apagar nenhum dos seus dados
@@ -132,7 +132,7 @@ Nesta seção, você instalará custom firmware no seu console.
 
 ### Seção IV - Removendo o MSET9
 
-Nesta seção, você irá remover o MSET9 para evitar erros futuros. (Isto não irá remover o custom firmware que você acabou de instalar.)
+Nesta seção, você removerá o MSET9 para evitar problemas adicionais e restaurar seus dados do usuário (jogos, temas, etc). (Isso não irá remover o custom firmware que você acabou de instalar.)
 
 ::: danger
 

@@ -1,6 +1,7 @@
 ---
 noneSelected: Perlu tahu model konsol.
 invalidVersion: Versi sistem ini sepertinya tidak absah.
+otherPrefix: (Lainnya)
 head:
   - - script
     - src: /assets/js/common.js

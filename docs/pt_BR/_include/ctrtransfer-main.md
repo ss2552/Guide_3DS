@@ -15,3 +15,9 @@
 13. Atualize seu console indo em Configurações do Sistema, depois em "Outras Configurações", depois indo até a direita e usando "Atualização do Sistema"
     - Atualizações feitas enquanto usa B9S + Luma (o que você tem) são seguras
     - Se você receber um erro, defina suas configurações de DNS para "Automático"
+
+::: info
+
+A partir deste ponto, você pode remover os arquivos `.bin` e `.bin.sha` da pasta `/gm9/in/` para recuperar o espaço no seu cartão SD.
+
+:::

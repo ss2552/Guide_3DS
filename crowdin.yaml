@@ -1,5 +1,6 @@
 project_id: 240581
 api_token_env: CROWDIN_TOKEN
+preserve_hierarchy: true
 
 files:
   - source: /docs/*.md

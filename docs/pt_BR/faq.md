@@ -66,9 +66,9 @@ Os banimentos não são mais possíveis porque os serviços da Nintendo Network 
 
 :::details Posso fazer isso sem um computador (por exemplo, com um telefone Android)?
 
-In most cases, yes! The MSET9 exploit (primarily used for the latest firmware on Old 3DS) requires running a Python script or using an Android application, while all other exploits only require placing files on the SD card.
+Na maioria dos casos, sim! O exploit MSET9 (usado principalmente para o firmware mais recente no Old 3DS) requer a execução de um script de Python ou a utilização de um aplicativo para Android, enquanto todos os outros exploits requerem apenas colocar arquivos no cartão SD.
 
-You may need a computer running Windows, macOS, or Linux to reformat your SD card if it is 64GB or larger.
+Você pode precisar de um computador executando Windows, macOS ou Linux para reformatar seu cartão SD se ele for de 64GB ou maior.
 
 :::
 
@@ -78,11 +78,11 @@ Você precisará de pelo menos 1.5GB de espaço livre no cartão SD para seguir 
 
 :::
 
-:::details Should I use a new SD card, or the one I already have?
+:::details Devo usar um cartão SD novo, ou o que já tenho?
 
-You should only use one SD card with a 3DS at any given time. If you use another SD card to mod your console, you will create another 'profile' for your modded software, which will be inaccessible on your original SD card. However, **your console will remain modded**, since the mod is installed to internal memory (not the SD card).
+Você deve usar apenas um cartão SD com um 3DS a qualquer momento. Se você usar outro cartão SD para aplicar mods em seu console, criará outro 'perfil' para o seu software com mods, que ficará inacessível no seu cartão SD original. No entanto, **seu console permanecerá com mods**, uma vez que o mod está instalado na memória interna (não no cartão SD).
 
-If you've purchased a new SD card for use with your console, you should format the new SD card ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))), then copy and paste everything from your old SD card to the new SD card. You can do this before or after you've modded the console.
+Se você comprou um cartão SD novo para usar com seu console, você deve formatar o cartão SD novo ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))), e em seguida, copie e cole tudo do seu cartão SD antigo para o cartão SD novo. Você pode fazer isso antes ou depois de aplicar mods no console.
 
 :::
 
@@ -112,7 +112,7 @@ Se você estiver usando o Luma3DS, o seu custom firmware loader (boot9strap) _nu
 
 :::details Como faço para mudar de cartão SD?
 
-Copie e cole o conteúdo do cartão SD em um novo cartão SD formatado como FAT32. Para cartões de 128GB, é recomendado um tamanho de alocação de 65536. Cartões SD maiores que 128GB não são recomendados devido a problemas conhecidos com gráficos de GBA e temas personalizados. Specific formatting instructions are available here: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)).
+Copie e cole o conteúdo do cartão SD em um novo cartão SD formatado como FAT32. Para cartões de 128GB, é recomendado um tamanho de alocação de 65536. Cartões SD maiores que 128GB não são recomendados devido a problemas conhecidos com gráficos de GBA e temas personalizados. Instruções específicas de formatação estão disponíveis aqui: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)).
 
 :::
 
@@ -124,7 +124,7 @@ Sim, as transferências de sistema podem ser executadas através da função ofi
 
 :::details Como altero o idioma do sistema de um 3DS japonês?
 
-A única maneira de alterar a linguagem do sistema de um 3DS japonês para um idioma diferente do japonês é realizar uma [mudança de região](region-changing). Observe que é bem provável que isso quebre a Nintendo eShop no seu console, o que significa que você não poderá atualizar seus jogos, quer eles estejam na região ou fora da região. You will also be unable to access Pokémon Bank (if you have it installed), as it relies on eShop access.
+A única maneira de alterar a linguagem do sistema de um 3DS japonês para um idioma diferente do japonês é realizar uma [mudança de região](region-changing). Observe que é bem provável que isso quebre a Nintendo eShop no seu console, o que significa que você não poderá atualizar seus jogos, quer eles estejam na região ou fora da região. Você também será incapaz de acessar o Pokémon Bank (se você o tiver instalado), já que ele depende do acesso da eShop.
 
 :::
 

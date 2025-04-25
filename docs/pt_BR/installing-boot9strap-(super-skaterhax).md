@@ -10,14 +10,6 @@ head:
 
 # Instalando boot9strap (superskaterhax)
 
-::: danger
-
-# This method is currently **not working** due to server-side SSL certificate changes. The timeline for a fix is unknown. In the meantime, follow [Installing boot9strap (MSET9)](installing-boot9strap-\(mset9\)) instead.
-
-[![distraction so that people don't look at the rest of the page](/images/distraction.gif)](installing-boot9strap-\(mset9\))
-
-:::
-
 :::details Detalhes técnicos (opcional)
 
 Para detalhes técnicos sobre os exploits que você usará nesta página, consulte [aqui](https://github.com/zoogie/super-skaterhax).
@@ -28,9 +20,9 @@ Para detalhes técnicos sobre os exploits que você usará nesta página, consul
 
 Super-skaterhax (quando usado para iniciar o Homebrew Launcher) é compatível com modelos New na versão 11.15.0 e acima em todas as regiões.
 
-::: warning
+::: info
 
-As instruções fornecidas só se aplicam ao New 3DS, New 3DS XL e ao New 2DS XL. Por favor, certifique-se de que o console que você está modificando é um New 3DS, New 3DS XL, ou New 2DS XL antes de continuar.
+Sabe-se que este exploit é inconsistente: funciona para alguns, mas não para outros. Se você preferir usar um exploit mais consistente (que pode demorar mais tempo, mas terá o mesmo resultado final), siga [MSET9](installing-boot9strap-\(mset9\)) em vez disso.
 
 :::
 
@@ -73,7 +65,11 @@ Nesta seção, você irá copiar os arquivos necessários para acionar tanto sup
     - JPN: 日本, 設定しない
     - KOR: 대한민국, 설정하지 않음
 
-10. Saia das Configurações do Sistema
+10. Navegue até "Data e Hora"
+
+11. Defina "Data de Hoje" e "Hora Atual" para a data e hora atuais em seu fuso horário
+
+12. Saia das Configurações do Sistema
 
 #### Seção II - super-skaterhax
 
@@ -81,48 +77,48 @@ Nesta seção, você visitará a página web contendo o exploit, que iniciará o
 
 ::: info
 
-Se você ainda não tem, certifique-se de que você tem uma conexão de Internet ativa configurada em seu console.
+Um vídeo que detalha essas etapas está disponível [aqui](https://www.youtube.com/watch?v=DEcZB72vJts).
 
 :::
 
-1. No Menu HOME, pressione os gatilhos da Esquerda e da Direita ao mesmo tempo para abrir a câmera
-    - Se você não consegue abrir a câmera, abra o Navegador de Internet e digite a URL manualmente (`https://zoogie.github.io/web/super/` para EUR/USA/JPN, `https://zoogie.github.io/web/korea` para KOR)
-2. Toque no botão do código QR e digitalize um dos seguintes códigos QR para a região do seu console [aqui](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
-    - Se você receber um aviso de certificado de segurança, verifique se a data do sistema está correta
-3. Pressione (Select) para abrir a aba de favoritos
-    - Se o seu botão (Select) não responder, toque no ícone de estrela no canto inferior esquerdo da tela
-4. Toque em "Adicionar aos favoritos"
-5. Aperte (B) uma vez para retornar ao navegador
-6. Pressione (ZR) para abrir a lista de abas
-    - Se seu botão (ZR) não estiver respondendo, toque nos dois quadrados sobrepostos no canto inferior direito da tela
-7. Certifique-se de que a única aba aberta é o site do super-skaterhax
-    - Esta aba deve estar destacada em azul na lista de abas
-    - Se outras abas estiverem abertas, feche-as
-8. Aperte (B) uma vez para retornar ao navegador
-9. Aperte (Start) para abrir o menu de contexto
-    - Se o seu botão (Start) não responder, toque no menu de 3 linhas no canto inferior direito da tela
-10. Toque em "Configurações"
-11. Toque em "Excluir Cookies"
-12. Aperte (A) para continuar
-13. Aperte (Home) para retornar ao Menu HOME, depois aperte (A) imediatamente para iniciar o navegador novamente
-14. Selecione o botão "GO GO!" no topo da tela inferior
-15. Pressione (A) para fechar o [popup](/images/screenshots/skaterhax/skater-popup.png)
-    - Se o seu console congela em uma tela amarela, segure o botão POWER até que ele desligue e tente esta seção novamente
-    - Se o seu console congela numa tela vermelha, segure o botão POWER até que ele desligue, refaça o passo 3 da Seção II e tente esta seção novamente
-    - Se seu console [mostrar a palavra Text no canto superior esquerdo da tela inferior](/images/screenshots/skaterhax/skater-old3ds.png), você tem um Old 3DS e este exploit **não irá funcionar no seu dispositivo**. Se este for o caso, siga [Instalando boot9strap (MSET9)](installing-boot9strap-\(mset9\)) ao invés disso
-    - Se você receber outro erro, tente novamente até 5 vezes e, se ainda não funcionar, [siga este guia de troubleshooting](troubleshooting-super-skaterhax)
-16. Seu console terá inicializado o Homebrew Launcher
+1. Abra o Navegador de Internet
+2. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+3. Toque em `Configurações` -> vá para baixo -> `Redefinir Dados Salvos` -> `Limpar Tudo` -> `Limpar` -> `OK`
+    - O navegador será fechado
+4. Abra novamente o Navegador de Internet
+5. Toque em `Próximo` -> `Google` -> `OK` -> `OK`
+6. Toque na barra de endereços na parte superior da tela inferior
+7. Digite a URL correspondente à região do seu console:
+    - **EUA/EUR/JPN**: `https://skater.686178.xyz/go/super`
+    - **KOR**: `https://skater.686178.xyz/go/korea`
+8. Toque em "Abrir"
+    - Você deve ver o texto "GO GO!". Não clique nele ainda
+9. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+10. Toque em "Adicionar aos Favoritos"
+11. Toque no ícone de 3 linhas (☰) no canto inferior direito da tela
+12. Toque em `Configurações` -> `Excluir Cookies` -> `Sim`
+13. Aperte (Home) para retornar ao Menu HOME, depois imediatamente abra novamente o Navegador de Internet
+14. Aguarde a página carregar completamente e, em seguida, toque no botão "GO GO!" no topo da tela inferior
+15. Espere a página carregar completamente, depois aperte (A) para dispensar o [popup](/images/screenshots/skaterhax/skater-popup.png)
+16. Se o seu console exibir:
+    - **A tela do "The Homebrew Launcher"**: Continue para o próximo passo
+    - **Mensagem "Um erro ocorreu"**: O exploit falhou devido a chance aleatória. Abra a Configuração do Sistema, mude o idioma para um diferente (se possível), então tente novamente esta seção. Você pode ter que repetir esta sequência até dez vezes
+        - Em consoles da região JPN/KOR, há apenas uma configuração de idioma. Nesses console, você deve abrir a Configuração do Console, fechá-la, então tentar esta seçao novamente
+        - Se o exploit ainda não for bem-sucedido após cinco tentativas, poderá haver um problema com seus arquivos ou com a preparação. Certifique-se de que a região e a data/hora estejam corretas e de que você tem seguido esta seção **exatamente**. Se você usou o WinRAR para extrair arquivos para o cartão SD, re-extraia os arquivos usando o Explorador de Arquivos ou 7-zip ao invés disso
+        - Se o exploit ainda não for bem-sucedido após dez tentativas, siga [MSET9](installing-boot9strap-\(mset9\)) ao invés disso
+    - **Uma tela preta que diz "Ocorreu um erro"**: Seus arquivos estão no lugar incorreto. Certifique-se de que os arquivos super-skaterhax estejam na raiz do cartão SD
+    - **Uma tela amarela**: o Homebrew Launcher falhou ao abrir devido a chance aleatória. Segure o botão POWER até que o console desligue, e tente novamente esta seção
+    - **[A palavra "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Você tem um Old 3DS, no qual esse exploit **não funciona**. Se este for o caso, siga [MSET9](installing-boot9strap-\(mset9\)) ao invés disso
 17. Abra o nimdsphax da lista de homebrews
 18. Se o exploit for bem-sucedido, você terá entrado no SafeB9SInstaller
     - Se o seu console congelar em uma tela vermelha ou verde, segure o botão POWER até que ele desligue, então tente esta seção novamente
-    - Isso pode levar até cinco tentativas
 
-#### Seção III - Instalando o boot9strap
+#### Seção III - Instalando boot9strap
 
 Nesta seção, você instalará custom firmware no seu console.
 
 1. Quando solicitado, aperte a sequência de botões fornecida na tela superior para instalar o boot9strap
-    - Se um passo na tela inferior possuir texto em cor vermelha, e você não for solicitado a introduzir um combo de botões, siga o [guia de troubleshooting](troubleshooting-super-skaterhax)
+    - Se um passo na parte inferior da tela tiver texto vermelho e você não for solicitado a introduzir um combo de botões, [siga este guia de troubleshooting](troubleshooting-super-skaterhax)
 2. Quando concluído, aperte (A) para reiniciar o seu console
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -133,12 +129,12 @@ ___
 
 ::: info
 
-Agora você pode restaurar as suas configurações de região de volta ao normal.
+Agora você pode restaurar suas configurações de região de volta ao normal.
 
 :::
 
 ::: tip
 
-Continue em [Finalizando a instalação](finalizing-setup)
+Continue para [Finalizando a Instalação](finalizing-setup)
 
 :::
