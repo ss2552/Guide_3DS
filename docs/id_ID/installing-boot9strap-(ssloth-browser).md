@@ -58,7 +58,7 @@ Di bagian ini akan membuka laman web eksploit Browser dengan universal-otherapp 
 
 2. Sentuh tombol kode QR dan pindai [kode QR ini](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - Jika muncul kode galat `012-1511`, tekan (A) untuk izinkan sambungan
+    - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
     - Jika mogok atau muncul kode galat lain, [ikuti panduan sidik gangguan ini](troubleshooting-ssloth-browser)
 
     ::: danger

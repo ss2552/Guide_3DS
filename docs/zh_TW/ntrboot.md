@@ -1,5 +1,11 @@
 # ntrboot
 
+::: danger
+
+NDS Card has [suspended outgoing packages to the United States](https://nds-card.com/NewsShow.asp?NewsID=1344). All product links listed below may not ship to the United States. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+
+:::
+
 ::: tip
 
 如果您的燒錄卡已先裝有 ntrboot (或者您已自行安裝 ntrboot 至您的燒錄卡中)，您可以跳至 [安裝 boot9strap (透過 ntrboot)](installing-boot9strap-\(ntrboot\)) 以見其使用說明。

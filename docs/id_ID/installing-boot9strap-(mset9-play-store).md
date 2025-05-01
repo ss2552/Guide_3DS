@@ -2,7 +2,7 @@
 
 :::details Perincian Teknis (opsional)
 
-[MSET9](https://github.com/zoogie/MSET9) adalah eksploit untuk System Settings yang dikembangkan oleh [zoogie](https://github.com/zoogie). Eksploit ini menyasar kelemahan ID1 (32 huruf dari nama folder kedua, di folder Nintendo 3DS setelah ID0) yang bisa nama _apa saja_ asalkan 32 huruf. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the console.
+[MSET9](https://github.com/zoogie/MSET9) adalah eksploit untuk System Settings yang dikembangkan oleh [zoogie](https://github.com/zoogie). Eksploit ini menyasar kelemahan ID1 (32 huruf dari nama folder kedua, di folder Nintendo 3DS setelah ID0) yang bisa nama _apa saja_ asalkan 32 huruf. Gunanya untuk menjalankan instruksi sesuai kode dalam nama folder ID1 yang membuat konsol melakukan tindakan tertentu, sehingga mendapat kendali penuh pada konsol.
 
 :::
 
@@ -32,7 +32,7 @@ Di ponsel/tablet Android, versi Android yang diperlukan minimal 6.0 (Marshmallow
 
 ### Bagian I - Persiapan
 
-In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Data pengguna yang ada akan hilang, tapi akan kembali setelah menyelesaikan laman ini.
+Di bagian ini akan menyiapkan eksploit MSET9 dengan membuat profil HOME Menu baru **sementara** yang agak kosong, lalu sedikit mengubah data profil itu untuk mengaktifkan MSET9. Data pengguna yang ada akan menghilang, tapi akan kembali seusai mengikuti laman ini.
 
 1. Sisipkan kartu SD ke ponsel/tablet/komputer
 
@@ -40,7 +40,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     - Buka ZArchiver
     - Jika diminta, [izinkan ZArchiver mengakses ke kartu SD](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Navigasi ke letak berkas `.zip` MSET9 ([mungkin di folder Downloads](/images/screenshots/mset9/zarchiver-zip-location.png))
     - Pencet kanan pada `.zip` MSET9, lalu pilih "Extract..." ([gambar](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Navigasi ke kartu SD, lalu sentuh ikon 'panah bawah' biru untuk mengekstrak berkas ke akar kartu SD ([gambar](/images/screenshots/mset9/zarchiver-extract-2.png))
 
@@ -66,8 +66,8 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 9. Sentuh foto sesuai model konsol, lalu di bawahnya pilih versi firmware konsol saat ini
 
 10. Jika ada sembulan `Hax ID1 Created`, sentuh OK untuk lanjut
-    - Jika muncul galat, lihat laman [sidik gangguan](troubleshooting-mset9), lalu coba lagi
-    - Your console will appear to lose most data / no user-installed apps on HOME Menu. **Memang seperti ini.** Data akan kembali di langkah berikutnya
+    - Jika galat, periksa ke [sidik gangguan](troubleshooting-mset9), lalu coba lagi
+    - Konsol akan seperti kehilangan aplikasi terpasang / data di HOME Menu. **Memang seperti ini.** Data akan kembali di langkah berikutnya
 
 11. Sisip kembali kartu SD ke konsol
 
@@ -89,7 +89,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 18. Aplikasi MSET9 Installer akan otomatis memeriksa apakah langkah sebelumnya sudah benar
     - Aplikasi perlu beberapa detik untuk mendeteksi kartu SD dan bereaksi
     - Jika tidak otomatis memeriksa, sentuh `Check MSET9 status` untuk memeriksa
-    - Jika muncul galat, lihat laman [sidik gangguan](troubleshooting-mset9), lalu coba lagi
+    - Jika galat, periksa ke [sidik gangguan](troubleshooting-mset9), lalu coba lagi
 
 19. Jika periksa berhasil, tombol `Inject trigger file` akan [tersorot](/images/screenshots/mset9/inject-trigger-highlighted.png) yang berarti boleh ke langkah berikutnya. **Tapi jangan _inject trigger file_ dulu.** Taruh dulu ponsel/tablet/komputer
 

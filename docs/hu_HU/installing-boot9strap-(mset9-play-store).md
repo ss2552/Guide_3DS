@@ -2,7 +2,7 @@
 
 :::details Technikai részletek (opcionális)
 
-Az [MSET9](https://github.com/zoogie/MSET9) egy exploit a System Setting alkalmazáshoz, amit [zoogie](https://github.com/zoogie) készített. Kihasznál egy hibát, ahol az ID1 (a második 32 karakteres mappanév a Nintendo 3DS mappán belül, az ID0-n belül) lehet _minden_ név, amíg 32 karakteres. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the console.
+Az [MSET9](https://github.com/zoogie/MSET9) egy exploit a System Setting alkalmazáshoz, amit [zoogie](https://github.com/zoogie) készített. Kihasznál egy hibát, ahol az ID1 (a második 32 karakteres mappanév a Nintendo 3DS mappán belül, az ID0-n belül) lehet _minden_ név, amíg 32 karakteres. Egy adott műveletsor végrehajtása azt eredményezi, hogy a konzol végrehajtja az ID1 mappanévbe kódolt utasításokat, amelyek segítségével teljes körű irányítást szerez a konzol felett.
 
 :::
 
@@ -32,7 +32,7 @@ Android telefonokon/tableteken a szükséges minimum Android verzió: 6.0 (Marsh
 
 ### I. rész - Előkészületek
 
-In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Felhasználói adataid átmenetileg eltűnnek, de vissza fognak térni az oldal befejezésekor.
+Ebben a lépésben előkészülsz az MSET9 exploitra azzal, hogy **átmenetileg** létrehozol egy új HOME menüt szinte felhasználói adat nélkül, majd úgy beállítod a azt a profilt, hogy a minimum adatot tartalmazza ahhoz, hogy kiváltsa az MSET9-et. Felhasználói adataid átmenetileg eltűnnek, de vissza fognak térni az oldal befejezésekor.
 
 1. Helyezd az SD kártyád a telefonodba/tabletedbe/számítógépedbe
 
@@ -40,7 +40,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     - Nyisd meg a ZArchiver-t
     - Ha kérdezi, [engedd a ZArchiver-t, hogy hozzá férjen z SD kártya fájljaihoz](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Navigálj oda, ahova letöltötted az MSET9 `.zip`-et ([valószínűleg a Letöltések (Downloads) mappa](/images/screenshots/mset9/zarchiver-zip-location.png))
     - Válaszd a MSET9 `.zip`-et majd az "Extract..." opciót ([kép](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Navigálj az SD kártyádra, majd nyomd meg a kék "lefelé nyilat", hogy kicsomagold a fájlokat az SD kártyád gyökerébe ([kép](/images/screenshots/mset9/zarchiver-extract-2.png))
 
@@ -67,7 +67,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 10. Ha a `Hax ID1 Created` promptot látod, nyomj az OK-ra a folytatáshoz
     - Ha hibát kapsz, nézd meg a [hibaelhárítási útmutatót](troubleshooting-mset9), majd próbáld újra
-    - Your console will appear to lose most data / no user-installed apps on HOME Menu. **Ez elvárt működés** Az adataid visszatérnek egy későbbi lépésben
+    - A konzolod úgy fog tűnni, hogy elvesztette a legtöbb adatot / nincs felhasználó által telepített alkalmazást a HOME menüben. **Ez elvárt működés** Az adataid visszatérnek egy későbbi lépésben
 
 11. Tedd vissza az SD kártyád a konzoldba
 

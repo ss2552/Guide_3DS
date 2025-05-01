@@ -1,5 +1,11 @@
 # ntrboot
 
+::: danger
+
+NDS Card sekarang [tidak bisa mengirim paket ke Amerika Serikat](https://nds-card.com/NewsShow.asp?NewsID=1344). Semua tautan produk di bawah mungkin tidak bisa ke Amerika Serikat. Untuk bantuan (berbahasa Inggris), gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+
+:::
+
 ::: tip
 
 Jika _flashcart_ sudah ada ntrboot (atau sudah mem-_flash_ sendiri ntrboot ke _flashcart_), langsung saja ke [Memasang boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\)) untuk arahan penggunaannya.

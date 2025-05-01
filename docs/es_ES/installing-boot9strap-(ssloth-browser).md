@@ -58,7 +58,7 @@ In this section, you will visit the browser exploit webpage, which will use univ
 
 2. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - Cuando aparezca una ventana emergente con el código de error `012-1511`, presiona (A) para permitir la conexión
+    - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
     - Si se congela la consola o aparece otro código de error, [sigue esta guía de resolución de problemas](troubleshooting-ssloth-browser)
 
     ::: danger

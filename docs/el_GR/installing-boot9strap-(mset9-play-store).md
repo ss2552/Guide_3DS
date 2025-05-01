@@ -2,7 +2,7 @@
 
 :::details Τεχνικές λεπτομέρειες (προαιρετικό)
 
-Το [MSET9](https://github.com/zoogie/MSET9) είναι ένα exploit για την εφαρμογή «System Settings», το οποίο αναπτύσσεται από τον [zoogie](https://github.com/zoogie). Εκμεταλλεύεται ένα ελάττωμα όπου το ID1 (το όνομα του δεύτερου φακέλου, που αποτελείται από 32 χαρακτήρες, μέσα στον φάκελο «Nintendo 3DS», εντός του ID0) μπορεί να είναι _οποιοδήποτε_ όνομα εφόσον είναι 32 χαρακτήρες. Performing a specific sequence of actions results in the console executing the instructions that are encoded into the ID1 folder name, which can be used to grant full control over the console.
+Το [MSET9](https://github.com/zoogie/MSET9) είναι ένα exploit για την εφαρμογή «System Settings», το οποίο αναπτύσσεται από τον [zoogie](https://github.com/zoogie). Εκμεταλλεύεται ένα ελάττωμα όπου το ID1 (το όνομα του δεύτερου φακέλου, που αποτελείται από 32 χαρακτήρες, μέσα στον φάκελο «Nintendo 3DS», εντός του ID0) μπορεί να είναι _οποιοδήποτε_ όνομα εφόσον είναι 32 χαρακτήρες. Η εκτέλεση μιας συγκεκριμένης ακολουθίας ενεργειών έχει ως αποτέλεσμα την εκτέλεση των οδηγιών από την κονσόλα, οι οποίες κωδικοποιούνται στο όνομα του φακέλου ID1, πράγμα που μπορεί να χρησιμοποιηθεί για την παροχή πλήρους ελέγχου επί της κονσόλας.
 
 :::
 
@@ -32,7 +32,7 @@
 
 ### Ενότητα I - Προετοιμασία
 
-In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Τα υπάρχοντα δεδομένα χρήστη θα εξαφανιστούν, αλλά θα επανέλθουν όταν τελειώσετε με τις οδηγίες αυτής της σελίδας.
+Σε αυτήν την ενότητα, θα προετοιμάσετε το exploit «MSET9» δημιουργώντας **προσωρινά** ένα νέο προφίλ για το μενού «HOME» χωρίς σχεδόν κανένα δεδομένο χρήστη. Στη συνέχεια, θα διαμορφώσετε αυτό το προφίλ μόνο με τα ελάχιστα δεδομένα που απαιτούνται για την ενεργοποίηση του MSET9. Τα υπάρχοντα δεδομένα χρήστη θα εξαφανιστούν, αλλά θα επανέλθουν όταν τελειώσετε με τις οδηγίες αυτής της σελίδας.
 
 1. Εισαγάγετε την κάρτα SD στο τηλέφωνο, το tablet ή τον υπολογιστή σας
 
@@ -40,7 +40,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     - Ανοίξτε το ZArchiver
     - Εάν σας ζητηθεί, [επιτρέψτε στο ZArchiver να έχει πρόσβαση στα αρχεία της κάρτας SD σας](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
+    - Μεταβείτε στην τοποθεσία του ληφθέντος αρχείου `.zip` του MSET9 ([πιθανότατα στον φάκελο λήψεων](/images/screenshots/mset9/zarchiver-zip-location.png))
     - Επιλέξτε το αρχείο `.zip` του MSET9 και έπειτα, «Extract...» ([εικόνα](/images/screenshots/mset9/zarchiver-extract-1.png))
     - Μεταβείτε στην κάρτα SD σας και πατήστε το εικονίδιο «μπλε κάτω βέλος» για να αποσυμπιέσετε τα αρχεία στη ρίζα της κάρτας SD σας ([εικόνα](/images/screenshots/mset9/zarchiver-extract-2.png))
 
@@ -67,7 +67,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 10. Εάν δείτε το μήνυμα `Hax ID1 Created`, πατήστε «OK» για να συνεχίσετε
     - Εάν λάβετε κάποιο σφάλμα, δείτε τη σελίδα [Επίλυση προβλημάτων](troubleshooting-mset9) και δοκιμάστε ξανά
-    - Your console will appear to lose most data / no user-installed apps on HOME Menu. **Αυτό είναι αναμενόμενο.** Τα δεδομένα σας θα επιστρέψουν σε ένα μεταγενέστερο βήμα
+    - Θα παρατηρήσετε απώλεια των περισσότερων δεδομένων και εγκατεστημένων εφαρμογών από το μενού «HOME» της κονσόλας σας. **Αυτό είναι αναμενόμενο.** Τα δεδομένα σας θα επιστρέψουν σε ένα μεταγενέστερο βήμα
 
 11. Εισαγάγετε ξανά την κάρτα SD στην κονσόλα σας
 

@@ -58,7 +58,7 @@ Nesta seção, você vai visitar a página de exploit do navegador, que usará o
 
 2. Toque no botão do código QR e escaneie [este código QR](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - Quando você receber um prompt com o código de erro `012-1511`, aperte (A) para permitir a conexão
+    - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
     - Se você receber um crash ou um código de erro, [siga esse guia de troubleshooting](troubleshooting-ssloth-browser)
 
     ::: danger

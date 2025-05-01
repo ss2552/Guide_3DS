@@ -102,13 +102,13 @@ In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà
 15. Attendi che la pagina venga caricata completamente, quindi premi (A) per chiudere il [popup](/images/screenshots/skaterhax/skater-popup.png)
 16. Se la console visualizza:
     - **La schermata "The Homebrew Launcher"**: Continua al passo successivo
-    - **A white "Error has occurred" message box**: The exploit failed due to random chance. Open System Settings, change the language to a different one (if possible), then retry this section. You may have to repeat this sequence up to ten times
-        - On JPN/KOR region consoles, there is only one language setting. On those consoles, you should open System Settings, close it, then retry this section
-        - If the exploit is still unsuccessful after five attempts, there may be a problem with your files or prep work. Ensure that region and date/time are correct, and that you have been following this section **exactly**. If you used WinRAR to extract files to the SD card, re-extract the files using File Explorer or 7-zip instead
-        - If the exploit is still unsuccessful after ten attempts, follow [MSET9](installing-boot9strap-\(mset9\)) instead
-    - **A black screen that says "An error has occurred"**: Your file placement is incorrect. Ensure that the super-skaterhax files are on the root of the SD card
-    - **A yellow screen**: Homebrew Launcher failed to open due to random chance. Hold the POWER button until the console turns off, then retry this section
-    - **[The word "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: You have an Old 3DS, where this exploit **does not work**. In questo caso, dovresti usare invece [MSET9](installing-boot9strap-\(mset9\))
+    - **Una casella bianca con il messaggio "Error has occurred"**: L'exploit è fallito per un evento casuale. Apri Impostazioni della console, cambia la lingua in una diversa (se possibile), quindi riprova questa sezione. Potrebbe essere necessario ripetere questa sequenza di azioni fino a dieci volte
+        - Nelle console di regionalità JPN/KOR c'è una sola lingua selezionabile. Su tali console è necessario aprire Impostazioni della console, uscire da questa schermata, quindi riprovare questa sezione
+        - Se l'exploit non è ancora riuscito dopo cinque tentativi potrebbe esserci un problema con i file o con le attività di preparazione. Assicurati che la regione e la data/ora siano corretti e che tu abbia seguito **pedissequamente** questa sezione. Se hai usato WinRAR per estrarre i file nella scheda SD, estraili invece usando File Explorer o 7-zip
+        - Se l'exploit non è ancora riuscito dopo dieci tentativi, segui invece la guida di [MSET9](installing-boot9strap-\(mset9\))
+    - **Una schermata nera che dice "An error has occurred"**: il posizionamento del file non è corretto. Assicurati che i file di super-skaterhax siano nella directory principale della scheda SD
+    - **Una schermata gialla**: l'Homebrew Launcher non è riuscito ad avviarsi per un evento casuale. Tieni premuto il pulsante POWER fino a quando la console si spegne, quindi riprova questa sezione
+    - **[La parola "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Hai un Old 3DS, per cui questo exploit **non può funzionare**. In questo caso, dovresti usare invece [MSET9](installing-boot9strap-\(mset9\))
 17. Avvia nimdsphax dalla lista degli homebrew
 18. Se l'exploit è andato a buon fine, si avvierà SafeB9SInstaller
     - Se la tua console si blocca con una schermata rossa o verde, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione
@@ -118,7 +118,7 @@ In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà
 In questa sezione installerai il custom firmware sulla tua console.
 
 1. Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-super-skaterhax)
+    - Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, [segui questa guida per risolvere i problemi](troubleshooting-super-skaterhax)
 2. Una volta completato tutto, premi (A) per riavviare la console
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -129,7 +129,7 @@ ___
 
 ::: info
 
-You may now restore your region settings back to normal.
+Ora puoi ripristinare le impostazioni della tua regione alla normalità.
 
 :::
 

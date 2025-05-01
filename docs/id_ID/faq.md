@@ -106,7 +106,7 @@ Dari sejarahnya, dulu 3DS punya akses _homebrew_ jenis _userland_ melalui eksplo
 
 :::details Apakah aman memperbarui 3DS dengan CFW ke versi terkini?
 
-Jika menggunakan Luma3DS, pemuat _custom firmware_ (boot9strap) **tidak akan** dihapus saat memperbarui sistem. Dulu sempat ada pembaruan yang membuat Luma3DS mogok (_crash_) di awal nyala, jadi lebih baik tunggu beberapa jam untuk memastikan pembaruan terkini tidak sementara membuat konsol tidak bisa digunakan sampai Luma3DS diperbarui. Pembaruan sistem bisa dilakukan sama seperti di 3DS belum dimodif: melalui System Settings, Safe Mode, atau sembulan pembaruan jika pembaruan diunduh otomatis.
+Jika menggunakan Luma3DS, pemuat _custom firmware_ (boot9strap) **tidak akan** dihapus saat memperbarui sistem. Dulu sempat ada pembaruan yang membuat Luma3DS mogok (_crash_) di awal nyala, jadi lebih baik tunggu beberapa jam sampai ada pembaruan Luma3DS untuk mencegah pembaruan resmi terkini membuat konsol tidak bisa digunakan sementara. Pembaruan sistem bisa dilakukan sama seperti di 3DS belum dimodif: melalui System Settings, Safe Mode, atau sembulan pembaruan jika pembaruan diunduh otomatis.
 
 :::
 

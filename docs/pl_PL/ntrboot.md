@@ -1,5 +1,11 @@
 # ntrboot
 
+::: danger
+
+NDS Card has [suspended outgoing packages to the United States](https://nds-card.com/NewsShow.asp?NewsID=1344). All product links listed below may not ship to the United States. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+
+:::
+
 ::: tip
 
 Jeżeli Twój flashcart posiada już fabrycznie zainstalowany ntrboot (lub jeśli już go wgrałeś poprzednio), możesz przeskoczyć do [Instalacja boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\)).

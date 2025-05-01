@@ -22,7 +22,7 @@ Super-skaterhax (como método para iniciar Homebrew Launcher) es compatible con 
 
 ::: info
 
-This exploit is known to be inconsistent: it works for some people, but not others. If you prefer to use a more consistent exploit (which may take longer, but will have the same end result), follow [MSET9](installing-boot9strap-\(mset9\)) instead.
+Este exploit tiene resultados inconsistentes; para algunos funciona, para otros no. Si prefieres usar un exploit más consistente (cuál podría tardar más, aunque tendrá el mismo resultado final), entonces sigue [MSET9](installing-boot9strap-\(mset9\)).
 
 :::
 
@@ -102,7 +102,7 @@ En esta sección, visitarás la página web del exploit para el navegador, la cu
 15. Espera a que la página cargue por completo y después presiona (A) para cerrar la [ventana emergente](/images/screenshots/skaterhax/skater-popup.png)
 16. Si la consola muestra:
     - **La pantalla de "The Homebrew Launcher"**: Sigue con el siguiente paso
-    - **Un cuadro en blanco que dice "Error has occurred"**: el exploit falló. Abre la configuración de la consola, cambia el idioma a uno distinto (si es posible) y vuelve a intentarlo. You may have to repeat this sequence up to ten times
+    - **Un cuadro en blanco que dice "Error has occurred"**: el exploit falló. Abre la configuración de la consola, cambia el idioma a uno distinto (si es posible) y vuelve a intentarlo. Puede que tengas que repetir esta secuencia hasta diez veces
         - En las consolas con región JPN/KOR, solo hay un idioma disponible. En esas consolas, deberás abrir la configuración de la consola, cerrarlo y volver a intentarlo
         - If the exploit is still unsuccessful after five attempts, there may be a problem with your files or prep work. Ensure that region and date/time are correct, and that you have been following this section **exactly**. If you used WinRAR to extract files to the SD card, re-extract the files using File Explorer or 7-zip instead
         - If the exploit is still unsuccessful after ten attempts, follow [MSET9](installing-boot9strap-\(mset9\)) instead

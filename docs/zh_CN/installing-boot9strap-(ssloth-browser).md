@@ -58,7 +58,7 @@ SSLoth 允许目前系统版本在 11.13.0 及其以下的主机绕过浏览器�
 
 2. 扫描[这个二维码（点击这里查看）](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - When you get a prompt with error code `012-1511`, press (A) to allow the connection
+    - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
     - If you get a crash or a different error code, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
 
     ::: danger
