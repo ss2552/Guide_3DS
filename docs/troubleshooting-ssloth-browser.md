@@ -16,6 +16,17 @@ This likely indicates that you already have custom firmware. You should [check f
 
 :::
 
+::: details Green screen after running Browserhax
+
+Browser based exploits (such as this one) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+
+
+1. Launch the browser, then launch the browser settings
+1. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")
+1. Try the exploit again
+
+:::
+
 ::: details "An error has occurred. Hold down the POWER button to turn off the power..." (black screen with text)
 
 The file `arm11code.bin` is missing or misplaced. Download the latest release of [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), place `otherapp.bin` on the root of your SD card and rename it to `arm11code.bin`. Do not add the `.bin` extension if you do not already see it.
