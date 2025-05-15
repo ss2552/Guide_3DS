@@ -1,7 +1,7 @@
 ___
 
-:::details Something else
+:::details Otra cosa
 
-Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, and describe the issue that you see.
+Únete al [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) (en inglés) para obtener ayuda; y describe el problema que tengas.
 
 :::

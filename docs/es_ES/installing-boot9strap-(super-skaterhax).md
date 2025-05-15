@@ -104,8 +104,8 @@ En esta sección, visitarás la página web del exploit para el navegador, la cu
     - **La pantalla de "The Homebrew Launcher"**: Sigue con el siguiente paso
     - **Un cuadro en blanco que dice "Error has occurred"**: el exploit falló. Abre la configuración de la consola, cambia el idioma a uno distinto (si es posible) y vuelve a intentarlo. Puede que tengas que repetir esta secuencia hasta diez veces
         - En las consolas con región JPN/KOR, solo hay un idioma disponible. En esas consolas, deberás abrir la configuración de la consola, cerrarlo y volver a intentarlo
-        - If the exploit is still unsuccessful after five attempts, there may be a problem with your files or prep work. Ensure that region and date/time are correct, and that you have been following this section **exactly**. If you used WinRAR to extract files to the SD card, re-extract the files using File Explorer or 7-zip instead
-        - If the exploit is still unsuccessful after ten attempts, follow [MSET9](installing-boot9strap-\(mset9\)) instead
+        - Si el exploit sigue fallando después de cinco intentos, podría haber un problema con los archivos o preparativos. Asegúrate de que la región y la fecha sean correctas, y de que has estado siguiendo esta sección **exactamente paso por paso**. Si usaste WinRAR para extraer los archivos a la tarjeta SD, vuelve a extraer los archivos usando el Explorador de archivos o 7-zip en su lugar
+        - Si el exploit sigue fallando después de diez intentos, sigue [MSET9](installing-boot9strap-\(mset9\)) en cambio
     - **Una pantalla negra que dice "An error has occurred"**: Los archivos no están colocados correctamente. Asegúrate de que los archivos de super-skaterhax se encuentran en la raíz de la tarjeta SD
     - **Una pantalla amarilla**: el Homebrew Launcher no pudo abrirse. Mantén el botón POWER hasta que la consola se apague e inténtalo de nuevo
     - **[La palabra "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Posees una Old 3DS, en la que el exploit **no es compatible**. Si este es el caso, entones debes de usar el exploit [MSET9](installing-boot9strap-\(mset9\))

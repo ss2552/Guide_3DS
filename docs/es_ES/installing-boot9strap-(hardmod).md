@@ -2,9 +2,9 @@
 
 :::details Detalles técnicos (opcional)
 
-An excellent guide to getting a hardmod can be found [here](https://gbatemp.net/threads/414498/).
+Puedes encontrar una excelente guía (en inglés) para realizar la modificación [aquí](https://gbatemp.net/threads/414498/).
 
-This is a currently working implementation of the "FIRM partitions known-plaintext" exploit detailed [here](https://www.3dbrew.org/wiki/3DS_System_Flaws).
+Esta es una implementación funcional del exploit "FIRM partitions known-plaintext" descrito [aquí](https://www.3dbrew.org/wiki/3DS_System_Flaws).
 
 Using a hardmod, we can dump the NAND image, install custom firmware to the NAND image, then re-install the hacked NAND image to the console.
 

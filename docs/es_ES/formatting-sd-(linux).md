@@ -1,37 +1,37 @@
-# Formatting SD (Linux)
+# Formatear una tarjeta SD (Linux)
 
 ## Lectura requerida
 
-This is an add-on section for formatting an SD card to work with the 3DS.
+Esta es una sección adicional para formatear tu tarjeta SD de manera que funcione con la 3DS.
 
-If the 3DS already recognizes the SD card, this guide is not required.
+Si la 3DS ya reconoce la tarjeta SD, entonces no es necesario seguir esta guía.
 
-Esta página es sólo para usuarios de Linux. If you are not on Linux, check out the [Formatting SD (Windows)](formatting-sd-\(windows\)) or [Formatting SD (Mac)](formatting-sd-\(mac\)) pages.
+Esta página es sólo para usuarios de Linux. Si no eres usuario de Linux, revisa estas páginas: [Formatear una tarjeta SD (Windows)](formatting-sd-\(Windows\)), o [Formatear una tarjeta SD (Mac)](formatting-sd-\(mac\)).
 
 ## Instrucciones
 
-1. Make sure your SD card is **not** inserted
-2. Launch the Linux Terminal
-3. Type `watch "lsblk"`
+1. Asegúrate de que la tarjeta SD **no** esté insertada
+2. Inicia la terminal de Linux
+3. Escribe `watch "lsblk"`
 4. Inserta la tarjeta SD en tu computadora
-5. Observe the output. It should match something like this:
+5. Observa el resultado. Debería coincidir en gran parte con esto:
     ```
     NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
     mmcblk0     179:0    0   3,8G  0 disk
     └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
     ```
-6. Take note of the device name. In our example above, it was `mmcblk0p1`
-    - If `RO` is set to 1, make sure the lock switch is not slid down
-7. Hit CTRL + C to exit the menu
-8. Type in the following for your SD card:
-    - 2GB or lower: `sudo mkfs.fat /dev/(device name from above) -s 64 -F 16`
-        - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-    - 4GB - 128GB: `sudo mkfs.fat /dev/(device name from above) -s 64 -F 32`
-        - This creates a single FAT32 partition with 32 KB cluster size on the SD card
-    - 128GB or higher: `sudo mkfs.fat /dev/(device name from above) -s 128 -F 32`
-        - This creates a single FAT32 partition with 64 KB cluster size on the SD card
+6. Toma nota del nombre del dispositivo. En nuestro ejemplo anterior, era `mmcblk0p1`
+    - Si `RO` está establecido en 1, asegúrate que el interruptor de bloqueo de escritura de la tarjeta SD no está deslizado hacia abajo
+7. Presiona CTRL + C para salir del menú
+8. Escribe lo siguiente según tu tarjeta SD:
+    - 2GB o menos: `sudo mkfs.fat /dev/(nombre del dispositivo) -s 64 -F 16`
+        - Esto crea una sola partición FAT16 con un tamaño de clúster de 32 KB en la tarjeta SD
+    - Entre 4GB y 128GB inclusive: `sudo mkfs.fat /dev(nombre del dispositivo) -s 64 -F 32`
+        - Esto crea una sola partición FAT32 con un tamaño de clúster de 32 KB en la tarjeta SD
+    - 128GB o más: `sudo mkfs.fat /dev/(nombre del dispositivo) -s 128 -F 32`
+        - Esto crea una sola particion FAT32 con un tamaño de clúster de 64 KB en la tarjeta SD
 
 ## Resolución de Problemas
 
 - La tarjeta SD sigue sin ser detectada por la consola o muestra la capacidad incorrecta tras formatear
-    - Your SD card may be partitioned or have unallocated space. Follow the instructions [here](https://wiki.hacks.guide/wiki/SD_Clean/Linux) to reformat your SD card.
+    - Tal vez la tarjeta SD esté fragmentada en particiones, o tenga espacio sin asignar. Sigue [estas instrucciones](https://wiki.hacks.guide/wiki/SD_Clean/Linux) para formatear de nuevo la tarjeta SD.

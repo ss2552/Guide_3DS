@@ -2,91 +2,91 @@
 
 ## Lectura requerida
 
-This is an add-on section for formatting an SD card to work with the 3DS.
+Esta es una sección adicional para formatear tu tarjeta SD de manera que funcione con la 3DS.
 
-If the 3DS already recognizes the SD card, this guide is not required.
+Si la 3DS ya reconoce la tarjeta SD, entonces no es necesario seguir esta guía.
 
-Esta página es sólo para usuarios de Mac. If you are not on Mac, check out the [Formatting SD (Windows)](formatting-sd-\(windows\)) or [Formatting SD (Linux)](formatting-sd-\(linux\)) pages.
+Esta página es sólo para usuarios de Mac. Si no eres un usuario de Mac, revisa las páginas [Formatear una tarjeta SD (Windows)](formatting-sd-\(windows\)), o [Formatear una tarjeta SD (Linux)](formatting-sd-\(linux\)).
 
 ## Instrucciones
 
-### OS X El Capitan (10.11) and later
+### OS X El Capitan (10.11) y posteriores
 
 1. Inserta la tarjeta SD en tu computadora
 
 2. Si la tarjeta SD tiene archivos o carpetas en ella, copia todo a una carpeta de respaldo en tu computadora
 
-3. Run the Disk Utility app
+3. Ejecuta la aplicación Utilidad de Discos
 
-4. In the top-left "View" menu, choose "Show All Devices"
+4. En el menú "Ver" de la parte superior izquierda, selecciona "Mostrar todos los dispositivos"
 
-5. Select your SD card in the left panel
+5. Selecciona tu tarjeta SD en el panel izquierdo
 
     ::: danger
 
-    Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+    ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
 
     :::
 
-6. Click "Erase" at the top
+6. Haz clic en "Borrar" en la parte superior
 
-7. Enter anything for "Name"
+7. Introduce cualquier cosa como "Nombre"
 
-8. Ensure that "Format" is set to "MS-DOS (FAT)"
+8. Asegúrate de que el "Formato" esté puesto como "MS-DOS (FAT)"
 
-9. Ensure that "Scheme" is set to "Master Boot Record"
-    - If "Scheme" does not appear, click "Cancel" and make sure to choose the device instead of a volume
+9. Asegúrate de que el "Esquema" esté establecido como "Master Boot Record"
+    - Si el "Esquema" no aparece, haz clic en "Cancelar" y asegúrate de elegir el dispositivo en lugar de un volumen
 
-10. Click "Erase"
+10. Haz clic en "Borrar"
 
 11. Espera a que termine el formateo
 
 12. Haz clic en "Cerrar"
 
-13. If the SD card had any files and folders on it before the format, copy everything back from your computer
+13. Si la tarjeta SD tenía archivos o carpetas en ella antes del formateo, copia todo de vuelta desde la computadora
 
-### OS X Yosemite (10.10) and earlier
+### OS X Yosemite (10.10) y anteriores
 
 1. Inserta la tarjeta SD en tu computadora
 
 2. Si la tarjeta SD tiene archivos o carpetas en ella, copia todo a una carpeta de respaldo en tu computadora
 
-3. Run the Disk Utility app
+3. Ejecuta la aplicación Utilidad de Discos
 
-4. Select your SD card in the left panel
+4. Selecciona tu tarjeta SD en el panel izquierdo
 
     ::: danger
 
-    Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+    ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
 
     :::
 
-5. Click "Partition" at the top
-    - If "Partition" does not appear, make sure to choose the device instead of a volume
+5. Haz clic en "Partición" en la parte superior
+    - Si no aparece "Partición", asegúrate de que elegiste el dispositivo en vez de un volumen
 
-6. Ensure that "Partition Layout" is set to "1 Partition"
+6. Asegúrate de que el "Diseño de partición" esté establecido en "1 Partición"
 
-7. Enter anything for "Name"
+7. Introduce cualquier cosa como "Nombre"
 
-8. Ensure that "Format" is set to "MS-DOS (FAT)"
+8. Asegúrate de que el "Formato" esté puesto como "MS-DOS (FAT)"
 
-9. Click "Options" below the partition table
+9. Haz clic en "Opciones" debajo de la tabla de particiones
 
-10. Choose "Master Boot Record"
+10. Elige "Master Boot Record"
 
 11. Haz clic en "OK"
 
-12. Click "Apply"
+12. Haz clic en "Aplicar"
 
-13. Click "Partition"
+13. Haz clic en "Partición"
 
 14. Espera a que termine el formateo
 
-15. Close Disk Utility
+15. Cierra Utilidad de Discos
 
-16. If the SD card had any files and folders on it before the format, copy everything back from your computer
+16. Si la tarjeta SD tenía archivos o carpetas en ella antes del formateo, copia todo de vuelta desde la computadora
 
 ## Resolución de Problemas
 
 - La tarjeta SD sigue sin ser detectada por la consola o muestra la capacidad incorrecta tras formatear
-    - Your SD card may be partitioned or have unallocated space. Follow the instructions [here](https://wiki.hacks.guide/wiki/SD_Clean/Mac) to reformat your SD card.
+    - Tal vez la tarjeta SD esté fragmentada en particiones, o tenga espacio sin asignar. Sigue [estas instrucciones](https://wiki.hacks.guide/wiki/SD_Clean/Mac) para formatear de nuevo tu tarjeta SD.
