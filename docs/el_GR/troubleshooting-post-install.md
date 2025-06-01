@@ -133,7 +133,7 @@
 
 :::details Τα παιχνίδια λειτουργίας εκτεταμένης μνήμης (Pokemon Sun/Moon, Smash κ.λπ.) δεν λειτουργούν
 
-Αυτό μπορεί να συμβεί μετά από μια αλλαγή του CTRTransfer ή της περιοχής στα Old 3DS/2DS. Ακολουθήστε τις οδηγίες [εδώ](region-changing#section-vi---fixing-locale-related-issues) για να διορθώσετε αυτό το ζήτημα (παραλείποντας τα βήματα 3, 4, 5 και 6).
+Αυτό μπορεί να συμβεί μετά από μια αλλαγή του CTRTransfer ή της περιοχής στα Old 3DS/2DS. Ακολουθήστε τις οδηγίες [εδώ](region-changing#section-vi-fixing-locale-related-issues) για να διορθώσετε αυτό το ζήτημα.
 
 :::
 

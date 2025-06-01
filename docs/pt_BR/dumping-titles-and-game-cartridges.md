@@ -44,8 +44,8 @@ Insira o cartucho do jogo que você pretende fazer dump no seu console
 1. Aperte e segure (Start), e enquanto segura (Start), ligue seu console. Isso vai inicializar o GodMode9
 2. Navegue para `[C:] GAMECART`
 3. Siga os passos aplicáveis ao seu jogo de cartucho:
-    - **Cartucho de Jogo de 3DS:** Aperte (A) em `[TitleID].trim.3ds` para selecioná-lo
-    - **Cartucho de jogo de NDS:** Aperte (A) em `[TitleID].nds` para selecioná-lo
+    - **Cartucho de Jogo de 3DS:** Aperte (A) em `<TitleID>.trim.3ds` para selecioná-lo
+    - **Cartucho de Jogo de NDS:** Aperte (A) em `<TitleID>.nds` para selecioná-lo
         - Trimmed dumps não são recomendados para jogos de NDS em geral, pois podem causar vários erros de reprodução
 4. Selecione "Copy to 0:/gm9/out''
 5. Seu arquivo formatado `.3ds` não-instalável ou `.nds` será gravado na pasta `/gm9/out/` no seu cartão SD
@@ -74,7 +74,7 @@ Isso só deve ser usado se [Instalar um Jogo de Cartucho diretamente no Sistema]
 
 1. Aperte e segure (Start), e enquanto segura (Start), ligue seu console. Isso vai inicializar o GodMode9
 2. Navegue para `[C:] GAMECART`
-3. Aperte (A) em `[TitleID].trim.3ds` para selecioná-lo, depois selecione "NCSD image options...", depois selecione "Build CIA from file"
+3. Aperte (A) em `<TitleID>.trim.3ds` para selecioná-lo, depois selecione "NCSD image options...", depois selecione "Build CIA from file"
 4. Seu `.cia` instalável formatado será gravado na pasta `/gm9/out/` no seu cartão SD
 
 ## Descarregando um Aplicativo Instalado

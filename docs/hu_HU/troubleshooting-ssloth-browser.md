@@ -16,6 +16,16 @@ Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvége
 
 :::
 
+:::details Zöld képernyő a Browserhax futtatása után
+
+A böngésző alapú exploitok (mint például ez) gyakran instabilak és sokszor lefagynak, de néha megjavíthatók az alábbi lépések végrehajtásával.
+
+1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
+2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
+3. Próbáld meg újra végrehajtani az exploitot
+
+:::
+
 :::details "An error has occurred. Hold down the POWER button to turn off the power..." (fekete képernyő szöveggel)
 
 A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Töltsd le a legutolsó kiadását az [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest)-nak és rakd az `otherapp.bin` fájlt az SD kártyád gyökerébe, majd nevezd át `arm11code.bin`-re. Ne add hozzá a `.bin` kiterjesztést, ha nem látod.

@@ -16,6 +16,16 @@ Ini mungkin menandakan sudah ada _custom firmware_. Coba [periksa CFW](checking-
 
 :::
 
+:::details Green screen after running Browserhax
+
+Eksploit berjenis-Browser (seperti yang ini) suka tidak stabil dan mogok, tapi terkadang bisa diperbaiki dengan langkah-langkah berikut.
+
+1. Buka Browser, lalu buka pengaturan Browser
+2. Gulir ke bawah dan pilih "Reset Save Data" (bisa jadi disebut "Initialize Save Data" atau "Clear All Save Data")
+3. Coba ulang eksploit
+
+:::
+
 :::details "An error has occurred. Hold down the POWER button to turn off the power..." (layar hitam dengan teks)
 
 Berkas `arm11code.bin` belum ada atau salah taruh. Unduh versi terkini dari [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), lalu taruh `otherapp.bin` di akar kartu SD dan ubah nama menjadi `arm11code.bin`. Jangan tambah ekstensi `.bin` jika tidak terlihat di ujung.

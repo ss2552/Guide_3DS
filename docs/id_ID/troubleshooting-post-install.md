@@ -133,7 +133,7 @@ Konsol ada di Luma3DS 6.6 ke bawah, mungkin dengan arm9loaderhax. Ikuti laman [D
 
 :::details Permainan mode memori perluasan (Pokemon Sun/Moon, Smash, dll.) tidak berfungsi
 
-Ini bisa terjadi setelah CTRTransfer atau mengubah daerah Old 3DS / 2DS. Ikuti [instruksi ini](region-changing#section-vi---fixing-locale-related-issues) untuk memperbaiki isu ini (lewati saja langkah 3, 4, 5, dan 6).
+Ini bisa terjadi setelah CTRTransfer atau mengubah daerah Old 3DS / 2DS. Follow the instructions [here](region-changing#section-vi-fixing-locale-related-issues) to fix this issue.
 
 :::
 

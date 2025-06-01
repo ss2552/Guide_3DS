@@ -44,8 +44,8 @@ Inserisci nella console la scheda di gioco del quale vuoi creare un backup
 1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
 2. Entra in `[C:] GAMECART`
 3. Segui i passaggi corretti per la tua scheda di gioco:
-    - **Scheda di gioco 3DS:** Premi (A) su `[ID titolo].trim.3ds` per selezionarlo
-    - **Scheda di gioco NDS:** Premi (A) su `[ID titolo].nds` per selezionarlo
+    - **Scheda di gioco 3DS:** Premi (A) su `<ID titolo>.trim.3ds` per selezionarlo
+    - **Scheda di gioco NDS:** Premi (A) su `<ID titolo>.` per selezionarlo
         - I backup trimmati non sono consigliati per i giochi NDS in generale, in quanto possono causare problemi durante l'esecuzione
 4. Seleziona "Copy to 0:/gm9/out"
 5. Il file non-installabile `.3ds` o `.nds` verrà salvato nella cartella `/gm9/out/` della tua scheda SD
@@ -74,7 +74,7 @@ Dovrebbe essere eseguito solo se [Installare una cartuccia di gioco direttamente
 
 1. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
 2. Entra in `[C:] GAMECART`
-3. Premi (A) su `[ID titolo].trim.3ds` per selezionarlo, quindi seleziona "NCSD image options...", ed infine seleziona "Build CIA from file"
+3. Premi (A) su `<ID titolo>.trim.3ds` per selezionarlo, quindi seleziona "NCSD image options...", ed infine seleziona "Build CIA from file"
 4. Il file installabile `.cia` verrà salvato nella cartella `/gm9/out/` della tua scheda SD
 
 ## Backup di un titolo installato

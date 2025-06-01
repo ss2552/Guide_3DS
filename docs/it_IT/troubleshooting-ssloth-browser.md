@@ -16,6 +16,16 @@ Probabilmente significa che hai già un custom firmware. Dovresti [verificare la
 
 :::
 
+:::details Schermata verde dopo aver eseguito Browserhax
+
+Gli exploit basati sul browser (come questo) sono instabili e crashano spesso, ma seguendo i seguenti passaggi, i problemi potrebbero venire risolti.
+
+1. Avvia il browser internet, quindi apri le sue impostazioni
+2. Scorri verso il basso e seleziona "Reimposta tutti i dati salvati" (può avere nomi simili come "Inizializza i dati di salvataggio" o "Elimina tutti i dati salvati")
+3. Riprova ad eseguire l'exploit
+
+:::
+
 :::details "Si è verificato un errore. Tieni premuto il pulsante POWER per spegnere la console..." (schermata nera con testo)
 
 Il file `arm11code.bin` è mancante o mal posizionato. Scarica l'ultima versione di [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), posiziona il file `otherapp.bin` nella directory principale della tua scheda SD`e rinominalo in`arm11code.bin`. Non aggiungere l'estensione `.bin\` se non la vedi presente.

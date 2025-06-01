@@ -133,7 +133,7 @@ La tua console sta eseguendo Luma3DS 6.6 o precedente, probabilmente tramite arm
 
 :::details I giochi in modalità memoria estesa (Pokemon Sole/Luna, Smash, ecc.) non funzionano
 
-Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3DS / 2DS. Segui le istruzioni indicate [qui](region-changing#section-vi---fixing-locale-related-issues) per risolvere il problema (saltando i passaggi 3, 4, 5 e 6).
+Questo può verificarsi dopo un CTRTransfer o dopo un cambio di regione su Old 3DS / 2DS. Segui le istruzioni indicate [qui](region-changing#section-vi-fixing-locale-related-issues) per risolvere il problema.
 
 :::
 

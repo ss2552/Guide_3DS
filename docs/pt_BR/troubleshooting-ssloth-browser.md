@@ -16,6 +16,16 @@ Isso provavelmente indica que você já possui custom firmware. Você deve [chec
 
 :::
 
+:::details Tela verde após executar o Browserhax
+
+Exploits do navegador (como este) geralmente são instáveis e causam crashes com frequência, mas em alguns casos podem ser corrigidos seguindo as etapas a seguir.
+
+1. Inicie o navegador, então abra as configurações do navegador
+2. Role até o final e selecione "Reinicializar Dados Salvos" (também pode ser chamado de "Inicializar Dados Salvos" ou "Limpar Todos os Dados Salvos")
+3. Tente o exploit novamente
+
+:::
+
 :::details "An error has occured. Hold down the POWER button to turn off the power..." (tela preta com texto)
 
 O arquivo `arm11code.bin` está faltando ou fora do lugar apropriado. Baixe a última versão do [universal-otherapp](https://github.com/TuxSH/universal-otherapp/releases/latest), coloque `otherapp.bin` na raíz do cartão SD e renomeie-o para `arm11code.bin`. Não adicione a extensão `.bin` se você não a vê.

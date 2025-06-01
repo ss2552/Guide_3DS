@@ -1,11 +1,5 @@
 # ntrboot
 
-::: danger
-
-Az NDS Card [felfüggesztette az USA-ba irányuló csomagok küldését](https://nds-card.com/NewsShow.asp?NewsID=1344). Elképzelhető, hogy semelyik linkelt terméket nem szállítják az USA-ba. További segítségért (angol nyelven), fordulj ide: [Nintendo Homebrew a Discord-on](https://discord.gg/MWxPgEp).
-
-:::
-
 ::: tip
 
 Ha a flashkártyád gyárilag flashelve van az ntrboot-tal (vagy már magad ráflashelted), ugorhatsz a [boot9strap telepítése (ntrboot)](installing-boot9strap-\(ntrboot\)) című útmutatóra, amiben megtudhatod, hogyan kell használni.

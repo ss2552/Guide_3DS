@@ -133,7 +133,7 @@ O seu console está executando o Luma3DS 6.6 ou inferior, provavelmente via arm9
 
 :::details Jogos no modo de memória estendida (Pokémon Sun/Moon, Smash, etc.) não funcionam
 
-Isso pode ocorrer após uma CTRTransfer ou mudança de região no Old 3DS / 2DS. Siga as instruções [aqui](region-changing#section-vi---fixing-locale-related-issues) para corrigir este erro (ignorando as etapas 3, 4, 5 e 6).
+Isso pode ocorrer após uma CTRTransfer ou mudança de região no Old 3DS / 2DS. Siga as instruções [aqui](region-changing#section-vi-fixing-locale-related-issues) para corrigir este problema.
 
 :::
 

@@ -2,19 +2,19 @@
 
 ::: info
 
-For information on dumping cartridge or SD card content, see [Dumping Titles and Game Cartridges](dumping-titles-and-game-cartridges).
+Para obtener información sobre cómo volcar contenido de cartuchos o tarjetas SD, consulta [Volcado de Software Digital y Cartuchos de Juegos](dumping-titles-and-game-cartridges).
 
 :::
 
 ::: info
 
-Para ayuda (en inglés) con GodMode9, así como ayuda con la creación de scripts y obtener actualizaciones e información, únete al [Discord de GodMode9](https://discord.gg/BRcbvtFxX4).
+Para ayuda (en inglés) con GodMode9, así como ayuda con los scripts y obtener actualizaciones e información, únete al [Discord de GodMode9](https://discord.gg/BRcbvtFxX4).
 
 :::
 
 ## Lectura requerida
 
-GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
+GodMode9 es un explorador de archivos con acceso ilimitado para la consola Nintendo 3DS, dandote acceso a la tarjeta SD, las particiones FAT dentro de tu SysNAND y EmuNAND, y básicamente a cualquier otra cosa. Entre otras funciones, te permite copiar, eliminar, renombrar archivos y crear carpetas.
 
 Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions.
 

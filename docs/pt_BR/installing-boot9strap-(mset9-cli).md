@@ -2,7 +2,7 @@
 
 :::details Detalhes Técnicos (opcional)
 
-[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de um erro onde a ID1 (a pasta de 32 caractéres dentro da pasta Nintendo 3DS, dentro de ID0) pode ter _qualquer_ nome desde que seja composto por 32 caractéres. Executar uma sequência específica de ações fará com que o console execute as instruções que estão codificadas no nome da pasta ID1, que pode ser usado para conceder controle total sobre o console.
+[MSET9](https://github.com/zoogie/MSET9) é um exploit para o aplicativo de Configurações do Sistema desenvolvido por [zoogie](https://github.com/zoogie). Ele faz uso de uma falha onde a ID1 (a pasta de 32 caracteres dentro da pasta Nintendo 3DS, dentro da ID0) pode ter _qualquer_ nome desde que seja composto por 32 caracteres. Executar uma sequência específica de ações fará com que o console execute as instruções que estão codificadas no nome da pasta ID1, que pode ser usado para conceder controle total sobre o console.
 
 :::
 
@@ -19,7 +19,7 @@ Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem 
 - A versão mais recente de [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (o arquivo MSET9 `.zip`)
 - Qualquer versão 3.x de [Python](https://www.python.org/downloads/) **instalada no seu computador**
     - Se você está no Windows, Python da Microsoft Store não pode ser usado. Por favor, instale uma versão do python.org.
-    - Se você estiver no Linux ou no macOS, você possivelmente já tem Python 3. Verifique abrindo uma janela terminal e digitando `python3 -V`. Se este retornar um número de versão, ele funcionará para este guia.
+    - Se você estiver no Linux ou no macOS, você possivelmente já tem Python 3. Verifique abrindo uma janela Terminal e digitando `python3 -V`. Se este retornar um número de versão, ele funcionará para este guia.
 
 ## Instruções
 
@@ -108,12 +108,12 @@ Estas instruções devem ser seguidas **EXATAMENTE** como estão, então confira
 
 :::
 
-1. Ligue seu console, garantindo que as Configurações do Sistema estejam selecionadas
+1. Ligue seu console, garantindo que a Configuração do Console esteja selecionada
     - Se a Configuração do Console não está selecionada, **[posicione o cursor](/images/screenshots/mset9/hover-settings.png)** sob o ícone da Configuração do Console usando o D-Pad, desligue seu console e ligue-o novamente
-2. Pressione (A) para iniciar as Configurações do Sistema
-3. Navegue para `Gerenciamento de Dados` -> `Nintendo 3DS` -> `Extra Data` ([imagem](/images/screenshots/mset9/settings-extdata.png))
+2. Pressione (A) para abrir a Configuração do Console
+3. Navegue para `Gerenciamento de Dados` -> `Nintendo 3DS` -> `Dados adicionais` ([imagem](/images/screenshots/mset9/settings-extdata.png))
 4. **Não pressione nenhum botão ou toque na tela**
-5. **Com o console AINDA LIGADO, e sem pressionar nenhum dos botões ou a tela de toque**, remova seu cartão SD do seu console
+5. **Com o console AINDA LIGADO, e sem pressionar nenhum botão ou tocar na tela**, remova seu cartão SD do seu console
     - O menu atualizará e dirá que nenhum cartão SD foi inserido, o que é esperado
 6. Insira o cartão SD no seu computador
 
@@ -123,7 +123,7 @@ Estas instruções devem ser seguidas **EXATAMENTE** como estão, então confira
 2. Na janela do MSET9, digite `3` e pressione Enter para injetar o MSET9
     - Você deve ver "MSET9 successfully injected!"
 3. Pressione Enter para fechar o script MSET9
-4. Reinsira o cartão SD no seu console **sem pressionar nenhum botão ou tocar a tela de toque**
+4. Reinsira o cartão SD no seu console **sem pressionar nenhum botão ou tocar na tela**
 5. Se o exploit for bem-sucedido, você terá entrado no SafeB9SInstaller
     - Se você ver uma tela vermelha ou o console ficar preso em uma tela de carregamento, siga o [guia de troubleshooting](troubleshooting-mset9)
 

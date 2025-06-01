@@ -44,8 +44,8 @@ Sisipkan kartrid yang ingin di-_dump_ ke konsol
 1. Tahan tombol (Start) selagi menyalakan konsol. Ini akan masuk ke GodMode9
 2. Navigasi ke `[C:] GAMECART`
 3. Ikuti langkah berikut sesuai jenis kartrid:
-    - **Kartrid 3DS:** Tekan (A) pada `[TitleID].trim.3ds` untuk pilih
-    - **Kartrid NDS:** Tekan (A) pada `[TitleID].nds` untuk pilih
+    - **Kartrid 3DS:** Tekan (A) pada `<TitleID>.trim.3ds` untuk pilih
+    - **Kartrid NDS:** Tekan (A) pada `<TitleID>.nds` untuk pilih
         - _Dump_ terpangkas umumnya tidak dianjurkan untuk permainan NDS, karena banyak isu saat dijalankan
 4. Pilih "Copy to 0:/gm9/out"
 5. Keluaran berformat `.3ds` atau `.nds` yang tak bisa dipasang akan ada di folder `/gm9/out/` di kartu SD
@@ -74,7 +74,7 @@ Ini hanya boleh digunakan jika [Memasang Data Kartrid Langsung ke Konsol](#insta
 
 1. Tahan tombol (Start) selagi menyalakan konsol. Ini akan masuk ke GodMode9
 2. Navigasi ke `[C:] GAMECART`
-3. Tekan (A) pada `[TitleID].trim.3ds` untuk pilih, lalu pilih "NCSD image options...", dan pilih "Build CIA from file"
+3. Press (A) on `<TitleID>.trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 4. Keluaran berformat `.cia` yang bisa dipasang akan ada di folder `/gm9/out/` di kartu SD
 
 ## Membuat Dump Aplikasi Terpasang

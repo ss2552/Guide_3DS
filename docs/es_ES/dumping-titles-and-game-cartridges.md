@@ -44,8 +44,8 @@ Inserta en la consola el cartucho de juego que deseas volcar
 1. Presiona y mantén (Start), luego enciende la consola mientras lo mantienes. Esto abrirá GodMode9
 2. Ve a `[C:] GAMECART`
 3. Sigue los pasos correspondientes a tu tipo de cartucho:
-    - **Cartucho de 3DS:** Presiona (A) sobre `[TitleID].trim.3ds` para seleccionarlo
-    - **Cartucho de DS:** Presiona (A) sobre `[TitleID].nds` para seleccionarlo
+    - **3DS Game Cartridge:** Press (A) on `<TitleID>.trim.3ds` to select it
+    - **NDS Game Cartridge:** Press (A) on `<TitleID>.nds` to select it
         - Las copias recortadas ("trimmed" en inglés) no son recomendadas para los juegos de DS ya que pueden causar problemas al usarlas
 4. Seleciona "Copy to 0:/gm9/out"
 5. Tu archivo `.3ds` o `.nds` _no instalable_ será guardado en la carpeta `/gm9/out/` de la tarjeta SD
@@ -74,7 +74,7 @@ Esto sólo debiera seguirse si [Instalar un Cartucho a la Consola Directamente](
 
 1. Presiona y mantén (Start), luego enciende la consola mientras lo mantienes. Esto abrirá GodMode9
 2. Ve a `[C:] GAMECART`
-3. Presiona el botón (A) sobre `[TitleID].trim.3ds` para seleccionarlo, luego selecciona "NCSD image options..." y luego "Build CIA from file"
+3. Press (A) on `<TitleID>.trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 4. Tu archivo instalable en formato `.cia` será guardado en la carpeta `/gm9/out/` de la tarjeta SD
 
 ## Volcar un Software Instalado

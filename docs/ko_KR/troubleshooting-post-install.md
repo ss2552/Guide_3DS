@@ -133,7 +133,7 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
 
 :::details 확장 메모리 모드 게임 (포켓몬 썬/문, 스매시 브라더스 등)이 정상 작동하지 않습니다
 
-이 문제는 구 3DS / 2DS 콘솔의 지역을 변경하거자 CTRTransfer를 한 이후 나타날 수 있는 상황입니다. [이 설명](region-changing#section-vi---fixing-locale-related-issues)을 따라 문제를 해결하세요(3번과 4번, 5번, 6번 과정은 건너뛰세요).
+이 문제는 구 3DS / 2DS 콘솔의 지역을 변경하거자 CTRTransfer를 한 이후 나타날 수 있는 상황입니다. Follow the instructions [here](region-changing#section-vi-fixing-locale-related-issues) to fix this issue.
 
 :::
 

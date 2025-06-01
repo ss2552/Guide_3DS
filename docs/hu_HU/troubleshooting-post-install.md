@@ -133,7 +133,7 @@ A konzolod Luma3DS 6.6 vagy régebbi verziót futtat, valószínűleg arm9loader
 
 :::details Bővített memória módú játékok (Pokemon Sun/Moon, Smash, stb.) nem működnek
 
-Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Kövesd a lépéseket [itt](region-changing#section-vi---fixing-locale-related-issues) hogy kijavíthasd ezt a hibát. (átlépve a 3, 4, 5 és 6. lépéseket).
+Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszközökön. Kövesd a lépéseket [itt](region-changing#section-vi-fixing-locale-related-issues) a hiba javításához.
 
 :::
 

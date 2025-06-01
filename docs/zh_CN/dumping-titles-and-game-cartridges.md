@@ -44,8 +44,8 @@ Insert the game cartridge you intend to dump into your console
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 2. 进入到 `[C:] GAMECART`
 3. 根据你的卡带类型进行下列对应操作：
-    - **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it
-    - **NDS Game Cartridge:** Press (A) on `[TitleID].nds` to select it
+    - **3DS Game Cartridge:** Press (A) on `<TitleID>.trim.3ds` to select it
+    - **NDS Game Cartridge:** Press (A) on `<TitleID>.nds` to select it
         - Trimmed dumps are not recommended for NDS games in general, as they can cause various playback issues
 4. 选择 “Copy to 0:/gm9/out”
 5. 导出的非可安装的 `.3ds` 或 `.nds` 格式文件将会被保存在 SD 卡上的 `/gm9/out/` 文件夹中
@@ -74,7 +74,7 @@ Insert the game cartridge you intend to dump into your console
 
 1. Press and hold (Start), and while holding (Start), power on your console. This will launch GodMode9
 2. 进入到 `[C:] GAMECART`
-3. 将光标移动到 `[TitleID].trim.3ds` 上，然后按下 A 键。然后选择 “NCSD image options...”，再然后选择 “Build CIA from file”
+3. Press (A) on `<TitleID>.trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 4. 导出的可安装的 `.cia` 格式文件将会被保存在 SD 卡上的 `/gm9/out/` 文件夹中
 
 ## Dumping an Installed Title

@@ -44,8 +44,8 @@ NAND 백업의 작성 및 복구 외에, GodMode9은 3DS 내에 설치된 타이
 1. (Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행될 겁니다
 2. `[C:] GAMECART`로 이동해 주세요
 3. 게임 카드에 맞게 해당 과정을 참고해 주세요:
-    - **3DS 게임 카트리지:** `[TitleID].trim.3ds`에서 (A)를 눌러서 선택해 주세요
-    - **NDS 게임 카트리지:** `[TitleID].nds`에서 (A)를 눌러서 선택해 주세요
+    - **3DS Game Cartridge:** Press (A) on `<TitleID>.trim.3ds` to select it
+    - **NDS Game Cartridge:** Press (A) on `<TitleID>.nds` to select it
         - 여러 플레이 문제가 생기므로, 압축된 파일들(`.trim.nds`)은 일반적으로 NDS 게임은 추천되지 않습니다
 4. "Copy to 0:/gm9/out"를 선택해 주세요
 5. `.3ds`나 `.nds` 형식의 파일이 SD 카드의 `/gm9/out/` 폴더에 출력됩니다
@@ -74,7 +74,7 @@ NAND 백업의 작성 및 복구 외에, GodMode9은 3DS 내에 설치된 타이
 
 1. (Start) 를 길게 누르고, 이 상태에서 콘솔의 전원을 켜 주세요. GodMode9이 실행될 겁니다
 2. `[C:] GAMECART`로 이동해 주세요
-3. `[TitleID].trim.3ds`에서 (A)를 눌러 선택하고 "NCSD image options..."를 선택하고 "Build CIA from file"를 선택해 주세요
+3. Press (A) on `<TitleID>.trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
 4. 설치 가능한 `.cia` 파일은 SD 카드의`/gm9/out/` 폴더에 출력됩니다
 
 ## 설치된 타이틀을 추출하기

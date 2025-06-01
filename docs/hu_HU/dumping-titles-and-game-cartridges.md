@@ -44,8 +44,8 @@ Helyezd be a konzolodba a menteni kívánt játékkártyát
 1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et
 2. Navigálj ide: `[C:] GAMECART`
 3. Kövesd az alábbi lépések közül az játékkártyádnak megfelelőt:
-    - **3DS játékkártya:** Nyomd meg az (A)-t a `[TitleID].trim.3ds` fájlon, hogy kijelöld
-    - **NDS játékkártya:** Nyomd meg az (A)-t a `[TitleID].nds` fájlon, hogy kijelöld
+    - **3DS játékkártya:** Nyomd meg az (A) gombot a `<TitleID>.trim.3ds` fájlon, hogy kijelöld
+    - **NDS játékkártya:** Nyomd meg az (A) gombot a `<TitleID>.nds` fájlon, hogy kijelöld
         - Trimmelt dumpok nem ajánlottak NDS játékokhoz általánosan, mert különböző visszajátszási problémákat okozhatnak
 4. Válaszd ki ezt: "Copy to 0:/gm9/out"
 5. A nem-telepíthető `.3ds` vagy `.nds` formátumú fájlodat az SD kártyád `/gm9/out/` mappájában találod ezután
@@ -74,7 +74,7 @@ Ezt csak akkor ajánlott használni, ha a [Játékkártya telepítése közvetle
 
 1. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et
 2. Navigálj ide: `[C:] GAMECART`
-3. Nyomd meg az (A) gombot `[TitleID].trim.3ds`-en, hogy kijelöld, majd válaszd a "NCSD image options..."-t, majd az "Build CIA from file" lehetőséget
+3. Nyomd meg az (A) gombot `<TitleID>.trim.3ds`-en, hogy kijelöld, majd válaszd a "NCSD image options..."-t, majd az "Build CIA from file" lehetőséget
 4. A telepíthető `.cia` formátumú fájlodat az SD kártyád `/gm9/out/` mappájában találod ezután
 
 ## Telepített alkalmazás dumpolása
