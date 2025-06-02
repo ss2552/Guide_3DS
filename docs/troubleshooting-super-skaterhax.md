@@ -46,6 +46,8 @@ This likely indicates that you already have custom firmware. You should [check f
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## Issues with SafeB9SInstaller
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
 <!--@include: ./_include/troubleshooting-sb9si-common.md -->
