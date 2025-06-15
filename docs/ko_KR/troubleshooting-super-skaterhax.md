@@ -46,6 +46,8 @@
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## SafeB9SInstaller와의 문제
 
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
@@ -58,7 +60,7 @@
 
 ::: tip
 
-[boot9strap 설치 (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))로 돌아갑니다
+Go back to [Installing boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
 
 :::
 

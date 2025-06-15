@@ -46,6 +46,8 @@
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## Ζητήματα με το SafeB9SInstaller
 
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->

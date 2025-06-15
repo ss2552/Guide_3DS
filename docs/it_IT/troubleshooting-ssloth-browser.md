@@ -86,12 +86,6 @@ Potrebbe esserci un problema con il tuo file `arm11code.bin`. Riscarica l'ultima
 
 :::
 
-:::details "PrepareArm9ForTwl returned error c8804631!"
-
-Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) per chiedere assistenza.
-
-:::
-
 :::details Impossibile leggere la scheda SD!
 
 Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo strumento consigliato a seconda del sistema operativo ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))). MiniTool Partition Wizard e lo strumento di formattazione HP (HPUSBDisk) sono noti per causare problemi con schede SD 3DS.
@@ -99,6 +93,8 @@ Effettua il backup dei tuoi dati e riformatta la tua scheda SD come FAT32 con lo
 Se il problema non si risolve, prova ad usare un'altra scheda SD.
 
 :::
+
+<!--@include: ./_include/troubleshooting-khc-common.md -->
 
 ## Problemi con SafeB9SInstaller
 

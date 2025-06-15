@@ -86,12 +86,6 @@
 
 :::
 
-:::details «PrepareArm9ForTwl returned error c8804631!»
-
-Γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) για βοήθεια.
-
-:::
-
 :::details Failed to mount the SD card!
 
 Δημιουργήστε αντίγραφα ασφαλείας των δεδομένων σας και διαμορφώστε ξανά την κάρτα SD σας ως FAT32 με το συνιστώμενο εργαλείο, ανάλογα με το λειτουργικό σας σύστημα ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))). Είναι γνωστό ότι το MiniTool Partition Wizard και το εργαλείο διαμόρφωσης της HP (HPUSBDisk) προκαλούν προβλήματα με τις κάρτες SD των 3DS.
@@ -99,6 +93,8 @@
 Εάν αυτό αποτύχει, δοκιμάστε να χρησιμοποιήσετε κάποια άλλη κάρτα SD.
 
 :::
+
+<!--@include: ./_include/troubleshooting-khc-common.md -->
 
 ## Ζητήματα με το SafeB9SInstaller
 

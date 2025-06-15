@@ -46,6 +46,8 @@ Isso provavelmente indica que você já possui custom firmware. Você deve [chec
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## Problemas com o SafeB9SInstaller
 
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
@@ -58,7 +60,7 @@ Isso provavelmente indica que você já possui custom firmware. Você deve [chec
 
 ::: tip
 
-Voltar para [Instalando boot9strap (superskaterhax)](installing-boot9strap-\(super-skaterhax\))
+Go back to [Installing boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
 
 :::
 

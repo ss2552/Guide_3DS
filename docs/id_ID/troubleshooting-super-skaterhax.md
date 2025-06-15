@@ -46,6 +46,8 @@ Ini mungkin menandakan sudah ada _custom firmware_. Coba [periksa CFW](checking-
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## Isu dengan SafeB9SInstaller
 
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
@@ -58,7 +60,7 @@ Ini mungkin menandakan sudah ada _custom firmware_. Coba [periksa CFW](checking-
 
 ::: tip
 
-Kembali ke [Memasang boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
+Go back to [Installing boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
 
 :::
 

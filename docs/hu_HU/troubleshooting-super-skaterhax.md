@@ -46,6 +46,8 @@ Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvége
 
 :::
 
+<!--@include: ./_include/troubleshooting-khc-common.md -->
+
 ## Problémák a SafeB9SInstaller-rel
 
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->

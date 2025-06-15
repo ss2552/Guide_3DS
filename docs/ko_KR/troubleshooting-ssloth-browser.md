@@ -86,12 +86,6 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 
 :::
 
-:::details "PrepareArm9ForTwl returned error c8804631!"
-
-[Nintendo Homebrew Discord 서버](https://discord.gg.MWxPgEp)에 오셔서 도움을 요청하세요.
-
-:::
-
 :::details Failed to mount the SD card!
 
 데이터를 모두 백업하고 시스템별로 권장되는 프로그램을 이용해 SD카드를 FAT32로 다시 포맷해 주세요. ([Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\))) MiniTool Partition Wizard나 HP formatting tool(HPUSBDisk)는 3DS용 SD 카드에 문제를 발생시킨다는 것이 알려져 있습니다.
@@ -99,6 +93,8 @@ SSLoth 프록시 설정이 잘못 설정되었습니다. 페이지의 SSLoth 섹
 만약 해결되지 않는다면, 다른 SD 카드를 이용해 보세요.
 
 :::
+
+<!--@include: ./_include/troubleshooting-khc-common.md -->
 
 ## SafeB9SInstaller와의 문제
 

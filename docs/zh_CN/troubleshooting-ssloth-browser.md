@@ -86,12 +86,6 @@ There may be an issue with your `arm11code.bin` file. Re-download the latest rel
 
 :::
 
-:::details "PrepareArm9ForTwl returned error c8804631!"
-
-如需帮助，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)。
-
-:::
-
 :::details Failed to mount the SD card!
 
 备份好你 SD 卡上的文件，然后根据你的操作系统选择一个工具来重新格式化 SD 卡为 FAT32 格式：[Windows](formatting-sd-\(windows\))、[macOS](formatting-sd-\(mac\))、[Linux](formatting-sd-\(linux\))。 目前已知 MiniTool Partition Wizard 和惠普格式化工具（HPUSBDisk）格出来的 SD 卡给 3DS 使用会出问题。
@@ -99,6 +93,8 @@ There may be an issue with your `arm11code.bin` file. Re-download the latest rel
 如果还是不行，尝试换一张 SD 卡。
 
 :::
+
+<!--@include: ./_include/troubleshooting-khc-common.md -->
 
 ## Issues with SafeB9SInstaller
 
