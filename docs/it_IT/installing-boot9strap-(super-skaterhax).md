@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Installazione di boot9strap (super-skaterhax)
@@ -83,7 +82,7 @@ In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà
 
 1. Apri il Browser Internet
 2. Tocca l'icona a 3 linee (☰) nell'angono in basso a destra dello schermo
-3. Tap `Settings` -> scroll down -> `Reset Save Data` -> `Clear All` -> `Clear` -> `OK`
+3. Tocca `Impostazioni` -> scorri verso il basso -> `Elimina tutti i dati salvati` -> `Elimina` -> `Elimina`
     - Il browser si chiuderà
 4. Riapri il Browser Internet
 5. Tocca `Avanti` -> `Google` -> `OK` -> `OK`
