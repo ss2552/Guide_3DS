@@ -10,7 +10,7 @@
 
 ::: warning
 
-This page requires iPhone or iPad with iOS/iPadOS 14.0 or higher. Update your iPhone or iPad first if it's on older system. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli)) instead. If you have an Android phone/tablet or a Chromebook, follow [Installing boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+This page requires an iPhone or iPad running iOS/iPadOS 14.0 or higher. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-(mset9-cli)) instead. If you have an Android phone/tablet or a Chromebook, follow [Installing boot9strap (MSET9 Play Store)](installing-boot9strap-(mset9-play-store)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
@@ -38,7 +38,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
     :::
 
-1. Type the number corresponding to your console model and version, then hit return
+1. Type the number corresponding to your console model and version, then tap Return
     + The screen should change to this:
 
     ::: info
@@ -48,10 +48,10 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
     :::
 
     + Ensure that the correct console model and version is displayed
-1. Type `1`, then hit return to begin the process of creating the MSET9 ID1
-1. After reviewing the disclaimer, type `1` again and hit return to accept it
+1. Type `1`, then tap Return to begin the process of creating the MSET9 ID1
+1. After reviewing the disclaimer, type `1` again and tap Return to accept it
     + If you get an error, check the [troubleshooting](troubleshooting-mset9), then try again
-1. If you see the message "Created hacked ID1.", hit return to close the MSET9 script
+1. If you see the message "Created hacked ID1.", tap Return to close the MSET9 script
     + Your 3DS will appear to have no data / no user-installed apps on HOME Menu. **This is expected.** Your data will come back at a later step
 1. Reinsert your SD card into your console
 1. Power on your console
@@ -64,7 +64,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 1. Power off your console by pressing the power button then tapping Power Off on the lower screen
 1. Insert your SD card into your iPhone/iPad
 <!--@include: ./_include/ish-chorus.md -->
-1. Type the number corresponding to your console model and version, then hit return
+1. Type the number corresponding to your console model and version, then tap Return
     + The screen should change to this and display `Ready`:
 
     ::: info
@@ -74,10 +74,10 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
     :::
 
     + If the screen says [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-ish-not-ready.png):
-        + Type `2`, then hit return to check the MSET9 status and follow the directions indicated
+        + Type `2`, then tap Return to check the MSET9 status and follow the directions indicated
         + Once you have resolved the issue, return to Section I Step 14
         + For more information, check the [troubleshooting](troubleshooting-mset9) page
-1. Type `0`, then hit return to close the script
+1. Type `0`, then tap Return to close the script
 1. Reinsert your SD card into your console
 
 ### Section II - MSET9
@@ -99,10 +99,10 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
     + The menu will refresh and say that no SD card is inserted
 1. Insert your SD card into your iPhone/iPad
 <!--@include: ./_include/ish-chorus.md -->
-1. Type the number corresponding to your console model and version, then hit return
-1. In the MSET9 screen, type `3`, then hit return to inject MSET9
+1. Type the number corresponding to your console model and version, then tap Return
+1. In the MSET9 screen, type `3`, then tap Return to inject MSET9
     + You should see "MSET9 successfully injected!"
-1. Press Enter to close the MSET9 script
+1. Tap Return to close the MSET9 script
 1. Reinsert your SD card into your console **without pressing any buttons or touching the screen**
 1. If the exploit was successful, you will have booted into SafeB9SInstaller 
     + If you get a red screen or the console gets stuck on a loading screen, follow the [troubleshooting guide](troubleshooting-mset9)
@@ -129,14 +129,14 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
 1. Power off your console
 1. Insert your SD card into your iPhone/iPad
 <!--@include: ./_include/ish-chorus.md -->
-1. Type the number corresponding to your console model and version, then hit return
+1. Type the number corresponding to your console model and version, then tap Return
     + The current state should display [Injected](/images/screenshots/mset9/mset9-ish-injected.png)
     + If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ish-ready.png), skip to Step 6
-1. Type `4`, then hit return to remove the trigger file
+1. Type `4`, then tap Return to remove the trigger file
     + You should see "Removed trigger file."
-1. Type `5`, then hit return to remove MSET9
+1. Type `5`, then tap Return to remove MSET9
     + You should see "Successfully removed MSET9!"
-1. Press Enter to close the MSET9 script
+1. Press Return to close the MSET9 script
 
 <!--@include: ./_include/luma3ds-installed-note.md -->
 
