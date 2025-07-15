@@ -3,10 +3,10 @@ noneSelected: Perlu tahu model konsol.
 invalidVersion: Versi sistem ini sepertinya tidak absah.
 otherPrefix: (Lainnya)
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/selecting.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/selecting.js' } ]
+  ]
 ---
 
 # Memulai

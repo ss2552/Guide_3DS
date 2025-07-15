@@ -24,7 +24,7 @@ GodMode9 is krachtige software die in staat is om zo goed als alles op je consol
 
 ::: info
 
-Sommige van deze instructies zijn alleen toepasbaar op de nieuwste versie van GodMode9 en daarom volg je best dit gedeelte om je versie te updaten. Vervang bestaande bestanden.
+Sommige van deze instructies zijn alleen toepasbaar op de nieuwste versie van GodMode9 en daarom volg je best dit gedeelte om je versie te updaten. If any of the files exist, overwrite them with the new files.
 
 :::
 

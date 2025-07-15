@@ -36,7 +36,7 @@ Ebben a lépésben előkészülsz az MSET9 exploitra azzal, hogy **átmenetileg*
 
 1. Helyezd az SD kártyád a telefonodba/tabletedbe/számítógépedbe
 
-2. Másolj át a mindent a MSET9 `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt:
+2. Másolj mindent az MSET9 `.zip`-ből az SD kártya gyökerébe. Írd felül az új fájlokkal a már létező fájlokat, ha már létezne bármelyik:
 
     - Nyisd meg a ZArchiver-t
     - Ha kérdezi, [engedd a ZArchiver-t, hogy hozzá férjen z SD kártya fájljaihoz](/images/screenshots/mset9/zarchiver-allow.png)

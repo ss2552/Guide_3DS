@@ -24,7 +24,7 @@ GodMode9 ist eine mächtige Software, mit dem Potential alles mögliche an der K
 
 ::: info
 
-Einige der folgenden Anweisungen sind nur in der neuesten Version von GodMode9 zu finden, deshalb solltest diesen Schritten folgen, um deine Version zu aktualisieren, bevor du weiter machst. Ersetze dabei alle bereits existierenden Dateien.
+Einige der folgenden Anweisungen sind nur in der neuesten Version von GodMode9 zu finden, deshalb solltest diesen Schritten folgen, um deine Version zu aktualisieren, bevor du weiter machst. If any of the files exist, overwrite them with the new files.
 
 :::
 

@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # boot9strap 설치 (super-skaterhax)
@@ -38,8 +37,7 @@ This exploit is known to be inconsistent: it works for some people, but not othe
 
 2. SD 카드를 컴퓨터에 삽입해 주세요
 
-3. Super-skaterhax `.zip` 안의 파일들을 모두 복사하여 SD 카드의 루트에 붙여넣어 주세요. 존재하는 파일이 있을 경우 덮어쓰기 해주세요.
-
+3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

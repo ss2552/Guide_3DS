@@ -34,7 +34,7 @@
 In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with almost no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. 현재 존재하는 유저 데이터는 사라지지만, 이 페이지의 작업을 끝낸다면 다시 복구될 것입니다．
 
 1. SD 카드를 컴퓨터에 삽입해 주세요
-2. MEST9 `.zip` 안의 파일들을 모두 복사하여 SD 카드의 루트에 붙여넣어 주세요. 존재하는 파일이 있을 경우 덮어쓰기 해주세요.
+2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
 
     ::: info
 

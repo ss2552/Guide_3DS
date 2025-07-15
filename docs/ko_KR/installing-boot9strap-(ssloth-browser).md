@@ -56,7 +56,7 @@ SSLoth는 시스템 버전 11.13.0 및 이전 버전에 있는 사용자가 브�
 1. HOME 메뉴에서 L, R 버튼을 동시에 눌러 카메라를 열어 주세요
     - 카메가 사용이 불가는하다면, 인터넷 브라우저를 열어 URL을 직접 입력하세요: (`https://zoogie.github.io/web/nbhax/`)
 
-2. QR 코드 버튼을 눌러 이 QR 코드 를 스캔해 주세요
+2. QR 코드 버튼을 눌러 [이 QR 코드](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L) 를 스캔해 주세요
 
     - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
     - 오류가 발생하거나 다른 에러 코드가 나오면 이 [문제 해결 가이드](troubleshooting-ssloth-browser) 를 참고해 주세요

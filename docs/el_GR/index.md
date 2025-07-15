@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Οδηγός τροποποίησης 3DS
+title: "Οδηγός τροποποίησης 3DS"
 hero:
-  text: Οδηγός τροποποίησης 3DS
-  tagline: Ένας πλήρης οδηγός σχετικά με το custom firmware για 3DS (και 2DS), από την αρχή έως το boot9strap.
+  text: "Οδηγός τροποποίησης 3DS"
+  tagline: "Ένας πλήρης οδηγός σχετικά με το custom firmware για 3DS (και 2DS), από την αρχή έως το boot9strap."
   image:
     src: /images/home-page-feature.jpg
 ---

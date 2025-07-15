@@ -3,10 +3,10 @@ noneSelected: A rendszer modell szükséges.
 invalidVersion: Ez nem tűnik egy érvényes rendszer verziónak.
 otherPrefix: (Egyéb)
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/selecting.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/selecting.js' } ]
+  ]
 ---
 
 # Kezdeti lépések

@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Panduan Meretas 3DS
+title: "Panduan Meretas 3DS"
 hero:
-  text: Panduan Meretas 3DS
-  tagline: Panduan lengkap custom firmware 3DS (dan 2DS), dari bawaan ke boot9strap.
+  text: "Panduan Meretas 3DS"
+  tagline: "Panduan lengkap custom firmware 3DS (dan 2DS), dari bawaan ke boot9strap."
   image:
     src: /images/home-page-feature.jpg
 ---

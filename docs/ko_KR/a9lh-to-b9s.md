@@ -33,7 +33,7 @@
 
 ::: info
 
-모든 과정에서, SD 카드에 이미 존재하는 파일들은 모두 덮어쓰기 해주세요.
+For all steps in this section, if any of the files already exist, overwrite them with the new files.
 
 :::
 
@@ -70,7 +70,7 @@
     - 만약 SafeB9SInstaller 대신 Luma 구성 화면이 나타난다면, (Start)를 누르고, 3DS를 끈 다음 다시 시도해 주세요
     - 만약 에러가 발생하면, 새로운 SD 카드로 시도하거나,  (기존 파일들은 먼저 백업한 후) 기존 SD 카드를 포멧해 보세요
 2. 모든 안전 검사가 끝날 때까지 기다려 주세요
-    - 만약 "OTP Crypto Fail" 에러를 보시면, <font-awesome-icon icon="fa-solid fa-magnet"/> - aeskeydb.bin 파일을 다운로드 한 후, 이 파일을 `/boot9strap` 폴더에 복사하고 다시 시도해 주세요
+    - 만약 "OTP Crypto Fail" 에러를 보시면, <font-awesome-icon icon="fa-solid fa-magnet"/> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce) 파일을 다운로드 한 후, 이 파일을 `/boot9strap` 폴더에 복사하고 다시 시도해 주세요
 3. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
     - 아래 화면의 단계가 붉은 텍스트로 표시되고 키 콤보 입력을 요구하지 않는다면, [이 문제 해결 가이드](troubleshooting-a9lh-to-b9s)를 참고해 주세요
 

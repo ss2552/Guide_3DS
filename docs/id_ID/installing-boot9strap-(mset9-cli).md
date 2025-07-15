@@ -34,7 +34,7 @@ Di laman ini akan menggunakan naskah MSET9 untuk mengaktifkan MSET9. Saat naskah
 Di bagian ini akan menyiapkan eksploit MSET9 dengan membuat profil HOME Menu baru **sementara** yang agak kosong, lalu sedikit mengubah data profil itu untuk mengaktifkan MSET9. Data pengguna yang ada akan menghilang, tapi akan kembali seusai mengikuti laman ini.
 
 1. Sisipkan kartu SD ke komputer Anda
-2. Salin semua isi berkas `.zip` MSET9 ke akar kartu SD, timpa berkas yang ada
+2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
 
     ::: info
 

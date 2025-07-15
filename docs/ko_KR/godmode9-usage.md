@@ -24,7 +24,7 @@ GodMode9은 콘솔에 있는 무엇이든 수정할 수 있는 강력한 소프�
 
 ::: info
 
-아래 지시 사항 중 일부는 오로지 최신 버전의 GodMode9에만 적용되고, 계속하기 전에 이 섹션을 따라해 업데이트를 해야 됩니다. 이미 존재하는 파일은 덮어씌워 주세요.
+아래 지시 사항 중 일부는 오로지 최신 버전의 GodMode9에만 적용되고, 계속하기 전에 이 섹션을 따라해 업데이트를 해야 됩니다. If any of the files exist, overwrite them with the new files.
 
 :::
 

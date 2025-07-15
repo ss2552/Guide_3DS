@@ -24,7 +24,7 @@ A GodMode9 egy nagy tudású szoftver, ami képes módosítani alapvetően bárm
 
 ::: info
 
-A lentebbi utasítások egy része csak a legfrissebb GodMode9-on érhető el, emiatt előbb ezt a részt kell végigcsinálnod, mielőtt belekezdenél azokba. Írj felül bármi olyan fájlt, ami már létezik.
+A lentebbi utasítások egy része csak a legfrissebb GodMode9-on érhető el, emiatt előbb ezt a részt kell végigcsinálnod, mielőtt belekezdenél azokba. Írd felül az új fájlokkal a már létező fájlokat, ha már létezne bármelyik.
 
 :::
 

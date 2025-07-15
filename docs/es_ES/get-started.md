@@ -3,10 +3,10 @@ noneSelected: El modelo del sistema es requerido.
 invalidVersion: Esta no parece ser una versión válida del sistema.
 otherPrefix: (Otro)
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/selecting.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/selecting.js' } ]
+  ]
 ---
 
 # Comencemos

@@ -24,7 +24,7 @@ GodMode9 to potężne oprogramowanie, które ma możliwość modyfikowania prakt
 
 ::: info
 
-Niektóre z poniższych instrukcji mają zastosowanie tylko do najnowszej wersji GodMode9 i powinieneś postępować zgodnie z tą sekcją, aby zaktualizować swoją kopię, zanim przejdziesz dalej. Nadpisz wszystkie istniejące pliki.
+Niektóre z poniższych instrukcji mają zastosowanie tylko do najnowszej wersji GodMode9 i powinieneś postępować zgodnie z tą sekcją, aby zaktualizować swoją kopię, zanim przejdziesz dalej. If any of the files exist, overwrite them with the new files.
 
 :::
 

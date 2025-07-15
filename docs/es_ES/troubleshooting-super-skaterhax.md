@@ -60,7 +60,7 @@ This likely indicates that you already have custom firmware. You should [check f
 
 ::: tip
 
-Go back to [Installing boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
+Volver a [Instalar boot9strap (super-skaterhax)](installing-boot9strap-\(super-skaterhax\))
 
 :::
 

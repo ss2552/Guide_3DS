@@ -32,7 +32,7 @@ Vedd figyelembe, hogy New 3DS esetében a `secret_sector.bin` fájlra az arm9loa
 
 ::: info
 
-A most következő lépésekben mindig írd felül az SD kártyán található fájlokat, ha már létezne bármelyik.
+Ebben a fejezetben minden lépésben írd felül az új fájlokkal a már létező fájlokat, ha már létezne bármelyik.
 
 :::
 
@@ -69,7 +69,7 @@ A most következő lépésekben mindig írd felül az SD kártyán található f
     - Ha a Luma konfigurációját látod a SafeB9SInstaller helyett, egyszerűen nyomd meg a (Start) gombot, majd állítsd le a 3DS-edet, és próbáld újra
     - Ha ez egy hibát ad, akkor vagy használj egy új SD kártyát vagy formázd a jelenlegit (mentsd el a már létező fájlokat először)
 2. Várj, amíg az összes biztonsági ellenőrzés be nem fejeződik
-    - Ha "OTP Crypto Fail" hibát kaptál, töltsd le a <font-awesome-icon icon="fa-solid fa-magnet"/>aeskeydb.bin, fájlt, majd rakd a `/boot9strap/` mappába az SD kártyádon és próbáld újra
+    - Ha "OTP Crypto Fail" hibát kaptál, töltsd le a <font-awesome-icon icon="fa-solid fa-magnet"/>[aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce), fájlt, majd rakd a `/boot9strap/` mappába az SD kártyádon és próbáld újra
 3. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
     - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-a9lh-to-b9s)
 

@@ -24,7 +24,7 @@ GodMode9 是個強大且可修改您主機的資料的一套軟體。 雖然您�
 
 ::: info
 
-下列部分操作僅適用於最新版本的 GodMode9，因此，您應先透過下列步驟以更新您的 GodMode9 再行繼續。 請覆蓋所有現有檔案。
+下列部分操作僅適用於最新版本的 GodMode9，因此，您應先透過下列步驟以更新您的 GodMode9 再行繼續。 If any of the files exist, overwrite them with the new files.
 
 :::
 

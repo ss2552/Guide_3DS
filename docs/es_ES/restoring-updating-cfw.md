@@ -1,4 +1,4 @@
-# Restoring / Updating CFW
+# Restaurar / Actualizar CFW
 
 ## Lectura requerida
 
@@ -13,20 +13,20 @@ Your SD card must be formatted as FAT32 to follow this guide, or else the 3DS wi
 ## Instrucciones
 
 1. Inserta la tarjeta SD en tu computadora
-2. Copy everything from the Luma3DS `.zip` (`boot.firm`, `boot.3dsx`, and `config`) to the root of your SD card, replacing any existing files
+2. Copia todo lo que está dentro del `.zip` de Luma3DS (`boot.firm`, `boot.3dsx` y `config`) a la raíz de tu tarjeta SD. Si alguno de los archivos ya existe, sobreescríbelos con los nuevos.
     - La raíz de la tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
 3. Reinserta la tarjeta SD en la consola
 4. Enciende tu consola
-    - If you see the Luma3DS configuration menu, press (Start) to save and reboot
+    - Si ves el menú de configuración de Luma3DS, presiona (Start) para guardar y reiniciar
 
 ::: info
 
-The latest version of Luma3DS has now been installed on your SD card and on internal memory.
+La última versión de Luma3DS ha sido instalada en tu tarjeta SD y en la memoria interna.
 
 :::
 
 ::: tip
 
-Continue to [Finalizing Setup](finalizing-setup) to install or update homebrew applications (e.g. FBI, Homebrew Launcher).
+Continúa a [Finalizar instalación](finalizing-setup) para instalar o actualizar programas homebrew (como FBI o Homebrew Launcher).
 
 :::

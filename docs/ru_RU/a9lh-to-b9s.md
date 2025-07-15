@@ -32,7 +32,7 @@ To use the [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links on this 
 
 ::: info
 
-Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
+For all steps in this section, if any of the files already exist, overwrite them with the new files.
 
 :::
 

@@ -37,8 +37,7 @@ In questa sezione copierai i file necessari per attivare sia super-skaterhax che
 
 2. Inserisci la scheda SD nel tuo computer
 
-3. Copia tutto il contenuto dell'archivio `.zip` di Super-skaterhax nella directory principale della tua scheda SD, sovrascrivendo eventuali file esistenti
-
+3. Copia il contenuto dell'archivio `.zip` di Super-skaterhax nella directory principale della tua scheda SD. Se uno qualsiasi dei file esiste già, sovrascrivilo con i nuovi file.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

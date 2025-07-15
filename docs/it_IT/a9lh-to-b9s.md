@@ -32,7 +32,7 @@ Solo su New 3DS, il file `secret_sector.bin` è necessario per ripristinare le m
 
 ::: info
 
-Se durante questa sezione ti verrà chiesto di sovrascrivere dei file sulla tua scheda SD, conferma sempre la scelta.
+Per tutti i passaggi in questa sezione, se uno qualsiasi dei file esiste già sovrascrivilo con i nuovi file.
 
 :::
 

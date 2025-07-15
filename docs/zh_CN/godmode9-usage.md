@@ -24,7 +24,7 @@ GodMode9 几乎可以修改你主机上的任何东西。 虽然更改系统文�
 
 ::: info
 
-下面的某些操作只能在最新版本的 GodMode9 下执行，因此在开始使用前请按照本节更新你的 GodMode9 软件。 请覆盖任何已经存在的文件。
+下面的某些操作只能在最新版本的 GodMode9 下执行，因此在开始使用前请按照本节更新你的 GodMode9 软件。 If any of the files exist, overwrite them with the new files.
 
 :::
 

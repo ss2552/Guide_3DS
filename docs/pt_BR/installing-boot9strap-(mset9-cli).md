@@ -34,7 +34,7 @@ Nesta página, você usará o script MSET9, que é usado para acionar o MSET9. E
 Nesta seção, você vai preparar o exploit MSET9 através da criação **temporária** de um novo perfil do Menu HOME com quase nenhum dado de usuário, e, em seguida, configurar esse perfil com apenas os dados mínimos necessários para que o MSET9 acione. Seus dados de usuário existentes desaparecerão, mas voltarão quando você terminar esta página.
 
 1. Insira o cartão SD no seu computador
-2. Copie tudo do `.zip` MSET9 para a raiz do seu cartão SD, substituindo quaisquer arquivos existentes
+2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
 
     ::: info
 

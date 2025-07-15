@@ -1,9 +1,9 @@
 ---
 layout: home
-title: 3DS 해킹 가이드
+title: "3DS 해킹 가이드"
 hero:
-  text: 3DS 해킹 가이드
-  tagline: 3DS와 2DS를 위한 커스텀 펌웨어 완벽 가이드, 순정에서 boot9strap까지.
+  text: "3DS 해킹 가이드"
+  tagline: "3DS와 2DS를 위한 커스텀 펌웨어 완벽 가이드, 순정에서 boot9strap까지."
   image:
     src: /images/home-page-feature.jpg
 ---

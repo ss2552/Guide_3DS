@@ -37,8 +37,7 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 
 2. SD kartınızı bilgisayarınıza takın
 
-3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card, overwriting any existing files
-
+3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

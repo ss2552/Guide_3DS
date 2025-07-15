@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Instalar boot9strap (super-skaterhax)
@@ -38,8 +37,7 @@ En esta sección, copiarás los archivos necesarios para activar super-skaterhax
 
 2. Inserta la tarjeta SD en tu computadora
 
-3. Copia todo el contenido del `.zip` de Super-skaterhax en la raíz de tu tarjeta SD, sobreescribiendo cualquier archivo existente
-
+3. Copia todo lo que está dentro del `.zip` de Super-skaterhax a la raíz de tu tarjeta SD. Si alguno de los archivos ya existe, sobreescríbelos con los nuevos.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

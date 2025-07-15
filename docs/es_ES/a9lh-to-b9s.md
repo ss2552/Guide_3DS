@@ -32,7 +32,7 @@ Ten en cuenta que sólo en la New 3DS `secret_sector.bin` es requerido para reve
 
 ::: info
 
-Para todos los pasos en esta sección, sobreescribe cualquier archivo existente en tu tarjeta SD.
+Si alguno de los archivos ya existe, sobreescríbelos con los nuevos. Esto aplica para todos los pasos en esta sección.
 
 :::
 
@@ -69,7 +69,7 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
     - Si ves la pantalla de configuración de Luma3DS en lugar de SafeB9SInstaller, simplemente presiona (Start), luego apaga la consola e intenta de nuevo
     - Si te da error, intenta usar otra tarjeta SD o formatear la que tienes (realizando previamente una copia de seguridad de los archivos existentes)
 2. Espera a que todas las verificaciones de seguridad se completen
-    - Si aparece el error "OTP Crypto Fail", descarga <font-awesome-icon icon="fa-solid fa-magnet"/> - aeskeydb.bin, colócalo en la carpeta `/boot9strap/` en la tarjeta SD e intenta de nuevo
+    - Si aparece el error "OTP Crypto Fail", descarga <font-awesome-icon icon="fa-solid fa-magnet"/> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce), colócalo en la carpeta `/boot9strap/` en la tarjeta SD e intenta de nuevo
 3. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
     - Si algún paso en la pantalla inferior tiene el texto en color rojo y no se te pide que introduzcas una combinación de botones, [sigue la guía de Resolución de Problemas](troubleshooting#issues-with-safeb9sinstaller)
 

@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Εγκατάσταση του boot9strap (super-skaterhax)
@@ -38,8 +37,7 @@ head:
 
 2. Εισαγάγετε την κάρτα SD στον υπολογιστή σας
 
-3. Αντιγράψτε τα πάντα από το αρχείο `.zip` του Super-skaterhax στη ρίζα της κάρτας SD σας, αντικαθιστώντας τα τυχόν υπάρχοντα αρχεία
-
+3. Αντιγράψτε τα πάντα από το αρχείο `.zip` του Super-skaterhax στη ρίζα της κάρτας SD σας. Εάν υπάρχουν ήδη κάποια από τα αρχεία, αντικαταστήστε τα με τα νέα.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

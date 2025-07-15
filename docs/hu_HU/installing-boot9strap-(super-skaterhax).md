@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Boot9strap telepítése (super-skaterhax)
@@ -38,8 +37,7 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
 
 2. Helyezd az SD kártyád a számítógépbe
 
-3. Másolj át a mindent a uper-skaterhax `.zip`-ből az SD kártyád gyökerébe, felülírva minden már ott lévő fájlt
-
+3. Másolj mindent a Super-skaterhax `.zip`-ből az SD kártya gyökerébe. Írd felül az új fájlokkal a már létező fájlokat, ha már létezne bármelyik.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

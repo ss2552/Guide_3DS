@@ -24,7 +24,7 @@ GodMode9:n on tehokas ohjelma, jolla voit muokata käytännössä mitä tahansa 
 
 ::: info
 
-Jotkin alla olevista ohjeista pätevät vain GodMode9:n viimeisimpään versioon, joten seuraa tämän vaiheen ohjeita päivittääksesi ohjelman ennen kuin jatkat eteenpäin. Korvaa mahdolliset olemassa olevat tiedostot.
+Jotkin alla olevista ohjeista pätevät vain GodMode9:n viimeisimpään versioon, joten seuraa tämän vaiheen ohjeita päivittääksesi ohjelman ennen kuin jatkat eteenpäin. If any of the files exist, overwrite them with the new files.
 
 :::
 

@@ -24,7 +24,7 @@ GodMode9 adalah peranti lunak penuh daya yang mampu memodif apa pun pada konsol.
 
 ::: info
 
-Beberapa instruksi di bawah ini hanya berlaku pada GodMode9 versi terkini, maka bagian memperbarui ini harus diikuti sebelum ke instruksi lain. Timpa juga berkas yang ada.
+Beberapa instruksi di bawah ini hanya berlaku pada GodMode9 versi terkini, maka bagian memperbarui ini harus diikuti sebelum ke instruksi lain. If any of the files exist, overwrite them with the new files.
 
 :::
 

@@ -1,11 +1,10 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/skater-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [ 'script', { src: '/assets/js/skater-link.js' } ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Installing boot9strap (super-skaterhax)
@@ -38,8 +37,7 @@ In this section, you will copy the files needed to trigger both super-skaterhax 
 
 2. Aseta SD-korttisi tietokoneeseesi
 
-3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card, overwriting any existing files
-
+3. Copy everything from the Super-skaterhax `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
     ::: info
 
     ![](/images/screenshots/skaterhax/skater-root-layout.png)

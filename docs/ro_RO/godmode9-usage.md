@@ -24,7 +24,7 @@ GodMode9 este un software puternic care are capacitatea de a modifica, în esen�
 
 ::: info
 
-Unele dintre instrucțiunile de mai jos se aplică doar la ultima versiune de GodMode9, și astfel ar trebui să urmați această secțiune pentru a vă actualiza copia înainte să continuați. Rescrieți orice fișier existent.
+Unele dintre instrucțiunile de mai jos se aplică doar la ultima versiune de GodMode9, și astfel ar trebui să urmați această secțiune pentru a vă actualiza copia înainte să continuați. If any of the files exist, overwrite them with the new files.
 
 :::
 

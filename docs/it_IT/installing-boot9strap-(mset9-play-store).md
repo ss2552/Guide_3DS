@@ -36,7 +36,7 @@ In questa sezione preparerai l'exploit MSET9 creando **temporaneamente** un nuov
 
 1. Inserisci la tua scheda SD nel tuo telefono/tablet/computer
 
-2. Copia tutto il contenuto dell'archivio `.zip` di MSET9 nella directory principale della tua scheda SD, sovrascrivendo tutti i file esistenti:
+2. Copia il contenuto dell'archivio `.zip` di MSET9 nella directory principale della tua scheda SD. Se uno qualsiasi dei file esiste già, sovrascrivilo con i nuovi file:
 
     - Avvia ZArchiver
     - Se richiesto, [consenti a ZArchiver di accedere ai file sulla tua scheda SD](/images/screenshots/mset9/zarchiver-allow.png)

@@ -32,7 +32,7 @@
 
 ::: info
 
-Για όλα τα βήματα αυτής της ενότητας, αντικαταστήστε όλα τα τυχόν υπάρχοντα αρχεία στην κάρτα SD σας.
+Για όλα τα βήματα αυτής της ενότητας, αν κάποια από τα αρχεία υπάρχουν ήδη, αντικαταστήστε τα με τα νέα.
 
 :::
 
@@ -69,7 +69,7 @@
     - Εάν δείτε την οθόνη ρυθμίσεων του Luma αντί του SafeB9SInstaller, πατήστε απλώς το (Start), απενεργοποιήστε το 3DS σας και δοκιμάστε ξανά
     - Εάν λάβετε σφάλμα, δοκιμάστε να χρησιμοποιήσετε μια νέα κάρτα SD ή να διαμορφώσετε την τρέχουσα κάρτα SD σας (δημιουργήστε πρώτα αντίγραφα ασφαλείας για τα υπάρχοντα αρχεία σας)
 2. Περιμένετε μέχρι να ολοκληρωθούν όλοι οι έλεγχοι ασφαλείας
-    - Εάν λάβετε το σφάλμα «OTP Crypto Fail», κάντε λήψη του <font-awesome-icon icon="fa-solid fa-magnet"/> - aeskeydb.bin, τοποθετήστε το στον φάκελο `/boot9strap/` της κάρτας SD σας και δοκιμάστε ξανά
+    - Εάν λάβετε το σφάλμα «OTP Crypto Fail», κάντε λήψη του <font-awesome-icon icon="fa-solid fa-magnet"/> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.lelux.fi%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.loadbt.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.monitorit4.me%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.ololosh.space%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.pomf.se%3a80%2fannounce&tr=udp%3a%2f%2ftracker.srv00.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.theoks.net%3a6969%2fannounce&tr=udp%3a%2f%2fopen.tracker.cl%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce&tr=udp%3a%2f%2ftracker1.bt.moack.co.kr%3a80%2fannounce&tr=udp%3a%2f%2fvibe.sleepyinternetfun.xyz%3a1738%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2f9.rarbg.com%3a2810%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=http%3a%2f%2fopenbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce), τοποθετήστε το στον φάκελο `/boot9strap/` της κάρτας SD σας και δοκιμάστε ξανά
 3. Όταν ζητηθεί, εισαγάγετε τον συνδυασμό πλήκτρων που θα εμφανιστεί στην πάνω οθόνη, ώστε να εγκαταστήσετε το boot9strap
     - Εάν το κείμενο κάποιου βήματος στην κάτω οθόνη έχει κόκκινο χρώμα και δεν σας ζητείται να εισαγάγετε κάποιον συνδυασμό πλήκτρων, [ακολουθήστε αυτόν τον οδηγό επίλυσης προβλημάτων](troubleshooting-a9lh-to-b9s)
 

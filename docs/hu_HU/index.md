@@ -1,9 +1,9 @@
 ---
 layout: home
-title: 3DS Hackelés útmutató
+title: "3DS Hackelés útmutató"
 hero:
-  text: 3DS Hackelés útmutató
-  tagline: Teljes útmutató 3DS (és 2DS) egyedi firmware-hez, a gyári állapottól boot9strap-ig.
+  text: "3DS Hackelés útmutató"
+  tagline: "Teljes útmutató 3DS (és 2DS) egyedi firmware-hez, a gyári állapottól boot9strap-ig."
   image:
     src: /images/home-page-feature.jpg
 ---

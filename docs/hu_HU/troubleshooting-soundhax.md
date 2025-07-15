@@ -1,11 +1,13 @@
 ---
 head:
-  - - script
-    - src: /assets/js/common.js
-  - - script
-    - src: /assets/js/soundhax-frankenfirm-link.js
-  - - script
-    - src: /assets/js/link-common.js
+  [
+    [ 'script', { src: '/assets/js/common.js' } ],
+    [
+        'script',
+        { src: '/assets/js/soundhax-frankenfirm-link.js' }
+      ],
+    [ 'script', { src: '/assets/js/link-common.js' } ]
+  ]
 ---
 
 # Hibaelhárítás (Soundhax)

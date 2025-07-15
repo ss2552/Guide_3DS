@@ -36,7 +36,7 @@ Di bagian ini akan menyiapkan eksploit MSET9 dengan membuat profil HOME Menu bar
 
 1. Sisipkan kartu SD ke ponsel/tablet/komputer
 
-2. Salin semua isi berkas `.zip` MSET9 ke akar kartu SD, timpa berkas yang ada:
+2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files:
 
     - Buka ZArchiver
     - Jika diminta, [izinkan ZArchiver mengakses ke kartu SD](/images/screenshots/mset9/zarchiver-allow.png)
