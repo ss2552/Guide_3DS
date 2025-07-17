@@ -136,7 +136,7 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
     + You should see "Removed trigger file."
 1. Type `5`, then tap Return to remove MSET9
     + You should see "Successfully removed MSET9!"
-1. Press Return to close the MSET9 script
+1. Tap Return to close the MSET9 script
 
 <!--@include: ./_include/luma3ds-installed-note.md -->
 
