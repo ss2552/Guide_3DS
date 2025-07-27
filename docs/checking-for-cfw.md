@@ -15,9 +15,9 @@ If your console has a menuhax-based CFW setup, you should [clear HOME Menu's ext
 ## Instructions
 
 1. Power off your console
-2. Hold the (Select) button
-3. Power on your console while still holding the (Select) button
-4. You should now see a configuration menu of some sort
+1. Hold the (Select) button
+1. Power on your console while still holding the (Select) button
+1. You should now see a configuration menu of some sort
 
 ## What to do next
 
@@ -53,7 +53,6 @@ If you see GodMode9, Decrypt9WIP, Hourglass9, or Luma3DS chainloader, you held (
 
 ::: danger
 
-If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help. \*\*Note\*\*: We are aware that invites are currently disabled for this server and are working to resolve this issue.
+If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 
 :::
-
