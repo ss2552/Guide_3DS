@@ -38,7 +38,6 @@ export default defineConfig({
       next: false
     },
     socialLinks: [
-      { icon: 'discord', link: 'https://discord.gg/MWxPgEp' },
       { icon: 'github', link: 'https://github.com/hacks-guide/Guide_3DS' }
     ]
   },

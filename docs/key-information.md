@@ -169,7 +169,7 @@ If you experience an issue while following this guide, there are many ways that 
 
 + If you have any questions that haven't been answered on this page, their answers might be in the [Pre-Installation FAQ](faq#pre-installation-faq).
 + If you experience an issue while following this guide, you can check the [Troubleshooting](troubleshooting) page for a solution.
-+ If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
++ If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). **Note**: We are aware that invites are currently disabled for this server and are working to resolve this issue.
 
 ::: tip
 
