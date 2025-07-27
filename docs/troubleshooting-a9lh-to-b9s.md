@@ -1,6 +1,6 @@
 # Troubleshooting (A9LH to B9S)
 
-This page offers troubleshooting advice for commonly encountered issues with the "A9LH to B9S" page. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+This page offers troubleshooting advice for commonly encountered issues with the "A9LH to B9S" page. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Issues with SafeB9SInstaller
 <!--@include: ./_include/troubleshooting-sb9si-bin.md -->
