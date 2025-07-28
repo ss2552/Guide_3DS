@@ -41,6 +41,17 @@ In this section, you will copy the files needed to trigger both browserhax and u
 1. Reinsert your SD card into your console
 1. Power on your console
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
 ### Section II - SSLoth
 
 In this section, you will change your Internet connection settings to use a proxy network designed to bypass the browser version check, allowing the browser to function without a system update. This will allow you to access the browser exploit webpage in the next section.
