@@ -14,6 +14,12 @@ This page requires an iPhone or iPad running iOS/iPadOS 14.0 or higher. If you h
 
 :::
 
+::: warning
+
+As iPhones and iPads do not have an SD card slot, you will need an adapter to plug in your SD card to your device (e.g. a Lightning to SD card or USB-C to SD card adapter).
+
+::: 
+
 ## What You Need
 
 * [iSH](https://apps.apple.com/us/app/ish-shell/id1436902243) from App Store
@@ -30,7 +36,7 @@ On this page, you will use the MSET9 script, which is used to trigger MSET9. Whi
 
 In this section, you will prepare the MSET9 exploit by **temporarily** creating a new HOME Menu profile with no user data, and then setting up that profile with only the minimum data required for MSET9 to trigger. Your existing user data will disappear, but will come back when you are finished with this page.
 
-1. Insert your SD card into your iPhone/iPad
+1. Insert your SD card into your iPhone/iPad (using an adapter)
 <!--@include: ./_include/ish-chorus.md -->
     ::: info
 
@@ -62,7 +68,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 1. Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
     + This will not wipe any of your data
 1. Power off your console by pressing the power button then tapping Power Off on the lower screen
-1. Insert your SD card into your iPhone/iPad
+1. Insert your SD card into your iPhone/iPad (using an adapter)
 <!--@include: ./_include/ish-chorus.md -->
 1. Type the number corresponding to your console model and version, then tap Return
     + The screen should change to this and display `Ready`:
@@ -97,7 +103,7 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
 1. **Do not press any buttons or touch the screen**
 1. **With the console STILL ON, and without pressing any buttons or touching the screen**, remove your SD card from your console
     + The menu will refresh and say that no SD card is inserted
-1. Insert your SD card into your iPhone/iPad
+1. Insert your SD card into your iPhone/iPad (using an adapter)
 <!--@include: ./_include/ish-chorus.md -->
 1. Type the number corresponding to your console model and version, then tap Return
 1. In the MSET9 screen, type `3`, then tap Return to inject MSET9
@@ -129,7 +135,7 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
 :::
 
 1. Power off your console
-1. Insert your SD card into your iPhone/iPad
+1. Insert your SD card into your iPhone/iPad (using an adapter)
 <!--@include: ./_include/ish-chorus.md -->
 1. Type the number corresponding to your console model and version, then tap Return
     + The current state should display [Injected](/images/screenshots/mset9/mset9-ish-injected.png)
