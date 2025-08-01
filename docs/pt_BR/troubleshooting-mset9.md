@@ -1,6 +1,6 @@
 # Troubleshooting (MSET9)
 
-Esta página oferece conselhos de solução de problemas para problemas com as páginas "Instalando boot9strap (MSET9)", "Instalando boot9strap (MSET9 CLI)" e "Instalando boot9strap (MSET9 Play Store)". Se você não consegue resolver seu problema com o conselho nesta página, por favor entre no [Nintendo Homebrew no Discord](https://discord.gg/MWxPgEp) e descreva o seu problema, incluindo o que você já tentou.
+Esta página oferece conselhos de solução de problemas para problemas com as páginas "Instalando boot9strap (MSET9)", "Instalando boot9strap (MSET9 CLI)" e "Instalando boot9strap (MSET9 Play Store)". If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## MSET9 (aplicativo / script)
 

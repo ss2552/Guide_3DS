@@ -9,3 +9,9 @@
 9. Másold az `FBI.3dsx` fájlt az SD kártyád `/3ds/` mappájába
 10. Másold a `faketik.3dsx`-et az SD kártyád `/3ds/` mappájába
 11. Tedd vissza az SD kártyád a konzoldba
+
+::: info
+
+![](/images/screenshots/ctrtransfer-root-layout.png)
+
+:::

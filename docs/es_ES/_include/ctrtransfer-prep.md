@@ -9,3 +9,9 @@
 9. Copia `FBI.3dsx` a la carpeta `/3ds/` de tu tarjeta SD
 10. Copia `faketik.3dsx` a la carpeta `/3ds/` en tu tarjeta SD
 11. Reinserta la tarjeta SD en tu consola
+
+::: info
+
+![](/images/screenshots/ctrtransfer-root-layout.png)
+
+:::

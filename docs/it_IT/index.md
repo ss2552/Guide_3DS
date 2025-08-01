@@ -8,6 +8,12 @@ hero:
     src: /images/home-page-feature.jpg
 ---
 
+::: warning
+
+Siamo consapevoli che gli inviti al server Discord Nintendo Homebrew sono attualmente disabilitati e stiamo lavorando per risolvere il problema. Per ricevere supporto, visita il [canale Discord di r/3ds](https://discord.gg/3ds).
+
+:::
+
 ::: info
 
 Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di proseguire.

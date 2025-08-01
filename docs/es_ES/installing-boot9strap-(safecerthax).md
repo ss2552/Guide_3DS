@@ -50,6 +50,18 @@ En esta sección, copiarás los archivos necesarios para activar el exploit safe
 6. Reinserta la tarjeta SD en la consola
 7. Enciende tu consola
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Sección III - Proxy de safecerthax
 
 ::: warning
@@ -84,7 +96,7 @@ En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
     - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-safecerthax)
-2. Una vez completado, presiona (A) para reiniciar tu consola
+2. Once it is complete, press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

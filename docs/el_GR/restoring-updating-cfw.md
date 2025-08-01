@@ -21,6 +21,12 @@
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 Έχει πλέον εγκατασταθεί η πιο πρόσφατη έκδοση του Luma3DS στην κάρτα SD σας και στην εσωτερική μνήμη.
 
 :::

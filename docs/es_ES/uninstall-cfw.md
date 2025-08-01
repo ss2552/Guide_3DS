@@ -17,7 +17,7 @@ Si estás desinstalando CFW porque:
 - Uno de los programas del sistema no funciona
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 
@@ -115,7 +115,7 @@ The purpose of this section is to verify that the console will boot and that cri
 
 ::: danger
 
-If you do NOT boot into the regular 3DS HOME Menu, or System Settings / your keyboard is inaccessible, **DO NOT continue with these instructions**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
+If you do NOT boot into the regular 3DS HOME Menu, or System Settings / your keyboard is inaccessible, **DO NOT continue with these instructions**! Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ Si estás desinstalando CFW porque:
 - Uno de los programas del sistema no funciona
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 

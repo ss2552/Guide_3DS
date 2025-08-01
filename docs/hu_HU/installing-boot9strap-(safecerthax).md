@@ -50,6 +50,18 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a safecerthax exploit ki
 6. Tedd vissza az SD kártyád a konzoldba
 7. Kapcsold be a konzolod
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### III. rész - safecerthax proxy
 
 ::: warning

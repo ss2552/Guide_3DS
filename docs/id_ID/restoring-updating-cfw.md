@@ -21,6 +21,12 @@ Kartu SD harus sudah diformat ke FAT32 untuk mengikuti panduan ini, jika tidak n
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 Luma3DS versi terkini sekarang sudah terpasang di kartu SD dan memori internal.
 
 :::

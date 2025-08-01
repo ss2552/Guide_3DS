@@ -10,7 +10,7 @@
 
 ::: warning
 
-Para seguir esta página se requiere un dispositivo Android o un Chromebook. Si tienes una computadora con Windows, macOS o Linux, sigue [Instalar boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Si no tienes acceso a ninguno de estos dispositivos, deberás utilizar un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Para seguir esta página se requiere un dispositivo Android o un Chromebook. If you have an iPhone or iPad, follow [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) instead. Si tienes una computadora con Windows, macOS o Linux, sigue [Instalar boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Si no tienes acceso a ninguno de estos dispositivos, deberás utilizar un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
@@ -125,8 +125,10 @@ Debes de seguir estas instrucciones de forma **EXACTA**, ¡así que revisa caute
 En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - Si algún paso en la pantalla inferior tiene el texto en color rojo y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-mset9)
-2. Una vez completado, presiona (A) para reiniciar tu consola
+    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

@@ -32,7 +32,7 @@ Panduan ini bisa untuk semua jenis konsol ecer Nintendo 3DS (termasuk 3DS, 3DS X
 
 :::
 
-Mengikuti panduan di sini harus bisa mengunduh berkas dari Internet dan menyalinnya ke kartu SD. Ini termasuk sebagian besar perangkat elektronik, seperti komputer bersistem Windows, macOS, Linux, dan chromeOS (Chromebook), serta ponsel Android. Tergantung perangkat elektronik, mungkin perlu juga adaptor USB ke kartu SD agar perangkat bisa membaca kartu SD.
+Mengikuti panduan di sini harus bisa mengunduh berkas dari Internet dan menyalinnya ke kartu SD. Ini termasuk sebagian besar perangkat elektronik, seperti komputer bersistem Windows, macOS, Linux, dan chromeOS (Chromebook), serta ponsel Android. Depending on your electronic device, you may need to purchase an SD card adapter to allow it to read your SD card.
 
 ::::
 
@@ -168,7 +168,7 @@ Jika ada masalah saat mengikuti panduan ini, ada banyak cara untuk mendapat bant
 
 - Jika punya pertanyaan lain yang belum terjawab di laman ini, mungkin ada di [Perihal Sebelum Pasang](faq#pre-installation-faq).
 - Jika ada isu ketika mengikuti panduan ini, coba ke laman [Sidik Gangguan](troubleshooting) untuk mencari solusi.
-- Jika sumber daya kami di sini kurang membantu, bisa minta bantuan bertemu langsung di [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
 
 ::: tip
 

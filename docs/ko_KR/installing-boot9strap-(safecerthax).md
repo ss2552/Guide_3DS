@@ -50,6 +50,18 @@ safecerthax는 시스템 버전 1.0.0 - 11.14.0가 설치되어 있는 모든 �
 6. SD 카드를 콘솔에 다시 삽입해 주세요
 7. 콘솔의 전원을 켜 주세요
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### 섹션 III - safecerthax 프록시
 
 ::: warning

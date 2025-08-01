@@ -1,6 +1,6 @@
 # 문제 해결 (마무리 단계)
 
-이 페이지는 "마무리 단계" 페이지에서 흔히 일어나는 문제에 관한 해결책을 기재합니다. 만약 이 페이지의 해결책만으로 문제를 해결할 수 없다면, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 들어가서 당신의 문제와 시도한 해결책을 설명해 주세요.
+이 페이지는 "마무리 단계" 페이지에서 흔히 일어나는 문제에 관한 해결책을 기재합니다. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## 마무리 단계에서의 문제
 
@@ -17,7 +17,7 @@
 7. 모바일 핫스팟과 같이, 다른 Wi-Fi로 연결해 주세요
 8. Nintendo 서버가 점검 중일 수 있습니다. 나중에 다시 시도해 주세요
 9. 만약 여전히 오류가 발생한다면, [CTRTransfer](ctrtransfer)를 진행한 후 다시 시도해 주세요
-10. 지원이 필요하면 [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 (영어로) 지원을 요청해 주세요
+10. For further support (in English), join [r/3ds on Discord](https://discord.gg/3ds)
 
 :::
 
@@ -35,7 +35,7 @@
 
 :::details Error #24: SD is write-protected
 
-SD 카드가 [쓰기 금지](/images/sdlock.png) 상태가 아닌지 확인해 주세요. 이 상태가 아님에도 문제가 지속될 경우, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp) 에 연락해 도움을 청하세요.
+SD 카드가 [쓰기 금지](/images/sdlock.png) 상태가 아닌지 확인해 주세요. If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ SD 카드의 용량이 충분하다면, SD 카드가 손상되었거나 불량�
 
 :::details Error #12: Copy (file).db fail
 
-SD 카드가 [쓰기 금지](/images/sdlock.png) 상태가 아닌지 확인해 주세요. 이 상태가 아님에도 문제가 지속될 경우, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp) 에 연락해 도움을 청하세요.
+SD 카드가 [쓰기 금지](/images/sdlock.png) 상태가 아닌지 확인해 주세요. If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 

@@ -1,6 +1,6 @@
 # Troubleshooting (safecerthax)
 
-Esta página oferece recursos de solução de problemas para problemas com a página "Instalando boot9strap (safecerthax)". Se você não consegue resolver seu problema com o conselho nesta página, por favor entre no [Nintendo Homebrew no Discord](https://discord.gg/MWxPgEp) e descreva o seu problema, incluindo o que você já tentou.
+Esta página oferece recursos de solução de problemas para problemas com a página "Instalando boot9strap (safecerthax)". If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Problemas com o SafeB9SInstaller
 

@@ -21,6 +21,12 @@
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 此时 Luma3DS 已经复制到主机的内部存储中。现在你的主机能够在不插 SD 卡的情况下开机了。
 
 :::

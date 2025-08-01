@@ -1,6 +1,6 @@
 # Troubleshooting (Updating B9S)
 
-This page offers troubleshooting advice for commonly encountered issues with the "Updating B9S" page. Als je je probleem niet kunt oplossen met het advies op deze pagina, neem dan deel aan [Nintendo Homebrew op Discord](https://discord.gg/MWxPgEp) en beschrijf je probleem, inclusief wat je al hebt geprobeerd.
+This page offers troubleshooting advice for commonly encountered issues with the "Updating B9S" page. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Issues with SafeB9SInstaller
 

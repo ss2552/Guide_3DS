@@ -4,7 +4,7 @@ Kami senang Anda ingin bersumbangsih untuk 3ds.hacks.guide! Berikut cara-cara ya
 
 ## Pemeliharaan
 
-Panduan ini bersumber terbuka - repositori tersedia di [sini](https://github.com/hacks-guide/Guide_3DS). Jika ada yang salah di panduan ini, buat saja _issue_ agar kami tahu, atau buat _pull request_ untuk melakukan sendiri apa yang perlu diubah. Bisa juga mengobrol dengan kami dalam saluran #guide-meta di [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+Panduan ini bersumber terbuka - repositori tersedia di [sini](https://github.com/hacks-guide/Guide_3DS). Jika ada yang salah di panduan ini, buat saja _issue_ agar kami tahu, atau buat _pull request_ untuk melakukan sendiri apa yang perlu diubah.
 
 ## Penerjemahan
 

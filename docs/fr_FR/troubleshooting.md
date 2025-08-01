@@ -2,7 +2,7 @@
 
 This page serves a landing page for troubleshooting resources that we offer for commonly encountered issues. Click on the link corresponding to the page you are following to explore it.
 
-If you're unable to fix your issue, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). If your issue is missing and you know the solution, [let us know!](https://github.com/hacks-guide/Guide_3DS/issues)
+If you're unable to fix your issue, ask for help at [r/3ds on Discord](https://discord.gg/3ds). If your issue is missing and you know the solution, [let us know!](https://github.com/hacks-guide/Guide_3DS/issues)
 
 ::: tip
 

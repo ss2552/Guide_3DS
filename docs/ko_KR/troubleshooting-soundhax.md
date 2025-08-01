@@ -12,7 +12,7 @@ head:
 
 # 문제 해결 (Soundhax)
 
-이 페이지는 1.0.0에서 11.3.0 버전 사이에 쓰이는 방법인 "boot9strap 설치 (Soundhax)" 페이지의 주요 해결 방법을 다루고 있습니다. 만약 이 페이지의 해결책만으로 문제를 해결할 수 없다면, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 들어가서 당신의 문제와 시도한 해결책을 설명해 주세요.
+이 페이지는 1.0.0에서 11.3.0 버전 사이에 쓰이는 방법인 "boot9strap 설치 (Soundhax)" 페이지의 주요 해결 방법을 다루고 있습니다. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Soundhax의 주요 문제
 
@@ -32,7 +32,7 @@ head:
 
 여전히 문제가 해결되지 않고, 구형 3DS/구형 3DS XL/구형 2DS를 사용 중이라면 카트리지 업데이트와 관련된 문제가 발생된 것일 수 있습니다. 시스템 버전을 다시 한 번 살펴보세요. 만약 문자 앞의 번호가 4 이하라면 (예. 11.3.4-**4**U), SD 카드 루트에 있는 Soundhax 파일을 [여기](http://soundhax.686178.xyz/frankenfirm.html?crash)의 파일로 교체해 주세요.
 
-모든 방법을 시도해도 문제가 해결되지 않는다면, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 오셔서 도움을 요청하세요.
+If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 
@@ -42,7 +42,7 @@ head:
 
 여전히 문제가 해결되지 않고, 구형 3DS/구형 3DS XL/구형 2DS를 사용 중이라면 카트리지 업데이트와 관련된 문제가 발생된 것일 수 있습니다. 시스템 버전을 다시 한 번 살펴보세요. 만약 문자 앞의 번호가 3 이하라면 (예. 11.3.0-**0**U), SD 카드 루트에 있는 Soundhax 파일을 [여기](http://soundhax.686178.xyz/frankenfirm.html?unplayable)의 파일로 교체해 주세요.
 
-모든 방법을 시도해도 문제가 해결되지 않는다면, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 오셔서 도움을 요청하세요.
+If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 

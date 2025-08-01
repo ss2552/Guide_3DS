@@ -17,7 +17,7 @@ Ha azért távolítod el a CFW-t, mert:
 - Valamelyik rendszer alkalmazásod hibás
 - A konzolod nem tud bebootolni a HOME Menübe
 
-<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) a [Nintendo Homebrew Discord szerveren](https://discord.gg/MWxPgEp).
+<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) az [r/3ds Discord szerveren](https://discord.gg/3ds).
 
 :::
 
@@ -115,7 +115,7 @@ Ennek a résznek az a célja, hogy ellenőrizd, hogy a konzolod be fog-e bootoln
 
 ::: danger
 
-Ha NEM sikerül a hagyományos 3DS HOME Menübe bootolni, vagy a System Settings / billentyűzet nem elérhető, **NE FOLYTASD ezeket a lépéseket**! Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához, és kérj segítséget (angol nyelven) valakitől.
+Ha NEM sikerül a hagyományos 3DS HOME Menübe bootolni, vagy a System Settings / billentyűzet nem elérhető, **NE FOLYTASD ezeket a lépéseket**! Csatlakozz az [r/3ds Discord csatornához](https://discord.gg/3ds), és kérj segítséget (angol nyelven) valakitől.
 
 :::
 
@@ -196,7 +196,7 @@ Ha azért távolítod el a CFW-t, mert:
 - Valamelyik rendszer alkalmazásod hibás
 - A konzolod nem tud bebootolni a HOME Menübe
 
-<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) a [Nintendo Homebrew Discord szerveren](https://discord.gg/MWxPgEp).
+<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) az [r/3ds Discord szerveren](https://discord.gg/3ds).
 
 :::
 

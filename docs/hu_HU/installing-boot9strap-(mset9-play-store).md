@@ -10,7 +10,7 @@ Az [MSET9](https://github.com/zoogie/MSET9) egy exploit a System Setting alkalma
 
 ::: warning
 
-Ez az oldal Android telefont/tabletet vagy Chromebook-ot igényel. Ha Windows, macOS, or Linux számítógéped van, kövesd a [Boot9strap telepítése (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) oldalt helyette. Ha nem férsz hozzá ezen eszközök egyikéhez sem, akkor [alternatív exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits) kell használnod.
+Ez az oldal Android telefont/tabletet vagy Chromebook-ot igényel. Ha iPhone vagy iPad készüléked van, kövesd a [Boot9strap telepítése (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) oldalt helyette. Ha Windows, macOS, or Linux számítógéped van, kövesd a [Boot9strap telepítése (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) oldalt helyette. Ha nem férsz hozzá ezen eszközök egyikéhez sem, akkor [alternatív exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits) kell használnod.
 
 :::
 
@@ -125,8 +125,10 @@ Ezeket a lépéseket **PONTOSAN** kell követni, így ellenőrizz MINDENT kétsz
 Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.
 
 1. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
-    - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-mset9)
-2. Ha ez elkészült, nyomd meg az (A) gombot a konzolod újraindításához
+    - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+    - Ha felső képernyő üres **és** látod a "Crypto Status - all checks passed" üzenetet az alső képernyőn, akkor vakon be kell vinned egy billentyű kombinációt. A konzolodon nyomd meg a következő gombokat ebben a sorrendben:
+        - D-Pad Bal, D-Pad Le, D-Pad Jobb, D-Pad Fel, A
+2. Ha ez elkészült (mind a hét lépés zöld az alsó képernyőn), nyomd meg az (A) gombot a konzolod újraindításához
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

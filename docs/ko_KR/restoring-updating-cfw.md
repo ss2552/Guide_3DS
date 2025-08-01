@@ -21,6 +21,12 @@
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 최신 버전의 Luma3DS가 SD 카드의 내장 메모리로 설치되었습니다.
 
 :::

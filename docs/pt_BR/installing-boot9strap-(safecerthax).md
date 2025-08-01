@@ -50,6 +50,18 @@ Nesta seção, você irá copiar os arquivos necessários para acionar o exploit
 6. Reinsira o cartão SD no seu console
 7. Ligue o seu console
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Seção III - Proxy do safecerthax
 
 ::: warning

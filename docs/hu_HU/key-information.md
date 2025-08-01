@@ -32,7 +32,7 @@ Ez az útmutató minden kereskedelmi konzollal működik a Nintendo 3DS konzol c
 
 :::
 
-A legtöbb esetben követheted ezt az útmutatót egészen addig, amíg képes vagy letölteni fájlokat az internetről és SD kártyára másolni. Ez magába foglalja a legtöbb elektronikus eszközt, mint például a Windows, macOS, Linux vagy chromeOS (Chromebooks) operációs rendszert futtató számítógépeket, továbbá az Android telefonokat. Az elektronikus eszközödtől függően szükséged lehet egy USB-SD kárya adapterre, ami lehetővé teszi, hogy olvassa az SD kártyádat.
+A legtöbb esetben követheted ezt az útmutatót egészen addig, amíg képes vagy letölteni fájlokat az internetről és SD kártyára másolni. Ez magába foglalja a legtöbb elektronikus eszközt, mint például a Windows, macOS, Linux vagy chromeOS (Chromebooks) operációs rendszert futtató számítógépeket, továbbá az Android telefonokat. Az elektronikus eszközödtől függően szükséged lehet egy SD kárya adapterre, ami lehetővé teszi, hogy olvassa az SD kártyádat.
 
 ::::
 
@@ -168,7 +168,7 @@ Ha problémád van ezen útmutató követésével, többféle módja van, hogy s
 
 - Ha olyan kérdésed van, amit nem válaszolt meg az az oldal, akkor a válaszaid lehet, hogy a [Telepítés előtti gyakran ismételt kérdések](faq#pre-installation-faq) oldalon találhatók.
 - Ha hibát kaptál a útmutató követése közben, ránézhetsz a [Hibaelhárítás](troubleshooting) oldalra a megoldásért.
-- Ha az itt található információk nem segítenek egy-egy támogatást kaphatsz a [Nintendo Homebrew Discord csatornán](https://discord.gg/MWxPgEp).
+- Ha az itt található információk nem segítenek egy-egy támogatást kaphatsz az [r/3ds Discord csatornán](https://discord.gg/3ds).
 
 ::: tip
 

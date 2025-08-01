@@ -32,7 +32,7 @@
 
 :::
 
-대부분의 경우, 인터넷에서 파일을 다운로드 하고 SD 카드에 옮길 수 있어야만 이용 가능합니다. 여기에는 Windows, macOS, 그리고 chromeOS (Chromebook)을 실행하는 컴퓨터와 안드로이드 폰 등의 대부분의 소비자용 전자 기기가 포함됩니다. 본인의 전자기기가 무엇인지에 따라서 SD 카드를 읽기 위해 USB->SD 카드 어댑터를 구매해야 할 수도 있습니다.
+대부분의 경우, 인터넷에서 파일을 다운로드 하고 SD 카드에 옮길 수 있어야만 이용 가능합니다. 여기에는 Windows, macOS, 그리고 chromeOS (Chromebook)을 실행하는 컴퓨터와 안드로이드 폰 등의 대부분의 소비자용 전자 기기가 포함됩니다. Depending on your electronic device, you may need to purchase an SD card adapter to allow it to read your SD card.
 
 ::::
 
@@ -168,7 +168,7 @@ Windows 애플리케이션 "WinRAR"는 특히 3DS 커스텀 펌웨어 설치 취
 
 - 만약 이 페이지에 없는 것에 대한 질문이 있다면, [설치 전 자주 묻는 질문](faq#설치-전-자주-묻는-질문)에서 찾을 수 있습니다.
 - 만약 이 가이드를 따라가다 문제를 겪게 되었다면, [문제 해결](troubleshooting) 페이지에서 해결 방법을 찾아볼 수 있습니다.
-- 제공해드리는 정보들이 딱히 도움이 되지 않는다면, [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에서 (영어로) 1:1 지원을 요청할 수 있습니다.
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
 
 ::: tip
 

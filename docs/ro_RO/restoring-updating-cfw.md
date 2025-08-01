@@ -21,6 +21,12 @@ Your SD card must be formatted as FAT32 to follow this guide, or else the 3DS wi
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 The latest version of Luma3DS has now been installed on your SD card and on internal memory.
 
 :::

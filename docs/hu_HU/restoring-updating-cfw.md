@@ -21,6 +21,12 @@ Az SD kártyád FAT32-re kell legyen formázva, hogy követhesd ezt az útmutat�
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 A Luma3DS legfrissebb verziója most már telepítésre került az SD kártyára és a belső memóriába.
 
 :::

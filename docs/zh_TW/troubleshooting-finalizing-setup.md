@@ -1,6 +1,6 @@
 # Troubleshooting (Finalizing Setup)
 
-This page offers troubleshooting advice for commonly encountered issues with the "Finalizing Setup" page. 如果您無法透過本頁解決你的問題，請加入 [Discord 上的 Nintendo Homebrew 伺服器](https://discord.gg/MWxPgEp)，並以英文敘述你的問題，以及您已經嘗試過的步驟。
+This page offers troubleshooting advice for commonly encountered issues with the "Finalizing Setup" page. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Issues with Finalizing Setup
 
@@ -17,7 +17,7 @@ This page offers troubleshooting advice for commonly encountered issues with the
 7. 試著使用其他 WiFi 連線，比如手機的 WiFi 熱點
 8. 任天堂伺服器目前可能臨時下線，請稍後再試
 9. 如果錯誤持續，請進行 [CTRTransfer](ctrtransfer)，並再試一次
-10. 請至 [Discord 的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器中尋求協助 (英文)。
+10. For further support (in English), join [r/3ds on Discord](https://discord.gg/3ds)
 
 :::
 
@@ -35,7 +35,7 @@ The file `finalize.romfs` was placed in the wrong location instead of root of SD
 
 :::details Error #24: SD is write-protected
 
-Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ If you have enough space on your SD card, your SD might be corrupted or faulty. 
 
 :::details Error #12: Copy (file).db fail
 
-Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 

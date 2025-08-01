@@ -10,7 +10,7 @@
 
 ::: warning
 
-이 방법은 Windows OS, Linux, 혹은 macOS를 사용하는 컴퓨터가 필요합니다. 안드로이드 폰, 태블릿, 혹은 크롬북을 가지고 있을 경우, [boot9strap 설치 (MSET9 Play 스토어)](installing-boot9strap-\(mset9-play-store\))를 참조해 주세요. 만약 이 장비들 중 하나도 사용할 수 없는 상황이라면, [다른 취약점](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits)을 사용해야 할 수 있습니다.
+이 방법은 Windows OS, Linux, 혹은 macOS를 사용하는 컴퓨터가 필요합니다. 안드로이드 폰, 태블릿, 혹은 크롬북을 가지고 있을 경우, [boot9strap 설치 (MSET9 Play 스토어)](installing-boot9strap-\(mset9-play-store\))를 참조해 주세요. If you have an iPhone or iPad, follow [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) instead. 만약 이 장비들 중 하나도 사용할 수 없는 상황이라면, [다른 취약점](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits)을 사용해야 할 수 있습니다.
 
 :::
 
@@ -132,8 +132,10 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 이 섹션에서는, 커스텀 펌웨어를 설치할 것입니다.
 
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-    - 하단 화면의 단계가 붉은색 글자로 표시되고 키 조합 입력을 요구하지 않는다면, [이 문제 해결 가이드를 참고해주세요](troubleshooting-mset9)
-2. 작업이 완료되면, (A) 를 눌려 콘솔을 재부팅해 주세요
+    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

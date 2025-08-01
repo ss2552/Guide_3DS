@@ -41,6 +41,18 @@ Nesta seção, você irá copiar os arquivos necessários para acionar ambos bro
 8. Reinsira o cartão SD no seu console
 9. Ligue o seu console
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Seção II - SSLoth
 
 Nesta seção, você vai alterar suas configurações de conexão Internet para usar uma rede proxy criada para ignorar a verificação da versão do navegador, permitindo que o navegador funcione sem uma atualização do sistema. Isso permitirá que você acesse a página de exploit do navegador na próxima seção.

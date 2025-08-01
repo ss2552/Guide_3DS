@@ -27,7 +27,7 @@ head:
 
 ### Τι χρειάζεστε
 
-- Το αρχείο zip του [Super-skaterhax](https://skater.nintendohomebrew.com) για την περιοχή και την έκδοση συστήματος της κονσόλας σας
+- Το αρχείο `.zip` του [Super-skaterhax](https://skater.nintendohomebrew.com) για την περιοχή και την έκδοση συστήματος της κονσόλας σας
 
 #### Ενότητα I - Προετοιμασία
 
@@ -58,14 +58,14 @@ head:
     - Εάν λάβετε μια [προειδοποίηση](/images/screenshots/skaterhax/country-change-notice.png) που δηλώνει ότι θα χάσετε την πρόσβαση στις λειτουργίες του Nintendo Network ID, μπορείτε να επιλέξετε με ασφάλεια το «OK» για να συνεχίσετε
 
 9. Χρησιμοποιήστε τις εξής επιλογές σύμφωνα με την περιοχή της κονσόλας σας ([εικόνα](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: Επιλέξτε πρώτα «United States» και έπειτα, «Do Not Set»
+    - EUR: Επιλέξτε πρώτα «United Kingdom» και έπειτα, «Do Not Set»
+    - JPN: Επιλέξτε πρώτα «日本» και έπειτα, «設定しない»
+    - KOR: Επιλέξτε πρώτα «대한민국» και έπειτα, «설정하지 않음»
 
 10. Μεταβείτε στο «Date & Time»
 
-11. Ορίστε τα «Today's Date» και «Current Time» στην τρέχουσα ημερομηνία και ώρα της ζώνης ώρας σας
+11. Ρυθμίστε τις επιλογές «Today's Date» και «Current Time» στην τρέχουσα ημερομηνία και ώρα, αντίστοιχα
 
 12. Κλείστε την εφαρμογή «System Settings»
 

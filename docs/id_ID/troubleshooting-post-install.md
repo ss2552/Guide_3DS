@@ -1,6 +1,6 @@
 # Sidik Gangguan (Setelah Pasang)
 
-Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui setelah _custom firmware_ dipasang. Jika saran dari laman ini tidak menyelesaikan isu, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) dan jelaskan isunya, termasuk apa yang sudah dicoba.
+Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui setelah _custom firmware_ dipasang. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Isu awal nyala
 
@@ -49,7 +49,7 @@ Langkah di bawah ini bisa dicoba dari urutan mana saja, diurutkan dari instruksi
     - Nyalakan daya konsol
     - Jika berhasil, konsol akan menyala ke layar "update your system"
 5. Ikuti panduan [CTRTransfer](ctrtransfer)
-6. Untuk bantuan lebih lanjut, minta di [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp)
+6. For further support, ask for help at [r/3ds on Discord](https://discord.gg/3ds)
 
 :::
 
@@ -88,13 +88,13 @@ Jika seperti itu, coba langkah di bawah ini; diurut dari yang termudah ke tersus
 2. Matikan daya konsol, lepas kartu SD, sisipkan ke komputer Anda, unduh versi terkini dari [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), lalu ekstrak `boot.firm` dari `Luma3DS.zip` dan taruh di akar kartu SD (timpa berkas yang ada)
 3. Matikan daya konsol, lepas kartu SD, sisipkan ke komputer Anda dan format ulang kartu SD sesuai OS komputer: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(ini akan mengosongkan data kartu SD)_
 4. Uji kegalatan di kartu SD dengan mengikuti panduan sesuai OS komputer: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). Jika kartu SD disebut "faulty", berarti harus mengganti kartu SD
-5. Slot kartu SD mungkin rusak. Gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan lanjut
+5. Slot kartu SD mungkin rusak. Join [r/3ds on Discord](https://discord.gg/3ds) for further assistance
 
 :::
 
 :::details Layar biru "BOOTROM ERROR"
 
-Konsol kemungkinan matot fisik (_hard-brick_). Berarti harus beli _flashcart_ ntrboot untuk memasang ulang boot9strap dan memperbaiki konsol. Mungkin ini bisa juga rusak fisik tak bisa diperbaiki. Apa pun itu, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan.
+Konsol kemungkinan matot fisik (_hard-brick_). Berarti harus beli _flashcart_ ntrboot untuk memasang ulang boot9strap dan memperbaiki konsol. Mungkin ini bisa juga rusak fisik tak bisa diperbaiki. In any case, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 - Ini bisa jadi hanya layar _splash_ awal nyala yang sengaja diatur seperti kena matot (_brick_). Coba biarkan konsol menyala lima menit, tunggu _splash_ layar biru selesai.
 
@@ -102,7 +102,7 @@ Konsol kemungkinan matot fisik (_hard-brick_). Berarti harus beli _flashcart_ nt
 
 :::details Untuk galat lain
 
-Coba fotokan galatnya dan gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan.
+Please take a photo of the error and join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 
@@ -140,7 +140,7 @@ Ini bisa terjadi setelah CTRTransfer atau mengubah daerah Old 3DS / 2DS. Follow 
 :::details Ada galat pengecualian saat memuat/buka aplikasi
 
 Cari maksud layar pengecualian di [laman ini](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-Jika tidak ketemu maksud galat atau instruksi tidak berhasil, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan lanjut.
+If you weren't able to find your error or the instructions didn't work, join [r/3ds on Discord](https://discord.gg/3ds) for further assistance.
 
 :::
 
@@ -152,7 +152,7 @@ Konsol kemungkinan masih terpasang menuhax67. Untuk mencopot menuhax67, unduh ve
 
 :::details Untuk hal lain
 
-Gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan, dan jelaskan isu yang muncul.
+Join [r/3ds on Discord](https://discord.gg/3ds) for assistance, and describe the issue that you see.
 
 :::
 

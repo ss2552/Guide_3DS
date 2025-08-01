@@ -41,6 +41,18 @@ SSLoth 允许目前系统版本在 11.13.0 及其以下的主机绕过浏览器�
 8. Reinsert your SD card into your console
 9. Power on your console
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Section II - SSLoth
 
 本节中，你将更改主机的网络连接设置，设置一个代理服务器来绕过浏览器的版本检查，允许浏览器在系统没有更新至最新的情况下运行。 这将让你能够在下一步中访问浏览器漏洞页面。

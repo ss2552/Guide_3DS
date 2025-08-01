@@ -32,7 +32,7 @@ Ce guide fonctionne avec toutes les consoles commerciales de la famille Nintendo
 
 :::
 
-Dans la plupart des cas, vous pouvez suivre ce guide tant que vous avez la possibilité de télécharger des fichiers depuis Internet et de les copier sur votre carte SD. This includes most consumer electronic devices, such as computers running Windows, macOS, Linux, and chromeOS (Chromebooks), as well as Android phones. Depending on your electronic device, you may need to purchase a USB to SD card adapter to allow it to read your SD card.
+Dans la plupart des cas, vous pouvez suivre ce guide tant que vous avez la possibilité de télécharger des fichiers depuis Internet et de les copier sur votre carte SD. This includes most consumer electronic devices, such as computers running Windows, macOS, Linux, and chromeOS (Chromebooks), as well as Android phones. Depending on your electronic device, you may need to purchase an SD card adapter to allow it to read your SD card.
 
 ::::
 
@@ -168,7 +168,7 @@ Si vous rencontrez un problème en suivant ce guide, vous pouvez obtenir de l'ai
 
 - Si vous avez des questions qui n'ont pas reçu de réponse sur cette page, leurs réponses peuvent être dans la [FAQ Pré-installation](faq#pre-installation-faq).
 - Si vous rencontrez un problème en suivant ce guide, vous pouvez consulter la page de [Dépannage](troubleshooting) pour trouver une solution.
-- Si les ressources que nous vous avons fournies ici ne vous ont pas aidées, vous pouvez obtenir une assistance individuelle sur [Nintendo Homebrew sur Discord](https://discord.gg/MWxPgEp).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
 
 ::: tip
 

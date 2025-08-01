@@ -27,7 +27,7 @@ Erről az expliotról ismert, hogy inkonzisztens: működik egyeseknek, de nem m
 
 ### Amire szükséged lesz
 
-- A [Super-skaterhax](https://skater.nintendohomebrew.com) zip konzolod verziójának és régiójának megfelelő változata
+- A [Super-skaterhax](https://skater.nintendohomebrew.com) `.zip` konzolod verziójának és régiójának megfelelő változata
 
 #### I. rész - Előkészületek
 
@@ -58,14 +58,14 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a super-skaterhax és a 
     - Ha egy [warning](/images/screenshots/skaterhax/country-change-notice.png)-ot kapsz, amit azt mondja, hogy el fogod veszíteni a a hozzáférést a Nintendo Network ID funkciókhoz, akkor biztonságosan kiválaszthatod az OK-t a folytatáshoz
 
 9. Válaszd ki a következő opciókat a konzolod régiójának megfelelően ([kép](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: Először válaszd a United States opciót majd a Do Not Set opciót
+    - EUR: Először válaszd a United Kingdom opciót majd a Do Not Set opciót
+    - JPN: Először válaszd a 日本 opciót majd válaszd az 設定しない opciót
+    - JPN: Először válaszd a 대한민국 opciót majd válaszd az 설정하지 않음 opciót
 
 10. Navigálj a "Date & Time"-hoz
 
-11. Állítsd be a "Today's Date"-t és a "Current Time"-ot az időzónád aktuális dátumára és idejére
+11. Állítsd be a "Today's Date"-t és a "Current Time"-ot az aktuális dátumra és időre
 
 12. Lépj ki a System Settings-ből
 

@@ -41,6 +41,18 @@ SSLoth는 시스템 버전 11.13.0 및 이전 버전에 있는 사용자가 브�
 8. SD 카드를 콘솔에 다시 삽입해 주세요
 9. 콘솔의 전원을 켜 주세요
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### 섹션 II - SSLoth
 
 이 섹션에서는, 브라우저가 시스템 업데이트 없이도 정상 작동할 수 있도록, 인터넷 연결 설정을 프록시 네트워크를 이용하게 변경하게 됩니다. 이렇게 하면 다음 섹션에서 브라우저 익스플로잇에 접근할 수 있게 됩니다.

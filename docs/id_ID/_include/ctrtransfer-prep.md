@@ -9,3 +9,9 @@
 9. Salin `FBI.3dsx` ke folder `/3ds/` di kartu SD
 10. Salin `faketik.3dsx` ke folder `/3ds/` di kartu SD
 11. Sisip kembali kartu SD ke konsol
+
+::: info
+
+![](/images/screenshots/ctrtransfer-root-layout.png)
+
+:::

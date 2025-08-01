@@ -41,6 +41,18 @@ In questa sezione copierai i file necessari per attivare sia browserhax che univ
 8. Reinserisci la scheda SD nella tua console
 9. Accendi la tua console
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Sezione II - SSLoth
 
 In questa sezione cambierai le impostazioni di collegamento ad Internet per utilizzare una rete proxy progettata per aggirare il controllo della versione del browser, permettendo al browser di funzionare senza un aggiornamento di sistema. Questo ti permetterà di accedere alla pagina web dell'exploit del browser nella prossima sezione.

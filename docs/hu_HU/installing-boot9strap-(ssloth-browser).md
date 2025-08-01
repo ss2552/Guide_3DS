@@ -41,6 +41,18 @@ Ebben a fejezetben fel fogod másolni a fájlokat, amik a browserhax és az univ
 8. Tedd vissza az SD kártyád a konzoldba
 9. Kapcsold be a konzolod
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### II. rész - SSLoth
 
 Ebben a fejezetben módosítani fogod az Internet kapcsolat beállításokat hogy egy proxy hálózatot használj, ami úgy lett megtervezve, hogy kikerülje a browser verzió ellenőrzést, lehetővé téve a browser műlödését rendszer frissítés nélkül. Ez lehetővé teszi, hogy hozzáférj a browser exploit weboldalhoz a következő fejezetben.

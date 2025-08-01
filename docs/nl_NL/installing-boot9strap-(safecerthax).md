@@ -50,6 +50,18 @@ In this section, you will copy the files needed to trigger the safecerthax explo
 6. Stop je SD-kaart terug in je console
 7. Zet je console aan
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Section III - safecerthax proxy
 
 ::: warning

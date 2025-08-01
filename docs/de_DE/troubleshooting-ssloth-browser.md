@@ -1,6 +1,6 @@
 # Troubleshooting (SSLoth-Browser)
 
-This page offers troubleshooting advice for commonly encountered issues with the "Installing boot9strap (SSLoth-Browser)" page, which is used on system versions between 11.4.0 and 11.13.0. Wenn diese Seite das Problem nicht lösen kann, tritt bitte [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) und beschreibe dein Problem, zusätzlich mit dem, was du schon versucht hast.
+This page offers troubleshooting advice for commonly encountered issues with the "Installing boot9strap (SSLoth-Browser)" page, which is used on system versions between 11.4.0 and 11.13.0. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ::: warning
 

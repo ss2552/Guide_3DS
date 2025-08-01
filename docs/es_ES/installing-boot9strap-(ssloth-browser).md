@@ -41,6 +41,18 @@ In this section, you will copy the files needed to trigger both browserhax and u
 8. Reinserta la tarjeta SD en la consola
 9. Enciende tu consola
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Section II - SSLoth
 
 In this section, you will change your Internet connection settings to use a proxy network designed to bypass the browser version check, allowing the browser to function without a system update. This will allow you to access the browser exploit webpage in the next section.
@@ -78,7 +90,7 @@ En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
     - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
-2. Una vez completado, presiona (A) para reiniciar tu consola
+2. Once it is complete, press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

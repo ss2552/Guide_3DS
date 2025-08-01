@@ -21,6 +21,12 @@ La scheda SD deve essere formattata come FAT32 per seguire questa guida, altrime
 
 ::: info
 
+![](/images/screenshots/restoringcfw-root-layout.png)
+
+:::
+
+::: info
+
 La versione più recente di Luma3DS è ora installata sulla scheda SD e nella memoria interna.
 
 :::

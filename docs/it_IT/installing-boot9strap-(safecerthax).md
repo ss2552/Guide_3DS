@@ -50,6 +50,18 @@ In questa sezione copierai i file necessari per attivare l'exploit safecerthax.
 6. Reinserisci la scheda SD nella tua console
 7. Accendi la tua console
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Sezione III - safecerthax proxy
 
 ::: warning

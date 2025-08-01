@@ -10,7 +10,7 @@
 
 ::: warning
 
-This page requires an Android phone/tablet or a Chromebook. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+This page requires an Android phone/tablet or a Chromebook. If you have an iPhone or iPad, follow [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)) instead. If you have a computer running Windows, macOS, or Linux, follow [Installing boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)) instead. If you do not have access to any of these devices, you will need to use an [alternate exploit](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
@@ -125,8 +125,10 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
 In this section, you will install custom firmware onto your console.
 
 1. When prompted, input the key combo given on the top screen to install boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9)
-2. Once it is complete, press (A) to reboot your console
+    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

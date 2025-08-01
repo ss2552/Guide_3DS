@@ -58,14 +58,14 @@ In questa sezione copierai i file necessari per attivare sia super-skaterhax che
     - Se ottieni un [avviso](/images/screenshots/skaterhax/country-change-notice.png) che dice che perderai l'accesso alle funzionalità di Nintendo Network ID, puoi tranquillamente selezionare OK per continuare
 
 9. Seleziona le seguenti opzioni in base alla regione della tua console ([immagine](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: Seleziona prima United States, poi Do Not Set
+    - EUR: Seleziona prima United Kingdom, poi Do Not Set
+    - JPN: Seleziona prima 日本, poi 設定しない
+    - KOR: Seleziona prima 대한민국, poi 설정하지 않음
 
 10. Vai a "Data e ora"
 
-11. Imposta "Data" e "Ora" alla data e ora correnti nel tuo fuso orario
+11. Imposta "Data" e "Ora" alla data e ora correnti
 
 12. Esci dalle Impostazioni della console
 

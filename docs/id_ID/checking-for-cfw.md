@@ -53,6 +53,6 @@ Jika muncul GodMode9, Decrypt9WIP, Hourglass9, atau Luma3DS chainloader, berarti
 
 ::: danger
 
-Jika sekiranya ada yang tidak dijelaskan di atas, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) dan tanyakan dalam bahasa Inggris.
+If you see something not described by the above options, join [r/3ds on Discord](https://discord.gg/3ds) and ask, in English, for help.
 
 :::

@@ -4,7 +4,7 @@
 
 ## Mantenimiento
 
-Esta guía es de código abierto; nuestro repositorio está disponible [aquí](https://github.com/hacks-guide/Guide_3DS). Si has notado un problema en esta guía, puedes abrir un hilo allí para hacérnoslo saber, o hacer un pull request para proponer los cambios necesarios tú mismo. También puedes hablar con nosotros en el canal #guide-meta en [el Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp) (en inglés).
+Esta guía es de código abierto; nuestro repositorio está disponible [aquí](https://github.com/hacks-guide/Guide_3DS). Si has notado un problema en esta guía, puedes abrir un hilo allí para hacérnoslo saber, o hacer un pull request para proponer los cambios necesarios tú mismo.
 
 ## Traducciones
 

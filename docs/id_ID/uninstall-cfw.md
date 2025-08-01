@@ -17,7 +17,7 @@ Jika berniat mencopot CFW karena:
 - Ada aplikasi sistem yang kacau
 - Konsol tidak bisa di-_boot_ ke HOME Menu
 
-<u>JANGAN!!!!</u> Mencopot _custom firmware_ hanya menambah risiko tidak penting atau parahnya <u>**KONSOL BISA MATOT**</u> (_brick_). Sebaiknya minta bantuan di [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+<u>JANGAN!!!!</u> Mencopot _custom firmware_ hanya menambah risiko tidak penting atau parahnya <u>**KONSOL BISA MATOT**</u> (_brick_). A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 
@@ -115,7 +115,7 @@ Tujuan dari bagian ini untuk memastikan konsol bisa menyala sesudah mencopot CFW
 
 ::: danger
 
-Jika TIDAK masuk ke HOME Menu 3DS biasa, atau System Settings / papan ketik tidak bisa diakses, **DILARANG lanjutkan panduan ini**! Gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) dan minta bantuan di sana dalam bahasa Inggris.
+Jika TIDAK masuk ke HOME Menu 3DS biasa, atau System Settings / papan ketik tidak bisa diakses, **DILARANG lanjutkan panduan ini**! Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ Jika berniat mencopot CFW karena:
 - Ada aplikasi sistem yang kacau
 - Konsol tidak bisa di-_boot_ ke HOME Menu
 
-<u>JANGAN!!!!</u> Mencopot _custom firmware_ hanya menambah risiko tidak penting atau parahnya <u>**KONSOL BISA MATOT**</u> (_brick_). Sebaiknya minta bantuan di [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+<u>JANGAN!!!!</u> Mencopot _custom firmware_ hanya menambah risiko tidak penting atau parahnya <u>**KONSOL BISA MATOT**</u> (_brick_). A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 

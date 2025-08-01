@@ -17,7 +17,7 @@
 - 시스템 어플리케이션 하나가 정상 동작하지 않습니다
 - 콘솔이 HOME 메뉴로 정상 부팅되지 않습니다
 
-<u>**당장 멈추세요!!**</u> 커펌을 삭제하는 것은 시간만 잡아먹는 불필요한 모험이며, 심할 경우 콘솔을 <u>**벽돌로 만들 수 있습니다**</u>. [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 (영어로) 도움을 요청하는 것이 더 나을 것입니다.
+<u>**당장 멈추세요!!**</u> 커펌을 삭제하는 것은 시간만 잡아먹는 불필요한 모험이며, 심할 경우 콘솔을 <u>**벽돌로 만들 수 있습니다**</u>. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 
@@ -115,7 +115,7 @@
 
 ::: danger
 
-만약 일반 3DS 홈 메뉴로 부팅되지 않거나, 본체 설정 앱 혹은 키보드에 접근이 불가하다면, **즉시 커펌 삭제를 중단하십시오**! [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에서 영어로 도움을 요청하십시오. "My 3DS has failed the safety test." 정도로 시작하여 실패한 구간을 (영문 설명서를 확인하여) 설명해 주세요.
+만약 일반 3DS 홈 메뉴로 부팅되지 않거나, 본체 설정 앱 혹은 키보드에 접근이 불가하다면, **즉시 커펌 삭제를 중단하십시오**! Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@
 - 시스템 어플리케이션 하나가 정상 동작하지 않습니다
 - 콘솔이 HOME 메뉴로 정상 부팅되지 않습니다
 
-<u>**당장 멈추세요!!**</u> 커펌을 삭제하는 것은 시간만 잡아먹는 불필요한 모험이며, 심할 경우 콘솔을 <u>**벽돌로 만들 수 있습니다**</u>. [Nintendo Homebrew Discord 서버](https://discord.gg/MWxPgEp)에 (영어로) 도움을 요청하는 것이 더 나을 것입니다.
+<u>**당장 멈추세요!!**</u> 커펌을 삭제하는 것은 시간만 잡아먹는 불필요한 모험이며, 심할 경우 콘솔을 <u>**벽돌로 만들 수 있습니다**</u>. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
 
 :::
 

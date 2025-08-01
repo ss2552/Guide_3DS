@@ -9,3 +9,9 @@
 9. `FBI.3dsx` 파일을 SD 카드의 `/3ds/` 폴더에 복사해 주세요
 10. `faketik.3dsx` 파일을 SD 카드의 `/3ds/` 폴더에 복사해 주세요
 11. SD 카드를 콘솔에 다시 삽입해 주세요
+
+::: info
+
+![](/images/screenshots/ctrtransfer-root-layout.png)
+
+:::

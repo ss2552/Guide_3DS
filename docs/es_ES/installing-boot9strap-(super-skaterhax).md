@@ -27,7 +27,7 @@ Este exploit tiene resultados inconsistentes; para algunos funciona, para otros 
 
 ### Lo que necesitas
 
-- El zip [Super-skaterhax](https://skater.nintendohomebrew.com) para la región y la versión del sistema de tu consola
+- The [Super-skaterhax](https://skater.nintendohomebrew.com) `.zip` for your console's region and system version
 
 #### Sección I - Preparativos
 
@@ -58,14 +58,14 @@ En esta sección, copiarás los archivos necesarios para activar super-skaterhax
     - Si aparece una [advertencia](/images/screenshots/skaterhax/country-change-notice.png) diciendo que perderás acceso a funciones de Nintendo Network ID, puedes seleccionar "Aceptar" para continuar sin ningún problema
 
 9. Selecciona las siguientes opciones según la región de tu consola ([imagen](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: First select United States, then select Do Not Set
+    - EUR: First select United Kingdom, then select Do Not Set
+    - JPN: First select 日本, then select 設定しない
+    - KOR: First select 대한민국, then select 설정하지 않음
 
 10. Dirígete a "Fecha y hora"
 
-11. Configura "Fecha de hoy" y "Hora actual" con la fecha y hora correspondiente a tu franja horaria
+11. Set "Today's Date" and "Current Time" to the current date and time
 
 12. Sal de la configuración de la consola
 
@@ -117,7 +117,7 @@ En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
     - Si algún paso en la pantalla inferior tiene el texto en color rojo y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-super-skaterhax)
-2. Una vez completado, presiona (A) para reiniciar tu consola
+2. Once it is complete, press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

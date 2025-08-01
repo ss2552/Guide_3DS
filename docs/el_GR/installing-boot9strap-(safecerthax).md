@@ -50,6 +50,18 @@
 6. Εισαγάγετε ξανά την κάρτα SD στην κονσόλα σας
 7. Ενεργοποιήστε την κονσόλα σας
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Ενότητα III - Διακομιστής μεσολάβησης του safecerthax
 
 ::: warning

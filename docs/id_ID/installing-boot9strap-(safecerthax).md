@@ -50,6 +50,18 @@ Di bagian ini akan menaruh berkas untuk mengaktifkan eksploit safecerthax.
 6. Sisip kembali kartu SD ke konsol
 7. Nyalakan daya konsol
 
+::: info
+
+![](/images/screenshots/safecerthax-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Bagian III - Proxy safecerthax
 
 ::: warning

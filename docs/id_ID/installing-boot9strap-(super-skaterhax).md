@@ -27,7 +27,7 @@ Eksploit ini diketahui tidak konsisten: sebagian ada yang berhasil, ada yang tid
 
 ### Apa yang Perlu
 
-- Berkas zip [Super-skaterhax](https://skater.nintendohomebrew.com) yang sesuai versi dan daerah konsol
+- The [Super-skaterhax](https://skater.nintendohomebrew.com) `.zip` for your console's region and system version
 
 #### Bagian I - Persiapan
 
@@ -58,14 +58,14 @@ Di bagian ini akan menaruh berkas untuk mengaktifkan super-skaterhax dan Homebre
     - Jika muncul [peringatan](/images/screenshots/skaterhax/country-change-notice.png) akan kehilangan akses fitur Nintendo Network ID, ini aman menekan OK untuk lanjut
 
 9. Pilih opsi berikut disesuaikan dengan daerah konsol ([gambar](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: First select United States, then select Do Not Set
+    - EUR: First select United Kingdom, then select Do Not Set
+    - JPN: First select 日本, then select 設定しない
+    - KOR: First select 대한민국, then select 설정하지 않음
 
 10. Navigasi ke "Date & Time"
 
-11. Atur "Today's Date" dan "Current Time" ke tanggal dan waktu hari ini sesuai zona waktu
+11. Set "Today's Date" and "Current Time" to the current date and time
 
 12. Keluar dari System Settings
 

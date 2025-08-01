@@ -41,6 +41,18 @@ Di bagian ini akan menaruh berkas untuk mengaktifkan browserhax dan universal-ot
 8. Sisip kembali kartu SD ke konsol
 9. Nyalakan daya konsol
 
+::: info
+
+![](/images/screenshots/ssloth-root-layout.png)
+
+:::
+
+::: info
+
+![](/images/screenshots/boot9strap-folder.png)
+
+:::
+
 ### Bagian II - SSLoth
 
 Di bagian ini akan mengubah pengaturan sambungan Internet ke jejaring Proxy untuk melongkap periksa versi Browser, sehingga Browser bisa berfungsi tanpa pembaruan sistem. Ini agar bisa mengakses laman web eksploit Browser di bagian berikutnya.

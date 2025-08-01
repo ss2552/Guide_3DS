@@ -1,6 +1,6 @@
 # Sidik Gangguan (Penyiapan Akhir)
 
-Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui saat mengikuti "Penyiapan Akhir". Jika saran dari laman ini tidak menyelesaikan isu, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) dan jelaskan isunya, termasuk apa yang sudah dicoba.
+Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui saat mengikuti "Penyiapan Akhir". If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
 
 ## Isu dengan Penyiapan Akhir
 
@@ -17,7 +17,7 @@ Langkah di bawah ini bisa dicoba dari urutan mana saja, ini diurutkan dari termu
 7. Sambungkan ke WiFi lain, seperti hotspot seluler
 8. Server Nintendo mungkin sedang padam; Coba lagi nanti
 9. Jika masih muncul galat, [ikuti CTRTransfer](ctrtransfer), lalu coba lagi
-10. Untuk bantuan (berbahasa Inggris), gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp)
+10. For further support (in English), join [r/3ds on Discord](https://discord.gg/3ds)
 
 :::
 
@@ -35,7 +35,7 @@ Berkas `finalize.romfs` letaknya salah dan bukan di akar kartu SD. Naskah akan m
 
 :::details Error #24: SD is write-protected
 
-Pastikan pengunci kartu SD tidak [dikunci](/images/sdlock.png). Jika kartu SD tidak dikunci tapi masih galat, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan.
+Pastikan pengunci kartu SD tidak [dikunci](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ Jika ternyata kartu SD masih tersisa cukup ruang, mungkin kartu SD rusak. Periks
 
 :::details Error #12: Copy (file).db fail
 
-Pastikan pengunci kartu SD tidak [dikunci](/images/sdlock.png). Jika kartu SD tidak dikunci tapi masih galat, gabung ke [Discord Nintendo Homebrew](https://discord.gg/MWxPgEp) untuk bantuan.
+Pastikan pengunci kartu SD tidak [dikunci](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
 
 :::
 

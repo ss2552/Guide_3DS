@@ -27,7 +27,7 @@ Sabe-se que este exploit é inconsistente: funciona para alguns, mas não para o
 
 ### O que é necessário
 
-- O arquivo `.zip` do [super-skaterhax](https://skater.nintendohomebrew.com) para a região e versão de sistema do seu console
+- The [Super-skaterhax](https://skater.nintendohomebrew.com) `.zip` for your console's region and system version
 
 #### Seção I - Preparação
 
@@ -58,14 +58,14 @@ Nesta seção, você irá copiar os arquivos necessários para acionar tanto sup
     - Se você receber um [aviso](/images/screenshots/skaterhax/country-change-notice.png) dizendo que você perderá o acesso aos recursos de sua Nintendo Network ID, é seguro selecionar OK para continuar
 
 9. Selecione as seguintes opções de acordo com a região de seu console ([imagem](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: First select United States, then select Do Not Set
+    - EUR: First select United Kingdom, then select Do Not Set
+    - JPN: First select 日本, then select 設定しない
+    - KOR: First select 대한민국, then select 설정하지 않음
 
 10. Navegue até "Data e Hora"
 
-11. Defina "Data de Hoje" e "Hora Atual" para a data e hora atuais em seu fuso horário
+11. Set "Today's Date" and "Current Time" to the current date and time
 
 12. Saia das Configurações do Sistema
 

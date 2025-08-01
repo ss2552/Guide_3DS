@@ -27,7 +27,7 @@ This exploit is known to be inconsistent: it works for some people, but not othe
 
 ### 준비물
 
-- 콘솔의 지역과 시스템 버전에 맞는 [Super-skaterhax](https://skater.nintendohomebrew.com) zip 파일
+- The [Super-skaterhax](https://skater.nintendohomebrew.com) `.zip` for your console's region and system version
 
 #### 섹션 I - 준비 작업
 
@@ -58,14 +58,14 @@ This exploit is known to be inconsistent: it works for some people, but not othe
     - 만약 닌텐도 네트워크 ID 기능에 대한 접근 권한을 잃는다는 [경고 (영어)](/images/screenshots/skaterhax/country-change-notice.png)가 나타난다면, OK를 눌러 넘어가도 괜찮습니다.
 
 9. 콘솔의 지역에 따라 다음 옵션을 선택합니다 ([이미지](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: United States, Do Not Set
-    - EUR: United Kingdom, Do Not Set
-    - JPN: 日本, 設定しない
-    - KOR: 대한민국, 설정하지 않음
+    - USA: First select United States, then select Do Not Set
+    - EUR: First select United Kingdom, then select Do Not Set
+    - JPN: First select 日本, then select 設定しない
+    - KOR: First select 대한민국, then select 설정하지 않음
 
 10. "날짜와 시각"으로 이동해 주세요
 
-11. "날짜"와 "시각"을 당신의 시간대에 맞는 날짜와 시각으로 설정해주세요
+11. Set "Today's Date" and "Current Time" to the current date and time
 
 12. 본체 설정을 종료해 주세요
 

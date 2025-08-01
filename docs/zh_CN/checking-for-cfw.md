@@ -53,6 +53,6 @@ If you see GodMode9, Decrypt9WIP, Hourglass9, or Luma3DS chainloader, you held (
 
 ::: danger
 
-如果你看到了其他不在上述中出现的东西，请加入 [Nintendo Homebrew Discord 服务器](https://discord.gg/MWxPgEp)然后以英文寻求帮助。（请注意，如果你身处中国大陆，访问 Discord 可能需要科学上网），你也可以到译者的 [QQ 群](https://stray-soul.site/index.php/qqgroup)寻求帮助，群号为 942052497。
+If you see something not described by the above options, join [r/3ds on Discord](https://discord.gg/3ds) and ask, in English, for help.
 
 :::

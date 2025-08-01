@@ -10,7 +10,7 @@
 
 ::: warning
 
-Questa pagina richiede un telefono/tablet Android o un Chromebook. Se hai un computer che esegue Windows, macOS o Linux, segui invece [Installazione di boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Se non hai accesso a nessuno di questi dispositivi, dovrai usare un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
+Questa pagina richiede un telefono/tablet Android o un Chromebook. Se hai un iPhone o un iPad, segui invece la sezione [Installazione di boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\)). Se hai un computer che esegue Windows, macOS o Linux, segui invece [Installazione di boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\)). Se non hai accesso a nessuno di questi dispositivi, dovrai usare un [exploit alternativo](https://wiki.hacks.guide/wiki/3DS:Alternate_Exploits).
 
 :::
 
@@ -125,8 +125,10 @@ Queste istruzioni vanno eseguite **ALLA LETTERA**, quindi ricontrolla TUTTO quel
 In questa sezione installerai il custom firmware sulla tua console.
 
 1. Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
-    - Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, [segui questa guida per risolvere i problemi](troubleshooting-mset9)
-2. Una volta completato tutto, premi (A) per riavviare la console
+    - Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, [segui questa guida per risolvere i problemi](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+    - Se la schermata superiore è vuota **e** vedi "Crypto Status - all checks passed" nella schermata inferiore, dovrai inserire la combinazione di tasti alla cieca. Premi i seguenti pulsanti in questo ordine:
+        - Sinistra, Giù, Destra, Su, A
+2. Al termine (tutti e sette i punti sullo schermo inferiore sono verdi) premi (A) per riavviare la console
 
 <!--@include: ./_include/configure-luma3ds.md -->
 

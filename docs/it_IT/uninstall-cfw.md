@@ -17,7 +17,7 @@ Se stai rimuovendo il CFW perché:
 - Una delle applicazioni di sistema non funziona correttamente
 - La tua console non riesce ad avviare il menu HOME
 
-<u>**FERMATI!!!**</u> Disinstallare il custom firmware è un rischio non necessario che nel migliore dei casi ti farà perdere tempo e nel peggiore <u>**BRICKARE**</u> la tua console. Un'idea migliore sarebbe chiedere aiuto nel [canale Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+<u>**FERMATI!!!**</u> Disinstallare il custom firmware è un rischio non necessario che nel migliore dei casi ti farà perdere tempo e nel peggiore <u>**BRICKARE**</u> la tua console. Un'idea migliore sarebbe chiedere aiuto nel [canale Discord r/3ds](https://discord.gg/3ds).
 
 :::
 
@@ -115,7 +115,7 @@ Lo scopo di questa sezione è quello di verificare che la console si avvii e che
 
 ::: danger
 
-Se NON si avvia il normale menu HOME 3DS, le Impostazioni della console e/o la tastiera sono inaccessibili, **NON PROSEGUIRE con queste istruzioni**! Entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) (in Inglese) per richiedere assistenza.
+Se NON si avvia il normale menu HOME 3DS, le Impostazioni della console e/o la tastiera sono inaccessibili, **NON PROSEGUIRE con queste istruzioni**! Entra nel [canale Discord r/3ds](https://discord.gg/3ds) (in Inglese) per richiedere assistenza.
 
 :::
 
@@ -196,7 +196,7 @@ Se stai rimuovendo il CFW perché:
 - Una delle applicazioni di sistema non funziona correttamente
 - La tua console non riesce ad avviare il menu HOME
 
-<u>**FERMATI!!!**</u> Disinstallare il custom firmware è un rischio non necessario che nel migliore dei casi ti farà perdere tempo e nel peggiore <u>**BRICKARE**</u> la tua console. Un'idea migliore sarebbe chiedere aiuto nel [canale Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+<u>**FERMATI!!!**</u> Disinstallare il custom firmware è un rischio non necessario che nel migliore dei casi ti farà perdere tempo e nel peggiore <u>**BRICKARE**</u> la tua console. Un'idea migliore sarebbe chiedere aiuto nel [canale Discord r/3ds](https://discord.gg/3ds).
 
 :::
 
