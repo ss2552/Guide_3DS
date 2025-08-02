@@ -15,6 +15,7 @@
 1. Update your console by going to System Settings, then "Other Settings", then going all the way to the right and using "System Update"
     + Updates while using B9S + Luma (what you have) are safe
     + If this gives you an error, set your DNS settings to "auto"
+        + Pretendo users: Switch to Nintendo Network in Nimbus
 
 ::: info
 
