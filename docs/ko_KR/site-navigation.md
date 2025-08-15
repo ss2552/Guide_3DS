@@ -58,6 +58,7 @@
 - [boot9strap 설치 (하드모드)](installing-boot9strap-\(hardmod\))
 - [boot9strap 설치 (MSET9)](installing-boot9strap-\(mset9\))
 - [boot9strap 설치 (MSET9 CLI)](installing-boot9strap-\(mset9-cli\))
+- [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\))
 - [boot9strap 설치 (MSET9 Play 스토어)](installing-boot9strap-\(mset9-play-store\))
 - [boot9strap 설치 (ntrboot)](installing-boot9strap-\(ntrboot\))
 - [boot9strap 설치 (safecerthax)](installing-boot9strap-\(safecerthax\))

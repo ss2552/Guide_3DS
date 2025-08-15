@@ -14,6 +14,12 @@ Laman ini perlu komputer bersistem Windows, Linux, atau macOS. Atau jika punya p
 
 :::
 
+::: info
+
+If you are using an Android device as an SD card adapter for your computer, you will not be able to follow this page due to incompatibilities with Android's file transfer protocol (MTP). If this is the case, follow [Installing boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) instead.
+
+:::
+
 ## Apa yang Perlu
 
 - Versi terkini dari [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (yang `.zip` MSET9)

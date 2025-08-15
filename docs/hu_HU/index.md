@@ -8,12 +8,6 @@ hero:
     src: /images/home-page-feature.jpg
 ---
 
-::: warning
-
-Tudunk róla, hogy a meghivások jelenleg tiltottak a Nintendo Homebrew Discord szerveren és dolgozunk rajta, hogy elhárítsuk a problémát. Segítségért látogasd meg az [r/3ds Discord szervert](https://discord.gg/3ds).
-
-:::
-
 ::: info
 
 Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is!) mielőtt folytatnád.

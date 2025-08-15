@@ -2,7 +2,7 @@
 
 Ez az oldal landolási oldal a hibaelhárítási anyagokhoz amit adunk, sűrűn előforduló problémákhoz. Kattints az éppen követett oldalnak megfelelő linkre a megtekintéséhez.
 
-Ha nem tudod javítani a problémád, segítségért fordulj az [r/3ds csatornához a Discord-on](https://discord.gg/3ds). Ha egy probléma hiányzik és tudod a megoldást, [tudasd velünk!](https://github.com/hacks-guide/Guide_3DS/issues)
+If you're unable to fix your issue, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). Ha egy probléma hiányzik és tudod a megoldást, [tudasd velünk!](https://github.com/hacks-guide/Guide_3DS/issues)
 
 ::: tip
 

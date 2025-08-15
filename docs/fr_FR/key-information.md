@@ -168,7 +168,7 @@ Si vous rencontrez un problème en suivant ce guide, vous pouvez obtenir de l'ai
 
 - Si vous avez des questions qui n'ont pas reçu de réponse sur cette page, leurs réponses peuvent être dans la [FAQ Pré-installation](faq#pre-installation-faq).
 - Si vous rencontrez un problème en suivant ce guide, vous pouvez consulter la page de [Dépannage](troubleshooting) pour trouver une solution.
-- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 

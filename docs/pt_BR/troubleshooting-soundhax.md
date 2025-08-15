@@ -12,7 +12,7 @@ head:
 
 # Troubleshooting (Soundhax)
 
-Esta página oferece recursos de solução de problemas para problemas com a página "Instalando boot9strap (Soundhax)", que é usada nas versões do sistema entre 1.0.0 e 11.3.0. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+Esta página oferece recursos de solução de problemas para problemas com a página "Instalando boot9strap (Soundhax)", que é usada nas versões do sistema entre 1.0.0 e 11.3.0. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problemas com o Soundhax
 
@@ -32,7 +32,7 @@ Você também pode ter o arquivo Soundhax errado para o seu console, região e v
 
 Se as instruções acima não corrigirem o seu problema, e você está usando um Old 3DS / Old 3DS XL / Old 2DS, você pode estar encontrando um problema envolvendo atualizações de cartucho. Dê uma outra olhada na versão do sistema. Caso o número antes da letra seja 4 ou inferior (por exemplo, 11.3.0-**4**U), substitua o arquivo Soundhax na raiz do seu cartão SD por [este](http://soundhax.686178.xyz/frankenfirm.html?crash).
 
-If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -42,7 +42,7 @@ Você tem o arquivo Soundhax errado para seu console, região e versão. Verifiq
 
 Se as instruções acima não corrigirem o seu problema, e você está usando um Old 3DS / Old 3DS XL / Old 2DS, você pode estar encontrando um problema envolvendo atualizações de cartucho. Dê uma outra olhada na versão do sistema. Caso o número antes da letra seja 3 ou inferior (por exemplo, 11.3.0-**0**U), substitua o arquivo Soundhax na raiz do seu cartão SD por [este](http://soundhax.686178.xyz/frankenfirm.html?unplayable).
 
-If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

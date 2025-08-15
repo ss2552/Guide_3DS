@@ -1,6 +1,6 @@
 # Risoluzione dei problemi (completamento dell'installazione)
 
-Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Completamento dell'installazione". Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord r/3ds](https://discord.gg/3ds) e descrivi il tuo problema, indicando quello che hai già provato.
+Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Completamento dell'installazione". If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problemi con il completamento dell'installazione
 
@@ -17,7 +17,7 @@ I passaggi qui sotto possono essere seguiti in qualsiasi ordine, ma sono elencat
 7. Connettiti ad una rete WiFi alternativa, ad esempio un hotspot mobile
 8. I server Nintendo potrebbero essere irraggiungibili. Riprova più tardi
 9. Se continui a ricevere un errore, [segui la guida per il CTRTransfer](ctrtransfer), poi ritenta l'aggiornamento
-10. Se hai bisogno di aiuto (in inglese), entra nel [canale Discord r/3ds](https://discord.gg/3ds)
+10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@ Il file `finalize.romfs` è stato posizionato in maniera errata e non nella dire
 
 :::details Error #24: SD is write-protected
 
-Assicurati che la tua scheda SD non sia [protetta dalla scrittura](/images/sdlock.png). Se la scheda SD non è protetta e continui ad ottenere questo errore, entra nel [canale Discord r/3ds](https://discord.gg/3ds) per ricevere assistenza.
+Assicurati che la tua scheda SD non sia [protetta dalla scrittura](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ Se riieni di avere abbastanza spazio sulla tua scheda SD, questa potrebbe essere
 
 :::details Error #12: Copy (file).db fail
 
-Assicurati che la tua scheda SD non sia [protetta dalla scrittura](/images/sdlock.png). Se la scheda SD non è protetta e continui ad ottenere questo errore, entra nel [canale Discord r/3ds](https://discord.gg/3ds) per ricevere assistenza.
+Assicurati che la tua scheda SD non sia [protetta dalla scrittura](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

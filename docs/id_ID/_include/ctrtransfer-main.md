@@ -15,6 +15,7 @@
 13. Perbarui konsol dengan ke System Settings, ke "Other Settings", lalu ke kanan sampai pojok dan pilih "System Update"
     - Memperbarui selagi ada B9S + Luma (yang terpasang) itu aman
     - Jika terjadi galat, atur pengaturan DNS ke "auto"
+        - Pretendo users: Switch to Nintendo Network in Nimbus
 
 ::: info
 

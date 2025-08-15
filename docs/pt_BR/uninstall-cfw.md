@@ -17,7 +17,7 @@ Se você está removendo o CFW porque:
 - Um dos seus aplicativos do sistema não funciona
 - Seu console não consegue iniciar o Menu HOME
 
-<u>**PARE!!!**</u> Desinstalar o custom firmware é um risco desnecessário que na melhor das hipóteses fará você perder tempo, e na pior das hipoteses causará um <u>**BRICK**</u> no seu console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**PARE!!!**</u> Desinstalar o custom firmware é um risco desnecessário que na melhor das hipóteses fará você perder tempo, e na pior das hipoteses causará um <u>**BRICK**</u> no seu console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 
@@ -115,7 +115,7 @@ O objetivo desta seção é verificar se o console irá ligar e que as funções
 
 ::: danger
 
-Se você NÃO inicializar no Menu HOME padrão do 3DS, ou a configuração do sistema / seu teclado está inacessível, **NÃO continue com estas instruções**! Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
+Se você NÃO inicializar no Menu HOME padrão do 3DS, ou a configuração do sistema / seu teclado está inacessível, **NÃO continue com estas instruções**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ Se você está removendo o CFW porque:
 - Um dos seus aplicativos do sistema não funciona
 - Seu console não consegue iniciar o Menu HOME
 
-<u>**PARE!!!**</u> Desinstalar o custom firmware é um risco desnecessário que na melhor das hipóteses fará você perder tempo, e na pior das hipoteses causará um <u>**BRICK**</u> no seu console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**PARE!!!**</u> Desinstalar o custom firmware é um risco desnecessário que na melhor das hipóteses fará você perder tempo, e na pior das hipoteses causará um <u>**BRICK**</u> no seu console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 

@@ -1,6 +1,6 @@
 # Hibaelhárítás (Telepítés véglegesítése)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Telepítés véglegesítése" oldalhoz. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Telepítés véglegesítése" oldalhoz. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problémák a telepítés véglegesítésével
 
@@ -17,7 +17,7 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 7. Csatlakozz egy másik WiFi-hez, mint például egy hotspot
 8. A Nintendo szerverei lehet, hogy nem elérhetők; Próbáld később újra
 9. Ha még mindig hibát kapsz, kövesd a [CTRTransfer](ctrtransfer) című útmutatót, majd próbáld újra
-10. További segítségért (angol nyelven), fordulj az: [r/3ds csatronához a Discord-on](https://discord.gg/3ds)
+10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@ A `finalize.romfs` rossz helyre került az SD kártya gyökere helyett. A szkrip
 
 :::details Error #24: SD is write-protected
 
-Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). Ha az SD kártyád nem zárolt, és továbbra is ezt a hibát kapod, csatlakozz az [r/3ds csatornához Discord-on](https://discord.gg/3ds) segítségért.
+Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ Ha van elég szabad hely az SD kártyádon, az SD kártya lehet sérült vagy hi
 
 :::details Error #12: Copy (file).db fail
 
-Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). Ha az SD kártyád nem zárolt, és továbbra is ezt a hibát kapod, csatlakozz az [r/3ds csatornához Discord-on](https://discord.gg/3ds) segítségért.
+Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

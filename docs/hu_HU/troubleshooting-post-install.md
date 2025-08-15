@@ -1,6 +1,6 @@
 # Hibaelhárítás (Telepítés után)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a az egyedi firmware telepítését követően. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a az egyedi firmware telepítését követően. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Bootolási problémák
 
@@ -49,7 +49,7 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
     - Kapcsold be a konzolod
     - Ha sikeres voltál, a konzolod egy "update your system" képernyőre bootol
 5. Kövesd a [CTRTransfer](ctrtransfer) útmutatót
-6. További támogatásért kérj segítséget az [r/3ds-től a Discord-on](https://discord.gg/3ds)
+6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -88,13 +88,13 @@ Ha ez a helyzet, próbáld meg a lépéseket alább, ami a legkönnyebbtől a le
 2. Kapcsold ki a konzolod, távolítsd el az SD kártyád, majd csatlakoztasd a számítógépedhez. Töltsd le a legutolsó kiadását az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)-nek és csomagold ki a `Luma3DS.zip` fájlból a `boot.firm` fájlt, majd rakd az SD kártyád gyökerébe (felülírva bármilyen létező fájlt)
 3. Kapcsold ki a konzolod, távolítsd el az SD kártyát, csatlakoztasd a számítógépedhez és formázd újra az SD kártyád az operációs rendszerednek megfelelően: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(ez törölni fogja az SD kártya adatait)_
 4. Teszteld az SD kártyádat hibákra az operációs rendszerednek megfelelő útmutató szerint haladva: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). Ha az SD kártyád hibásnak jelölt, cserélned kell az SD kártyádat
-5. Az SD kártya foglalatod is lehet hibás. Csatlakozz az [r/3ds-hez Discord-on](https://discord.gg/3ds) további segítségért
+5. Az SD kártya foglalatod is lehet hibás. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
 
 :::
 
 :::details Kék "BOOTROM ERROR" képernyő
 
-A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz az [r/3ds-hez a Discord-on](https://discord.gg/3ds) segítségért.
+A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 - Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Próbáld meg a konzolod bekapcsolva hagyni, várva a kék képernyőre, 5 percig.
 
@@ -102,7 +102,7 @@ A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flas
 
 :::details Egyéb más hibák
 
-Készíts egy képet a hibáról és csatlakozz az [r/3ds-hez a Discord-on](https://discord.gg/3ds) segítségért.
+Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -140,7 +140,7 @@ Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszköz
 :::details Kivétel képernyő egy alkalmazás bootolásakor/betöltésekor
 
 Tekintsd meg a kivétel képernyőt [ezen az oldalon](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-Ha nem sikerült megtalálni a hibádat, vagy a lépések nem működnek, csatlakozz az [r/3ds-hez Discord-on](https://discord.gg/3ds) további támogatásért.
+If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
 
 :::
 
@@ -153,7 +153,7 @@ A konzolodon még mindig van menuhax67 telepítve. A menuhax67 eltávolításáh
 
 :::details Valami más
 
-Csatlakozz az [r/3ds-hez Discord-on](https://discord.gg/3ds) segítségért és írd le a problémát, amit láttál.
+Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatornához segítségért és írd le a problémát, amit láttál.
 
 :::
 

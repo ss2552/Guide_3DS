@@ -1,6 +1,6 @@
 # 문제 해결 (설치 이후)
 
-이 페이지는 커스텀 펌웨어가 설치된 이후에 흔히 일어나는 문제에 관한 해결책을 기재합니다. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+이 페이지는 커스텀 펌웨어가 설치된 이후에 흔히 일어나는 문제에 관한 해결책을 기재합니다. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## 부팅 문제
 
@@ -49,7 +49,7 @@
     - 콘솔의 전원을 켜 주세요
     - 성공적일 경우엔 콘솔이 "본체 업데이트"로 부팅됩니다
 5. [CTRTransfer](ctrtransfer) 설명서를 따라 주세요
-6. For further support, ask for help at [r/3ds on Discord](https://discord.gg/3ds)
+6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -88,13 +88,13 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
 2. 콘솔의 전원을 종료하고, SD 카드를 분리한 뒤, PC에 장착하세요. 최신 버전의 [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)를 다운받아 `Luma3DS.zip`에서 `boot.firm` 파일을 복사해 SD 카드의 루트에 넣어주세요. 이미 있다면 덮어씌워주세요
 3. 콘솔의 전원을 끄고, SD 카드를 분리한 뒤, PC에 장착해 운영 체제에 따른 방식으로 포멧해 주세요: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)). _(이 과정은 SD 카드의 데이터를 모두 삭제합니다)_
 4. 컴퓨터의 운영 체제에 따라 SD 카드에 오류가 있는지를 확인해주세요: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). SD 카드에 오류가 있다고 표시되면, SD 카드를 교체해야 합니다
-5. SD 카드 슬롯이 파손되었을 수 있습니다. Join [r/3ds on Discord](https://discord.gg/3ds) for further assistance
+5. SD 카드 슬롯이 파손되었을 수 있습니다. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
 
 :::
 
 :::details 파란 "BOOTROM ERROR" 화면
 
-이 콘솔은 벽돌 상태입니다. ntrboot 플래시카트를 구매한 후 이를 이용해 boot9strap를 설치하여 콘솔을 복구해야 합니다. 이 문제는 또 콘솔의 하드웨어 문제가 있다는 뜻일수도 있습니다. In any case, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+이 콘솔은 벽돌 상태입니다. ntrboot 플래시카트를 구매한 후 이를 이용해 boot9strap를 설치하여 콘솔을 복구해야 합니다. 이 문제는 또 콘솔의 하드웨어 문제가 있다는 뜻일수도 있습니다. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 - 또는, 누군가가 부팅 배경화면을 벽돌 상태처럼 보이도록 설정했을 수도 있습니다. 콘솔을 켜둔 채로, 파란 화면에서 5분 정도 기다려보세요.
 
@@ -102,7 +102,7 @@ SD 카드가 읽혔는지 확인하려면 SELECT를 누른 채 부팅해 아래 
 
 :::details 다른 에러
 
-Please take a photo of the error and join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -140,7 +140,7 @@ Please take a photo of the error and join [r/3ds on Discord](https://discord.gg/
 :::details 앱을 실행할 때 오류 화면이 표시됩니다
 
 [여기 (영어)](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen)에서 오류 화면을 찾아보세요.
-If you weren't able to find your error or the instructions didn't work, join [r/3ds on Discord](https://discord.gg/3ds) for further assistance.
+If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
 
 :::
 
@@ -152,7 +152,7 @@ menuhax67가 여전히 설치되어 있는 듯합니다. menuhax67 제거를 위
 
 :::details 기타
 
-Join [r/3ds on Discord](https://discord.gg/3ds) for assistance, and describe the issue that you see.
+Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, and describe the issue that you see.
 
 :::
 

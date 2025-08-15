@@ -1,6 +1,6 @@
 # Hibaelhárítás (MSET9)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (MSET9)", a "Boot9strap telepítése (MSET9 CLI)" és a "Boot9strap telepítése (MSET9 Play Store)" oldalhoz. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (MSET9)", a "Boot9strap telepítése (MSET9 CLI)" és a "Boot9strap telepítése (MSET9 Play Store)" oldalhoz. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## MSET9 (alkalmzás / szkript)
 

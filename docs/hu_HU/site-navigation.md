@@ -58,6 +58,7 @@
 - [Boot9strap telepítése (Hardmod)](installing-boot9strap-\(hardmod\))
 - [Boot9strap telepítése (MSET9)](installing-boot9strap-\(mset9\))
 - [Boot9strap telepítése (MSET9 CLI)](installing-boot9strap-\(mset9-cli\))
+- [Boot9strap telepítése (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\))
 - [Boot9strap telepítése (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\))
 - [Boot9strap telepítése (ntrboot)](installing-boot9strap-\(ntrboot\))
 - [Boot9strap telepítése (safecerthax)](installing-boot9strap-\(safecerthax\))

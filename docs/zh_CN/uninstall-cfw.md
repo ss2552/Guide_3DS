@@ -17,7 +17,7 @@ This will completely remove CFW from your console, including boot9strap and Luma
 - One of your system applications is broken
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 
@@ -115,7 +115,7 @@ These instructions will only work on consoles with a Luma3DS version of 8.0 or h
 
 ::: danger
 
-如果没有进入到正常的 3DS 主菜单或系统设置/键盘不可用，则**请不要再继续做下面的步骤了！** Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
+如果没有进入到正常的 3DS 主菜单或系统设置/键盘不可用，则**请不要再继续做下面的步骤了！** Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ These instructions will only work on consoles with a Luma3DS version of 8.0 or h
 - One of your system applications is broken
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 

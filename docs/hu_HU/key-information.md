@@ -168,7 +168,7 @@ Ha problémád van ezen útmutató követésével, többféle módja van, hogy s
 
 - Ha olyan kérdésed van, amit nem válaszolt meg az az oldal, akkor a válaszaid lehet, hogy a [Telepítés előtti gyakran ismételt kérdések](faq#pre-installation-faq) oldalon találhatók.
 - Ha hibát kaptál a útmutató követése közben, ránézhetsz a [Hibaelhárítás](troubleshooting) oldalra a megoldásért.
-- Ha az itt található információk nem segítenek egy-egy támogatást kaphatsz az [r/3ds Discord csatornán](https://discord.gg/3ds).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 

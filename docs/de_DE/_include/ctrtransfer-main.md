@@ -15,6 +15,7 @@
 13. Führe ein System Update durch, indem du zu den Systemeinstellungen gehst, danach "Allgemeine Einstellungen", ganz nach rechts navigierst, und dann "System-Update" auswählst
     - Updates while using B9S + Luma (what you have) are safe
     - If this gives you an error, set your DNS settings to "auto"
+        - Pretendo users: Switch to Nintendo Network in Nimbus
 
 ::: info
 

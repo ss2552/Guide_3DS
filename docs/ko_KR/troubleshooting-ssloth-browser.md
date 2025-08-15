@@ -1,6 +1,6 @@
 # 문제 해결 (SSLoth-Browser)
 
-이 페이지는 11.4.0에서 11.13.0 버전 사이에 쓰이는 방법인 "boot9strap 설치 (SSLoth-Browser)" 페이지의 주요 해결 방법을 다루고 있습니다. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+이 페이지는 11.4.0에서 11.13.0 버전 사이에 쓰이는 방법인 "boot9strap 설치 (SSLoth-Browser)" 페이지의 주요 해결 방법을 다루고 있습니다. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ::: warning
 

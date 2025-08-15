@@ -12,7 +12,7 @@ head:
 
 # Risoluzione dei problemi (Soundhax)
 
-Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati con la pagina "Installazione di boot9strap (Soundhax)", usata per le versioni di sistema comprese tra 1.0.0 e 11.3.0. Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord r/3ds](https://discord.gg/3ds) e descrivi il tuo problema, indicando quello che hai già provato.
+Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati con la pagina "Installazione di boot9strap (Soundhax)", usata per le versioni di sistema comprese tra 1.0.0 e 11.3.0. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problemi con Soundhax
 
@@ -32,7 +32,7 @@ Potresti anche avere il file Soundhax sbagliato per la tua console, regione e ve
 
 Se quanto sopra non risolve il problema e stai usando un Old 3DS / Old 3DS XL / Old 2DS, potresti stare incontrando un problema riguardante l'aggiornamento via scheda di gioco. Ricontrolla la versione del software. Se il numero prima della lettera è pari o inferiore a 4 (ad esempio 11.3.0-**4**U), sostituisci il file Soundhax nella directory principale della tua scheda SD con [questo](http://soundhax.686178.xyz/frankenfirm.html?crash).
 
-Se non hai ancora risolto il problema, entra nel [canale Discord r/3ds](https://discord.gg/3ds) per chiedere assistenza.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -42,7 +42,7 @@ Hai il file Soundhax sbagliato per la tua console, regione e versione. Verifica 
 
 Se quanto sopra non risolve il problema e stai usando un Old 3DS / Old 3DS XL / Old 2DS, potresti stare incontrando un problema riguardante l'aggiornamento via scheda di gioco. Ricontrolla la versione del software. Se il numero prima della lettera è pari o inferiore a 3 (ad esempio 11.3.0-**0**U), sostituisci il file Soundhax nella directory principale della tua scheda SD con [questo](http://soundhax.686178.xyz/frankenfirm.html?unplayable).
 
-Se non hai ancora risolto il problema, entra nel [canale Discord r/3ds](https://discord.gg/3ds) per chiedere assistenza.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

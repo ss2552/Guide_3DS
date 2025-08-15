@@ -17,7 +17,7 @@ If you're removing CFW because:
 - One of your system applications is broken
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 
@@ -115,7 +115,7 @@ Het doel van dit deel is om te controleren of de console opstart en dat kritieke
 
 ::: danger
 
-Als je NIET opstart in het normale 3DS HOME-menu, of System Setting / je toetsenbord is niet toegankelijk, **ga NIET verder met deze instructies**! Join [r/3ds on Discord](https://discord.gg/3ds) and ask (in English) for someone there to assist you.
+Als je NIET opstart in het normale 3DS HOME-menu, of System Setting / je toetsenbord is niet toegankelijk, **ga NIET verder met deze instructies**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ If you're removing CFW because:
 - One of your system applications is broken
 - Your console is unable to boot to HOME Menu
 
-<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [r/3ds on Discord](https://discord.gg/3ds).
+<u>**STOP!!!**</u> Uninstalling custom firmware is an unnecessary risk that will at best waste your time and at worst <u>**BRICK**</u> your console. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 

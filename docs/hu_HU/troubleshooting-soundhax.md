@@ -12,7 +12,7 @@ head:
 
 # Hibaelhárítás (Soundhax)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (Soundhax)" oldalhoz, ami az 1.0.0 és 11.3.0 rendszer verziókon használt. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (Soundhax)" oldalhoz, ami az 1.0.0 és 11.3.0 rendszer verziókon használt. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problémák a Soundhax-szal
 
@@ -32,7 +32,7 @@ Lehetséges, hogy a Soundhax fájl rossz változatát használod a konzolodhoz, 
 
 Ha az üzenetben leírtak nem segítenek és Old 3DS / Old 3DS XL / Old 2DS konzolt használsz, lehet hogy egy cartridge frissítési problémába ütköztél. Keresd meg a rendszered verzióját. Ha a szám a betű előtt 4 vagy kisebb (pl. 11.3.0-**4**E), akkor cseréld le a Soundhax fájlt az SD kártyád gyökerében [ezzel](http://soundhax.686178.xyz/frankenfirm.html?crash).
 
-Ha ezek nem segítettek, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) segítségért angol nyelven.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -42,7 +42,7 @@ A Soundhax fájl rossz változatát használod a konzolodhoz, annak régiójáho
 
 Ha az üzenetben leírtak nem segítenek és Old 3DS / Old 3DS XL / Old 2DS konzolt használsz, lehet hogy egy cartridge frissítési problémába ütköztél. Keresd meg a rendszered verzióját. Ha a szám a betű előtt 3 vagy kisebb (pl. 11.3.0-**0**E), akkor cseréld le a Soundhax fájlt az SD kártyád gyökerében [ezzel](http://soundhax.686178.xyz/frankenfirm.html?unplayable).
 
-Ha ezek nem segítettek, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) segítségért angol nyelven.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

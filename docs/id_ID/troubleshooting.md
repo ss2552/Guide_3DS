@@ -2,7 +2,7 @@
 
 Laman landas ini berisi rujukan sidik gangguan dari kami untuk isu yang umum ditemui. Pencet tautan sesuai laman yang Anda ikuti untuk sidik gangguan lanjut.
 
-If you're unable to fix your issue, ask for help at [r/3ds on Discord](https://discord.gg/3ds). Jika ada isu baru lagi tapi tahu solusinya, [beri tahu kami!](https://github.com/hacks-guide/Guide_3DS/issues)
+If you're unable to fix your issue, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). Jika ada isu baru lagi tapi tahu solusinya, [beri tahu kami!](https://github.com/hacks-guide/Guide_3DS/issues)
 
 ::: tip
 

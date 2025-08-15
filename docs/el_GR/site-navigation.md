@@ -58,6 +58,7 @@
 - [Εγκατάσταση του boot9strap (Hardmod)](installing-boot9strap-\(hardmod\))
 - [Εγκατάσταση του boot9strap (MSET9)](installing-boot9strap-\(mset9\))
 - [Εγκατάσταση του boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\))
+- [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\))
 - [Εγκατάσταση του boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\))
 - [Εγκατάσταση του boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\))
 - [Εγκατάσταση του boot9strap (safecerthax)](installing-boot9strap-\(safecerthax\))

@@ -14,6 +14,12 @@ Ez a metódus Windows, Linux vagy MacOS számítógépet igényel. Ha Android te
 
 :::
 
+::: info
+
+Ha egy Android-eszközt használsz SD-kártya adapterként a számítógépedhez, akkor az Android fájlátviteli protokoll (MTP) inkompatibilitása miatt nem tudod követni ezt az oldalt. Ha ez az eset, használd [Boot9strap telepítése (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) módszert helyette.
+
+:::
+
 ## Amire szükséged lesz
 
 - Az [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) legújabb kiadása (az MSET9 `.zip` fájl)

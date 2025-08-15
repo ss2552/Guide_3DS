@@ -14,6 +14,12 @@ Esta página requer um computador rodando Windows, Linux ou macOS. Se você tem 
 
 :::
 
+::: info
+
+If you are using an Android device as an SD card adapter for your computer, you will not be able to follow this page due to incompatibilities with Android's file transfer protocol (MTP). If this is the case, follow [Installing boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\)) instead.
+
+:::
+
 ## O que é necessário
 
 - A versão mais recente de [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (o arquivo MSET9 `.zip`)

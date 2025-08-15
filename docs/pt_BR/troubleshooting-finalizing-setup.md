@@ -1,6 +1,6 @@
 # Troubleshooting (Finalizando a Instalação)
 
-Esta página oferece recursos de solução de problemas para problemas com a página "Finalizando a Instalação". If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+Esta página oferece recursos de solução de problemas para problemas com a página "Finalizando a Instalação". If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Problemas com a Finalização da Instalação
 
@@ -17,7 +17,7 @@ As etapas abaixo podem ser tentadas em qualquer ordem, mas são listadas de mane
 7. Conecte-se a uma conexão Wi-Fi diferente, como um ponto de acesso móvel
 8. Servidores Nintendo podem estar desligados; Tente novamente mais tarde
 9. Se o erro persistir, [siga CTRTransfer](ctrtransfer), e tente novamente
-10. For further support (in English), join [r/3ds on Discord](https://discord.gg/3ds)
+10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@ O arquivo `finalize.romfs` foi colocado no local errado ao invés de raiz do SD.
 
 :::details Error #24: SD is write-protected
 
-Certifique-se de que seu cartão SD não esteja [bloqueado](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Certifique-se de que seu cartão SD não esteja [bloqueado](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ Se você tiver espaço suficiente no seu cartão SD, seu SD pode estar corrompid
 
 :::details Error #12: Copy (file).db fail
 
-Certifique-se de que seu cartão SD não esteja [bloqueado](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Certifique-se de que seu cartão SD não esteja [bloqueado](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

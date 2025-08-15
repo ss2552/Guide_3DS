@@ -1,6 +1,6 @@
 # Troubleshooting (Post-Install)
 
-This page offers troubleshooting advice for commonly encountered issues after custom firmware is installed. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+This page offers troubleshooting advice for commonly encountered issues after custom firmware is installed. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Boot issues
 
@@ -49,7 +49,7 @@ The steps below can be attempted in any order, but are listed from least to most
     - Zet je console aan
     - If you were successful, the console will boot to an "update your system" screen
 5. Follow the [CTRTransfer](ctrtransfer) guide
-6. For further support, ask for help at [r/3ds on Discord](https://discord.gg/3ds)
+6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -88,13 +88,13 @@ If this is the case, attempt the steps below, which are listed from easiest to h
 2. Power off your console, remove the SD card, insert it on your computer, download the latest release of [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), extract `boot.firm` from the `Luma3DS.zip` and place it on the root of your SD card (replacing any existing file)
 3. Power off your console, remove the SD card, insert it on your computer and reformat your SD card according to your computer's operating system: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(this will wipe your SD card data)_
 4. Test your SD card for errors by following the guide according to your computer's operating system: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). If your SD card is marked as faulty, then you will have to replace your SD card
-5. Your SD card slot may be broken. Join [r/3ds on Discord](https://discord.gg/3ds) for further assistance
+5. Your SD card slot may be broken. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
 
 :::
 
 :::details Blue "BOOTROM ERROR" screen
 
-Your console is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your console. This may also indicate a hardware issue that cannot be fixed. In any case, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Your console is likely hard-bricked. You will need to buy an ntrboot flashcart to reinstall boot9strap in order to attempt to fix your console. This may also indicate a hardware issue that cannot be fixed. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 - It is also possible that someone has set a boot-time splash screen that just looks like a brick. Try leaving your console powered on, waiting on the blue screen, for five minutes.
 
@@ -102,7 +102,7 @@ Your console is likely hard-bricked. You will need to buy an ntrboot flashcart t
 
 :::details Some other error
 
-Please take a photo of the error and join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -140,7 +140,7 @@ This can occur after a CTRTransfer or region change on Old 3DS / 2DS. Follow the
 :::details Exception screen when booting/loading an application
 
 Look for your exception screen in [this page](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-If you weren't able to find your error or the instructions didn't work, join [r/3ds on Discord](https://discord.gg/3ds) for further assistance.
+If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
 
 :::
 
@@ -152,7 +152,7 @@ Your console likely still has menuhax67 installed. To uninstall menuhax67, downl
 
 :::details Something else
 
-Join [r/3ds on Discord](https://discord.gg/3ds) for assistance, and describe the issue that you see.
+Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance, and describe the issue that you see.
 
 :::
 

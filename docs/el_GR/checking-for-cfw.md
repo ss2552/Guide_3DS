@@ -53,6 +53,6 @@
 
 ::: danger
 
-Εάν δείτε κάτι που δεν περιγράφεται από τις παραπάνω επιλογές, γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) και ζητήστε βοήθεια στα αγγλικά.
+If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
 
 :::

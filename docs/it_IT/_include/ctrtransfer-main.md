@@ -15,6 +15,7 @@
 13. Aggiorna la console andando su Impostazioni della console, poi "Impostazioni generali", infine scorri a destra e seleziona "Aggiornamento"
     - Gli aggiornamenti effettuati usando B9S + Luma (ora installato) sono sicuri
     - Se ottieni un errore, imposta i DNS della connessione di rete in modo che vengano ottenuti automaticamente
+        - Utenti Pretendo: Usate il Nintendo Network su Nimbus
 
 ::: info
 

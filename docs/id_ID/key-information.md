@@ -168,7 +168,7 @@ Jika ada masalah saat mengikuti panduan ini, ada banyak cara untuk mendapat bant
 
 - Jika punya pertanyaan lain yang belum terjawab di laman ini, mungkin ada di [Perihal Sebelum Pasang](faq#pre-installation-faq).
 - Jika ada isu ketika mengikuti panduan ini, coba ke laman [Sidik Gangguan](troubleshooting) untuk mencari solusi.
-- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 

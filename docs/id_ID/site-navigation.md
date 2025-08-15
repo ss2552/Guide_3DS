@@ -58,6 +58,7 @@
 - [Memasang boot9strap (Oprek Fisik)](installing-boot9strap-\(hardmod\))
 - [Memasang boot9strap (MSET9)](installing-boot9strap-\(mset9\))
 - [Memasang boot9strap (MSET9 CLI)](installing-boot9strap-\(mset9-cli\))
+- [Installing boot9strap (MSET9 CLI iOS)](installing-boot9strap-\(mset9-cli-ios\))
 - [Memasang boot9strap (MSET9 Play Store)](installing-boot9strap-\(mset9-play-store\))
 - [Memasang boot9strap (ntrboot)](installing-boot9strap-\(ntrboot\))
 - [Memasang boot9strap (safecerthax)](installing-boot9strap-\(safecerthax\))

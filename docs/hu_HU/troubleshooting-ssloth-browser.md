@@ -1,6 +1,6 @@
 # Hibaelhárítás (SSLoth-Browser)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (SSLoth-Browser)" oldalhoz, ami az 11.4.0 és 11.13.0 rendszer verziókon használt. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz az [r/3ds csatornához a Discord-on](https://discord.gg/3ds) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (SSLoth-Browser)" oldalhoz, ami az 11.4.0 és 11.13.0 rendszer verziókon használt. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ::: warning
 

@@ -53,6 +53,6 @@ Ha a GodMode9, Decrypt9WIP, Hourglass9 vagy Luma3DS chainloadert látod, akkor v
 
 ::: danger
 
-Ha olyat látsz, ami nincs a fentiek között, csatlakozz az [r/3ds-hez Discord-on](https://discord.gg/3ds) és kérj, angolul, támogatást.
+Ha olyat látsz, ami nincs a fentiek között, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és kérj, angolul, támogatást.
 
 :::

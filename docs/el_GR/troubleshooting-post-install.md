@@ -1,6 +1,6 @@
 # Επίλυση προβλημάτων (Μετά την εγκατάσταση)
 
-Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε μετά την εγκατάσταση του custom firmware. Εάν δεν μπορείτε να διορθώσετε το ζήτημά σας με τις συμβουλές αυτής της σελίδας, γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) και περιγράψτε το πρόβλημά σας, καθώς και όλες τις λύσεις που έχετε ήδη δοκιμάσει.
+Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε μετά την εγκατάσταση του custom firmware. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Ζητήματα εκκίνησης
 
@@ -49,7 +49,7 @@
     - Ενεργοποιήστε την κονσόλα σας
     - Εάν η διαδικασία ήταν επιτυχής, η κονσόλα θα εκκινηθεί στην οθόνη «update your system»
 5. Ακολουθήστε τον οδηγό [CTRTransfer](ctrtransfer)
-6. Για περαιτέρω υποστήριξη, ζητήστε βοήθεια στο [r/3ds στο Discord](https://discord.gg/3ds)
+6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -88,13 +88,13 @@
 2. Απενεργοποιήστε την κονσόλα σας, αφαιρέστε την κάρτα SD, εισαγάγετέ τη στον υπολογιστή σας, κάντε λήψη της πιο πρόσφατης έκδοσης του [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest), αποσυμπιέστε το `boot.firm` από το `Luma3DS.zip` και τοποθετήστε το στη ρίζα της κάρτας SD σας (αντικαθιστώντας οποιοδήποτε υπάρχον αρχείο)
 3. Απενεργοποιήστε την κονσόλα σας, αφαιρέστε την κάρτα SD, εισαγάγετέ τη στον υπολογιστή σας και διαμορφώστε ξανά την κάρτα SD, ανάλογα με το λειτουργικό σύστημα του υπολογιστή σας: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(αυτή η ενέργεια θα διαγράψει τα δεδομένα της κάρτας SD)_
 4. Ελέγξτε την κάρτα SD σας για σφάλματα ακολουθώντας τον οδηγό που αντιστοιχεί στο λειτουργικό σύστημα του υπολογιστή σας: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). Εάν η κάρτα SD επισημανθεί ως ελαττωματική («faulty»), τότε θα πρέπει να την αντικαταστήσετε
-5. Η υποδοχή της κάρτας SD μπορεί να έχει χαλάσει. Γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) για περαιτέρω βοήθεια
+5. Η υποδοχή της κάρτας SD μπορεί να έχει χαλάσει. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
 
 :::
 
 :::details Μπλε οθόνη «BOOTROM ERROR»
 
-Η κονσόλα σας έχει πιθανώς καταστεί μη λειτουργική. Θα χρειαστεί να αγοράσετε μια flashcart με ntrboot για να εγκαταστήσετε εκ νέου το boot9strap, προκειμένου να προσπαθήσετε να διορθώσετε την κονσόλα σας. Αυτό μπορεί επίσης να υποδεικνύει ένα ζήτημα υλικού που δεν μπορεί να διορθωθεί. Σε κάθε περίπτωση, γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) για βοήθεια.
+Η κονσόλα σας έχει πιθανώς καταστεί μη λειτουργική. Θα χρειαστεί να αγοράσετε μια flashcart με ntrboot για να εγκαταστήσετε εκ νέου το boot9strap, προκειμένου να προσπαθήσετε να διορθώσετε την κονσόλα σας. Αυτό μπορεί επίσης να υποδεικνύει ένα ζήτημα υλικού που δεν μπορεί να διορθωθεί. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 - Είναι επίσης πιθανό να έχει οριστεί από κάποιον μια οθόνη εκκίνησης που να θυμίζει την κατάσταση αδυναμίας λειτουργίας. Δοκιμάστε να αφήσετε την κονσόλα σας ενεργοποιημένη, περιμένοντας στην μπλε οθόνη, για πέντε λεπτά.
 
@@ -102,7 +102,7 @@
 
 :::details Κάποιο άλλο σφάλμα
 
-Τραβήξτε μια φωτογραφία του σφάλματος και γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) για βοήθεια.
+Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -140,7 +140,7 @@
 :::details Οθόνη εξαίρεσης κατά την εκκίνηση/φόρτωση μιας εφαρμογής
 
 Αναζητήστε την οθόνη εξαίρεσης σε [αυτήν τη σελίδα](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-Εάν δεν μπορέσατε να βρείτε το σφάλμα σας ή αν δεν λειτούργησαν οι οδηγίες, γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) για περαιτέρω βοήθεια.
+If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
 
 :::
 
@@ -152,7 +152,7 @@
 
 :::details Κάτι άλλο
 
-Γίνετε μέλος του [r/3ds στο Discord](https://discord.gg/3ds) για βοήθεια και περιγράψτε το ζήτημα που βλέπετε.
+Για να λάβετε βοήθεια, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) και περιγράψτε το ζήτημα που αντιμετωπίζετε.
 
 :::
 

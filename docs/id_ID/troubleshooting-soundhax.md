@@ -12,7 +12,7 @@ head:
 
 # Sidik Gangguan (Soundhax)
 
-Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui saat mengikuti "Memasang boot9strap (Soundhax)" untuk konsol di versi sistem 1.0.0 sampai 11.3.0. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+Laman ini berisi saran sidik gangguan untuk isu yang umum ditemui saat mengikuti "Memasang boot9strap (Soundhax)" untuk konsol di versi sistem 1.0.0 sampai 11.3.0. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Isu dengan Soundhax
 
@@ -32,7 +32,7 @@ Soundhax yang ditaruh mungkin tidak sesuai versi, daerah, dan jenis konsol. Past
 
 Jika cara di atas tidak memperbaiki isu, dan punya konsol Old 3DS (XL/LL) atau Old 2DS, mungkin isunya di pembaruan dari kartrid. Coba lihat lagi versi konsol. Jika angka sebelum huruf itu 4 ke bawah (misal: 11.3.0-_**4**_U), ganti berkas Soundhax di akar kartu SD dengan [berkas ini](http://soundhax.686178.xyz/frankenfirm.html?crash).
 
-If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -42,7 +42,7 @@ Soundhax yang ditaruh tidak sesuai versi, daerah, dan jenis konsol. Pastikan ses
 
 Jika cara di atas tidak memperbaiki isu, dan punya konsol Old 3DS (XL/LL) atau Old 2DS, mungkin isunya di pembaruan dari kartrid. Coba lihat lagi versi konsol. Jika angka sebelum huruf itu 3 ke bawah (misal: 11.3.0-_**0**_U), ganti berkas Soundhax di akar kartu SD dengan [berkas ini](http://soundhax.686178.xyz/frankenfirm.html?unplayable).
 
-If none of these fix your issue, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

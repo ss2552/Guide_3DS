@@ -1,6 +1,6 @@
 # Troubleshooting (Finalizing Setup)
 
-This page offers troubleshooting advice for commonly encountered issues with the "Finalizing Setup" page. If you are unable to solve your issue with the advice on this page, please join [r/3ds on Discord](https://discord.gg/3ds) and describe your issue, including what you have already tried.
+This page offers troubleshooting advice for commonly encountered issues with the "Finalizing Setup" page. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
 
 ## Issues with Finalizing Setup
 
@@ -17,7 +17,7 @@ This page offers troubleshooting advice for commonly encountered issues with the
 7. 连接其他的 WiFi，比如移动热点
 8. Nintendo 服务器可能临时下线，稍后再试
 9. 如果仍然提示错误，请进行 [CTRTransfer](ctrtransfer)，然后再尝试一次更新
-10. For further support (in English), join [r/3ds on Discord](https://discord.gg/3ds)
+10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@ The file `finalize.romfs` was placed in the wrong location instead of root of SD
 
 :::details Error #24: SD is write-protected
 
-Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 
@@ -108,7 +108,7 @@ If you have enough space on your SD card, your SD might be corrupted or faulty. 
 
 :::details Error #12: Copy (file).db fail
 
-Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [r/3ds on Discord](https://discord.gg/3ds) for assistance.
+Ensure that your SD card is not [locked](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
 
 :::
 

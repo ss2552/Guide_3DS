@@ -17,7 +17,7 @@ Ha azért távolítod el a CFW-t, mert:
 - Valamelyik rendszer alkalmazásod hibás
 - A konzolod nem tud bebootolni a HOME Menübe
 
-<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) az [r/3ds Discord szerveren](https://discord.gg/3ds).
+<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 
@@ -115,7 +115,7 @@ Ennek a résznek az a célja, hogy ellenőrizd, hogy a konzolod be fog-e bootoln
 
 ::: danger
 
-Ha NEM sikerül a hagyományos 3DS HOME Menübe bootolni, vagy a System Settings / billentyűzet nem elérhető, **NE FOLYTASD ezeket a lépéseket**! Csatlakozz az [r/3ds Discord csatornához](https://discord.gg/3ds), és kérj segítséget (angol nyelven) valakitől.
+Ha NEM sikerül a hagyományos 3DS HOME Menübe bootolni, vagy a System Settings / billentyűzet nem elérhető, **NE FOLYTASD ezeket a lépéseket**! Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask (in English) for someone there to assist you.
 
 :::
 
@@ -196,7 +196,7 @@ Ha azért távolítod el a CFW-t, mert:
 - Valamelyik rendszer alkalmazásod hibás
 - A konzolod nem tud bebootolni a HOME Menübe
 
-<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. Jobb ötlet az, hogy segítséget kérsz (angolul) az [r/3ds Discord szerveren](https://discord.gg/3ds).
+<u>**ÁLLJ!!!**</u> Az egyedi firmware eltávolítása egy felesleges kockázat, ami legjobb esetben az időd pocsékolása, a legrosszabb esetben pedig <u>**BRICKELI**</u> a konzolodat. A better idea would be to ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 :::
 

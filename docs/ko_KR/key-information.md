@@ -168,7 +168,7 @@ Windows 애플리케이션 "WinRAR"는 특히 3DS 커스텀 펌웨어 설치 취
 
 - 만약 이 페이지에 없는 것에 대한 질문이 있다면, [설치 전 자주 묻는 질문](faq#설치-전-자주-묻는-질문)에서 찾을 수 있습니다.
 - 만약 이 가이드를 따라가다 문제를 겪게 되었다면, [문제 해결](troubleshooting) 페이지에서 해결 방법을 찾아볼 수 있습니다.
-- If the resources we've provided here aren't helping, you can get one-on-one support over at [r/3ds on Discord](https://discord.gg/3ds).
+- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 
