@@ -24,10 +24,10 @@ Si cambias la región de tu consola:
 
 - No podrás usar tu NNID actual (si tienes uno). Los NNID están bloqueados a la región en la que fueron creados.
 - Es posible que no puedas acceder al eShop, incluso si [eliminas tu cuenta Nintendo eShop](https://es-americas-support.nintendo.com/app/answers/detail/a_id/23294/~/c%C3%B3mo-eliminar-una-cuenta-nintendo-eshop) de antemano. Esto se debe a que ciertos títulos tienden a permanecer vinculados a la 3DS, incluso después de la eliminación de la cuenta (especialmente en la New 3DS).
-    - Esto sigue siendo importante, pues a pesar de no poder ya hacer compras en la eShop, esta todavía proporciona actualizaciones para los juegos. Las actualizaciones puede que incluyan contenido extra o arreglen errores.
-    - Esta lógica también se aplica a las transferencias del sistema, por lo que no podrías hacer una transferencia de sistema desde una 3DS con región USA a una 3DS cuya región fue cambiada de JPN a USA.
-    - El Banco de Pokémon también requiere acceso funcional a la eShop.
-    - Dicho esto, las actualizaciones de juegos y las transferencias del sistema están bloqueadas por región de todas formas (por ejemplo, la eShop japonesa solo tiene actualizaciones de juegos japoneses).
+  - Esto sigue siendo importante, pues a pesar de no poder ya hacer compras en la eShop, esta todavía proporciona actualizaciones para los juegos. Las actualizaciones puede que incluyan contenido extra o arreglen errores.
+  - Esta lógica también se aplica a las transferencias del sistema, por lo que no podrías hacer una transferencia de sistema desde una 3DS con región USA a una 3DS cuya región fue cambiada de JPN a USA.
+  - El Banco de Pokémon también requiere acceso funcional a la eShop.
+  - Dicho esto, las actualizaciones de juegos y las transferencias del sistema están bloqueadas por región de todas formas (por ejemplo, la eShop japonesa solo tiene actualizaciones de juegos japoneses).
 - - **¡No podrás desinstalar el CFW sin brickear la consola!** Si pretendes desinstalar el CFW más adelante, **DEBES** restaurar la copia de seguridad de la NAND creada antes del cambio de región.
 
 :::
@@ -40,11 +40,11 @@ Si cambias la región de tu consola:
 - La última versión de [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (clic derecho, guardar enlace como)
 - La imagen CTRTransfer 11.15.0 para tu consola de la región a la que quieres cambiar (ej. Descarga "New 3DS o 2DS - USA" si tienes una New 3DS y quieres cambiar tu región a USA)
 
-    ::: warning
+  ::: warning
 
-    Necesitas usar un cliente torrent para descargar las imágenes CTRTransfer, tales como [qBitTorrent](https://www.qbittorrent.org/download) o [Deluge](https://deluge-torrent.org/download/).
+  Necesitas usar un cliente torrent para descargar las imágenes CTRTransfer, tales como [qBitTorrent](https://www.qbittorrent.org/download) o [Deluge](https://deluge-torrent.org/download/).
 
-    :::
+  :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

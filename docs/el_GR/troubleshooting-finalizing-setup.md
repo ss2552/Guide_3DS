@@ -1,6 +1,6 @@
 # Επίλυση προβλημάτων (Ολοκλήρωση εγκατάστασης)
 
-Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε με τα βήματα της σελίδας «Ολοκλήρωση εγκατάστασης». If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε με τα βήματα της σελίδας «Ολοκλήρωση εγκατάστασης». Εάν δεν μπορείτε να διορθώσετε το ζήτημά σας με τις συμβουλές αυτής της σελίδας, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) και περιγράψτε το πρόβλημά σας, καθώς και όλες τις λύσεις που έχετε ήδη δοκιμάσει.
 
 ## Ζητήματα με την ολοκλήρωση της εγκατάστασης
 
@@ -17,7 +17,7 @@
 7. Συνδεθείτε σε κάποιο άλλο δίκτυο Wi-Fi, όπως ένα σημείο πρόσβασης κινητής συσκευής
 8. Οι διακομιστές της Nintendo ενδέχεται να μην λειτουργούν. Δοκιμάστε ξανά αργότερα
 9. Εάν εξακολουθείτε να λαμβάνετε σφάλμα, [ακολουθήστε τον οδηγό για το CTRTransfer](ctrtransfer) και δοκιμάστε ξανά
-10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+10. Για περαιτέρω υποστήριξη (στα αγγλικά), γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@
 
 :::details Error #24: SD is write-protected
 
-Βεβαιωθείτε ότι η κάρτα SD σας δεν είναι [κλειδωμένη](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Βεβαιωθείτε ότι η κάρτα SD σας δεν είναι [κλειδωμένη](/images/sdlock.png). Εάν η κάρτα SD δεν είναι κλειδωμένη και συνεχίζετε να λαμβάνετε αυτό το σφάλμα, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) για βοήθεια.
 
 :::
 
@@ -76,7 +76,7 @@
 4. Επιλέξτε «Scripts...»
 5. Επιλέξτε «finalize»
 6. Συνεχίστε κανονικά με το script
-    - Το αντίγραφο ασφαλείας της NAND θα παραλειφθεί αυτόματα
+   - Το αντίγραφο ασφαλείας της NAND θα παραλειφθεί αυτόματα
 
 :::
 
@@ -108,7 +108,7 @@
 
 :::details Error #12: Copy (file).db fail
 
-Βεβαιωθείτε ότι η κάρτα SD σας δεν είναι [κλειδωμένη](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Βεβαιωθείτε ότι η κάρτα SD σας δεν είναι [κλειδωμένη](/images/sdlock.png). Εάν η κάρτα SD δεν είναι κλειδωμένη και συνεχίζετε να λαμβάνετε αυτό το σφάλμα, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) για βοήθεια.
 
 :::
 
@@ -121,7 +121,7 @@
 3. Αντιγράψτε τα περιεχόμενα του φακέλου `/gm9/backups/` σε μια ασφαλή τοποθεσία του υπολογιστή σας
 4. Διαγράψτε τον φάκελο `/gm9/backups/` από την κάρτα SD σας
 5. Εάν μετακινήσατε τον φάκελο «Nintendo 3DS» από την κάρτα SD για να φτάσετε σε αυτό το σημείο, αντιγράψτε τον ξανά στην κάρτα SD σας
-    - Εάν δεν διαθέτετε έναν φάκελο «Nintendo 3DS», κάντε εκκίνηση στο μενού «HOME» τουλάχιστον μία φορά, έχοντας εισαγάγει την κάρτα SD, για να δημιουργηθεί αυτόματα
+   - Εάν δεν διαθέτετε έναν φάκελο «Nintendo 3DS», κάντε εκκίνηση στο μενού «HOME» τουλάχιστον μία φορά, έχοντας εισαγάγει την κάρτα SD, για να δημιουργηθεί αυτόματα
 6. Κρατήστε πατημένο το (Start) και ταυτόχρονα, ενεργοποιήστε την κονσόλα σας. Αυτή η ενέργεια θα εκκινήσει το GodMode9
 7. Πατήστε το (Home) για να εμφανιστεί το μενού ενεργειών
 8. Επιλέξτε «Scripts...»

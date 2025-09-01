@@ -9,7 +9,7 @@ This process will reset your Mii data. If you wish to save any Miis that you hav
 1. Zet je console uit
 2. Houd (Start) ingedrukt en terwijl je (Start) ingedrukt houdt, zet je je console aan. Dit zal GodMode9 starten
 3. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
-    - The `<ID0>` will be a folder with a 32-character long name
+   - The `<ID0>` will be a folder with a 32-character long name
 4. Use the D-Pad to highlight `00010017`
 5. Press (Right Shoulder) + (A) to bring up the folder options
 6. Selecteer "Copy to 0:/gm9/out"

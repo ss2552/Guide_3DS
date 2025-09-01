@@ -53,6 +53,6 @@
 
 ::: danger
 
-If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+Εάν δείτε κάτι που δεν περιγράφεται από τις παραπάνω επιλογές, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) και ζητήστε βοήθεια στα αγγλικά.
 
 :::

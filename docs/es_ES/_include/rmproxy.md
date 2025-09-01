@@ -6,5 +6,5 @@ En esta sección, restaurarás la configuración de Internet a su estado origina
 4. Cambia «Configuración del servidor proxy» a «No»
 5. Haz clic en Aceptar, después haz clic en Guardar
 6. Cuando se muestre, haz click en "Sí" para realizar la prueba de conexión
-    - La prueba debería ser exitosa
+   - La prueba debería ser exitosa
 7. Apaga la consola

@@ -12,7 +12,7 @@ head:
 
 # Επίλυση προβλημάτων (Soundhax)
 
-Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε με τα βήματα της σελίδας «Εγκατάσταση του boot9strap (Soundhax)», η οποία ισχύει για τις εκδόσεις συστήματος μεταξύ 1.0.0 και 11.3.0. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Αυτή η σελίδα παρέχει συμβουλές για την επίλυση κοινών προβλημάτων που ενδέχεται να αντιμετωπίσετε με τα βήματα της σελίδας «Εγκατάσταση του boot9strap (Soundhax)», η οποία ισχύει για τις εκδόσεις συστήματος μεταξύ 1.0.0 και 11.3.0. Εάν δεν μπορείτε να διορθώσετε το ζήτημά σας με τις συμβουλές αυτής της σελίδας, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) και περιγράψτε το πρόβλημά σας, καθώς και όλες τις λύσεις που έχετε ήδη δοκιμάσει.
 
 ## Ζητήματα με το Soundhax
 
@@ -32,7 +32,7 @@ head:
 
 Εάν το παραπάνω δεν διορθώσει το πρόβλημά σας και χρησιμοποιείτε ένα Old 3DS/Old 3DS XL/Old 2DS, ενδέχεται να υπάρχει κάποιο ζήτημα όσον αφορά τις ενημερώσεις των κασετών. Ρίξτε ξανά μια ματιά στην έκδοση συστήματος. Εάν ο αριθμός πριν από το γράμμα είναι 4 ή μικρότερος (π.χ. 11.3.0-**4**U), αντικαταστήστε το αρχείο του Soundhax που βρίσκεται στη ρίζα της κάρτας SD σας με αυτό από [εδώ](http://soundhax.686178.xyz/frankenfirm.html?crash).
 
-If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Εάν τίποτα από αυτά δεν διορθώσει το πρόβλημά σας, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) για βοήθεια.
 
 :::
 
@@ -42,7 +42,7 @@ If none of these fix your issue, join [Nintendo Homebrew on Discord](https://dis
 
 Εάν το παραπάνω δεν διορθώσει το πρόβλημά σας και χρησιμοποιείτε ένα Old 3DS/Old 3DS XL/Old 2DS, ενδέχεται να υπάρχει κάποιο ζήτημα όσον αφορά τις ενημερώσεις των κασετών. Ρίξτε ξανά μια ματιά στην έκδοση συστήματος. Εάν ο αριθμός πριν από το γράμμα είναι 3 ή μικρότερος (π.χ. 11.3.0-**0**U), αντικαταστήστε το αρχείο του Soundhax που βρίσκεται στη ρίζα της κάρτας SD σας με αυτό από [εδώ](http://soundhax.686178.xyz/frankenfirm.html?unplayable).
 
-If none of these fix your issue, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Εάν τίποτα από αυτά δεν διορθώσει το πρόβλημά σας, γίνετε μέλος του [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp) για βοήθεια.
 
 :::
 

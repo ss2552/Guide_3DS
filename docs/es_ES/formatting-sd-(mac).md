@@ -22,11 +22,11 @@ Esta página es sólo para usuarios de Mac. Si no eres un usuario de Mac, revisa
 
 5. Selecciona tu tarjeta SD en el panel izquierdo
 
-    ::: danger
+   ::: danger
 
-    ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
+   ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
 
-    :::
+   :::
 
 6. Haz clic en "Borrar" en la parte superior
 
@@ -35,7 +35,7 @@ Esta página es sólo para usuarios de Mac. Si no eres un usuario de Mac, revisa
 8. Asegúrate de que el "Formato" esté puesto como "MS-DOS (FAT)"
 
 9. Asegúrate de que el "Esquema" esté establecido como "Master Boot Record"
-    - Si el "Esquema" no aparece, haz clic en "Cancelar" y asegúrate de elegir el dispositivo en lugar de un volumen
+   - Si el "Esquema" no aparece, haz clic en "Cancelar" y asegúrate de elegir el dispositivo en lugar de un volumen
 
 10. Haz clic en "Borrar"
 
@@ -55,14 +55,14 @@ Esta página es sólo para usuarios de Mac. Si no eres un usuario de Mac, revisa
 
 4. Selecciona tu tarjeta SD en el panel izquierdo
 
-    ::: danger
+   ::: danger
 
-    ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
+   ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías formatear accidentalmente la unidad equivocada!
 
-    :::
+   :::
 
 5. Haz clic en "Partición" en la parte superior
-    - Si no aparece "Partición", asegúrate de que elegiste el dispositivo en vez de un volumen
+   - Si no aparece "Partición", asegúrate de que elegiste el dispositivo en vez de un volumen
 
 6. Asegúrate de que el "Diseño de partición" esté establecido en "1 Partición"
 
@@ -89,4 +89,4 @@ Esta página es sólo para usuarios de Mac. Si no eres un usuario de Mac, revisa
 ## Resolución de Problemas
 
 - La tarjeta SD sigue sin ser detectada por la consola o muestra la capacidad incorrecta tras formatear
-    - Tal vez la tarjeta SD esté fragmentada en particiones, o tenga espacio sin asignar. Sigue [estas instrucciones](https://wiki.hacks.guide/wiki/SD_Clean/Mac) para formatear de nuevo tu tarjeta SD.
+  - Tal vez la tarjeta SD esté fragmentada en particiones, o tenga espacio sin asignar. Sigue [estas instrucciones](https://wiki.hacks.guide/wiki/SD_Clean/Mac) para formatear de nuevo tu tarjeta SD.

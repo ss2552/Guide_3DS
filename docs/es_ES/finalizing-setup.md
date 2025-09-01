@@ -85,7 +85,7 @@ En esta sección, actualizarás tu sistema a la última versión, lo cual es seg
 En esta sección, sincronizarás el reloj interno de la 3DS con la hora real y volcarás el firmware de sonido (que es necesario para que algunos software homebrew utilicen el sonido correctamente).
 
 1. Oprime (L) + (Abajo) + (SELECT) a la vez para abrir el menú Rosalina
-    - Si alguno de estos botones no funciona, descarga [config.ini](/assets/config.ini) y ponlo en tu carpeta `luma `, reemplazando el archivo existente. Esto cambiará la combinación de botones del menú de Rosalina a (X) + (Y)
+   - Si alguno de estos botones no funciona, descarga [config.ini](/assets/config.ini) y ponlo en tu carpeta `luma `, reemplazando el archivo existente. Esto cambiará la combinación de botones del menú de Rosalina a (X) + (Y)
 2. Selecciona "Miscellaneous options"
 3. Selecciona "Dump DSP firmware"
 4. Presiona (B) para continuar
@@ -100,18 +100,18 @@ En esta sección, usarás una serie de scripts para automatizar la instalación 
 
 1. Apaga la consola
 2. Mantén presionado (X), y mientras mantienes (X), enciende la consola. This will launch the Finalizing Setup Helper
-    - Si arrancas al menú HOME, tu carpeta `payloads` puede estar mal escrita o en la ubicación incorrecta
-    - Si encuentras un error, consulta la página de [resolución de problemas](troubleshooting-finalizing-setup)
+   - Si arrancas al menú HOME, tu carpeta `payloads` puede estar mal escrita o en la ubicación incorrecta
+   - Si encuentras un error, consulta la página de [resolución de problemas](troubleshooting-finalizing-setup)
 3. If the Helper was successful, your console will boot into GodMode9
-    - De ahora en adelante, puedes acceder a GodMode9 manteniendo presionado START al encender la consola
+   - De ahora en adelante, puedes acceder a GodMode9 manteniendo presionado START al encender la consola
 4. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
 5. Si se te pide establecer la fecha y hora RTC, presiona (A) para hacerlo, después establece la fecha y hora, y después presiona (A) para continuar
 6. Presiona el botón (Home) para abrir el menú de acciones
 7. Selecciona "Scripts..."
 8. Selecciona "finalize"
 9. Sigue las instrucciones del script, respondiendo a las preguntas que aparezcan
-    - Si ves "Information #05: No title database", presiona (A) para importar e introduce los botones en pantalla para proceder
-    - Si encuentras un error, sigue las instrucciones en el mensaje de error o consulta la página de [resolución de problemas](troubleshooting-finalizing-setup)
+   - Si ves "Information #05: No title database", presiona (A) para importar e introduce los botones en pantalla para proceder
+   - Si encuentras un error, sigue las instrucciones en el mensaje de error o consulta la página de [resolución de problemas](troubleshooting-finalizing-setup)
 10. Una vez el script diga "Setup complete!", presiona (A) para apagar el dispositivo
     - Si NO aparece el mensaje "Setup complete!", el script no tuvo exito y tendrás que rehacer esta sección desde el Paso 3
 11. Inserta la tarjeta SD en tu computadora

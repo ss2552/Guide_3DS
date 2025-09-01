@@ -19,20 +19,20 @@ Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme
 1. Kapcsold ki a konzolod
 
 2. Helyezd a konzolod SD kártyáját a számítógépedbe
-    - Ez a 3DS-ed SD kártyája, _nem_ a flashkártyádé
+   - Ez a 3DS-ed SD kártyája, _nem_ a flashkártyádé
 
 3. Másold a `SafeB9SInstaller.bin` fájlt a SafeB9SInstaller `.zip`-ből az SD kártyád gyökerébe, majd nevezd át `boot.firm`-re
-    - Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne
+   - Az SD kártya gyökere a kezdőkönyvtárt jelenti az SD kártyán, ahol látható a Nintendo 3DS könyvtár, de nem vagyunk benne
 
 4. Hozz létre egy mappát `boot9strap` néven a konzolod SD kártyájának a gyökerében
 
 5. Másold át a `boot9strap.firm` fájlt és a `boot9strap.firm.sha` fájlt a boot9strap `.zip` fájlból a konzolod SD kártyájának `/boot9strap/` mappájába
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
+   ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
 
-    :::
+   :::
 
 6. Tedd vissza az SD kártyád a konzoldba
 
@@ -41,25 +41,25 @@ Ahhoz, hogy használhasd a [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme
 ### II. rész - ntrboot
 
 1. Használd a mágnest, hogy megtaláld azt a pontot a konzolodon, ahol az alvó módot kiváltó érzékelő található
-    - Erre a lépésre nincsen szükség az Old 2DS esetében (amin van alvó üzemmód kapcsoló)
+   - Erre a lépésre nincsen szükség az Old 2DS esetében (amin van alvó üzemmód kapcsoló)
 2. Kapcsold ki a konzolod
 3. Helyezd a flashkártyádat a konzolodba
 4. Helyezd a mágnest a konzolodra, hogy előidézd az alvó állapotot
-    - Old 2DS készülék esetében egyszerűen csak aktiváld az alvó üzemmódot a kapcsolóval
+   - Old 2DS készülék esetében egyszerűen csak aktiváld az alvó üzemmódot a kapcsolóval
 5. Tartsd lenyomva a (Start) + (Select) + (X) + (Bekapcsológomb) kombinációt pár másodpercig, majd engedd fel őket
-    - Elképzelhető, hogy ez csak sokadjára sikerül csak a gombok elhelyezése miatt
+   - Elképzelhető, hogy ez csak sokadjára sikerül csak a gombok elhelyezése miatt
 6. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
 7. Vedd le a mágnest a konzolodról
-    - Old 2DS készülék esetében egyszerűen csak deaktiváld az alvó üzemmódot a kapcsolóval
+   - Old 2DS készülék esetében egyszerűen csak deaktiváld az alvó üzemmódot a kapcsolóval
 
 ### III. rész - boot9strap telepítése
 
 Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.
 
 1. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
-    - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-ntrboot)
+   - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-ntrboot)
 2. Ha ez elkészült, kényszerítsd a konzolod leállásra a bekapcsológomb lenyomva tartásával
-    - A konzolod csak addig fog a SafeB9SInstaller képernyőre bootolni, amíg a következő részt be nem fejezed
+   - A konzolod csak addig fog a SafeB9SInstaller képernyőre bootolni, amíg a következő részt be nem fejezed
 
 ### IV. rész - Luma3DS konfigurálása
 
@@ -95,9 +95,9 @@ Ne hajtsd végre az itt leírt utasításokat mindaddig, amíg nem végeztél az
 
 - A [ntrboot_flasher] legújabb kiadása (https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 - A flashkártyádhoz tartozó flashrom biztonsági mentés
-    - Ne feledd, hogy amennyiben az [ntrboot flashelése (több 3DS)](flashing-ntrboot-\(3ds-multi-system\)) nevű útmutatót követted, a flashrom biztonsági másolata már létezik a megfelelő helyen, és szükségtelen letölteni
-    - Amennyiben az [ntrboot flashelése (egy 3DS)](flashing-ntrboot-\(3ds-single-system\)), vagy az [ntrboot flashelése (NDS)](flashing-ntrboot-\(nds\)) című útmutatókat követted, a flashrom biztonsági másolata már létezik a flashkártyád SD kártyáján, és csak a lentebb olvasható helyre kell másolnod
-    - Ha nem tudod, hogy melyik HW revízióval rendelkezel, próbáld végig az összeset a kártyáddal. Csak a megfelelővel fog elindulni a flashkártyád a HOME Menüből, a nem megfelelő flashrom flash-elése nem brickeli a kártyádat
+  - Ne feledd, hogy amennyiben az [ntrboot flashelése (több 3DS)](flashing-ntrboot-\(3ds-multi-system\)) nevű útmutatót követted, a flashrom biztonsági másolata már létezik a megfelelő helyen, és szükségtelen letölteni
+  - Amennyiben az [ntrboot flashelése (egy 3DS)](flashing-ntrboot-\(3ds-single-system\)), vagy az [ntrboot flashelése (NDS)](flashing-ntrboot-\(nds\)) című útmutatókat követted, a flashrom biztonsági másolata már létezik a flashkártyád SD kártyáján, és csak a lentebb olvasható helyre kell másolnod
+  - Ha nem tudod, hogy melyik HW revízióval rendelkezel, próbáld végig az összeset a kártyáddal. Csak a megfelelővel fog elindulni a flashkártyád a HOME Menüből, a nem megfelelő flashrom flash-elése nem brickeli a kártyádat
 
 | Flashcart                                                          | Hardverrevízió |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Flashrom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------ | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -129,7 +129,7 @@ Ne hajtsd végre az itt leírt utasításokat mindaddig, amíg nem végeztél az
 
 1. Kapcsold ki a konzolod
 2. Helyezd az SD kártyád a számítógépbe
-    - Ez a 3DS-ed SD kártyája, _nem_ a flashkártyádé
+   - Ez a 3DS-ed SD kártyája, _nem_ a flashkártyádé
 3. Hozz létre egy mappát `ntrboot` néven az SD kártya gyökerében
 4. Másold át a `.bin` fájlt a flashrom biztonsági mentésed `.zip`-jéből az SD kártyád gyökerében található `/ntrboot/` mappába
 5. Hozz létre egy mappát `payloads` néven az SD kártyád `luma` nevezetű mappájában

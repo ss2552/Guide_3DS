@@ -1,6 +1,6 @@
 # Hibaelhárítás (Telepítés után)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a az egyedi firmware telepítését követően. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a az egyedi firmware telepítését követően. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
 
 ## Bootolási problémák
 
@@ -35,21 +35,21 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 1. Kapcsold ki a konzolod, vedd ki majd tedd vissz az SD kártyát, majd kapcsold be újra a konzolod.
 2. Kapcsold ki a konzolod, vedd ki a játék cartridge-t ha van benne, majd kapcsold be a konzolod és várj tíz percet. Ha a konzolod bebootol tíz percen belül, a probléma elhárult és nem fog valószínűleg újra előfordulni
 3. Nevezd át a `Nintendo 3DS` mappát az SD kártyádon `Nintendo 3DS_BACKUP` névre és próbálj meg bootolni. Ha a konzolod sikeresen bootol, problémák vannak a `Nintendo 3DS` könyvtáraddal. Próbáld meg kitakarítani a HOME menu extdata-t:
-    - Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` mappába
-    - Töröld a 3DS régiódhoz tartozó mappát:
-        - **EUR régió**: `00000098`
-        - **JPN régió**: `00000082`
-        - **USA régió**: `0000008f`
-        - **CHN régió**: `000000A1`
-        - **KOR régió**: `000000A9`
-        - **TWN régió**: `000000B1`
+   - Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` mappába
+   - Töröld a 3DS régiódhoz tartozó mappát:
+     - **EUR régió**: `00000098`
+     - **JPN régió**: `00000082`
+     - **USA régió**: `0000008f`
+     - **CHN régió**: `000000A1`
+     - **KOR régió**: `000000A9`
+     - **TWN régió**: `000000B1`
 4. Próbálj meg recovery mode-ba bootolni, majd onnét frissíteni a rendszeredet:
-    - Kapcsold ki a konzolod
-    - Tartsd nyomva a (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A) gombokat
-    - Kapcsold be a konzolod
-    - Ha sikeres voltál, a konzolod egy "update your system" képernyőre bootol
+   - Kapcsold ki a konzolod
+   - Tartsd nyomva a (Bal Váll) + (Jobb Váll) + (D-Pad Fel) + (A) gombokat
+   - Kapcsold be a konzolod
+   - Ha sikeres voltál, a konzolod egy "update your system" képernyőre bootol
 5. Kövesd a [CTRTransfer](ctrtransfer) útmutatót
-6. For further support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+6. További támogatásért kérj segítséget a [Nintendo Homebrew-tól a Discord-on](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -88,13 +88,13 @@ Ha ez a helyzet, próbáld meg a lépéseket alább, ami a legkönnyebbtől a le
 2. Kapcsold ki a konzolod, távolítsd el az SD kártyád, majd csatlakoztasd a számítógépedhez. Töltsd le a legutolsó kiadását az [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest)-nek és csomagold ki a `Luma3DS.zip` fájlból a `boot.firm` fájlt, majd rakd az SD kártyád gyökerébe (felülírva bármilyen létező fájlt)
 3. Kapcsold ki a konzolod, távolítsd el az SD kártyát, csatlakoztasd a számítógépedhez és formázd újra az SD kártyád az operációs rendszerednek megfelelően: [Windows](formatting-sd-\(windows\)), [macOS](formatting-sd-\(mac\)), [Linux](formatting-sd-\(linux\)) _(ez törölni fogja az SD kártya adatait)_
 4. Teszteld az SD kártyádat hibákra az operációs rendszerednek megfelelő útmutató szerint haladva: [Windows](h2testw-\(windows\)), [Linux](f3-\(linux\)), [macOS](f3xswift-\(mac\)). Ha az SD kártyád hibásnak jelölt, cserélned kell az SD kártyádat
-5. Az SD kártya foglalatod is lehet hibás. Join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance
+5. Az SD kártya foglalatod is lehet hibás. Csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) további segítségért
 
 :::
 
 :::details Kék "BOOTROM ERROR" képernyő
 
-A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. In any case, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flashcart vásárlására, hogy újra telepítsd a boot9strap-et, hogy megpróbálhasd megjavítani a konzolod. Ez hardver hibát is jelezhet, ami nem javítható. Bármelyik esetben csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 - Az is lehetséges még, hogy valaki beállított egy bootoláskori kezdő képernyőt, ami úgy néz ki mint egy brick. Próbáld meg a konzolod bekapcsolva hagyni, várva a kék képernyőre, 5 percig.
 
@@ -102,7 +102,7 @@ A konzolod valószínüleg hard-brickelve lett. Szükséged van egy ntrboot flas
 
 :::details Egyéb más hibák
 
-Please take a photo of the error and join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Készítsd egy képet a hibáról és csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 :::
 
@@ -140,7 +140,7 @@ Ez egy CTRTransfer vagy régió csere után fordulhat elő Old 3DS / 2DS eszköz
 :::details Kivétel képernyő egy alkalmazás bootolásakor/betöltésekor
 
 Tekintsd meg a kivétel képernyőt [ezen az oldalon](https://wiki.hacks.guide/wiki/3DS:Error_screens/Luma3DS_exception_screen).
-If you weren't able to find your error or the instructions didn't work, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for further assistance.
+Ha nem sikerült megtalálni a hibádat, vagy a lépések nem működnek, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) további támogatásért.
 
 :::
 
@@ -165,12 +165,12 @@ Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatorn�
 2. Helyezd az SD kártyád a számítógépbe
 3. Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` könyvtárba az SD kártyádon
 4. Töröld a 3DS régiódhoz tartozó mappát:
-    - **EUR régió**: `00000098`
-    - **JPN régió**: `00000082`
-    - **USA régió**: `0000008f`
-    - **CHN régió**: `000000A1`
-    - **KOR régió**: `000000A9`
-    - **TWN régió**: `000000B1`
+   - **EUR régió**: `00000098`
+   - **JPN régió**: `00000082`
+   - **USA régió**: `0000008f`
+   - **CHN régió**: `000000A1`
+   - **KOR régió**: `000000A9`
+   - **TWN régió**: `000000B1`
 5. Tedd vissza az SD kártyád a konzoldba
 
 :::
@@ -181,10 +181,10 @@ Csatlakozz a [Nintendo Homebrew Discord-on](https://discord.gg/MWxPgEp) csatorn�
 2. Helyezd az SD kártyád a számítógépbe
 3. Navigálj a `/Nintendo 3DS/<ID0>/<ID1>/extdata/00000000/` könyvtárba az SD kártyádon
 4. Töröld a 3DS régiódhoz tartozó mappát:
-    - **EUR régió**: `000002ce`
-    - **JPN régió**: `000002cc`
-    - **USA régió**: `000002cd`
-    - **KOR régió**: `000002cf`
+   - **EUR régió**: `000002ce`
+   - **JPN régió**: `000002cc`
+   - **USA régió**: `000002cd`
+   - **KOR régió**: `000002cf`
 5. Tedd vissza az SD kártyád a konzoldba
 
 :::
@@ -204,9 +204,9 @@ Azonban, ha nem tudod a PIN-t így nem tudsz hozzáférni az konzol beállítás
 
 1. Menj [erre a weboldalra](https://mkey.eiphax.tech/)
 2. Töltsd ki a következő dobozokat az információval:
-    - Device Type: Válaszd a "3DS"-t (ugyanez vonatkozik, ha 2DS, New 3DS (XL/LL) vagy New 2DS (XL/LL) típusod van)
-    - System Date: A nap és a hónap a konzolod óráján beállított
-    - Inquiry Number: Beszerezhető a "Forgot PIN" majd az "I Forgot" gombbal a Parental Controls képernyőn
+   - Device Type: Válaszd a "3DS"-t (ugyanez vonatkozik, ha 2DS, New 3DS (XL/LL) vagy New 2DS (XL/LL) típusod van)
+   - System Date: A nap és a hónap a konzolod óráján beállított
+   - Inquiry Number: Beszerezhető a "Forgot PIN" majd az "I Forgot" gombbal a Parental Controls képernyőn
 3. Ha megszerezted az mkey-edet, nyomj OK gombot azon a képernyőn, ahol megkaptad az Inquiry Number számod, és add meg a mester kulcsot
 4. Nyomj "Clear Settings"-et, majd "Delete"-et a minden Parental Controls adat eltávolításához
 

@@ -24,9 +24,9 @@ En dispositivos Android, la versión mínima requerida de Android es la 6.0 (Mar
 
 - La última versión de [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (El archivo MSET9 `.zip`)
 - Las siguientes aplicaciones instaladas desde Google Play Store:
-    - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
-    - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-    - Si quieres, puedes descargar estas aplicaciones desde otros lugares
+  - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
+  - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
+  - Si quieres, puedes descargar estas aplicaciones desde otros lugares
 
 ## Instrucciones
 
@@ -38,17 +38,17 @@ En esta sección, prepararás el exploit MSET9 creando **temporalmente** un nuev
 
 2. Copia todo lo que está dentro del `.zip` de MSET9 a la raíz de tu tarjeta SD. Si alguno de los archivos ya existe, sobreescríbelos con los nuevos:
 
-    - Abre ZArchiver
-    - Si se te pide, [concédele el permiso para acceder a archivos en tu tarjeta SD a ZArchiver](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navega a donde se encuentra descargado el `.zip` de MSET9 ([probablemente en la carpeta Descargas](/images/screenshots/mset9/zarchiver-zip-location.png))
-    - Selecciona el `.zip` de MSET9 y luego "Extraer..." ([imagen](/images/screenshots/mset9/zarchiver-extract-1.png))
-    - Navega a la tarjeta SD, y toca el icono azul de 'flecha hacia abajo' para extraer los archivos a la raíz de la tarjeta SD ([imagen](/images/screenshots/mset9/zarchiver-extract-2.png))
+   - Abre ZArchiver
+   - Si se te pide, [concédele el permiso para acceder a archivos en tu tarjeta SD a ZArchiver](/images/screenshots/mset9/zarchiver-allow.png)
+   - Navega a donde se encuentra descargado el `.zip` de MSET9 ([probablemente en la carpeta Descargas](/images/screenshots/mset9/zarchiver-zip-location.png))
+   - Selecciona el `.zip` de MSET9 y luego "Extraer..." ([imagen](/images/screenshots/mset9/zarchiver-extract-1.png))
+   - Navega a la tarjeta SD, y toca el icono azul de 'flecha hacia abajo' para extraer los archivos a la raíz de la tarjeta SD ([imagen](/images/screenshots/mset9/zarchiver-extract-2.png))
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-root-layout-android.png)
+   ![](/images/screenshots/mset9/mset9-root-layout-android.png)
 
-    :::
+   :::
 
 3. Abre la [aplicación MSET9 Installer](/images/screenshots/mset9/mset9-setup-android.png)
 
@@ -57,7 +57,7 @@ En esta sección, prepararás el exploit MSET9 creando **temporalmente** un nuev
 5. Una vez estés dentro de la carpeta `Nintendo 3DS`, presiona en "Seleccionar", y después en "Permitir" si se pide permiso ([imagen](/images/screenshots/mset9/select-mset9-folder-2.png))
 
 6. Si la opción de `Setup MSET9` está [resaltada](/images/screenshots/mset9/setup-mset9-highlighted.png), continúa al siguiente paso
-    - Si aparece un error, tendrás que resolverlo para poder usar MSET9. Consulta la guía de [resolución de problemas](troubleshooting-mset9)
+   - Si aparece un error, tendrás que resolverlo para poder usar MSET9. Consulta la guía de [resolución de problemas](troubleshooting-mset9)
 
 7. Toca en `Setup MSET9` para iniciar el proceso de configuración de MSET9
 
@@ -106,28 +106,28 @@ Debes de seguir estas instrucciones de forma **EXACTA**, ¡así que revisa caute
 :::
 
 1. Enciende tu consola, asegurándote de que el ícono de la configuración de la consola este seleccionado
-    - Si la configuración de la consola no está seleccionada, **[mueve el cursor](/images/screenshots/mset9/hover-settings.png)** al ícono de la configuración de la consola usando la cruz de control, apaga la consola, y enciéndela
+   - Si la configuración de la consola no está seleccionada, **[mueve el cursor](/images/screenshots/mset9/hover-settings.png)** al ícono de la configuración de la consola usando la cruz de control, apaga la consola, y enciéndela
 2. Presiona (A) para iniciar la configuración de la consola
 3. Navega a `Gestion de datos` -> `Nintendo 3DS` -> `Datos Adicionales` ([imagen](/images/screenshots/mset9/settings-extdata.png))
 4. **No presiones ningún botón ni toques la pantalla**
 5. **Con la consola AÚN ENCENDIDA, y sin presionar ningún botón y sin tocar la pantalla**, saca la tarjeta SD de tu consola
-    - El menú se actualizará y dirá que no hay ninguna tarjeta SD insertada, que es lo que tiene que pasar
+   - El menú se actualizará y dirá que no hay ninguna tarjeta SD insertada, que es lo que tiene que pasar
 6. Inserta la tarjeta SD en tu teléfono/tablet/computadora
 7. Inicia la aplicación MSET9 Installer
 8. Toca `Inject trigger file`
-    - El botón debería ponerse gris y `Remove trigger file` debería [resaltarse](/images/screenshots/mset9/remove-trigger-highlighted.png)
+   - El botón debería ponerse gris y `Remove trigger file` debería [resaltarse](/images/screenshots/mset9/remove-trigger-highlighted.png)
 9. Reinserta la tarjeta SD en tu consola **sin presionar ningún botón y sin tocar la pantalla**
 10. Si el exploit fue exitoso, habrás iniciado SafeB9SInstaller
-    - Si aparece una pantalla roja o la consola se queda trabada en una pantalla de carga, sigue la [guía de resolución de problemas](troubleshooting-mset9)
+    - If you get a red screen or the console gets stuck on a loading screen for more than 10 seconds, follow the [troubleshooting guide](troubleshooting-mset9)
 
 ### Sección III - Instalar boot9strap
 
 En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
-    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
-        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+   - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+     - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
 2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->

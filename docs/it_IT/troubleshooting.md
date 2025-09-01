@@ -2,7 +2,7 @@
 
 Questa è una pagina contenente diverse risorse per risolvere i problemi comunemente riscontrati. Per visualizzarle, clicca sul collegamento corrispondente alla pagina che stai seguendo.
 
-If you're unable to fix your issue, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp). Se manca il tuo problema ma ne conosci la soluzione, [faccelo sapere!](https://github.com/hacks-guide/Guide_3DS/issues)
+Se non riesci a risolvere il tuo problema, chiedi aiuto su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp). Se manca il tuo problema ma ne conosci la soluzione, [faccelo sapere!](https://github.com/hacks-guide/Guide_3DS/issues)
 
 ::: tip
 

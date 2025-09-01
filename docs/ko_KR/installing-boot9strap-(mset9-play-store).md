@@ -24,9 +24,9 @@ Android 휴대폰/태블릿에서 요구되는 최소 Android 버전은 6.0 (마
 
 - 최신 버전의 [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (MSET9 `.zip` 파일)
 - Google Play 스토어에서 다음과 같은 애플리케이션을 설치해 주세요:
-    - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
-    - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
-    - 필요한 경우 Play 스토어 외의 사이트에서 받아서 설치할 수 있습니다.
+  - [MSET9 Installer](https://play.google.com/store/apps/details?id=moe.saru.homebrew.console3ds.mset9_installer_android)
+  - [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
+  - 필요한 경우 Play 스토어 외의 사이트에서 받아서 설치할 수 있습니다.
 
 ## 진행 방법
 
@@ -38,17 +38,17 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files:
 
-    - ZArchiver를 열어주세요
-    - If prompted, [allow ZArchiver to access files on your SD card](/images/screenshots/mset9/zarchiver-allow.png)
-    - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
-    - Select the MSET9 `.zip`, then select "Extract..." ([이미지 (영어)](/images/screenshots/mset9/zarchiver-extract-1.png))
-    - Navigate to your SD card, then tap the blue 'down arrow' icon to extract the files to the root of your SD card ([image](/images/screenshots/mset9/zarchiver-extract-2.png))
+   - ZArchiver를 열어주세요
+   - If prompted, [allow ZArchiver to access files on your SD card](/images/screenshots/mset9/zarchiver-allow.png)
+   - Navigate to where the downloaded MSET9 `.zip` is located ([likely in the Downloads folder](/images/screenshots/mset9/zarchiver-zip-location.png))
+   - Select the MSET9 `.zip`, then select "Extract..." ([이미지 (영어)](/images/screenshots/mset9/zarchiver-extract-1.png))
+   - Navigate to your SD card, then tap the blue 'down arrow' icon to extract the files to the root of your SD card ([image](/images/screenshots/mset9/zarchiver-extract-2.png))
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-root-layout-android.png)
+   ![](/images/screenshots/mset9/mset9-root-layout-android.png)
 
-    :::
+   :::
 
 3. [MSET9 Installer 앱](/images/screenshots/mset9/mset9-setup-android.png) 을 실행해 주세요
 
@@ -57,7 +57,7 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 5. `Nintendo 3DS` 폴더에 들어간 후, "Use this folder" (이 폴더 사용)을 터치한 다음, "Allow" 를 눌러 접근을 허용해줍니다 ([예시](/images/screenshots/mset9/select-mset9-folder-2.png))
 
 6. If `Setup MSET9` is [highlighted](/images/screenshots/mset9/setup-mset9-highlighted.png), proceed to the next step
-    - If you get an error, you need to resolve before you can use MSET9. [문제 해결](troubleshooting-mset9)을 참조해 주십시오
+   - If you get an error, you need to resolve before you can use MSET9. [문제 해결](troubleshooting-mset9)을 참조해 주십시오
 
 7. Tap on `Setup MSET9` to begin the process of setting up MSET9
 
@@ -106,28 +106,28 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 :::
 
 1. 콘솔의 전원을 켜고, 본체 설정이 선택되어 있는지 확인하세요
-    - 본체 설정이 선택되어 있지 않다면, 십자 패드를 이용해 본체 설정 앱을 **[띄워 놓고 (영어 사진)](/images/screenshots/mset9/hover-settings.png)**, 전원을 종료한 뒤, 다시 시도해 주세요
+   - 본체 설정이 선택되어 있지 않다면, 십자 패드를 이용해 본체 설정 앱을 **[띄워 놓고 (영어 사진)](/images/screenshots/mset9/hover-settings.png)**, 전원을 종료한 뒤, 다시 시도해 주세요
 2. (A)를 눌러 본체 설정을 실행해 주세요
 3. `데이터 관리` -> `Nintendo 3DS` -> `추가 데이터 관리`로 들어가주세요. ([영어 사진](/images/screenshots/mset9/settings-extdata.png))
 4. **절대 어떠한 버튼도 만지지 말고 스크린도 터치하지 마세요**
 5. **어떠한 버튼도 하단 화면도 건드리지 않은 상태에서, 기기의 전원이 여전히 켜진 상태에서** SD 카드를 기기에서 제거해 주세요
-    - The menu will refresh and say that no SD card is inserted, which is expected
+   - The menu will refresh and say that no SD card is inserted, which is expected
 6. SD 카드를 휴대폰/태블릿/컴퓨터에 삽입해 주세요
 7. MSET9 Installer를 실행해 주세요
 8. Tap `Inject trigger file`
-    - The button should become greyed out and `Remove trigger file` become [highlighted](/images/screenshots/mset9/remove-trigger-highlighted.png)
+   - The button should become greyed out and `Remove trigger file` become [highlighted](/images/screenshots/mset9/remove-trigger-highlighted.png)
 9. **어떠한 버튼도 하단 화면도 건드리지 않은 상태에서** SD 카드를 콘솔에 삽입해 주세요
 10. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
-    - 붉은 화면이 뜨거나 로딩 화면에서 멈출 경우, [다음 문제 해결 가이드](troubleshooting-mset9) 내용을 따라주세요
+    - If you get a red screen or the console gets stuck on a loading screen for more than 10 seconds, follow the [troubleshooting guide](troubleshooting-mset9)
 
 ### 섹션 III - boot9strap 설치하기
 
 이 섹션에서는, 커스텀 펌웨어를 설치할 것입니다.
 
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
-    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
-        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+   - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+     - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
 2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->

@@ -38,11 +38,11 @@ En esta sección, copiarás los archivos necesarios para activar super-skaterhax
 2. Inserta la tarjeta SD en tu computadora
 
 3. Copia todo lo que está dentro del `.zip` de Super-skaterhax a la raíz de tu tarjeta SD. Si alguno de los archivos ya existe, sobreescríbelos con los nuevos.
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/skaterhax/skater-root-layout.png)
+   ![](/images/screenshots/skaterhax/skater-root-layout.png)
 
-    :::
+   :::
 
 4. Reinserta la tarjeta SD en la consola
 
@@ -53,15 +53,15 @@ En esta sección, copiarás los archivos necesarios para activar super-skaterhax
 7. Selecciona "Otras opciones"
 
 8. Ve hacia "Perfil" -> "Residencia"
-    - Estos ajustes serán cambiados temporalmente para aumentar la tasa de éxito del exploit
-    - Podrás restablecer los ajustes de residencia a los originales una vez que hayas terminado de seguir esta página
-    - Si aparece una [advertencia](/images/screenshots/skaterhax/country-change-notice.png) diciendo que perderás acceso a funciones de Nintendo Network ID, puedes seleccionar "Aceptar" para continuar sin ningún problema
+   - Estos ajustes serán cambiados temporalmente para aumentar la tasa de éxito del exploit
+   - Podrás restablecer los ajustes de residencia a los originales una vez que hayas terminado de seguir esta página
+   - Si aparece una [advertencia](/images/screenshots/skaterhax/country-change-notice.png) diciendo que perderás acceso a funciones de Nintendo Network ID, puedes seleccionar "Aceptar" para continuar sin ningún problema
 
 9. Selecciona las siguientes opciones según la región de tu consola ([imagen](/images/screenshots/skaterhax/skater-lang.png))
-    - USA: First select United States, then select Do Not Set
-    - EUR: First select United Kingdom, then select Do Not Set
-    - JPN: First select 日本, then select 設定しない
-    - KOR: First select 대한민국, then select 설정하지 않음
+   - USA: First select United States, then select Do Not Set
+   - EUR: First select United Kingdom, then select Do Not Set
+   - JPN: First select 日本, then select 設定しない
+   - KOR: First select 대한민국, then select 설정하지 않음
 
 10. Dirígete a "Fecha y hora"
 
@@ -82,15 +82,15 @@ En esta sección, visitarás la página web del exploit para el navegador, la cu
 1. Dirígete al navegador de internet
 2. Toca el icono de 3 líneas (☰) en la esquina inferior derecha de la pantalla
 3. Toca `Ajustes` -> desliza hacia abajo -> `Borrar datos` -> `Sí` -> `Sí` -> `Aceptar`
-    - El navegador se cerrará
+   - El navegador se cerrará
 4. Abre el navegador de internet de nuevo
 5. Toca `Seguir` -> `Google` -> `Aceptar` -> `Aceptar`
 6. Toca la barra de búsqueda en la parte superior de la pantalla inferior
 7. Introduce el URL correspondiente a la región de la consola:
-    - **USA/EUR/JPN**: `https://skater.686178.xyz/go/super`
-    - **KOR**: `https://skater.686178.xyz/go/korea`
+   - **USA/EUR/JPN**: `https://skater.686178.xyz/go/super`
+   - **KOR**: `https://skater.686178.xyz/go/korea`
 8. Toca «Abrir»
-    - Te debería aparecer el texto «GO GO!». No hagas clic aún
+   - Te debería aparecer el texto «GO GO!». No hagas clic aún
 9. Toca el icono de 3 líneas (☰) en la esquina inferior derecha de la pantalla
 10. Toca «Añadir a favoritos»
 11. Toca el icono de 3 líneas (☰) en la esquina inferior derecha de la pantalla
@@ -101,9 +101,9 @@ En esta sección, visitarás la página web del exploit para el navegador, la cu
 16. Si la consola muestra:
     - **La pantalla de "The Homebrew Launcher"**: Sigue con el siguiente paso
     - **Un cuadro en blanco que dice "Error has occurred"**: el exploit falló. Abre la configuración de la consola, cambia el idioma a uno distinto (si es posible) y vuelve a intentarlo. Puede que tengas que repetir esta secuencia hasta diez veces
-        - En las consolas con región JPN/KOR, solo hay un idioma disponible. En esas consolas, deberás abrir la configuración de la consola, cerrarlo y volver a intentarlo
-        - Si el exploit sigue fallando después de cinco intentos, podría haber un problema con los archivos o preparativos. Asegúrate de que la región y la fecha sean correctas, y de que has estado siguiendo esta sección **exactamente paso por paso**. Si usaste WinRAR para extraer los archivos a la tarjeta SD, vuelve a extraer los archivos usando el Explorador de archivos o 7-zip en su lugar
-        - Si el exploit sigue fallando después de diez intentos, sigue [MSET9](installing-boot9strap-\(mset9\)) en cambio
+      - En las consolas con región JPN/KOR, solo hay un idioma disponible. En esas consolas, deberás abrir la configuración de la consola, cerrarlo y volver a intentarlo
+      - Si el exploit sigue fallando después de cinco intentos, podría haber un problema con los archivos o preparativos. Asegúrate de que la región y la fecha sean correctas, y de que has estado siguiendo esta sección **exactamente paso por paso**. Si usaste WinRAR para extraer los archivos a la tarjeta SD, vuelve a extraer los archivos usando el Explorador de archivos o 7-zip en su lugar
+      - Si el exploit sigue fallando después de diez intentos, sigue [MSET9](installing-boot9strap-\(mset9\)) en cambio
     - **Una pantalla negra que dice "An error has occurred"**: Los archivos no están colocados correctamente. Asegúrate de que los archivos de super-skaterhax se encuentran en la raíz de la tarjeta SD
     - **Una pantalla amarilla**: el Homebrew Launcher no pudo abrirse. Mantén el botón POWER hasta que la consola se apague e inténtalo de nuevo
     - **[La palabra "Text"](/images/screenshots/skaterhax/skater-old3ds.png)**: Posees una Old 3DS, en la que el exploit **no es compatible**. Si este es el caso, entones debes de usar el exploit [MSET9](installing-boot9strap-\(mset9\))
@@ -116,7 +116,7 @@ En esta sección, visitarás la página web del exploit para el navegador, la cu
 En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - Si algún paso en la pantalla inferior tiene el texto en color rojo y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-super-skaterhax)
+   - Si algún paso en la pantalla inferior tiene el texto en color rojo y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-super-skaterhax)
 2. Once it is complete, press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->

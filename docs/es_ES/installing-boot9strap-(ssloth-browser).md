@@ -32,8 +32,8 @@ In this section, you will copy the files needed to trigger both browserhax and u
 1. Apaga la consola
 2. Inserta la tarjeta SD en tu computadora
 3. Copy `otherapp.bin` to the root of your SD card and rename it to `arm11code.bin`
-    - La raíz de la tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
-    - If you do not see the `.bin` extension, do not add it to the end of the filename
+   - La raíz de la tarjeta SD se refiere al primer directorio de la tarjeta, donde puedes ver la carpeta Nintendo 3DS pero no estás dentro de ella
+   - If you do not see the `.bin` extension, do not add it to the end of the filename
 4. Copia todo lo que está dentro del `.zip` de Luma3DS a la raíz de tu tarjeta SD
 5. Crea una carpeta llamada `boot9strap` en la raíz de la tarjeta SD
 6. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en la tarjeta SD
@@ -66,30 +66,30 @@ In this section, you will change your Internet connection settings to use a prox
 In this section, you will visit the browser exploit webpage, which will use universal-otherapp to launch the boot9strap (custom firmware) installer.
 
 1. On the HOME Menu, press the Left and Right shoulder buttons at the same time to open the camera
-    - If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/nbhax/`)
+   - If you are unable to open the camera, open the Internet Browser and manually type the URL instead (`https://zoogie.github.io/web/nbhax/`)
 
 2. Tap the QR code button and scan [this QR code](http://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=https%3A%2F%2Fzoogie.github.io%2Fweb%2Fnbhax&qzone=1&margin=0&size=400x400&ecc=L)
 
-    - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
-    - Si se congela la consola o aparece otro código de error, [sigue esta guía de resolución de problemas](troubleshooting-ssloth-browser)
+   - When you get a prompt with error code `012-1511`, `032-1809` or `032-1820`, press (A) to allow the connection
+   - Si se congela la consola o aparece otro código de error, [sigue esta guía de resolución de problemas](troubleshooting-ssloth-browser)
 
-    ::: danger
+   ::: danger
 
-    Si aparece un mensaje pidiéndote que actualices la consola, ¡DETENTE! Haz de nuevo la Sección II desde el principio y asegúrate de haber configurado el proxy correctamente.
+   Si aparece un mensaje pidiéndote que actualices la consola, ¡DETENTE! Haz de nuevo la Sección II desde el principio y asegúrate de haber configurado el proxy correctamente.
 
-    :::
+   :::
 
 3. Tap the "PROCEED TO HAXX" button
 
 4. Si el exploit fue exitoso, habrás iniciado SafeB9SInstaller
-    - If you get an error, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
+   - If you get an error, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
 
 ### Section IV - Installing boot9strap
 
 En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-ssloth-browser)
 2. Once it is complete, press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->

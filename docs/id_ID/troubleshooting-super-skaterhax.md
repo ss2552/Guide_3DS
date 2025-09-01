@@ -21,9 +21,9 @@ Jika layar berkelip warna lalu macet/mogok:
 
 - Pastikan berkas `arm11code.bin` dan `browserhax_hblauncher_ropbin_payload.bin` sudah benar sesuai versi dan daerah konsol
 - Coba atur ulang data Browser:
-    1. Buka Browser, lalu buka pengaturan Browser
-    2. Gulir ke bawah dan pilih "Reset Save Data" (bisa jadi disebut "Initialize Save Data" atau "Clear All Save Data")
-    3. Coba ulang eksploit
+  1. Buka Browser, lalu buka pengaturan Browser
+  2. Gulir ke bawah dan pilih "Reset Save Data" (bisa jadi disebut "Initialize Save Data" atau "Clear All Save Data")
+  3. Coba ulang eksploit
 - Coba ubah bahasa sistem ke yang lain selain bahasa yang sekarang
 
 :::
@@ -43,6 +43,12 @@ Berkas `arm11code.bin` belum ada atau salah taruh. Pastikan yang disalin itu [ve
 :::details "An exception occured" atau "DLL_HEAP_INFORMATION" saat menekan GO! GO!
 
 Ini mungkin menandakan sudah ada _custom firmware_. Coba [periksa CFW](checking-for-cfw).
+
+:::
+
+:::details Error 032-1035 when trying to view the skaterhax webpage
+
+Your Internet connection is blocking access to the skaterhax webpage. If possible, try a mobile hotspot. If you do not have another Internet connection available, follow [MSET9](installing-boot9strap-\(mset9\)) instead.
 
 :::
 

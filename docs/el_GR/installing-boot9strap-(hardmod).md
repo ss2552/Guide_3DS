@@ -21,7 +21,7 @@
 - Το είδωλο της NAND που αποκτήσατε με το [hardmod](https://gbatemp.net/threads/414498/) σας
 - Την πιο πρόσφατη έκδοση του [boot9strap](https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip) (απευθείας λήψη)
 - Την πιο πρόσφατη έκδοση του [hardmod-b9s-installer](https://github.com/ihaveamac/hardmod-b9s-installer/releases/latest)
-    - Οι χρήστες των Windows μπορούν να χρησιμοποιήσουν το αρχείο `.exe`, ενώ οι χρήστες των Mac και Linux θα πρέπει να έχουν εγκαταστήσει την [Python 3] (https://www.python.org/downloads/) για να εκτελέσουν το αρχείο `.py`
+  - Οι χρήστες των Windows μπορούν να χρησιμοποιήσουν το αρχείο `.exe`, ενώ οι χρήστες των Mac και Linux θα πρέπει να έχουν εγκαταστήσει την [Python 3] (https://www.python.org/downloads/) για να εκτελέσουν το αρχείο `.py`
 - Την πιο πρόσφατη έκδοση του [Luma3DS](https://github.com/LumaTeam/Luma3DS/releases/latest) (το αρχείο `.zip` του Luma3DS)
 - Το αρχείο `.firm` που αντιστοιχεί στην κονσόλα και την έκδοσή σας:
 
@@ -81,8 +81,8 @@
 Σε αυτήν την ενότητα, θα εγκαταστήσετε το custom firmware στο αποτυπωμένο είδωλο της NAND. Έπειτα, θα εγκαταστήστε αυτό το είδωλο της NAND στην κονσόλα για να εγκατασταθεί σε αυτή το custom firmware.
 
 1. Εκτελέστε το hardmod-b9s-installer
-    - Χρήστες Windows: Εκτελέστε το `install-b9s.exe`
-    - Χρήστες Mac και Linux: Εκτελέστε το `install-b9s.py`
+   - Χρήστες Windows: Εκτελέστε το `install-b9s.exe`
+   - Χρήστες Mac και Linux: Εκτελέστε το `install-b9s.py`
 2. Με το hardmod σας, φορτώστε στην κονσόλα σας το `NAND-patched.bin` που δημιουργήθηκε
 3. Απενεργοποιήστε την κονσόλα σας
 4. Αποσυνδέστε το hardmod σας

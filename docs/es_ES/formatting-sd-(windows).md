@@ -27,11 +27,11 @@ Esta página es solo para usuarios de Windows. Si no estas usando Windows, revis
 
 5. Selecciona la letra de la unidad de tu tarjeta SD en el campo de "Select card"
 
-    ::: danger
+   ::: danger
 
-    ¡Asegúrate de elegir la unidad con la letra correcta, de lo contrario podrías borrar el contenido de otra unidad por error!
+   ¡Asegúrate de elegir la unidad con la letra correcta, de lo contrario podrías borrar el contenido de otra unidad por error!
 
-    :::
+   :::
 
 6. Escribe el nombre que quieras en "Volume label"
 
@@ -61,15 +61,15 @@ Has terminado de formatear tu tarjeta SD (si es de **32GB o menos**).
 
 2. Selecciona la letra de la unidad de tu tarjeta SD en el campo "Drive"
 
-    ::: danger
+   ::: danger
 
-    ¡Asegúrate de elegir la unidad con la letra correcta, de lo contrario podrías borrar el contenido de otra unidad por error!
+   ¡Asegúrate de elegir la unidad con la letra correcta, de lo contrario podrías borrar el contenido de otra unidad por error!
 
-    :::
+   :::
 
 3. Selecciona un tamaño apropiado en el campo "Allocation unit size"
-    - Si la tarjeta SD es de 64GB, elige 32768
-    - Si la tarjeta SD es mayor a 64GB, elige 65536
+   - Si la tarjeta SD es de 64GB, elige 32768
+   - Si la tarjeta SD es mayor a 64GB, elige 65536
 
 4. Escribe el nombre que quieras en "Volume label"
 
@@ -88,11 +88,11 @@ Has terminado de formatear tu tarjeta SD (si es de **32GB o menos**).
 ## Resolución de Problemas
 
 - guiformat muestra el error "Failed to open device: GetLastError()=32"
-    - Cierra todos los programas que puedan estar usando la tarjeta SD, tales como ventanas del Explorador de Windows.
-    - Si el problema persiste, intenta formatear la tarjeta en formato NTFS en el Explorador de archivos. Cierra la ventana cuando termine el proceso y vuelve a intentar el proceso de guiformat.
+  - Cierra todos los programas que puedan estar usando la tarjeta SD, tales como ventanas del Explorador de Windows.
+  - Si el problema persiste, intenta formatear la tarjeta en formato NTFS en el Explorador de archivos. Cierra la ventana cuando termine el proceso y vuelve a intentar el proceso de guiformat.
 
 - guiformat muestra el error "GetLastError()=1117"
-    - El interruptor de protección contra escritura de tu tarjeta SD podría estar [activado](/images/sdlock.png). El interruptor debe ser invertido hacia arriba para permitir escritura en la tarjeta SD (y el formateo).
+  - El interruptor de protección contra escritura de tu tarjeta SD podría estar [activado](/images/sdlock.png). El interruptor debe ser invertido hacia arriba para permitir escritura en la tarjeta SD (y el formateo).
 
 - La tarjeta SD sigue sin ser detectada por la consola o muestra la capacidad incorrecta tras formatear
-    - La tarjeta SD quizá tenga múltiples particiones, o espacio sin asignar. Sigue las instrucciones [aquí](https://wiki.hacks.guide/wiki/SD_Clean/Windows) para cambiar de formato la tarjeta SD.
+  - La tarjeta SD quizá tenga múltiples particiones, o espacio sin asignar. Sigue las instrucciones [aquí](https://wiki.hacks.guide/wiki/SD_Clean/Windows) para cambiar de formato la tarjeta SD.

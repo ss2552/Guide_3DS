@@ -9,7 +9,7 @@ Questo processo resetterà i tuoi dati Mii. Se desideri salvare qualunque Mii cr
 1. Spegni la tua console
 2. Premi (Start) e accendi la console continuando a tenerlo premuto. Verrà avviato GodMode9
 3. Entra nella cartella `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
-    - `<ID0>` sarà una cartella con un nome di 32 caratteri
+   - `<ID0>` sarà una cartella con un nome di 32 caratteri
 4. Naviga su `00010017` con il D-Pad
 5. Premi (R) + (A) per visualizzare le opzioni della cartella
 6. Seleziona "Copy to 0:/gm9/out"

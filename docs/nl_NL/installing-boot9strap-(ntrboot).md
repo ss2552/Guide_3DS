@@ -19,20 +19,20 @@ Om de [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links op deze pagin
 1. Zet je console uit
 
 2. Plaats de SD-kaart van je console in je computer
-    - This is the SD card from your 3DS, _not_ the SD card from your flashcart
+   - This is the SD card from your 3DS, _not_ the SD card from your flashcart
 
 3. Kopieer `SafeB9SInstaller.firm` van de SafeB9SInstaller `.zip` naar de hoofdmap van je SD-kaart en hernoem het naar `boot.firm`
-    - The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
+   - The root of the SD card refers to the initial directory on your SD card where you can see the Nintendo 3DS folder, but are not inside of it
 
 4. Maak een map genaamd `boot9strap` op de hoofdmap van de SD kaart van je console
 
 5. Kopieer `boot9strap.firm` en `boot9strap.firm.sha` van de boot9strap `.zip` naar de `/boot9strap/` map op de SD kaart van je console
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
+   ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
 
-    :::
+   :::
 
 6. Stop je SD-kaart terug in je console
 
@@ -41,25 +41,25 @@ Om de [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) links op deze pagin
 ### Section II - ntrboot
 
 1. Use the magnet to find the spot on your console where the sleep sensor is triggered
-    - This step is not needed on the old 2DS (which has a sleep mode switch)
+   - This step is not needed on the old 2DS (which has a sleep mode switch)
 2. Zet je console uit
 3. Insert your flashcart into your console
 4. Place the magnet on your console to trigger the sleep sensor
-    - On old 2DS, you should instead enable the sleep mode switch
+   - On old 2DS, you should instead enable the sleep mode switch
 5. Houd (Start) + (Select) + (X) + (Power) ingedrukt voor een paar secondes, en laat dan de knoppen los
-    - It may take a few attempts to get this to work because the positioning is awkward
+   - It may take a few attempts to get this to work because the positioning is awkward
 6. Als de exploit succesvol was, zal je SafeB9SInstaller hebben opgestart
 7. Remove the magnet from your console
-    - On old 2DS, you should instead disable the sleep mode switch
+   - On old 2DS, you should instead disable the sleep mode switch
 
 ### Section III - Installing boot9strap
 
 In this section, you will install custom firmware onto your console.
 
 1. When prompted, input the key combo given on the top screen to install boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-ntrboot)
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-ntrboot)
 2. Once it is completed, force your console to power off by holding down the power button
-    - Your console will only boot to the SafeB9SInstaller screen until the next section is completed
+   - Your console will only boot to the SafeB9SInstaller screen until the next section is completed
 
 ### Section IV - Configuring Luma3DS
 
@@ -95,9 +95,9 @@ Volg niet deze sectie tot je de rest van de instructies gevolgt hebt.
 
 - The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 - The flashrom backup corresponding to your flashcart
-    - Note that if you followed [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-\(3ds-multi-system\)), the flashrom backup already exists in the correct location and does not need to be downloaded
-    - Note that if you followed [Flashing ntrboot (3DS Single System)](flashing-ntrboot-\(3ds-single-system\)) or [Flashing ntrboot (NDS)](flashing-ntrboot-\(nds\)), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
-    - If you do not know which HW revision you have, just try each for your cart of them. Alleen de juiste zal je flashkaart laten starten vanuit het HOME-menu, maar het verkeerde zal de kaart niet bricken
+  - Note that if you followed [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-\(3ds-multi-system\)), the flashrom backup already exists in the correct location and does not need to be downloaded
+  - Note that if you followed [Flashing ntrboot (3DS Single System)](flashing-ntrboot-\(3ds-single-system\)) or [Flashing ntrboot (NDS)](flashing-ntrboot-\(nds\)), the flashrom backup already exists on your flashcart's SD card and should be copied to the location specified below
+  - If you do not know which HW revision you have, just try each for your cart of them. Alleen de juiste zal je flashkaart laten starten vanuit het HOME-menu, maar het verkeerde zal de kaart niet bricken
 
 | Flashcart                                                        | Hardware Revision |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Flashrom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------------------------------- | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -129,7 +129,7 @@ Volg niet deze sectie tot je de rest van de instructies gevolgt hebt.
 
 1. Zet je console uit
 2. Plaats je SD kaart in je computer
-    - This is the SD card from your 3DS, _not_ the SD card from your flashcart
+   - This is the SD card from your 3DS, _not_ the SD card from your flashcart
 3. Maak een map genaamd `ntrboot` aan op de hoofdmap van je SD-kaart
 4. Koppieer het `.bin` bestand van je flashrom backup `.zip` naar de `/ntrboot/` map op de hooftmap van je SD kaart
 5. Maak een map en noem het `payloads` in de `luma` map op je SD kaart

@@ -40,36 +40,38 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 <!--@include: ./_include/ish-chorus.md -->
 
+    ```
     ::: info
     
     ![](/images/screenshots/mset9/mset9-ish-select.png)
     
     :::
+    ```
 
 1. Type the number corresponding to your console model and version, then tap Return
 
-    - The screen should change to this:
+   - The screen should change to this:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-ish-setup-notcreated.png)
+   ![](/images/screenshots/mset9/mset9-ish-setup-notcreated.png)
 
-    :::
+   :::
 
-    - Asegúrate de que el modelo y versión de la consola mostrados sean los correctos
+   - Asegúrate de que el modelo y versión de la consola mostrados sean los correctos
 2. Type `1`, then tap Return to begin the process of creating the MSET9 ID1
 3. After reviewing the disclaimer, type `1` again and tap Return to accept it
-    - Si aparece un error, consulta la página de [resolución de problemas](troubleshooting-mset9) e inténtalo otra vez
+   - Si aparece un error, consulta la página de [resolución de problemas](troubleshooting-mset9) e inténtalo otra vez
 4. If you see the message "Created hacked ID1.", tap Return to close the MSET9 script
-    - Your 3DS will appear to have no data / no user-installed apps on HOME Menu. **Esto es normal.** Tus datos volverán más tarde en un paso posterior
+   - Your 3DS will appear to have no data / no user-installed apps on HOME Menu. **Esto es normal.** Tus datos volverán más tarde en un paso posterior
 5. Reinserta la tarjeta SD en la consola
 6. Enciende tu consola
 7. Abre el Editor de Mii
 8. Espera a que tu consola llegue al mensaje que dice ["¡Estás en el editor de Mii!"](/images/screenshots/mset9/mii-welcome.png), luego cierra el Editor de Mii y vuelve al Menú HOME
-    - Puede que veas [este mensaje](/images/screenshots/mset9/mii-extdata.png), cuál indica que los datos necesarios han sido creados
-    - Si llegas al [menú principal](/images/screenshots/mset9/mii-existing.png) del Editor de Mii, entonces los datos ya existen. Sal del Editor de Mii y vuelve al Menú HOME
+   - Puede que veas [este mensaje](/images/screenshots/mset9/mii-extdata.png), cuál indica que los datos necesarios han sido creados
+   - Si llegas al [menú principal](/images/screenshots/mset9/mii-existing.png) del Editor de Mii, entonces los datos ya existen. Sal del Editor de Mii y vuelve al Menú HOME
 9. Abre la configuración de la consola y ve hacia `Gestión de datos` -> `Nintendo 3DS` -> `Programas` -> Borrar ([imagen](/images/screenshots/database-reset.jpg))
-    - Esto no borrará ninguno de tus datos
+   - Esto no borrará ninguno de tus datos
 10. Apaga la consola presionando el botón POWER y luego tocando Apagar en la pantalla táctil
 11. Insert your SD card into your iPhone/iPad (using an adapter)
 
@@ -77,18 +79,18 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 1. Type the number corresponding to your console model and version, then tap Return
 
-    - The screen should change to this and display `Ready`:
+   - The screen should change to this and display `Ready`:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-ish-ready.png)
+   ![](/images/screenshots/mset9/mset9-ish-ready.png)
 
-    :::
+   :::
 
-    - If the screen says [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-ish-not-ready.png):
-        - Type `2`, then tap Return to check the MSET9 status and follow the directions indicated
-        - Una vez que hayas resuelto el problema, vuelve a la Sección I Paso 14
-        - Para más información, consulta la página de [resolución de problemas](troubleshooting-mset9)
+   - If the screen says [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-ish-not-ready.png):
+     - Type `2`, then tap Return to check the MSET9 status and follow the directions indicated
+     - Una vez que hayas resuelto el problema, vuelve a la Sección I Paso 14
+     - Para más información, consulta la página de [resolución de problemas](troubleshooting-mset9)
 2. Type `0`, then tap Return to close the script
 3. Reinserta la tarjeta SD en la consola
 
@@ -103,32 +105,32 @@ Debes de seguir estas instrucciones de forma **EXACTA**, ¡así que revisa caute
 :::
 
 1. Enciende tu consola, asegurándote de que el ícono de la configuración de la consola este seleccionado
-    - Si la configuración de la consola no está seleccionada, **[mueve el cursor](/images/screenshots/mset9/hover-settings.png)** al ícono de la configuración de la consola usando la cruz de control, apaga la consola, y enciéndela
+   - Si la configuración de la consola no está seleccionada, **[mueve el cursor](/images/screenshots/mset9/hover-settings.png)** al ícono de la configuración de la consola usando la cruz de control, apaga la consola, y enciéndela
 2. Pulsa (A) para iniciar los Ajustes del Sistema
 3. Navega a `Gestion de datos` -> `Nintendo 3DS` -> `Datos Adicionales` ([imagen](/images/screenshots/mset9/settings-extdata.png))
 4. **No presiones ningún botón ni toques la pantalla**
 5. **Con la consola AÚN ENCENDIDA, y sin presionar ningún botón y sin tocar la pantalla**, saca la tarjeta SD de tu consola
-    - The menu will refresh and say that no SD card is inserted
+   - The menu will refresh and say that no SD card is inserted
 6. Insert your SD card into your iPhone/iPad (using an adapter)
 
 <!--@include: ./_include/ish-chorus.md -->
 
 1. Type the number corresponding to your console model and version, then tap Return
 2. In the MSET9 screen, type `3`, then tap Return to inject MSET9
-    - Deberías ver el mensaje: "MSET9 successfully injected!"
+   - Deberías ver el mensaje: "MSET9 successfully injected!"
 3. Tap Return to close the MSET9 script
 4. Reinserta la tarjeta SD en tu consola **sin presionar ningún botón y sin tocar la pantalla**
 5. Si el exploit fue exitoso, habrás iniciado SafeB9SInstaller
-    - Si aparece una pantalla roja o la consola se queda trabada en una pantalla de carga, sigue la [guía de resolución de problemas](troubleshooting-mset9)
+   - If you get a red screen or the console gets stuck on a loading screen for more than 10 seconds, follow the [troubleshooting guide](troubleshooting-mset9)
 
 ### Sección III - Instalar boot9strap
 
 En esta sección, instalarás custom firmware en tu consola.
 
 1. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
-    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
-        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+   - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+     - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
 2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -149,12 +151,12 @@ En esta sección, se removerá MSET9 para evitar futuros problemas y para restau
 <!--@include: ./_include/ish-chorus.md -->
 
 1. Type the number corresponding to your console model and version, then tap Return
-    - The current state should display [Injected](/images/screenshots/mset9/mset9-ish-injected.png)
-    - If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ish-ready.png), skip to Step 6
+   - The current state should display [Injected](/images/screenshots/mset9/mset9-ish-injected.png)
+   - If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ish-ready.png), skip to Step 6
 2. Type `4`, then tap Return to remove the trigger file
-    - Deberías ver el mensaje: "Removed trigger file."
+   - Deberías ver el mensaje: "Removed trigger file."
 3. Type `5`, then tap Return to remove MSET9
-    - Deberías ver el mensaje: "Successfully removed MSET9!"
+   - Deberías ver el mensaje: "Successfully removed MSET9!"
 4. Tap Return to close the MSET9 script
 
 <!--@include: ./_include/luma3ds-installed-note.md -->

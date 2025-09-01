@@ -24,11 +24,11 @@ Come parte di questo processo, la configurazione di sistema verrà ripristinata 
 - L'ultima versione di [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (clicca con il tasto destro del mouse, salva il link come)
 - L'immagine CTRTransfer 11.15.0 relativa alla tua console e alla sua regione
 
-    ::: warning
+  ::: warning
 
-    Per scaricare le immagini CTRTransfer è necessario utilizzare un client torrent come [qBitTorrent](https://www.qbittorrent.org/download) o [Deluge](https://deluge-torrent.org/download/).
+  Per scaricare le immagini CTRTransfer è necessario utilizzare un client torrent come [qBitTorrent](https://www.qbittorrent.org/download) o [Deluge](https://deluge-torrent.org/download/).
 
-    :::
+  :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

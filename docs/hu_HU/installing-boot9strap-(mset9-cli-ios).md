@@ -40,36 +40,38 @@ Ebben a lépésben előkészülsz az MSET9 exploitra azzal, hogy **átmenetileg*
 
 <!--@include: ./_include/ish-chorus.md -->
 
+    ```
     ::: info
     
     ![](/images/screenshots/mset9/mset9-ish-select.png)
     
     :::
+    ```
 
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és érintsd meg a Return-t
 
-    - A képernyő a következőre kell módosuljon:
+   - A képernyő a következőre kell módosuljon:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-ish-setup-notcreated.png)
+   ![](/images/screenshots/mset9/mset9-ish-setup-notcreated.png)
 
-    :::
+   :::
 
-    - Legyél biztos abban, hogy a helyes model és verzió megjelenített
+   - Legyél biztos abban, hogy a helyes model és verzió megjelenített
 2. Írj `1`-et és érintsd meg a Return-t, hogy elkezd az MSET9 ID1 létrehozásának folyamatát
 3. A nyilatkozatot elolvasását követően írj `1`-est és érintsd meg a Return-t annak elfogadásához
-    - Ha hibát kapsz, nézd meg a [hibaelhárítási útmutatót](troubleshooting-mset9), majd próbáld újra
+   - Ha hibát kapsz, nézd meg a [hibaelhárítási útmutatót](troubleshooting-mset9), majd próbáld újra
 4. Ha a "Created hacked ID1." üzenetet látod, érintsd meg a Return-t az MSET9 szkript bezárásához
-    - A 3DS-ed úgy fog tűnni, hogy nem tartalmaz adatot / felhasználó által telepített alkalmazást a HOME menüben. **Ez elvárt működés** Az adataid visszatérnek egy későbbi lépésben
+   - A 3DS-ed úgy fog tűnni, hogy nem tartalmaz adatot / felhasználó által telepített alkalmazást a HOME menüben. **Ez elvárt működés** Az adataid visszatérnek egy későbbi lépésben
 5. Tedd vissza az SD kártyád a konzoldba
 6. Kapcsold be a konzolod
 7. Nyisd meg a Mii Maker alkalmazást
 8. Várj amíg a konzolod elérí a [Welcome to Mii Maker](/images/screenshots/mset9/mii-welcome.png) képernyőt, majd lépj ki a Mii Maker-ből és térj vissza a HOME képernyőre
-    - [Ezt a képernyőt láthatod](/images/screenshots/mset9/mii-extdata.png), ami azt mutatja, hogy a szükséges adatok létrejöttek
-    - Ha a [normál](/images/screenshots/mset9/mii-existing.png) Mii Maker képernyőre jutottál, akkor az adat már létezik. Lépj ki a Mii Maker-ből, és térj vissza a HOME menübe
+   - [Ezt a képernyőt láthatod](/images/screenshots/mset9/mii-extdata.png), ami azt mutatja, hogy a szükséges adatok létrejöttek
+   - Ha a [normál](/images/screenshots/mset9/mii-existing.png) Mii Maker képernyőre jutottál, akkor az adat már létezik. Lépj ki a Mii Maker-ből, és térj vissza a HOME menübe
 9. Indítsd el a System Settings-et és navigálj ide: `Data Management` -> `Nintendo 3DS` -> `Software` -> Reset ([image](/images/screenshots/database-reset.jpg))
-    - Ez nem fogja törölni az adataidat
+   - Ez nem fogja törölni az adataidat
 10. Kapcsold ki a konzolod a power gomb megnyomásával, majd a Power Off felirat megérintésével az alsó képernyőn
 11. Helyezd az SD kártyád a iPhone/iPad készülékedbe (adapter használatával)
 
@@ -77,18 +79,18 @@ Ebben a lépésben előkészülsz az MSET9 exploitra azzal, hogy **átmenetileg*
 
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és érintsd meg a Return-t
 
-    - A képernyő erre kell módosuljon és `Ready`-t kell mutasson:
+   - A képernyő erre kell módosuljon és `Ready`-t kell mutasson:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-ish-ready.png)
+   ![](/images/screenshots/mset9/mset9-ish-ready.png)
 
-    :::
+   :::
 
-    - Ha a képernyő azt mondja, hogy [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-ish-not-ready.png):
-        - Írj `2`-öt és érintsd meg a Return-t az MSET9 állapotának ellenőrzéséhez és kövesd az iránymutatásokat
-        - Ha egyszer megoldottad a problémát térj vissza az I. rész 14. lépéséhez
-        - További információkért tekintsd meg a [hibaelhárítási](troubleshooting-mset9) oldalt
+   - Ha a képernyő azt mondja, hogy [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-ish-not-ready.png):
+     - Írj `2`-öt és érintsd meg a Return-t az MSET9 állapotának ellenőrzéséhez és kövesd az iránymutatásokat
+     - Ha egyszer megoldottad a problémát térj vissza az I. rész 14. lépéséhez
+     - További információkért tekintsd meg a [hibaelhárítási](troubleshooting-mset9) oldalt
 2. Írj `0`-át és érintsd meg a Return-t a szkript bezárásához
 3. Tedd vissza az SD kártyád a konzoldba
 
@@ -103,32 +105,32 @@ Ezeket a lépéseket **PONTOSAN** kell követni, így ellenőrizz MINDENT kétsz
 :::
 
 1. - Kapcsold be a konzolod, biztosítva azt, hogy a System Settings kiválasztott
-    - Ha a System Settings nem kiválaszott, akkor _[állj rá](/images/screenshots/mset9/hover-settings.png)_\* a System Settings ikonra a D-Pad használatával, majd kapcsold ki konzolod és vissza
+   - Ha a System Settings nem kiválaszott, akkor _[állj rá](/images/screenshots/mset9/hover-settings.png)_\* a System Settings ikonra a D-Pad használatával, majd kapcsold ki konzolod és vissza
 2. Nyomj (A) gombot a System Settings indításához
 3. Navigálj ide: `Data Management` -> `Nintendo 3DS` -> `Extra Data` ([image](/images/screenshots/mset9/settings-extdata.png))
 4. **Ne nyomj meg semmi gombot vagy éríntsd meg a képernyőt**
 5. \*\* A konzolod BEKAPCSOLT állapotában, bármilyen gomb vagy a képernyő érintése nélkül\*\* vedd ki az SD kártyádat a konzolból
-    - A menü frissülni fog, és ki fogja írni, hogy nincs SD kártya behelyezve
+   - A menü frissülni fog, és ki fogja írni, hogy nincs SD kártya behelyezve
 6. Helyezd az SD kártyád a iPhone/iPad készülékedbe (adapter használatával)
 
 <!--@include: ./_include/ish-chorus.md -->
 
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és érintsd meg a Return-t
 2. Az MSET9 ablakba írj `3`-t és érintsd meg a Return-t az MSET9 injektálásához
-    - Az "MSET9 successfully injected!" üzenetet kell látnod
+   - Az "MSET9 successfully injected!" üzenetet kell látnod
 3. Érintsd meg a Return-t az MSET9 szkript bezárásához
 4. Helyezd vissza az SD kártyád a konzolodba, **bármilyen gomb vagy a képernyő érintése nélkül**
 5. Ha az exploit sikerrel járt, készüléked bebootolja a SafeB9SInstallert
-    - Ha piros képernyőt kapsz vagy a konzol beragad a betöltő képernyőn, kövesd a [hibaelhárítási útmutatót](troubleshooting-mset9)
+   - If you get a red screen or the console gets stuck on a loading screen for more than 10 seconds, follow the [troubleshooting guide](troubleshooting-mset9)
 
 ### III. rész - boot9strap telepítése
 
 Ebben a fejezetben egyedi firmware-t fogsz telepíteni a konzolodra.
 
 1. Ha kéri, akkor nyomd meg a gombokat egyszerre, amiket kijelez a felső képernyőn, hogy telepíthesd a boot9strap-et
-    - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
-    - Ha felső képernyő üres **és** látod a "Crypto Status - all checks passed" üzenetet az alső képernyőn, akkor vakon be kell vinned egy billentyű kombinációt. A konzolodon nyomd meg a következő gombokat ebben a sorrendben:
-        - D-Pad Bal, D-Pad Le, D-Pad Jobb, D-Pad Fel, A
+   - Ha egy lépés az alsó képernyőn piros színű szöveget eredményez, és nem kér a rendszer tőled egy gomb-kombinációt, akkor [kövesd ezt a hibaelhárítási útmutatót](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+   - Ha felső képernyő üres **és** látod a "Crypto Status - all checks passed" üzenetet az alső képernyőn, akkor vakon be kell vinned egy billentyű kombinációt. A konzolodon nyomd meg a következő gombokat ebben a sorrendben:
+     - D-Pad Bal, D-Pad Le, D-Pad Jobb, D-Pad Fel, A
 2. Ha ez elkészült (mind a hét lépés zöld az alsó képernyőn), nyomd meg az (A) gombot a konzolod újraindításához
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -149,12 +151,12 @@ NE ugord át ezt a részt! Ha kihagyod, akkor az alkalmazások váratlanul össz
 <!--@include: ./_include/ish-chorus.md -->
 
 1. Írd be a konzolod modelljéhez és verziójához tartozó számot, és érintsd meg a Return-t
-    - Az aktuális állapot [Injected](/images/screenshots/mset9/mset9-ish-injected.png)-et kell mutasson
-    - Ha már eltávolítottad a trigger fájlt (vagy soha nem injektáltad), az aktuális állapot [Ready](/images/screenshots/mset9/mset9-ish-ready.png)-t fog mutatni, ezért ugord át a 6. lépést
+   - Az aktuális állapot [Injected](/images/screenshots/mset9/mset9-ish-injected.png)-et kell mutasson
+   - Ha már eltávolítottad a trigger fájlt (vagy soha nem injektáltad), az aktuális állapot [Ready](/images/screenshots/mset9/mset9-ish-ready.png)-t fog mutatni, ezért ugord át a 6. lépést
 2. Írj `4`-et és érintsd meg a Return-t a trigger fájl eltávolításához
-    - Azt kell látnod, hogy "Removed trigger file."
+   - Azt kell látnod, hogy "Removed trigger file."
 3. Írj `5`-öt és érintsd meg a Return-t az MSET9 eltávolításához
-    - A "Successfully removed MSET9!" üzenetet kell látnod
+   - A "Successfully removed MSET9!" üzenetet kell látnod
 4. Érintsd meg a Return-t az MSET9 szkript bezárásához
 
 <!--@include: ./_include/luma3ds-installed-note.md -->

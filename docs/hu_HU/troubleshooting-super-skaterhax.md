@@ -1,6 +1,6 @@
 # Hibaelhárítás (super-skaterhax)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (super-skaterhax)" oldalhoz. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (super-skaterhax)" oldalhoz. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
 
 ::: warning
 
@@ -21,9 +21,9 @@ Ha a képernyő színeket villogtat, akkor lefagy/összeomlik:
 
 - Biztosítsd, hogy a konzolod verziójának és régiójának megfelelő másolata van meg neked az `arm11code.bin` és `browserhax_hblauncher_ropbin_payload.bin` fájlokból
 - Próbáld meg törölni a böngésző adatot:
-    1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
-    2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
-    3. Próbáld meg újra végrehajtani az exploitot
+  1. Indítsd el a böngészőt, majd lépj be a beállításokba (browser settings)
+  2. Görgess a legaljára, majd válaszd a "Reset Save Data" opciót (ami lehet, hogy "Initialize Savedata" vagy "Clear All Save Data" néven fut")
+  3. Próbáld meg újra végrehajtani az exploitot
 - Próbáld meg módosítani a rendszer nyelvét valami másra mint az aktuális nyelv
 
 :::
@@ -43,6 +43,12 @@ A `arm11code.bin` fájl hiányzik, vagy rossz helyen van. Biztosítsd, hogy [sup
 :::details Egy exception történik vagy "DLL_HEAP_INFORMATION" a GO! megnyomásakor! GO!
 
 Ez valószínűleg azt jelzi, hogy már van egyedi firmware-ed. Érdemes elvégezned a [CFW ellenőrzését](checking-for-cfw).
+
+:::
+
+:::details Error 032-1035 amikor próbálod a skaterhax weboldalt megtekinteni
+
+Az internet kapcsolatod blokkolja a hozzáférést a weboldalhoz. Ha lehetséges próbálkozz egy mobil hotspottal. Ha nincs másik internet kapcsolatod elérhető, kövesd az [MSET9](installing-boot9strap-\(mset9\))-et helyette.
 
 :::
 

@@ -72,7 +72,7 @@ The purpose of this section is to check whether built-in DS mode applications wi
 2. Inicia la configuración de la consola
 3. Navigate to `Internet Settings` -> `Nintendo DS Connection Settings`, then click OK
 4. You should boot into the Nintendo DS Connection Setup menu
-    - If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
+   - If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
 5. Apaga la consola
 
 #### DS Download Play Test
@@ -81,7 +81,7 @@ The purpose of this section is to check whether built-in DS mode applications wi
 2. Launch the Download Play application (![](/images/download-play-icon.png){height="24px" width="24px"})
 3. Select "Nintendo DS"
 4. If your console loads into a "Download software via DS Download Play" menu, the test was successful
-    - If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
+   - If your console displays the Japanese version of Flipnote Studio, a black screen, or an error message, the test has failed
 5. Apaga la consola
 
 ::: warning
@@ -97,15 +97,15 @@ The purpose of this section is to verify that the console will boot and that cri
 1. Presiona y mantén (Start), luego enciende la consola mientras lo mantienes. Esto abrirá GodMode9
 2. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it is complete
 3. Si se te pide establecer la fecha y hora RTC, presiona (A) para hacerlo, después establece la fecha y hora, y después presiona (A) para continuar
-    - Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after following this guide
+   - Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after following this guide
 4. Presiona el botón (HOME) para abrir el menú de acciones
 5. Selecciona "Scripts..."
 6. Select "safety_test"
 7. Read the text on-screen and press (A) to continue
 8. You should boot into the regular 3DS HOME Menu (any custom theme is irrelevant). If you do, continue these instructions
-    - If you do not boot into the regular 3DS HOME Menu (black screen, error screen, etc.), uninstalling CFW **WILL BRICK YOUR CONSOLE!**
+   - If you do not boot into the regular 3DS HOME Menu (black screen, error screen, etc.), uninstalling CFW **WILL BRICK YOUR CONSOLE!**
 9. Inicia la configuración de la consola
-    - If the console crashes at this point, the test has failed
+   - If the console crashes at this point, the test has failed
 10. Selecciona "Otras opciones"
 11. Select "Profile"
 12. Select "User Name"
@@ -128,8 +128,8 @@ If you do NOT boot into the regular 3DS HOME Menu, or System Settings / your key
 5. Selecciona "Backup Options"
 6. Selecciona "SysNAND Backup"
 7. Presiona (A) para confirmar
-    - Este proceso tomará un tiempo
-    - Si aparece un error, asegúrate de que tienes al menos 1,3GB de espacio libre en la tarjeta SD
+   - Este proceso tomará un tiempo
+   - Si aparece un error, asegúrate de que tienes al menos 1,3GB de espacio libre en la tarjeta SD
 8. Presiona (B) para regresar al menú principal
 9. Selecciona “Exit”
 10. Presiona (Home) para abrir el menú de acciones
@@ -147,11 +147,11 @@ This section will remove illegitimate content, like homebrew and dumped cartridg
 2. Inicia la configuración de la consola
 3. Navigate to Data Management > Nintendo 3DS > Software
 4. In this list of software, delete any non-Nintendo content you installed while using CFW
-    - This includes common system software such as FBI, Anemone3DS, Luma Updater, Homebrew Launcher, Checkpoint, and others, along with any games and titles that you did _not_ install from the eShop
+   - This includes common system software such as FBI, Anemone3DS, Luma Updater, Homebrew Launcher, Checkpoint, and others, along with any games and titles that you did _not_ install from the eShop
 5. Navigate to `Data Management` -> `DSiWare`
 6. In this list of software, delete any non-Nintendo content you installed while using CFW
-    - This includes software such as TWiLightMenu++, along with any games and titles that you did _not_ install from the eShop
-    - Failure to remove all CFW software from both the 3DS and DSiWare sections before uninstalling CFW may prevent or disable access to the Data Management menu after uninstalling CFW, which will make it difficult to re-install CFW in the future
+   - This includes software such as TWiLightMenu++, along with any games and titles that you did _not_ install from the eShop
+   - Failure to remove all CFW software from both the 3DS and DSiWare sections before uninstalling CFW may prevent or disable access to the Data Management menu after uninstalling CFW, which will make it difficult to re-install CFW in the future
 7. Sal de Configuración de la Consola
 8. Launch the Download Play application (![](/images/download-play-icon.png){height="24px" width="24px"})
 9. Wait until you see the two buttons
@@ -201,7 +201,7 @@ Si estás desinstalando CFW porque:
 :::
 
 1. Presiona y mantén (Start), luego enciende la consola mientras lo mantienes. Esto abrirá GodMode9
-    - If you instead see the Luma3DS chainloader, use the D-Pad and the (A) button to select GodMode9
+   - If you instead see the Luma3DS chainloader, use the D-Pad and the (A) button to select GodMode9
 2. Presiona el botón (HOME) para abrir el menú de acciones
 3. Selecciona "Scripts..."
 4. Select "uninstall_cfw"

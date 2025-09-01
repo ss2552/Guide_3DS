@@ -1,6 +1,6 @@
 # Risoluzione dei problemi (super-skaterhax)
 
-Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Installazione di boot9strap (super-skaterhax)". If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Installazione di boot9strap (super-skaterhax)". Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord di Nintendo Homebrew](https://discord. g/MWxPgEp) e descrivi il tuo problema, indicando quello che hai già provato.
 
 ::: warning
 
@@ -21,9 +21,9 @@ Se lo schermo lampeggia con i colori, poi si blocca o crasha:
 
 - Assicurati di avere la versione corretta di `arm11code.bin` e `browserhax_hblauncher_ropbin_payload.bin` per la versione e la regione della tua console
 - Prova a reimpostare i dati del browser:
-    1. Avvia il browser internet, quindi apri le sue impostazioni
-    2. Scorri verso il basso e seleziona "Reimposta tutti i dati salvati" (può avere nomi simili come "Inizializza i dati di salvataggio" o "Elimina tutti i dati salvati")
-    3. Riprova ad eseguire l'exploit
+  1. Avvia il browser internet, quindi apri le sue impostazioni
+  2. Scorri verso il basso e seleziona "Reimposta tutti i dati salvati" (può avere nomi simili come "Inizializza i dati di salvataggio" o "Elimina tutti i dati salvati")
+  3. Riprova ad eseguire l'exploit
 - Prova a cambiare la lingua di sistema in una lingua diversa da quella corrente
 
 :::
@@ -43,6 +43,12 @@ Il file `arm11code.bin` è mancante o mal posizionato. Assicurati di copiare i f
 :::details Si verifica un'eccezione oppure "DLL_HEAP_INFORMATION" premendo GO! GO!
 
 Probabilmente significa che hai già un custom firmware. Dovresti [verificare la presenza di un CFW](checking-for-cfw).
+
+:::
+
+:::details Errore 032-1035 quando si tenta di visualizzare la pagina web di skaterhax
+
+La tua connessione Internet sta bloccando l'accesso alla pagina web di skaterhax. Se possibile, prova ad usare un hotspot mobile. Se non disponi di un'altra connessione a Internet, segui [MSET9](installing-boot9strap-\(mset9\)).
 
 :::
 

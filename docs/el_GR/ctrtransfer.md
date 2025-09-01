@@ -24,11 +24,11 @@
 - Την πιο πρόσφατη έκδοση του [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) (κάντε δεξί κλικ και επιλέξτε «Αποθήκευση συνδέσμου ως»)
 - Το είδωλο του CTRTransfer 11.15.0 για την κονσόλα και την περιοχή σας
 
-    ::: warning
+  ::: warning
 
-    Θα πρέπει να χρησιμοποιήσετε ένα πρόγραμμα torrent client για να κάνετε λήψη των ειδώλων CTRTransfer, όπως το [qBitTorrent](https://www.qbittorrent.org/download) ή το [Deluge](https://deluge-torrent.org/download/).
+  Θα πρέπει να χρησιμοποιήσετε ένα πρόγραμμα torrent client για να κάνετε λήψη των ειδώλων CTRTransfer, όπως το [qBitTorrent](https://www.qbittorrent.org/download) ή το [Deluge](https://deluge-torrent.org/download/).
 
-    :::
+  :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

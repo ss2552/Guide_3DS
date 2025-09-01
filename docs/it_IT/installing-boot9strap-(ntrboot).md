@@ -19,20 +19,20 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
 1. Spegni la tua console
 
 2. Inserisci la scheda SD della console nel tuo computer
-    - Questa è la scheda SD del tuo 3DS, _non_ la scheda SD della tua flashcart
+   - Questa è la scheda SD del tuo 3DS, _non_ la scheda SD della tua flashcart
 
 3. Copia il file `SafeB9SInstaller.firm` dall'archivio `.zip` di SafeB9SInstaller nella directory principale della tua scheda SD e rinominalo in `boot.firm`
-    - La directory principale della scheda SD è la cartella della tua scheda SD in cui è possibile visualizzare la cartella Nintendo 3DS, ma non il suo interno
+   - La directory principale della scheda SD è la cartella della tua scheda SD in cui è possibile visualizzare la cartella Nintendo 3DS, ma non il suo interno
 
 4. Crea una cartella chiamata `boot9strap` nella directory principale della scheda SD della tua console
 
 5. Copia i file `boot9strap.firm` e `boot9strap.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della scheda SD della tua console
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
+   ![](/images/screenshots/boot9strap-ntrboot-file-layout.png)
 
-    :::
+   :::
 
 6. Reinserisci la scheda SD nella tua console
 
@@ -41,25 +41,25 @@ Per usare i link [magnet](https://wikipedia.org/wiki/Magnet_URI_scheme) di quest
 ### Sezione II - ntrboot
 
 1. Trova con il magnete il punto che pone la console in modalità riposo
-    - Questo passaggio non è necessario su un Old 2DS (che ha un interruttore per la modalità riposo)
+   - Questo passaggio non è necessario su un Old 2DS (che ha un interruttore per la modalità riposo)
 2. Spegni la tua console
 3. Inserisci la flashcart nella tua console
 4. Posiziona il magnete sulla console per attivare il sensore della modalità riposo
-    - Su Old 2DS, devi invece attivare la levetta della modalità riposo
+   - Su Old 2DS, devi invece attivare la levetta della modalità riposo
 5. Tieni premuto i pulsanti (Start) + (Select) + (X) + (Accensione) per alcuni secondi, quindi rilascia i pulsanti
-    - Data la complessita dell'operazione, potrebbero volerci più tentativi
+   - Data la complessita dell'operazione, potrebbero volerci più tentativi
 6. Se l'exploit è andato a buon fine, si avvierà SafeB9SInstaller
 7. Rimuovi il magnete dalla console
-    - Su Old 2DS, invece, disattiva la modalità riposo con l'interruttore
+   - Su Old 2DS, invece, disattiva la modalità riposo con l'interruttore
 
 ### Sezione III - Installazione di boot9strap
 
 In questa sezione installerai il custom firmware sulla tua console.
 
 1. Quando richiesto, inserisci la combinazione di tasti richiesta sullo schermo superiore per installare boot9strap
-    - Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, [segui questa guida per risolvere i problemi](troubleshooting-ntrboot)
+   - Se una sezione nella schermata inferiore ha un testo di colore rosso, e non ti viene richiesto di inserire una combinazione di tasti, [segui questa guida per risolvere i problemi](troubleshooting-ntrboot)
 2. Una volta completato, forza lo spegnimento della console tenendo premuto il tasto POWER
-    - Finché non verrà completata la successiva sezione, la console visualizzerà soltanto la schermata di SafeB9SInstaller all'accensione
+   - Finché non verrà completata la successiva sezione, la console visualizzerà soltanto la schermata di SafeB9SInstaller all'accensione
 
 ### Sezione IV - Configurare Luma3DS
 
@@ -95,9 +95,9 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 
 - L'ultima versione di [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest) (`ntrboot_flasher.firm`)
 - Il backup della flashrom per la tua flashcart
-    - Se hai seguito la guida [Flash di ntrboot (Con più 3DS)](flashing-ntrboot-\(3ds-multi-system\)), il backup della flashrom sarà già presente nella cartella corretta e non sarà necessario riscaricarla
-    - Se hai seguito la guida [Flash di ntrboot (Singolo 3DS)](flashing-ntrboot-\(3ds-single-system\)) o [Flash di ntrboot (NDS)](flashing-ntrboot-\(nds\)), il backup della flashrom sarà già presente nella scheda SD della tua flashcart, e dovrà essere copiato nella posizione indicata di seguito
-    - Se non sai quale revisione HW hai, prova tutte quelle disponibili per la tua cartuccia. Solo quella corretta ti permetterà di avviare la flashcart dal menu HOME, ma flasharne una sbagliata non brickerà la cartuccia
+  - Se hai seguito la guida [Flash di ntrboot (Con più 3DS)](flashing-ntrboot-\(3ds-multi-system\)), il backup della flashrom sarà già presente nella cartella corretta e non sarà necessario riscaricarla
+  - Se hai seguito la guida [Flash di ntrboot (Singolo 3DS)](flashing-ntrboot-\(3ds-single-system\)) o [Flash di ntrboot (NDS)](flashing-ntrboot-\(nds\)), il backup della flashrom sarà già presente nella scheda SD della tua flashcart, e dovrà essere copiato nella posizione indicata di seguito
+  - Se non sai quale revisione HW hai, prova tutte quelle disponibili per la tua cartuccia. Solo quella corretta ti permetterà di avviare la flashcart dal menu HOME, ma flasharne una sbagliata non brickerà la cartuccia
 
 | Flashcart                                                      | Revisione hardware |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Flashrom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------------------------------------------------- | :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -129,7 +129,7 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 
 1. Spegni la tua console
 2. Inserisci la scheda SD nel tuo computer
-    - Questa è la scheda SD del tuo 3DS, _non_ la scheda SD della tua flashcart
+   - Questa è la scheda SD del tuo 3DS, _non_ la scheda SD della tua flashcart
 3. Crea una cartella chiamata `ntrboot` nella directory principale della tua scheda SD
 4. Copia il file `.bin` dal backup `.zip` della tua flashrom nella cartella `/ntrboot/` nella directory principale della tua scheda SD
 5. Crea una cartella chiamata `payloads` nella cartella `luma` della tua scheda SD

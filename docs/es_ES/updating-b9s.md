@@ -26,20 +26,20 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 4. Copia `SafeB9SInstaller.firm` desde el `.zip` de SafeB9SInstaller a la raíz de tu tarjeta SD y renómbralo a `boot.firm`
 5. Reinserta la tarjeta SD en la consola
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/updateb9s-root-layout.png)
+   ![](/images/screenshots/updateb9s-root-layout.png)
 
-    :::
+   :::
 
 ### Sección II - Instalar boot9strap
 
 1. Enciende tu consola
-    - Esto debería iniciar SafeB9SInstaller automáticamente
+   - Esto debería iniciar SafeB9SInstaller automáticamente
 2. Cuando se te pida, introduce la combinación de botones mostrada para instalar boot9strap
-    - Si algún paso en la pantalla inferior tiene el texto en color rojo, y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-updating-b9s)
+   - Si algún paso en la pantalla inferior tiene el texto en color rojo, y no se te pide que introduzcas una combinación de botones, [sigue la guía de resolución de problemas](troubleshooting-updating-b9s)
 3. Una vez terminado, mantén pulsado el botón de apagado para apagar la consola
-    - Tu consola al iniciar siempre ejecutará SafeB9SInstaller hasta que completes la siguiente sección
+   - Tu consola al iniciar siempre ejecutará SafeB9SInstaller hasta que completes la siguiente sección
 
 ### Section III - Actualizar Luma3DS
 
@@ -48,8 +48,8 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 3. Reinserta la tarjeta SD en la consola
 4. Enciende tu consola
 5. Si tu consola ha arrancado al menú de configuración de Luma3DS, presiona (Start) para guardar y reiniciar
-    - En el menú de configuración de Luma3DS están los ajustes para el custom firmware Luma3DS. Muchos de estos ajustes pueden ser útiles para la personalización o depuración
-    - Para los fines de esta guía, estos ajustes se dejarán en la configuración predeterminada
+   - En el menú de configuración de Luma3DS están los ajustes para el custom firmware Luma3DS. Muchos de estos ajustes pueden ser útiles para la personalización o depuración
+   - Para los fines de esta guía, estos ajustes se dejarán en la configuración predeterminada
 
 ___
 

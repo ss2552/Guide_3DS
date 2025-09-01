@@ -24,8 +24,8 @@ If you are using an Android device as an SD card adapter for your computer, you 
 
 - 최신 버전의 [MSET9](https://github.com/hacks-guide/MSET9/releases/latest) (MSET9 `.zip` 파일)
 - **컴퓨터에 설치된** 3.x 버전의 [Python](https://www.python.org/downloads/) (파이썬)
-    - 만약 윈도우를 사용중이라면, Microsoft Store에 있는 Python은 작동하지 않을겁니다. python.org 에 있는 버전을 설치해 주세요.
-    - 리눅스나 macOS를 사용 중인 경우 Python 3(파이썬 3)이 이미 설치되어 있을 것입니다. 터미널을 열고 'python3 -V'를 입력해 주세요. 버전 번호가 나올 경우, 본 가이드에 따라 잘 작동할 것입니다.
+  - 만약 윈도우를 사용중이라면, Microsoft Store에 있는 Python은 작동하지 않을겁니다. python.org 에 있는 버전을 설치해 주세요.
+  - 리눅스나 macOS를 사용 중인 경우 Python 3(파이썬 3)이 이미 설치되어 있을 것입니다. 터미널을 열고 'python3 -V'를 입력해 주세요. 버전 번호가 나올 경우, 본 가이드에 따라 잘 작동할 것입니다.
 
 ## 진행 방법
 
@@ -42,11 +42,11 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 1. SD 카드를 컴퓨터에 삽입해 주세요
 2. Copy everything from the MSET9 `.zip` to the root of your SD card. If any of the files exist, overwrite them with the new files.
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-root-layout.png)
+   ![](/images/screenshots/mset9/mset9-root-layout.png)
 
-    :::
+   :::
 
 <!--@include: ./_include/mset9-chorus.md -->
 
@@ -60,28 +60,28 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 1. 콘솔의 모델과 버전을 입력한 다음 엔터키를 눌러주세요
 
-    - 창에는 다음과 같이 표시될 것입니다:
+   - 창에는 다음과 같이 표시될 것입니다:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-setup-notcreated.png)
+   ![](/images/screenshots/mset9/mset9-setup-notcreated.png)
 
-    :::
+   :::
 
-    - 화면에 표시된 모델과 버전이 정확한지 확인해 주세요
+   - 화면에 표시된 모델과 버전이 정확한지 확인해 주세요
 2. `1`을 입력 후, 엔터 버튼을 눌러 MSET9 ID1을 생성하는 과정을 시작하세요
 3. 면책 사항을 확인한 뒤, `1`을 다시 누른 후 엔터를 눌러 수락하세요
-    - 에러 발생시, [문제 해결](troubleshooting-mset9)을 확인 후 다시 시도해 주세요
+   - 에러 발생시, [문제 해결](troubleshooting-mset9)을 확인 후 다시 시도해 주세요
 4. "Created hacked ID1." 이라는 메시지가 나오면, 엔터를 눌러 MSET9 스크립트를 닫아주세요
-    - Your console will appear to lose most data / no user-installed apps on HOME Menu. **이건 예상된 결과입니다.** 이후 과정을 거치면서 원본 데이터는 복구될 것입니다
+   - Your console will appear to lose most data / no user-installed apps on HOME Menu. **이건 예상된 결과입니다.** 이후 과정을 거치면서 원본 데이터는 복구될 것입니다
 5. SD 카드를 콘솔에 다시 삽입해 주세요
 6. 콘솔의 전원을 켜 주세요
 7. Mii 스튜디오를 열어주세요
 8. 콘솔이 [Mii 스튜디오에 오신 것을 환영합니다! (영어 사진)](/images/screenshots/mset9/mii-welcome.png) 화면까지 오면, Mii 스튜디오를 종료하고 HOME 메뉴로 나가주세요
-    - [이 화면 (영어)](/images/screenshots/mset9/mii-extdata.png)을 보게 될 것입니다. 필요한 파일을 작성하고 있는 것이니 기다려주세요
-    - [(영어 사진) 일반적인](/images/screenshots/mset9/mii-existing.png) Mii 스튜디오 화면을 보게된다면, 데이터가 이미 존재하는 것입니다. Mii 스튜디오를 종료한 후 HOME 메뉴로 돌아가세요.
+   - [이 화면 (영어)](/images/screenshots/mset9/mii-extdata.png)을 보게 될 것입니다. 필요한 파일을 작성하고 있는 것이니 기다려주세요
+   - [(영어 사진) 일반적인](/images/screenshots/mset9/mii-existing.png) Mii 스튜디오 화면을 보게된다면, 데이터가 이미 존재하는 것입니다. Mii 스튜디오를 종료한 후 HOME 메뉴로 돌아가세요.
 9. 본체 설정을 실행한 후 `데이터 관리` -> `Nintendo 3DS 데이터 관리` -> `소프트웨어 관리` -> 초기화 ([영어 사진](/images/screenshots/database-reset.jpg))로 이동해 주세요.
-    - 이 과정은 데이터를 삭제하지 않습니다.
+   - 이 과정은 데이터를 삭제하지 않습니다.
 10. Power off your console by pressing the power button then tapping Power Off on the lower screen
 11. SD 카드를 컴퓨터에 삽입해 주세요
 
@@ -89,18 +89,18 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 
 1. 콘솔의 모델과 버전을 입력한 다음 엔터키를 눌러주세요
 
-    - 윈도우 창이 바뀌고 `Ready`라고 보여질 것입니다:
+   - 윈도우 창이 바뀌고 `Ready`라고 보여질 것입니다:
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/mset9/mset9-ready.png)
+   ![](/images/screenshots/mset9/mset9-ready.png)
 
-    :::
+   :::
 
-    - 윈도우 창에서 [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-not-ready.png)라는 문구가 나온다면:
-        - `2`를 입력한 다음 Enter를 눌러 MSET9 상태를 확인하고 표시된 지침을 따르세요
-        - 문제가 해결되었다면, 섹션 I 14단계로 가 주세요
-        - 더 많은 정보를 얻으려면, [문제 해결](troubleshooting-mset9) 페이지를 확인하세요
+   - 윈도우 창에서 [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-not-ready.png)라는 문구가 나온다면:
+     - `2`를 입력한 다음 Enter를 눌러 MSET9 상태를 확인하고 표시된 지침을 따르세요
+     - 문제가 해결되었다면, 섹션 I 14단계로 가 주세요
+     - 더 많은 정보를 얻으려면, [문제 해결](troubleshooting-mset9) 페이지를 확인하세요
 2. `0`을 입력하고, Enter를 눌러 스크립트를 닫아주세요
 3. SD 카드를 콘솔에 다시 삽입해 주세요
 
@@ -115,32 +115,32 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 :::
 
 1. 콘솔의 전원을 켜고, 본체 설정이 선택되어 있는지 확인하세요
-    - 본체 설정이 선택되어 있지 않다면, 십자 패드를 이용해 본체 설정 앱을 **[띄워 놓고 (영어 사진)](/images/screenshots/mset9/hover-settings.png)**, 전원을 종료한 뒤, 다시 시도해 주세요
+   - 본체 설정이 선택되어 있지 않다면, 십자 패드를 이용해 본체 설정 앱을 **[띄워 놓고 (영어 사진)](/images/screenshots/mset9/hover-settings.png)**, 전원을 종료한 뒤, 다시 시도해 주세요
 2. (A)를 눌러 본체 설정을 실행해 주세요
 3. `데이터 관리` -> `Nintendo 3DS` -> `추가 데이터 관리`로 들어가주세요. ([영어 사진](/images/screenshots/mset9/settings-extdata.png))
 4. **절대 어떠한 버튼도 만지지 말고 스크린도 터치하지 마세요**
 5. **어떠한 버튼도 하단 화면도 건드리지 않은 상태에서, 기기의 전원이 여전히 켜진 상태에서** SD 카드를 기기에서 제거해 주세요
-    - The menu will refresh and say that no SD card is inserted, which is expected
+   - The menu will refresh and say that no SD card is inserted, which is expected
 6. SD 카드를 컴퓨터에 삽입해 주세요
 
 <!--@include: ./_include/mset9-chorus.md -->
 
 1. 콘솔의 모델과 버전을 입력한 다음 엔터키를 눌러주세요
 2. MSET9 화면에서, 숫자 `3`를 입력한 다음 엔터키를 눌러 MSET9을 주입해 주세요
-    - "MSET9 successfully injected!" 라는 메시지를 확인할 수 있을 것입니다
+   - "MSET9 successfully injected!" 라는 메시지를 확인할 수 있을 것입니다
 3. 엔터키를 눌러 MSET9 스크립트를 종료해 주세요
 4. **어떠한 버튼도 하단 화면도 건드리지 않은 상태에서** SD 카드를 콘솔에 삽입해 주세요
 5. 익스플로잇이 성공적이었다면 SafeB9SInstaller로 부팅되었을 것입니다
-    - 붉은 화면이 뜨거나 로딩 화면에서 멈출 경우, [다음 문제 해결 가이드](troubleshooting-mset9) 내용을 따라주세요
+   - If you get a red screen or the console gets stuck on a loading screen for more than 10 seconds, follow the [troubleshooting guide](troubleshooting-mset9)
 
 ### 섹션 III - boot9strap 설치하기
 
 이 섹션에서는, 커스텀 펌웨어를 설치할 것입니다.
 
 1. 메시지가 나타나면, boot9strap을 설치하기 위하여 화면에 주어진 키 조합을 입력해 주세요
-    - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
-    - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
-        - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
+   - If a step on the lower screen has red-colored text, and you are not prompted to input a key combo, [follow this troubleshooting guide](troubleshooting-mset9#sighaxed-firm-was-not-installed-check-lower-screen-for-more-info)
+   - If the top screen is blank **and** you see "Crypto Status - all checks passed" on the bottom screen, you will have to enter key combo blindly. Press the following buttons on your console in this order:
+     - D-Pad Left, D-Pad Down, D-Pad Right, D-Pad Up, A
 2. Once it is complete (all seven steps on the bottom screen are green), press (A) to reboot your console
 
 <!--@include: ./_include/configure-luma3ds.md -->
@@ -161,12 +161,12 @@ In this section, you will prepare the MSET9 exploit by **temporarily** creating 
 <!--@include: ./_include/mset9-chorus.md -->
 
 1. 콘솔의 모델과 버전을 입력한 다음 엔터키를 눌러주세요
-    - 현재 상태가 [Injected](/images/screenshots/mset9/mset9-injected.png)로 표시되어야 합니다
-    - If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ready.png), skip to Step 6
+   - 현재 상태가 [Injected](/images/screenshots/mset9/mset9-injected.png)로 표시되어야 합니다
+   - If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ready.png), skip to Step 6
 2. `4`를 누르고, Enter를 눌러 트리거 파일을 삭제해주세요
-    - "Removed trigger file"이라고 표시될 것입니다.
+   - "Removed trigger file"이라고 표시될 것입니다.
 3. `5`를 누르고, Enter를 눌러 MSET9을 삭제하세요
-    - "Successfully removed MSET9!"이라고 표시될 것입니다
+   - "Successfully removed MSET9!"이라고 표시될 것입니다
 4. 엔터키를 눌러 MSET9 스크립트를 종료해 주세요
 
 <!--@include: ./_include/luma3ds-installed-note.md -->

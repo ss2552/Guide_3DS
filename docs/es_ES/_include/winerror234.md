@@ -6,40 +6,40 @@ Esto ocurre debido al soporte beta de UTF-8 en Windows. Debes deshabilitarlo par
 
 1. Presiona **Windows + R** para abrir el cuadro de diálogo Ejecutar, escribe `intl.cpl` y luego haz clic en "Aceptar"
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/troubleshooting/234run.png)
+   ![](/images/screenshots/troubleshooting/234run.png)
 
-    :::
+   :::
 
 2. Haz clic en `Administrativo` y luego en `Cambiar configuración regional del sistema`
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/troubleshooting/234region.png)
+   ![](/images/screenshots/troubleshooting/234region.png)
 
-    :::
+   :::
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/troubleshooting/234administrative.png)
+   ![](/images/screenshots/troubleshooting/234administrative.png)
 
-    :::
+   :::
 
 3. Desmarca la casilla junto a `Beta: usar Unicode UTF-8 para compatibilidad con idiomas en todo el mundo` y luego haz clic en "Aceptar"
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/troubleshooting/234locale.png)
+   ![](/images/screenshots/troubleshooting/234locale.png)
 
-    :::
+   :::
 
 4. Haz clic en "Reiniciar ahora"
 
-    ::: info
+   ::: info
 
-    ![](/images/screenshots/troubleshooting/234restart.png)
+   ![](/images/screenshots/troubleshooting/234restart.png)
 
-    :::
+   :::
 
 Después de que tu PC se haya reiniciado, intenta crear el ID1 de MSET9 de nuevo.

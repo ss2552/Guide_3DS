@@ -168,7 +168,7 @@
 
 - Εάν έχετε ερωτήσεις που δεν έχουν απαντηθεί σε αυτήν τη σελίδα, ίσως βρείτε τις απαντήσεις στις [συχνές ερωτήσεις πριν από την εγκατάσταση](faq#pre-installation-faq).
 - Εάν αντιμετωπίσετε κάποιο πρόβλημα ενώ ακολουθείτε αυτόν τον οδηγό, μπορείτε να ελέγξετε τη σελίδα [Επίλυση προβλημάτων](troubleshooting) για κάποια λύση.
-- If the resources we've provided here aren't helping, you can get one-on-one support over at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+- Εάν οι πόροι που παρέχουμε εδώ δεν σας βοηθούν, μπορείτε να λάβετε προσωπική υποστήριξη στο [Nintendo Homebrew στο Discord](https://discord.gg/MWxPgEp).
 
 ::: tip
 

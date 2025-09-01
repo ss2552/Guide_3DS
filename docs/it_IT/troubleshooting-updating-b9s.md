@@ -1,6 +1,6 @@
 # Risoluzione dei problemi (Aggiornare B9S)
 
-Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Aggiornare B9S. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati nella pagina "Aggiornare B9S. Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord di Nintendo Homebrew](https://discord. g/MWxPgEp) e descrivi il tuo problema, indicando quello che hai già provato.
 
 ## Problemi con SafeB9SInstaller
 

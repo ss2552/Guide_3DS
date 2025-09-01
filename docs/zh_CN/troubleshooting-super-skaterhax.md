@@ -21,9 +21,9 @@ If the screen flashes colors then freezes/crashes:
 
 - Ensure that you have the correct copy of `arm11code.bin` and `browserhax_hblauncher_ropbin_payload.bin` for your console's version and region
 - Try resetting your browser data:
-    1. Launch the browser, then launch the browser settings
-    2. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")
-    3. Try the exploit again
+  1. Launch the browser, then launch the browser settings
+  2. Scroll to the bottom and select "Reset Save Data" (it may also be called "Initialize Save Data" or "Clear All Save Data")
+  3. Try the exploit again
 - Try changing the system language to something other than the current language
 
 :::
@@ -43,6 +43,12 @@ The file `arm11code.bin` is missing or misplaced. Make sure to copy the files of
 :::details An exception occured or "DLL_HEAP_INFORMATION" when pressing GO! GO!
 
 This likely indicates that you already have custom firmware. 你应该[检查一下](checking-for-cfw)。
+
+:::
+
+:::details Error 032-1035 when trying to view the skaterhax webpage
+
+Your Internet connection is blocking access to the skaterhax webpage. If possible, try a mobile hotspot. If you do not have another Internet connection available, follow [MSET9](installing-boot9strap-\(mset9\)) instead.
 
 :::
 

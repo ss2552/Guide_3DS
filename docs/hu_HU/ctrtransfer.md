@@ -24,11 +24,11 @@ A folyamat részeként a rendszer beállításaid visszaállításra kerülnek a
 - Az [ctrtransfer.gm9](https://raw.githubusercontent.com/nh-server/scripts/refs/heads/main/3DS/ctrtransfer.gm9) legfrissebb kiadása (jobb kattintás, Link mentése másként...)
 - A konzolodhoz és régiódhoz tartozó 11.15.0-s CTRTransfer képfájl
 
-    ::: warning
+  ::: warning
 
-    Egy torrent kliens használata, mint például a [qBittorrent](https://www.qbittorrent.org/download) vagy a [Deluge](https://deluge-torrent.org/download/) szükséges a CTRTransfer képfájlok letöltéséhez.
+  Egy torrent kliens használata, mint például a [qBittorrent](https://www.qbittorrent.org/download) vagy a [Deluge](https://deluge-torrent.org/download/) szükséges a CTRTransfer képfájlok letöltéséhez.
 
-    :::
+  :::
 
 <!--@include: ./_include/ctrtransfer-images.md -->
 

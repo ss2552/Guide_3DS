@@ -1,6 +1,6 @@
 # Hibaelhárítás (Telepítés véglegesítése)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Telepítés véglegesítése" oldalhoz. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Telepítés véglegesítése" oldalhoz. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
 
 ## Problémák a telepítés véglegesítésével
 
@@ -17,7 +17,7 @@ Az alábbi lépések tetszőleges sorrendben hajthatók végre, azonban a lista 
 7. Csatlakozz egy másik WiFi-hez, mint például egy hotspot
 8. A Nintendo szerverei lehet, hogy nem elérhetők; Próbáld később újra
 9. Ha még mindig hibát kapsz, kövesd a [CTRTransfer](ctrtransfer) című útmutatót, majd próbáld újra
-10. For further support (in English), join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+10. További segítségért (angol nyelven), fordulj ide: [Nintendo Homebrew a Discord-on](https://discord.gg/MWxPgEp)
 
 :::
 
@@ -35,7 +35,7 @@ A `finalize.romfs` rossz helyre került az SD kártya gyökere helyett. A szkrip
 
 :::details Error #24: SD is write-protected
 
-Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). Ha az SD kártyád nem zárolt, és továbbra is ezt a hibát kapod, csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 :::
 
@@ -76,7 +76,7 @@ Most, hogy már a NAND mentésed biztos helyen van:
 4. Válaszd a "Scripts..." opciót
 5. Válaszd az "finalize" opciót
 6. Folytasd a szkriptet normálisan
-    - A NAND mentés automatikusan átugrásra kerül
+   - A NAND mentés automatikusan átugrásra kerül
 
 :::
 
@@ -108,7 +108,7 @@ Ha van elég szabad hely az SD kártyádon, az SD kártya lehet sérült vagy hi
 
 :::details Error #12: Copy (file).db fail
 
-Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). If the SD card is not locked and you continue to get this error, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) for assistance.
+Ellenőrizd, hogy SD kártyád nem [zárolt-e](/images/sdlock.png). Ha az SD kártyád nem zárolt, és továbbra is ezt a hibát kapod, csatlakozz a [Nintendo Homebrew-hoz a Discord-on](https://discord.gg/MWxPgEp) segítségért.
 
 :::
 
@@ -121,7 +121,7 @@ A szkript úgy érzékelte, hogy a Nintendo 3DS mappa hiányzik ÉS már csinál
 3. Másold a `/gm9/backups` mappa tartalmát egy biztonságos helyre a számítógépeden
 4. Töröld a `/gm9/backups/` mappát az SD kártyádról
 5. Ha lemozgattad a Nintendo 3DS mappád az SD kártyádról, hogy eljuss ide, akkor másold vissza az SD kártyádra
-    - Ha nincs Nintendo 3DS mappád, akkor bootolj be a HOME menübe legalább egyszer behelyezett SD kártyával, hogy automatikusan létre jöjjön
+   - Ha nincs Nintendo 3DS mappád, akkor bootolj be a HOME menübe legalább egyszer behelyezett SD kártyával, hogy automatikusan létre jöjjön
 6. Nyomd le és tartsd nyomva a (Start) gombot, és a (Start) nyomva tartása mellett kapcsold be a konzolod. Ez elindítja a GodMode9-et
 7. Nyomd meg a (Home) gombot, hogy megjelenjen a műveleti menü
 8. Válaszd a "Scripts..." opciót

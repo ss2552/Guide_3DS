@@ -1,8 +1,8 @@
-1. Copy the following command:
-      ```
-      wget -O - https://imset9.686178.xyz | sh
-      ```
-    - Tap on the box above and a Copy icon should appear
-2. Open the iSH application
-3. Paste the above command by tapping [the paste button](/images/screenshots/mset9/ish-paste-button.png) at the top right corner of your keyboard, then tap Return to run the command
-4. Select your SD card in the Files popup, then tap "Open" at the top right corner of the popup
+1. Copia el siguiente comando:
+    ```
+    wget -O - https://imset9.686178.xyz | sh
+    ```
+   - Toca en el recuadro de arriba y debería aparecer un ícono para copiar
+2. Abre la aplicación iSH
+3. Pega el comando anterior tocando [la tecla para pegar](/images/screenshots/mset9/ish-paste-button.png) posicionado en la esquina superior derecha del teclado, y luego toca la tecla ENTER para ejecutar el comando
+4. Selecciona tu tarjeta SD en la ventana emergente del explorador de archivos y toca "Abrir" en la esquina superior derecha de la ventana.

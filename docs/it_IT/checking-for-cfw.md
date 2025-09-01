@@ -53,6 +53,6 @@ Se vedi GodMode9, Decrypt9WIP, Hourglass9, o Luma3ds chainloader, hai tenuto pre
 
 ::: danger
 
-If you see something not described by the above options, join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and ask, in English, for help.
+Se vedi qualcosa non descritto nelle opzioni sopra, entra nel [canale Discord di Nintendo Homebrew](https://discord.gg/MWxPgEp) e chiedi assistenza in Inglese.
 
 :::

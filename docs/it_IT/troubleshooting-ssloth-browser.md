@@ -1,6 +1,6 @@
 # Risoluzione dei problemi (SSLoth-Browser)
 
-Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati con la pagina "Installazione di boot9strap (SSLoth-Browser)", usata per le versioni di sistema comprese tra 11.4.0 e 11.13.0. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Questa pagina offre consigli per la risoluzione dei problemi comunemente riscontrati con la pagina "Installazione di boot9strap (SSLoth-Browser)", usata per le versioni di sistema comprese tra 11.4.0 e 11.13.0. Se non riesci a risolvere il tuo problema con i consigli su questa pagina, entra nel [canale Discord di Nintendo Homebrew](https://discord. g/MWxPgEp) e descrivi il tuo problema, indicando quello che hai già provato.
 
 ::: warning
 
@@ -70,7 +70,7 @@ Segui in ordine questi passaggi:
 4. Imposta "Impostazioni proxy" su "No"
 5. Fai clic su OK, quindi su Salva
 6. Quando richiesto, clicca su "Test" per eseguire il test di connessione
-    - Il test dovrebbe andare a buon fine
+   - Il test dovrebbe andare a buon fine
 7. Clicca "OK" per continuare
 8. Premi "Indietro" due volte, poi "Chiudi" per tornare al menu HOME
 9. Apri il Browser Internet una volta sola

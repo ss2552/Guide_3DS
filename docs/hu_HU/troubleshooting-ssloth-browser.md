@@ -1,6 +1,6 @@
 # Hibaelhárítás (SSLoth-Browser)
 
-Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (SSLoth-Browser)" oldalhoz, ami az 11.4.0 és 11.13.0 rendszer verziókon használt. If you are unable to solve your issue with the advice on this page, please join [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp) and describe your issue, including what you have already tried.
+Ez az oldal hibaelhárítási tanácsokat ad sűrűn előforduló problémákhoz a "Boot9strap telepítése (SSLoth-Browser)" oldalhoz, ami az 11.4.0 és 11.13.0 rendszer verziókon használt. Ha nem tudod megoldani a problémád az oldal tanácsai alapján, csatlakozz a [Nintendo Homebrew-hoz Discord-on](https://discord.gg/MWxPgEp) és írd le a problémádat és azt is hogy mi az amit már próbáltál.
 
 ::: warning
 
@@ -70,7 +70,7 @@ Kövesd az alábbi lépéseket:
 4. Állítsd a "Proxy Settings"-t "No"-ra
 5. Kattints az OK-ra, majd kattints a Save-re
 6. Amikor kérdezi, kattints a "Test"-re a kapcsolat ellenőrzéséhez
-    - A tesztnek sikeresnek kell lennie
+   - A tesztnek sikeresnek kell lennie
 7. Kattints az OK gombra a folytatáshoz
 8. Nyomj a "Back"-re kétszer, majd a "Close"-ra, hogy visszajuszz a HOME Menübe
 9. Nyisd meg az Internet Browser-t egyszer

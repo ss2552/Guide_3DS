@@ -21,9 +21,9 @@
 
 - `arm11code.bin`와 `browserhax_hblauncher_ropbin_payload.bin`이 기기의 버전과 지역에 맞게 정확하게 복사되었는지 확인해보세요
 - 브라우저 데이터 삭제를 시도해 보세요:
-    1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
-    2. 아래쪽으로 스크롤하여 "세이브 데이터 리셋"을 선택합니다("데이터 초기화" 또는 "모든 저장 데이터 지우기" 라고도 함).
-    3. 익스플로잇을 다시 시도해 주세요
+  1. 브라우저를 실행하고 브라우저 설정을 실행해 주세요
+  2. 아래쪽으로 스크롤하여 "세이브 데이터 리셋"을 선택합니다("데이터 초기화" 또는 "모든 저장 데이터 지우기" 라고도 함).
+  3. 익스플로잇을 다시 시도해 주세요
 - 시스템 언어를 현재 언어가 아닌 다른 언어로 변경해 보세요
 
 :::
@@ -43,6 +43,12 @@
 :::details "GO! GO!" 선택 시 "An exception occurred" 또는 "DLL_HEAP_INFORMATION" 오류 화면이 표시됩니다
 
 이미 커스텀 펌웨어가 설치되어 있을 수 있습니다. [CFW 확인](checking-for-cfw) 을 하는 것을 권장합니다.
+
+:::
+
+:::details Error 032-1035 when trying to view the skaterhax webpage
+
+Your Internet connection is blocking access to the skaterhax webpage. If possible, try a mobile hotspot. If you do not have another Internet connection available, follow [MSET9](installing-boot9strap-\(mset9\)) instead.
 
 :::
 

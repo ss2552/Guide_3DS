@@ -9,7 +9,7 @@ Este proceso borrará los personajes Mii guardados. Si deseas salvarlos, entonce
 1. Apaga tu consola
 2. Presiona y mánten (Start), y mientras mantienes (Start), enciende la consola. Esto abrirá GodMode9
 3. Ve a `[1:] SYSNAND CTRNAND` -> `data` -> `<ID0>` -> `sysdata`
-    - `<ID0>` será una carpeta con un nombre compuesto por 32 caracteres aleatorios
+   - `<ID0>` será una carpeta con un nombre compuesto por 32 caracteres aleatorios
 4. Utiliza la cruz de control para seleccionar `00010017`
 5. Presiona (R) y (A) juntos para mostrar las opciones de carpeta
 6. Seleciona "Copy to 0:/gm9/out"

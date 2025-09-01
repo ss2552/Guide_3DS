@@ -21,9 +21,9 @@ Se a tela piscar com cores e então congelar/ter um crash:
 
 - Certifique-se que você tenha as cópias corretas de `arm11code.bin` e `browserhax_hblauncher_ropbin_payload.bin` para a versão e região de seu console
 - Tente redefinir os dados do seu navegador:
-    1. Inicie o navegador, então abra as configurações do navegador
-    2. Role até o final e selecione "Reinicializar Dados Salvos" (também pode ser chamado de "Inicializar Dados Salvos" ou "Limpar Todos os Dados Salvos")
-    3. Tente o exploit novamente
+  1. Inicie o navegador, então abra as configurações do navegador
+  2. Role até o final e selecione "Reinicializar Dados Salvos" (também pode ser chamado de "Inicializar Dados Salvos" ou "Limpar Todos os Dados Salvos")
+  3. Tente o exploit novamente
 - Tente alterar o idioma do sistema para um idioma diferente do atual
 
 :::
@@ -43,6 +43,12 @@ O arquivo `arm11code.bin` está faltando ou fora do lugar apropriado. Certifique
 :::details An exception occured ou "DLL_HEAP_INFORMATION" ao apertar GO! GO!
 
 Isso provavelmente indica que você já possui custom firmware. Você deve [checar por CFW](checking-for-cfw).
+
+:::
+
+:::details Error 032-1035 when trying to view the skaterhax webpage
+
+Your Internet connection is blocking access to the skaterhax webpage. If possible, try a mobile hotspot. If you do not have another Internet connection available, follow [MSET9](installing-boot9strap-\(mset9\)) instead.
 
 :::
 
