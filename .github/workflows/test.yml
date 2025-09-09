@@ -1,7 +1,7 @@
 name: Test site build
 
 on:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   doc-test:
@@ -24,3 +24,7 @@ jobs:
 
       - name: Build site
         run: npm run docs:build
+        
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
