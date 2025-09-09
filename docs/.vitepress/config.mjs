@@ -20,6 +20,7 @@ export default defineConfig({
   ],
   locales: {
     root: i18n.en_US,
+    ja_JP: i18n.ja_JP,
     el_GR: i18n.el_GR,
     hu_HU: i18n.hu_HU,
     it_IT: i18n.it_IT,
